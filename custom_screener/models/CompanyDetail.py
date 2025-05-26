@@ -1,7 +1,9 @@
+from dataclasses import dataclass
 from typing import List
 from models.CompanyMetadata import CompanyMetadata
 from models.CompanyResult import CompanyResult
 
+@dataclass
 class CompanyDetail:
     def __init__(
         self,

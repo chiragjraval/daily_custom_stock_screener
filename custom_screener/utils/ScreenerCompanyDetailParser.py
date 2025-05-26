@@ -4,13 +4,16 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from typing import List
 from models.CompanyMetadata import CompanyMetadata
-from models.CompanyResult import CompanyResult, SCRENEER_HEADER_TO_ATTR_MAP
+from models.CompanyResult import CompanyResult
 from models.CompanyDetail import CompanyDetail
+from Constants import SCRENEER_HEADER_TO_ATTR_MAP
 
 def safe_float(value):
     try:
-        return float(value.replace(',', '').replace('%', '').strip() or '0')
-    except Exception:
+        cleaned = value.replace(',', '').replace('%', '').strip()
+        return float(cleaned) if cleaned not in ['', '--', 'N/A', None] else 0.0
+    except Exception as e:
+        print(f"safe_float error for value '{value}': {e}")
         return 0.0
 
 def extract_quarterly_results(soup: BeautifulSoup) -> tuple[CompanyResult, List[CompanyResult]]:
@@ -36,19 +39,18 @@ def extract_quarterly_results(soup: BeautifulSoup) -> tuple[CompanyResult, List[
     # Extract rows
     rows = table.find_all('tr')[1:]
 
+    # Create CompanyResult object for latest quarterly result
+    latest_quarterly_result = CompanyResult()
+    # Create a list of CompanyResult objects for past quarterly results
+    # The length of the list is len(cells) - 2 because the first cell is the attribute name
+    past_quarterly_results = [CompanyResult() for _ in range(len(rows[0].find_all('td')) - 2)] if rows else []
+
     # First cell contians the name of the attribute like "Sales", "Expenses" etc.
     # The rest of the cells contain the values for each quarter
     # Last cell contains the value of latest quarter
     # Populate latest_quarterly_result and past_quarterly_results using SCRENEER_HEADER_TO_ATTR_MAP
     for row in rows:
         cells = row.find_all('td')
-    
-        # Create CompanyResult object for latest quarterly result
-        latest_quarterly_result = CompanyResult()
-        
-        # Create a list of CompanyResult objects for past quarterly results
-        # The length of the list is len(cells) - 2 because the first cell is the attribute name
-        past_quarterly_results = [CompanyResult() for _ in range(len(cells) - 2)]
 
         if len(cells) > 1:
             # The first cell contains the name of the attribute
@@ -94,19 +96,19 @@ def extract_yearly_results(soup: BeautifulSoup) -> tuple[CompanyResult, List[Com
     # Extract rows
     rows = table.find_all('tr')[1:]
 
+    # Create CompanyResult object for latest quarterly result
+    ttm_yearly_result = CompanyResult()
+    
+    # Create a list of CompanyResult objects for past quarterly results
+    # The length of the list is len(cells) - 2 because the first cell is the attribute name
+    past_yearly_results = [CompanyResult() for _ in range(len(rows[0].find_all('td')) - 2)] if rows else []
+
     # First cell contians the name of the attribute like "Sales", "Expenses" etc.
     # The rest of the cells contain the values for each quarter
     # Last cell contains the value of latest quarter
     # Populate latest_quarterly_result and past_quarterly_results using SCRENEER_HEADER_TO_ATTR_MAP
     for row in rows:
         cells = row.find_all('td')
-
-        # Create CompanyResult object for latest quarterly result
-        ttm_yearly_result = CompanyResult()
-        
-        # Create a list of CompanyResult objects for past quarterly results
-        # The length of the list is len(cells) - 2 because the first cell is the attribute name
-        past_yearly_results = [CompanyResult() for _ in range(len(cells) - 2)]
         
         if len(cells) > 1:
             # The first cell contains the name of the attribute
@@ -137,6 +139,9 @@ def parse_company_detail(metadata: CompanyMetadata) -> CompanyDetail:
     Returns:
         CompanyDetail: A CompanyDetail object containing detailed financial results.
     """
+    # print the metadata for debugging
+    print(f"Parsing company metadata: {metadata}")
+
     # Fetch the HTML content
     company_url = metadata.screener_company_link
     response = requests.get(company_url)    

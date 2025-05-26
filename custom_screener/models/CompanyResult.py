@@ -1,19 +1,6 @@
-# Mapping of human readable names to attribute names
-SCRENEER_HEADER_TO_ATTR_MAP = {
-    "Sales": "sales",
-    "Expenses": "expenses",
-    "Operating Profit": "operating_profit",
-    "OPM %": "opm_percent",
-    "Other Income": "other_income",
-    "Interest": "interest",
-    "Depreciation": "depreciation",
-    "Profit before tax": "profit_before_tax",
-    "Tax %": "tax_percent",
-    "Net Profit": "net_profit",
-    "EPS in Rs": "eps_in_rs",
-    "Dividend Payout %": "dividend_payout_percent"
-}
+from dataclasses import dataclass
 
+@dataclass
 class CompanyResult:
     def __init__(
         self,
@@ -42,4 +29,12 @@ class CompanyResult:
         self.net_profit = net_profit
         self.eps_in_rs = eps_in_rs
         self.dividend_payout_percent = dividend_payout_percent
+
+    def __repr__(self):
+        return (f"CompanyResult(sales={self.sales!r}, expenses={self.expenses!r}, "
+                f"operating_profit={self.operating_profit!r}, opm_percent={self.opm_percent!r}, "
+                f"other_income={self.other_income!r}, interest={self.interest!r}, "
+                f"depreciation={self.depreciation!r}, profit_before_tax={self.profit_before_tax!r}, "
+                f"tax_percent={self.tax_percent!r}, net_profit={self.net_profit!r}, "
+                f"eps_in_rs={self.eps_in_rs!r}, dividend_payout_percent={self.dividend_payout_percent!r})")
 

@@ -4,7 +4,6 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from typing import List
 from models.CompanyMetadata import CompanyMetadata
-from Constants import SCREENER_BASE_URL
 
 def extract_total_page_num(screener_link: str) -> int:
     """
@@ -67,6 +66,7 @@ def parse_page_num(screener_link: str, page_num: int) -> List[CompanyMetadata]:
         # Get the value of data-row-company-id attribute
         data_row_company_id = row.get('data-row-company-id')
         cols = []
+        
         for col in row.find_all('td'):
             # Check if the column contains an <a> tag
             link = col.find('a')
@@ -74,17 +74,21 @@ def parse_page_num(screener_link: str, page_num: int) -> List[CompanyMetadata]:
                 # Extract both text and hyperlink
                 href_split = link['href'].split('/')
                 company_code = href_split[2] if len(href_split) > 1 else None
-                cols.append((link.text.strip(), SCREENER_BASE_URL + link['href'], company_code, data_row_company_id))
+                cols.append((data_row_company_id, company_code, link.text.strip()))
             else:
                 cols.append(col.text.strip())
-        data.append(cols)
+        
+        # Append only if cols is not empty
+        if cols:
+            data.append(cols)
+        
 
     # Create a DataFrame
     df = pd.DataFrame(data, columns=headers)
 
     # If "Name" column contains tuples, split them into separate columns
     if 'Name' in df.columns:
-        df[['Company_Name', 'Company_Link', 'Company_Code', 'Company_Id']] = pd.DataFrame(df['Name'].tolist(), index=df.index)
+        df[['Company_Id', 'Company_Code', 'Company_Name']] = pd.DataFrame(df['Name'].tolist(), index=df.index)
         df.drop(columns=['Name'], inplace=True)
 
     # Extract the company metadata
@@ -93,9 +97,8 @@ def parse_page_num(screener_link: str, page_num: int) -> List[CompanyMetadata]:
     for _, row in df.iterrows():
         company = CompanyMetadata(
             screener_company_id=row.get('Company_Id'),
-            screener_company_link=row.get('Company_Link'),
-            company_name=row.get('Company_Name'),
-            company_code=row.get('Company_Code')
+            company_code=row.get('Company_Code'),
+            company_name=row.get('Company_Name')
         )
         company_list.append(company)
     return company_list

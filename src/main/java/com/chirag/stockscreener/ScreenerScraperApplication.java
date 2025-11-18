@@ -25,10 +25,10 @@ public class ScreenerScraperApplication {
     private static final String SCREENER_LINK =
             "https://www.screener.in/screens/2618573/companies-with-growth-salesprofitmargin";
 
-    private static final String OUTPUT_DIRECTORY = "daily-stock-screener/src/main/resources/screener-data";
+    private static final String OUTPUT_DIRECTORY = "src/main/resources/screener-data";
 
     private static final boolean ENABLE_GIT_COMMIT = true;
-    private static final String GIT_FILE_PATTERN = "daily-stock-screener/src/main/resources/screener-data/";
+    private static final String GIT_FILE_PATTERN = "src/main/resources/screener-data/";
 
     public static void main(String[] args) {
         logger.info("Starting Screener.in Data Scraper Application");

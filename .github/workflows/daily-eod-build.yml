@@ -13,6 +13,9 @@ on:
     - cron: '0 18 * * *'  # Runs daily at 11:30 PM IST (18:00 UTC)
   workflow_dispatch:      # Allows manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   build:
 

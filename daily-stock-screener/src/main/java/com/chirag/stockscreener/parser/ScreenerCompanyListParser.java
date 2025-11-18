@@ -83,7 +83,7 @@ public class ScreenerCompanyListParser {
 
                 // Be respectful to the server - add delay between requests
                 try {
-                    Thread.sleep(5000);
+                    Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
                     break;
@@ -157,7 +157,7 @@ public class ScreenerCompanyListParser {
      * @return Company code (ticker symbol)
      */
     private static String extractCompanyCode(String href) {
-        Pattern pattern = Pattern.compile("/company/([A-Z0-9]+)");
+        Pattern pattern = Pattern.compile("/company/([^/]+)");
         Matcher matcher = pattern.matcher(href);
         if (matcher.find()) {
             return matcher.group(1);
@@ -173,8 +173,8 @@ public class ScreenerCompanyListParser {
      */
     private static String extractScreenerCompanyId(Element row, String companyCode) {
         // Try to extract from data attributes or generate based on company code
-        String dataId = row.attr("data-company-id");
-        if (dataId != null && !dataId.isEmpty()) {
+        String dataId = row.attr("data-row-company-id");
+        if (!dataId.isEmpty()) {
             return dataId;
         }
         // Fallback: use company code as ID

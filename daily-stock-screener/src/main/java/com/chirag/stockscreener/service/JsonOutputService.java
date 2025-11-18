@@ -7,11 +7,12 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.File;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -42,13 +43,18 @@ public class JsonOutputService {
             // Write individual company files
             int successCount = 0;
             for (CompanyResult company : companies) {
-                try {
-                    String fileName = company.getMetadata().getCompanyCode() + ".json";
-                    Path filePath = outputPath.resolve(fileName);
+                String fileName = company.getMetadata().getCompanyCode() + ".json";
+                Path filePath = outputPath.resolve(fileName);
 
-                    objectMapper.writeValue(filePath.toFile(), company);
+                try (java.io.BufferedWriter writer = Files.newBufferedWriter(
+                        filePath,
+                        StandardCharsets.UTF_8,
+                        StandardOpenOption.CREATE,
+                        StandardOpenOption.WRITE,
+                        StandardOpenOption.TRUNCATE_EXISTING)) {
+                    objectMapper.writeValue(writer, company);
                     successCount++;
-                    logger.debug("Written company JSON: {}", fileName);
+                    logger.info("Written company JSON: {}", fileName);
                 } catch (Exception e) {
                     logger.error("Error writing company result to JSON", e);
                 }
@@ -77,7 +83,13 @@ public class JsonOutputService {
             );
 
             Path summaryPath = outputPath.resolve("summary.json");
-            objectMapper.writeValue(summaryPath.toFile(), summary);
+            try (java.io.BufferedWriter writer = java.nio.file.Files.newBufferedWriter(
+                    summaryPath,
+                    java.nio.charset.StandardCharsets.UTF_8,
+                    java.nio.file.StandardOpenOption.CREATE,
+                    java.nio.file.StandardOpenOption.TRUNCATE_EXISTING)) {
+                objectMapper.writeValue(writer, summary);
+            }
             logger.info("Written summary file: {}", summaryPath.toAbsolutePath());
         } catch (IOException e) {
             logger.error("Error writing summary file", e);

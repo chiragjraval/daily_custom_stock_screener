@@ -4,6 +4,9 @@ import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.lib.Repository;
 import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
+import org.eclipse.jgit.transport.CredentialsProvider;
+import org.eclipse.jgit.transport.URIish;
+import org.eclipse.jgit.transport.UsernamePasswordCredentialsProvider;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -26,15 +29,15 @@ public class GitService {
      * @param filePattern File pattern to add (e.g., "screener-data/*")
      * @return true if commit was successful, false otherwise
      */
-    public static boolean commitChanges(String repositoryPath, String filePattern) {
+    public static boolean commitAndPushChanges(String repositoryPath, String filePattern) {
         try {
             FileRepositoryBuilder builder = new FileRepositoryBuilder();
-            Repository repository = builder.setGitDir(new File(repositoryPath, ".git"))
+
+            try (Repository repository = builder.setGitDir(new File(repositoryPath, ".git"))
                     .readEnvironment()
                     .findGitDir()
-                    .build();
+                    .build(); Git git = new Git(repository)) {
 
-            try (Git git = new Git(repository)) {
                 // Add files matching pattern
                 git.add()
                         .addFilepattern(filePattern)
@@ -51,14 +54,15 @@ public class GitService {
                             .setMessage(commitMessage)
                             .call();
 
+                    git.push()
+                            .setCredentialsProvider(getGitToken())
+                            .call();
+
                     logger.info("Committed changes with message: {}", commitMessage);
-                    return true;
                 } else {
                     logger.info("No changes to commit");
-                    return true;
                 }
-            } finally {
-                repository.close();
+                return true;
             }
         } catch (IOException e) {
             logger.error("IO error during Git operations", e);
@@ -70,6 +74,28 @@ public class GitService {
             logger.error("Unexpected error during Git operations", e);
             return false;
         }
+    }
+
+    private static CredentialsProvider getGitToken() {
+        // Prefer GitHub Actions token
+        String githubToken = System.getenv("GITHUB_TOKEN");
+        if (githubToken != null && !githubToken.isBlank()) {
+            String actor = System.getenv("GITHUB_ACTOR");
+            if (actor == null || actor.isBlank()) {
+                actor = "x-access-token";
+            }
+            return new UsernamePasswordCredentialsProvider(actor, githubToken);
+        }
+
+        // Fallback to explicit username/password env vars for local use
+        String user = System.getenv("GIT_USERNAME");
+        String pass = System.getenv("GIT_PASSWORD");
+        if (user != null && !user.isBlank() && pass != null && !pass.isBlank()) {
+            return new UsernamePasswordCredentialsProvider(user, pass);
+        }
+
+        // No credentials provided; caller will try unauthenticated push (SSH or credential helper may succeed)
+        return null;
     }
 
     /**

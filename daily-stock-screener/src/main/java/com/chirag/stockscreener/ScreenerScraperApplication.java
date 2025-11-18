@@ -10,8 +10,6 @@ import com.chirag.stockscreener.service.JsonOutputService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.File;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,12 +23,12 @@ public class ScreenerScraperApplication {
 
     // Configuration
     private static final String SCREENER_LINK =
-            "https://www.screener.in/screens/2618573/companies-with-growth-salesprofitmargin/";
+            "https://www.screener.in/screens/2618573/companies-with-growth-salesprofitmargin";
 
-    private static final String OUTPUT_DIRECTORY = "src/main/resources/screener-data";
+    private static final String OUTPUT_DIRECTORY = "daily-stock-screener/src/main/resources/screener-data";
 
     private static final boolean ENABLE_GIT_COMMIT = true;
-    private static final String GIT_FILE_PATTERN = "src/main/resources/screener-data/*";
+    private static final String GIT_FILE_PATTERN = "daily-stock-screener/src/main/resources/screener-data/*";
 
     public static void main(String[] args) {
         logger.info("Starting Screener.in Data Scraper Application");
@@ -65,7 +63,7 @@ public class ScreenerScraperApplication {
                     results.add(result);
 
                     // Add delay between requests to be respectful to the server
-                    Thread.sleep(500);
+                    Thread.sleep(1000);
 
                 } catch (Exception e) {
                     logger.error("Error processing company: {}", metadata.getCompanyCode(), e);
@@ -81,7 +79,7 @@ public class ScreenerScraperApplication {
             // Step 4: Commit changes if enabled and repository exists
             if (ENABLE_GIT_COMMIT && GitService.isGitRepository(".")) {
                 logger.info("Step 4: Committing changes to Git repository...");
-                boolean commitSuccess = GitService.commitChanges(".", GIT_FILE_PATTERN);
+                boolean commitSuccess = GitService.commitAndPushChanges(".", GIT_FILE_PATTERN);
                 if (commitSuccess) {
                     logger.info("Successfully committed changes to Git repository");
                 } else {
@@ -96,7 +94,6 @@ public class ScreenerScraperApplication {
 
         } catch (Exception e) {
             logger.error("Fatal error in scraper application", e);
-            e.printStackTrace();
             System.exit(1);
         }
     }

@@ -13,26 +13,11 @@ public class CompanyDetail {
     @JsonProperty("company_name")
     private String companyName;
 
-    @JsonProperty("industry")
-    private String industry;
-
     @JsonProperty("market_cap")
     private String marketCap;
 
     @JsonProperty("pe_ratio")
     private String peRatio;
-
-    @JsonProperty("pb_ratio")
-    private String pbRatio;
-
-    @JsonProperty("dividend_yield")
-    private String dividendYield;
-
-    @JsonProperty("debt_to_equity")
-    private String debtToEquity;
-
-    @JsonProperty("roe")
-    private String roe;
 
     @JsonProperty("description")
     private String description;
@@ -58,14 +43,6 @@ public class CompanyDetail {
         this.companyName = companyName;
     }
 
-    public String getIndustry() {
-        return industry;
-    }
-
-    public void setIndustry(String industry) {
-        this.industry = industry;
-    }
-
     public String getMarketCap() {
         return marketCap;
     }
@@ -82,38 +59,6 @@ public class CompanyDetail {
         this.peRatio = peRatio;
     }
 
-    public String getPbRatio() {
-        return pbRatio;
-    }
-
-    public void setPbRatio(String pbRatio) {
-        this.pbRatio = pbRatio;
-    }
-
-    public String getDividendYield() {
-        return dividendYield;
-    }
-
-    public void setDividendYield(String dividendYield) {
-        this.dividendYield = dividendYield;
-    }
-
-    public String getDebtToEquity() {
-        return debtToEquity;
-    }
-
-    public void setDebtToEquity(String debtToEquity) {
-        this.debtToEquity = debtToEquity;
-    }
-
-    public String getRoe() {
-        return roe;
-    }
-
-    public void setRoe(String roe) {
-        this.roe = roe;
-    }
-
     public String getDescription() {
         return description;
     }
@@ -127,13 +72,8 @@ public class CompanyDetail {
         return "CompanyDetail{" +
                 "companyCode='" + companyCode + '\'' +
                 ", companyName='" + companyName + '\'' +
-                ", industry='" + industry + '\'' +
                 ", marketCap='" + marketCap + '\'' +
                 ", peRatio='" + peRatio + '\'' +
-                ", pbRatio='" + pbRatio + '\'' +
-                ", dividendYield='" + dividendYield + '\'' +
-                ", debtToEquity='" + debtToEquity + '\'' +
-                ", roe='" + roe + '\'' +
                 ", description='" + description + '\'' +
                 '}';
     }

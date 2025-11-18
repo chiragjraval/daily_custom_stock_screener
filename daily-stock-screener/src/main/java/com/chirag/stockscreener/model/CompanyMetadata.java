@@ -22,9 +22,8 @@ public class CompanyMetadata {
     @JsonProperty("screener_price_history_link")
     private String screenerPriceHistoryLink;
 
-    // Constructors
-    public CompanyMetadata() {
-    }
+    @JsonProperty("screener_quarterly_results_link")
+    private String screenerQuarterlyResultsLink;
 
     public CompanyMetadata(String screenerCompanyId, String companyCode, String companyName) {
         this.screenerCompanyId = screenerCompanyId;
@@ -33,6 +32,8 @@ public class CompanyMetadata {
         this.screenerCompanyLink = "https://www.screener.in/company/" + companyCode;
         this.screenerPriceHistoryLink = "https://www.screener.in/api/company/" + screenerCompanyId +
                                         "/chart/?q=Price-DMA50-DMA200-Volume&days=365";
+        this.screenerQuarterlyResultsLink = "https://www.screener.in/api/company/" + screenerCompanyId +
+                                            "/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000";
     }
 
     // Getters and Setters
@@ -76,6 +77,14 @@ public class CompanyMetadata {
         this.screenerPriceHistoryLink = screenerPriceHistoryLink;
     }
 
+    public String getScreenerQuarterlyResultsLink() {
+        return screenerQuarterlyResultsLink;
+    }
+
+    public void setScreenerQuarterlyResultsLink(String screenerQuarterlyResultsLink) {
+        this.screenerQuarterlyResultsLink = screenerQuarterlyResultsLink;
+    }
+
     @Override
     public String toString() {
         return "CompanyMetadata{" +
@@ -84,6 +93,7 @@ public class CompanyMetadata {
                 ", companyName='" + companyName + '\'' +
                 ", screenerCompanyLink='" + screenerCompanyLink + '\'' +
                 ", screenerPriceHistoryLink='" + screenerPriceHistoryLink + '\'' +
+                ", screenerQuarterlyResultsLink='" + screenerQuarterlyResultsLink + '\'' +
                 '}';
     }
 }

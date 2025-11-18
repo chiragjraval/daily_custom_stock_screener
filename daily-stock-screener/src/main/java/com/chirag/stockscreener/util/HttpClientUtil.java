@@ -25,7 +25,7 @@ public class HttpClientUtil {
             "(KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36";
     private static final int MAX_RETRIES = 5;
     // initial backoff delay (4 seconds)
-    private static final long INITIAL_BACKOFF_MS = 4_000L;
+    private static final long INITIAL_BACKOFF_MS = 2_000L;
     // optional cap to avoid unbounded delays
     private static final long MAX_BACKOFF_MS = 60_000L;
 

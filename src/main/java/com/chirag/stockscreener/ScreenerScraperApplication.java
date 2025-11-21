@@ -1,15 +1,20 @@
 package com.chirag.stockscreener;
 
+import com.chirag.stockscreener.context.ExecutionContext;
+import com.chirag.stockscreener.context.ExecutionContextImpl;
+import com.chirag.stockscreener.extractor.company.ScreenerCompanyDetailsExtractor;
+import com.chirag.stockscreener.extractor.query.ScreenerQueryResultsExtractor;
 import com.chirag.stockscreener.model.CompanyDetail;
 import com.chirag.stockscreener.model.CompanyMetadata;
 import com.chirag.stockscreener.model.CompanyResult;
-import com.chirag.stockscreener.parser.ScreenerCompanyDetailParser;
-import com.chirag.stockscreener.parser.ScreenerCompanyListParser;
 import com.chirag.stockscreener.service.GitService;
 import com.chirag.stockscreener.service.JsonOutputService;
+import com.chirag.stockscreener.util.HttpClientUtil;
+import org.apache.commons.cli.ParseException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,66 +25,54 @@ import java.util.List;
 public class ScreenerScraperApplication {
 
     private static final Logger logger = LoggerFactory.getLogger(ScreenerScraperApplication.class);
-
-    // Configuration
-    private static final String SCREENER_LINK =
-            "https://www.screener.in/screens/2618573/companies-with-growth-salesprofitmargin";
-
-    private static final String OUTPUT_DIRECTORY = "src/main/resources/screener-data";
-
-    private static final boolean ENABLE_GIT_COMMIT = true;
-    private static final String GIT_FILE_PATTERN = "src/main/resources/screener-data/";
+    private static final HttpClientUtil httpClientUtil = new HttpClientUtil(5, 2000, 60000);
 
     public static void main(String[] args) {
         logger.info("Starting Screener.in Data Scraper Application");
-        logger.info("Screener Link: {}", SCREENER_LINK);
-        logger.info("Output Directory: {}", OUTPUT_DIRECTORY);
+        ExecutionContext executionContext;
+
+        try {
+            executionContext = new ExecutionContextImpl(args);
+            logger.info("ExecutionContext = {}", executionContext);
+        }
+        catch (ParseException | IOException e) {
+            logger.error("Error initializing execution context", e);
+            System.exit(1);
+            return;
+        }
+
+        ScreenerQueryResultsExtractor queryResultsExtractor = new ScreenerQueryResultsExtractor(executionContext, httpClientUtil);
+        ScreenerCompanyDetailsExtractor companyDetailsExtractor = new ScreenerCompanyDetailsExtractor(httpClientUtil);
 
         try {
             // Step 1: Parse screener list to get company metadata
             logger.info("Step 1: Fetching company list from screener...");
-            List<CompanyMetadata> companiesList = ScreenerCompanyListParser.parseScreenerLink(SCREENER_LINK);
+            ScreenerQueryResultsExtractor.ScreenerQueryResults queryResults = queryResultsExtractor.apply(executionContext.getScreenerQueryLink());
 
-            if (companiesList.isEmpty()) {
+            if (queryResults.companyMetadataMap().isEmpty()) {
                 logger.warn("No companies found in screener list");
-                System.exit(1);
+                System.exit(0);
             }
 
-            logger.info("Found {} companies in screener list", companiesList.size());
+            logger.info("Found {} companies in screener list", queryResults.companyMetadataMap().size());
 
             // Step 2: Fetch detailed information for each company
             logger.info("Step 2: Fetching detailed information for each company...");
-            List<CompanyResult> results = new ArrayList<>();
-
-            for (CompanyMetadata metadata : companiesList) {
-                try {
-                    logger.debug("Processing company: {}", metadata.getCompanyCode());
-
-                    // Fetch company detail
-                    CompanyDetail detail = ScreenerCompanyDetailParser.parseCompanyDetail(metadata);
-
-                    // Create result object
-                    CompanyResult result = new CompanyResult(metadata, detail, new ArrayList<>());
-                    results.add(result);
-
-                    // Add delay between requests to be respectful to the server
-                    Thread.sleep(1000);
-
-                } catch (Exception e) {
-                    logger.error("Error processing company: {}", metadata.getCompanyCode(), e);
-                }
-            }
-
+            List<CompanyResult> results = queryResults.companyMetadataMap().keySet().stream().sorted().map(companyCode -> {
+                CompanyMetadata metadata = queryResults.companyMetadataMap().get(companyCode);
+                CompanyDetail detail = companyDetailsExtractor.apply(metadata);
+                return new CompanyResult(metadata, detail, new ArrayList<>());
+            }).toList();
             logger.info("Successfully processed {} companies", results.size());
 
             // Step 3: Output results to JSON files
             logger.info("Step 3: Writing results to JSON files...");
-            JsonOutputService.outputToJson(results, OUTPUT_DIRECTORY);
+            JsonOutputService.outputToJson(results, executionContext.getOutputDirectory());
 
             // Step 4: Commit changes if enabled and repository exists
-            if (ENABLE_GIT_COMMIT && GitService.isGitRepository(".")) {
+            if (executionContext.isGitCommitEnabled() && GitService.isGitRepository(".")) {
                 logger.info("Step 4: Committing changes to Git repository...");
-                boolean commitSuccess = GitService.commitAndPushChanges(".", GIT_FILE_PATTERN);
+                boolean commitSuccess = GitService.commitAndPushChanges(".", executionContext.getGitFilePattern());
                 if (commitSuccess) {
                     logger.info("Successfully committed changes to Git repository");
                 } else {

@@ -14,10 +14,10 @@ public class CompanyDetail {
     private String companyName;
 
     @JsonProperty("market_cap")
-    private String marketCap;
+    private Double marketCap;
 
     @JsonProperty("pe_ratio")
-    private String peRatio;
+    private Double peRatio;
 
     @JsonProperty("description")
     private String description;
@@ -43,19 +43,19 @@ public class CompanyDetail {
         this.companyName = companyName;
     }
 
-    public String getMarketCap() {
+    public Double getMarketCap() {
         return marketCap;
     }
 
-    public void setMarketCap(String marketCap) {
+    public void setMarketCap(Double marketCap) {
         this.marketCap = marketCap;
     }
 
-    public String getPeRatio() {
+    public Double getPeRatio() {
         return peRatio;
     }
 
-    public void setPeRatio(String peRatio) {
+    public void setPeRatio(Double peRatio) {
         this.peRatio = peRatio;
     }
 

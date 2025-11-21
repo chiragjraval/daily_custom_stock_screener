@@ -35,7 +35,8 @@ public class JsonOutputService {
      */
     public static void outputToJson(List<CompanyResult> companies, String outputDirectory) {
         try {
-            Path outputPath = Paths.get(outputDirectory);
+            String detailsOutputDirectory = outputDirectory + "/details";
+            Path outputPath = Paths.get(detailsOutputDirectory);
             Files.createDirectories(outputPath);
 
             logger.info("Output directory created/exists: {}", outputPath.toAbsolutePath());
@@ -61,7 +62,7 @@ public class JsonOutputService {
             }
 
             // Write summary file
-            writeSummaryFile(companies, outputPath);
+            writeSummaryFile(companies, outputDirectory);
 
             logger.info("Successfully output {} company files to {}", successCount, outputPath.toAbsolutePath());
         } catch (IOException e) {
@@ -72,10 +73,12 @@ public class JsonOutputService {
     /**
      * Write a summary file with all company metadata
      * @param companies List of CompanyResult
-     * @param outputPath Output directory path
+     * @param outputDirectory Output directory path
      */
-    private static void writeSummaryFile(List<CompanyResult> companies, Path outputPath) {
+    private static void writeSummaryFile(List<CompanyResult> companies, String outputDirectory) {
         try {
+            Path outputPath = Paths.get(outputDirectory);
+
             SummaryData summary = new SummaryData(
                     companies.size(),
                     LocalDateTime.now().format(DateTimeFormatter.ISO_LOCAL_DATE_TIME),

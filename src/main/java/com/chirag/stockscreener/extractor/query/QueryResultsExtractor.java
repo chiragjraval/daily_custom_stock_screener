@@ -16,11 +16,11 @@ import java.util.function.Function;
 /**
  * Extractor for screener query results including total results and company metadata
  */
-public class ScreenerQueryResultsExtractor implements Function<String, ScreenerQueryResultsExtractor.ScreenerQueryResults> {
+public class QueryResultsExtractor implements Function<String, QueryResultsExtractor.QueryResults> {
 
-    private static final Logger logger = LoggerFactory.getLogger(ScreenerQueryResultsExtractor.class);
+    private static final Logger logger = LoggerFactory.getLogger(QueryResultsExtractor.class);
 
-    public record ScreenerQueryResults(TotalResultsMetadataExtractor.TotalResults totalResults, Map<String, CompanyMetadata> companyMetadataMap) {
+    public record QueryResults(TotalResultsMetadataExtractor.TotalResults totalResults, Map<String, CompanyMetadata> companyMetadataMap) {
     }
 
     private final ExecutionContext executionContext;
@@ -28,7 +28,7 @@ public class ScreenerQueryResultsExtractor implements Function<String, ScreenerQ
     private final TotalResultsMetadataExtractor totalResultsMetadataExtractor;
     private final CompanyMetadataExtractor companyMetadataExtractor;
 
-    public ScreenerQueryResultsExtractor(ExecutionContext executionContext, HttpClientUtil httpClientUtil) {
+    public QueryResultsExtractor(ExecutionContext executionContext, HttpClientUtil httpClientUtil) {
         this.executionContext = executionContext;
         this.httpClientUtil = httpClientUtil;
         this.totalResultsMetadataExtractor = new TotalResultsMetadataExtractor();
@@ -38,10 +38,10 @@ public class ScreenerQueryResultsExtractor implements Function<String, ScreenerQ
     /**
      * Extract screener query results including total results and company metadata
      * @param screenerQueryUrl The base URL of the screener query
-     * @return ScreenerQueryResults containing total results and company metadata map
+     * @return QueryResults containing total results and company metadata map
      **/
     @Override
-    public ScreenerQueryResults apply(String screenerQueryUrl) {
+    public QueryResults apply(String screenerQueryUrl) {
         // Fetch first page to determine total results
         Optional<Document> doc = getScreenerPageDocument(screenerQueryUrl, 1);
         TotalResultsMetadataExtractor.TotalResults totalResults = doc.map(totalResultsMetadataExtractor)
@@ -63,7 +63,7 @@ public class ScreenerQueryResultsExtractor implements Function<String, ScreenerQ
             doc = getScreenerPageDocument(screenerQueryUrl, currentPage);
         }
 
-        return new ScreenerQueryResults(totalResults, results);
+        return new QueryResults(totalResults, results);
     }
 
     /**

@@ -21,13 +21,13 @@ public class CompanyTechnicalHistory {
     private Double dma200;
 
     @JsonProperty("volume")
-    private Long volume;
+    private Double volume;
 
     // Constructors
     public CompanyTechnicalHistory() {
     }
 
-    public CompanyTechnicalHistory(LocalDate date, Double price, Double dma50, Double dma200, Long volume) {
+    public CompanyTechnicalHistory(LocalDate date, Double price, Double dma50, Double dma200, Double volume) {
         this.date = date;
         this.price = price;
         this.dma50 = dma50;
@@ -68,11 +68,11 @@ public class CompanyTechnicalHistory {
         this.dma200 = dma200;
     }
 
-    public Long getVolume() {
+    public Double getVolume() {
         return volume;
     }
 
-    public void setVolume(Long volume) {
+    public void setVolume(Double volume) {
         this.volume = volume;
     }
 

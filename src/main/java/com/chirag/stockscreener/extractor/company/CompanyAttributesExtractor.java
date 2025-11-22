@@ -26,35 +26,35 @@ public class CompanyAttributesExtractor implements Function<CompanyMetadata, Com
 
     @Override
     public CompanyAttributes apply(CompanyMetadata metadata) {
-        CompanyAttributes detail = new CompanyAttributes();
-        detail.setCompanyCode(metadata.getCompanyCode());
-        detail.setCompanyName(metadata.getCompanyName());
+        CompanyAttributes attributes = new CompanyAttributes();
+        attributes.setCompanyCode(metadata.getCompanyCode());
+        attributes.setCompanyName(metadata.getCompanyName());
 
         try {
             // Fetch company detail page HTML
             String html = httpClientUtil.fetchHtml(metadata.getScreenerCompanyLink());
             if (html == null) {
                 logger.error("Failed to fetch company detail page: {}", metadata.getScreenerCompanyLink());
-                return detail;
+                return attributes;
             }
 
             // Parse the HTML document
             Document doc = Jsoup.parse(html);
 
             // Extract market cap
-            companyNumericAttributeExtractor.apply(doc, "Market Cap").ifPresent(detail::setMarketCap);
+            companyNumericAttributeExtractor.apply(doc, "Market Cap").ifPresent(attributes::setMarketCap);
 
             // Extract P/E Ratio
-            companyNumericAttributeExtractor.apply(doc, "P/E").ifPresent(detail::setPeRatio);
+            companyNumericAttributeExtractor.apply(doc, "P/E").ifPresent(attributes::setPeRatio);
 
             // Extract company description
-            detail.setDescription(companyDescriptionExtractor.apply(doc));
+            attributes.setDescription(companyDescriptionExtractor.apply(doc));
 
             logger.info("Successfully parsed company detail for: {}", metadata.getCompanyCode());
         } catch (Exception e) {
             logger.error("Error parsing company detail for: {}", metadata.getCompanyCode(), e);
         }
 
-        return detail;
+        return attributes;
     }
 }

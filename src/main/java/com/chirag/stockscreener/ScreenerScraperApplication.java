@@ -3,7 +3,8 @@ package com.chirag.stockscreener;
 import com.chirag.stockscreener.context.ExecutionContext;
 import com.chirag.stockscreener.context.ExecutionContextImpl;
 import com.chirag.stockscreener.extractor.company.CompanyAttributesExtractor;
-import com.chirag.stockscreener.extractor.query.ScreenerQueryResultsExtractor;
+import com.chirag.stockscreener.extractor.company.CompanyDetailExtractor;
+import com.chirag.stockscreener.extractor.query.QueryResultsExtractor;
 import com.chirag.stockscreener.model.CompanyAttributes;
 import com.chirag.stockscreener.model.CompanyDetail;
 import com.chirag.stockscreener.model.CompanyMetadata;
@@ -41,13 +42,13 @@ public class ScreenerScraperApplication {
             return;
         }
 
-        ScreenerQueryResultsExtractor queryResultsExtractor = new ScreenerQueryResultsExtractor(executionContext, httpClientUtil);
-        CompanyAttributesExtractor companyAttributesExtractor = new CompanyAttributesExtractor(httpClientUtil);
+        QueryResultsExtractor queryResultsExtractor = new QueryResultsExtractor(executionContext, httpClientUtil);
+        CompanyDetailExtractor companyDetailExtractor = new CompanyDetailExtractor(httpClientUtil);
 
         try {
             // Step 1: Parse screener list to get company metadata
             logger.info("Step 1: Fetching company list from screener...");
-            ScreenerQueryResultsExtractor.ScreenerQueryResults queryResults = queryResultsExtractor.apply(executionContext.getScreenerQueryLink());
+            QueryResultsExtractor.QueryResults queryResults = queryResultsExtractor.apply(executionContext.getScreenerQueryLink());
 
             if (queryResults.companyMetadataMap().isEmpty()) {
                 logger.warn("No companies found in screener list");
@@ -60,8 +61,7 @@ public class ScreenerScraperApplication {
             logger.info("Step 2: Fetching detailed information for each company...");
             List<CompanyDetail> details = queryResults.companyMetadataMap().keySet().stream().sorted().map(companyCode -> {
                 CompanyMetadata metadata = queryResults.companyMetadataMap().get(companyCode);
-                CompanyAttributes attributes = companyAttributesExtractor.apply(metadata);
-                return new CompanyDetail(metadata, attributes, new ArrayList<>());
+                return companyDetailExtractor.apply(metadata);
             }).toList();
             logger.info("Successfully processed {} companies", details.size());
 

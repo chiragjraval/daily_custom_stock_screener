@@ -19,8 +19,8 @@ public class CompanyMetadata {
     @JsonProperty("screener_company_link")
     private String screenerCompanyLink;
 
-    @JsonProperty("screener_price_history_link")
-    private String screenerPriceHistoryLink;
+    @JsonProperty("screener_technical_history_link")
+    private String screenerTechnicalHistoryLink;
 
     @JsonProperty("screener_quarterly_results_link")
     private String screenerQuarterlyResultsLink;
@@ -30,7 +30,7 @@ public class CompanyMetadata {
         this.companyCode = companyCode;
         this.companyName = companyName;
         this.screenerCompanyLink = "https://www.screener.in/company/" + companyCode;
-        this.screenerPriceHistoryLink = "https://www.screener.in/api/company/" + screenerCompanyId +
+        this.screenerTechnicalHistoryLink = "https://www.screener.in/api/company/" + screenerCompanyId +
                                         "/chart/?q=Price-DMA50-DMA200-Volume&days=365";
         this.screenerQuarterlyResultsLink = "https://www.screener.in/api/company/" + screenerCompanyId +
                                             "/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000";
@@ -69,12 +69,12 @@ public class CompanyMetadata {
         this.screenerCompanyLink = screenerCompanyLink;
     }
 
-    public String getScreenerPriceHistoryLink() {
-        return screenerPriceHistoryLink;
+    public String getScreenerTechnicalHistoryLink() {
+        return screenerTechnicalHistoryLink;
     }
 
-    public void setScreenerPriceHistoryLink(String screenerPriceHistoryLink) {
-        this.screenerPriceHistoryLink = screenerPriceHistoryLink;
+    public void setScreenerTechnicalHistoryLink(String screenerTechnicalHistoryLink) {
+        this.screenerTechnicalHistoryLink = screenerTechnicalHistoryLink;
     }
 
     public String getScreenerQuarterlyResultsLink() {
@@ -92,7 +92,7 @@ public class CompanyMetadata {
                 ", companyCode='" + companyCode + '\'' +
                 ", companyName='" + companyName + '\'' +
                 ", screenerCompanyLink='" + screenerCompanyLink + '\'' +
-                ", screenerPriceHistoryLink='" + screenerPriceHistoryLink + '\'' +
+                ", screenerTechnicalHistoryLink='" + screenerTechnicalHistoryLink + '\'' +
                 ", screenerQuarterlyResultsLink='" + screenerQuarterlyResultsLink + '\'' +
                 '}';
     }

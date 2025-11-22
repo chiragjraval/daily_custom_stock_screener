@@ -1,80 +1,63 @@
 package com.chirag.stockscreener.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import java.util.List;
 
 /**
- * Model representing detailed information about a company
+ * Model representing the complete result for a company including metadata, details, and technical history
  */
 public class CompanyDetail {
 
-    @JsonProperty("company_code")
-    private String companyCode;
+    @JsonProperty("metadata")
+    private CompanyMetadata metadata;
 
-    @JsonProperty("company_name")
-    private String companyName;
+    @JsonProperty("attributes")
+    private CompanyAttributes attributes;
 
-    @JsonProperty("market_cap")
-    private Double marketCap;
-
-    @JsonProperty("pe_ratio")
-    private Double peRatio;
-
-    @JsonProperty("description")
-    private String description;
+    @JsonProperty("technical_history")
+    private List<CompanyTechnicalHistory> technicalHistory;
 
     // Constructors
     public CompanyDetail() {
     }
 
+    public CompanyDetail(CompanyMetadata metadata, CompanyAttributes attributes, List<CompanyTechnicalHistory> technicalHistory) {
+        this.metadata = metadata;
+        this.attributes = attributes;
+        this.technicalHistory = technicalHistory;
+    }
+
     // Getters and Setters
-    public String getCompanyCode() {
-        return companyCode;
+    public CompanyMetadata getMetadata() {
+        return metadata;
     }
 
-    public void setCompanyCode(String companyCode) {
-        this.companyCode = companyCode;
+    public void setMetadata(CompanyMetadata metadata) {
+        this.metadata = metadata;
     }
 
-    public String getCompanyName() {
-        return companyName;
+    public CompanyAttributes getAttributes() {
+        return attributes;
     }
 
-    public void setCompanyName(String companyName) {
-        this.companyName = companyName;
+    public void setAttributes(CompanyAttributes attributes) {
+        this.attributes = attributes;
     }
 
-    public Double getMarketCap() {
-        return marketCap;
+    public List<CompanyTechnicalHistory> getTechnicalHistory() {
+        return technicalHistory;
     }
 
-    public void setMarketCap(Double marketCap) {
-        this.marketCap = marketCap;
-    }
-
-    public Double getPeRatio() {
-        return peRatio;
-    }
-
-    public void setPeRatio(Double peRatio) {
-        this.peRatio = peRatio;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
+    public void setTechnicalHistory(List<CompanyTechnicalHistory> technicalHistory) {
+        this.technicalHistory = technicalHistory;
     }
 
     @Override
     public String toString() {
         return "CompanyDetail{" +
-                "companyCode='" + companyCode + '\'' +
-                ", companyName='" + companyName + '\'' +
-                ", marketCap='" + marketCap + '\'' +
-                ", peRatio='" + peRatio + '\'' +
-                ", description='" + description + '\'' +
+                "metadata=" + metadata +
+                ", attributes=" + attributes +
+                ", technicalHistory=" + technicalHistory +
                 '}';
     }
 }

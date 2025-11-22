@@ -1,6 +1,6 @@
 package com.chirag.stockscreener.service;
 
-import com.chirag.stockscreener.model.CompanyResult;
+import com.chirag.stockscreener.model.CompanyDetail;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
@@ -30,10 +30,10 @@ public class JsonOutputService {
 
     /**
      * Output company results to JSON files
-     * @param companies List of CompanyResult to output
+     * @param companies List of CompanyDetail to output
      * @param outputDirectory Directory to write JSON files
      */
-    public static void outputToJson(List<CompanyResult> companies, String outputDirectory) {
+    public static void outputToJson(List<CompanyDetail> companies, String outputDirectory) {
         try {
             String detailsOutputDirectory = outputDirectory + "/details";
             Path outputPath = Paths.get(detailsOutputDirectory);
@@ -43,7 +43,7 @@ public class JsonOutputService {
 
             // Write individual company files
             int successCount = 0;
-            for (CompanyResult company : companies) {
+            for (CompanyDetail company : companies) {
                 String fileName = company.getMetadata().getCompanyCode() + ".json";
                 Path filePath = outputPath.resolve(fileName);
 
@@ -72,10 +72,10 @@ public class JsonOutputService {
 
     /**
      * Write a summary file with all company metadata
-     * @param companies List of CompanyResult
+     * @param companies List of CompanyDetail
      * @param outputDirectory Output directory path
      */
-    private static void writeSummaryFile(List<CompanyResult> companies, String outputDirectory) {
+    private static void writeSummaryFile(List<CompanyDetail> companies, String outputDirectory) {
         try {
             Path outputPath = Paths.get(outputDirectory);
 

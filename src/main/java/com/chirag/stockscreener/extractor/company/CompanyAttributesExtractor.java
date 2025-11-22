@@ -1,6 +1,6 @@
 package com.chirag.stockscreener.extractor.company;
 
-import com.chirag.stockscreener.model.CompanyDetail;
+import com.chirag.stockscreener.model.CompanyAttributes;
 import com.chirag.stockscreener.model.CompanyMetadata;
 import com.chirag.stockscreener.util.HttpClientUtil;
 import org.jsoup.Jsoup;
@@ -10,23 +10,23 @@ import org.slf4j.LoggerFactory;
 
 import java.util.function.Function;
 
-public class ScreenerCompanyDetailsExtractor implements Function<CompanyMetadata, CompanyDetail> {
+public class CompanyAttributesExtractor implements Function<CompanyMetadata, CompanyAttributes> {
 
-    private static final Logger logger = LoggerFactory.getLogger(ScreenerCompanyDetailsExtractor.class);
+    private static final Logger logger = LoggerFactory.getLogger(CompanyAttributesExtractor.class);
 
     private final HttpClientUtil httpClientUtil;
     private final CompanyNumericAttributeExtractor companyNumericAttributeExtractor;
     private final CompanyDescriptionExtractor companyDescriptionExtractor;
 
-    public ScreenerCompanyDetailsExtractor(HttpClientUtil httpClientUtil) {
+    public CompanyAttributesExtractor(HttpClientUtil httpClientUtil) {
         this.httpClientUtil = httpClientUtil;
         this.companyNumericAttributeExtractor = new CompanyNumericAttributeExtractor();
         this.companyDescriptionExtractor = new CompanyDescriptionExtractor();
     }
 
     @Override
-    public CompanyDetail apply(CompanyMetadata metadata) {
-        CompanyDetail detail = new CompanyDetail();
+    public CompanyAttributes apply(CompanyMetadata metadata) {
+        CompanyAttributes detail = new CompanyAttributes();
         detail.setCompanyCode(metadata.getCompanyCode());
         detail.setCompanyName(metadata.getCompanyName());
 

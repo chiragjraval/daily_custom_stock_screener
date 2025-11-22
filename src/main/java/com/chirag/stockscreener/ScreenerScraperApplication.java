@@ -2,11 +2,11 @@ package com.chirag.stockscreener;
 
 import com.chirag.stockscreener.context.ExecutionContext;
 import com.chirag.stockscreener.context.ExecutionContextImpl;
-import com.chirag.stockscreener.extractor.company.ScreenerCompanyDetailsExtractor;
+import com.chirag.stockscreener.extractor.company.CompanyAttributesExtractor;
 import com.chirag.stockscreener.extractor.query.ScreenerQueryResultsExtractor;
+import com.chirag.stockscreener.model.CompanyAttributes;
 import com.chirag.stockscreener.model.CompanyDetail;
 import com.chirag.stockscreener.model.CompanyMetadata;
-import com.chirag.stockscreener.model.CompanyResult;
 import com.chirag.stockscreener.service.GitService;
 import com.chirag.stockscreener.service.JsonOutputService;
 import com.chirag.stockscreener.util.HttpClientUtil;
@@ -42,7 +42,7 @@ public class ScreenerScraperApplication {
         }
 
         ScreenerQueryResultsExtractor queryResultsExtractor = new ScreenerQueryResultsExtractor(executionContext, httpClientUtil);
-        ScreenerCompanyDetailsExtractor companyDetailsExtractor = new ScreenerCompanyDetailsExtractor(httpClientUtil);
+        CompanyAttributesExtractor companyAttributesExtractor = new CompanyAttributesExtractor(httpClientUtil);
 
         try {
             // Step 1: Parse screener list to get company metadata
@@ -58,16 +58,16 @@ public class ScreenerScraperApplication {
 
             // Step 2: Fetch detailed information for each company
             logger.info("Step 2: Fetching detailed information for each company...");
-            List<CompanyResult> results = queryResults.companyMetadataMap().keySet().stream().sorted().map(companyCode -> {
+            List<CompanyDetail> details = queryResults.companyMetadataMap().keySet().stream().sorted().map(companyCode -> {
                 CompanyMetadata metadata = queryResults.companyMetadataMap().get(companyCode);
-                CompanyDetail detail = companyDetailsExtractor.apply(metadata);
-                return new CompanyResult(metadata, detail, new ArrayList<>());
+                CompanyAttributes attributes = companyAttributesExtractor.apply(metadata);
+                return new CompanyDetail(metadata, attributes, new ArrayList<>());
             }).toList();
-            logger.info("Successfully processed {} companies", results.size());
+            logger.info("Successfully processed {} companies", details.size());
 
             // Step 3: Output results to JSON files
             logger.info("Step 3: Writing results to JSON files...");
-            JsonOutputService.outputToJson(results, executionContext.getOutputDirectory());
+            JsonOutputService.outputToJson(details, executionContext.getOutputDirectory());
 
             // Step 4: Commit changes if enabled and repository exists
             if (executionContext.isGitCommitEnabled() && GitService.isGitRepository(".")) {

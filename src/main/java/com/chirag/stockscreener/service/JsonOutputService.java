@@ -1,8 +1,12 @@
 package com.chirag.stockscreener.service;
 
 import com.chirag.stockscreener.model.CompanyDetail;
+import com.fasterxml.jackson.core.JsonGenerator;
+import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import com.fasterxml.jackson.databind.SerializerProvider;
+import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +17,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
+import java.text.DecimalFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -23,8 +28,20 @@ import java.util.List;
 public class JsonOutputService {
 
     private static final Logger logger = LoggerFactory.getLogger(JsonOutputService.class);
+
+    private static final SimpleModule doubleSerializerModule = new SimpleModule().addSerializer(Double.class, new JsonSerializer<Double>() {
+        private static final DecimalFormat df = new DecimalFormat("0.00");
+
+        @Override
+        public void serialize(Double value, JsonGenerator jsonGenerator, SerializerProvider serializerProvider) throws IOException {
+            // Format with 2 decimals, no scientific notation
+            jsonGenerator.writeNumber(df.format(value));
+        }
+    });
+
     private static final ObjectMapper objectMapper = new ObjectMapper()
             .registerModule(new JavaTimeModule())
+            .registerModule(doubleSerializerModule)
             .enable(SerializationFeature.INDENT_OUTPUT)
             .disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
 

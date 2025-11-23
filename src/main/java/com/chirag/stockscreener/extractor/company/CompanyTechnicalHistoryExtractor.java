@@ -68,6 +68,17 @@ public class CompanyTechnicalHistoryExtractor implements Function<CompanyMetadat
                 results.add(history);
             }
 
+            // Calculate 100-day moving average (dma100)
+            double sum100 = 0;
+            for (int i=0; i<results.size(); i++) {
+                CompanyTechnicalHistory result = results.get(i);
+                sum100 += result.getPrice();
+                if (i >= 100) {
+                    sum100 -= results.get(i-100).getPrice();
+                    result.setDma100(sum100/100);
+                }
+            }
+
             // Log success
             logger.info("Successfully parsed technical history for company: {}", companyMetadata.getCompanyCode());
         } catch (JsonProcessingException e) {

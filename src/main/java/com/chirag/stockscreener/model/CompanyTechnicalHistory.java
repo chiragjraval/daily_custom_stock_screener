@@ -17,6 +17,9 @@ public class CompanyTechnicalHistory {
     @JsonProperty("dma50")
     private Double dma50;
 
+    @JsonProperty("dma100")
+    private Double dma100;
+
     @JsonProperty("dma200")
     private Double dma200;
 
@@ -59,6 +62,10 @@ public class CompanyTechnicalHistory {
     public void setDma50(Double dma50) {
         this.dma50 = dma50;
     }
+
+    public Double getDma100() { return dma100; }
+
+    public void setDma100(Double dma100) { this.dma100 = dma100; }
 
     public Double getDma200() {
         return dma200;

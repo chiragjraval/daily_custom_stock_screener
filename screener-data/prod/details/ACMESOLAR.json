@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285145",
-    "company_code" : "ACMESOLAR",
-    "company_name" : "ACME Solar Hold.",
-    "screener_company_link" : "https://www.screener.in/company/ACMESOLAR",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285145/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285145/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285145",
+    "companyCode" : "ACMESOLAR",
+    "companyName" : "ACME Solar Hold.",
+    "screenerCompanyLink" : "https://www.screener.in/company/ACMESOLAR",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285145/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285145/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "ACMESOLAR",
+      "companyName" : "ACME Solar Hold.",
+      "marketCap" : 14140.00,
+      "peRatio" : 659.00,
+      "description" : "Incorporated in 2015, ACME Solar Holdings is a renewable energy company in India with a portfolio of solar, wind, hybrid, and firm and dispatchable renewable energy (“FDRE”) projects.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.68,
+      "pricePercentageAboveDma100" : 5.83,
+      "pricePercentageAboveDma200" : 5.54,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 4.00,
+      "operatingProfitMarginPercentile" : 6.67,
+      "netProfitMarginPercentile" : 7.78,
+      "totalTechnicalScore" : 27.04,
+      "totalFundamentalScore" : 18.44,
+      "totalScore" : 45.49
+    }
   },
   "attributes" : {
-    "company_code" : "ACMESOLAR",
-    "company_name" : "ACME Solar Hold.",
-    "market_cap" : 14188.00,
-    "pe_ratio" : 661.00,
+    "companyCode" : "ACMESOLAR",
+    "companyName" : "ACME Solar Hold.",
+    "marketCap" : 14140.00,
+    "peRatio" : 659.00,
     "description" : "Incorporated in 2015, ACME Solar Holdings is a renewable energy company in India with a portfolio of solar, wind, hybrid, and firm and dispatchable renewable energy (“FDRE”) projects.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 258.00,
     "dma50" : 252.10,
@@ -1752,10 +1777,138 @@
     "volume" : 887950.00
   }, {
     "date" : "2025-11-24",
-    "price" : 234.50,
-    "dma50" : 269.60,
-    "dma100" : 279.24,
-    "dma200" : 261.17,
-    "volume" : 442005.00
-  } ]
+    "price" : 233.05,
+    "dma50" : 269.55,
+    "dma100" : 279.23,
+    "dma200" : 261.16,
+    "volume" : 668161.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 233.05,
+    "dma50" : 269.55,
+    "dma100" : 279.23,
+    "dma200" : 261.16,
+    "volume" : 668161.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2023-09-30",
+    "sales" : 139.33,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 139.33,
+    "operatingProfitMargin" : -1.30,
+    "operatingProfit" : -1.81,
+    "netProfitMargin" : -6.70,
+    "netProfit" : -9.34
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 82.37,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 82.37,
+    "operatingProfitMargin" : -23.25,
+    "operatingProfit" : -19.15,
+    "netProfitMargin" : -37.16,
+    "netProfit" : -30.61
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 189.74,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 189.74,
+    "operatingProfitMargin" : -10.07,
+    "operatingProfit" : -19.11,
+    "netProfitMargin" : -14.02,
+    "netProfit" : -26.60
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 369.37,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 369.37,
+    "operatingProfitMargin" : 57.47,
+    "operatingProfit" : 212.28,
+    "netProfitMargin" : 41.20,
+    "netProfit" : 152.18
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 435.17,
+    "salesGrowthYoY" : 212.33,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 435.17,
+    "operatingProfitMargin" : 16.13,
+    "operatingProfit" : 70.19,
+    "netProfitMargin" : 10.50,
+    "netProfit" : 45.69
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 278.78,
+    "salesGrowthYoY" : 238.45,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 278.78,
+    "operatingProfitMargin" : 1.66,
+    "operatingProfit" : 4.63,
+    "netProfitMargin" : 0.46,
+    "netProfit" : 1.28
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 268.78,
+    "salesGrowthYoY" : 41.66,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 268.78,
+    "operatingProfitMargin" : -6.92,
+    "operatingProfit" : -18.60,
+    "netProfitMargin" : -3.72,
+    "netProfit" : -10.00
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 282.66,
+    "salesGrowthYoY" : -23.48,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 282.66,
+    "operatingProfitMargin" : -7.11,
+    "operatingProfit" : -20.10,
+    "netProfitMargin" : 0.29,
+    "netProfit" : 0.82
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 332.43,
+    "salesGrowthYoY" : -23.61,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 332.43,
+    "operatingProfitMargin" : -8.07,
+    "operatingProfit" : -26.83,
+    "netProfitMargin" : 8.84,
+    "netProfit" : 29.39
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 332.43,
+    "salesGrowthYoY" : -23.61,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 332.43,
+    "operatingProfitMargin" : -8.07,
+    "operatingProfit" : -26.83,
+    "netProfitMargin" : 8.84,
+    "netProfit" : 29.39
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.68,
+    "pricePercentageAboveDma100" : 5.83,
+    "pricePercentageAboveDma200" : 5.54,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 4.00,
+    "operatingProfitMarginPercentile" : 6.67,
+    "netProfitMarginPercentile" : 7.78,
+    "totalTechnicalScore" : 27.04,
+    "totalFundamentalScore" : 18.44,
+    "totalScore" : 45.49
+  }
 }

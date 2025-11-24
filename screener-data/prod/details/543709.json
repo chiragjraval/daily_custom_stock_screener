@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1275374",
-    "company_code" : "543709",
-    "company_name" : "PNGS Gargi FJ",
-    "screener_company_link" : "https://www.screener.in/company/543709",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1275374/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1275374/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1275374",
+    "companyCode" : "543709",
+    "companyName" : "PNGS Gargi FJ",
+    "screenerCompanyLink" : "https://www.screener.in/company/543709",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1275374/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1275374/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "543709",
+      "companyName" : "PNGS Gargi FJ",
+      "marketCap" : 1147.00,
+      "peRatio" : 39.80,
+      "description" : "Incorporated in 2009, PNGS Gargi Fashion Jewellery Ltd does trading fashion jewellery, articles of silver and other articles[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 4.44,
+      "pricePercentageAboveDma100" : 3.93,
+      "pricePercentageAboveDma200" : 4.18,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 11.67,
+      "operatingProfitMarginPercentile" : 16.25,
+      "netProfitMarginPercentile" : 8.12,
+      "totalTechnicalScore" : 37.56,
+      "totalFundamentalScore" : 36.04,
+      "totalScore" : 73.60
+    }
   },
   "attributes" : {
-    "company_code" : "543709",
-    "company_name" : "PNGS Gargi FJ",
-    "market_cap" : 1181.00,
-    "pe_ratio" : 41.00,
+    "companyCode" : "543709",
+    "companyName" : "PNGS Gargi FJ",
+    "marketCap" : 1147.00,
+    "peRatio" : 39.80,
     "description" : "Incorporated in 2009, PNGS Gargi Fashion Jewellery Ltd does trading fashion jewellery, articles of silver and other articles[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 1102.50,
     "dma50" : 953.71,
@@ -1752,10 +1777,208 @@
     "volume" : 6500.00
   }, {
     "date" : "2025-11-24",
-    "price" : 1127.90,
-    "dma50" : 986.82,
-    "dma100" : 903.55,
-    "dma200" : 942.35,
-    "volume" : 4375.00
-  } ]
+    "price" : 1095.70,
+    "dma50" : 985.55,
+    "dma100" : 903.23,
+    "dma200" : 942.02,
+    "volume" : 6375.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 1095.70,
+    "dma50" : 985.55,
+    "dma100" : 903.23,
+    "dma200" : 942.02,
+    "volume" : 6375.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2021-12-31",
+    "sales" : 1.24,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 39.52,
+    "grossProfit" : 0.49,
+    "operatingProfitMargin" : 24.19,
+    "operatingProfit" : 0.30,
+    "netProfitMargin" : 17.74,
+    "netProfit" : 0.22
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 4.70,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 42.77,
+    "grossProfit" : 2.01,
+    "operatingProfitMargin" : 26.17,
+    "operatingProfit" : 1.23,
+    "netProfitMargin" : 18.94,
+    "netProfit" : 0.89
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 5.33,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 46.90,
+    "grossProfit" : 2.50,
+    "operatingProfitMargin" : 24.58,
+    "operatingProfit" : 1.31,
+    "netProfitMargin" : 17.26,
+    "netProfit" : 0.92
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 6.56,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 47.26,
+    "grossProfit" : 3.10,
+    "operatingProfitMargin" : 26.07,
+    "operatingProfit" : 1.71,
+    "netProfitMargin" : 18.45,
+    "netProfit" : 1.21
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 9.69,
+    "salesGrowthYoY" : 681.45,
+    "grossProfitMargin" : 36.53,
+    "grossProfit" : 3.54,
+    "operatingProfitMargin" : 17.65,
+    "operatingProfit" : 1.71,
+    "netProfitMargin" : 12.18,
+    "netProfit" : 1.18
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 7.09,
+    "salesGrowthYoY" : 50.85,
+    "grossProfitMargin" : 47.81,
+    "grossProfit" : 3.39,
+    "operatingProfitMargin" : 26.09,
+    "operatingProfit" : 1.85,
+    "netProfitMargin" : 19.04,
+    "netProfit" : 1.35
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 6.52,
+    "salesGrowthYoY" : 22.33,
+    "grossProfitMargin" : 51.53,
+    "grossProfit" : 3.36,
+    "operatingProfitMargin" : 21.93,
+    "operatingProfit" : 1.43,
+    "netProfitMargin" : 19.63,
+    "netProfit" : 1.28
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 10.80,
+    "salesGrowthYoY" : 64.63,
+    "grossProfitMargin" : 45.83,
+    "grossProfit" : 4.95,
+    "operatingProfitMargin" : 22.69,
+    "operatingProfit" : 2.45,
+    "netProfitMargin" : 15.56,
+    "netProfit" : 1.68
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 17.78,
+    "salesGrowthYoY" : 83.49,
+    "grossProfitMargin" : 38.36,
+    "grossProfit" : 6.82,
+    "operatingProfitMargin" : 23.51,
+    "operatingProfit" : 4.18,
+    "netProfitMargin" : 17.77,
+    "netProfit" : 3.16
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 15.38,
+    "salesGrowthYoY" : 116.93,
+    "grossProfitMargin" : 40.70,
+    "grossProfit" : 6.26,
+    "operatingProfitMargin" : 20.55,
+    "operatingProfit" : 3.16,
+    "netProfitMargin" : 15.28,
+    "netProfit" : 2.35
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 44.45,
+    "salesGrowthYoY" : 581.75,
+    "grossProfitMargin" : 36.06,
+    "grossProfit" : 16.03,
+    "operatingProfitMargin" : 31.88,
+    "operatingProfit" : 14.17,
+    "netProfitMargin" : 23.53,
+    "netProfit" : 10.46
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 22.95,
+    "salesGrowthYoY" : 112.50,
+    "grossProfitMargin" : 42.40,
+    "grossProfit" : 9.73,
+    "operatingProfitMargin" : 30.24,
+    "operatingProfit" : 6.94,
+    "netProfitMargin" : 22.18,
+    "netProfit" : 5.09
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 36.25,
+    "salesGrowthYoY" : 103.88,
+    "grossProfitMargin" : 43.23,
+    "grossProfit" : 15.67,
+    "operatingProfitMargin" : 32.03,
+    "operatingProfit" : 11.61,
+    "netProfitMargin" : 25.24,
+    "netProfit" : 9.15
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 22.69,
+    "salesGrowthYoY" : 47.53,
+    "grossProfitMargin" : 39.05,
+    "grossProfit" : 8.86,
+    "operatingProfitMargin" : 20.85,
+    "operatingProfit" : 4.73,
+    "netProfitMargin" : 18.11,
+    "netProfit" : 4.11
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 27.31,
+    "salesGrowthYoY" : -38.56,
+    "grossProfitMargin" : 40.68,
+    "grossProfit" : 11.11,
+    "operatingProfitMargin" : 23.25,
+    "operatingProfit" : 6.35,
+    "netProfitMargin" : 19.44,
+    "netProfit" : 5.31
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 46.45,
+    "salesGrowthYoY" : 102.40,
+    "grossProfitMargin" : 40.47,
+    "grossProfit" : 18.80,
+    "operatingProfitMargin" : 28.01,
+    "operatingProfit" : 13.01,
+    "netProfitMargin" : 22.11,
+    "netProfit" : 10.27
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 46.45,
+    "salesGrowthYoY" : 102.40,
+    "grossProfitMargin" : 40.47,
+    "grossProfit" : 18.80,
+    "operatingProfitMargin" : 28.01,
+    "operatingProfit" : 13.01,
+    "netProfitMargin" : 22.11,
+    "netProfit" : 10.27
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 4.44,
+    "pricePercentageAboveDma100" : 3.93,
+    "pricePercentageAboveDma200" : 4.18,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 11.67,
+    "operatingProfitMarginPercentile" : 16.25,
+    "netProfitMarginPercentile" : 8.12,
+    "totalTechnicalScore" : 37.56,
+    "totalFundamentalScore" : 36.04,
+    "totalScore" : 73.60
+  }
 }

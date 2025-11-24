@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284402",
-    "company_code" : "CYIENTDLM",
-    "company_name" : "Cyient DLM",
-    "screener_company_link" : "https://www.screener.in/company/CYIENTDLM",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284402/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284402/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284402",
+    "companyCode" : "CYIENTDLM",
+    "companyName" : "Cyient DLM",
+    "screenerCompanyLink" : "https://www.screener.in/company/CYIENTDLM",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284402/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284402/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "CYIENTDLM",
+      "companyName" : "Cyient DLM",
+      "marketCap" : 3379.00,
+      "peRatio" : 44.90,
+      "description" : "Cyient DLM is a leading electronics system design and manufacturing player, which provides system design, integration, testing, and manufacturing of electronic components and subsystems for original equipment manufacturers (OEMs) in the aerospace and defense sectors and other high-tech engineering segments. It has customers in India, Europe, North America, China and Japan.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.20,
+      "pricePercentageAboveDma100" : 5.25,
+      "pricePercentageAboveDma200" : 5.52,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 2.22,
+      "operatingProfitMarginPercentile" : 15.38,
+      "netProfitMarginPercentile" : 8.46,
+      "totalTechnicalScore" : 15.97,
+      "totalFundamentalScore" : 26.07,
+      "totalScore" : 42.03
+    }
   },
   "attributes" : {
-    "company_code" : "CYIENTDLM",
-    "company_name" : "Cyient DLM",
-    "market_cap" : 3430.00,
-    "pe_ratio" : 45.60,
+    "companyCode" : "CYIENTDLM",
+    "companyName" : "Cyient DLM",
+    "marketCap" : 3379.00,
+    "peRatio" : 44.90,
     "description" : "Cyient DLM is a leading electronics system design and manufacturing player, which provides system design, integration, testing, and manufacturing of electronic components and subsystems for original equipment manufacturers (OEMs) in the aerospace and defense sectors and other high-tech engineering segments. It has customers in India, Europe, North America, China and Japan.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 632.05,
     "dma50" : 665.51,
@@ -1752,10 +1777,178 @@
     "volume" : 61835.00
   }, {
     "date" : "2025-11-24",
-    "price" : 432.85,
-    "dma50" : 448.52,
-    "dma100" : 452.53,
-    "dma200" : 479.98,
-    "volume" : 44787.00
-  } ]
+    "price" : 430.25,
+    "dma50" : 448.42,
+    "dma100" : 452.51,
+    "dma200" : 479.95,
+    "volume" : 105936.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 430.25,
+    "dma50" : 448.42,
+    "dma100" : 452.51,
+    "dma200" : 479.95,
+    "volume" : 105936.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2022-09-30",
+    "sales" : 170.16,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 26.36,
+    "grossProfit" : 44.85,
+    "operatingProfitMargin" : 13.90,
+    "operatingProfit" : 23.65,
+    "netProfitMargin" : 4.17,
+    "netProfit" : 7.10
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 214.40,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 21.39,
+    "grossProfit" : 45.86,
+    "operatingProfitMargin" : 9.62,
+    "operatingProfit" : 20.63,
+    "netProfitMargin" : 2.67,
+    "netProfit" : 5.72
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 277.36,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 23.57,
+    "grossProfit" : 65.37,
+    "operatingProfitMargin" : 11.50,
+    "operatingProfit" : 31.90,
+    "netProfitMargin" : 4.54,
+    "netProfit" : 12.59
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 217.15,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 25.03,
+    "grossProfit" : 54.35,
+    "operatingProfitMargin" : 9.21,
+    "operatingProfit" : 20.00,
+    "netProfitMargin" : 2.47,
+    "netProfit" : 5.36
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 291.84,
+    "salesGrowthYoY" : 71.51,
+    "grossProfitMargin" : 20.79,
+    "grossProfit" : 60.67,
+    "operatingProfitMargin" : 8.07,
+    "operatingProfit" : 23.55,
+    "netProfitMargin" : 5.02,
+    "netProfit" : 14.65
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 321.04,
+    "salesGrowthYoY" : 49.74,
+    "grossProfitMargin" : 21.96,
+    "grossProfit" : 70.50,
+    "operatingProfitMargin" : 9.17,
+    "operatingProfit" : 29.44,
+    "netProfitMargin" : 5.74,
+    "netProfit" : 18.43
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 361.84,
+    "salesGrowthYoY" : 30.46,
+    "grossProfitMargin" : 23.88,
+    "grossProfit" : 86.41,
+    "operatingProfitMargin" : 10.52,
+    "operatingProfit" : 38.07,
+    "netProfitMargin" : 6.28,
+    "netProfit" : 22.72
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 257.89,
+    "salesGrowthYoY" : 18.76,
+    "grossProfitMargin" : 25.27,
+    "grossProfit" : 65.17,
+    "operatingProfitMargin" : 7.78,
+    "operatingProfit" : 20.06,
+    "netProfitMargin" : 4.14,
+    "netProfit" : 10.68
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 389.45,
+    "salesGrowthYoY" : 33.45,
+    "grossProfitMargin" : 20.60,
+    "grossProfit" : 80.23,
+    "operatingProfitMargin" : 8.15,
+    "operatingProfit" : 31.74,
+    "netProfitMargin" : 3.99,
+    "netProfit" : 15.54
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 357.30,
+    "salesGrowthYoY" : 11.29,
+    "grossProfitMargin" : 22.03,
+    "grossProfit" : 78.71,
+    "operatingProfitMargin" : 8.27,
+    "operatingProfit" : 29.55,
+    "netProfitMargin" : 4.36,
+    "netProfit" : 15.58
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 340.32,
+    "salesGrowthYoY" : -5.95,
+    "grossProfitMargin" : 32.92,
+    "grossProfit" : 112.03,
+    "operatingProfitMargin" : 16.92,
+    "operatingProfit" : 57.58,
+    "netProfitMargin" : 10.26,
+    "netProfit" : 34.92
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 206.33,
+    "salesGrowthYoY" : -19.99,
+    "grossProfitMargin" : 38.48,
+    "grossProfit" : 79.40,
+    "operatingProfitMargin" : 12.16,
+    "operatingProfit" : 25.09,
+    "netProfitMargin" : 5.46,
+    "netProfit" : 11.27
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 235.64,
+    "salesGrowthYoY" : -39.49,
+    "grossProfitMargin" : 41.28,
+    "grossProfit" : 97.27,
+    "operatingProfitMargin" : 11.61,
+    "operatingProfit" : 27.36,
+    "netProfitMargin" : 5.75,
+    "netProfit" : 13.55
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 235.64,
+    "salesGrowthYoY" : -39.49,
+    "grossProfitMargin" : 41.28,
+    "grossProfit" : 97.27,
+    "operatingProfitMargin" : 11.61,
+    "operatingProfit" : 27.36,
+    "netProfitMargin" : 5.75,
+    "netProfit" : 13.55
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.20,
+    "pricePercentageAboveDma100" : 5.25,
+    "pricePercentageAboveDma200" : 5.52,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 2.22,
+    "operatingProfitMarginPercentile" : 15.38,
+    "netProfitMarginPercentile" : 8.46,
+    "totalTechnicalScore" : 15.97,
+    "totalFundamentalScore" : 26.07,
+    "totalScore" : 42.03
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285596",
-    "company_code" : "BLUESTONE",
-    "company_name" : "Bluestone Jewel",
-    "screener_company_link" : "https://www.screener.in/company/BLUESTONE",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285596/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285596/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285596",
+    "companyCode" : "BLUESTONE",
+    "companyName" : "Bluestone Jewel",
+    "screenerCompanyLink" : "https://www.screener.in/company/BLUESTONE",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285596/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285596/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "BLUESTONE",
+      "companyName" : "Bluestone Jewel",
+      "marketCap" : 8307.00,
+      "peRatio" : null,
+      "description" : ""
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.59,
+      "pricePercentageAboveDma100" : 0.00,
+      "pricePercentageAboveDma200" : 5.30,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 16.00,
+      "netProfitMarginPercentile" : 8.18,
+      "totalTechnicalScore" : 15.89,
+      "totalFundamentalScore" : 44.18,
+      "totalScore" : 60.06
+    }
   },
   "attributes" : {
-    "company_code" : "BLUESTONE",
-    "company_name" : "Bluestone Jewel",
-    "market_cap" : 8472.00,
-    "pe_ratio" : null,
+    "companyCode" : "BLUESTONE",
+    "companyName" : "Bluestone Jewel",
+    "marketCap" : 8307.00,
+    "peRatio" : null,
     "description" : ""
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-08-19",
     "price" : 546.00,
     "dma50" : 546.00,
@@ -471,10 +496,98 @@
     "volume" : 134503.00
   }, {
     "date" : "2025-11-24",
-    "price" : 570.05,
-    "dma50" : 624.88,
+    "price" : 550.80,
+    "dma50" : 624.13,
     "dma100" : null,
-    "dma200" : 586.03,
-    "volume" : 96912.00
-  } ]
+    "dma200" : 585.84,
+    "volume" : 233767.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 550.80,
+    "dma50" : 624.13,
+    "dma100" : null,
+    "dma200" : 585.84,
+    "volume" : 233767.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-06-30",
+    "sales" : 348.24,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 39.25,
+    "grossProfit" : 136.68,
+    "operatingProfitMargin" : 0.57,
+    "operatingProfit" : 1.98,
+    "netProfitMargin" : -17.01,
+    "netProfit" : -59.24
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 373.36,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 37.12,
+    "grossProfit" : 138.59,
+    "operatingProfitMargin" : -1.18,
+    "operatingProfit" : -4.41,
+    "netProfitMargin" : -22.62,
+    "netProfit" : -84.45
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 461.30,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 38.60,
+    "grossProfit" : 178.06,
+    "operatingProfitMargin" : 6.04,
+    "operatingProfit" : 27.86,
+    "netProfitMargin" : -10.54,
+    "netProfit" : -48.62
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 492.58,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 41.05,
+    "grossProfit" : 202.20,
+    "operatingProfitMargin" : 11.49,
+    "operatingProfit" : 56.60,
+    "netProfitMargin" : -6.66,
+    "netProfit" : -32.81
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 513.09,
+    "salesGrowthYoY" : 47.34,
+    "grossProfitMargin" : 39.54,
+    "grossProfit" : 202.88,
+    "operatingProfitMargin" : 8.33,
+    "operatingProfit" : 42.74,
+    "netProfitMargin" : -9.57,
+    "netProfit" : -49.10
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 513.09,
+    "salesGrowthYoY" : 47.34,
+    "grossProfitMargin" : 39.54,
+    "grossProfit" : 202.88,
+    "operatingProfitMargin" : 8.33,
+    "operatingProfit" : 42.74,
+    "netProfitMargin" : -9.57,
+    "netProfit" : -49.10
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.59,
+    "pricePercentageAboveDma100" : 0.00,
+    "pricePercentageAboveDma200" : 5.30,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 16.00,
+    "netProfitMarginPercentile" : 8.18,
+    "totalTechnicalScore" : 15.89,
+    "totalFundamentalScore" : 44.18,
+    "totalScore" : 60.06
+  }
 }

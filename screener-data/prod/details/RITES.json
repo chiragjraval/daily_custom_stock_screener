@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274374",
-    "company_code" : "RITES",
-    "company_name" : "Rites",
-    "screener_company_link" : "https://www.screener.in/company/RITES",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274374/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274374/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274374",
+    "companyCode" : "RITES",
+    "companyName" : "Rites",
+    "screenerCompanyLink" : "https://www.screener.in/company/RITES",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274374/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274374/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "RITES",
+      "companyName" : "Rites",
+      "marketCap" : 11780.00,
+      "peRatio" : 29.50,
+      "description" : "Established in 1974, RITES Limited is a public sector enterprise and a leading player in the transport consultancy and engineering sector in India, having diversified services and geographical reach. The company is the only export arm of Indian Railways for providing rolling stock overseas (other than Thailand, Malaysia and Indonesia). [1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.11,
+      "pricePercentageAboveDma100" : 5.25,
+      "pricePercentageAboveDma200" : 5.29,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 11.61,
+      "operatingProfitMarginPercentile" : 5.72,
+      "netProfitMarginPercentile" : 3.71,
+      "totalTechnicalScore" : 15.65,
+      "totalFundamentalScore" : 21.04,
+      "totalScore" : 36.70
+    }
   },
   "attributes" : {
-    "company_code" : "RITES",
-    "company_name" : "Rites",
-    "market_cap" : 11699.00,
-    "pe_ratio" : 29.30,
+    "companyCode" : "RITES",
+    "companyName" : "Rites",
+    "marketCap" : 11780.00,
+    "peRatio" : 29.50,
     "description" : "Established in 1974, RITES Limited is a public sector enterprise and a leading player in the transport consultancy and engineering sector in India, having diversified services and geographical reach. The company is the only export arm of Indian Railways for providing rolling stock overseas (other than Thailand, Malaysia and Indonesia). [1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 292.35,
     "dma50" : 302.64,
@@ -1752,10 +1777,398 @@
     "volume" : 8434297.00
   }, {
     "date" : "2025-11-24",
-    "price" : 243.99,
-    "dma50" : 251.26,
-    "dma100" : 258.75,
-    "dma200" : 261.11,
-    "volume" : 288920.00
-  } ]
+    "price" : 245.85,
+    "dma50" : 251.33,
+    "dma100" : 258.77,
+    "dma200" : 261.13,
+    "volume" : 539139.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 245.85,
+    "dma50" : 251.33,
+    "dma100" : 258.77,
+    "dma200" : 261.13,
+    "volume" : 539139.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2017-03-31",
+    "sales" : 418.69,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 96.03,
+    "grossProfit" : 402.07,
+    "operatingProfitMargin" : 12.09,
+    "operatingProfit" : 50.62,
+    "netProfitMargin" : 11.32,
+    "netProfit" : 47.40
+  }, {
+    "date" : "2017-06-30",
+    "sales" : 330.44,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 330.44,
+    "operatingProfitMargin" : 24.14,
+    "operatingProfit" : 79.77,
+    "netProfitMargin" : 20.95,
+    "netProfit" : 69.23
+  }, {
+    "date" : "2017-09-30",
+    "sales" : 195.20,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 195.20,
+    "operatingProfitMargin" : 21.70,
+    "operatingProfit" : 42.36,
+    "netProfitMargin" : 37.52,
+    "netProfit" : 73.24
+  }, {
+    "date" : "2017-12-31",
+    "sales" : 359.64,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 80.10,
+    "grossProfit" : 288.07,
+    "operatingProfitMargin" : 37.87,
+    "operatingProfit" : 136.20,
+    "netProfitMargin" : 29.63,
+    "netProfit" : 106.56
+  }, {
+    "date" : "2018-03-31",
+    "sales" : 543.52,
+    "salesGrowthYoY" : 29.81,
+    "grossProfitMargin" : 76.96,
+    "grossProfit" : 418.29,
+    "operatingProfitMargin" : 18.63,
+    "operatingProfit" : 101.26,
+    "netProfitMargin" : 14.25,
+    "netProfit" : 77.45
+  }, {
+    "date" : "2018-06-30",
+    "sales" : 310.60,
+    "salesGrowthYoY" : -6.00,
+    "grossProfitMargin" : 99.77,
+    "grossProfit" : 309.89,
+    "operatingProfitMargin" : 23.17,
+    "operatingProfit" : 71.97,
+    "netProfitMargin" : 26.05,
+    "netProfit" : 80.91
+  }, {
+    "date" : "2018-09-30",
+    "sales" : 425.13,
+    "salesGrowthYoY" : 117.79,
+    "grossProfitMargin" : 75.06,
+    "grossProfit" : 319.10,
+    "operatingProfitMargin" : 31.80,
+    "operatingProfit" : 135.19,
+    "netProfitMargin" : 25.45,
+    "netProfit" : 108.20
+  }, {
+    "date" : "2018-12-31",
+    "sales" : 519.65,
+    "salesGrowthYoY" : 44.49,
+    "grossProfitMargin" : 66.49,
+    "grossProfit" : 345.52,
+    "operatingProfitMargin" : 27.99,
+    "operatingProfit" : 145.45,
+    "netProfitMargin" : 23.63,
+    "netProfit" : 122.79
+  }, {
+    "date" : "2019-03-31",
+    "sales" : 713.59,
+    "salesGrowthYoY" : 31.29,
+    "grossProfitMargin" : 91.69,
+    "grossProfit" : 654.29,
+    "operatingProfitMargin" : 23.08,
+    "operatingProfit" : 164.70,
+    "netProfitMargin" : 18.60,
+    "netProfit" : 132.73
+  }, {
+    "date" : "2019-06-30",
+    "sales" : 519.22,
+    "salesGrowthYoY" : 67.17,
+    "grossProfitMargin" : 83.94,
+    "grossProfit" : 435.83,
+    "operatingProfitMargin" : 22.48,
+    "operatingProfit" : 116.72,
+    "netProfitMargin" : 36.49,
+    "netProfit" : 189.46
+  }, {
+    "date" : "2019-09-30",
+    "sales" : 726.21,
+    "salesGrowthYoY" : 70.82,
+    "grossProfitMargin" : 77.27,
+    "grossProfit" : 561.14,
+    "operatingProfitMargin" : 24.82,
+    "operatingProfit" : 180.25,
+    "netProfitMargin" : 32.03,
+    "netProfit" : 232.61
+  }, {
+    "date" : "2019-12-31",
+    "sales" : 602.57,
+    "salesGrowthYoY" : 15.96,
+    "grossProfitMargin" : 90.29,
+    "grossProfit" : 544.06,
+    "operatingProfitMargin" : 25.68,
+    "operatingProfit" : 154.74,
+    "netProfitMargin" : 23.19,
+    "netProfit" : 139.74
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 552.57,
+    "salesGrowthYoY" : -22.56,
+    "grossProfitMargin" : 93.41,
+    "grossProfit" : 516.16,
+    "operatingProfitMargin" : 26.56,
+    "operatingProfit" : 146.76,
+    "netProfitMargin" : 23.78,
+    "netProfit" : 131.40
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 322.48,
+    "salesGrowthYoY" : -37.89,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 322.48,
+    "operatingProfitMargin" : 15.83,
+    "operatingProfit" : 51.05,
+    "netProfitMargin" : 18.65,
+    "netProfit" : 60.14
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 422.37,
+    "salesGrowthYoY" : -41.84,
+    "grossProfitMargin" : 99.98,
+    "grossProfit" : 422.29,
+    "operatingProfitMargin" : 27.63,
+    "operatingProfit" : 116.70,
+    "netProfitMargin" : 30.95,
+    "netProfit" : 130.72
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 438.86,
+    "salesGrowthYoY" : -27.17,
+    "grossProfitMargin" : 99.85,
+    "grossProfit" : 438.20,
+    "operatingProfitMargin" : 27.77,
+    "operatingProfit" : 121.87,
+    "netProfitMargin" : 22.54,
+    "netProfit" : 98.92
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 612.35,
+    "salesGrowthYoY" : 10.82,
+    "grossProfitMargin" : 91.37,
+    "grossProfit" : 559.50,
+    "operatingProfitMargin" : 27.04,
+    "operatingProfit" : 165.58,
+    "netProfitMargin" : 21.97,
+    "netProfit" : 134.53
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 332.13,
+    "salesGrowthYoY" : 2.99,
+    "grossProfitMargin" : 99.89,
+    "grossProfit" : 331.76,
+    "operatingProfitMargin" : 23.43,
+    "operatingProfit" : 77.82,
+    "netProfitMargin" : 21.22,
+    "netProfit" : 70.48
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 743.97,
+    "salesGrowthYoY" : 76.14,
+    "grossProfitMargin" : 70.33,
+    "grossProfit" : 523.23,
+    "operatingProfitMargin" : 27.98,
+    "operatingProfit" : 208.16,
+    "netProfitMargin" : 21.93,
+    "netProfit" : 163.15
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 754.53,
+    "salesGrowthYoY" : 71.93,
+    "grossProfitMargin" : 70.89,
+    "grossProfit" : 534.89,
+    "operatingProfitMargin" : 23.70,
+    "operatingProfit" : 178.82,
+    "netProfitMargin" : 17.71,
+    "netProfit" : 133.63
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 744.16,
+    "salesGrowthYoY" : 21.53,
+    "grossProfitMargin" : 74.72,
+    "grossProfit" : 556.04,
+    "operatingProfitMargin" : 25.10,
+    "operatingProfit" : 186.78,
+    "netProfitMargin" : 17.45,
+    "netProfit" : 129.86
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 578.33,
+    "salesGrowthYoY" : 74.13,
+    "grossProfitMargin" : 91.85,
+    "grossProfit" : 531.20,
+    "operatingProfitMargin" : 27.01,
+    "operatingProfit" : 156.21,
+    "netProfitMargin" : 22.35,
+    "netProfit" : 129.26
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 631.67,
+    "salesGrowthYoY" : -15.09,
+    "grossProfitMargin" : 92.52,
+    "grossProfit" : 584.42,
+    "operatingProfitMargin" : 24.99,
+    "operatingProfit" : 157.85,
+    "netProfitMargin" : 20.80,
+    "netProfit" : 131.39
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 650.63,
+    "salesGrowthYoY" : -13.77,
+    "grossProfitMargin" : 91.68,
+    "grossProfit" : 596.50,
+    "operatingProfitMargin" : 26.26,
+    "operatingProfit" : 170.86,
+    "netProfitMargin" : 20.21,
+    "netProfit" : 131.49
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 658.99,
+    "salesGrowthYoY" : -11.45,
+    "grossProfitMargin" : 94.10,
+    "grossProfit" : 620.11,
+    "operatingProfitMargin" : 25.87,
+    "operatingProfit" : 170.48,
+    "netProfitMargin" : 21.00,
+    "netProfit" : 138.39
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 503.67,
+    "salesGrowthYoY" : -12.91,
+    "grossProfitMargin" : 94.76,
+    "grossProfit" : 477.28,
+    "operatingProfitMargin" : 25.07,
+    "operatingProfit" : 126.27,
+    "netProfitMargin" : 19.04,
+    "netProfit" : 95.90
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 549.27,
+    "salesGrowthYoY" : -13.04,
+    "grossProfitMargin" : 99.91,
+    "grossProfit" : 548.78,
+    "operatingProfitMargin" : 20.16,
+    "operatingProfit" : 110.73,
+    "netProfitMargin" : 21.23,
+    "netProfit" : 116.61
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 652.88,
+    "salesGrowthYoY" : 0.35,
+    "grossProfitMargin" : 95.04,
+    "grossProfit" : 620.50,
+    "operatingProfitMargin" : 22.11,
+    "operatingProfit" : 144.35,
+    "netProfitMargin" : 18.16,
+    "netProfit" : 118.56
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 606.18,
+    "salesGrowthYoY" : -8.01,
+    "grossProfitMargin" : 99.69,
+    "grossProfit" : 604.30,
+    "operatingProfitMargin" : 23.88,
+    "operatingProfit" : 144.76,
+    "netProfitMargin" : 20.30,
+    "netProfit" : 123.05
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 453.78,
+    "salesGrowthYoY" : -9.91,
+    "grossProfitMargin" : 99.92,
+    "grossProfit" : 453.42,
+    "operatingProfitMargin" : 17.25,
+    "operatingProfit" : 78.28,
+    "netProfitMargin" : 14.29,
+    "netProfit" : 64.85
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 510.39,
+    "salesGrowthYoY" : -7.08,
+    "grossProfitMargin" : 99.69,
+    "grossProfit" : 508.81,
+    "operatingProfitMargin" : 15.66,
+    "operatingProfit" : 79.93,
+    "netProfitMargin" : 16.84,
+    "netProfit" : 85.95
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 544.53,
+    "salesGrowthYoY" : -16.60,
+    "grossProfitMargin" : 99.92,
+    "grossProfit" : 544.09,
+    "operatingProfitMargin" : 16.56,
+    "operatingProfit" : 90.17,
+    "netProfitMargin" : 17.44,
+    "netProfit" : 94.97
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 586.61,
+    "salesGrowthYoY" : -3.23,
+    "grossProfitMargin" : 99.91,
+    "grossProfit" : 586.08,
+    "operatingProfitMargin" : 27.55,
+    "operatingProfit" : 161.61,
+    "netProfitMargin" : 22.91,
+    "netProfit" : 134.39
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 455.73,
+    "salesGrowthYoY" : 0.43,
+    "grossProfitMargin" : 99.42,
+    "grossProfit" : 453.09,
+    "operatingProfitMargin" : 18.47,
+    "operatingProfit" : 84.17,
+    "netProfitMargin" : 14.62,
+    "netProfit" : 66.63
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 514.00,
+    "salesGrowthYoY" : 0.71,
+    "grossProfitMargin" : 91.00,
+    "grossProfit" : 467.74,
+    "operatingProfitMargin" : 19.46,
+    "operatingProfit" : 100.02,
+    "netProfitMargin" : 19.89,
+    "netProfit" : 102.23
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 514.00,
+    "salesGrowthYoY" : 0.71,
+    "grossProfitMargin" : 91.00,
+    "grossProfit" : 467.74,
+    "operatingProfitMargin" : 19.46,
+    "operatingProfit" : 100.02,
+    "netProfitMargin" : 19.89,
+    "netProfit" : 102.23
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.11,
+    "pricePercentageAboveDma100" : 5.25,
+    "pricePercentageAboveDma200" : 5.29,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 11.61,
+    "operatingProfitMarginPercentile" : 5.72,
+    "netProfitMarginPercentile" : 3.71,
+    "totalTechnicalScore" : 15.65,
+    "totalFundamentalScore" : 21.04,
+    "totalScore" : 36.70
+  }
 }

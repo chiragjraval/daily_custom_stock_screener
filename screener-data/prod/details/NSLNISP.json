@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284306",
-    "company_code" : "NSLNISP",
-    "company_name" : "NMDC Steel",
-    "screener_company_link" : "https://www.screener.in/company/NSLNISP",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284306/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284306/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284306",
+    "companyCode" : "NSLNISP",
+    "companyName" : "NMDC Steel",
+    "screenerCompanyLink" : "https://www.screener.in/company/NSLNISP",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284306/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284306/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "NSLNISP",
+      "companyName" : "NMDC Steel",
+      "marketCap" : 11963.00,
+      "peRatio" : null,
+      "description" : "National Mineral Development Corporation (NMDC), a Navratna Public Sector Enterprise under the Ministry of Steel, Government of India is the single largest producer of iron ore in India. It owns and operates iron ore mines in Chhattisgarh and Karnataka and has its registered office at Hyderabad, Telangana.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.27,
+      "pricePercentageAboveDma100" : 5.11,
+      "pricePercentageAboveDma200" : 5.14,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 15.56,
+      "operatingProfitMarginPercentile" : 18.46,
+      "netProfitMarginPercentile" : 9.33,
+      "totalTechnicalScore" : 25.52,
+      "totalFundamentalScore" : 43.35,
+      "totalScore" : 68.87
+    }
   },
   "attributes" : {
-    "company_code" : "NSLNISP",
-    "company_name" : "NMDC Steel",
-    "market_cap" : 12092.00,
-    "pe_ratio" : null,
+    "companyCode" : "NSLNISP",
+    "companyName" : "NMDC Steel",
+    "marketCap" : 11963.00,
+    "peRatio" : null,
     "description" : "National Mineral Development Corporation (NMDC), a Navratna Public Sector Enterprise under the Ministry of Steel, Government of India is the single largest producer of iron ore in India. It owns and operates iron ore mines in Chhattisgarh and Karnataka and has its registered office at Hyderabad, Telangana.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 44.26,
     "dma50" : 48.57,
@@ -1752,10 +1777,178 @@
     "volume" : 3308589.00
   }, {
     "date" : "2025-11-24",
-    "price" : 41.30,
-    "dma50" : 43.31,
+    "price" : 41.00,
+    "dma50" : 43.30,
     "dma100" : 41.92,
-    "dma200" : 42.21,
-    "volume" : 1388993.00
-  } ]
+    "dma200" : 42.20,
+    "volume" : 2249723.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 41.00,
+    "dma50" : 43.30,
+    "dma100" : 41.92,
+    "dma200" : 42.20,
+    "volume" : 2249723.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2022-03-31",
+    "sales" : 0.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 0.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 0.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 0.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 277.41,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : 34.86,
+    "grossProfit" : 96.71,
+    "operatingProfitMargin" : -26.04,
+    "operatingProfit" : -72.24,
+    "netProfitMargin" : -47.26,
+    "netProfit" : -131.10
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 925.85,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : 12.56,
+    "grossProfit" : 116.29,
+    "operatingProfitMargin" : -44.19,
+    "operatingProfit" : -409.13,
+    "netProfitMargin" : -61.39,
+    "netProfit" : -568.38
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 1845.73,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : -20.57,
+    "grossProfit" : -379.67,
+    "operatingProfitMargin" : -51.77,
+    "operatingProfit" : -955.53,
+    "netProfitMargin" : -46.64,
+    "netProfit" : -860.85
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 2022.91,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : 5.53,
+    "grossProfit" : 111.87,
+    "operatingProfitMargin" : -19.83,
+    "operatingProfit" : -401.14,
+    "netProfitMargin" : -27.05,
+    "netProfit" : -547.20
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 1522.35,
+    "salesGrowthYoY" : 448.77,
+    "grossProfitMargin" : 16.23,
+    "grossProfit" : 247.08,
+    "operatingProfitMargin" : -28.94,
+    "operatingProfit" : -440.57,
+    "netProfitMargin" : -39.11,
+    "netProfit" : -595.39
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 2119.54,
+    "salesGrowthYoY" : 128.93,
+    "grossProfitMargin" : 3.49,
+    "grossProfit" : 73.97,
+    "operatingProfitMargin" : -30.95,
+    "operatingProfit" : -656.00,
+    "netProfitMargin" : -35.75,
+    "netProfit" : -757.74
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 2838.25,
+    "salesGrowthYoY" : 53.77,
+    "grossProfitMargin" : 18.77,
+    "grossProfit" : 532.74,
+    "operatingProfitMargin" : -10.24,
+    "operatingProfit" : -290.64,
+    "netProfitMargin" : -16.68,
+    "netProfit" : -473.42
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 3365.22,
+    "salesGrowthYoY" : 66.36,
+    "grossProfitMargin" : 36.17,
+    "grossProfit" : 1217.20,
+    "operatingProfitMargin" : 12.11,
+    "operatingProfit" : 407.53,
+    "netProfitMargin" : 0.76,
+    "netProfit" : 25.58
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 3389.90,
+    "salesGrowthYoY" : 122.68,
+    "grossProfitMargin" : 30.07,
+    "grossProfit" : 1019.34,
+    "operatingProfitMargin" : 6.11,
+    "operatingProfit" : 207.12,
+    "netProfitMargin" : -3.39,
+    "netProfit" : -114.92
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 3389.90,
+    "salesGrowthYoY" : 122.68,
+    "grossProfitMargin" : 30.07,
+    "grossProfit" : 1019.34,
+    "operatingProfitMargin" : 6.11,
+    "operatingProfit" : 207.12,
+    "netProfitMargin" : -3.39,
+    "netProfit" : -114.92
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.27,
+    "pricePercentageAboveDma100" : 5.11,
+    "pricePercentageAboveDma200" : 5.14,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 15.56,
+    "operatingProfitMarginPercentile" : 18.46,
+    "netProfitMarginPercentile" : 9.33,
+    "totalTechnicalScore" : 25.52,
+    "totalFundamentalScore" : 43.35,
+    "totalScore" : 68.87
+  }
 }

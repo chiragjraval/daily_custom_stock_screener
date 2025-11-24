@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284488",
-    "company_code" : "RRKABEL",
-    "company_name" : "R R Kabel",
-    "screener_company_link" : "https://www.screener.in/company/RRKABEL",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284488/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284488/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284488",
+    "companyCode" : "RRKABEL",
+    "companyName" : "R R Kabel",
+    "screenerCompanyLink" : "https://www.screener.in/company/RRKABEL",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284488/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284488/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "RRKABEL",
+      "companyName" : "R R Kabel",
+      "marketCap" : 15237.00,
+      "peRatio" : 38.00,
+      "description" : "Incorporated in 1995, RR Kabel provides consumer electrical products used for residential, commercial, industrial, and infrastructure purposes in two major segments, namely wires and cables including house wires, industrial wires, power cables, and special cables; and FMEG including fans, lighting, switches, and appliances."
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.94,
+      "pricePercentageAboveDma100" : 4.86,
+      "pricePercentageAboveDma200" : 4.85,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 17.78,
+      "operatingProfitMarginPercentile" : 18.46,
+      "netProfitMarginPercentile" : 9.23,
+      "totalTechnicalScore" : 44.65,
+      "totalFundamentalScore" : 45.47,
+      "totalScore" : 90.12
+    }
   },
   "attributes" : {
-    "company_code" : "RRKABEL",
-    "company_name" : "R R Kabel",
-    "market_cap" : 14987.00,
-    "pe_ratio" : 37.40,
+    "companyCode" : "RRKABEL",
+    "companyName" : "R R Kabel",
+    "marketCap" : 15237.00,
+    "peRatio" : 38.00,
     "description" : "Incorporated in 1995, RR Kabel provides consumer electrical products used for residential, commercial, industrial, and infrastructure purposes in two major segments, namely wires and cables including house wires, industrial wires, power cables, and special cables; and FMEG including fans, lighting, switches, and appliances."
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 1471.50,
     "dma50" : 1592.93,
@@ -1752,10 +1777,178 @@
     "volume" : 137529.00
   }, {
     "date" : "2025-11-24",
-    "price" : 1325.00,
-    "dma50" : 1322.44,
-    "dma100" : 1304.09,
-    "dma200" : 1301.81,
-    "volume" : 67483.00
-  } ]
+    "price" : 1340.10,
+    "dma50" : 1323.03,
+    "dma100" : 1304.24,
+    "dma200" : 1301.96,
+    "volume" : 117624.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 1340.10,
+    "dma50" : 1323.03,
+    "dma100" : 1304.24,
+    "dma200" : 1301.96,
+    "volume" : 117624.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2022-09-30",
+    "sales" : 1367.24,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 17.43,
+    "grossProfit" : 238.31,
+    "operatingProfitMargin" : 4.71,
+    "operatingProfit" : 64.40,
+    "netProfitMargin" : 2.67,
+    "netProfit" : 36.51
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 1479.53,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 20.21,
+    "grossProfit" : 299.01,
+    "operatingProfitMargin" : 7.95,
+    "operatingProfit" : 117.62,
+    "netProfitMargin" : 4.69,
+    "netProfit" : 69.39
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 1516.52,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 19.30,
+    "grossProfit" : 292.69,
+    "operatingProfitMargin" : 6.62,
+    "operatingProfit" : 100.39,
+    "netProfitMargin" : 4.26,
+    "netProfit" : 64.60
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 1597.31,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 18.27,
+    "grossProfit" : 291.83,
+    "operatingProfitMargin" : 7.07,
+    "operatingProfit" : 112.93,
+    "netProfitMargin" : 4.61,
+    "netProfit" : 73.64
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 1609.67,
+    "salesGrowthYoY" : 17.73,
+    "grossProfitMargin" : 19.85,
+    "grossProfit" : 319.52,
+    "operatingProfitMargin" : 7.51,
+    "operatingProfit" : 120.89,
+    "netProfitMargin" : 4.59,
+    "netProfit" : 73.88
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 1633.52,
+    "salesGrowthYoY" : 10.41,
+    "grossProfitMargin" : 19.08,
+    "grossProfit" : 311.68,
+    "operatingProfitMargin" : 6.89,
+    "operatingProfit" : 112.55,
+    "netProfitMargin" : 4.34,
+    "netProfit" : 70.89
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 1754.07,
+    "salesGrowthYoY" : 15.66,
+    "grossProfitMargin" : 18.40,
+    "grossProfit" : 322.75,
+    "operatingProfitMargin" : 6.57,
+    "operatingProfit" : 115.24,
+    "netProfitMargin" : 4.47,
+    "netProfit" : 78.41
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 1808.11,
+    "salesGrowthYoY" : 13.20,
+    "grossProfitMargin" : 17.36,
+    "grossProfit" : 313.89,
+    "operatingProfitMargin" : 5.25,
+    "operatingProfit" : 94.93,
+    "netProfitMargin" : 3.53,
+    "netProfit" : 63.83
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 1810.14,
+    "salesGrowthYoY" : 12.45,
+    "grossProfitMargin" : 15.91,
+    "grossProfit" : 287.99,
+    "operatingProfitMargin" : 4.74,
+    "operatingProfit" : 85.80,
+    "netProfitMargin" : 2.75,
+    "netProfit" : 49.78
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 1782.15,
+    "salesGrowthYoY" : 9.10,
+    "grossProfitMargin" : 18.33,
+    "grossProfit" : 326.67,
+    "operatingProfitMargin" : 6.20,
+    "operatingProfit" : 110.49,
+    "netProfitMargin" : 3.82,
+    "netProfit" : 68.08
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 2217.84,
+    "salesGrowthYoY" : 26.44,
+    "grossProfitMargin" : 19.60,
+    "grossProfit" : 434.70,
+    "operatingProfitMargin" : 8.76,
+    "operatingProfit" : 194.28,
+    "netProfitMargin" : 5.76,
+    "netProfit" : 127.75
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 2058.59,
+    "salesGrowthYoY" : 13.85,
+    "grossProfitMargin" : 18.18,
+    "grossProfit" : 374.25,
+    "operatingProfitMargin" : 6.90,
+    "operatingProfit" : 142.04,
+    "netProfitMargin" : 4.31,
+    "netProfit" : 88.73
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 2163.77,
+    "salesGrowthYoY" : 19.54,
+    "grossProfitMargin" : 18.87,
+    "grossProfit" : 408.30,
+    "operatingProfitMargin" : 8.12,
+    "operatingProfit" : 175.70,
+    "netProfitMargin" : 5.36,
+    "netProfit" : 115.98
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 2163.77,
+    "salesGrowthYoY" : 19.54,
+    "grossProfitMargin" : 18.87,
+    "grossProfit" : 408.30,
+    "operatingProfitMargin" : 8.12,
+    "operatingProfit" : 175.70,
+    "netProfitMargin" : 5.36,
+    "netProfit" : 115.98
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.94,
+    "pricePercentageAboveDma100" : 4.86,
+    "pricePercentageAboveDma200" : 4.85,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 17.78,
+    "operatingProfitMarginPercentile" : 18.46,
+    "netProfitMarginPercentile" : 9.23,
+    "totalTechnicalScore" : 44.65,
+    "totalFundamentalScore" : 45.47,
+    "totalScore" : 90.12
+  }
 }

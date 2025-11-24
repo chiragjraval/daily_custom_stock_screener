@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274871",
-    "company_code" : "PGINVIT",
-    "company_name" : "Powergrid Infra.",
-    "screener_company_link" : "https://www.screener.in/company/PGINVIT",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274871/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274871/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274871",
+    "companyCode" : "PGINVIT",
+    "companyName" : "Powergrid Infra.",
+    "screenerCompanyLink" : "https://www.screener.in/company/PGINVIT",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274871/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274871/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "PGINVIT",
+      "companyName" : "Powergrid Infra.",
+      "marketCap" : 8639.00,
+      "peRatio" : 4.38,
+      "description" : "Powergrid InvIT (Infrastructure Investment Trust) owns, constructs, operates, maintains, and invests in power transmission assets in India. Powergrid InvIT registered with SEBI as an InvIT on January 7, 2021.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.01,
+      "pricePercentageAboveDma100" : 4.95,
+      "pricePercentageAboveDma200" : 4.79,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 17.33,
+      "operatingProfitMarginPercentile" : 10.53,
+      "netProfitMarginPercentile" : 4.61,
+      "totalTechnicalScore" : 39.75,
+      "totalFundamentalScore" : 32.47,
+      "totalScore" : 72.22
+    }
   },
   "attributes" : {
-    "company_code" : "PGINVIT",
-    "company_name" : "Powergrid Infra.",
-    "market_cap" : 8716.00,
-    "pe_ratio" : 4.38,
+    "companyCode" : "PGINVIT",
+    "companyName" : "Powergrid Infra.",
+    "marketCap" : 8639.00,
+    "peRatio" : 4.38,
     "description" : "Powergrid InvIT (Infrastructure Investment Trust) owns, constructs, operates, maintains, and invests in power transmission assets in India. Powergrid InvIT registered with SEBI as an InvIT on January 7, 2021.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 85.98,
     "dma50" : 89.51,
@@ -1752,10 +1777,238 @@
     "volume" : 852373.00
   }, {
     "date" : "2025-11-24",
-    "price" : 95.70,
-    "dma50" : 95.09,
-    "dma100" : 93.79,
-    "dma200" : 91.00,
-    "volume" : 242404.00
-  } ]
+    "price" : 94.80,
+    "dma50" : 95.05,
+    "dma100" : 93.78,
+    "dma200" : 90.99,
+    "volume" : 1103053.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 94.80,
+    "dma50" : 95.05,
+    "dma100" : 93.78,
+    "dma200" : 90.99,
+    "volume" : 1103053.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2020-09-30",
+    "sales" : 661.39,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 661.39,
+    "operatingProfitMargin" : 97.29,
+    "operatingProfit" : 643.47,
+    "netProfitMargin" : 31.58,
+    "netProfit" : 208.87
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 282.06,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 282.06,
+    "operatingProfitMargin" : 85.89,
+    "operatingProfit" : 242.26,
+    "netProfitMargin" : 86.10,
+    "netProfit" : 242.85
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 319.60,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 319.60,
+    "operatingProfitMargin" : 53.70,
+    "operatingProfit" : 171.63,
+    "netProfitMargin" : 53.70,
+    "netProfit" : 171.63
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 274.26,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 274.26,
+    "operatingProfitMargin" : 99.16,
+    "operatingProfit" : 271.96,
+    "netProfitMargin" : 99.46,
+    "netProfit" : 272.78
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 282.06,
+    "salesGrowthYoY" : -57.35,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 282.06,
+    "operatingProfitMargin" : 85.89,
+    "operatingProfit" : 242.26,
+    "netProfitMargin" : 86.10,
+    "netProfit" : 242.85
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 267.98,
+    "salesGrowthYoY" : -4.99,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 267.98,
+    "operatingProfitMargin" : 98.88,
+    "operatingProfit" : 264.98,
+    "netProfitMargin" : 96.11,
+    "netProfit" : 257.56
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 274.77,
+    "salesGrowthYoY" : -14.03,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 274.77,
+    "operatingProfitMargin" : -332.20,
+    "operatingProfit" : -912.79,
+    "netProfitMargin" : -335.70,
+    "netProfit" : -922.40
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 256.93,
+    "salesGrowthYoY" : -6.32,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 256.93,
+    "operatingProfitMargin" : 99.06,
+    "operatingProfit" : 254.51,
+    "netProfitMargin" : 94.93,
+    "netProfit" : 243.90
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 249.36,
+    "salesGrowthYoY" : -11.59,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 249.36,
+    "operatingProfitMargin" : 62.31,
+    "operatingProfit" : 155.38,
+    "netProfitMargin" : 58.08,
+    "netProfit" : 144.83
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 229.11,
+    "salesGrowthYoY" : -14.50,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 229.11,
+    "operatingProfitMargin" : 98.63,
+    "operatingProfit" : 225.97,
+    "netProfitMargin" : 94.10,
+    "netProfit" : 215.59
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 243.92,
+    "salesGrowthYoY" : -11.23,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 243.92,
+    "operatingProfitMargin" : 138.09,
+    "operatingProfit" : 336.83,
+    "netProfitMargin" : 133.74,
+    "netProfit" : 326.22
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 240.74,
+    "salesGrowthYoY" : -6.30,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 240.74,
+    "operatingProfitMargin" : 98.91,
+    "operatingProfit" : 238.12,
+    "netProfitMargin" : 94.53,
+    "netProfit" : 227.57
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 231.63,
+    "salesGrowthYoY" : -7.11,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 231.63,
+    "operatingProfitMargin" : 114.10,
+    "operatingProfit" : 264.29,
+    "netProfitMargin" : 109.49,
+    "netProfit" : 253.61
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 177.32,
+    "salesGrowthYoY" : -22.60,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 177.32,
+    "operatingProfitMargin" : 98.05,
+    "operatingProfit" : 173.86,
+    "netProfitMargin" : 92.48,
+    "netProfit" : 163.99
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 222.82,
+    "salesGrowthYoY" : -8.65,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 222.82,
+    "operatingProfitMargin" : 85.56,
+    "operatingProfit" : 190.64,
+    "netProfitMargin" : 80.71,
+    "netProfit" : 179.84
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 265.44,
+    "salesGrowthYoY" : 10.26,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 265.44,
+    "operatingProfitMargin" : 98.94,
+    "operatingProfit" : 262.63,
+    "netProfitMargin" : 94.88,
+    "netProfit" : 251.85
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 219.03,
+    "salesGrowthYoY" : -5.44,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 219.03,
+    "operatingProfitMargin" : 598.98,
+    "operatingProfit" : 1311.95,
+    "netProfitMargin" : 589.79,
+    "netProfit" : 1291.82
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 244.70,
+    "salesGrowthYoY" : 38.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 244.70,
+    "operatingProfitMargin" : 98.52,
+    "operatingProfit" : 241.08,
+    "netProfitMargin" : 91.03,
+    "netProfit" : 222.75
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 225.23,
+    "salesGrowthYoY" : 1.08,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 225.23,
+    "operatingProfitMargin" : 98.59,
+    "operatingProfit" : 222.05,
+    "netProfitMargin" : 90.90,
+    "netProfit" : 204.73
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 225.23,
+    "salesGrowthYoY" : 1.08,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 225.23,
+    "operatingProfitMargin" : 98.59,
+    "operatingProfit" : 222.05,
+    "netProfitMargin" : 90.90,
+    "netProfit" : 204.73
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.01,
+    "pricePercentageAboveDma100" : 4.95,
+    "pricePercentageAboveDma200" : 4.79,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 17.33,
+    "operatingProfitMarginPercentile" : 10.53,
+    "netProfitMarginPercentile" : 4.61,
+    "totalTechnicalScore" : 39.75,
+    "totalFundamentalScore" : 32.47,
+    "totalScore" : 72.22
+  }
 }

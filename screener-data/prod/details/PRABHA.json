@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285423",
-    "company_code" : "PRABHA",
-    "company_name" : "Prabha Energy",
-    "screener_company_link" : "https://www.screener.in/company/PRABHA",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285423/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285423/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285423",
+    "companyCode" : "PRABHA",
+    "companyName" : "Prabha Energy",
+    "screenerCompanyLink" : "https://www.screener.in/company/PRABHA",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285423/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285423/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "PRABHA",
+      "companyName" : "Prabha Energy",
+      "marketCap" : 2665.00,
+      "peRatio" : null,
+      "description" : "Incorporated in 2009, Prabha Energy Ltd operates mainly in oil and gas exploration & production[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.53,
+      "pricePercentageAboveDma100" : 5.99,
+      "pricePercentageAboveDma200" : 5.72,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 15.00,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 22.24,
+      "totalFundamentalScore" : 45.00,
+      "totalScore" : 67.24
+    }
   },
   "attributes" : {
-    "company_code" : "PRABHA",
-    "company_name" : "Prabha Energy",
-    "market_cap" : 2679.00,
-    "pe_ratio" : null,
+    "companyCode" : "PRABHA",
+    "companyName" : "Prabha Energy",
+    "marketCap" : 2665.00,
+    "peRatio" : null,
     "description" : "Incorporated in 2009, Prabha Energy Ltd operates mainly in oil and gas exploration & production[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-03-19",
     "price" : 210.94,
     "dma50" : 210.94,
@@ -1192,10 +1217,128 @@
     "volume" : 23715.00
   }, {
     "date" : "2025-11-24",
-    "price" : 195.55,
-    "dma50" : 216.83,
-    "dma100" : 242.21,
-    "dma200" : 226.89,
-    "volume" : 21623.00
-  } ]
+    "price" : 194.00,
+    "dma50" : 216.76,
+    "dma100" : 242.19,
+    "dma200" : 226.87,
+    "volume" : 28782.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 194.00,
+    "dma50" : 216.76,
+    "dma100" : 242.19,
+    "dma200" : 226.87,
+    "volume" : 28782.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2023-12-31",
+    "sales" : 0.04,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : -125.00,
+    "grossProfit" : -0.05,
+    "operatingProfitMargin" : -975.00,
+    "operatingProfit" : -0.39,
+    "netProfitMargin" : -625.00,
+    "netProfit" : -0.25
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 0.44,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 15.91,
+    "grossProfit" : 0.07,
+    "operatingProfitMargin" : -54.55,
+    "operatingProfit" : -0.24,
+    "netProfitMargin" : -25.00,
+    "netProfit" : -0.11
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 0.38,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : -86.84,
+    "operatingProfit" : -0.33,
+    "netProfitMargin" : -81.58,
+    "netProfit" : -0.31
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 0.39,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : -100.00,
+    "operatingProfit" : -0.39,
+    "netProfitMargin" : -58.97,
+    "netProfit" : -0.23
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 0.40,
+    "salesGrowthYoY" : 900.00,
+    "grossProfitMargin" : 2.50,
+    "grossProfit" : 0.01,
+    "operatingProfitMargin" : -75.00,
+    "operatingProfit" : -0.30,
+    "netProfitMargin" : -57.50,
+    "netProfit" : -0.23
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 0.40,
+    "salesGrowthYoY" : -9.09,
+    "grossProfitMargin" : 17.50,
+    "grossProfit" : 0.07,
+    "operatingProfitMargin" : -382.50,
+    "operatingProfit" : -1.53,
+    "netProfitMargin" : -197.50,
+    "netProfit" : -0.79
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 0.52,
+    "salesGrowthYoY" : 36.84,
+    "grossProfitMargin" : -7.69,
+    "grossProfit" : -0.04,
+    "operatingProfitMargin" : -84.62,
+    "operatingProfit" : -0.44,
+    "netProfitMargin" : -51.92,
+    "netProfit" : -0.27
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 1.16,
+    "salesGrowthYoY" : 197.44,
+    "grossProfitMargin" : -4.31,
+    "grossProfit" : -0.05,
+    "operatingProfitMargin" : -42.24,
+    "operatingProfit" : -0.49,
+    "netProfitMargin" : -20.69,
+    "netProfit" : -0.24
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 1.16,
+    "salesGrowthYoY" : 197.44,
+    "grossProfitMargin" : -4.31,
+    "grossProfit" : -0.05,
+    "operatingProfitMargin" : -42.24,
+    "operatingProfit" : -0.49,
+    "netProfitMargin" : -20.69,
+    "netProfit" : -0.24
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.53,
+    "pricePercentageAboveDma100" : 5.99,
+    "pricePercentageAboveDma200" : 5.72,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 15.00,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 22.24,
+    "totalFundamentalScore" : 45.00,
+    "totalScore" : 67.24
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1275197",
-    "company_code" : "GMRP&UI",
-    "company_name" : "GMR Urban",
-    "screener_company_link" : "https://www.screener.in/company/GMRP&UI",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1275197/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1275197/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1275197",
+    "companyCode" : "GMRP&UI",
+    "companyName" : "GMR Urban",
+    "screenerCompanyLink" : "https://www.screener.in/company/GMRP&UI",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1275197/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1275197/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "GMRP&UI",
+      "companyName" : "GMR Urban",
+      "marketCap" : 8795.00,
+      "peRatio" : null,
+      "description" : "GMR Power and Urban Infra Limited (GPUIL), a subsidiary of GEPL holds expertise in the sectors of Energy, Urban Infrastructure, and Transportation.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.90,
+      "pricePercentageAboveDma100" : 4.79,
+      "pricePercentageAboveDma200" : 4.67,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 5.33,
+      "operatingProfitMarginPercentile" : 16.18,
+      "netProfitMarginPercentile" : 0.53,
+      "totalTechnicalScore" : 49.35,
+      "totalFundamentalScore" : 22.04,
+      "totalScore" : 71.39
+    }
   },
   "attributes" : {
-    "company_code" : "GMRP&UI",
-    "company_name" : "GMR Urban",
-    "market_cap" : 8759.00,
-    "pe_ratio" : null,
+    "companyCode" : "GMRP&UI",
+    "companyName" : "GMR Urban",
+    "marketCap" : 8795.00,
+    "peRatio" : null,
     "description" : "GMR Power and Urban Infra Limited (GPUIL), a subsidiary of GEPL holds expertise in the sectors of Energy, Urban Infrastructure, and Transportation.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 104.73,
     "dma50" : 118.77,
@@ -1752,10 +1777,238 @@
     "volume" : 2458449.00
   }, {
     "date" : "2025-11-24",
-    "price" : 122.85,
-    "dma50" : 119.55,
-    "dma100" : 116.98,
-    "dma200" : 114.42,
-    "volume" : 891967.00
-  } ]
+    "price" : 122.00,
+    "dma50" : 119.52,
+    "dma100" : 116.97,
+    "dma200" : 114.41,
+    "volume" : 1343557.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 122.00,
+    "dma50" : 119.52,
+    "dma100" : 116.97,
+    "dma200" : 114.41,
+    "volume" : 1343557.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2021-03-31",
+    "sales" : 502.60,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 40.75,
+    "grossProfit" : 204.81,
+    "operatingProfitMargin" : 16.79,
+    "operatingProfit" : 84.39,
+    "netProfitMargin" : -23.90,
+    "netProfit" : -120.12
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 351.99,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 60.71,
+    "grossProfit" : 213.69,
+    "operatingProfitMargin" : 30.78,
+    "operatingProfit" : 108.34,
+    "netProfitMargin" : -10.12,
+    "netProfit" : -35.62
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 428.24,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 56.46,
+    "grossProfit" : 241.78,
+    "operatingProfitMargin" : 33.04,
+    "operatingProfit" : 141.49,
+    "netProfitMargin" : -3.54,
+    "netProfit" : -15.16
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 363.10,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 61.53,
+    "grossProfit" : 223.42,
+    "operatingProfitMargin" : 35.51,
+    "operatingProfit" : 128.94,
+    "netProfitMargin" : -11.15,
+    "netProfit" : -40.49
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 424.89,
+    "salesGrowthYoY" : -15.46,
+    "grossProfitMargin" : 55.90,
+    "grossProfit" : 237.51,
+    "operatingProfitMargin" : 21.44,
+    "operatingProfit" : 91.10,
+    "netProfitMargin" : -17.20,
+    "netProfit" : -73.08
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 377.29,
+    "salesGrowthYoY" : 7.19,
+    "grossProfitMargin" : 58.86,
+    "grossProfit" : 222.07,
+    "operatingProfitMargin" : 22.55,
+    "operatingProfit" : 85.08,
+    "netProfitMargin" : -14.23,
+    "netProfit" : -53.69
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 469.53,
+    "salesGrowthYoY" : 9.64,
+    "grossProfitMargin" : 53.82,
+    "grossProfit" : 252.70,
+    "operatingProfitMargin" : 19.39,
+    "operatingProfit" : 91.04,
+    "netProfitMargin" : -9.88,
+    "netProfit" : -46.39
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 273.01,
+    "salesGrowthYoY" : -24.81,
+    "grossProfitMargin" : 69.48,
+    "grossProfit" : 189.69,
+    "operatingProfitMargin" : 36.84,
+    "operatingProfit" : 100.58,
+    "netProfitMargin" : -13.42,
+    "netProfit" : -36.64
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 288.95,
+    "salesGrowthYoY" : -31.99,
+    "grossProfitMargin" : 53.71,
+    "grossProfit" : 155.20,
+    "operatingProfitMargin" : 14.70,
+    "operatingProfit" : 42.48,
+    "netProfitMargin" : -27.46,
+    "netProfit" : -79.35
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 257.64,
+    "salesGrowthYoY" : -31.71,
+    "grossProfitMargin" : 82.41,
+    "grossProfit" : 212.32,
+    "operatingProfitMargin" : 53.80,
+    "operatingProfit" : 138.61,
+    "netProfitMargin" : 9.65,
+    "netProfit" : 24.86
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 202.44,
+    "salesGrowthYoY" : -56.88,
+    "grossProfitMargin" : 86.79,
+    "grossProfit" : 175.70,
+    "operatingProfitMargin" : 44.67,
+    "operatingProfit" : 90.43,
+    "netProfitMargin" : -5.67,
+    "netProfit" : -11.48
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 168.72,
+    "salesGrowthYoY" : -38.20,
+    "grossProfitMargin" : 85.27,
+    "grossProfit" : 143.87,
+    "operatingProfitMargin" : 50.52,
+    "operatingProfit" : 85.24,
+    "netProfitMargin" : -10.72,
+    "netProfit" : -18.09
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 150.16,
+    "salesGrowthYoY" : -48.03,
+    "grossProfitMargin" : 92.94,
+    "grossProfit" : 139.56,
+    "operatingProfitMargin" : 57.63,
+    "operatingProfit" : 86.54,
+    "netProfitMargin" : -21.54,
+    "netProfit" : -32.34
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 130.50,
+    "salesGrowthYoY" : -49.35,
+    "grossProfitMargin" : 89.05,
+    "grossProfit" : 116.21,
+    "operatingProfitMargin" : 57.58,
+    "operatingProfit" : 75.14,
+    "netProfitMargin" : -20.11,
+    "netProfit" : -26.24
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 145.05,
+    "salesGrowthYoY" : -28.35,
+    "grossProfitMargin" : 93.81,
+    "grossProfit" : 136.07,
+    "operatingProfitMargin" : 62.69,
+    "operatingProfit" : 90.93,
+    "netProfitMargin" : 26.36,
+    "netProfit" : 38.24
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 100.93,
+    "salesGrowthYoY" : -40.18,
+    "grossProfitMargin" : 92.61,
+    "grossProfit" : 93.47,
+    "operatingProfitMargin" : 53.27,
+    "operatingProfit" : 53.77,
+    "netProfitMargin" : 0.90,
+    "netProfit" : 0.91
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 104.41,
+    "salesGrowthYoY" : -30.47,
+    "grossProfitMargin" : 96.22,
+    "grossProfit" : 100.46,
+    "operatingProfitMargin" : 56.56,
+    "operatingProfit" : 59.05,
+    "netProfitMargin" : -3.12,
+    "netProfit" : -3.26
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 94.30,
+    "salesGrowthYoY" : -27.74,
+    "grossProfitMargin" : 96.18,
+    "grossProfit" : 90.70,
+    "operatingProfitMargin" : 65.76,
+    "operatingProfit" : 62.01,
+    "netProfitMargin" : -37.45,
+    "netProfit" : -35.32
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 81.21,
+    "salesGrowthYoY" : -44.01,
+    "grossProfitMargin" : 95.28,
+    "grossProfit" : 77.38,
+    "operatingProfitMargin" : 56.02,
+    "operatingProfit" : 45.49,
+    "netProfitMargin" : -43.33,
+    "netProfit" : -35.19
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 81.21,
+    "salesGrowthYoY" : -44.01,
+    "grossProfitMargin" : 95.28,
+    "grossProfit" : 77.38,
+    "operatingProfitMargin" : 56.02,
+    "operatingProfit" : 45.49,
+    "netProfitMargin" : -43.33,
+    "netProfit" : -35.19
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.90,
+    "pricePercentageAboveDma100" : 4.79,
+    "pricePercentageAboveDma200" : 4.67,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 5.33,
+    "operatingProfitMarginPercentile" : 16.18,
+    "netProfitMarginPercentile" : 0.53,
+    "totalTechnicalScore" : 49.35,
+    "totalFundamentalScore" : 22.04,
+    "totalScore" : 71.39
+  }
 }

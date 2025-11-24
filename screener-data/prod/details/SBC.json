@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274676",
-    "company_code" : "SBC",
-    "company_name" : "SBC Exports",
-    "screener_company_link" : "https://www.screener.in/company/SBC",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274676/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274676/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274676",
+    "companyCode" : "SBC",
+    "companyName" : "SBC Exports",
+    "screenerCompanyLink" : "https://www.screener.in/company/SBC",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274676/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274676/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "SBC",
+      "companyName" : "SBC Exports",
+      "marketCap" : 1238.00,
+      "peRatio" : 60.70,
+      "description" : "Incorporated in 2011, SBC Exports Ltd does trading and Manufacturing of Garments, Manpower Supply and Services & Tour Operator Services[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.40,
+      "pricePercentageAboveDma100" : 3.63,
+      "pricePercentageAboveDma200" : 3.20,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 16.00,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 46.23,
+      "totalFundamentalScore" : 46.00,
+      "totalScore" : 92.23
+    }
   },
   "attributes" : {
-    "company_code" : "SBC",
-    "company_name" : "SBC Exports",
-    "market_cap" : 1245.00,
-    "pe_ratio" : 61.00,
+    "companyCode" : "SBC",
+    "companyName" : "SBC Exports",
+    "marketCap" : 1238.00,
+    "peRatio" : 60.70,
     "description" : "Incorporated in 2011, SBC Exports Ltd does trading and Manufacturing of Garments, Manpower Supply and Services & Tour Operator Services[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 18.33,
     "dma50" : 19.59,
@@ -1752,10 +1777,288 @@
     "volume" : 15246209.00
   }, {
     "date" : "2025-11-24",
-    "price" : 26.14,
+    "price" : 26.08,
     "dma50" : 23.27,
     "dma100" : 20.48,
     "dma200" : 19.17,
-    "volume" : 4889820.00
-  } ]
+    "volume" : 8157800.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 26.08,
+    "dma50" : 23.27,
+    "dma100" : 20.48,
+    "dma200" : 19.17,
+    "volume" : 8157800.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2019-03-31",
+    "sales" : 41.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 12.15,
+    "grossProfit" : 4.98,
+    "operatingProfitMargin" : 3.05,
+    "operatingProfit" : 1.25,
+    "netProfitMargin" : 1.41,
+    "netProfit" : 0.58
+  }, {
+    "date" : "2019-09-30",
+    "sales" : 49.72,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 12.47,
+    "grossProfit" : 6.20,
+    "operatingProfitMargin" : 4.34,
+    "operatingProfit" : 2.16,
+    "netProfitMargin" : 2.07,
+    "netProfit" : 1.03
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 50.50,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 11.94,
+    "grossProfit" : 6.03,
+    "operatingProfitMargin" : 3.96,
+    "operatingProfit" : 2.00,
+    "netProfitMargin" : 0.50,
+    "netProfit" : 0.25
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 52.23,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 10.74,
+    "grossProfit" : 5.61,
+    "operatingProfitMargin" : 2.85,
+    "operatingProfit" : 1.49,
+    "netProfitMargin" : 1.80,
+    "netProfit" : 0.94
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 26.76,
+    "salesGrowthYoY" : -34.73,
+    "grossProfitMargin" : 10.46,
+    "grossProfit" : 2.80,
+    "operatingProfitMargin" : 3.36,
+    "operatingProfit" : 0.90,
+    "netProfitMargin" : 1.23,
+    "netProfit" : 0.33
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 77.64,
+    "salesGrowthYoY" : 56.15,
+    "grossProfitMargin" : 10.14,
+    "grossProfit" : 7.87,
+    "operatingProfitMargin" : 3.44,
+    "operatingProfit" : 2.67,
+    "netProfitMargin" : 1.16,
+    "netProfit" : 0.90
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 8.11,
+    "salesGrowthYoY" : -83.94,
+    "grossProfitMargin" : 14.18,
+    "grossProfit" : 1.15,
+    "operatingProfitMargin" : -8.38,
+    "operatingProfit" : -0.68,
+    "netProfitMargin" : -10.85,
+    "netProfit" : -0.88
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 52.02,
+    "salesGrowthYoY" : -0.40,
+    "grossProfitMargin" : 11.94,
+    "grossProfit" : 6.21,
+    "operatingProfitMargin" : 5.02,
+    "operatingProfit" : 2.61,
+    "netProfitMargin" : 3.96,
+    "netProfit" : 2.06
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 56.10,
+    "salesGrowthYoY" : 109.64,
+    "grossProfitMargin" : 12.07,
+    "grossProfit" : 6.77,
+    "operatingProfitMargin" : 6.45,
+    "operatingProfit" : 3.62,
+    "netProfitMargin" : 5.44,
+    "netProfit" : 3.05
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 51.92,
+    "salesGrowthYoY" : -33.13,
+    "grossProfitMargin" : 15.45,
+    "grossProfit" : 8.02,
+    "operatingProfitMargin" : 3.93,
+    "operatingProfit" : 2.04,
+    "netProfitMargin" : 2.64,
+    "netProfit" : 1.37
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 40.18,
+    "salesGrowthYoY" : 395.44,
+    "grossProfitMargin" : 15.01,
+    "grossProfit" : 6.03,
+    "operatingProfitMargin" : 5.77,
+    "operatingProfit" : 2.32,
+    "netProfitMargin" : 5.82,
+    "netProfit" : 2.34
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 35.27,
+    "salesGrowthYoY" : -32.20,
+    "grossProfitMargin" : 21.09,
+    "grossProfit" : 7.44,
+    "operatingProfitMargin" : 6.04,
+    "operatingProfit" : 2.13,
+    "netProfitMargin" : 4.48,
+    "netProfit" : 1.58
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 47.74,
+    "salesGrowthYoY" : -14.90,
+    "grossProfitMargin" : 16.51,
+    "grossProfit" : 7.88,
+    "operatingProfitMargin" : 6.54,
+    "operatingProfit" : 3.12,
+    "netProfitMargin" : 4.88,
+    "netProfit" : 2.33
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 64.87,
+    "salesGrowthYoY" : 24.94,
+    "grossProfitMargin" : 13.94,
+    "grossProfit" : 9.04,
+    "operatingProfitMargin" : 4.39,
+    "operatingProfit" : 2.85,
+    "netProfitMargin" : 3.99,
+    "netProfit" : 2.59
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 49.61,
+    "salesGrowthYoY" : 23.47,
+    "grossProfitMargin" : 23.79,
+    "grossProfit" : 11.80,
+    "operatingProfitMargin" : 10.36,
+    "operatingProfit" : 5.14,
+    "netProfitMargin" : 9.23,
+    "netProfit" : 4.58
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 30.98,
+    "salesGrowthYoY" : -12.16,
+    "grossProfitMargin" : 25.02,
+    "grossProfit" : 7.75,
+    "operatingProfitMargin" : 11.78,
+    "operatingProfit" : 3.65,
+    "netProfitMargin" : 6.91,
+    "netProfit" : 2.14
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 47.81,
+    "salesGrowthYoY" : 0.15,
+    "grossProfitMargin" : 18.03,
+    "grossProfit" : 8.62,
+    "operatingProfitMargin" : 7.97,
+    "operatingProfit" : 3.81,
+    "netProfitMargin" : 5.94,
+    "netProfit" : 2.84
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 62.62,
+    "salesGrowthYoY" : -3.47,
+    "grossProfitMargin" : 18.70,
+    "grossProfit" : 11.71,
+    "operatingProfitMargin" : 6.16,
+    "operatingProfit" : 3.86,
+    "netProfitMargin" : 5.24,
+    "netProfit" : 3.28
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 57.06,
+    "salesGrowthYoY" : 15.02,
+    "grossProfitMargin" : 19.93,
+    "grossProfit" : 11.37,
+    "operatingProfitMargin" : 10.39,
+    "operatingProfit" : 5.93,
+    "netProfitMargin" : 9.11,
+    "netProfit" : 5.20
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 48.50,
+    "salesGrowthYoY" : 56.55,
+    "grossProfitMargin" : 24.39,
+    "grossProfit" : 11.83,
+    "operatingProfitMargin" : 11.34,
+    "operatingProfit" : 5.50,
+    "netProfitMargin" : 10.60,
+    "netProfit" : 5.14
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 50.02,
+    "salesGrowthYoY" : 4.62,
+    "grossProfitMargin" : 16.65,
+    "grossProfit" : 8.33,
+    "operatingProfitMargin" : 3.08,
+    "operatingProfit" : 1.54,
+    "netProfitMargin" : 6.72,
+    "netProfit" : 3.36
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 75.95,
+    "salesGrowthYoY" : 21.29,
+    "grossProfitMargin" : 15.00,
+    "grossProfit" : 11.39,
+    "operatingProfitMargin" : 4.94,
+    "operatingProfit" : 3.75,
+    "netProfitMargin" : 4.11,
+    "netProfit" : 3.12
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 61.36,
+    "salesGrowthYoY" : 7.54,
+    "grossProfitMargin" : 15.43,
+    "grossProfit" : 9.47,
+    "operatingProfitMargin" : 8.36,
+    "operatingProfit" : 5.13,
+    "netProfitMargin" : 5.54,
+    "netProfit" : 3.40
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 64.81,
+    "salesGrowthYoY" : 33.63,
+    "grossProfitMargin" : 23.70,
+    "grossProfit" : 15.36,
+    "operatingProfitMargin" : 15.14,
+    "operatingProfit" : 9.81,
+    "netProfitMargin" : 16.20,
+    "netProfit" : 10.50
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 64.81,
+    "salesGrowthYoY" : 33.63,
+    "grossProfitMargin" : 23.70,
+    "grossProfit" : 15.36,
+    "operatingProfitMargin" : 15.14,
+    "operatingProfit" : 9.81,
+    "netProfitMargin" : 16.20,
+    "netProfit" : 10.50
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.40,
+    "pricePercentageAboveDma100" : 3.63,
+    "pricePercentageAboveDma200" : 3.20,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 16.00,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 46.23,
+    "totalFundamentalScore" : 46.00,
+    "totalScore" : 92.23
+  }
 }

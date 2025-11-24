@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274695",
-    "company_code" : "360ONE",
-    "company_name" : "360 ONE",
-    "screener_company_link" : "https://www.screener.in/company/360ONE",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274695/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274695/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274695",
+    "companyCode" : "360ONE",
+    "companyName" : "360 ONE",
+    "screenerCompanyLink" : "https://www.screener.in/company/360ONE",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274695/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274695/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "360ONE",
+      "companyName" : "360 ONE",
+      "marketCap" : 45657.00,
+      "peRatio" : 154.00,
+      "description" : "IIFL Wealth Management Limited, founded in 2008, is one of the largest private wealth management firms in India. The company mainly acts as wealth manager and provides services relating to financial products distribution, advisory, portfolio management services by mobilizing funds and assets of various classes of investors including High Networth Individuals. [1][2]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.86,
+      "pricePercentageAboveDma100" : 4.87,
+      "pricePercentageAboveDma200" : 4.70,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 10.00,
+      "operatingProfitMarginPercentile" : 19.65,
+      "netProfitMarginPercentile" : 2.98,
+      "totalTechnicalScore" : 44.44,
+      "totalFundamentalScore" : 32.64,
+      "totalScore" : 77.07
+    }
   },
   "attributes" : {
-    "company_code" : "360ONE",
-    "company_name" : "360 ONE",
-    "market_cap" : 46470.00,
-    "pe_ratio" : 157.00,
+    "companyCode" : "360ONE",
+    "companyName" : "360 ONE",
+    "marketCap" : 45657.00,
+    "peRatio" : 154.00,
     "description" : "IIFL Wealth Management Limited, founded in 2008, is one of the largest private wealth management firms in India. The company mainly acts as wealth manager and provides services relating to financial products distribution, advisory, portfolio management services by mobilizing funds and assets of various classes of investors including High Networth Individuals. [1][2]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 1092.65,
     "dma50" : 1050.08,
@@ -1752,10 +1777,348 @@
     "volume" : 2829992.00
   }, {
     "date" : "2025-11-24",
-    "price" : 1146.90,
-    "dma50" : 1099.31,
-    "dma100" : 1100.12,
-    "dma200" : 1064.89,
-    "volume" : 504359.00
-  } ]
+    "price" : 1128.40,
+    "dma50" : 1098.58,
+    "dma100" : 1099.94,
+    "dma200" : 1064.71,
+    "volume" : 1185067.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 1128.40,
+    "dma50" : 1098.58,
+    "dma100" : 1099.94,
+    "dma200" : 1064.71,
+    "volume" : 1185067.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2018-06-30",
+    "sales" : 163.07,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 163.07,
+    "operatingProfitMargin" : 38.62,
+    "operatingProfit" : 62.98,
+    "netProfitMargin" : 28.61,
+    "netProfit" : 46.65
+  }, {
+    "date" : "2018-09-30",
+    "sales" : 170.69,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 170.69,
+    "operatingProfitMargin" : 43.31,
+    "operatingProfit" : 73.93,
+    "netProfitMargin" : 75.87,
+    "netProfit" : 129.50
+  }, {
+    "date" : "2018-12-31",
+    "sales" : 67.46,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 67.46,
+    "operatingProfitMargin" : -28.73,
+    "operatingProfit" : -19.38,
+    "netProfitMargin" : -23.01,
+    "netProfit" : -15.52
+  }, {
+    "date" : "2019-03-31",
+    "sales" : 4.74,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 4.74,
+    "operatingProfitMargin" : -206.96,
+    "operatingProfit" : -9.81,
+    "netProfitMargin" : -191.77,
+    "netProfit" : -9.09
+  }, {
+    "date" : "2019-06-30",
+    "sales" : 1.76,
+    "salesGrowthYoY" : -98.92,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1.76,
+    "operatingProfitMargin" : -1545.45,
+    "operatingProfit" : -27.20,
+    "netProfitMargin" : -1719.32,
+    "netProfit" : -30.26
+  }, {
+    "date" : "2019-09-30",
+    "sales" : 76.68,
+    "salesGrowthYoY" : -55.08,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 76.68,
+    "operatingProfitMargin" : 51.36,
+    "operatingProfit" : 39.38,
+    "netProfitMargin" : 239.27,
+    "netProfit" : 183.47
+  }, {
+    "date" : "2019-12-31",
+    "sales" : 45.03,
+    "salesGrowthYoY" : -33.25,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 45.03,
+    "operatingProfitMargin" : 19.54,
+    "operatingProfit" : 8.80,
+    "netProfitMargin" : -5.82,
+    "netProfit" : -2.62
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 92.79,
+    "salesGrowthYoY" : 1857.59,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 92.79,
+    "operatingProfitMargin" : 71.47,
+    "operatingProfit" : 66.32,
+    "netProfitMargin" : 46.22,
+    "netProfit" : 42.89
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 34.50,
+    "salesGrowthYoY" : 1860.23,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 34.50,
+    "operatingProfitMargin" : 50.20,
+    "operatingProfit" : 17.32,
+    "netProfitMargin" : 48.58,
+    "netProfit" : 16.76
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 8.36,
+    "salesGrowthYoY" : -89.10,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 8.36,
+    "operatingProfitMargin" : -65.19,
+    "operatingProfit" : -5.45,
+    "netProfitMargin" : 4133.13,
+    "netProfit" : 345.53
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 40.11,
+    "salesGrowthYoY" : -10.93,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 40.11,
+    "operatingProfitMargin" : 54.10,
+    "operatingProfit" : 21.70,
+    "netProfitMargin" : 49.39,
+    "netProfit" : 19.81
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 54.80,
+    "salesGrowthYoY" : -40.94,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 54.80,
+    "operatingProfitMargin" : 72.57,
+    "operatingProfit" : 39.77,
+    "netProfitMargin" : 471.30,
+    "netProfit" : 258.27
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 40.07,
+    "salesGrowthYoY" : 16.14,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 40.07,
+    "operatingProfitMargin" : 51.19,
+    "operatingProfit" : 20.51,
+    "netProfitMargin" : 118.89,
+    "netProfit" : 47.64
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 26.38,
+    "salesGrowthYoY" : 215.55,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 26.38,
+    "operatingProfitMargin" : 31.16,
+    "operatingProfit" : 8.22,
+    "netProfitMargin" : 398.52,
+    "netProfit" : 105.13
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 8.41,
+    "salesGrowthYoY" : -79.03,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 8.41,
+    "operatingProfitMargin" : -145.42,
+    "operatingProfit" : -12.23,
+    "netProfitMargin" : 213.44,
+    "netProfit" : 17.95
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 14.06,
+    "salesGrowthYoY" : -74.34,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 14.06,
+    "operatingProfitMargin" : -89.54,
+    "operatingProfit" : -12.59,
+    "netProfitMargin" : 1691.18,
+    "netProfit" : 237.78
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 14.82,
+    "salesGrowthYoY" : -63.01,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 14.82,
+    "operatingProfitMargin" : -15.59,
+    "operatingProfit" : -2.31,
+    "netProfitMargin" : 212.75,
+    "netProfit" : 31.53
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 47.78,
+    "salesGrowthYoY" : 81.12,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 47.78,
+    "operatingProfitMargin" : 63.48,
+    "operatingProfit" : 30.33,
+    "netProfitMargin" : 553.26,
+    "netProfit" : 264.35
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 39.22,
+    "salesGrowthYoY" : 366.35,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 39.22,
+    "operatingProfitMargin" : 48.32,
+    "operatingProfit" : 18.95,
+    "netProfitMargin" : 270.07,
+    "netProfit" : 105.92
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 10.15,
+    "salesGrowthYoY" : -27.81,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 10.15,
+    "operatingProfitMargin" : -90.34,
+    "operatingProfit" : -9.17,
+    "netProfitMargin" : 930.15,
+    "netProfit" : 94.41
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 7.43,
+    "salesGrowthYoY" : -49.87,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 7.43,
+    "operatingProfitMargin" : -191.39,
+    "operatingProfit" : -14.22,
+    "netProfitMargin" : 1558.14,
+    "netProfit" : 115.77
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 63.44,
+    "salesGrowthYoY" : 32.78,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 63.44,
+    "operatingProfitMargin" : 62.31,
+    "operatingProfit" : 39.53,
+    "netProfitMargin" : 345.78,
+    "netProfit" : 219.36
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 67.59,
+    "salesGrowthYoY" : 72.34,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 67.59,
+    "operatingProfitMargin" : 56.15,
+    "operatingProfit" : 37.95,
+    "netProfitMargin" : 211.90,
+    "netProfit" : 143.22
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 12.43,
+    "salesGrowthYoY" : 22.46,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 12.43,
+    "operatingProfitMargin" : -353.58,
+    "operatingProfit" : -43.95,
+    "netProfitMargin" : 1614.48,
+    "netProfit" : 200.68
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 12.43,
+    "salesGrowthYoY" : 67.29,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 12.43,
+    "operatingProfitMargin" : -188.33,
+    "operatingProfit" : -23.41,
+    "netProfitMargin" : 184.15,
+    "netProfit" : 22.89
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 127.83,
+    "salesGrowthYoY" : 101.50,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 127.83,
+    "operatingProfitMargin" : 58.50,
+    "operatingProfit" : 74.78,
+    "netProfitMargin" : 124.13,
+    "netProfit" : 158.68
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 25.28,
+    "salesGrowthYoY" : -62.60,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 25.28,
+    "operatingProfitMargin" : -9.18,
+    "operatingProfit" : -2.32,
+    "netProfitMargin" : 311.51,
+    "netProfit" : 78.75
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 66.51,
+    "salesGrowthYoY" : 435.08,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 66.51,
+    "operatingProfitMargin" : 43.80,
+    "operatingProfit" : 29.13,
+    "netProfitMargin" : 105.86,
+    "netProfit" : 70.41
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 22.56,
+    "salesGrowthYoY" : 81.50,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 22.56,
+    "operatingProfitMargin" : -66.05,
+    "operatingProfit" : -14.90,
+    "netProfitMargin" : 496.68,
+    "netProfit" : 112.05
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 129.56,
+    "salesGrowthYoY" : 1.35,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 129.56,
+    "operatingProfitMargin" : 44.64,
+    "operatingProfit" : 57.84,
+    "netProfitMargin" : 26.44,
+    "netProfit" : 34.26
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 129.56,
+    "salesGrowthYoY" : 1.35,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 129.56,
+    "operatingProfitMargin" : 44.64,
+    "operatingProfit" : 57.84,
+    "netProfitMargin" : 26.44,
+    "netProfit" : 34.26
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.86,
+    "pricePercentageAboveDma100" : 4.87,
+    "pricePercentageAboveDma200" : 4.70,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 10.00,
+    "operatingProfitMarginPercentile" : 19.65,
+    "netProfitMarginPercentile" : 2.98,
+    "totalTechnicalScore" : 44.44,
+    "totalFundamentalScore" : 32.64,
+    "totalScore" : 77.07
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285230",
-    "company_code" : "LAXMIDENTL",
-    "company_name" : "Laxmi Dental",
-    "screener_company_link" : "https://www.screener.in/company/LAXMIDENTL",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285230/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285230/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285230",
+    "companyCode" : "LAXMIDENTL",
+    "companyName" : "Laxmi Dental",
+    "screenerCompanyLink" : "https://www.screener.in/company/LAXMIDENTL",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285230/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285230/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "LAXMIDENTL",
+      "companyName" : "Laxmi Dental",
+      "marketCap" : 1597.00,
+      "peRatio" : 73.90,
+      "description" : "Incorporated in 2004, Laxmi Dental is an integrated dental products company offering a comprehensive portfolio of Dental Products[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.52,
+      "pricePercentageAboveDma100" : 5.98,
+      "pricePercentageAboveDma200" : 6.27,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 13.14,
+      "netProfitMarginPercentile" : 6.25,
+      "totalTechnicalScore" : 17.77,
+      "totalFundamentalScore" : 39.39,
+      "totalScore" : 57.16
+    }
   },
   "attributes" : {
-    "company_code" : "LAXMIDENTL",
-    "company_name" : "Laxmi Dental",
-    "market_cap" : 1625.00,
-    "pe_ratio" : 75.20,
+    "companyCode" : "LAXMIDENTL",
+    "companyName" : "Laxmi Dental",
+    "marketCap" : 1597.00,
+    "peRatio" : 73.90,
     "description" : "Incorporated in 2004, Laxmi Dental is an integrated dental products company offering a comprehensive portfolio of Dental Products[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-01-20",
     "price" : 550.55,
     "dma50" : 550.55,
@@ -1479,10 +1504,128 @@
     "volume" : 221609.00
   }, {
     "date" : "2025-11-24",
-    "price" : 294.70,
-    "dma50" : 323.75,
-    "dma100" : 360.37,
-    "dma200" : 387.84,
-    "volume" : 39420.00
-  } ]
+    "price" : 289.60,
+    "dma50" : 323.55,
+    "dma100" : 360.32,
+    "dma200" : 387.79,
+    "volume" : 87708.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 289.60,
+    "dma50" : 323.55,
+    "dma100" : 360.32,
+    "dma200" : 387.79,
+    "volume" : 87708.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2023-12-31",
+    "sales" : 34.92,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 60.74,
+    "grossProfit" : 21.21,
+    "operatingProfitMargin" : 3.18,
+    "operatingProfit" : 1.11,
+    "netProfitMargin" : 5.04,
+    "netProfit" : 1.76
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 39.14,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 67.19,
+    "grossProfit" : 26.30,
+    "operatingProfitMargin" : 15.79,
+    "operatingProfit" : 6.18,
+    "netProfitMargin" : 15.23,
+    "netProfit" : 5.96
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 43.23,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 66.41,
+    "grossProfit" : 28.71,
+    "operatingProfitMargin" : 19.62,
+    "operatingProfit" : 8.48,
+    "netProfitMargin" : 19.82,
+    "netProfit" : 8.57
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 41.99,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 63.02,
+    "grossProfit" : 26.46,
+    "operatingProfitMargin" : 11.36,
+    "operatingProfit" : 4.77,
+    "netProfitMargin" : 9.05,
+    "netProfit" : 3.80
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 43.35,
+    "salesGrowthYoY" : 24.14,
+    "grossProfitMargin" : 66.46,
+    "grossProfit" : 28.81,
+    "operatingProfitMargin" : 12.87,
+    "operatingProfit" : 5.58,
+    "netProfitMargin" : 7.40,
+    "netProfit" : 3.21
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 42.68,
+    "salesGrowthYoY" : 9.04,
+    "grossProfitMargin" : 76.59,
+    "grossProfit" : 32.69,
+    "operatingProfitMargin" : 17.20,
+    "operatingProfit" : 7.34,
+    "netProfitMargin" : 9.28,
+    "netProfit" : 3.96
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 50.11,
+    "salesGrowthYoY" : 15.91,
+    "grossProfitMargin" : 69.21,
+    "grossProfit" : 34.68,
+    "operatingProfitMargin" : 19.88,
+    "operatingProfit" : 9.96,
+    "netProfitMargin" : 15.69,
+    "netProfit" : 7.86
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 54.26,
+    "salesGrowthYoY" : 29.22,
+    "grossProfitMargin" : 64.65,
+    "grossProfit" : 35.08,
+    "operatingProfitMargin" : 14.15,
+    "operatingProfit" : 7.68,
+    "netProfitMargin" : 12.11,
+    "netProfit" : 6.57
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 54.26,
+    "salesGrowthYoY" : 29.22,
+    "grossProfitMargin" : 64.65,
+    "grossProfit" : 35.08,
+    "operatingProfitMargin" : 14.15,
+    "operatingProfit" : 7.68,
+    "netProfitMargin" : 12.11,
+    "netProfit" : 6.57
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.52,
+    "pricePercentageAboveDma100" : 5.98,
+    "pricePercentageAboveDma200" : 6.27,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 13.14,
+    "netProfitMarginPercentile" : 6.25,
+    "totalTechnicalScore" : 17.77,
+    "totalFundamentalScore" : 39.39,
+    "totalScore" : 57.16
+  }
 }

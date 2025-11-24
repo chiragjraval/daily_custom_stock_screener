@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1275287",
-    "company_code" : "VERTIS",
-    "company_name" : "Vertis Infra.",
-    "screener_company_link" : "https://www.screener.in/company/VERTIS",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1275287/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1275287/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1275287",
+    "companyCode" : "VERTIS",
+    "companyName" : "Vertis Infra.",
+    "screenerCompanyLink" : "https://www.screener.in/company/VERTIS",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1275287/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1275287/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "VERTIS",
+      "companyName" : "Vertis Infra.",
+      "marketCap" : 16610.00,
+      "peRatio" : 13.20,
+      "description" : ""
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 4.74,
+      "pricePercentageAboveDma100" : 0.00,
+      "pricePercentageAboveDma200" : 4.53,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 15.56,
+      "operatingProfitMarginPercentile" : 1.54,
+      "netProfitMarginPercentile" : 2.39,
+      "totalTechnicalScore" : 24.27,
+      "totalFundamentalScore" : 19.48,
+      "totalScore" : 43.76
+    }
   },
   "attributes" : {
-    "company_code" : "VERTIS",
-    "company_name" : "Vertis Infra.",
-    "market_cap" : 16610.00,
-    "pe_ratio" : 13.20,
+    "companyCode" : "VERTIS",
+    "companyName" : "Vertis Infra.",
+    "marketCap" : 16610.00,
+    "peRatio" : 13.20,
     "description" : ""
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-09-01",
     "price" : 98.29,
     "dma50" : 98.29,
@@ -329,5 +354,180 @@
     "dma100" : null,
     "dma200" : 100.53,
     "volume" : 175000.00
-  } ]
+  }, {
+    "date" : "2025-11-24",
+    "price" : 110.00,
+    "dma50" : 104.53,
+    "dma100" : null,
+    "dma200" : 100.62,
+    "volume" : 50000.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 110.00,
+    "dma50" : 104.53,
+    "dma100" : null,
+    "dma200" : 100.62,
+    "volume" : 50000.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2022-09-30",
+    "sales" : 15.78,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 15.78,
+    "operatingProfitMargin" : 60.46,
+    "operatingProfit" : 9.54,
+    "netProfitMargin" : 60.77,
+    "netProfit" : 9.59
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 174.06,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 174.06,
+    "operatingProfitMargin" : 97.24,
+    "operatingProfit" : 169.26,
+    "netProfitMargin" : 82.41,
+    "netProfit" : 143.44
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 306.63,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 306.63,
+    "operatingProfitMargin" : 94.84,
+    "operatingProfit" : 290.81,
+    "netProfitMargin" : 76.86,
+    "netProfit" : 235.68
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 91.77,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 91.77,
+    "operatingProfitMargin" : 87.40,
+    "operatingProfit" : 80.21,
+    "netProfitMargin" : 57.40,
+    "netProfit" : 52.68
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 108.55,
+    "salesGrowthYoY" : 587.90,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 108.55,
+    "operatingProfitMargin" : 90.35,
+    "operatingProfit" : 98.07,
+    "netProfitMargin" : 63.45,
+    "netProfit" : 68.87
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 119.65,
+    "salesGrowthYoY" : -31.26,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 119.65,
+    "operatingProfitMargin" : 95.60,
+    "operatingProfit" : 114.39,
+    "netProfitMargin" : 61.96,
+    "netProfit" : 74.14
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 186.42,
+    "salesGrowthYoY" : -39.20,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 186.42,
+    "operatingProfitMargin" : 86.98,
+    "operatingProfit" : 162.15,
+    "netProfitMargin" : 49.36,
+    "netProfit" : 92.02
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 846.11,
+    "salesGrowthYoY" : 821.99,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 846.11,
+    "operatingProfitMargin" : 99.36,
+    "operatingProfit" : 840.69,
+    "netProfitMargin" : 90.93,
+    "netProfit" : 769.37
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 194.95,
+    "salesGrowthYoY" : 79.59,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 194.95,
+    "operatingProfitMargin" : 97.53,
+    "operatingProfit" : 190.13,
+    "netProfitMargin" : 60.57,
+    "netProfit" : 118.08
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 281.54,
+    "salesGrowthYoY" : 135.30,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 281.54,
+    "operatingProfitMargin" : 97.74,
+    "operatingProfit" : 275.18,
+    "netProfitMargin" : 75.57,
+    "netProfit" : 212.76
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 377.17,
+    "salesGrowthYoY" : 102.32,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 377.17,
+    "operatingProfitMargin" : 97.53,
+    "operatingProfit" : 367.85,
+    "netProfitMargin" : 75.59,
+    "netProfit" : 285.10
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 553.07,
+    "salesGrowthYoY" : -34.63,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 553.07,
+    "operatingProfitMargin" : 95.81,
+    "operatingProfit" : 529.90,
+    "netProfitMargin" : 73.39,
+    "netProfit" : 405.90
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 596.17,
+    "salesGrowthYoY" : 205.81,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 596.17,
+    "operatingProfitMargin" : 58.25,
+    "operatingProfit" : 347.27,
+    "netProfitMargin" : 59.29,
+    "netProfit" : 353.47
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 596.17,
+    "salesGrowthYoY" : 205.81,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 596.17,
+    "operatingProfitMargin" : 58.25,
+    "operatingProfit" : 347.27,
+    "netProfitMargin" : 59.29,
+    "netProfit" : 353.47
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 4.74,
+    "pricePercentageAboveDma100" : 0.00,
+    "pricePercentageAboveDma200" : 4.53,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 15.56,
+    "operatingProfitMarginPercentile" : 1.54,
+    "netProfitMarginPercentile" : 2.39,
+    "totalTechnicalScore" : 24.27,
+    "totalFundamentalScore" : 19.48,
+    "totalScore" : 43.76
+  }
 }

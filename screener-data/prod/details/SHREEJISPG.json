@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285602",
-    "company_code" : "SHREEJISPG",
-    "company_name" : "Shreeji Ship. Gl",
-    "screener_company_link" : "https://www.screener.in/company/SHREEJISPG",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285602/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285602/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285602",
+    "companyCode" : "SHREEJISPG",
+    "companyName" : "Shreeji Ship. Gl",
+    "screenerCompanyLink" : "https://www.screener.in/company/SHREEJISPG",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285602/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285602/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "SHREEJISPG",
+      "companyName" : "Shreeji Ship. Gl",
+      "marketCap" : 4878.00,
+      "peRatio" : 37.40,
+      "description" : "Incorporated in 1995, Shreeji Shipping Global Limited is a shipping and logistics company focusing on dry-bulk cargo.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 4.42,
+      "pricePercentageAboveDma100" : 0.00,
+      "pricePercentageAboveDma200" : 4.20,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 8.00,
+      "netProfitMarginPercentile" : 8.00,
+      "totalTechnicalScore" : 28.62,
+      "totalFundamentalScore" : 36.00,
+      "totalScore" : 64.62
+    }
   },
   "attributes" : {
-    "company_code" : "SHREEJISPG",
-    "company_name" : "Shreeji Ship. Gl",
-    "market_cap" : 4894.00,
-    "pe_ratio" : 37.50,
+    "companyCode" : "SHREEJISPG",
+    "companyName" : "Shreeji Ship. Gl",
+    "marketCap" : 4878.00,
+    "peRatio" : 37.40,
     "description" : "Incorporated in 1995, Shreeji Shipping Global Limited is a shipping and logistics company focusing on dry-bulk cargo.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-08-26",
     "price" : 255.10,
     "dma50" : 255.10,
@@ -436,10 +461,98 @@
     "volume" : 562425.00
   }, {
     "date" : "2025-11-24",
-    "price" : 300.60,
-    "dma50" : 268.00,
+    "price" : 298.85,
+    "dma50" : 267.93,
     "dma100" : null,
-    "dma200" : 257.62,
-    "volume" : 564478.00
-  } ]
+    "dma200" : 257.60,
+    "volume" : 1249157.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 298.85,
+    "dma50" : 267.93,
+    "dma100" : null,
+    "dma200" : 257.60,
+    "volume" : 1249157.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-06-30",
+    "sales" : 130.07,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 130.07,
+    "operatingProfitMargin" : 29.03,
+    "operatingProfit" : 37.76,
+    "netProfitMargin" : 19.11,
+    "netProfit" : 24.86
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 145.72,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 145.72,
+    "operatingProfitMargin" : 33.59,
+    "operatingProfit" : 48.95,
+    "netProfitMargin" : 22.17,
+    "netProfit" : 32.31
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 156.09,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 156.09,
+    "operatingProfitMargin" : 48.25,
+    "operatingProfit" : 75.31,
+    "netProfitMargin" : 31.53,
+    "netProfit" : 49.22
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 161.19,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 161.19,
+    "operatingProfitMargin" : 37.14,
+    "operatingProfit" : 59.87,
+    "netProfitMargin" : 23.08,
+    "netProfit" : 37.20
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 162.19,
+    "salesGrowthYoY" : 24.69,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 162.19,
+    "operatingProfitMargin" : 32.75,
+    "operatingProfit" : 53.12,
+    "netProfitMargin" : 26.33,
+    "netProfit" : 42.70
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 162.19,
+    "salesGrowthYoY" : 24.69,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 162.19,
+    "operatingProfitMargin" : 32.75,
+    "operatingProfit" : 53.12,
+    "netProfitMargin" : 26.33,
+    "netProfit" : 42.70
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 4.42,
+    "pricePercentageAboveDma100" : 0.00,
+    "pricePercentageAboveDma200" : 4.20,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 8.00,
+    "netProfitMarginPercentile" : 8.00,
+    "totalTechnicalScore" : 28.62,
+    "totalFundamentalScore" : 36.00,
+    "totalScore" : 64.62
+  }
 }

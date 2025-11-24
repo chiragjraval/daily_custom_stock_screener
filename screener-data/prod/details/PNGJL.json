@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284976",
-    "company_code" : "PNGJL",
-    "company_name" : "P N Gadgil Jewe.",
-    "screener_company_link" : "https://www.screener.in/company/PNGJL",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284976/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284976/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284976",
+    "companyCode" : "PNGJL",
+    "companyName" : "P N Gadgil Jewe.",
+    "screenerCompanyLink" : "https://www.screener.in/company/PNGJL",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284976/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284976/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "PNGJL",
+      "companyName" : "P N Gadgil Jewe.",
+      "marketCap" : 8458.00,
+      "peRatio" : 28.70,
+      "description" : "Established in 1832, P. N. G Jewellers Ltd is in the retail business of gold, silver, and diamond jewellery[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.13,
+      "pricePercentageAboveDma100" : 4.94,
+      "pricePercentageAboveDma200" : 4.98,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 10.00,
+      "operatingProfitMarginPercentile" : 12.07,
+      "netProfitMarginPercentile" : 8.76,
+      "totalTechnicalScore" : 35.05,
+      "totalFundamentalScore" : 30.83,
+      "totalScore" : 65.88
+    }
   },
   "attributes" : {
-    "company_code" : "PNGJL",
-    "company_name" : "P N Gadgil Jewe.",
-    "market_cap" : 8449.00,
-    "pe_ratio" : 28.60,
+    "companyCode" : "PNGJL",
+    "companyName" : "P N Gadgil Jewe.",
+    "marketCap" : 8458.00,
+    "peRatio" : 28.70,
     "description" : "Established in 1832, P. N. G Jewellers Ltd is in the retail business of gold, silver, and diamond jewellery[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 647.15,
     "dma50" : 724.25,
@@ -1752,10 +1777,148 @@
     "volume" : 140291.00
   }, {
     "date" : "2025-11-24",
-    "price" : 621.00,
-    "dma50" : 637.97,
-    "dma100" : 613.80,
+    "price" : 621.25,
+    "dma50" : 637.98,
+    "dma100" : 613.81,
     "dma200" : 618.98,
-    "volume" : 129922.00
-  } ]
+    "volume" : 180829.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 621.25,
+    "dma50" : 637.98,
+    "dma100" : 613.81,
+    "dma200" : 618.98,
+    "volume" : 180829.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2023-06-30",
+    "sales" : 1236.55,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 7.19,
+    "grossProfit" : 88.91,
+    "operatingProfitMargin" : 3.57,
+    "operatingProfit" : 44.14,
+    "netProfitMargin" : 1.79,
+    "netProfit" : 22.13
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 1358.61,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 6.78,
+    "grossProfit" : 92.11,
+    "operatingProfitMargin" : 3.22,
+    "operatingProfit" : 43.75,
+    "netProfitMargin" : 1.58,
+    "netProfit" : 21.47
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 1939.02,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 8.44,
+    "grossProfit" : 163.65,
+    "operatingProfitMargin" : 4.74,
+    "operatingProfit" : 91.91,
+    "netProfitMargin" : 2.94,
+    "netProfit" : 57.01
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 1497.82,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 10.20,
+    "grossProfit" : 152.78,
+    "operatingProfitMargin" : 5.86,
+    "operatingProfit" : 87.77,
+    "netProfitMargin" : 3.65,
+    "netProfit" : 54.67
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 1647.92,
+    "salesGrowthYoY" : 33.27,
+    "grossProfitMargin" : 8.14,
+    "grossProfit" : 134.14,
+    "operatingProfitMargin" : 3.83,
+    "operatingProfit" : 63.12,
+    "netProfitMargin" : 2.12,
+    "netProfit" : 34.94
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 2001.53,
+    "salesGrowthYoY" : 47.32,
+    "grossProfitMargin" : 6.71,
+    "grossProfit" : 134.30,
+    "operatingProfitMargin" : 2.85,
+    "operatingProfit" : 57.04,
+    "netProfitMargin" : 1.62,
+    "netProfit" : 32.42
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 2406.85,
+    "salesGrowthYoY" : 24.13,
+    "grossProfitMargin" : 9.58,
+    "grossProfit" : 230.58,
+    "operatingProfitMargin" : 4.99,
+    "operatingProfit" : 120.10,
+    "netProfitMargin" : 3.54,
+    "netProfit" : 85.20
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 1574.25,
+    "salesGrowthYoY" : 5.10,
+    "grossProfitMargin" : 11.89,
+    "grossProfit" : 187.18,
+    "operatingProfitMargin" : 5.95,
+    "operatingProfit" : 93.67,
+    "netProfitMargin" : 3.96,
+    "netProfit" : 62.34
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 1702.42,
+    "salesGrowthYoY" : 3.31,
+    "grossProfitMargin" : 12.92,
+    "grossProfit" : 219.95,
+    "operatingProfitMargin" : 6.33,
+    "operatingProfit" : 107.76,
+    "netProfitMargin" : 4.00,
+    "netProfit" : 68.10
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 2154.36,
+    "salesGrowthYoY" : 7.64,
+    "grossProfitMargin" : 11.76,
+    "grossProfit" : 253.35,
+    "operatingProfitMargin" : 4.95,
+    "operatingProfit" : 106.64,
+    "netProfitMargin" : 3.70,
+    "netProfit" : 79.71
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 2154.36,
+    "salesGrowthYoY" : 7.64,
+    "grossProfitMargin" : 11.76,
+    "grossProfit" : 253.35,
+    "operatingProfitMargin" : 4.95,
+    "operatingProfit" : 106.64,
+    "netProfitMargin" : 3.70,
+    "netProfit" : 79.71
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.13,
+    "pricePercentageAboveDma100" : 4.94,
+    "pricePercentageAboveDma200" : 4.98,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 10.00,
+    "operatingProfitMarginPercentile" : 12.07,
+    "netProfitMarginPercentile" : 8.76,
+    "totalTechnicalScore" : 35.05,
+    "totalFundamentalScore" : 30.83,
+    "totalScore" : 65.88
+  }
 }

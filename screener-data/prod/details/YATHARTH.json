@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284424",
-    "company_code" : "YATHARTH",
-    "company_name" : "Yatharth Hospit.",
-    "screener_company_link" : "https://www.screener.in/company/YATHARTH",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284424/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284424/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284424",
+    "companyCode" : "YATHARTH",
+    "companyName" : "Yatharth Hospit.",
+    "screenerCompanyLink" : "https://www.screener.in/company/YATHARTH",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284424/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284424/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "YATHARTH",
+      "companyName" : "Yatharth Hospit.",
+      "marketCap" : 7640.00,
+      "peRatio" : 83.20,
+      "description" : "Incorporated in 2008, Yatharth Hospital and Trauma Care Services Limited is a multi-care hospitals at Noida, Greater Noida, and Noida Extension, Uttar Pradesh.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.95,
+      "pricePercentageAboveDma100" : 4.66,
+      "pricePercentageAboveDma200" : 4.03,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 18.68,
+      "operatingProfitMarginPercentile" : 1.43,
+      "netProfitMarginPercentile" : 0.71,
+      "totalTechnicalScore" : 43.64,
+      "totalFundamentalScore" : 20.82,
+      "totalScore" : 64.46
+    }
   },
   "attributes" : {
-    "company_code" : "YATHARTH",
-    "company_name" : "Yatharth Hospit.",
-    "market_cap" : 7292.00,
-    "pe_ratio" : 79.40,
+    "companyCode" : "YATHARTH",
+    "companyName" : "Yatharth Hospit.",
+    "marketCap" : 7640.00,
+    "peRatio" : 83.20,
     "description" : "Incorporated in 2008, Yatharth Hospital and Trauma Care Services Limited is a multi-care hospitals at Noida, Greater Noida, and Noida Extension, Uttar Pradesh.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 606.75,
     "dma50" : 598.52,
@@ -1752,10 +1777,188 @@
     "volume" : 396810.00
   }, {
     "date" : "2025-11-24",
-    "price" : 757.15,
-    "dma50" : 770.45,
-    "dma100" : 729.01,
-    "dma200" : 651.69,
-    "volume" : 116824.00
-  } ]
+    "price" : 778.95,
+    "dma50" : 771.30,
+    "dma100" : 729.23,
+    "dma200" : 651.91,
+    "volume" : 396372.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 778.95,
+    "dma50" : 771.30,
+    "dma100" : 729.23,
+    "dma200" : 651.91,
+    "volume" : 396372.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2022-06-30",
+    "sales" : 83.21,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 83.21,
+    "operatingProfitMargin" : 27.70,
+    "operatingProfit" : 23.05,
+    "netProfitMargin" : 15.91,
+    "netProfit" : 13.24
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 94.17,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 94.17,
+    "operatingProfitMargin" : 28.50,
+    "operatingProfit" : 26.84,
+    "netProfitMargin" : 16.92,
+    "netProfit" : 15.93
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 97.01,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 97.01,
+    "operatingProfitMargin" : 28.51,
+    "operatingProfit" : 27.66,
+    "netProfitMargin" : 20.29,
+    "netProfit" : 19.68
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 97.13,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 83.79,
+    "grossProfit" : 81.39,
+    "operatingProfitMargin" : 28.58,
+    "operatingProfit" : 27.76,
+    "netProfitMargin" : 15.78,
+    "netProfit" : 15.33
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 102.34,
+    "salesGrowthYoY" : 22.99,
+    "grossProfitMargin" : 81.80,
+    "grossProfit" : 83.71,
+    "operatingProfitMargin" : 28.42,
+    "operatingProfit" : 29.09,
+    "netProfitMargin" : 15.25,
+    "netProfit" : 15.61
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 110.12,
+    "salesGrowthYoY" : 16.94,
+    "grossProfitMargin" : 79.60,
+    "grossProfit" : 87.66,
+    "operatingProfitMargin" : 28.41,
+    "operatingProfit" : 31.29,
+    "netProfitMargin" : 19.12,
+    "netProfit" : 21.05
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 101.73,
+    "salesGrowthYoY" : 4.87,
+    "grossProfitMargin" : 82.94,
+    "grossProfit" : 84.37,
+    "operatingProfitMargin" : 28.84,
+    "operatingProfit" : 29.34,
+    "netProfitMargin" : 20.74,
+    "netProfit" : 21.10
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 105.59,
+    "salesGrowthYoY" : 8.71,
+    "grossProfitMargin" : 80.66,
+    "grossProfit" : 85.17,
+    "operatingProfitMargin" : 26.14,
+    "operatingProfit" : 27.60,
+    "netProfitMargin" : 24.85,
+    "netProfit" : 26.24
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 118.96,
+    "salesGrowthYoY" : 16.24,
+    "grossProfitMargin" : 79.03,
+    "grossProfit" : 94.01,
+    "operatingProfitMargin" : 27.56,
+    "operatingProfit" : 32.79,
+    "netProfitMargin" : 19.46,
+    "netProfit" : 23.15
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 112.87,
+    "salesGrowthYoY" : 2.50,
+    "grossProfitMargin" : 82.19,
+    "grossProfit" : 92.77,
+    "operatingProfitMargin" : 27.16,
+    "operatingProfit" : 30.66,
+    "netProfitMargin" : 18.07,
+    "netProfit" : 20.40
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 110.41,
+    "salesGrowthYoY" : 8.53,
+    "grossProfitMargin" : 82.18,
+    "grossProfit" : 90.73,
+    "operatingProfitMargin" : 28.81,
+    "operatingProfit" : 31.81,
+    "netProfitMargin" : 20.15,
+    "netProfit" : 22.25
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 111.99,
+    "salesGrowthYoY" : 6.06,
+    "grossProfitMargin" : 79.30,
+    "grossProfit" : 88.81,
+    "operatingProfitMargin" : 28.37,
+    "operatingProfit" : 31.77,
+    "netProfitMargin" : 19.56,
+    "netProfit" : 21.91
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 130.14,
+    "salesGrowthYoY" : 9.40,
+    "grossProfitMargin" : 78.34,
+    "grossProfit" : 101.95,
+    "operatingProfitMargin" : 26.94,
+    "operatingProfit" : 35.06,
+    "netProfitMargin" : 20.84,
+    "netProfit" : 27.12
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 137.29,
+    "salesGrowthYoY" : 21.64,
+    "grossProfitMargin" : 79.91,
+    "grossProfit" : 109.71,
+    "operatingProfitMargin" : 19.64,
+    "operatingProfit" : 26.96,
+    "netProfitMargin" : 15.03,
+    "netProfit" : 20.63
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 137.29,
+    "salesGrowthYoY" : 21.64,
+    "grossProfitMargin" : 79.91,
+    "grossProfit" : 109.71,
+    "operatingProfitMargin" : 19.64,
+    "operatingProfit" : 26.96,
+    "netProfitMargin" : 15.03,
+    "netProfit" : 20.63
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.95,
+    "pricePercentageAboveDma100" : 4.66,
+    "pricePercentageAboveDma200" : 4.03,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 18.68,
+    "operatingProfitMarginPercentile" : 1.43,
+    "netProfitMarginPercentile" : 0.71,
+    "totalTechnicalScore" : 43.64,
+    "totalFundamentalScore" : 20.82,
+    "totalScore" : 64.46
+  }
 }

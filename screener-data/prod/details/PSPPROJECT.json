@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274075",
-    "company_code" : "PSPPROJECT",
-    "company_name" : "PSP Projects",
-    "screener_company_link" : "https://www.screener.in/company/PSPPROJECT",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274075/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274075/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274075",
+    "companyCode" : "PSPPROJECT",
+    "companyName" : "PSP Projects",
+    "screenerCompanyLink" : "https://www.screener.in/company/PSPPROJECT",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274075/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274075/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "PSPPROJECT",
+      "companyName" : "PSP Projects",
+      "marketCap" : 3486.00,
+      "peRatio" : 133.00,
+      "description" : "PSP Projects Limited is a construction company incorporated in August 2008 offering a diversified range of construction and allied services across industrial, institutional, government, government residential, and residential projects in India. The principal promoter, Mr. Prahalad S. Patel has over three decades of experience in the construction industry. [1] It is also engaged in the real estate development of two mid-scale projects in the USA through its subsidiaries [2]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.86,
+      "pricePercentageAboveDma100" : 4.41,
+      "pricePercentageAboveDma200" : 4.13,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 8.00,
+      "operatingProfitMarginPercentile" : 5.87,
+      "netProfitMarginPercentile" : 2.86,
+      "totalTechnicalScore" : 43.40,
+      "totalFundamentalScore" : 16.74,
+      "totalScore" : 60.13
+    }
   },
   "attributes" : {
-    "company_code" : "PSPPROJECT",
-    "company_name" : "PSP Projects",
-    "market_cap" : 3469.00,
-    "pe_ratio" : 133.00,
+    "companyCode" : "PSPPROJECT",
+    "companyName" : "PSP Projects",
+    "marketCap" : 3486.00,
+    "peRatio" : 133.00,
     "description" : "PSP Projects Limited is a construction company incorporated in August 2008 offering a diversified range of construction and allied services across industrial, institutional, government, government residential, and residential projects in India. The principal promoter, Mr. Prahalad S. Patel has over three decades of experience in the construction industry. [1] It is also engaged in the real estate development of two mid-scale projects in the USA through its subsidiaries [2]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 625.45,
     "dma50" : 637.13,
@@ -1752,10 +1777,438 @@
     "volume" : 332801.00
   }, {
     "date" : "2025-11-24",
-    "price" : 877.40,
-    "dma50" : 862.65,
-    "dma100" : 792.50,
-    "dma200" : 754.71,
-    "volume" : 62110.00
-  } ]
+    "price" : 886.50,
+    "dma50" : 863.01,
+    "dma100" : 792.59,
+    "dma200" : 754.80,
+    "volume" : 86148.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 886.50,
+    "dma50" : 863.01,
+    "dma100" : 792.59,
+    "dma200" : 754.80,
+    "volume" : 86148.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2016-03-31",
+    "sales" : 108.08,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 14.63,
+    "grossProfit" : 15.81,
+    "operatingProfitMargin" : 8.58,
+    "operatingProfit" : 9.27,
+    "netProfitMargin" : 5.51,
+    "netProfit" : 5.96
+  }, {
+    "date" : "2016-06-30",
+    "sales" : 86.06,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 34.66,
+    "grossProfit" : 29.83,
+    "operatingProfitMargin" : 13.76,
+    "operatingProfit" : 11.84,
+    "netProfitMargin" : 8.71,
+    "netProfit" : 7.50
+  }, {
+    "date" : "2016-09-30",
+    "sales" : 77.64,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 28.13,
+    "grossProfit" : 21.84,
+    "operatingProfitMargin" : 14.49,
+    "operatingProfit" : 11.25,
+    "netProfitMargin" : 8.09,
+    "netProfit" : 6.28
+  }, {
+    "date" : "2016-12-31",
+    "sales" : 75.41,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 21.42,
+    "grossProfit" : 16.15,
+    "operatingProfitMargin" : 12.52,
+    "operatingProfit" : 9.44,
+    "netProfitMargin" : 9.71,
+    "netProfit" : 7.32
+  }, {
+    "date" : "2017-03-31",
+    "sales" : 161.65,
+    "salesGrowthYoY" : 49.57,
+    "grossProfitMargin" : 27.06,
+    "grossProfit" : 43.74,
+    "operatingProfitMargin" : 20.67,
+    "operatingProfit" : 33.41,
+    "netProfitMargin" : 12.69,
+    "netProfit" : 20.51
+  }, {
+    "date" : "2017-06-30",
+    "sales" : 155.80,
+    "salesGrowthYoY" : 81.04,
+    "grossProfitMargin" : 29.04,
+    "grossProfit" : 45.24,
+    "operatingProfitMargin" : 12.78,
+    "operatingProfit" : 19.91,
+    "netProfitMargin" : 8.70,
+    "netProfit" : 13.55
+  }, {
+    "date" : "2017-09-30",
+    "sales" : 139.55,
+    "salesGrowthYoY" : 79.74,
+    "grossProfitMargin" : 20.80,
+    "grossProfit" : 29.03,
+    "operatingProfitMargin" : 13.36,
+    "operatingProfit" : 18.64,
+    "netProfitMargin" : 9.07,
+    "netProfit" : 12.66
+  }, {
+    "date" : "2017-12-31",
+    "sales" : 170.80,
+    "salesGrowthYoY" : 126.50,
+    "grossProfitMargin" : 38.33,
+    "grossProfit" : 65.47,
+    "operatingProfitMargin" : 15.55,
+    "operatingProfit" : 26.56,
+    "netProfitMargin" : 8.89,
+    "netProfit" : 15.18
+  }, {
+    "date" : "2018-03-31",
+    "sales" : 263.68,
+    "salesGrowthYoY" : 63.12,
+    "grossProfitMargin" : 18.09,
+    "grossProfit" : 47.70,
+    "operatingProfitMargin" : 13.76,
+    "operatingProfit" : 36.28,
+    "netProfitMargin" : 8.71,
+    "netProfit" : 22.97
+  }, {
+    "date" : "2018-06-30",
+    "sales" : 234.72,
+    "salesGrowthYoY" : 50.65,
+    "grossProfitMargin" : 19.21,
+    "grossProfit" : 45.09,
+    "operatingProfitMargin" : 14.06,
+    "operatingProfit" : 33.00,
+    "netProfitMargin" : 8.98,
+    "netProfit" : 21.08
+  }, {
+    "date" : "2018-09-30",
+    "sales" : 209.95,
+    "salesGrowthYoY" : 50.45,
+    "grossProfitMargin" : 20.50,
+    "grossProfit" : 43.04,
+    "operatingProfitMargin" : 13.99,
+    "operatingProfit" : 29.37,
+    "netProfitMargin" : 8.36,
+    "netProfit" : 17.55
+  }, {
+    "date" : "2018-12-31",
+    "sales" : 261.09,
+    "salesGrowthYoY" : 52.86,
+    "grossProfitMargin" : 37.48,
+    "grossProfit" : 97.86,
+    "operatingProfitMargin" : 14.05,
+    "operatingProfit" : 36.68,
+    "netProfitMargin" : 8.22,
+    "netProfit" : 21.46
+  }, {
+    "date" : "2019-03-31",
+    "sales" : 338.26,
+    "salesGrowthYoY" : 28.28,
+    "grossProfitMargin" : 19.20,
+    "grossProfit" : 64.95,
+    "operatingProfitMargin" : 14.75,
+    "operatingProfit" : 49.89,
+    "netProfitMargin" : 8.91,
+    "netProfit" : 30.14
+  }, {
+    "date" : "2019-06-30",
+    "sales" : 307.27,
+    "salesGrowthYoY" : 30.91,
+    "grossProfitMargin" : 19.47,
+    "grossProfit" : 59.83,
+    "operatingProfitMargin" : 13.89,
+    "operatingProfit" : 42.68,
+    "netProfitMargin" : 8.31,
+    "netProfit" : 25.53
+  }, {
+    "date" : "2019-09-30",
+    "sales" : 312.52,
+    "salesGrowthYoY" : 48.85,
+    "grossProfitMargin" : 19.53,
+    "grossProfit" : 61.04,
+    "operatingProfitMargin" : 13.84,
+    "operatingProfit" : 43.25,
+    "netProfitMargin" : 10.47,
+    "netProfit" : 32.72
+  }, {
+    "date" : "2019-12-31",
+    "sales" : 423.07,
+    "salesGrowthYoY" : 62.04,
+    "grossProfitMargin" : 17.12,
+    "grossProfit" : 72.43,
+    "operatingProfitMargin" : 12.78,
+    "operatingProfit" : 54.07,
+    "netProfitMargin" : 8.69,
+    "netProfit" : 36.76
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 456.40,
+    "salesGrowthYoY" : 34.93,
+    "grossProfitMargin" : 15.44,
+    "grossProfit" : 70.47,
+    "operatingProfitMargin" : 11.07,
+    "operatingProfit" : 50.52,
+    "netProfitMargin" : 7.51,
+    "netProfit" : 34.28
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 106.89,
+    "salesGrowthYoY" : -65.21,
+    "grossProfitMargin" : 12.27,
+    "grossProfit" : 13.12,
+    "operatingProfitMargin" : 1.22,
+    "operatingProfit" : 1.30,
+    "netProfitMargin" : -2.08,
+    "netProfit" : -2.22
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 243.09,
+    "salesGrowthYoY" : -22.22,
+    "grossProfitMargin" : 17.10,
+    "grossProfit" : 41.57,
+    "operatingProfitMargin" : 10.09,
+    "operatingProfit" : 24.53,
+    "netProfitMargin" : 5.92,
+    "netProfit" : 14.39
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 390.16,
+    "salesGrowthYoY" : -7.78,
+    "grossProfitMargin" : 16.74,
+    "grossProfit" : 65.31,
+    "operatingProfitMargin" : 12.03,
+    "operatingProfit" : 46.94,
+    "netProfitMargin" : 7.65,
+    "netProfit" : 29.85
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 500.73,
+    "salesGrowthYoY" : 9.71,
+    "grossProfitMargin" : 16.12,
+    "grossProfit" : 80.72,
+    "operatingProfitMargin" : 12.39,
+    "operatingProfit" : 62.04,
+    "netProfitMargin" : 8.13,
+    "netProfit" : 40.71
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 317.36,
+    "salesGrowthYoY" : 196.90,
+    "grossProfitMargin" : 18.78,
+    "grossProfit" : 59.60,
+    "operatingProfitMargin" : 12.41,
+    "operatingProfit" : 39.38,
+    "netProfitMargin" : 7.91,
+    "netProfit" : 25.10
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 390.44,
+    "salesGrowthYoY" : 60.62,
+    "grossProfitMargin" : 19.33,
+    "grossProfit" : 75.47,
+    "operatingProfitMargin" : 14.01,
+    "operatingProfit" : 54.70,
+    "netProfitMargin" : 9.37,
+    "netProfit" : 36.58
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 485.62,
+    "salesGrowthYoY" : 24.47,
+    "grossProfitMargin" : 20.21,
+    "grossProfit" : 98.14,
+    "operatingProfitMargin" : 15.25,
+    "operatingProfit" : 74.06,
+    "netProfitMargin" : 9.66,
+    "netProfit" : 46.91
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 555.34,
+    "salesGrowthYoY" : 10.91,
+    "grossProfitMargin" : 22.38,
+    "grossProfit" : 124.29,
+    "operatingProfitMargin" : 15.87,
+    "operatingProfit" : 88.13,
+    "netProfitMargin" : 9.69,
+    "netProfit" : 53.81
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 345.24,
+    "salesGrowthYoY" : 8.78,
+    "grossProfitMargin" : 21.52,
+    "grossProfit" : 74.30,
+    "operatingProfitMargin" : 13.64,
+    "operatingProfit" : 47.09,
+    "netProfitMargin" : 8.25,
+    "netProfit" : 28.48
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 356.60,
+    "salesGrowthYoY" : -8.67,
+    "grossProfitMargin" : 18.56,
+    "grossProfit" : 66.18,
+    "operatingProfitMargin" : 10.83,
+    "operatingProfit" : 38.62,
+    "netProfitMargin" : 6.43,
+    "netProfit" : 22.93
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 497.39,
+    "salesGrowthYoY" : 2.42,
+    "grossProfitMargin" : 17.81,
+    "grossProfit" : 88.59,
+    "operatingProfitMargin" : 12.39,
+    "operatingProfit" : 61.63,
+    "netProfitMargin" : 7.10,
+    "netProfit" : 35.31
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 727.41,
+    "salesGrowthYoY" : 30.98,
+    "grossProfitMargin" : 15.88,
+    "grossProfit" : 115.51,
+    "operatingProfitMargin" : 10.68,
+    "operatingProfit" : 77.69,
+    "netProfitMargin" : 6.37,
+    "netProfit" : 46.34
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 509.56,
+    "salesGrowthYoY" : 47.60,
+    "grossProfitMargin" : 19.84,
+    "grossProfit" : 101.10,
+    "operatingProfitMargin" : 12.69,
+    "operatingProfit" : 64.66,
+    "netProfitMargin" : 7.21,
+    "netProfit" : 36.74
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 607.15,
+    "salesGrowthYoY" : 70.26,
+    "grossProfitMargin" : 17.88,
+    "grossProfit" : 108.56,
+    "operatingProfitMargin" : 12.15,
+    "operatingProfit" : 73.77,
+    "netProfitMargin" : 6.49,
+    "netProfit" : 39.40
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 696.62,
+    "salesGrowthYoY" : 40.06,
+    "grossProfitMargin" : 16.32,
+    "grossProfit" : 113.69,
+    "operatingProfitMargin" : 10.25,
+    "operatingProfit" : 71.40,
+    "netProfitMargin" : 4.67,
+    "netProfit" : 32.53
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 649.17,
+    "salesGrowthYoY" : -10.76,
+    "grossProfitMargin" : 16.33,
+    "grossProfit" : 106.01,
+    "operatingProfitMargin" : 7.98,
+    "operatingProfit" : 51.80,
+    "netProfitMargin" : 2.35,
+    "netProfit" : 15.26
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 611.89,
+    "salesGrowthYoY" : 20.08,
+    "grossProfitMargin" : 18.94,
+    "grossProfit" : 115.89,
+    "operatingProfitMargin" : 12.00,
+    "operatingProfit" : 73.43,
+    "netProfitMargin" : 5.60,
+    "netProfit" : 34.27
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 578.09,
+    "salesGrowthYoY" : -4.79,
+    "grossProfitMargin" : 13.15,
+    "grossProfit" : 76.02,
+    "operatingProfitMargin" : 6.72,
+    "operatingProfit" : 38.85,
+    "netProfitMargin" : 1.93,
+    "netProfit" : 11.16
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 623.21,
+    "salesGrowthYoY" : -10.54,
+    "grossProfitMargin" : 12.58,
+    "grossProfit" : 78.40,
+    "operatingProfitMargin" : 5.67,
+    "operatingProfit" : 35.34,
+    "netProfitMargin" : 0.98,
+    "netProfit" : 6.11
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 655.09,
+    "salesGrowthYoY" : 0.91,
+    "grossProfitMargin" : 10.79,
+    "grossProfit" : 70.68,
+    "operatingProfitMargin" : 4.65,
+    "operatingProfit" : 30.46,
+    "netProfitMargin" : 0.76,
+    "netProfit" : 4.98
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 512.76,
+    "salesGrowthYoY" : -16.20,
+    "grossProfitMargin" : 14.54,
+    "grossProfit" : 74.56,
+    "operatingProfitMargin" : 4.77,
+    "operatingProfit" : 24.46,
+    "netProfitMargin" : 0.04,
+    "netProfit" : 0.21
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 693.69,
+    "salesGrowthYoY" : 20.00,
+    "grossProfitMargin" : 13.43,
+    "grossProfit" : 93.16,
+    "operatingProfitMargin" : 6.93,
+    "operatingProfit" : 48.07,
+    "netProfitMargin" : 2.15,
+    "netProfit" : 14.91
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 693.69,
+    "salesGrowthYoY" : 20.00,
+    "grossProfitMargin" : 13.43,
+    "grossProfit" : 93.16,
+    "operatingProfitMargin" : 6.93,
+    "operatingProfit" : 48.07,
+    "netProfitMargin" : 2.15,
+    "netProfit" : 14.91
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.86,
+    "pricePercentageAboveDma100" : 4.41,
+    "pricePercentageAboveDma200" : 4.13,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 8.00,
+    "operatingProfitMarginPercentile" : 5.87,
+    "netProfitMarginPercentile" : 2.86,
+    "totalTechnicalScore" : 43.40,
+    "totalFundamentalScore" : 16.74,
+    "totalScore" : 60.13
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1275275",
-    "company_code" : "RHETAN",
-    "company_name" : "Rhetan TMT Ltd",
-    "screener_company_link" : "https://www.screener.in/company/RHETAN",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1275275/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1275275/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1275275",
+    "companyCode" : "RHETAN",
+    "companyName" : "Rhetan TMT Ltd",
+    "screenerCompanyLink" : "https://www.screener.in/company/RHETAN",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1275275/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1275275/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "RHETAN",
+      "companyName" : "Rhetan TMT Ltd",
+      "marketCap" : 1845.00,
+      "peRatio" : 335.00,
+      "description" : "Incorporated in 1984, Rhetan TMT Ltd is in the business of Manufacturing of TMT Bars[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.76,
+      "pricePercentageAboveDma100" : 4.21,
+      "pricePercentageAboveDma200" : 4.07,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 19.50,
+      "operatingProfitMarginPercentile" : 17.14,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 48.05,
+      "totalFundamentalScore" : 46.64,
+      "totalScore" : 94.69
+    }
   },
   "attributes" : {
-    "company_code" : "RHETAN",
-    "company_name" : "Rhetan TMT Ltd",
-    "market_cap" : 1857.00,
-    "pe_ratio" : 338.00,
+    "companyCode" : "RHETAN",
+    "companyName" : "Rhetan TMT Ltd",
+    "marketCap" : 1845.00,
+    "peRatio" : 335.00,
     "description" : "Incorporated in 1984, Rhetan TMT Ltd is in the business of Manufacturing of TMT Bars[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 18.89,
     "dma50" : 17.45,
@@ -1752,10 +1777,188 @@
     "volume" : 2097685.00
   }, {
     "date" : "2025-11-24",
-    "price" : 23.07,
-    "dma50" : 21.90,
+    "price" : 22.92,
+    "dma50" : 21.89,
     "dma100" : 19.80,
     "dma200" : 19.33,
-    "volume" : 417759.00
-  } ]
+    "volume" : 963624.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 22.92,
+    "dma50" : 21.89,
+    "dma100" : 19.80,
+    "dma200" : 19.33,
+    "volume" : 963624.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2021-09-30",
+    "sales" : 31.66,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 12.26,
+    "grossProfit" : 3.88,
+    "operatingProfitMargin" : 5.46,
+    "operatingProfit" : 1.73,
+    "netProfitMargin" : 2.81,
+    "netProfit" : 0.89
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 35.37,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 14.65,
+    "grossProfit" : 5.18,
+    "operatingProfitMargin" : 8.11,
+    "operatingProfit" : 2.87,
+    "netProfitMargin" : 4.44,
+    "netProfit" : 1.57
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 33.24,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 11.28,
+    "grossProfit" : 3.75,
+    "operatingProfitMargin" : 4.48,
+    "operatingProfit" : 1.49,
+    "netProfitMargin" : 4.24,
+    "netProfit" : 1.41
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 52.78,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 18.93,
+    "grossProfit" : 9.99,
+    "operatingProfitMargin" : 12.69,
+    "operatingProfit" : 6.70,
+    "netProfitMargin" : 7.58,
+    "netProfit" : 4.00
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 24.30,
+    "salesGrowthYoY" : -23.25,
+    "grossProfitMargin" : 15.72,
+    "grossProfit" : 3.82,
+    "operatingProfitMargin" : 6.26,
+    "operatingProfit" : 1.52,
+    "netProfitMargin" : 3.13,
+    "netProfit" : 0.76
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 34.76,
+    "salesGrowthYoY" : -1.72,
+    "grossProfitMargin" : 24.51,
+    "grossProfit" : 8.52,
+    "operatingProfitMargin" : 7.39,
+    "operatingProfit" : 2.57,
+    "netProfitMargin" : 4.17,
+    "netProfit" : 1.45
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 12.11,
+    "salesGrowthYoY" : -63.57,
+    "grossProfitMargin" : 21.39,
+    "grossProfit" : 2.59,
+    "operatingProfitMargin" : 15.03,
+    "operatingProfit" : 1.82,
+    "netProfitMargin" : 8.51,
+    "netProfit" : 1.03
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 17.89,
+    "salesGrowthYoY" : -66.10,
+    "grossProfitMargin" : 19.17,
+    "grossProfit" : 3.43,
+    "operatingProfitMargin" : 7.38,
+    "operatingProfit" : 1.32,
+    "netProfitMargin" : 5.37,
+    "netProfit" : 0.96
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 19.35,
+    "salesGrowthYoY" : -20.37,
+    "grossProfitMargin" : 21.45,
+    "grossProfit" : 4.15,
+    "operatingProfitMargin" : 8.53,
+    "operatingProfit" : 1.65,
+    "netProfitMargin" : 4.19,
+    "netProfit" : 0.81
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 4.95,
+    "salesGrowthYoY" : -85.76,
+    "grossProfitMargin" : 68.48,
+    "grossProfit" : 3.39,
+    "operatingProfitMargin" : 63.23,
+    "operatingProfit" : 3.13,
+    "netProfitMargin" : 45.86,
+    "netProfit" : 2.27
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 6.38,
+    "salesGrowthYoY" : -47.32,
+    "grossProfitMargin" : 52.19,
+    "grossProfit" : 3.33,
+    "operatingProfitMargin" : 34.95,
+    "operatingProfit" : 2.23,
+    "netProfitMargin" : 21.79,
+    "netProfit" : 1.39
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 6.49,
+    "salesGrowthYoY" : -63.72,
+    "grossProfitMargin" : -33.44,
+    "grossProfit" : -2.17,
+    "operatingProfitMargin" : -46.53,
+    "operatingProfit" : -3.02,
+    "netProfitMargin" : 7.40,
+    "netProfit" : 0.48
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 5.04,
+    "salesGrowthYoY" : -73.95,
+    "grossProfitMargin" : 50.40,
+    "grossProfit" : 2.54,
+    "operatingProfitMargin" : 12.10,
+    "operatingProfit" : 0.61,
+    "netProfitMargin" : 15.08,
+    "netProfit" : 0.76
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 4.76,
+    "salesGrowthYoY" : -3.84,
+    "grossProfitMargin" : 33.40,
+    "grossProfit" : 1.59,
+    "operatingProfitMargin" : 23.11,
+    "operatingProfit" : 1.10,
+    "netProfitMargin" : 60.29,
+    "netProfit" : 2.87
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 4.76,
+    "salesGrowthYoY" : -3.84,
+    "grossProfitMargin" : 33.40,
+    "grossProfit" : 1.59,
+    "operatingProfitMargin" : 23.11,
+    "operatingProfit" : 1.10,
+    "netProfitMargin" : 60.29,
+    "netProfit" : 2.87
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.76,
+    "pricePercentageAboveDma100" : 4.21,
+    "pricePercentageAboveDma200" : 4.07,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 19.50,
+    "operatingProfitMarginPercentile" : 17.14,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 48.05,
+    "totalFundamentalScore" : 46.64,
+    "totalScore" : 94.69
+  }
 }

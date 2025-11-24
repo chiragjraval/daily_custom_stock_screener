@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285320",
-    "company_code" : "AJAXENGG",
-    "company_name" : "Ajax Engineering",
-    "screener_company_link" : "https://www.screener.in/company/AJAXENGG",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285320/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285320/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285320",
+    "companyCode" : "AJAXENGG",
+    "companyName" : "Ajax Engineering",
+    "screenerCompanyLink" : "https://www.screener.in/company/AJAXENGG",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285320/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285320/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "AJAXENGG",
+      "companyName" : "Ajax Engineering",
+      "marketCap" : 7098.00,
+      "peRatio" : 28.30,
+      "description" : "Incorporated in July 1992, Ajax Engineering Limited manufactures a wide range of concrete equipment and services across the value chain.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.05,
+      "pricePercentageAboveDma100" : 5.24,
+      "pricePercentageAboveDma200" : 5.11,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 2.22,
+      "netProfitMarginPercentile" : 1.11,
+      "totalTechnicalScore" : 20.40,
+      "totalFundamentalScore" : 23.33,
+      "totalScore" : 43.74
+    }
   },
   "attributes" : {
-    "company_code" : "AJAXENGG",
-    "company_name" : "Ajax Engineering",
-    "market_cap" : 7217.00,
-    "pe_ratio" : 28.80,
+    "companyCode" : "AJAXENGG",
+    "companyName" : "Ajax Engineering",
+    "marketCap" : 7098.00,
+    "peRatio" : 28.30,
     "description" : "Incorporated in July 1992, Ajax Engineering Limited manufactures a wide range of concrete equipment and services across the value chain.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-02-17",
     "price" : 595.40,
     "dma50" : 595.40,
@@ -1332,10 +1357,138 @@
     "volume" : 84478.00
   }, {
     "date" : "2025-11-24",
-    "price" : 630.65,
-    "dma50" : 632.50,
-    "dma100" : 657.82,
-    "dma200" : 639.35,
-    "volume" : 30176.00
-  } ]
+    "price" : 625.60,
+    "dma50" : 632.31,
+    "dma100" : 657.77,
+    "dma200" : 639.30,
+    "volume" : 45245.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 625.60,
+    "dma50" : 632.31,
+    "dma100" : 657.77,
+    "dma200" : 639.30,
+    "volume" : 45245.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2023-09-30",
+    "sales" : 684.86,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 26.92,
+    "grossProfit" : 184.36,
+    "operatingProfitMargin" : 14.53,
+    "operatingProfit" : 99.51,
+    "netProfitMargin" : 12.11,
+    "netProfit" : 82.94
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 399.35,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 30.09,
+    "grossProfit" : 120.16,
+    "operatingProfitMargin" : 16.73,
+    "operatingProfit" : 66.81,
+    "netProfitMargin" : 13.51,
+    "netProfit" : 53.95
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 657.20,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 24.45,
+    "grossProfit" : 160.69,
+    "operatingProfitMargin" : 16.62,
+    "operatingProfit" : 109.23,
+    "netProfitMargin" : 13.43,
+    "netProfit" : 88.26
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 469.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 30.30,
+    "grossProfit" : 142.11,
+    "operatingProfitMargin" : 17.09,
+    "operatingProfit" : 80.15,
+    "netProfitMargin" : 14.28,
+    "netProfit" : 66.97
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 300.98,
+    "salesGrowthYoY" : -56.05,
+    "grossProfitMargin" : 30.53,
+    "grossProfit" : 91.89,
+    "operatingProfitMargin" : 12.98,
+    "operatingProfit" : 39.07,
+    "netProfitMargin" : 11.31,
+    "netProfit" : 34.04
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 548.18,
+    "salesGrowthYoY" : 37.27,
+    "grossProfitMargin" : 26.70,
+    "grossProfit" : 146.36,
+    "operatingProfitMargin" : 16.06,
+    "operatingProfit" : 88.04,
+    "netProfitMargin" : 12.43,
+    "netProfit" : 68.14
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 755.75,
+    "salesGrowthYoY" : 15.00,
+    "grossProfitMargin" : 24.05,
+    "grossProfit" : 181.76,
+    "operatingProfitMargin" : 14.67,
+    "operatingProfit" : 110.87,
+    "netProfitMargin" : 12.03,
+    "netProfit" : 90.92
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 466.52,
+    "salesGrowthYoY" : -0.53,
+    "grossProfitMargin" : 25.83,
+    "grossProfit" : 120.50,
+    "operatingProfitMargin" : 13.16,
+    "operatingProfit" : 61.39,
+    "netProfitMargin" : 11.33,
+    "netProfit" : 52.86
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 444.81,
+    "salesGrowthYoY" : 47.79,
+    "grossProfitMargin" : 24.01,
+    "grossProfit" : 106.80,
+    "operatingProfitMargin" : 10.18,
+    "operatingProfit" : 45.28,
+    "netProfitMargin" : 8.78,
+    "netProfit" : 39.05
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 444.81,
+    "salesGrowthYoY" : 47.79,
+    "grossProfitMargin" : 24.01,
+    "grossProfit" : 106.80,
+    "operatingProfitMargin" : 10.18,
+    "operatingProfit" : 45.28,
+    "netProfitMargin" : 8.78,
+    "netProfit" : 39.05
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.05,
+    "pricePercentageAboveDma100" : 5.24,
+    "pricePercentageAboveDma200" : 5.11,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 2.22,
+    "netProfitMarginPercentile" : 1.11,
+    "totalTechnicalScore" : 20.40,
+    "totalFundamentalScore" : 23.33,
+    "totalScore" : 43.74
+  }
 }

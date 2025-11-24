@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1275304",
-    "company_code" : "HARSHA",
-    "company_name" : "Harsha Engg Intl",
-    "screener_company_link" : "https://www.screener.in/company/HARSHA",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1275304/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1275304/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1275304",
+    "companyCode" : "HARSHA",
+    "companyName" : "Harsha Engg Intl",
+    "screenerCompanyLink" : "https://www.screener.in/company/HARSHA",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1275304/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1275304/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "HARSHA",
+      "companyName" : "Harsha Engg Intl",
+      "marketCap" : 3534.00,
+      "peRatio" : 26.90,
+      "description" : "Incorporated in 2010, Harsha Engineers Ltd is a leading engineering company that offers a diversified suite of products across geographies and end-user industries. It manufactures brass, steel, and polyamide cages and stamped components with production facilities located in Asia (India & China) and in Europe (Romania).[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.09,
+      "pricePercentageAboveDma100" : 5.16,
+      "pricePercentageAboveDma200" : 5.23,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 10.77,
+      "operatingProfitMarginPercentile" : 14.53,
+      "netProfitMarginPercentile" : 8.24,
+      "totalTechnicalScore" : 15.48,
+      "totalFundamentalScore" : 33.53,
+      "totalScore" : 49.01
+    }
   },
   "attributes" : {
-    "company_code" : "HARSHA",
-    "company_name" : "Harsha Engg Intl",
-    "market_cap" : 3595.00,
-    "pe_ratio" : 27.30,
+    "companyCode" : "HARSHA",
+    "companyName" : "Harsha Engg Intl",
+    "marketCap" : 3534.00,
+    "peRatio" : 26.90,
     "description" : "Incorporated in 2010, Harsha Engineers Ltd is a leading engineering company that offers a diversified suite of products across geographies and end-user industries. It manufactures brass, steel, and polyamide cages and stamped components with production facilities located in Asia (India & China) and in Europe (Romania).[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 481.20,
     "dma50" : 499.05,
@@ -1752,10 +1777,218 @@
     "volume" : 28848.00
   }, {
     "date" : "2025-11-24",
-    "price" : 393.00,
-    "dma50" : 398.38,
-    "dma100" : 404.80,
-    "dma200" : 410.57,
-    "volume" : 7500.00
-  } ]
+    "price" : 391.55,
+    "dma50" : 398.33,
+    "dma100" : 404.79,
+    "dma200" : 410.56,
+    "volume" : 13758.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 391.55,
+    "dma50" : 398.33,
+    "dma100" : 404.79,
+    "dma200" : 410.56,
+    "volume" : 13758.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2021-09-30",
+    "sales" : 232.21,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 47.00,
+    "grossProfit" : 109.14,
+    "operatingProfitMargin" : 16.64,
+    "operatingProfit" : 38.64,
+    "netProfitMargin" : 9.73,
+    "netProfit" : 22.59
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 231.86,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 48.01,
+    "grossProfit" : 111.32,
+    "operatingProfitMargin" : 18.15,
+    "operatingProfit" : 42.08,
+    "netProfitMargin" : 10.76,
+    "netProfit" : 24.95
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 276.07,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 45.27,
+    "grossProfit" : 124.98,
+    "operatingProfitMargin" : 17.68,
+    "operatingProfit" : 48.81,
+    "netProfitMargin" : 12.36,
+    "netProfit" : 34.12
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 308.30,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 40.71,
+    "grossProfit" : 125.51,
+    "operatingProfitMargin" : 14.10,
+    "operatingProfit" : 43.47,
+    "netProfitMargin" : 9.83,
+    "netProfit" : 30.31
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 242.29,
+    "salesGrowthYoY" : 4.34,
+    "grossProfitMargin" : 50.43,
+    "grossProfit" : 122.19,
+    "operatingProfitMargin" : 18.52,
+    "operatingProfit" : 44.87,
+    "netProfitMargin" : 12.27,
+    "netProfit" : 29.73
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 226.39,
+    "salesGrowthYoY" : -2.36,
+    "grossProfitMargin" : 49.27,
+    "grossProfit" : 111.54,
+    "operatingProfitMargin" : 16.38,
+    "operatingProfit" : 37.08,
+    "netProfitMargin" : 13.94,
+    "netProfit" : 31.56
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 247.74,
+    "salesGrowthYoY" : -10.26,
+    "grossProfitMargin" : 50.58,
+    "grossProfit" : 125.31,
+    "operatingProfitMargin" : 20.36,
+    "operatingProfit" : 50.44,
+    "netProfitMargin" : 14.85,
+    "netProfit" : 36.79
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 256.16,
+    "salesGrowthYoY" : -16.91,
+    "grossProfitMargin" : 48.05,
+    "grossProfit" : 123.08,
+    "operatingProfitMargin" : 16.13,
+    "operatingProfit" : 41.32,
+    "netProfitMargin" : 11.62,
+    "netProfit" : 29.77
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 268.41,
+    "salesGrowthYoY" : 10.78,
+    "grossProfitMargin" : 44.27,
+    "grossProfit" : 118.83,
+    "operatingProfitMargin" : 14.95,
+    "operatingProfit" : 40.13,
+    "netProfitMargin" : 11.02,
+    "netProfit" : 29.58
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 258.84,
+    "salesGrowthYoY" : 14.33,
+    "grossProfitMargin" : 45.75,
+    "grossProfit" : 118.42,
+    "operatingProfitMargin" : 14.51,
+    "operatingProfit" : 37.56,
+    "netProfitMargin" : 11.58,
+    "netProfit" : 29.97
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 297.53,
+    "salesGrowthYoY" : 20.10,
+    "grossProfitMargin" : 44.54,
+    "grossProfit" : 132.52,
+    "operatingProfitMargin" : 17.25,
+    "operatingProfit" : 51.32,
+    "netProfitMargin" : 12.63,
+    "netProfit" : 37.58
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 258.30,
+    "salesGrowthYoY" : 0.84,
+    "grossProfitMargin" : 53.67,
+    "grossProfit" : 138.63,
+    "operatingProfitMargin" : 20.17,
+    "operatingProfit" : 52.10,
+    "netProfitMargin" : 14.93,
+    "netProfit" : 38.56
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 271.97,
+    "salesGrowthYoY" : 1.33,
+    "grossProfitMargin" : 47.90,
+    "grossProfit" : 130.27,
+    "operatingProfitMargin" : 15.17,
+    "operatingProfit" : 41.26,
+    "netProfitMargin" : 12.05,
+    "netProfit" : 32.77
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 268.04,
+    "salesGrowthYoY" : 3.55,
+    "grossProfitMargin" : 46.24,
+    "grossProfit" : 123.94,
+    "operatingProfitMargin" : 15.69,
+    "operatingProfit" : 42.06,
+    "netProfitMargin" : 11.56,
+    "netProfit" : 30.99
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 290.99,
+    "salesGrowthYoY" : -2.20,
+    "grossProfitMargin" : 47.84,
+    "grossProfit" : 139.21,
+    "operatingProfitMargin" : 11.88,
+    "operatingProfit" : 34.57,
+    "netProfitMargin" : 6.40,
+    "netProfit" : 18.62
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 271.28,
+    "salesGrowthYoY" : 5.03,
+    "grossProfitMargin" : 51.34,
+    "grossProfit" : 139.28,
+    "operatingProfitMargin" : 19.73,
+    "operatingProfit" : 53.52,
+    "netProfitMargin" : 15.82,
+    "netProfit" : 42.92
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 278.76,
+    "salesGrowthYoY" : 2.50,
+    "grossProfitMargin" : 50.24,
+    "grossProfit" : 140.05,
+    "operatingProfitMargin" : 18.04,
+    "operatingProfit" : 50.29,
+    "netProfitMargin" : 14.00,
+    "netProfit" : 39.03
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 278.76,
+    "salesGrowthYoY" : 2.50,
+    "grossProfitMargin" : 50.24,
+    "grossProfit" : 140.05,
+    "operatingProfitMargin" : 18.04,
+    "operatingProfit" : 50.29,
+    "netProfitMargin" : 14.00,
+    "netProfit" : 39.03
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.09,
+    "pricePercentageAboveDma100" : 5.16,
+    "pricePercentageAboveDma200" : 5.23,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 10.77,
+    "operatingProfitMarginPercentile" : 14.53,
+    "netProfitMarginPercentile" : 8.24,
+    "totalTechnicalScore" : 15.48,
+    "totalFundamentalScore" : 33.53,
+    "totalScore" : 49.01
+  }
 }

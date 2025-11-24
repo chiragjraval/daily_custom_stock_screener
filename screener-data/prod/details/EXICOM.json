@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284694",
-    "company_code" : "EXICOM",
-    "company_name" : "Exicom Tele-Sys.",
-    "screener_company_link" : "https://www.screener.in/company/EXICOM",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284694/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284694/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284694",
+    "companyCode" : "EXICOM",
+    "companyName" : "Exicom Tele-Sys.",
+    "screenerCompanyLink" : "https://www.screener.in/company/EXICOM",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284694/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284694/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "EXICOM",
+      "companyName" : "Exicom Tele-Sys.",
+      "marketCap" : 1584.00,
+      "peRatio" : 990.00,
+      "description" : "Incorporated in 1994, Exicom Tele-Systems Ltd manufactures EV chargers and Critical Power components[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.88,
+      "pricePercentageAboveDma100" : 6.19,
+      "pricePercentageAboveDma200" : 6.63,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 15.10,
+      "operatingProfitMarginPercentile" : 11.20,
+      "netProfitMarginPercentile" : 5.22,
+      "totalTechnicalScore" : 18.69,
+      "totalFundamentalScore" : 31.52,
+      "totalScore" : 50.22
+    }
   },
   "attributes" : {
-    "company_code" : "EXICOM",
-    "company_name" : "Exicom Tele-Sys.",
-    "market_cap" : 1609.00,
-    "pe_ratio" : 1005.00,
+    "companyCode" : "EXICOM",
+    "companyName" : "Exicom Tele-Sys.",
+    "marketCap" : 1584.00,
+    "peRatio" : 990.00,
     "description" : "Incorporated in 1994, Exicom Tele-Systems Ltd manufactures EV chargers and Critical Power components[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 254.52,
     "dma50" : 313.35,
@@ -1752,10 +1777,168 @@
     "volume" : 489058.00
   }, {
     "date" : "2025-11-24",
-    "price" : 116.18,
-    "dma50" : 138.87,
-    "dma100" : 150.14,
-    "dma200" : 169.86,
-    "volume" : 353261.00
-  } ]
+    "price" : 114.47,
+    "dma50" : 138.81,
+    "dma100" : 150.12,
+    "dma200" : 169.85,
+    "volume" : 562860.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 114.47,
+    "dma50" : 138.81,
+    "dma100" : 150.12,
+    "dma200" : 169.85,
+    "volume" : 562860.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2022-12-31",
+    "sales" : 141.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 30.97,
+    "grossProfit" : 43.67,
+    "operatingProfitMargin" : 11.29,
+    "operatingProfit" : 15.92,
+    "netProfitMargin" : 7.33,
+    "netProfit" : 10.34
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 185.47,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 29.65,
+    "grossProfit" : 54.99,
+    "operatingProfitMargin" : 11.26,
+    "operatingProfit" : 20.88,
+    "netProfitMargin" : 10.69,
+    "netProfit" : 19.83
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 152.96,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 31.14,
+    "grossProfit" : 47.63,
+    "operatingProfitMargin" : 6.87,
+    "operatingProfit" : 10.51,
+    "netProfitMargin" : 3.36,
+    "netProfit" : 5.14
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 154.69,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 37.31,
+    "grossProfit" : 57.71,
+    "operatingProfitMargin" : 14.93,
+    "operatingProfit" : 23.10,
+    "netProfitMargin" : 10.99,
+    "netProfit" : 17.00
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 261.06,
+    "salesGrowthYoY" : 85.15,
+    "grossProfitMargin" : 28.77,
+    "grossProfit" : 75.11,
+    "operatingProfitMargin" : 13.48,
+    "operatingProfit" : 35.19,
+    "netProfitMargin" : 5.10,
+    "netProfit" : 13.31
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 297.54,
+    "salesGrowthYoY" : 60.42,
+    "grossProfitMargin" : 32.63,
+    "grossProfit" : 97.09,
+    "operatingProfitMargin" : 15.32,
+    "operatingProfit" : 45.58,
+    "netProfitMargin" : 10.42,
+    "netProfit" : 31.00
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 243.27,
+    "salesGrowthYoY" : 59.04,
+    "grossProfitMargin" : 33.10,
+    "grossProfit" : 80.52,
+    "operatingProfitMargin" : 11.51,
+    "operatingProfit" : 28.00,
+    "netProfitMargin" : 8.88,
+    "netProfit" : 21.60
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 148.65,
+    "salesGrowthYoY" : -3.90,
+    "grossProfitMargin" : 34.62,
+    "grossProfit" : 51.46,
+    "operatingProfitMargin" : 4.02,
+    "operatingProfit" : 5.98,
+    "netProfitMargin" : 3.05,
+    "netProfit" : 4.53
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 147.70,
+    "salesGrowthYoY" : -43.42,
+    "grossProfitMargin" : 24.90,
+    "grossProfit" : 36.78,
+    "operatingProfitMargin" : -4.41,
+    "operatingProfit" : -6.51,
+    "netProfitMargin" : -6.60,
+    "netProfit" : -9.75
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 212.80,
+    "salesGrowthYoY" : -28.48,
+    "grossProfitMargin" : 22.95,
+    "grossProfit" : 48.84,
+    "operatingProfitMargin" : 5.66,
+    "operatingProfit" : 12.04,
+    "netProfitMargin" : 2.14,
+    "netProfit" : 4.55
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 150.66,
+    "salesGrowthYoY" : -38.07,
+    "grossProfitMargin" : 34.42,
+    "grossProfit" : 51.86,
+    "operatingProfitMargin" : 5.84,
+    "operatingProfit" : 8.80,
+    "netProfitMargin" : 0.58,
+    "netProfit" : 0.87
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 228.38,
+    "salesGrowthYoY" : 53.64,
+    "grossProfitMargin" : 28.08,
+    "grossProfit" : 64.13,
+    "operatingProfitMargin" : 6.64,
+    "operatingProfit" : 15.16,
+    "netProfitMargin" : 2.59,
+    "netProfit" : 5.92
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 228.38,
+    "salesGrowthYoY" : 53.64,
+    "grossProfitMargin" : 28.08,
+    "grossProfit" : 64.13,
+    "operatingProfitMargin" : 6.64,
+    "operatingProfit" : 15.16,
+    "netProfitMargin" : 2.59,
+    "netProfit" : 5.92
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.88,
+    "pricePercentageAboveDma100" : 6.19,
+    "pricePercentageAboveDma200" : 6.63,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 15.10,
+    "operatingProfitMarginPercentile" : 11.20,
+    "netProfitMarginPercentile" : 5.22,
+    "totalTechnicalScore" : 18.69,
+    "totalFundamentalScore" : 31.52,
+    "totalScore" : 50.22
+  }
 }

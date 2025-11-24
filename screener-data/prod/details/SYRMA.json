@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1275268",
-    "company_code" : "SYRMA",
-    "company_name" : "Syrma SGS Tech.",
-    "screener_company_link" : "https://www.screener.in/company/SYRMA",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1275268/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1275268/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1275268",
+    "companyCode" : "SYRMA",
+    "companyName" : "Syrma SGS Tech.",
+    "screenerCompanyLink" : "https://www.screener.in/company/SYRMA",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1275268/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1275268/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "SYRMA",
+      "companyName" : "Syrma SGS Tech.",
+      "marketCap" : 15768.00,
+      "peRatio" : 86.70,
+      "description" : "Incorporated in 2004, Syrma SGS Technology Limited is a Chennai-based engineering and design company engaged in electronics manufacturing services (EMS). The company provides integrated services and solutions to original equipment manufacturers (OEMs) from the initial product concept stage to volume production through concept co-creation and product realization.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.95,
+      "pricePercentageAboveDma100" : 4.67,
+      "pricePercentageAboveDma200" : 3.98,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 7.69,
+      "operatingProfitMarginPercentile" : 15.29,
+      "netProfitMarginPercentile" : 8.82,
+      "totalTechnicalScore" : 43.61,
+      "totalFundamentalScore" : 31.81,
+      "totalScore" : 75.42
+    }
   },
   "attributes" : {
-    "company_code" : "SYRMA",
-    "company_name" : "Syrma SGS Tech.",
-    "market_cap" : 16025.00,
-    "pe_ratio" : 88.10,
+    "companyCode" : "SYRMA",
+    "companyName" : "Syrma SGS Tech.",
+    "marketCap" : 15768.00,
+    "peRatio" : 86.70,
     "description" : "Incorporated in 2004, Syrma SGS Technology Limited is a Chennai-based engineering and design company engaged in electronics manufacturing services (EMS). The company provides integrated services and solutions to original equipment manufacturers (OEMs) from the initial product concept stage to volume production through concept co-creation and product realization.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 555.90,
     "dma50" : 483.07,
@@ -1752,10 +1777,218 @@
     "volume" : 1232704.00
   }, {
     "date" : "2025-11-24",
-    "price" : 829.15,
-    "dma50" : 813.51,
-    "dma100" : 769.89,
-    "dma200" : 681.63,
-    "volume" : 598770.00
-  } ]
+    "price" : 820.50,
+    "dma50" : 813.17,
+    "dma100" : 769.80,
+    "dma200" : 681.54,
+    "volume" : 1383392.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 820.50,
+    "dma50" : 813.17,
+    "dma100" : 769.80,
+    "dma200" : 681.54,
+    "volume" : 1383392.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2021-09-30",
+    "sales" : 185.42,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 29.95,
+    "grossProfit" : 55.53,
+    "operatingProfitMargin" : 9.83,
+    "operatingProfit" : 18.23,
+    "netProfitMargin" : 5.43,
+    "netProfit" : 10.07
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 149.19,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 41.79,
+    "grossProfit" : 62.35,
+    "operatingProfitMargin" : 14.78,
+    "operatingProfit" : 22.05,
+    "netProfitMargin" : 8.02,
+    "netProfit" : 11.97
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 178.46,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 27.88,
+    "grossProfit" : 49.75,
+    "operatingProfitMargin" : 2.54,
+    "operatingProfit" : 4.53,
+    "netProfitMargin" : 1.70,
+    "netProfit" : 3.03
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 186.12,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 28.88,
+    "grossProfit" : 53.75,
+    "operatingProfitMargin" : 5.42,
+    "operatingProfit" : 10.09,
+    "netProfitMargin" : 1.32,
+    "netProfit" : 2.46
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 243.09,
+    "salesGrowthYoY" : 31.10,
+    "grossProfitMargin" : 30.06,
+    "grossProfit" : 73.07,
+    "operatingProfitMargin" : 7.88,
+    "operatingProfit" : 19.16,
+    "netProfitMargin" : 4.85,
+    "netProfit" : 11.79
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 276.47,
+    "salesGrowthYoY" : 85.31,
+    "grossProfitMargin" : 21.26,
+    "grossProfit" : 58.78,
+    "operatingProfitMargin" : 5.77,
+    "operatingProfit" : 15.95,
+    "netProfitMargin" : 5.66,
+    "netProfit" : 15.65
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 429.91,
+    "salesGrowthYoY" : 140.90,
+    "grossProfitMargin" : 19.72,
+    "grossProfit" : 84.78,
+    "operatingProfitMargin" : 7.08,
+    "operatingProfit" : 30.44,
+    "netProfitMargin" : 5.84,
+    "netProfit" : 25.11
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 308.29,
+    "salesGrowthYoY" : 65.64,
+    "grossProfitMargin" : 19.82,
+    "grossProfit" : 61.10,
+    "operatingProfitMargin" : 2.03,
+    "operatingProfit" : 6.26,
+    "netProfitMargin" : 3.25,
+    "netProfit" : 10.02
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 393.49,
+    "salesGrowthYoY" : 61.87,
+    "grossProfitMargin" : 19.26,
+    "grossProfit" : 75.79,
+    "operatingProfitMargin" : 2.83,
+    "operatingProfit" : 11.14,
+    "netProfitMargin" : 2.36,
+    "netProfit" : 9.29
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 404.23,
+    "salesGrowthYoY" : 46.21,
+    "grossProfitMargin" : 17.09,
+    "grossProfit" : 69.08,
+    "operatingProfitMargin" : 1.38,
+    "operatingProfit" : 5.58,
+    "netProfitMargin" : 0.17,
+    "netProfit" : 0.69
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 727.29,
+    "salesGrowthYoY" : 69.17,
+    "grossProfitMargin" : 10.34,
+    "grossProfit" : 75.20,
+    "operatingProfitMargin" : 1.24,
+    "operatingProfit" : 9.02,
+    "netProfitMargin" : 0.19,
+    "netProfit" : 1.38
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 815.99,
+    "salesGrowthYoY" : 164.68,
+    "grossProfitMargin" : 10.44,
+    "grossProfit" : 85.19,
+    "operatingProfitMargin" : 1.70,
+    "operatingProfit" : 13.87,
+    "netProfitMargin" : 0.33,
+    "netProfit" : 2.69
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 795.81,
+    "salesGrowthYoY" : 102.24,
+    "grossProfitMargin" : 22.06,
+    "grossProfit" : 175.56,
+    "operatingProfitMargin" : 8.07,
+    "operatingProfit" : 64.22,
+    "netProfitMargin" : 4.44,
+    "netProfit" : 35.33
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 514.45,
+    "salesGrowthYoY" : 27.27,
+    "grossProfitMargin" : 24.28,
+    "grossProfit" : 124.91,
+    "operatingProfitMargin" : 6.93,
+    "operatingProfit" : 35.65,
+    "netProfitMargin" : 5.92,
+    "netProfit" : 30.46
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 465.49,
+    "salesGrowthYoY" : -36.00,
+    "grossProfitMargin" : 26.93,
+    "grossProfit" : 125.36,
+    "operatingProfitMargin" : 10.21,
+    "operatingProfit" : 47.53,
+    "netProfitMargin" : 6.92,
+    "netProfit" : 32.21
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 916.96,
+    "salesGrowthYoY" : 12.37,
+    "grossProfitMargin" : 24.15,
+    "grossProfit" : 221.45,
+    "operatingProfitMargin" : 10.39,
+    "operatingProfit" : 95.27,
+    "netProfitMargin" : 5.86,
+    "netProfit" : 53.73
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 1086.98,
+    "salesGrowthYoY" : 36.59,
+    "grossProfitMargin" : 22.24,
+    "grossProfit" : 241.74,
+    "operatingProfitMargin" : 9.70,
+    "operatingProfit" : 105.44,
+    "netProfitMargin" : 6.02,
+    "netProfit" : 65.44
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 1086.98,
+    "salesGrowthYoY" : 36.59,
+    "grossProfitMargin" : 22.24,
+    "grossProfit" : 241.74,
+    "operatingProfitMargin" : 9.70,
+    "operatingProfit" : 105.44,
+    "netProfitMargin" : 6.02,
+    "netProfit" : 65.44
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.95,
+    "pricePercentageAboveDma100" : 4.67,
+    "pricePercentageAboveDma200" : 3.98,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 7.69,
+    "operatingProfitMarginPercentile" : 15.29,
+    "netProfitMarginPercentile" : 8.82,
+    "totalTechnicalScore" : 43.61,
+    "totalFundamentalScore" : 31.81,
+    "totalScore" : 75.42
+  }
 }

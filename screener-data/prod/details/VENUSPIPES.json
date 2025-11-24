@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1275226",
-    "company_code" : "VENUSPIPES",
-    "company_name" : "Venus Pipes",
-    "screener_company_link" : "https://www.screener.in/company/VENUSPIPES",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1275226/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1275226/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1275226",
+    "companyCode" : "VENUSPIPES",
+    "companyName" : "Venus Pipes",
+    "screenerCompanyLink" : "https://www.screener.in/company/VENUSPIPES",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1275226/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1275226/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "VENUSPIPES",
+      "companyName" : "Venus Pipes",
+      "marketCap" : 2653.00,
+      "peRatio" : 28.70,
+      "description" : "Venus Pipes & Tubes Limited is a manufacturer and exporter of stainless steel pipes and tubes. The company is manufacturing stainless steel tube products in two broad categories - seamless tubes/pipes and welded tubes/pipes under which five categories of products are manufactured namely, stainless steel high precision & heat exchanger tubes, stainless steel hydraulic & instrumentation tubes, stainless steel seamless pipes, stainless steel welded pipes and stainless steel box pipes.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.11,
+      "pricePercentageAboveDma100" : 5.32,
+      "pricePercentageAboveDma200" : 5.43,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 9.33,
+      "operatingProfitMarginPercentile" : 14.74,
+      "netProfitMarginPercentile" : 5.26,
+      "totalTechnicalScore" : 15.87,
+      "totalFundamentalScore" : 29.33,
+      "totalScore" : 45.20
+    }
   },
   "attributes" : {
-    "company_code" : "VENUSPIPES",
-    "company_name" : "Venus Pipes",
-    "market_cap" : 2633.00,
-    "pe_ratio" : 28.40,
+    "companyCode" : "VENUSPIPES",
+    "companyName" : "Venus Pipes",
+    "marketCap" : 2653.00,
+    "peRatio" : 28.70,
     "description" : "Venus Pipes & Tubes Limited is a manufacturer and exporter of stainless steel pipes and tubes. The company is manufacturing stainless steel tube products in two broad categories - seamless tubes/pipes and welded tubes/pipes under which five categories of products are manufactured namely, stainless steel high precision & heat exchanger tubes, stainless steel hydraulic & instrumentation tubes, stainless steel seamless pipes, stainless steel welded pipes and stainless steel box pipes.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 1677.45,
     "dma50" : 1918.33,
@@ -1752,10 +1777,238 @@
     "volume" : 35692.00
   }, {
     "date" : "2025-11-24",
-    "price" : 1276.40,
-    "dma50" : 1304.75,
-    "dma100" : 1362.71,
-    "dma200" : 1395.50,
-    "volume" : 5153.00
-  } ]
+    "price" : 1275.00,
+    "dma50" : 1304.70,
+    "dma100" : 1362.70,
+    "dma200" : 1395.48,
+    "volume" : 31062.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 1275.00,
+    "dma50" : 1304.70,
+    "dma100" : 1362.70,
+    "dma200" : 1395.48,
+    "volume" : 31062.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2021-03-31",
+    "sales" : 92.44,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 16.66,
+    "grossProfit" : 15.40,
+    "operatingProfitMargin" : 11.11,
+    "operatingProfit" : 10.27,
+    "netProfitMargin" : 7.16,
+    "netProfit" : 6.62
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 81.06,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 16.56,
+    "grossProfit" : 13.42,
+    "operatingProfitMargin" : 11.53,
+    "operatingProfit" : 9.35,
+    "netProfitMargin" : 8.40,
+    "netProfit" : 6.81
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 89.46,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 19.05,
+    "grossProfit" : 17.04,
+    "operatingProfitMargin" : 14.91,
+    "operatingProfit" : 13.34,
+    "netProfitMargin" : 9.87,
+    "netProfit" : 8.83
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 106.24,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 18.63,
+    "grossProfit" : 19.79,
+    "operatingProfitMargin" : 12.07,
+    "operatingProfit" : 12.82,
+    "netProfitMargin" : 7.49,
+    "netProfit" : 7.96
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 110.18,
+    "salesGrowthYoY" : 19.19,
+    "grossProfitMargin" : 19.63,
+    "grossProfit" : 21.63,
+    "operatingProfitMargin" : 12.46,
+    "operatingProfit" : 13.73,
+    "netProfitMargin" : 7.32,
+    "netProfit" : 8.07
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 113.60,
+    "salesGrowthYoY" : 40.14,
+    "grossProfitMargin" : 20.35,
+    "grossProfit" : 23.12,
+    "operatingProfitMargin" : 12.74,
+    "operatingProfit" : 14.47,
+    "netProfitMargin" : 8.02,
+    "netProfit" : 9.11
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 126.41,
+    "salesGrowthYoY" : 41.30,
+    "grossProfitMargin" : 19.83,
+    "grossProfit" : 25.07,
+    "operatingProfitMargin" : 12.27,
+    "operatingProfit" : 15.51,
+    "netProfitMargin" : 8.22,
+    "netProfit" : 10.39
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 136.11,
+    "salesGrowthYoY" : 28.12,
+    "grossProfitMargin" : 19.75,
+    "grossProfit" : 26.88,
+    "operatingProfitMargin" : 12.88,
+    "operatingProfit" : 17.53,
+    "netProfitMargin" : 8.29,
+    "netProfit" : 11.28
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 176.28,
+    "salesGrowthYoY" : 59.99,
+    "grossProfitMargin" : 18.58,
+    "grossProfit" : 32.75,
+    "operatingProfitMargin" : 12.25,
+    "operatingProfit" : 21.59,
+    "netProfitMargin" : 7.62,
+    "netProfit" : 13.43
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 179.61,
+    "salesGrowthYoY" : 58.11,
+    "grossProfitMargin" : 22.89,
+    "grossProfit" : 41.11,
+    "operatingProfitMargin" : 15.35,
+    "operatingProfit" : 27.57,
+    "netProfitMargin" : 9.69,
+    "netProfit" : 17.40
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 191.36,
+    "salesGrowthYoY" : 51.38,
+    "grossProfitMargin" : 28.39,
+    "grossProfit" : 54.33,
+    "operatingProfitMargin" : 18.12,
+    "operatingProfit" : 34.67,
+    "netProfitMargin" : 10.59,
+    "netProfit" : 20.27
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 207.13,
+    "salesGrowthYoY" : 52.18,
+    "grossProfitMargin" : 29.24,
+    "grossProfit" : 60.56,
+    "operatingProfitMargin" : 18.85,
+    "operatingProfit" : 39.04,
+    "netProfitMargin" : 11.24,
+    "netProfit" : 23.28
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 224.10,
+    "salesGrowthYoY" : 27.13,
+    "grossProfitMargin" : 31.64,
+    "grossProfit" : 70.91,
+    "operatingProfitMargin" : 20.09,
+    "operatingProfit" : 45.02,
+    "netProfitMargin" : 11.17,
+    "netProfit" : 25.03
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 240.14,
+    "salesGrowthYoY" : 33.70,
+    "grossProfitMargin" : 32.98,
+    "grossProfit" : 79.20,
+    "operatingProfitMargin" : 19.96,
+    "operatingProfit" : 47.93,
+    "netProfitMargin" : 11.48,
+    "netProfit" : 27.57
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 228.95,
+    "salesGrowthYoY" : 19.64,
+    "grossProfitMargin" : 33.93,
+    "grossProfit" : 77.68,
+    "operatingProfitMargin" : 17.89,
+    "operatingProfit" : 40.96,
+    "netProfitMargin" : 10.33,
+    "netProfit" : 23.65
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 231.30,
+    "salesGrowthYoY" : 11.67,
+    "grossProfitMargin" : 32.85,
+    "grossProfit" : 75.98,
+    "operatingProfitMargin" : 16.04,
+    "operatingProfit" : 37.10,
+    "netProfitMargin" : 7.77,
+    "netProfit" : 17.97
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 258.14,
+    "salesGrowthYoY" : 15.19,
+    "grossProfitMargin" : 33.38,
+    "grossProfit" : 86.17,
+    "operatingProfitMargin" : 16.12,
+    "operatingProfit" : 41.61,
+    "netProfitMargin" : 9.18,
+    "netProfit" : 23.70
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 276.41,
+    "salesGrowthYoY" : 15.10,
+    "grossProfitMargin" : 32.84,
+    "grossProfit" : 90.77,
+    "operatingProfitMargin" : 16.21,
+    "operatingProfit" : 44.81,
+    "netProfitMargin" : 8.96,
+    "netProfit" : 24.77
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 291.54,
+    "salesGrowthYoY" : 27.34,
+    "grossProfitMargin" : 33.15,
+    "grossProfit" : 96.65,
+    "operatingProfitMargin" : 16.30,
+    "operatingProfit" : 47.52,
+    "netProfitMargin" : 8.95,
+    "netProfit" : 26.09
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 291.54,
+    "salesGrowthYoY" : 27.34,
+    "grossProfitMargin" : 33.15,
+    "grossProfit" : 96.65,
+    "operatingProfitMargin" : 16.30,
+    "operatingProfit" : 47.52,
+    "netProfitMargin" : 8.95,
+    "netProfit" : 26.09
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.11,
+    "pricePercentageAboveDma100" : 5.32,
+    "pricePercentageAboveDma200" : 5.43,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 9.33,
+    "operatingProfitMarginPercentile" : 14.74,
+    "netProfitMarginPercentile" : 5.26,
+    "totalTechnicalScore" : 15.87,
+    "totalFundamentalScore" : 29.33,
+    "totalScore" : 45.20
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285499",
-    "company_code" : "SAFEENTP",
-    "company_name" : "Safe Enterprises",
-    "screener_company_link" : "https://www.screener.in/company/SAFEENTP",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285499/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285499/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285499",
+    "companyCode" : "SAFEENTP",
+    "companyName" : "Safe Enterprises",
+    "screenerCompanyLink" : "https://www.screener.in/company/SAFEENTP",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285499/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285499/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "SAFEENTP",
+      "companyName" : "Safe Enterprises",
+      "marketCap" : 1249.00,
+      "peRatio" : 28.10,
+      "description" : "Incorporated in 1976, Safe Enterprises Retail Fixtures Limited designs, manufactures, supplies, and installs shop fittings and retail fixtures, providing customized solutions across various retail segments such as fashion, electronics, and department stores.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 3.97,
+      "pricePercentageAboveDma100" : 3.58,
+      "pricePercentageAboveDma200" : 3.02,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 0.00,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 40.57,
+      "totalFundamentalScore" : 30.00,
+      "totalScore" : 70.57
+    }
   },
   "attributes" : {
-    "company_code" : "SAFEENTP",
-    "company_name" : "Safe Enterprises",
-    "market_cap" : 1314.00,
-    "pe_ratio" : 29.60,
+    "companyCode" : "SAFEENTP",
+    "companyName" : "Safe Enterprises",
+    "marketCap" : 1249.00,
+    "peRatio" : 28.10,
     "description" : "Incorporated in 1976, Safe Enterprises Retail Fixtures Limited designs, manufactures, supplies, and installs shop fittings and retail fixtures, providing customized solutions across various retail segments such as fashion, electronics, and department stores.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-06-27",
     "price" : 158.55,
     "dma50" : 158.55,
@@ -723,10 +748,68 @@
     "volume" : 66500.00
   }, {
     "date" : "2025-11-24",
-    "price" : 282.00,
-    "dma50" : 222.67,
-    "dma100" : 208.98,
-    "dma200" : 192.21,
-    "volume" : 19500.00
-  } ]
+    "price" : 268.00,
+    "dma50" : 222.12,
+    "dma100" : 208.84,
+    "dma200" : 192.07,
+    "volume" : 75000.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 268.00,
+    "dma50" : 222.12,
+    "dma100" : 208.84,
+    "dma200" : 192.07,
+    "volume" : 75000.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-09-30",
+    "sales" : 57.76,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 59.11,
+    "grossProfit" : 34.14,
+    "operatingProfitMargin" : 37.73,
+    "operatingProfit" : 21.79,
+    "netProfitMargin" : 26.11,
+    "netProfit" : 15.08
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 89.88,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 61.28,
+    "grossProfit" : 55.08,
+    "operatingProfitMargin" : 37.75,
+    "operatingProfit" : 33.93,
+    "netProfitMargin" : 29.76,
+    "netProfit" : 26.75
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 89.88,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 61.28,
+    "grossProfit" : 55.08,
+    "operatingProfitMargin" : 37.75,
+    "operatingProfit" : 33.93,
+    "netProfitMargin" : 29.76,
+    "netProfit" : 26.75
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 3.97,
+    "pricePercentageAboveDma100" : 3.58,
+    "pricePercentageAboveDma200" : 3.02,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 0.00,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 40.57,
+    "totalFundamentalScore" : 30.00,
+    "totalScore" : 70.57
+  }
 }

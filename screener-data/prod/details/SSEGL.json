@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284872",
-    "company_code" : "SSEGL",
-    "company_name" : "Sathlokhar Sys.",
-    "screener_company_link" : "https://www.screener.in/company/SSEGL",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284872/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284872/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284872",
+    "companyCode" : "SSEGL",
+    "companyName" : "Sathlokhar Sys.",
+    "screenerCompanyLink" : "https://www.screener.in/company/SSEGL",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284872/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284872/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "SSEGL",
+      "companyName" : "Sathlokhar Sys.",
+      "marketCap" : 1217.00,
+      "peRatio" : 22.40,
+      "description" : "Founded in 2013, Sathlokhar Synergys E&C Global Limited provides specialized engineering, procurement, and construction (EPC) services for the construction of buildings and infrastructure facilities.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.04,
+      "pricePercentageAboveDma100" : 4.68,
+      "pricePercentageAboveDma200" : 4.53,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 17.32,
+      "netProfitMarginPercentile" : 8.86,
+      "totalTechnicalScore" : 39.25,
+      "totalFundamentalScore" : 46.17,
+      "totalScore" : 85.42
+    }
   },
   "attributes" : {
-    "company_code" : "SSEGL",
-    "company_name" : "Sathlokhar Sys.",
-    "market_cap" : 1228.00,
-    "pe_ratio" : 22.60,
+    "companyCode" : "SSEGL",
+    "companyName" : "Sathlokhar Sys.",
+    "marketCap" : 1217.00,
+    "peRatio" : 22.40,
     "description" : "Founded in 2013, Sathlokhar Synergys E&C Global Limited provides specialized engineering, procurement, and construction (EPC) services for the construction of buildings and infrastructure facilities.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 370.30,
     "dma50" : 389.79,
@@ -1752,10 +1777,98 @@
     "volume" : 54200.00
   }, {
     "date" : "2025-11-24",
-    "price" : 508.85,
-    "dma50" : 509.22,
-    "dma100" : 474.33,
-    "dma200" : 461.65,
-    "volume" : 34800.00
-  } ]
+    "price" : 505.00,
+    "dma50" : 509.06,
+    "dma100" : 474.29,
+    "dma200" : 461.61,
+    "volume" : 54400.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 505.00,
+    "dma50" : 509.06,
+    "dma100" : 474.29,
+    "dma200" : 461.61,
+    "volume" : 54400.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2023-09-30",
+    "sales" : 46.40,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 46.40,
+    "operatingProfitMargin" : 11.75,
+    "operatingProfit" : 5.45,
+    "netProfitMargin" : 8.45,
+    "netProfit" : 3.92
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 200.57,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 200.57,
+    "operatingProfitMargin" : 15.03,
+    "operatingProfit" : 30.15,
+    "netProfitMargin" : 11.09,
+    "netProfit" : 22.24
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 141.87,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 141.87,
+    "operatingProfitMargin" : 15.70,
+    "operatingProfit" : 22.27,
+    "netProfitMargin" : 11.60,
+    "netProfit" : 16.46
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 257.49,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 257.49,
+    "operatingProfitMargin" : 13.38,
+    "operatingProfit" : 34.45,
+    "netProfitMargin" : 10.23,
+    "netProfit" : 26.34
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 248.99,
+    "salesGrowthYoY" : 436.62,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 248.99,
+    "operatingProfitMargin" : 15.17,
+    "operatingProfit" : 37.77,
+    "netProfitMargin" : 11.24,
+    "netProfit" : 27.99
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 248.99,
+    "salesGrowthYoY" : 436.62,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 248.99,
+    "operatingProfitMargin" : 15.17,
+    "operatingProfit" : 37.77,
+    "netProfitMargin" : 11.24,
+    "netProfit" : 27.99
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.04,
+    "pricePercentageAboveDma100" : 4.68,
+    "pricePercentageAboveDma200" : 4.53,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 17.32,
+    "netProfitMarginPercentile" : 8.86,
+    "totalTechnicalScore" : 39.25,
+    "totalFundamentalScore" : 46.17,
+    "totalScore" : 85.42
+  }
 }

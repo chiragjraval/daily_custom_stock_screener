@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285444",
-    "company_code" : "ATHERENERG",
-    "company_name" : "Ather Energy",
-    "screener_company_link" : "https://www.screener.in/company/ATHERENERG",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285444/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285444/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285444",
+    "companyCode" : "ATHERENERG",
+    "companyName" : "Ather Energy",
+    "screenerCompanyLink" : "https://www.screener.in/company/ATHERENERG",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285444/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285444/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "ATHERENERG",
+      "companyName" : "Ather Energy",
+      "marketCap" : 25623.00,
+      "peRatio" : null,
+      "description" : "Incorporated in 2013, Ather Energy ltd is an Indian electric two-wheeler (E2W) company engaged in the design, development, and in-house assembly of electric scooters, battery packs, charging infrastructure, and supporting software systems[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.62,
+      "pricePercentageAboveDma100" : 3.48,
+      "pricePercentageAboveDma200" : 2.73,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 13.33,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 45.82,
+      "totalFundamentalScore" : 43.33,
+      "totalScore" : 89.16
+    }
   },
   "attributes" : {
-    "company_code" : "ATHERENERG",
-    "company_name" : "Ather Energy",
-    "market_cap" : 25631.00,
-    "pe_ratio" : null,
+    "companyCode" : "ATHERENERG",
+    "companyName" : "Ather Energy",
+    "marketCap" : 25623.00,
+    "peRatio" : null,
     "description" : "Incorporated in 2013, Ather Energy ltd is an Indian electric two-wheeler (E2W) company engaged in the design, development, and in-house assembly of electric scooters, battery packs, charging infrastructure, and supporting software systems[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-05-06",
     "price" : 302.30,
     "dma50" : 302.30,
@@ -989,10 +1014,118 @@
     "volume" : 4421486.00
   }, {
     "date" : "2025-11-24",
-    "price" : 679.35,
-    "dma50" : 624.51,
-    "dma100" : 515.37,
-    "dma200" : 462.03,
-    "volume" : 1340610.00
-  } ]
+    "price" : 672.05,
+    "dma50" : 624.22,
+    "dma100" : 515.29,
+    "dma200" : 461.95,
+    "volume" : 1915281.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 672.05,
+    "dma50" : 624.22,
+    "dma100" : 515.29,
+    "dma200" : 461.95,
+    "volume" : 1915281.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-03-31",
+    "sales" : 523.40,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 6.78,
+    "grossProfit" : 35.49,
+    "operatingProfitMargin" : -45.57,
+    "operatingProfit" : -238.51,
+    "netProfitMargin" : -54.13,
+    "netProfit" : -283.32
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 360.50,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 17.56,
+    "grossProfit" : 63.30,
+    "operatingProfitMargin" : -35.62,
+    "operatingProfit" : -128.41,
+    "netProfitMargin" : -50.74,
+    "netProfit" : -182.92
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 583.50,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 16.93,
+    "grossProfit" : 98.79,
+    "operatingProfitMargin" : -23.89,
+    "operatingProfit" : -139.40,
+    "netProfitMargin" : -33.80,
+    "netProfit" : -197.22
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 634.90,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 16.36,
+    "grossProfit" : 103.87,
+    "operatingProfitMargin" : -22.16,
+    "operatingProfit" : -140.69,
+    "netProfitMargin" : -31.15,
+    "netProfit" : -197.77
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 676.10,
+    "salesGrowthYoY" : 29.17,
+    "grossProfitMargin" : 16.60,
+    "grossProfit" : 112.23,
+    "operatingProfitMargin" : -25.50,
+    "operatingProfit" : -172.41,
+    "netProfitMargin" : -34.67,
+    "netProfit" : -234.40
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 644.60,
+    "salesGrowthYoY" : 78.81,
+    "grossProfitMargin" : 19.62,
+    "grossProfit" : 126.47,
+    "operatingProfitMargin" : -20.83,
+    "operatingProfit" : -134.27,
+    "netProfitMargin" : -27.65,
+    "netProfit" : -178.23
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 898.90,
+    "salesGrowthYoY" : 54.05,
+    "grossProfitMargin" : 18.78,
+    "grossProfit" : 168.81,
+    "operatingProfitMargin" : -14.74,
+    "operatingProfit" : -132.50,
+    "netProfitMargin" : -17.14,
+    "netProfit" : -154.07
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 898.90,
+    "salesGrowthYoY" : 54.05,
+    "grossProfitMargin" : 18.78,
+    "grossProfit" : 168.81,
+    "operatingProfitMargin" : -14.74,
+    "operatingProfit" : -132.50,
+    "netProfitMargin" : -17.14,
+    "netProfit" : -154.07
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.62,
+    "pricePercentageAboveDma100" : 3.48,
+    "pricePercentageAboveDma200" : 2.73,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 13.33,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 45.82,
+    "totalFundamentalScore" : 43.33,
+    "totalScore" : 89.16
+  }
 }

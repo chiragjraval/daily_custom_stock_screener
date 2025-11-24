@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285467",
-    "company_code" : "AEGISVOPAK",
-    "company_name" : "Aegis Vopak Term",
-    "screener_company_link" : "https://www.screener.in/company/AEGISVOPAK",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285467/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285467/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285467",
+    "companyCode" : "AEGISVOPAK",
+    "companyName" : "Aegis Vopak Term",
+    "screenerCompanyLink" : "https://www.screener.in/company/AEGISVOPAK",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285467/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285467/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "AEGISVOPAK",
+      "companyName" : "Aegis Vopak Term",
+      "marketCap" : 28686.00,
+      "peRatio" : 178.00,
+      "description" : "Incorporated in 2013, Aegis Vopak Terminals owns and operates storage terminals for liquefied petroleum gas (LPG) and various liquid products.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.14,
+      "pricePercentageAboveDma100" : 5.03,
+      "pricePercentageAboveDma200" : 4.93,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 6.67,
+      "netProfitMarginPercentile" : 9.76,
+      "totalTechnicalScore" : 35.10,
+      "totalFundamentalScore" : 36.43,
+      "totalScore" : 71.53
+    }
   },
   "attributes" : {
-    "company_code" : "AEGISVOPAK",
-    "company_name" : "Aegis Vopak Term",
-    "market_cap" : 28553.00,
-    "pe_ratio" : 177.00,
+    "companyCode" : "AEGISVOPAK",
+    "companyName" : "Aegis Vopak Term",
+    "marketCap" : 28686.00,
+    "peRatio" : 178.00,
     "description" : "Incorporated in 2013, Aegis Vopak Terminals owns and operates storage terminals for liquefied petroleum gas (LPG) and various liquid products.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-06-02",
     "price" : 242.00,
     "dma50" : 242.00,
@@ -856,10 +881,108 @@
     "volume" : 1049498.00
   }, {
     "date" : "2025-11-24",
-    "price" : 257.65,
-    "dma50" : 265.44,
-    "dma100" : 259.28,
+    "price" : 257.95,
+    "dma50" : 265.45,
+    "dma100" : 259.29,
     "dma200" : 254.57,
-    "volume" : 56093.00
-  } ]
+    "volume" : 116561.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 257.95,
+    "dma50" : 265.45,
+    "dma100" : 259.29,
+    "dma200" : 254.57,
+    "volume" : 116561.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-06-30",
+    "sales" : 129.45,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 129.45,
+    "operatingProfitMargin" : 78.18,
+    "operatingProfit" : 101.20,
+    "netProfitMargin" : 17.04,
+    "netProfit" : 22.06
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 122.04,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 122.04,
+    "operatingProfitMargin" : 77.02,
+    "operatingProfit" : 94.00,
+    "netProfitMargin" : 13.86,
+    "netProfit" : 16.91
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 136.41,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 136.41,
+    "operatingProfitMargin" : 77.19,
+    "operatingProfit" : 105.29,
+    "netProfitMargin" : 24.92,
+    "netProfit" : 33.99
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 130.10,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 130.10,
+    "operatingProfitMargin" : 77.45,
+    "operatingProfit" : 100.76,
+    "netProfitMargin" : 27.20,
+    "netProfit" : 35.39
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 138.35,
+    "salesGrowthYoY" : 6.88,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 138.35,
+    "operatingProfitMargin" : 76.38,
+    "operatingProfit" : 105.67,
+    "netProfitMargin" : 30.83,
+    "netProfit" : 42.65
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 160.98,
+    "salesGrowthYoY" : 31.91,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 160.98,
+    "operatingProfitMargin" : 76.69,
+    "operatingProfit" : 123.46,
+    "netProfitMargin" : 30.43,
+    "netProfit" : 48.99
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 160.98,
+    "salesGrowthYoY" : 31.91,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 160.98,
+    "operatingProfitMargin" : 76.69,
+    "operatingProfit" : 123.46,
+    "netProfitMargin" : 30.43,
+    "netProfit" : 48.99
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.14,
+    "pricePercentageAboveDma100" : 5.03,
+    "pricePercentageAboveDma200" : 4.93,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 6.67,
+    "netProfitMarginPercentile" : 9.76,
+    "totalTechnicalScore" : 35.10,
+    "totalFundamentalScore" : 36.43,
+    "totalScore" : 71.53
+  }
 }

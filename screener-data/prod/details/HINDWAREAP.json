@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274717",
-    "company_code" : "HINDWAREAP",
-    "company_name" : "Hindware Home In",
-    "screener_company_link" : "https://www.screener.in/company/HINDWAREAP",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274717/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274717/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274717",
+    "companyCode" : "HINDWAREAP",
+    "companyName" : "Hindware Home In",
+    "screenerCompanyLink" : "https://www.screener.in/company/HINDWAREAP",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274717/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274717/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "HINDWAREAP",
+      "companyName" : "Hindware Home In",
+      "marketCap" : 2777.00,
+      "peRatio" : null,
+      "description" : "Hindware Home Innovation Limited is a leader in Building Products and a prominent player in Consumer Appliances and Building Products. Building Products business offers a wide range of products under the Bathware, Premium Tiles and Plastic Pipes and Fittings segments. Under the Consumer Appliances business, it offers products to enhance modern living, including kitchen and home appliances under brand ‘Hindware Smart Appliances’. Hintastica Private Limited (HPL), company's Joint Venture with Groupe Atlantic, manufactures state-of-the-art water heaters.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.19,
+      "pricePercentageAboveDma100" : 4.80,
+      "pricePercentageAboveDma200" : 4.57,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 12.50,
+      "operatingProfitMarginPercentile" : 14.16,
+      "netProfitMarginPercentile" : 7.50,
+      "totalTechnicalScore" : 44.55,
+      "totalFundamentalScore" : 34.16,
+      "totalScore" : 78.71
+    }
   },
   "attributes" : {
-    "company_code" : "HINDWAREAP",
-    "company_name" : "Hindware Home In",
-    "market_cap" : 2776.00,
-    "pe_ratio" : null,
+    "companyCode" : "HINDWAREAP",
+    "companyName" : "Hindware Home In",
+    "marketCap" : 2777.00,
+    "peRatio" : null,
     "description" : "Hindware Home Innovation Limited is a leader in Building Products and a prominent player in Consumer Appliances and Building Products. Building Products business offers a wide range of products under the Bathware, Premium Tiles and Plastic Pipes and Fittings segments. Under the Consumer Appliances business, it offers products to enhance modern living, including kitchen and home appliances under brand ‘Hindware Smart Appliances’. Hintastica Private Limited (HPL), company's Joint Venture with Groupe Atlantic, manufactures state-of-the-art water heaters.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 292.75,
     "dma50" : 303.03,
@@ -1752,10 +1777,328 @@
     "volume" : 787440.00
   }, {
     "date" : "2025-11-24",
-    "price" : 336.00,
-    "dma50" : 345.05,
-    "dma100" : 319.05,
-    "dma200" : 305.48,
-    "volume" : 46380.00
-  } ]
+    "price" : 332.00,
+    "dma50" : 344.89,
+    "dma100" : 319.01,
+    "dma200" : 305.44,
+    "volume" : 69952.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 332.00,
+    "dma50" : 344.89,
+    "dma100" : 319.01,
+    "dma200" : 305.44,
+    "volume" : 69952.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2018-12-31",
+    "sales" : 0.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2019-03-31",
+    "sales" : 104.53,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 36.38,
+    "grossProfit" : 38.03,
+    "operatingProfitMargin" : -4.75,
+    "operatingProfit" : -4.97,
+    "netProfitMargin" : -6.76,
+    "netProfit" : -7.07
+  }, {
+    "date" : "2019-06-30",
+    "sales" : 102.76,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 37.82,
+    "grossProfit" : 38.86,
+    "operatingProfitMargin" : 0.57,
+    "operatingProfit" : 0.59,
+    "netProfitMargin" : -4.08,
+    "netProfit" : -4.19
+  }, {
+    "date" : "2019-09-30",
+    "sales" : 120.83,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 37.39,
+    "grossProfit" : 45.18,
+    "operatingProfitMargin" : 1.85,
+    "operatingProfit" : 2.24,
+    "netProfitMargin" : -3.31,
+    "netProfit" : -4.00
+  }, {
+    "date" : "2019-12-31",
+    "sales" : 136.47,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : 37.80,
+    "grossProfit" : 51.59,
+    "operatingProfitMargin" : 3.11,
+    "operatingProfit" : 4.24,
+    "netProfitMargin" : -1.77,
+    "netProfit" : -2.42
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 91.38,
+    "salesGrowthYoY" : -12.58,
+    "grossProfitMargin" : 33.25,
+    "grossProfit" : 30.38,
+    "operatingProfitMargin" : 1.50,
+    "operatingProfit" : 1.37,
+    "netProfitMargin" : 21.21,
+    "netProfit" : 19.38
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 49.75,
+    "salesGrowthYoY" : -51.59,
+    "grossProfitMargin" : 26.75,
+    "grossProfit" : 13.31,
+    "operatingProfitMargin" : -23.48,
+    "operatingProfit" : -11.68,
+    "netProfitMargin" : -26.65,
+    "netProfit" : -13.26
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 130.94,
+    "salesGrowthYoY" : 8.37,
+    "grossProfitMargin" : 36.81,
+    "grossProfit" : 48.20,
+    "operatingProfitMargin" : 7.67,
+    "operatingProfit" : 10.04,
+    "netProfitMargin" : 0.41,
+    "netProfit" : 0.54
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 171.80,
+    "salesGrowthYoY" : 25.89,
+    "grossProfitMargin" : 35.78,
+    "grossProfit" : 61.47,
+    "operatingProfitMargin" : 10.36,
+    "operatingProfit" : 17.80,
+    "netProfitMargin" : 6.05,
+    "netProfit" : 10.39
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 150.63,
+    "salesGrowthYoY" : 64.84,
+    "grossProfitMargin" : 34.79,
+    "grossProfit" : 52.40,
+    "operatingProfitMargin" : 7.30,
+    "operatingProfit" : 11.00,
+    "netProfitMargin" : -3.75,
+    "netProfit" : -5.65
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 74.65,
+    "salesGrowthYoY" : 50.05,
+    "grossProfitMargin" : 37.68,
+    "grossProfit" : 28.13,
+    "operatingProfitMargin" : -4.97,
+    "operatingProfit" : -3.71,
+    "netProfitMargin" : -6.94,
+    "netProfit" : -5.18
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 130.90,
+    "salesGrowthYoY" : -0.03,
+    "grossProfitMargin" : 37.91,
+    "grossProfit" : 49.62,
+    "operatingProfitMargin" : 6.96,
+    "operatingProfit" : 9.11,
+    "netProfitMargin" : 14.29,
+    "netProfit" : 18.71
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 150.77,
+    "salesGrowthYoY" : -12.24,
+    "grossProfitMargin" : 34.17,
+    "grossProfit" : 51.52,
+    "operatingProfitMargin" : 4.42,
+    "operatingProfit" : 6.66,
+    "netProfitMargin" : 0.54,
+    "netProfit" : 0.81
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 134.96,
+    "salesGrowthYoY" : -10.40,
+    "grossProfitMargin" : 33.59,
+    "grossProfit" : 45.33,
+    "operatingProfitMargin" : 0.43,
+    "operatingProfit" : 0.58,
+    "netProfitMargin" : -1.24,
+    "netProfit" : -1.67
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 142.66,
+    "salesGrowthYoY" : 91.11,
+    "grossProfitMargin" : 34.15,
+    "grossProfit" : 48.72,
+    "operatingProfitMargin" : 2.70,
+    "operatingProfit" : 3.85,
+    "netProfitMargin" : 12.08,
+    "netProfit" : 17.23
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 138.80,
+    "salesGrowthYoY" : 6.04,
+    "grossProfitMargin" : 37.95,
+    "grossProfit" : 52.67,
+    "operatingProfitMargin" : 5.58,
+    "operatingProfit" : 7.75,
+    "netProfitMargin" : 0.81,
+    "netProfit" : 1.12
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 134.96,
+    "salesGrowthYoY" : -10.49,
+    "grossProfitMargin" : 37.46,
+    "grossProfit" : 50.56,
+    "operatingProfitMargin" : -0.06,
+    "operatingProfit" : -0.08,
+    "netProfitMargin" : -2.60,
+    "netProfit" : -3.51
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 140.50,
+    "salesGrowthYoY" : 4.10,
+    "grossProfitMargin" : 36.50,
+    "grossProfit" : 51.28,
+    "operatingProfitMargin" : 1.14,
+    "operatingProfit" : 1.60,
+    "netProfitMargin" : -3.02,
+    "netProfit" : -4.24
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 104.94,
+    "salesGrowthYoY" : -26.44,
+    "grossProfitMargin" : 38.56,
+    "grossProfit" : 40.46,
+    "operatingProfitMargin" : -2.98,
+    "operatingProfit" : -3.13,
+    "netProfitMargin" : 12.34,
+    "netProfit" : 12.95
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 96.32,
+    "salesGrowthYoY" : -30.61,
+    "grossProfitMargin" : 38.08,
+    "grossProfit" : 36.68,
+    "operatingProfitMargin" : -6.02,
+    "operatingProfit" : -5.80,
+    "netProfitMargin" : -7.90,
+    "netProfit" : -7.61
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 117.02,
+    "salesGrowthYoY" : -13.29,
+    "grossProfitMargin" : 41.69,
+    "grossProfit" : 48.79,
+    "operatingProfitMargin" : -8.13,
+    "operatingProfit" : -9.51,
+    "netProfitMargin" : -8.75,
+    "netProfit" : -10.24
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 108.23,
+    "salesGrowthYoY" : -22.97,
+    "grossProfitMargin" : 33.01,
+    "grossProfit" : 35.73,
+    "operatingProfitMargin" : -11.60,
+    "operatingProfit" : -12.55,
+    "netProfitMargin" : -13.47,
+    "netProfit" : -14.58
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 110.53,
+    "salesGrowthYoY" : 5.33,
+    "grossProfitMargin" : 36.58,
+    "grossProfit" : 40.43,
+    "operatingProfitMargin" : -1.97,
+    "operatingProfit" : -2.18,
+    "netProfitMargin" : -4.35,
+    "netProfit" : -4.81
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 82.53,
+    "salesGrowthYoY" : -14.32,
+    "grossProfitMargin" : 36.53,
+    "grossProfit" : 30.15,
+    "operatingProfitMargin" : -14.08,
+    "operatingProfit" : -11.62,
+    "netProfitMargin" : -9.27,
+    "netProfit" : -7.65
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 67.35,
+    "salesGrowthYoY" : -42.45,
+    "grossProfitMargin" : 34.65,
+    "grossProfit" : 23.34,
+    "operatingProfitMargin" : -19.63,
+    "operatingProfit" : -13.22,
+    "netProfitMargin" : -19.58,
+    "netProfit" : -13.19
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 91.94,
+    "salesGrowthYoY" : -15.05,
+    "grossProfitMargin" : 30.50,
+    "grossProfit" : 28.04,
+    "operatingProfitMargin" : -14.77,
+    "operatingProfit" : -13.58,
+    "netProfitMargin" : -9.19,
+    "netProfit" : -8.45
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 71.22,
+    "salesGrowthYoY" : -35.57,
+    "grossProfitMargin" : 44.73,
+    "grossProfit" : 31.86,
+    "operatingProfitMargin" : -1.21,
+    "operatingProfit" : -0.86,
+    "netProfitMargin" : 28.99,
+    "netProfit" : 20.65
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 84.13,
+    "salesGrowthYoY" : 1.94,
+    "grossProfitMargin" : 45.18,
+    "grossProfit" : 38.01,
+    "operatingProfitMargin" : 0.48,
+    "operatingProfit" : 0.40,
+    "netProfitMargin" : 0.76,
+    "netProfit" : 0.64
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 84.13,
+    "salesGrowthYoY" : 1.94,
+    "grossProfitMargin" : 45.18,
+    "grossProfit" : 38.01,
+    "operatingProfitMargin" : 0.48,
+    "operatingProfit" : 0.40,
+    "netProfitMargin" : 0.76,
+    "netProfit" : 0.64
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.19,
+    "pricePercentageAboveDma100" : 4.80,
+    "pricePercentageAboveDma200" : 4.57,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 12.50,
+    "operatingProfitMarginPercentile" : 14.16,
+    "netProfitMarginPercentile" : 7.50,
+    "totalTechnicalScore" : 44.55,
+    "totalFundamentalScore" : 34.16,
+    "totalScore" : 78.71
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284811",
-    "company_code" : "DEEDEV",
-    "company_name" : "DEE Development",
-    "screener_company_link" : "https://www.screener.in/company/DEEDEV",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284811/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284811/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284811",
+    "companyCode" : "DEEDEV",
+    "companyName" : "DEE Development",
+    "screenerCompanyLink" : "https://www.screener.in/company/DEEDEV",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284811/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284811/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "DEEDEV",
+      "companyName" : "DEE Development",
+      "marketCap" : 1496.00,
+      "peRatio" : 41.20,
+      "description" : "Incorporated in 1988, DEE Development Engineers Ltd specializes in the design, engineering, and fabrication of complex piping systems, pressure vessels, and heat exchangers[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.74,
+      "pricePercentageAboveDma100" : 6.06,
+      "pricePercentageAboveDma200" : 6.02,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 18.18,
+      "netProfitMarginPercentile" : 9.09,
+      "totalTechnicalScore" : 22.82,
+      "totalFundamentalScore" : 47.27,
+      "totalScore" : 70.10
+    }
   },
   "attributes" : {
-    "company_code" : "DEEDEV",
-    "company_name" : "DEE Development",
-    "market_cap" : 1519.00,
-    "pe_ratio" : 41.90,
+    "companyCode" : "DEEDEV",
+    "companyName" : "DEE Development",
+    "marketCap" : 1496.00,
+    "peRatio" : 41.20,
     "description" : "Incorporated in 1988, DEE Development Engineers Ltd specializes in the design, engineering, and fabrication of complex piping systems, pressure vessels, and heat exchangers[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 289.45,
     "dma50" : 280.35,
@@ -1752,10 +1777,158 @@
     "volume" : 92643.00
   }, {
     "date" : "2025-11-24",
-    "price" : 218.95,
-    "dma50" : 253.91,
-    "dma100" : 274.69,
-    "dma200" : 271.72,
-    "volume" : 39269.00
-  } ]
+    "price" : 216.25,
+    "dma50" : 253.80,
+    "dma100" : 274.66,
+    "dma200" : 271.69,
+    "volume" : 73605.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 216.25,
+    "dma50" : 253.80,
+    "dma100" : 274.66,
+    "dma200" : 271.69,
+    "volume" : 73605.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2023-03-31",
+    "sales" : 141.37,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 72.33,
+    "grossProfit" : 102.25,
+    "operatingProfitMargin" : 10.25,
+    "operatingProfit" : 14.49,
+    "netProfitMargin" : 5.39,
+    "netProfit" : 7.62
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 130.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 59.18,
+    "grossProfit" : 76.93,
+    "operatingProfitMargin" : 8.85,
+    "operatingProfit" : 11.51,
+    "netProfitMargin" : -1.00,
+    "netProfit" : -1.30
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 145.77,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 72.07,
+    "grossProfit" : 105.06,
+    "operatingProfitMargin" : 9.73,
+    "operatingProfit" : 14.18,
+    "netProfitMargin" : 4.76,
+    "netProfit" : 6.94
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 167.48,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 60.71,
+    "grossProfit" : 101.68,
+    "operatingProfitMargin" : 11.73,
+    "operatingProfit" : 19.65,
+    "netProfitMargin" : 3.56,
+    "netProfit" : 5.96
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 201.21,
+    "salesGrowthYoY" : 42.33,
+    "grossProfitMargin" : 52.40,
+    "grossProfit" : 105.43,
+    "operatingProfitMargin" : 12.29,
+    "operatingProfit" : 24.73,
+    "netProfitMargin" : 4.08,
+    "netProfit" : 8.21
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 144.00,
+    "salesGrowthYoY" : 10.77,
+    "grossProfitMargin" : 54.08,
+    "grossProfit" : 77.88,
+    "operatingProfitMargin" : 10.69,
+    "operatingProfit" : 15.39,
+    "netProfitMargin" : 0.30,
+    "netProfit" : 0.43
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 149.06,
+    "salesGrowthYoY" : 2.26,
+    "grossProfitMargin" : 58.25,
+    "grossProfit" : 86.83,
+    "operatingProfitMargin" : 11.89,
+    "operatingProfit" : 17.72,
+    "netProfitMargin" : 4.75,
+    "netProfit" : 7.08
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 104.30,
+    "salesGrowthYoY" : -37.72,
+    "grossProfitMargin" : 63.45,
+    "grossProfit" : 66.18,
+    "operatingProfitMargin" : -4.93,
+    "operatingProfit" : -5.14,
+    "netProfitMargin" : -12.97,
+    "netProfit" : -13.53
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 241.51,
+    "salesGrowthYoY" : 20.03,
+    "grossProfitMargin" : 59.60,
+    "grossProfit" : 143.94,
+    "operatingProfitMargin" : 23.77,
+    "operatingProfit" : 57.41,
+    "netProfitMargin" : 12.17,
+    "netProfit" : 29.39
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 169.83,
+    "salesGrowthYoY" : 17.94,
+    "grossProfitMargin" : 60.57,
+    "grossProfit" : 102.87,
+    "operatingProfitMargin" : 15.82,
+    "operatingProfit" : 26.87,
+    "netProfitMargin" : 4.20,
+    "netProfit" : 7.13
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 215.54,
+    "salesGrowthYoY" : 44.60,
+    "grossProfitMargin" : 53.66,
+    "grossProfit" : 115.66,
+    "operatingProfitMargin" : 16.03,
+    "operatingProfit" : 34.55,
+    "netProfitMargin" : 6.17,
+    "netProfit" : 13.30
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 215.54,
+    "salesGrowthYoY" : 44.60,
+    "grossProfitMargin" : 53.66,
+    "grossProfit" : 115.66,
+    "operatingProfitMargin" : 16.03,
+    "operatingProfit" : 34.55,
+    "netProfitMargin" : 6.17,
+    "netProfit" : 13.30
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.74,
+    "pricePercentageAboveDma100" : 6.06,
+    "pricePercentageAboveDma200" : 6.02,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 18.18,
+    "netProfitMarginPercentile" : 9.09,
+    "totalTechnicalScore" : 22.82,
+    "totalFundamentalScore" : 47.27,
+    "totalScore" : 70.10
+  }
 }

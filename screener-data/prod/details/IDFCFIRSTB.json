@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1273113",
-    "company_code" : "IDFCFIRSTB",
-    "company_name" : "IDFC First Bank",
-    "screener_company_link" : "https://www.screener.in/company/IDFCFIRSTB",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1273113/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1273113/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1273113",
+    "companyCode" : "IDFCFIRSTB",
+    "companyName" : "IDFC First Bank",
+    "screenerCompanyLink" : "https://www.screener.in/company/IDFCFIRSTB",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1273113/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1273113/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "IDFCFIRSTB",
+      "companyName" : "IDFC First Bank",
+      "marketCap" : 67069.00,
+      "peRatio" : 46.00,
+      "description" : "IDFC First Bank is engaged in the business of Banking Services. IDFC FIRST Bank was founded by the merger of Erstwhile IDFC Bank and Erstwhile Capital First on December 18, 2018."
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.89,
+      "pricePercentageAboveDma100" : 4.69,
+      "pricePercentageAboveDma200" : 4.54,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 7.69,
+      "operatingProfitMarginPercentile" : 6.86,
+      "netProfitMarginPercentile" : 3.95,
+      "totalTechnicalScore" : 44.12,
+      "totalFundamentalScore" : 18.50,
+      "totalScore" : 62.62
+    }
   },
   "attributes" : {
-    "company_code" : "IDFCFIRSTB",
-    "company_name" : "IDFC First Bank",
-    "market_cap" : 67533.00,
-    "pe_ratio" : 46.30,
+    "companyCode" : "IDFCFIRSTB",
+    "companyName" : "IDFC First Bank",
+    "marketCap" : 67069.00,
+    "peRatio" : 46.00,
     "description" : "IDFC First Bank is engaged in the business of Banking Services. IDFC FIRST Bank was founded by the merger of Erstwhile IDFC Bank and Erstwhile Capital First on December 18, 2018."
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 64.65,
     "dma50" : 68.78,
@@ -1752,10 +1777,478 @@
     "volume" : 15218859.00
   }, {
     "date" : "2025-11-24",
-    "price" : 78.46,
-    "dma50" : 76.54,
-    "dma100" : 73.65,
-    "dma200" : 71.62,
-    "volume" : 5839225.00
-  } ]
+    "price" : 78.20,
+    "dma50" : 76.53,
+    "dma100" : 73.64,
+    "dma200" : 71.61,
+    "volume" : 11078142.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 78.20,
+    "dma50" : 76.53,
+    "dma100" : 73.64,
+    "dma200" : 71.61,
+    "volume" : 11078142.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2015-03-31",
+    "sales" : 0.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2015-06-30",
+    "sales" : 0.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2015-09-30",
+    "sales" : 44.20,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 44.20,
+    "operatingProfitMargin" : 98.67,
+    "operatingProfit" : 43.61,
+    "netProfitMargin" : 134.93,
+    "netProfit" : 59.64
+  }, {
+    "date" : "2015-12-31",
+    "sales" : 1789.09,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1789.09,
+    "operatingProfitMargin" : 88.07,
+    "operatingProfit" : 1575.65,
+    "netProfitMargin" : 13.54,
+    "netProfit" : 242.24
+  }, {
+    "date" : "2016-03-31",
+    "sales" : 1815.54,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1815.54,
+    "operatingProfitMargin" : 84.58,
+    "operatingProfit" : 1535.58,
+    "netProfitMargin" : 9.09,
+    "netProfit" : 165.03
+  }, {
+    "date" : "2016-06-30",
+    "sales" : 1975.45,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1975.45,
+    "operatingProfitMargin" : 86.21,
+    "operatingProfit" : 1703.04,
+    "netProfitMargin" : 13.40,
+    "netProfit" : 264.71
+  }, {
+    "date" : "2016-09-30",
+    "sales" : 2083.00,
+    "salesGrowthYoY" : 4612.67,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2083.00,
+    "operatingProfitMargin" : 84.96,
+    "operatingProfit" : 1769.72,
+    "netProfitMargin" : 18.62,
+    "netProfit" : 387.85
+  }, {
+    "date" : "2016-12-31",
+    "sales" : 2250.88,
+    "salesGrowthYoY" : 25.81,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2250.88,
+    "operatingProfitMargin" : 74.54,
+    "operatingProfit" : 1677.81,
+    "netProfitMargin" : 8.50,
+    "netProfit" : 191.32
+  }, {
+    "date" : "2017-03-31",
+    "sales" : 2223.38,
+    "salesGrowthYoY" : 22.46,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2223.38,
+    "operatingProfitMargin" : 88.02,
+    "operatingProfit" : 1957.02,
+    "netProfitMargin" : 7.91,
+    "netProfit" : 175.87
+  }, {
+    "date" : "2017-06-30",
+    "sales" : 2145.15,
+    "salesGrowthYoY" : 8.59,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2145.15,
+    "operatingProfitMargin" : 84.36,
+    "operatingProfit" : 1809.65,
+    "netProfitMargin" : 20.40,
+    "netProfit" : 437.61
+  }, {
+    "date" : "2017-09-30",
+    "sales" : 2219.84,
+    "salesGrowthYoY" : 6.57,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2219.84,
+    "operatingProfitMargin" : 90.01,
+    "operatingProfit" : 1998.08,
+    "netProfitMargin" : 4.84,
+    "netProfit" : 107.44
+  }, {
+    "date" : "2017-12-31",
+    "sales" : 2283.72,
+    "salesGrowthYoY" : 1.46,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2283.72,
+    "operatingProfitMargin" : 79.03,
+    "operatingProfit" : 1804.82,
+    "netProfitMargin" : 6.40,
+    "netProfit" : 146.16
+  }, {
+    "date" : "2018-03-31",
+    "sales" : 2281.30,
+    "salesGrowthYoY" : 2.61,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2281.30,
+    "operatingProfitMargin" : 69.81,
+    "operatingProfit" : 1592.58,
+    "netProfitMargin" : 1.84,
+    "netProfit" : 41.98
+  }, {
+    "date" : "2018-06-30",
+    "sales" : 2321.15,
+    "salesGrowthYoY" : 8.20,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2321.15,
+    "operatingProfitMargin" : 81.26,
+    "operatingProfit" : 1886.17,
+    "netProfitMargin" : 7.82,
+    "netProfit" : 181.51
+  }, {
+    "date" : "2018-09-30",
+    "sales" : 2334.16,
+    "salesGrowthYoY" : 5.15,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2334.16,
+    "operatingProfitMargin" : 52.70,
+    "operatingProfit" : 1230.10,
+    "netProfitMargin" : -15.84,
+    "netProfit" : -369.73
+  }, {
+    "date" : "2018-12-31",
+    "sales" : 3664.08,
+    "salesGrowthYoY" : 60.44,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 3664.08,
+    "operatingProfitMargin" : 65.82,
+    "operatingProfit" : 2411.70,
+    "netProfitMargin" : 28.97,
+    "netProfit" : 1061.48
+  }, {
+    "date" : "2019-03-31",
+    "sales" : 3628.79,
+    "salesGrowthYoY" : 59.07,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 3628.79,
+    "operatingProfitMargin" : 50.32,
+    "operatingProfit" : 1826.01,
+    "netProfitMargin" : -6.01,
+    "netProfit" : -218.09
+  }, {
+    "date" : "2019-06-30",
+    "sales" : 3793.12,
+    "salesGrowthYoY" : 63.42,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 3793.12,
+    "operatingProfitMargin" : 35.46,
+    "operatingProfit" : 1345.04,
+    "netProfitMargin" : -16.28,
+    "netProfit" : -617.52
+  }, {
+    "date" : "2019-09-30",
+    "sales" : 4018.16,
+    "salesGrowthYoY" : 72.15,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 4018.16,
+    "operatingProfitMargin" : 61.71,
+    "operatingProfit" : 2479.61,
+    "netProfitMargin" : -16.91,
+    "netProfit" : -679.47
+  }, {
+    "date" : "2019-12-31",
+    "sales" : 4100.17,
+    "salesGrowthYoY" : 11.90,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 4100.17,
+    "operatingProfitMargin" : 8.87,
+    "operatingProfit" : 363.69,
+    "netProfitMargin" : -39.97,
+    "netProfit" : -1638.84
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 4092.35,
+    "salesGrowthYoY" : 12.77,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 4092.35,
+    "operatingProfitMargin" : 49.26,
+    "operatingProfit" : 2015.89,
+    "netProfitMargin" : 1.75,
+    "netProfit" : 71.62
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 3949.27,
+    "salesGrowthYoY" : 4.12,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 3949.27,
+    "operatingProfitMargin" : 46.80,
+    "operatingProfit" : 1848.26,
+    "netProfitMargin" : 2.37,
+    "netProfit" : 93.60
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 3924.86,
+    "salesGrowthYoY" : -2.32,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 3924.86,
+    "operatingProfitMargin" : 53.54,
+    "operatingProfit" : 2101.37,
+    "netProfitMargin" : 2.58,
+    "netProfit" : 101.26
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 4100.85,
+    "salesGrowthYoY" : 0.02,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 4100.85,
+    "operatingProfitMargin" : 40.20,
+    "operatingProfit" : 1648.54,
+    "netProfitMargin" : 3.16,
+    "netProfit" : 129.59
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 3992.87,
+    "salesGrowthYoY" : -2.43,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 3992.87,
+    "operatingProfitMargin" : 31.49,
+    "operatingProfit" : 1257.35,
+    "netProfitMargin" : 3.20,
+    "netProfit" : 127.77
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 4089.29,
+    "salesGrowthYoY" : 3.55,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 4089.29,
+    "operatingProfitMargin" : 4.52,
+    "operatingProfit" : 184.84,
+    "netProfitMargin" : -15.41,
+    "netProfit" : -630.16
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 4100.58,
+    "salesGrowthYoY" : 4.48,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 4100.58,
+    "operatingProfitMargin" : 30.88,
+    "operatingProfit" : 1266.26,
+    "netProfitMargin" : 3.70,
+    "netProfit" : 151.72
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 4429.16,
+    "salesGrowthYoY" : 8.01,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 4429.16,
+    "operatingProfitMargin" : 32.93,
+    "operatingProfit" : 1458.52,
+    "netProfitMargin" : 6.35,
+    "netProfit" : 281.25
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 4553.64,
+    "salesGrowthYoY" : 14.04,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 4553.64,
+    "operatingProfitMargin" : 33.16,
+    "operatingProfit" : 1509.99,
+    "netProfitMargin" : 7.53,
+    "netProfit" : 342.89
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 4921.68,
+    "salesGrowthYoY" : 20.36,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 4921.68,
+    "operatingProfitMargin" : 39.64,
+    "operatingProfit" : 1950.95,
+    "netProfitMargin" : 9.64,
+    "netProfit" : 474.45
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 5469.69,
+    "salesGrowthYoY" : 33.39,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 5469.69,
+    "operatingProfitMargin" : 39.32,
+    "operatingProfit" : 2150.68,
+    "netProfitMargin" : 10.16,
+    "netProfit" : 555.72
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 5911.82,
+    "salesGrowthYoY" : 33.47,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 5911.82,
+    "operatingProfitMargin" : 38.64,
+    "operatingProfit" : 2284.33,
+    "netProfitMargin" : 10.23,
+    "netProfit" : 604.78
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 6424.35,
+    "salesGrowthYoY" : 41.08,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 6424.35,
+    "operatingProfitMargin" : 39.01,
+    "operatingProfit" : 2506.14,
+    "netProfitMargin" : 12.49,
+    "netProfit" : 802.40
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 6867.72,
+    "salesGrowthYoY" : 39.54,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 6867.72,
+    "operatingProfitMargin" : 39.79,
+    "operatingProfit" : 2732.67,
+    "netProfitMargin" : 11.14,
+    "netProfit" : 765.06
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 7356.17,
+    "salesGrowthYoY" : 34.49,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 7356.17,
+    "operatingProfitMargin" : 40.21,
+    "operatingProfit" : 2957.92,
+    "netProfitMargin" : 10.21,
+    "netProfit" : 751.06
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 7879.40,
+    "salesGrowthYoY" : 33.28,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 7879.40,
+    "operatingProfitMargin" : 37.87,
+    "operatingProfit" : 2983.93,
+    "netProfitMargin" : 9.08,
+    "netProfit" : 715.45
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 8219.21,
+    "salesGrowthYoY" : 27.94,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 8219.21,
+    "operatingProfitMargin" : 37.11,
+    "operatingProfit" : 3050.15,
+    "netProfitMargin" : 8.81,
+    "netProfit" : 724.11
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 8788.60,
+    "salesGrowthYoY" : 27.97,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 8788.60,
+    "operatingProfitMargin" : 38.26,
+    "operatingProfit" : 3362.52,
+    "netProfitMargin" : 7.74,
+    "netProfit" : 680.24
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 8956.93,
+    "salesGrowthYoY" : 21.76,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 8956.93,
+    "operatingProfitMargin" : 29.83,
+    "operatingProfit" : 2671.85,
+    "netProfitMargin" : 2.24,
+    "netProfit" : 200.64
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 9343.02,
+    "salesGrowthYoY" : 18.58,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 9343.02,
+    "operatingProfitMargin" : 32.99,
+    "operatingProfit" : 3082.26,
+    "netProfitMargin" : 3.63,
+    "netProfit" : 339.15
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 9412.94,
+    "salesGrowthYoY" : 14.52,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 9412.94,
+    "operatingProfitMargin" : 31.57,
+    "operatingProfit" : 2971.67,
+    "netProfitMargin" : 3.23,
+    "netProfit" : 304.04
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 9642.14,
+    "salesGrowthYoY" : 9.71,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 9642.14,
+    "operatingProfitMargin" : 31.76,
+    "operatingProfit" : 3062.34,
+    "netProfitMargin" : 4.80,
+    "netProfit" : 462.82
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 9936.89,
+    "salesGrowthYoY" : 10.94,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 9936.89,
+    "operatingProfitMargin" : 33.82,
+    "operatingProfit" : 3360.66,
+    "netProfitMargin" : 3.55,
+    "netProfit" : 352.76
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 9936.89,
+    "salesGrowthYoY" : 10.94,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 9936.89,
+    "operatingProfitMargin" : 33.82,
+    "operatingProfit" : 3360.66,
+    "netProfitMargin" : 3.55,
+    "netProfit" : 352.76
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.89,
+    "pricePercentageAboveDma100" : 4.69,
+    "pricePercentageAboveDma200" : 4.54,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 7.69,
+    "operatingProfitMarginPercentile" : 6.86,
+    "netProfitMarginPercentile" : 3.95,
+    "totalTechnicalScore" : 44.12,
+    "totalFundamentalScore" : 18.50,
+    "totalScore" : 62.62
+  }
 }

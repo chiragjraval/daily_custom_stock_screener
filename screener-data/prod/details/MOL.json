@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274917",
-    "company_code" : "MOL",
-    "company_name" : "Meghmani Organi.",
-    "screener_company_link" : "https://www.screener.in/company/MOL",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274917/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274917/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274917",
+    "companyCode" : "MOL",
+    "companyName" : "Meghmani Organi.",
+    "screenerCompanyLink" : "https://www.screener.in/company/MOL",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274917/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274917/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "MOL",
+      "companyName" : "Meghmani Organi.",
+      "marketCap" : 1714.00,
+      "peRatio" : 11.60,
+      "description" : "Founded in 1986 as M/s Gujarat Industries, the company was incorporated in 1995 as Meghmani Organics Limited. The company manufactures Pigments and Agrochemicals through its 6 manufacturing facilities located in Gujarat. The company is amongst the top 3 Phthalocyanine based pigment players in the world and amongst the top 10 producers of pesticides in India.[1]Meghmani Organics Ltd (MOL) manufactures green and blue pigment products, which are used to manufacture printing ink, plastic, paints, textiles, leather, and rubber. It also manufactures a wide variety of commonly used pesticides for crop and non-crop applications, this include insect control in wood preservation and food grain storage."
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.69,
+      "pricePercentageAboveDma100" : 6.05,
+      "pricePercentageAboveDma200" : 5.93,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 8.42,
+      "operatingProfitMarginPercentile" : 11.86,
+      "netProfitMarginPercentile" : 6.35,
+      "totalTechnicalScore" : 22.67,
+      "totalFundamentalScore" : 26.63,
+      "totalScore" : 49.30
+    }
   },
   "attributes" : {
-    "company_code" : "MOL",
-    "company_name" : "Meghmani Organi.",
-    "market_cap" : 1748.00,
-    "pe_ratio" : 11.80,
+    "companyCode" : "MOL",
+    "companyName" : "Meghmani Organi.",
+    "marketCap" : 1714.00,
+    "peRatio" : 11.60,
     "description" : "Founded in 1986 as M/s Gujarat Industries, the company was incorporated in 1995 as Meghmani Organics Limited. The company manufactures Pigments and Agrochemicals through its 6 manufacturing facilities located in Gujarat. The company is amongst the top 3 Phthalocyanine based pigment players in the world and amongst the top 10 producers of pesticides in India.[1]Meghmani Organics Ltd (MOL) manufactures green and blue pigment products, which are used to manufacture printing ink, plastic, paints, textiles, leather, and rubber. It also manufactures a wide variety of commonly used pesticides for crop and non-crop applications, this include insect control in wood preservation and food grain storage."
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 95.00,
     "dma50" : 98.97,
@@ -1752,10 +1777,278 @@
     "volume" : 466517.00
   }, {
     "date" : "2025-11-24",
-    "price" : 68.68,
-    "dma50" : 78.21,
-    "dma100" : 85.42,
-    "dma200" : 82.78,
-    "volume" : 239404.00
-  } ]
+    "price" : 67.42,
+    "dma50" : 78.16,
+    "dma100" : 85.41,
+    "dma200" : 82.77,
+    "volume" : 475685.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 67.42,
+    "dma50" : 78.16,
+    "dma100" : 85.41,
+    "dma200" : 82.77,
+    "volume" : 475685.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2020-03-31",
+    "sales" : 404.74,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 36.73,
+    "grossProfit" : 148.66,
+    "operatingProfitMargin" : 13.09,
+    "operatingProfit" : 52.98,
+    "netProfitMargin" : 16.67,
+    "netProfit" : 67.47
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 294.26,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 44.45,
+    "grossProfit" : 130.80,
+    "operatingProfitMargin" : 18.71,
+    "operatingProfit" : 55.06,
+    "netProfitMargin" : 9.68,
+    "netProfit" : 28.48
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 425.08,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 49.64,
+    "grossProfit" : 211.01,
+    "operatingProfitMargin" : 23.77,
+    "operatingProfit" : 101.04,
+    "netProfitMargin" : 15.42,
+    "netProfit" : 65.55
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 444.89,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 45.66,
+    "grossProfit" : 203.14,
+    "operatingProfitMargin" : 20.23,
+    "operatingProfit" : 90.00,
+    "netProfitMargin" : 11.46,
+    "netProfit" : 50.98
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 459.21,
+    "salesGrowthYoY" : 13.46,
+    "grossProfitMargin" : 39.41,
+    "grossProfit" : 180.97,
+    "operatingProfitMargin" : 7.36,
+    "operatingProfit" : 33.80,
+    "netProfitMargin" : 7.69,
+    "netProfit" : 35.31
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 495.67,
+    "salesGrowthYoY" : 68.45,
+    "grossProfitMargin" : 44.02,
+    "grossProfit" : 218.19,
+    "operatingProfitMargin" : 17.63,
+    "operatingProfit" : 87.39,
+    "netProfitMargin" : 13.75,
+    "netProfit" : 68.15
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 545.68,
+    "salesGrowthYoY" : 28.37,
+    "grossProfitMargin" : 42.97,
+    "grossProfit" : 234.48,
+    "operatingProfitMargin" : 14.25,
+    "operatingProfit" : 77.76,
+    "netProfitMargin" : 11.07,
+    "netProfit" : 60.41
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 639.24,
+    "salesGrowthYoY" : 43.68,
+    "grossProfitMargin" : 39.66,
+    "grossProfit" : 253.52,
+    "operatingProfitMargin" : 12.11,
+    "operatingProfit" : 77.41,
+    "netProfitMargin" : 10.63,
+    "netProfit" : 67.95
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 813.37,
+    "salesGrowthYoY" : 77.12,
+    "grossProfitMargin" : 41.05,
+    "grossProfit" : 333.89,
+    "operatingProfitMargin" : 16.83,
+    "operatingProfit" : 136.89,
+    "netProfitMargin" : 13.15,
+    "netProfit" : 106.96
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 783.08,
+    "salesGrowthYoY" : 57.98,
+    "grossProfitMargin" : 44.00,
+    "grossProfit" : 344.56,
+    "operatingProfitMargin" : 17.13,
+    "operatingProfit" : 134.14,
+    "netProfitMargin" : 14.55,
+    "netProfit" : 113.94
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 655.19,
+    "salesGrowthYoY" : 20.07,
+    "grossProfitMargin" : 39.20,
+    "grossProfit" : 256.83,
+    "operatingProfitMargin" : 12.95,
+    "operatingProfit" : 84.85,
+    "netProfitMargin" : 11.21,
+    "netProfit" : 73.45
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 553.84,
+    "salesGrowthYoY" : -13.36,
+    "grossProfitMargin" : 36.74,
+    "grossProfit" : 203.48,
+    "operatingProfitMargin" : 11.08,
+    "operatingProfit" : 61.37,
+    "netProfitMargin" : 3.24,
+    "netProfit" : 17.94
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 564.63,
+    "salesGrowthYoY" : -30.58,
+    "grossProfitMargin" : 41.92,
+    "grossProfit" : 236.69,
+    "operatingProfitMargin" : 14.82,
+    "operatingProfit" : 83.68,
+    "netProfitMargin" : 7.98,
+    "netProfit" : 45.06
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 421.54,
+    "salesGrowthYoY" : -46.17,
+    "grossProfitMargin" : 27.55,
+    "grossProfit" : 116.13,
+    "operatingProfitMargin" : -3.58,
+    "operatingProfit" : -15.09,
+    "netProfitMargin" : -6.00,
+    "netProfit" : -25.29
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 373.96,
+    "salesGrowthYoY" : -42.92,
+    "grossProfitMargin" : 38.65,
+    "grossProfit" : 144.54,
+    "operatingProfitMargin" : 3.96,
+    "operatingProfit" : 14.81,
+    "netProfitMargin" : -0.97,
+    "netProfit" : -3.63
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 344.54,
+    "salesGrowthYoY" : -37.79,
+    "grossProfitMargin" : 34.74,
+    "grossProfit" : 119.69,
+    "operatingProfitMargin" : -0.10,
+    "operatingProfit" : -0.34,
+    "netProfitMargin" : -7.90,
+    "netProfit" : -27.22
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 399.81,
+    "salesGrowthYoY" : -29.19,
+    "grossProfitMargin" : 39.36,
+    "grossProfit" : 157.37,
+    "operatingProfitMargin" : 2.53,
+    "operatingProfit" : 10.12,
+    "netProfitMargin" : -0.10,
+    "netProfit" : -0.40
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 411.11,
+    "salesGrowthYoY" : -2.47,
+    "grossProfitMargin" : 36.20,
+    "grossProfit" : 148.82,
+    "operatingProfitMargin" : 3.46,
+    "operatingProfit" : 14.22,
+    "netProfitMargin" : -1.53,
+    "netProfit" : -6.29
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 532.63,
+    "salesGrowthYoY" : 42.43,
+    "grossProfitMargin" : 36.47,
+    "grossProfit" : 194.25,
+    "operatingProfitMargin" : 7.74,
+    "operatingProfit" : 41.23,
+    "netProfitMargin" : 1.61,
+    "netProfit" : 8.58
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 558.03,
+    "salesGrowthYoY" : 61.96,
+    "grossProfitMargin" : 38.80,
+    "grossProfit" : 216.52,
+    "operatingProfitMargin" : 10.82,
+    "operatingProfit" : 60.38,
+    "netProfitMargin" : 5.41,
+    "netProfit" : 30.19
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 502.10,
+    "salesGrowthYoY" : 25.58,
+    "grossProfitMargin" : 40.97,
+    "grossProfit" : 205.71,
+    "operatingProfitMargin" : 12.86,
+    "operatingProfit" : 64.57,
+    "netProfitMargin" : 6.77,
+    "netProfit" : 33.99
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 592.60,
+    "salesGrowthYoY" : 44.15,
+    "grossProfitMargin" : 38.20,
+    "grossProfit" : 226.37,
+    "operatingProfitMargin" : 13.59,
+    "operatingProfit" : 80.53,
+    "netProfitMargin" : 6.84,
+    "netProfit" : 40.53
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 557.66,
+    "salesGrowthYoY" : 4.70,
+    "grossProfitMargin" : 39.76,
+    "grossProfit" : 221.73,
+    "operatingProfitMargin" : 12.64,
+    "operatingProfit" : 70.49,
+    "netProfitMargin" : 7.70,
+    "netProfit" : 42.94
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 557.66,
+    "salesGrowthYoY" : 4.70,
+    "grossProfitMargin" : 39.76,
+    "grossProfit" : 221.73,
+    "operatingProfitMargin" : 12.64,
+    "operatingProfit" : 70.49,
+    "netProfitMargin" : 7.70,
+    "netProfit" : 42.94
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.69,
+    "pricePercentageAboveDma100" : 6.05,
+    "pricePercentageAboveDma200" : 5.93,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 8.42,
+    "operatingProfitMarginPercentile" : 11.86,
+    "netProfitMarginPercentile" : 6.35,
+    "totalTechnicalScore" : 22.67,
+    "totalFundamentalScore" : 26.63,
+    "totalScore" : 49.30
+  }
 }

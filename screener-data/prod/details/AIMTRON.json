@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284793",
-    "company_code" : "AIMTRON",
-    "company_name" : "Aimtron",
-    "screener_company_link" : "https://www.screener.in/company/AIMTRON",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284793/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284793/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284793",
+    "companyCode" : "AIMTRON",
+    "companyName" : "Aimtron",
+    "screenerCompanyLink" : "https://www.screener.in/company/AIMTRON",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284793/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284793/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "AIMTRON",
+      "companyName" : "Aimtron",
+      "marketCap" : 1990.00,
+      "peRatio" : 67.20,
+      "description" : "Incorporated in 2011, Aimtron Electronics Ltd is in the business of manufacturing Printed Circuit Boards (PCB) and also also provides services related to the designing of PCBs[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.05,
+      "pricePercentageAboveDma100" : 3.51,
+      "pricePercentageAboveDma200" : 2.72,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 19.32,
+      "netProfitMarginPercentile" : 6.00,
+      "totalTechnicalScore" : 45.28,
+      "totalFundamentalScore" : 45.32,
+      "totalScore" : 90.60
+    }
   },
   "attributes" : {
-    "company_code" : "AIMTRON",
-    "company_name" : "Aimtron",
-    "market_cap" : 2086.00,
-    "pe_ratio" : 70.40,
+    "companyCode" : "AIMTRON",
+    "companyName" : "Aimtron",
+    "marketCap" : 1990.00,
+    "peRatio" : 67.20,
     "description" : "Incorporated in 2011, Aimtron Electronics Ltd is in the business of manufacturing Printed Circuit Boards (PCB) and also also provides services related to the designing of PCBs[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 487.35,
     "dma50" : 467.37,
@@ -1745,10 +1770,98 @@
     "volume" : 86400.00
   }, {
     "date" : "2025-11-24",
-    "price" : 1030.15,
-    "dma50" : 821.84,
-    "dma100" : 751.83,
-    "dma200" : 670.18,
-    "volume" : 44400.00
-  } ]
+    "price" : 975.05,
+    "dma50" : 819.68,
+    "dma100" : 751.28,
+    "dma200" : 669.64,
+    "volume" : 77600.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 975.05,
+    "dma50" : 819.68,
+    "dma100" : 751.28,
+    "dma200" : 669.64,
+    "volume" : 77600.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2023-09-30",
+    "sales" : 43.07,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 38.33,
+    "grossProfit" : 16.51,
+    "operatingProfitMargin" : 26.28,
+    "operatingProfit" : 11.32,
+    "netProfitMargin" : 16.48,
+    "netProfit" : 7.10
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 49.91,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 38.07,
+    "grossProfit" : 19.00,
+    "operatingProfitMargin" : 24.78,
+    "operatingProfit" : 12.37,
+    "netProfitMargin" : 13.16,
+    "netProfit" : 6.57
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 57.69,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 33.51,
+    "grossProfit" : 19.33,
+    "operatingProfitMargin" : 25.48,
+    "operatingProfit" : 14.70,
+    "netProfitMargin" : 19.38,
+    "netProfit" : 11.18
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 100.62,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 23.53,
+    "grossProfit" : 23.68,
+    "operatingProfitMargin" : 19.26,
+    "operatingProfit" : 19.38,
+    "netProfitMargin" : 14.47,
+    "netProfit" : 14.56
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 95.60,
+    "salesGrowthYoY" : 121.96,
+    "grossProfitMargin" : 32.75,
+    "grossProfit" : 31.31,
+    "operatingProfitMargin" : 26.04,
+    "operatingProfit" : 24.89,
+    "netProfitMargin" : 15.76,
+    "netProfit" : 15.07
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 95.60,
+    "salesGrowthYoY" : 121.96,
+    "grossProfitMargin" : 32.75,
+    "grossProfit" : 31.31,
+    "operatingProfitMargin" : 26.04,
+    "operatingProfit" : 24.89,
+    "netProfitMargin" : 15.76,
+    "netProfit" : 15.07
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.05,
+    "pricePercentageAboveDma100" : 3.51,
+    "pricePercentageAboveDma200" : 2.72,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 19.32,
+    "netProfitMarginPercentile" : 6.00,
+    "totalTechnicalScore" : 45.28,
+    "totalFundamentalScore" : 45.32,
+    "totalScore" : 90.60
+  }
 }

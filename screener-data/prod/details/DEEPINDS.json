@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274867",
-    "company_code" : "DEEPINDS",
-    "company_name" : "Deep Industries",
-    "screener_company_link" : "https://www.screener.in/company/DEEPINDS",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274867/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274867/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274867",
+    "companyCode" : "DEEPINDS",
+    "companyName" : "Deep Industries",
+    "screenerCompanyLink" : "https://www.screener.in/company/DEEPINDS",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274867/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274867/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "DEEPINDS",
+      "companyName" : "Deep Industries",
+      "marketCap" : 2925.00,
+      "peRatio" : 17.50,
+      "description" : "Incorporated in 1991, Deep Industries Ltd is in the business of Oil and Gas field services. The company specializes in providing Air & Gas Compression Services, Drilling and Workover Services, Gas Dehydration Services, etc.. The company also provides integrated project management services.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.27,
+      "pricePercentageAboveDma100" : 5.35,
+      "pricePercentageAboveDma200" : 5.16,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 18.95,
+      "operatingProfitMarginPercentile" : 6.96,
+      "netProfitMarginPercentile" : 8.26,
+      "totalTechnicalScore" : 25.77,
+      "totalFundamentalScore" : 34.16,
+      "totalScore" : 59.94
+    }
   },
   "attributes" : {
-    "company_code" : "DEEPINDS",
-    "company_name" : "Deep Industries",
-    "market_cap" : 3009.00,
-    "pe_ratio" : 18.00,
+    "companyCode" : "DEEPINDS",
+    "companyName" : "Deep Industries",
+    "marketCap" : 2925.00,
+    "peRatio" : 17.50,
     "description" : "Incorporated in 1991, Deep Industries Ltd is in the business of Oil and Gas field services. The company specializes in providing Air & Gas Compression Services, Drilling and Workover Services, Gas Dehydration Services, etc.. The company also provides integrated project management services.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 507.75,
     "dma50" : 459.42,
@@ -1752,10 +1777,278 @@
     "volume" : 85491.00
   }, {
     "date" : "2025-11-24",
-    "price" : 470.45,
-    "dma50" : 491.97,
-    "dma100" : 499.83,
-    "dma200" : 480.52,
-    "volume" : 53902.00
-  } ]
+    "price" : 465.25,
+    "dma50" : 491.76,
+    "dma100" : 499.78,
+    "dma200" : 480.47,
+    "volume" : 102414.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 465.25,
+    "dma50" : 491.76,
+    "dma100" : 499.78,
+    "dma200" : 480.47,
+    "volume" : 102414.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2020-03-31",
+    "sales" : 73.71,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 60.30,
+    "grossProfit" : 44.45,
+    "operatingProfitMargin" : 47.46,
+    "operatingProfit" : 34.98,
+    "netProfitMargin" : -1.56,
+    "netProfit" : -1.15
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 40.05,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 64.97,
+    "grossProfit" : 26.02,
+    "operatingProfitMargin" : 44.67,
+    "operatingProfit" : 17.89,
+    "netProfitMargin" : -19.30,
+    "netProfit" : -7.73
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 44.14,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 67.54,
+    "grossProfit" : 29.81,
+    "operatingProfitMargin" : 44.86,
+    "operatingProfit" : 19.80,
+    "netProfitMargin" : -6.66,
+    "netProfit" : -2.94
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 42.53,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 58.99,
+    "grossProfit" : 25.09,
+    "operatingProfitMargin" : 36.07,
+    "operatingProfit" : 15.34,
+    "netProfitMargin" : 177.94,
+    "netProfit" : 75.68
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 51.74,
+    "salesGrowthYoY" : -29.81,
+    "grossProfitMargin" : 64.77,
+    "grossProfit" : 33.51,
+    "operatingProfitMargin" : 48.16,
+    "operatingProfit" : 24.92,
+    "netProfitMargin" : -3.58,
+    "netProfit" : -1.85
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 67.86,
+    "salesGrowthYoY" : 69.44,
+    "grossProfitMargin" : 59.49,
+    "grossProfit" : 40.37,
+    "operatingProfitMargin" : 44.22,
+    "operatingProfit" : 30.01,
+    "netProfitMargin" : 24.86,
+    "netProfit" : 16.87
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 66.26,
+    "salesGrowthYoY" : 50.11,
+    "grossProfitMargin" : 53.43,
+    "grossProfit" : 35.40,
+    "operatingProfitMargin" : 36.39,
+    "operatingProfit" : 24.11,
+    "netProfitMargin" : 28.48,
+    "netProfit" : 18.87
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 61.09,
+    "salesGrowthYoY" : 43.64,
+    "grossProfitMargin" : 56.54,
+    "grossProfit" : 34.54,
+    "operatingProfitMargin" : 36.60,
+    "operatingProfit" : 22.36,
+    "netProfitMargin" : 26.03,
+    "netProfit" : 15.90
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 76.36,
+    "salesGrowthYoY" : 47.58,
+    "grossProfitMargin" : 52.06,
+    "grossProfit" : 39.75,
+    "operatingProfitMargin" : 36.73,
+    "operatingProfit" : 28.05,
+    "netProfitMargin" : 23.18,
+    "netProfit" : 17.70
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 60.16,
+    "salesGrowthYoY" : -11.35,
+    "grossProfitMargin" : 61.04,
+    "grossProfit" : 36.72,
+    "operatingProfitMargin" : 41.79,
+    "operatingProfit" : 25.14,
+    "netProfitMargin" : 25.66,
+    "netProfit" : 15.44
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 60.54,
+    "salesGrowthYoY" : -8.63,
+    "grossProfitMargin" : 49.27,
+    "grossProfit" : 29.83,
+    "operatingProfitMargin" : 32.03,
+    "operatingProfit" : 19.39,
+    "netProfitMargin" : 28.43,
+    "netProfit" : 17.21
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 92.71,
+    "salesGrowthYoY" : 51.76,
+    "grossProfitMargin" : 52.28,
+    "grossProfit" : 48.47,
+    "operatingProfitMargin" : 39.61,
+    "operatingProfit" : 36.72,
+    "netProfitMargin" : 24.05,
+    "netProfit" : 22.30
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 87.77,
+    "salesGrowthYoY" : 14.94,
+    "grossProfitMargin" : 56.09,
+    "grossProfit" : 49.23,
+    "operatingProfitMargin" : 38.99,
+    "operatingProfit" : 34.22,
+    "netProfitMargin" : 26.62,
+    "netProfit" : 23.36
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 89.67,
+    "salesGrowthYoY" : 49.05,
+    "grossProfitMargin" : 55.58,
+    "grossProfit" : 49.84,
+    "operatingProfitMargin" : 40.79,
+    "operatingProfit" : 36.58,
+    "netProfitMargin" : 26.33,
+    "netProfit" : 23.61
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 91.02,
+    "salesGrowthYoY" : 50.35,
+    "grossProfitMargin" : 56.83,
+    "grossProfit" : 51.73,
+    "operatingProfitMargin" : 40.79,
+    "operatingProfit" : 37.13,
+    "netProfitMargin" : 26.35,
+    "netProfit" : 23.98
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 95.91,
+    "salesGrowthYoY" : 3.45,
+    "grossProfitMargin" : 54.46,
+    "grossProfit" : 52.23,
+    "operatingProfitMargin" : 38.60,
+    "operatingProfit" : 37.02,
+    "netProfitMargin" : 25.29,
+    "netProfit" : 24.26
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 105.31,
+    "salesGrowthYoY" : 19.98,
+    "grossProfitMargin" : 56.42,
+    "grossProfit" : 59.42,
+    "operatingProfitMargin" : 37.55,
+    "operatingProfit" : 39.54,
+    "netProfitMargin" : 30.77,
+    "netProfit" : 32.40
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 111.73,
+    "salesGrowthYoY" : 24.60,
+    "grossProfitMargin" : 58.23,
+    "grossProfit" : 65.06,
+    "operatingProfitMargin" : 40.33,
+    "operatingProfit" : 45.06,
+    "netProfitMargin" : 27.19,
+    "netProfit" : 30.38
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 109.27,
+    "salesGrowthYoY" : 20.05,
+    "grossProfitMargin" : 58.66,
+    "grossProfit" : 64.10,
+    "operatingProfitMargin" : 40.38,
+    "operatingProfit" : 44.12,
+    "netProfitMargin" : 27.26,
+    "netProfit" : 29.79
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 120.05,
+    "salesGrowthYoY" : 25.17,
+    "grossProfitMargin" : 58.65,
+    "grossProfit" : 70.41,
+    "operatingProfitMargin" : 42.51,
+    "operatingProfit" : 51.03,
+    "netProfitMargin" : 27.26,
+    "netProfit" : 32.73
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 136.43,
+    "salesGrowthYoY" : 29.55,
+    "grossProfitMargin" : 54.34,
+    "grossProfit" : 74.14,
+    "operatingProfitMargin" : 36.99,
+    "operatingProfit" : 50.47,
+    "netProfitMargin" : 27.44,
+    "netProfit" : 37.44
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 172.60,
+    "salesGrowthYoY" : 54.48,
+    "grossProfitMargin" : 49.99,
+    "grossProfit" : 86.28,
+    "operatingProfitMargin" : 36.58,
+    "operatingProfit" : 63.14,
+    "netProfitMargin" : 27.09,
+    "netProfit" : 46.76
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 179.39,
+    "salesGrowthYoY" : 64.17,
+    "grossProfitMargin" : 52.09,
+    "grossProfit" : 93.44,
+    "operatingProfitMargin" : 37.16,
+    "operatingProfit" : 66.66,
+    "netProfitMargin" : 28.00,
+    "netProfit" : 50.23
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 179.39,
+    "salesGrowthYoY" : 64.17,
+    "grossProfitMargin" : 52.09,
+    "grossProfit" : 93.44,
+    "operatingProfitMargin" : 37.16,
+    "operatingProfit" : 66.66,
+    "netProfitMargin" : 28.00,
+    "netProfit" : 50.23
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.27,
+    "pricePercentageAboveDma100" : 5.35,
+    "pricePercentageAboveDma200" : 5.16,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 18.95,
+    "operatingProfitMarginPercentile" : 6.96,
+    "netProfitMarginPercentile" : 8.26,
+    "totalTechnicalScore" : 25.77,
+    "totalFundamentalScore" : 34.16,
+    "totalScore" : 59.94
+  }
 }

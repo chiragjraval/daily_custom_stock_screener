@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1275198",
-    "company_code" : "VERANDA",
-    "company_name" : "Veranda Learning",
-    "screener_company_link" : "https://www.screener.in/company/VERANDA",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1275198/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1275198/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1275198",
+    "companyCode" : "VERANDA",
+    "companyName" : "Veranda Learning",
+    "screenerCompanyLink" : "https://www.screener.in/company/VERANDA",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1275198/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1275198/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "VERANDA",
+      "companyName" : "Veranda Learning",
+      "marketCap" : 1970.00,
+      "peRatio" : null,
+      "description" : "Incorporated in 2018, Veranda Learning Solutions Ltd is developing & managing an integrated online-to-offline (O2O) EdTech platform which offers a wide range of learning programs for learners preparing for competitive and professional exams[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.43,
+      "pricePercentageAboveDma100" : 5.49,
+      "pricePercentageAboveDma200" : 5.46,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 4.00,
+      "operatingProfitMarginPercentile" : 19.91,
+      "netProfitMarginPercentile" : 7.37,
+      "totalTechnicalScore" : 21.38,
+      "totalFundamentalScore" : 31.28,
+      "totalScore" : 52.66
+    }
   },
   "attributes" : {
-    "company_code" : "VERANDA",
-    "company_name" : "Veranda Learning",
-    "market_cap" : 1984.00,
-    "pe_ratio" : null,
+    "companyCode" : "VERANDA",
+    "companyName" : "Veranda Learning",
+    "marketCap" : 1970.00,
+    "peRatio" : null,
     "description" : "Incorporated in 2018, Veranda Learning Solutions Ltd is developing & managing an integrated online-to-offline (O2O) EdTech platform which offers a wide range of learning programs for learners preparing for competitive and professional exams[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 239.20,
     "dma50" : 274.49,
@@ -1752,10 +1777,238 @@
     "volume" : 168716.00
   }, {
     "date" : "2025-11-24",
-    "price" : 206.70,
-    "dma50" : 226.05,
+    "price" : 206.50,
+    "dma50" : 226.04,
     "dma100" : 229.02,
     "dma200" : 227.39,
-    "volume" : 45914.00
-  } ]
+    "volume" : 80405.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 206.50,
+    "dma50" : 226.04,
+    "dma100" : 229.02,
+    "dma200" : 227.39,
+    "volume" : 80405.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2021-03-31",
+    "sales" : 2.77,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2.77,
+    "operatingProfitMargin" : 9.39,
+    "operatingProfit" : 0.26,
+    "netProfitMargin" : 6.14,
+    "netProfit" : 0.17
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 1.26,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1.26,
+    "operatingProfitMargin" : -103.17,
+    "operatingProfit" : -1.30,
+    "netProfitMargin" : -100.79,
+    "netProfit" : -1.27
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 2.54,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2.54,
+    "operatingProfitMargin" : -69.29,
+    "operatingProfit" : -1.76,
+    "netProfitMargin" : -101.57,
+    "netProfit" : -2.58
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 3.86,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 3.86,
+    "operatingProfitMargin" : -20.73,
+    "operatingProfit" : -0.80,
+    "netProfitMargin" : -104.66,
+    "netProfit" : -4.04
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 4.49,
+    "salesGrowthYoY" : 62.09,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 4.49,
+    "operatingProfitMargin" : -37.86,
+    "operatingProfit" : -1.70,
+    "netProfitMargin" : -105.79,
+    "netProfit" : -4.75
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 3.26,
+    "salesGrowthYoY" : 158.73,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 3.26,
+    "operatingProfitMargin" : -51.23,
+    "operatingProfit" : -1.67,
+    "netProfitMargin" : -71.17,
+    "netProfit" : -2.32
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 3.27,
+    "salesGrowthYoY" : 28.74,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 3.27,
+    "operatingProfitMargin" : -63.91,
+    "operatingProfit" : -2.09,
+    "netProfitMargin" : -44.34,
+    "netProfit" : -1.45
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 5.69,
+    "salesGrowthYoY" : 47.41,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 5.69,
+    "operatingProfitMargin" : -314.24,
+    "operatingProfit" : -17.88,
+    "netProfitMargin" : 281.55,
+    "netProfit" : 16.02
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 4.92,
+    "salesGrowthYoY" : 9.58,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 4.92,
+    "operatingProfitMargin" : -109.15,
+    "operatingProfit" : -5.37,
+    "netProfitMargin" : -107.11,
+    "netProfit" : -5.27
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 4.82,
+    "salesGrowthYoY" : 47.85,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 4.82,
+    "operatingProfitMargin" : -15.77,
+    "operatingProfit" : -0.76,
+    "netProfitMargin" : -6.22,
+    "netProfit" : -0.30
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 8.03,
+    "salesGrowthYoY" : 145.57,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 8.03,
+    "operatingProfitMargin" : 43.59,
+    "operatingProfit" : 3.50,
+    "netProfitMargin" : 63.89,
+    "netProfit" : 5.13
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 13.83,
+    "salesGrowthYoY" : 143.06,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 13.83,
+    "operatingProfitMargin" : 61.39,
+    "operatingProfit" : 8.49,
+    "netProfitMargin" : 60.09,
+    "netProfit" : 8.31
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 12.72,
+    "salesGrowthYoY" : 158.54,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 12.72,
+    "operatingProfitMargin" : 49.53,
+    "operatingProfit" : 6.30,
+    "netProfitMargin" : 80.11,
+    "netProfit" : 10.19
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 9.54,
+    "salesGrowthYoY" : 97.93,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 9.54,
+    "operatingProfitMargin" : 38.47,
+    "operatingProfit" : 3.67,
+    "netProfitMargin" : 18.66,
+    "netProfit" : 1.78
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 11.28,
+    "salesGrowthYoY" : 40.47,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 11.28,
+    "operatingProfitMargin" : 44.86,
+    "operatingProfit" : 5.06,
+    "netProfitMargin" : 5.67,
+    "netProfit" : 0.64
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 10.67,
+    "salesGrowthYoY" : -22.85,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 10.67,
+    "operatingProfitMargin" : -50.89,
+    "operatingProfit" : -5.43,
+    "netProfitMargin" : -129.43,
+    "netProfit" : -13.81
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 9.59,
+    "salesGrowthYoY" : -24.61,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 9.59,
+    "operatingProfitMargin" : -239.31,
+    "operatingProfit" : -22.95,
+    "netProfitMargin" : 78.73,
+    "netProfit" : 7.55
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 12.27,
+    "salesGrowthYoY" : 28.62,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 12.27,
+    "operatingProfitMargin" : 21.76,
+    "operatingProfit" : 2.67,
+    "netProfitMargin" : 0.33,
+    "netProfit" : 0.04
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 9.10,
+    "salesGrowthYoY" : -19.33,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 9.10,
+    "operatingProfitMargin" : 59.67,
+    "operatingProfit" : 5.43,
+    "netProfitMargin" : 23.19,
+    "netProfit" : 2.11
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 9.10,
+    "salesGrowthYoY" : -19.33,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 9.10,
+    "operatingProfitMargin" : 59.67,
+    "operatingProfit" : 5.43,
+    "netProfitMargin" : 23.19,
+    "netProfit" : 2.11
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.43,
+    "pricePercentageAboveDma100" : 5.49,
+    "pricePercentageAboveDma200" : 5.46,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 4.00,
+    "operatingProfitMarginPercentile" : 19.91,
+    "netProfitMarginPercentile" : 7.37,
+    "totalTechnicalScore" : 21.38,
+    "totalFundamentalScore" : 31.28,
+    "totalScore" : 52.66
+  }
 }

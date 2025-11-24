@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284633",
-    "company_code" : "MEDIASSIST",
-    "company_name" : "Medi Assist Ser.",
-    "screener_company_link" : "https://www.screener.in/company/MEDIASSIST",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284633/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284633/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284633",
+    "companyCode" : "MEDIASSIST",
+    "companyName" : "Medi Assist Ser.",
+    "screenerCompanyLink" : "https://www.screener.in/company/MEDIASSIST",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284633/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284633/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "MEDIASSIST",
+      "companyName" : "Medi Assist Ser.",
+      "marketCap" : 3489.00,
+      "peRatio" : 87.10,
+      "description" : "Incorporated in June 2000, Medi Assist Healthcare Services Limited is a health-tech and insurance-tech company that manages health benefits for employers, retail members, and public health schemes, primarily serving insurance companies.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.41,
+      "pricePercentageAboveDma100" : 5.57,
+      "pricePercentageAboveDma200" : 5.49,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 15.00,
+      "operatingProfitMarginPercentile" : 16.98,
+      "netProfitMarginPercentile" : 8.33,
+      "totalTechnicalScore" : 21.48,
+      "totalFundamentalScore" : 40.31,
+      "totalScore" : 61.79
+    }
   },
   "attributes" : {
-    "company_code" : "MEDIASSIST",
-    "company_name" : "Medi Assist Ser.",
-    "market_cap" : 3439.00,
-    "pe_ratio" : 85.90,
+    "companyCode" : "MEDIASSIST",
+    "companyName" : "Medi Assist Ser.",
+    "marketCap" : 3489.00,
+    "peRatio" : 87.10,
     "description" : "Incorporated in June 2000, Medi Assist Healthcare Services Limited is a health-tech and insurance-tech company that manages health benefits for employers, retail members, and public health schemes, primarily serving insurance companies.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 570.75,
     "dma50" : 611.61,
@@ -1752,10 +1777,168 @@
     "volume" : 104435.00
   }, {
     "date" : "2025-11-24",
-    "price" : 461.20,
-    "dma50" : 512.03,
-    "dma100" : 530.34,
-    "dma200" : 521.55,
-    "volume" : 42903.00
-  } ]
+    "price" : 470.00,
+    "dma50" : 512.38,
+    "dma100" : 530.43,
+    "dma200" : 521.63,
+    "volume" : 110372.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 470.00,
+    "dma50" : 512.38,
+    "dma100" : 530.43,
+    "dma200" : 521.63,
+    "volume" : 110372.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2022-12-31",
+    "sales" : 15.61,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 15.61,
+    "operatingProfitMargin" : 0.38,
+    "operatingProfit" : 0.06,
+    "netProfitMargin" : -5.70,
+    "netProfit" : -0.89
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 17.79,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 17.79,
+    "operatingProfitMargin" : -0.06,
+    "operatingProfit" : -0.01,
+    "netProfitMargin" : 93.20,
+    "netProfit" : 16.58
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 23.04,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 23.04,
+    "operatingProfitMargin" : 22.22,
+    "operatingProfit" : 5.12,
+    "netProfitMargin" : 17.19,
+    "netProfit" : 3.96
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 27.66,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 27.66,
+    "operatingProfitMargin" : 35.47,
+    "operatingProfit" : 9.81,
+    "netProfitMargin" : 12.18,
+    "netProfit" : 3.37
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 26.69,
+    "salesGrowthYoY" : 70.98,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 26.69,
+    "operatingProfitMargin" : 29.26,
+    "operatingProfit" : 7.81,
+    "netProfitMargin" : 18.96,
+    "netProfit" : 5.06
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 31.03,
+    "salesGrowthYoY" : 74.42,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 31.03,
+    "operatingProfitMargin" : 48.50,
+    "operatingProfit" : 15.05,
+    "netProfitMargin" : 89.95,
+    "netProfit" : 27.91
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 34.23,
+    "salesGrowthYoY" : 48.57,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 34.23,
+    "operatingProfitMargin" : 42.48,
+    "operatingProfit" : 14.54,
+    "netProfitMargin" : 25.33,
+    "netProfit" : 8.67
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 39.48,
+    "salesGrowthYoY" : 42.73,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 39.48,
+    "operatingProfitMargin" : 43.90,
+    "operatingProfit" : 17.33,
+    "netProfitMargin" : 25.68,
+    "netProfit" : 10.14
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 34.33,
+    "salesGrowthYoY" : 28.62,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 34.33,
+    "operatingProfitMargin" : 21.41,
+    "operatingProfit" : 7.35,
+    "netProfitMargin" : 10.69,
+    "netProfit" : 3.67
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 42.55,
+    "salesGrowthYoY" : 37.13,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 42.55,
+    "operatingProfitMargin" : 47.26,
+    "operatingProfit" : 20.11,
+    "netProfitMargin" : 25.22,
+    "netProfit" : 10.73
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 43.70,
+    "salesGrowthYoY" : 27.67,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 43.70,
+    "operatingProfitMargin" : 33.02,
+    "operatingProfit" : 14.43,
+    "netProfitMargin" : 18.35,
+    "netProfit" : 8.02
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 60.76,
+    "salesGrowthYoY" : 53.90,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 60.76,
+    "operatingProfitMargin" : 41.16,
+    "operatingProfit" : 25.01,
+    "netProfitMargin" : 29.03,
+    "netProfit" : 17.64
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 60.76,
+    "salesGrowthYoY" : 53.90,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 60.76,
+    "operatingProfitMargin" : 41.16,
+    "operatingProfit" : 25.01,
+    "netProfitMargin" : 29.03,
+    "netProfit" : 17.64
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.41,
+    "pricePercentageAboveDma100" : 5.57,
+    "pricePercentageAboveDma200" : 5.49,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 15.00,
+    "operatingProfitMarginPercentile" : 16.98,
+    "netProfitMarginPercentile" : 8.33,
+    "totalTechnicalScore" : 21.48,
+    "totalFundamentalScore" : 40.31,
+    "totalScore" : 61.79
+  }
 }

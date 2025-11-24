@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285575",
-    "company_code" : "LOTUSDEV",
-    "company_name" : "Sri Lotus",
-    "screener_company_link" : "https://www.screener.in/company/LOTUSDEV",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285575/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285575/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285575",
+    "companyCode" : "LOTUSDEV",
+    "companyName" : "Sri Lotus",
+    "screenerCompanyLink" : "https://www.screener.in/company/LOTUSDEV",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285575/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285575/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "LOTUSDEV",
+      "companyName" : "Sri Lotus",
+      "marketCap" : 8114.00,
+      "peRatio" : 47.20,
+      "description" : "Incorporated in February 2015, Sri Lotus Developers and Realty Limited is a developer of residential and commercial properties located in Mumbai, specializing in redevelopment projects within the ultra-luxury and luxury segments of the western suburbs.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.32,
+      "pricePercentageAboveDma100" : 0.00,
+      "pricePercentageAboveDma200" : 5.54,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 4.00,
+      "netProfitMarginPercentile" : 8.31,
+      "totalTechnicalScore" : 10.86,
+      "totalFundamentalScore" : 32.31,
+      "totalScore" : 43.17
+    }
   },
   "attributes" : {
-    "company_code" : "LOTUSDEV",
-    "company_name" : "Sri Lotus",
-    "market_cap" : 8348.00,
-    "pe_ratio" : 48.60,
+    "companyCode" : "LOTUSDEV",
+    "companyName" : "Sri Lotus",
+    "marketCap" : 8114.00,
+    "peRatio" : 47.20,
     "description" : "Incorporated in February 2015, Sri Lotus Developers and Realty Limited is a developer of residential and commercial properties located in Mumbai, specializing in redevelopment projects within the ultra-luxury and luxury segments of the western suburbs.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-08-06",
     "price" : 195.67,
     "dma50" : 195.67,
@@ -527,10 +552,98 @@
     "volume" : 465183.00
   }, {
     "date" : "2025-11-24",
-    "price" : 171.40,
-    "dma50" : 180.28,
+    "price" : 168.55,
+    "dma50" : 180.17,
     "dma100" : null,
-    "dma200" : 189.04,
-    "volume" : 224935.00
-  } ]
+    "dma200" : 189.01,
+    "volume" : 358007.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 168.55,
+    "dma50" : 180.17,
+    "dma100" : null,
+    "dma200" : 189.01,
+    "volume" : 358007.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-06-30",
+    "sales" : 63.85,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 73.94,
+    "grossProfit" : 47.21,
+    "operatingProfitMargin" : 63.32,
+    "operatingProfit" : 40.43,
+    "netProfitMargin" : 47.09,
+    "netProfit" : 30.07
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 100.68,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 71.30,
+    "grossProfit" : 71.78,
+    "operatingProfitMargin" : 61.85,
+    "operatingProfit" : 62.27,
+    "netProfitMargin" : 46.91,
+    "netProfit" : 47.23
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 142.43,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 78.31,
+    "grossProfit" : 111.54,
+    "operatingProfitMargin" : 66.61,
+    "operatingProfit" : 94.87,
+    "netProfitMargin" : 52.59,
+    "netProfit" : 74.90
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 36.65,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 88.68,
+    "grossProfit" : 32.50,
+    "operatingProfitMargin" : 70.80,
+    "operatingProfit" : 25.95,
+    "netProfitMargin" : 61.99,
+    "netProfit" : 22.72
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 38.61,
+    "salesGrowthYoY" : -39.53,
+    "grossProfitMargin" : 74.20,
+    "grossProfit" : 28.65,
+    "operatingProfitMargin" : 51.90,
+    "operatingProfit" : 20.04,
+    "netProfitMargin" : 59.44,
+    "netProfit" : 22.95
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 38.61,
+    "salesGrowthYoY" : -39.53,
+    "grossProfitMargin" : 74.20,
+    "grossProfit" : 28.65,
+    "operatingProfitMargin" : 51.90,
+    "operatingProfit" : 20.04,
+    "netProfitMargin" : 59.44,
+    "netProfit" : 22.95
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.32,
+    "pricePercentageAboveDma100" : 0.00,
+    "pricePercentageAboveDma200" : 5.54,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 4.00,
+    "netProfitMarginPercentile" : 8.31,
+    "totalTechnicalScore" : 10.86,
+    "totalFundamentalScore" : 32.31,
+    "totalScore" : 43.17
+  }
 }

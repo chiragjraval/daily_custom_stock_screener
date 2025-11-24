@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1275368",
-    "company_code" : "UNIPARTS",
-    "company_name" : "Uniparts India",
-    "screener_company_link" : "https://www.screener.in/company/UNIPARTS",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1275368/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1275368/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1275368",
+    "companyCode" : "UNIPARTS",
+    "companyName" : "Uniparts India",
+    "screenerCompanyLink" : "https://www.screener.in/company/UNIPARTS",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1275368/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1275368/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "UNIPARTS",
+      "companyName" : "Uniparts India",
+      "marketCap" : 2160.00,
+      "peRatio" : 23.20,
+      "description" : "Incorporatedin1994, Uniparts India provides engineering systems and solutions catering to international OEMs across the off-highway vehicle, agricultural machinery, and construction equipment sectors[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.79,
+      "pricePercentageAboveDma100" : 4.30,
+      "pricePercentageAboveDma200" : 4.20,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 10.60,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 43.30,
+      "totalFundamentalScore" : 40.60,
+      "totalScore" : 83.90
+    }
   },
   "attributes" : {
-    "company_code" : "UNIPARTS",
-    "company_name" : "Uniparts India",
-    "market_cap" : 2178.00,
-    "pe_ratio" : 23.40,
+    "companyCode" : "UNIPARTS",
+    "companyName" : "Uniparts India",
+    "marketCap" : 2160.00,
+    "peRatio" : 23.20,
     "description" : "Incorporatedin1994, Uniparts India provides engineering systems and solutions catering to international OEMs across the off-highway vehicle, agricultural machinery, and construction equipment sectors[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 414.20,
     "dma50" : 450.37,
@@ -1752,10 +1777,208 @@
     "volume" : 67601.00
   }, {
     "date" : "2025-11-24",
-    "price" : 486.20,
-    "dma50" : 467.27,
+    "price" : 486.75,
+    "dma50" : 467.29,
     "dma100" : 427.08,
-    "dma200" : 419.76,
-    "volume" : 47598.00
-  } ]
+    "dma200" : 419.77,
+    "volume" : 94757.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 486.75,
+    "dma50" : 467.29,
+    "dma100" : 427.08,
+    "dma200" : 419.77,
+    "volume" : 94757.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2021-12-31",
+    "sales" : 243.65,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 58.33,
+    "grossProfit" : 142.12,
+    "operatingProfitMargin" : 17.77,
+    "operatingProfit" : 43.30,
+    "netProfitMargin" : 11.51,
+    "netProfit" : 28.04
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 225.68,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 58.00,
+    "grossProfit" : 130.89,
+    "operatingProfitMargin" : 15.25,
+    "operatingProfit" : 34.42,
+    "netProfitMargin" : 21.28,
+    "netProfit" : 48.02
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 227.38,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 58.54,
+    "grossProfit" : 133.11,
+    "operatingProfitMargin" : 16.11,
+    "operatingProfit" : 36.63,
+    "netProfitMargin" : 16.95,
+    "netProfit" : 38.54
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 250.11,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 57.10,
+    "grossProfit" : 142.81,
+    "operatingProfitMargin" : 17.19,
+    "operatingProfit" : 42.99,
+    "netProfitMargin" : 10.55,
+    "netProfit" : 26.39
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 235.72,
+    "salesGrowthYoY" : -3.25,
+    "grossProfitMargin" : 57.58,
+    "grossProfit" : 135.73,
+    "operatingProfitMargin" : 20.30,
+    "operatingProfit" : 47.85,
+    "netProfitMargin" : 12.74,
+    "netProfit" : 30.03
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 216.02,
+    "salesGrowthYoY" : -4.28,
+    "grossProfitMargin" : 57.42,
+    "grossProfit" : 124.04,
+    "operatingProfitMargin" : 17.81,
+    "operatingProfit" : 38.47,
+    "netProfitMargin" : 25.16,
+    "netProfit" : 54.35
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 178.69,
+    "salesGrowthYoY" : -21.41,
+    "grossProfitMargin" : 60.44,
+    "grossProfit" : 108.00,
+    "operatingProfitMargin" : 18.79,
+    "operatingProfit" : 33.58,
+    "netProfitMargin" : 26.55,
+    "netProfit" : 47.44
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 186.42,
+    "salesGrowthYoY" : -25.46,
+    "grossProfitMargin" : 55.59,
+    "grossProfit" : 103.63,
+    "operatingProfitMargin" : 13.17,
+    "operatingProfit" : 24.55,
+    "netProfitMargin" : 7.22,
+    "netProfit" : 13.46
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 161.50,
+    "salesGrowthYoY" : -31.49,
+    "grossProfitMargin" : 56.95,
+    "grossProfit" : 91.97,
+    "operatingProfitMargin" : 10.92,
+    "operatingProfit" : 17.64,
+    "netProfitMargin" : 26.54,
+    "netProfit" : 42.86
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 178.05,
+    "salesGrowthYoY" : -17.58,
+    "grossProfitMargin" : 57.21,
+    "grossProfit" : 101.86,
+    "operatingProfitMargin" : 13.01,
+    "operatingProfit" : 23.16,
+    "netProfitMargin" : 21.14,
+    "netProfit" : 37.64
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 153.12,
+    "salesGrowthYoY" : -14.31,
+    "grossProfitMargin" : 57.77,
+    "grossProfit" : 88.46,
+    "operatingProfitMargin" : 13.77,
+    "operatingProfit" : 21.08,
+    "netProfitMargin" : 8.56,
+    "netProfit" : 13.11
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 145.15,
+    "salesGrowthYoY" : -22.14,
+    "grossProfitMargin" : 55.47,
+    "grossProfit" : 80.51,
+    "operatingProfitMargin" : 10.01,
+    "operatingProfit" : 14.53,
+    "netProfitMargin" : 26.54,
+    "netProfit" : 38.52
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 128.17,
+    "salesGrowthYoY" : -20.64,
+    "grossProfitMargin" : 59.81,
+    "grossProfit" : 76.66,
+    "operatingProfitMargin" : 9.50,
+    "operatingProfit" : 12.18,
+    "netProfitMargin" : 6.02,
+    "netProfit" : 7.72
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 147.38,
+    "salesGrowthYoY" : -17.23,
+    "grossProfitMargin" : 55.77,
+    "grossProfit" : 82.19,
+    "operatingProfitMargin" : 4.38,
+    "operatingProfit" : 6.46,
+    "netProfitMargin" : 16.01,
+    "netProfit" : 23.60
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 161.68,
+    "salesGrowthYoY" : 5.59,
+    "grossProfitMargin" : 60.85,
+    "grossProfit" : 98.38,
+    "operatingProfitMargin" : 13.16,
+    "operatingProfit" : 21.28,
+    "netProfitMargin" : 9.05,
+    "netProfit" : 14.63
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 176.22,
+    "salesGrowthYoY" : 21.41,
+    "grossProfitMargin" : 60.08,
+    "grossProfit" : 105.87,
+    "operatingProfitMargin" : 12.82,
+    "operatingProfit" : 22.59,
+    "netProfitMargin" : 26.86,
+    "netProfit" : 47.33
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 176.22,
+    "salesGrowthYoY" : 21.41,
+    "grossProfitMargin" : 60.08,
+    "grossProfit" : 105.87,
+    "operatingProfitMargin" : 12.82,
+    "operatingProfit" : 22.59,
+    "netProfitMargin" : 26.86,
+    "netProfit" : 47.33
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.79,
+    "pricePercentageAboveDma100" : 4.30,
+    "pricePercentageAboveDma200" : 4.20,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 10.60,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 43.30,
+    "totalFundamentalScore" : 40.60,
+    "totalScore" : 83.90
+  }
 }

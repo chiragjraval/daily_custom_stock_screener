@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285206",
-    "company_code" : "CARRARO",
-    "company_name" : "Carraro India",
-    "screener_company_link" : "https://www.screener.in/company/CARRARO",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285206/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285206/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285206",
+    "companyCode" : "CARRARO",
+    "companyName" : "Carraro India",
+    "screenerCompanyLink" : "https://www.screener.in/company/CARRARO",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285206/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285206/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "CARRARO",
+      "companyName" : "Carraro India",
+      "marketCap" : 2903.00,
+      "peRatio" : 30.20,
+      "description" : "Incorporated in 1997, Carraro India Ltd manufactures axles and transmission systems for agricultural tractors and construction vehicles[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 4.91,
+      "pricePercentageAboveDma100" : 4.61,
+      "pricePercentageAboveDma200" : 4.69,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 12.72,
+      "netProfitMarginPercentile" : 8.29,
+      "totalTechnicalScore" : 39.21,
+      "totalFundamentalScore" : 41.01,
+      "totalScore" : 80.22
+    }
   },
   "attributes" : {
-    "company_code" : "CARRARO",
-    "company_name" : "Carraro India",
-    "market_cap" : 2893.00,
-    "pe_ratio" : 30.00,
+    "companyCode" : "CARRARO",
+    "companyName" : "Carraro India",
+    "marketCap" : 2903.00,
+    "peRatio" : 30.20,
     "description" : "Incorporated in 1997, Carraro India Ltd manufactures axles and transmission systems for agricultural tractors and construction vehicles[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-12-30",
     "price" : 636.20,
     "dma50" : 636.20,
@@ -1584,10 +1609,138 @@
     "volume" : 83783.00
   }, {
     "date" : "2025-11-24",
-    "price" : 507.35,
-    "dma50" : 497.28,
-    "dma100" : 469.96,
-    "dma200" : 477.17,
-    "volume" : 31970.00
-  } ]
+    "price" : 506.45,
+    "dma50" : 497.24,
+    "dma100" : 469.95,
+    "dma200" : 477.16,
+    "volume" : 47923.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 506.45,
+    "dma50" : 497.24,
+    "dma100" : 469.95,
+    "dma200" : 477.16,
+    "volume" : 47923.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2023-09-30",
+    "sales" : 950.78,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 24.27,
+    "grossProfit" : 230.75,
+    "operatingProfitMargin" : 5.65,
+    "operatingProfit" : 53.72,
+    "netProfitMargin" : 2.50,
+    "netProfit" : 23.77
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 430.59,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 26.98,
+    "grossProfit" : 116.17,
+    "operatingProfitMargin" : 8.69,
+    "operatingProfit" : 37.42,
+    "netProfitMargin" : 4.48,
+    "netProfit" : 19.29
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 389.08,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 28.36,
+    "grossProfit" : 110.34,
+    "operatingProfitMargin" : 9.54,
+    "operatingProfit" : 37.12,
+    "netProfitMargin" : 4.51,
+    "netProfit" : 17.55
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 470.04,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 25.94,
+    "grossProfit" : 121.93,
+    "operatingProfitMargin" : 10.43,
+    "operatingProfit" : 49.03,
+    "netProfitMargin" : 5.82,
+    "netProfit" : 27.36
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 436.74,
+    "salesGrowthYoY" : -54.07,
+    "grossProfitMargin" : 26.92,
+    "grossProfit" : 117.57,
+    "operatingProfitMargin" : 9.60,
+    "operatingProfit" : 41.93,
+    "netProfitMargin" : 4.94,
+    "netProfit" : 21.57
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 444.78,
+    "salesGrowthYoY" : 3.30,
+    "grossProfitMargin" : 25.03,
+    "grossProfit" : 111.33,
+    "operatingProfitMargin" : 7.00,
+    "operatingProfit" : 31.13,
+    "netProfitMargin" : 3.18,
+    "netProfit" : 14.14
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 440.61,
+    "salesGrowthYoY" : 13.24,
+    "grossProfitMargin" : 28.98,
+    "grossProfit" : 127.69,
+    "operatingProfitMargin" : 10.00,
+    "operatingProfit" : 44.06,
+    "netProfitMargin" : 5.25,
+    "netProfit" : 23.13
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 489.18,
+    "salesGrowthYoY" : 4.07,
+    "grossProfitMargin" : 27.16,
+    "grossProfit" : 132.86,
+    "operatingProfitMargin" : 9.52,
+    "operatingProfit" : 46.57,
+    "netProfitMargin" : 5.83,
+    "netProfit" : 28.52
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 581.84,
+    "salesGrowthYoY" : 33.22,
+    "grossProfitMargin" : 24.99,
+    "grossProfit" : 145.40,
+    "operatingProfitMargin" : 8.69,
+    "operatingProfit" : 50.56,
+    "netProfitMargin" : 5.26,
+    "netProfit" : 30.60
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 581.84,
+    "salesGrowthYoY" : 33.22,
+    "grossProfitMargin" : 24.99,
+    "grossProfit" : 145.40,
+    "operatingProfitMargin" : 8.69,
+    "operatingProfit" : 50.56,
+    "netProfitMargin" : 5.26,
+    "netProfit" : 30.60
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 4.91,
+    "pricePercentageAboveDma100" : 4.61,
+    "pricePercentageAboveDma200" : 4.69,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 12.72,
+    "netProfitMarginPercentile" : 8.29,
+    "totalTechnicalScore" : 39.21,
+    "totalFundamentalScore" : 41.01,
+    "totalScore" : 80.22
+  }
 }

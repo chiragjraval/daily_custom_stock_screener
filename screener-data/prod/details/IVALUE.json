@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285661",
-    "company_code" : "IVALUE",
-    "company_name" : "Ivalue Infosolut",
-    "screener_company_link" : "https://www.screener.in/company/IVALUE",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285661/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285661/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285661",
+    "companyCode" : "IVALUE",
+    "companyName" : "Ivalue Infosolut",
+    "screenerCompanyLink" : "https://www.screener.in/company/IVALUE",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285661/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285661/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "IVALUE",
+      "companyName" : "Ivalue Infosolut",
+      "marketCap" : 1589.00,
+      "peRatio" : 17.40,
+      "description" : "Incorporated in 2008, iValue Infosolutions Limited is a Strategic Technology Advisor, secures and manages enterprises’ digital assets in hybrid-cloud environments. With 500+ experts, the company offers custom solutions and services, partnering with top OEMs across India, SAARC and SEA.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 4.95,
+      "pricePercentageAboveDma100" : 0.00,
+      "pricePercentageAboveDma200" : 4.81,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 12.00,
+      "netProfitMarginPercentile" : 6.00,
+      "totalTechnicalScore" : 24.76,
+      "totalFundamentalScore" : 38.00,
+      "totalScore" : 62.76
+    }
   },
   "attributes" : {
-    "company_code" : "IVALUE",
-    "company_name" : "Ivalue Infosolut",
-    "market_cap" : 1642.00,
-    "pe_ratio" : 18.00,
+    "companyCode" : "IVALUE",
+    "companyName" : "Ivalue Infosolut",
+    "marketCap" : 1589.00,
+    "peRatio" : 17.40,
     "description" : "Incorporated in 2008, iValue Infosolutions Limited is a Strategic Technology Advisor, secures and manages enterprises’ digital assets in hybrid-cloud environments. With 500+ experts, the company offers custom solutions and services, partnering with top OEMs across India, SAARC and SEA.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-09-25",
     "price" : 281.85,
     "dma50" : 281.85,
@@ -289,10 +314,98 @@
     "volume" : 409444.00
   }, {
     "date" : "2025-11-24",
-    "price" : 308.35,
-    "dma50" : 293.10,
+    "price" : 295.70,
+    "dma50" : 292.61,
     "dma100" : null,
-    "dma200" : 285.17,
-    "volume" : 134286.00
-  } ]
+    "dma200" : 285.04,
+    "volume" : 506672.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 295.70,
+    "dma50" : 292.61,
+    "dma100" : null,
+    "dma200" : 285.04,
+    "volume" : 506672.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-06-30",
+    "sales" : 189.98,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 17.31,
+    "grossProfit" : 32.89,
+    "operatingProfitMargin" : 7.55,
+    "operatingProfit" : 14.34,
+    "netProfitMargin" : 5.11,
+    "netProfit" : 9.71
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 210.91,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 29.31,
+    "grossProfit" : 61.82,
+    "operatingProfitMargin" : 12.50,
+    "operatingProfit" : 26.36,
+    "netProfitMargin" : 9.23,
+    "netProfit" : 19.47
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 254.73,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 30.42,
+    "grossProfit" : 77.49,
+    "operatingProfitMargin" : 18.60,
+    "operatingProfit" : 47.38,
+    "netProfitMargin" : 14.57,
+    "netProfit" : 37.11
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 214.57,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 16.90,
+    "grossProfit" : 36.26,
+    "operatingProfitMargin" : 4.60,
+    "operatingProfit" : 9.87,
+    "netProfitMargin" : 4.74,
+    "netProfit" : 10.17
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 312.81,
+    "salesGrowthYoY" : 64.65,
+    "grossProfitMargin" : 21.27,
+    "grossProfit" : 66.53,
+    "operatingProfitMargin" : 12.24,
+    "operatingProfit" : 38.29,
+    "netProfitMargin" : 8.78,
+    "netProfit" : 27.46
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 312.81,
+    "salesGrowthYoY" : 64.65,
+    "grossProfitMargin" : 21.27,
+    "grossProfit" : 66.53,
+    "operatingProfitMargin" : 12.24,
+    "operatingProfit" : 38.29,
+    "netProfitMargin" : 8.78,
+    "netProfit" : 27.46
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 4.95,
+    "pricePercentageAboveDma100" : 0.00,
+    "pricePercentageAboveDma200" : 4.81,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 12.00,
+    "netProfitMarginPercentile" : 6.00,
+    "totalTechnicalScore" : 24.76,
+    "totalFundamentalScore" : 38.00,
+    "totalScore" : 62.76
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274992",
-    "company_code" : "NYKAA",
-    "company_name" : "FSN E-Commerce",
-    "screener_company_link" : "https://www.screener.in/company/NYKAA",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274992/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274992/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274992",
+    "companyCode" : "NYKAA",
+    "companyName" : "FSN E-Commerce",
+    "screenerCompanyLink" : "https://www.screener.in/company/NYKAA",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274992/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274992/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "NYKAA",
+      "companyName" : "FSN E-Commerce",
+      "marketCap" : 77793.00,
+      "peRatio" : 1211.00,
+      "description" : "FSN E-commerce Ventures Ltd. (FSNEV) popularly known as \"Nykaa\" is a digitally native consumer technology platform, delivering a content-led, lifestyle retail experience to consumers. The company has a diverse portfolio of beauty, personal care, and fashion products, including owned brand products manufactured by it.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.63,
+      "pricePercentageAboveDma100" : 4.25,
+      "pricePercentageAboveDma200" : 3.84,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 1.18,
+      "operatingProfitMarginPercentile" : 6.91,
+      "netProfitMarginPercentile" : 2.38,
+      "totalTechnicalScore" : 42.73,
+      "totalFundamentalScore" : 10.47,
+      "totalScore" : 53.20
+    }
   },
   "attributes" : {
-    "company_code" : "NYKAA",
-    "company_name" : "FSN E-Commerce",
-    "market_cap" : 76759.00,
-    "pe_ratio" : 1195.00,
+    "companyCode" : "NYKAA",
+    "companyName" : "FSN E-Commerce",
+    "marketCap" : 77793.00,
+    "peRatio" : 1211.00,
     "description" : "FSN E-commerce Ventures Ltd. (FSNEV) popularly known as \"Nykaa\" is a digitally native consumer technology platform, delivering a content-led, lifestyle retail experience to consumers. The company has a diverse portfolio of beauty, personal care, and fashion products, including owned brand products manufactured by it.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 168.05,
     "dma50" : 184.19,
@@ -1752,10 +1777,258 @@
     "volume" : 7078959.00
   }, {
     "date" : "2025-11-24",
-    "price" : 267.45,
-    "dma50" : 251.88,
-    "dma100" : 235.56,
-    "dma200" : 219.88,
-    "volume" : 2917044.00
-  } ]
+    "price" : 270.75,
+    "dma50" : 252.01,
+    "dma100" : 235.59,
+    "dma200" : 219.91,
+    "volume" : 8350998.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 270.75,
+    "dma50" : 252.01,
+    "dma100" : 235.59,
+    "dma200" : 219.91,
+    "volume" : 8350998.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2020-09-30",
+    "sales" : 40.61,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 63.46,
+    "grossProfit" : 25.77,
+    "operatingProfitMargin" : -0.42,
+    "operatingProfit" : -0.17,
+    "netProfitMargin" : 23.10,
+    "netProfit" : 9.38
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 43.22,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 60.87,
+    "grossProfit" : 26.31,
+    "operatingProfitMargin" : 5.37,
+    "operatingProfit" : 2.32,
+    "netProfitMargin" : 39.08,
+    "netProfit" : 16.89
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 38.67,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 48.10,
+    "grossProfit" : 18.60,
+    "operatingProfitMargin" : -14.02,
+    "operatingProfit" : -5.42,
+    "netProfitMargin" : 7.58,
+    "netProfit" : 2.93
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 43.49,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 64.68,
+    "grossProfit" : 28.13,
+    "operatingProfitMargin" : 20.23,
+    "operatingProfit" : 8.80,
+    "netProfitMargin" : 45.62,
+    "netProfit" : 19.84
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 49.39,
+    "salesGrowthYoY" : 21.62,
+    "grossProfitMargin" : 66.65,
+    "grossProfit" : 32.92,
+    "operatingProfitMargin" : 10.57,
+    "operatingProfit" : 5.22,
+    "netProfitMargin" : 36.97,
+    "netProfit" : 18.26
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 44.91,
+    "salesGrowthYoY" : 3.91,
+    "grossProfitMargin" : 71.63,
+    "grossProfit" : 32.17,
+    "operatingProfitMargin" : -0.82,
+    "operatingProfit" : -0.37,
+    "netProfitMargin" : 37.32,
+    "netProfit" : 16.76
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 49.91,
+    "salesGrowthYoY" : 29.07,
+    "grossProfitMargin" : 71.39,
+    "grossProfit" : 35.63,
+    "operatingProfitMargin" : 5.81,
+    "operatingProfit" : 2.90,
+    "netProfitMargin" : 97.50,
+    "netProfit" : 48.66
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 37.65,
+    "salesGrowthYoY" : -13.43,
+    "grossProfitMargin" : 50.09,
+    "grossProfit" : 18.86,
+    "operatingProfitMargin" : -41.51,
+    "operatingProfit" : -15.63,
+    "netProfitMargin" : 24.04,
+    "netProfit" : 9.05
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 51.75,
+    "salesGrowthYoY" : 4.78,
+    "grossProfitMargin" : 61.16,
+    "grossProfit" : 31.65,
+    "operatingProfitMargin" : -28.60,
+    "operatingProfit" : -14.80,
+    "netProfitMargin" : 19.09,
+    "netProfit" : 9.88
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 54.08,
+    "salesGrowthYoY" : 20.42,
+    "grossProfitMargin" : 71.52,
+    "grossProfit" : 38.68,
+    "operatingProfitMargin" : -9.89,
+    "operatingProfit" : -5.35,
+    "netProfitMargin" : 36.56,
+    "netProfit" : 19.77
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 92.75,
+    "salesGrowthYoY" : 85.83,
+    "grossProfitMargin" : 57.40,
+    "grossProfit" : 53.24,
+    "operatingProfitMargin" : 4.51,
+    "operatingProfit" : 4.18,
+    "netProfitMargin" : 26.45,
+    "netProfit" : 24.53
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 63.68,
+    "salesGrowthYoY" : 69.14,
+    "grossProfitMargin" : 54.76,
+    "grossProfit" : 34.87,
+    "operatingProfitMargin" : -45.54,
+    "operatingProfit" : -29.00,
+    "netProfitMargin" : 8.18,
+    "netProfit" : 5.21
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 66.24,
+    "salesGrowthYoY" : 28.00,
+    "grossProfitMargin" : 57.49,
+    "grossProfit" : 38.08,
+    "operatingProfitMargin" : -35.34,
+    "operatingProfit" : -23.41,
+    "netProfitMargin" : 16.11,
+    "netProfit" : 10.67
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 80.19,
+    "salesGrowthYoY" : 48.28,
+    "grossProfitMargin" : 57.28,
+    "grossProfit" : 45.93,
+    "operatingProfitMargin" : -22.62,
+    "operatingProfit" : -18.14,
+    "netProfitMargin" : 23.49,
+    "netProfit" : 18.84
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 102.41,
+    "salesGrowthYoY" : 10.42,
+    "grossProfitMargin" : 60.76,
+    "grossProfit" : 62.22,
+    "operatingProfitMargin" : -4.45,
+    "operatingProfit" : -4.56,
+    "netProfitMargin" : 84.28,
+    "netProfit" : 86.31
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 102.83,
+    "salesGrowthYoY" : 61.48,
+    "grossProfitMargin" : 58.84,
+    "grossProfit" : 60.51,
+    "operatingProfitMargin" : -10.77,
+    "operatingProfit" : -11.07,
+    "netProfitMargin" : 41.07,
+    "netProfit" : 42.23
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 109.41,
+    "salesGrowthYoY" : 65.17,
+    "grossProfitMargin" : 48.14,
+    "grossProfit" : 52.67,
+    "operatingProfitMargin" : -12.30,
+    "operatingProfit" : -13.46,
+    "netProfitMargin" : 14.77,
+    "netProfit" : 16.16
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 119.14,
+    "salesGrowthYoY" : 48.57,
+    "grossProfitMargin" : 57.89,
+    "grossProfit" : 68.97,
+    "operatingProfitMargin" : -3.49,
+    "operatingProfit" : -4.16,
+    "netProfitMargin" : 20.53,
+    "netProfit" : 24.46
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 88.57,
+    "salesGrowthYoY" : -13.51,
+    "grossProfitMargin" : 52.03,
+    "grossProfit" : 46.08,
+    "operatingProfitMargin" : -13.30,
+    "operatingProfit" : -11.78,
+    "netProfitMargin" : 16.51,
+    "netProfit" : 14.62
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 81.83,
+    "salesGrowthYoY" : -20.42,
+    "grossProfitMargin" : 50.57,
+    "grossProfit" : 41.38,
+    "operatingProfitMargin" : -20.91,
+    "operatingProfit" : -17.11,
+    "netProfitMargin" : 15.79,
+    "netProfit" : 12.92
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 76.97,
+    "salesGrowthYoY" : -29.65,
+    "grossProfitMargin" : 55.48,
+    "grossProfit" : 42.70,
+    "operatingProfitMargin" : -22.81,
+    "operatingProfit" : -17.56,
+    "netProfitMargin" : 15.92,
+    "netProfit" : 12.25
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 76.97,
+    "salesGrowthYoY" : -29.65,
+    "grossProfitMargin" : 55.48,
+    "grossProfit" : 42.70,
+    "operatingProfitMargin" : -22.81,
+    "operatingProfit" : -17.56,
+    "netProfitMargin" : 15.92,
+    "netProfit" : 12.25
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.63,
+    "pricePercentageAboveDma100" : 4.25,
+    "pricePercentageAboveDma200" : 3.84,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 1.18,
+    "operatingProfitMarginPercentile" : 6.91,
+    "netProfitMarginPercentile" : 2.38,
+    "totalTechnicalScore" : 42.73,
+    "totalFundamentalScore" : 10.47,
+    "totalScore" : 53.20
+  }
 }

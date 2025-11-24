@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274564",
-    "company_code" : "SPECTRUM",
-    "company_name" : "Spectrum Electr.",
-    "screener_company_link" : "https://www.screener.in/company/SPECTRUM",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274564/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274564/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274564",
+    "companyCode" : "SPECTRUM",
+    "companyName" : "Spectrum Electr.",
+    "screenerCompanyLink" : "https://www.screener.in/company/SPECTRUM",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274564/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274564/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "SPECTRUM",
+      "companyName" : "Spectrum Electr.",
+      "marketCap" : 1742.00,
+      "peRatio" : 56.60,
+      "description" : "Spectrum Electrical Industries Limited, incorporated in 1995, is engaged in the business of Injection Moulding, manufacturing of Electrical Press Components and Surface treatment of Automobile, Electrical and Stamped parts. [1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.90,
+      "pricePercentageAboveDma100" : 6.03,
+      "pricePercentageAboveDma200" : 6.29,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 5.00,
+      "operatingProfitMarginPercentile" : 14.75,
+      "netProfitMarginPercentile" : 8.75,
+      "totalTechnicalScore" : 23.21,
+      "totalFundamentalScore" : 28.50,
+      "totalScore" : 51.71
+    }
   },
   "attributes" : {
-    "company_code" : "SPECTRUM",
-    "company_name" : "Spectrum Electr.",
-    "market_cap" : 1810.00,
-    "pe_ratio" : 58.80,
+    "companyCode" : "SPECTRUM",
+    "companyName" : "Spectrum Electr.",
+    "marketCap" : 1742.00,
+    "peRatio" : 56.60,
     "description" : "Spectrum Electrical Industries Limited, incorporated in 1995, is engaged in the business of Injection Moulding, manufacturing of Electrical Press Components and Surface treatment of Automobile, Electrical and Stamped parts. [1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 1811.00,
     "dma50" : 1726.20,
@@ -1752,10 +1777,208 @@
     "volume" : 49688.00
   }, {
     "date" : "2025-11-24",
-    "price" : 1160.00,
-    "dma50" : 1403.80,
-    "dma100" : 1450.88,
-    "dma200" : 1550.78,
-    "volume" : 9215.00
-  } ]
+    "price" : 1152.10,
+    "dma50" : 1403.49,
+    "dma100" : 1450.80,
+    "dma200" : 1550.70,
+    "volume" : 19072.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 1152.10,
+    "dma50" : 1403.49,
+    "dma100" : 1450.80,
+    "dma200" : 1550.70,
+    "volume" : 19072.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2019-09-30",
+    "sales" : 73.66,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 38.53,
+    "grossProfit" : 28.38,
+    "operatingProfitMargin" : 13.79,
+    "operatingProfit" : 10.16,
+    "netProfitMargin" : 5.04,
+    "netProfit" : 3.71
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 68.64,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 34.73,
+    "grossProfit" : 23.84,
+    "operatingProfitMargin" : 8.23,
+    "operatingProfit" : 5.65,
+    "netProfitMargin" : 1.41,
+    "netProfit" : 0.97
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 55.11,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 35.55,
+    "grossProfit" : 19.59,
+    "operatingProfitMargin" : 12.14,
+    "operatingProfit" : 6.69,
+    "netProfitMargin" : 0.74,
+    "netProfit" : 0.41
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 98.02,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 36.02,
+    "grossProfit" : 35.31,
+    "operatingProfitMargin" : 14.05,
+    "operatingProfit" : 13.77,
+    "netProfitMargin" : 5.61,
+    "netProfit" : 5.50
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 123.44,
+    "salesGrowthYoY" : 67.58,
+    "grossProfitMargin" : 31.54,
+    "grossProfit" : 38.93,
+    "operatingProfitMargin" : 11.90,
+    "operatingProfit" : 14.69,
+    "netProfitMargin" : 4.12,
+    "netProfit" : 5.09
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 129.09,
+    "salesGrowthYoY" : 88.07,
+    "grossProfitMargin" : 28.14,
+    "grossProfit" : 36.33,
+    "operatingProfitMargin" : 8.97,
+    "operatingProfit" : 11.58,
+    "netProfitMargin" : 2.00,
+    "netProfit" : 2.58
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 126.50,
+    "salesGrowthYoY" : 129.54,
+    "grossProfitMargin" : 31.61,
+    "grossProfit" : 39.99,
+    "operatingProfitMargin" : 9.73,
+    "operatingProfit" : 12.31,
+    "netProfitMargin" : 2.16,
+    "netProfit" : 2.73
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 131.80,
+    "salesGrowthYoY" : 34.46,
+    "grossProfitMargin" : 32.67,
+    "grossProfit" : 43.06,
+    "operatingProfitMargin" : 11.93,
+    "operatingProfit" : 15.72,
+    "netProfitMargin" : 4.32,
+    "netProfit" : 5.69
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 135.36,
+    "salesGrowthYoY" : 9.66,
+    "grossProfitMargin" : 34.36,
+    "grossProfit" : 46.51,
+    "operatingProfitMargin" : 13.35,
+    "operatingProfit" : 18.07,
+    "netProfitMargin" : 5.23,
+    "netProfit" : 7.08
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 193.10,
+    "salesGrowthYoY" : 49.59,
+    "grossProfitMargin" : 28.82,
+    "grossProfit" : 55.65,
+    "operatingProfitMargin" : 13.70,
+    "operatingProfit" : 26.45,
+    "netProfitMargin" : 6.41,
+    "netProfit" : 12.38
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 73.04,
+    "salesGrowthYoY" : -42.26,
+    "grossProfitMargin" : 35.45,
+    "grossProfit" : 25.89,
+    "operatingProfitMargin" : 13.12,
+    "operatingProfit" : 9.58,
+    "netProfitMargin" : 3.05,
+    "netProfit" : 2.23
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 155.14,
+    "salesGrowthYoY" : 17.71,
+    "grossProfitMargin" : 32.35,
+    "grossProfit" : 50.19,
+    "operatingProfitMargin" : 11.40,
+    "operatingProfit" : 17.69,
+    "netProfitMargin" : 4.85,
+    "netProfit" : 7.52
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 69.86,
+    "salesGrowthYoY" : -48.39,
+    "grossProfitMargin" : 38.03,
+    "grossProfit" : 26.57,
+    "operatingProfitMargin" : 14.31,
+    "operatingProfit" : 10.00,
+    "netProfitMargin" : 4.78,
+    "netProfit" : 3.34
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 172.09,
+    "salesGrowthYoY" : -10.88,
+    "grossProfitMargin" : 25.30,
+    "grossProfit" : 43.54,
+    "operatingProfitMargin" : 14.32,
+    "operatingProfit" : 24.64,
+    "netProfitMargin" : 7.79,
+    "netProfit" : 13.41
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 84.55,
+    "salesGrowthYoY" : 15.76,
+    "grossProfitMargin" : 34.96,
+    "grossProfit" : 29.56,
+    "operatingProfitMargin" : 13.72,
+    "operatingProfit" : 11.60,
+    "netProfitMargin" : 7.20,
+    "netProfit" : 6.09
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 116.06,
+    "salesGrowthYoY" : -25.19,
+    "grossProfitMargin" : 32.34,
+    "grossProfit" : 37.53,
+    "operatingProfitMargin" : 12.72,
+    "operatingProfit" : 14.76,
+    "netProfitMargin" : 6.83,
+    "netProfit" : 7.93
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 116.06,
+    "salesGrowthYoY" : -25.19,
+    "grossProfitMargin" : 32.34,
+    "grossProfit" : 37.53,
+    "operatingProfitMargin" : 12.72,
+    "operatingProfit" : 14.76,
+    "netProfitMargin" : 6.83,
+    "netProfit" : 7.93
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.90,
+    "pricePercentageAboveDma100" : 6.03,
+    "pricePercentageAboveDma200" : 6.29,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 5.00,
+    "operatingProfitMarginPercentile" : 14.75,
+    "netProfitMarginPercentile" : 8.75,
+    "totalTechnicalScore" : 23.21,
+    "totalFundamentalScore" : 28.50,
+    "totalScore" : 51.71
+  }
 }

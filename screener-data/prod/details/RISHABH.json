@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284471",
-    "company_code" : "RISHABH",
-    "company_name" : "Rishabh Instrum.",
-    "screener_company_link" : "https://www.screener.in/company/RISHABH",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284471/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284471/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284471",
+    "companyCode" : "RISHABH",
+    "companyName" : "Rishabh Instrum.",
+    "screenerCompanyLink" : "https://www.screener.in/company/RISHABH",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284471/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284471/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "RISHABH",
+      "companyName" : "Rishabh Instrum.",
+      "marketCap" : 1555.00,
+      "peRatio" : 44.00,
+      "description" : "Rishabh Instruments limited, with an experience of nearly three decades is an organization that has built its core competence in manufacturing, design and development of Test and Measuring Instruments and Industrial Control Products on strong fundamentals; in terms of people, infrastructure and financials. The company provides a hands-on, value driven, professional environment considering people its most important asset.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.82,
+      "pricePercentageAboveDma100" : 4.47,
+      "pricePercentageAboveDma200" : 4.21,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 10.00,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 9.70,
+      "totalTechnicalScore" : 43.49,
+      "totalFundamentalScore" : 39.70,
+      "totalScore" : 83.19
+    }
   },
   "attributes" : {
-    "company_code" : "RISHABH",
-    "company_name" : "Rishabh Instrum.",
-    "market_cap" : 1591.00,
-    "pe_ratio" : 45.00,
+    "companyCode" : "RISHABH",
+    "companyName" : "Rishabh Instrum.",
+    "marketCap" : 1555.00,
+    "peRatio" : 44.00,
     "description" : "Rishabh Instruments limited, with an experience of nearly three decades is an organization that has built its core competence in manufacturing, design and development of Test and Measuring Instruments and Industrial Control Products on strong fundamentals; in terms of people, infrastructure and financials. The company provides a hands-on, value driven, professional environment considering people its most important asset.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 328.05,
     "dma50" : 354.69,
@@ -1756,6 +1781,184 @@
     "dma50" : 395.58,
     "dma100" : 370.66,
     "dma200" : 353.76,
-    "volume" : 13539.00
-  } ]
+    "volume" : 26406.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 410.00,
+    "dma50" : 395.58,
+    "dma100" : 370.66,
+    "dma200" : 353.76,
+    "volume" : 26406.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2022-06-30",
+    "sales" : 41.39,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 56.10,
+    "grossProfit" : 23.22,
+    "operatingProfitMargin" : 21.00,
+    "operatingProfit" : 8.69,
+    "netProfitMargin" : 13.60,
+    "netProfit" : 5.63
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 46.96,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 39.97,
+    "grossProfit" : 18.77,
+    "operatingProfitMargin" : 10.41,
+    "operatingProfit" : 4.89,
+    "netProfitMargin" : 6.94,
+    "netProfit" : 3.26
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 45.71,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 46.14,
+    "grossProfit" : 21.09,
+    "operatingProfitMargin" : 16.78,
+    "operatingProfit" : 7.67,
+    "netProfitMargin" : 7.07,
+    "netProfit" : 3.23
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 61.93,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 46.97,
+    "grossProfit" : 29.09,
+    "operatingProfitMargin" : 16.24,
+    "operatingProfit" : 10.06,
+    "netProfitMargin" : 10.59,
+    "netProfit" : 6.56
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 56.80,
+    "salesGrowthYoY" : 37.23,
+    "grossProfitMargin" : 53.93,
+    "grossProfit" : 30.63,
+    "operatingProfitMargin" : 23.71,
+    "operatingProfit" : 13.47,
+    "netProfitMargin" : 15.93,
+    "netProfit" : 9.05
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 62.89,
+    "salesGrowthYoY" : 33.92,
+    "grossProfitMargin" : 50.09,
+    "grossProfit" : 31.50,
+    "operatingProfitMargin" : 23.18,
+    "operatingProfit" : 14.58,
+    "netProfitMargin" : 16.16,
+    "netProfit" : 10.16
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 45.81,
+    "salesGrowthYoY" : 0.22,
+    "grossProfitMargin" : 51.80,
+    "grossProfit" : 23.73,
+    "operatingProfitMargin" : 11.61,
+    "operatingProfit" : 5.32,
+    "netProfitMargin" : 19.54,
+    "netProfit" : 8.95
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 59.08,
+    "salesGrowthYoY" : -4.60,
+    "grossProfitMargin" : 56.23,
+    "grossProfit" : 33.22,
+    "operatingProfitMargin" : 20.67,
+    "operatingProfit" : 12.21,
+    "netProfitMargin" : 7.16,
+    "netProfit" : 4.23
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 52.69,
+    "salesGrowthYoY" : -7.24,
+    "grossProfitMargin" : 48.51,
+    "grossProfit" : 25.56,
+    "operatingProfitMargin" : 11.52,
+    "operatingProfit" : 6.07,
+    "netProfitMargin" : 7.04,
+    "netProfit" : 3.71
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 58.87,
+    "salesGrowthYoY" : -6.39,
+    "grossProfitMargin" : 48.70,
+    "grossProfit" : 28.67,
+    "operatingProfitMargin" : 15.30,
+    "operatingProfit" : 9.01,
+    "netProfitMargin" : 11.58,
+    "netProfit" : 6.82
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 59.24,
+    "salesGrowthYoY" : 29.32,
+    "grossProfitMargin" : 44.75,
+    "grossProfit" : 26.51,
+    "operatingProfitMargin" : 9.98,
+    "operatingProfit" : 5.91,
+    "netProfitMargin" : 6.74,
+    "netProfit" : 3.99
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 68.39,
+    "salesGrowthYoY" : 15.76,
+    "grossProfitMargin" : 51.84,
+    "grossProfit" : 35.45,
+    "operatingProfitMargin" : 20.50,
+    "operatingProfit" : 14.02,
+    "netProfitMargin" : 12.96,
+    "netProfit" : 8.86
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 61.78,
+    "salesGrowthYoY" : 17.25,
+    "grossProfitMargin" : 54.74,
+    "grossProfit" : 33.82,
+    "operatingProfitMargin" : 23.10,
+    "operatingProfit" : 14.27,
+    "netProfitMargin" : 15.99,
+    "netProfit" : 9.88
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 66.01,
+    "salesGrowthYoY" : 12.13,
+    "grossProfitMargin" : 57.04,
+    "grossProfit" : 37.65,
+    "operatingProfitMargin" : 26.06,
+    "operatingProfit" : 17.20,
+    "netProfitMargin" : 19.15,
+    "netProfit" : 12.64
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 66.01,
+    "salesGrowthYoY" : 12.13,
+    "grossProfitMargin" : 57.04,
+    "grossProfit" : 37.65,
+    "operatingProfitMargin" : 26.06,
+    "operatingProfit" : 17.20,
+    "netProfitMargin" : 19.15,
+    "netProfit" : 12.64
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.82,
+    "pricePercentageAboveDma100" : 4.47,
+    "pricePercentageAboveDma200" : 4.21,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 10.00,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 9.70,
+    "totalTechnicalScore" : 43.49,
+    "totalFundamentalScore" : 39.70,
+    "totalScore" : 83.19
+  }
 }

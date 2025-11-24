@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274849",
-    "company_code" : "CRAFTSMAN",
-    "company_name" : "Craftsman Auto",
-    "screener_company_link" : "https://www.screener.in/company/CRAFTSMAN",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274849/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274849/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274849",
+    "companyCode" : "CRAFTSMAN",
+    "companyName" : "Craftsman Auto",
+    "screenerCompanyLink" : "https://www.screener.in/company/CRAFTSMAN",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274849/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274849/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "CRAFTSMAN",
+      "companyName" : "Craftsman Auto",
+      "marketCap" : 15882.00,
+      "peRatio" : 133.00,
+      "description" : "Craftsman Automation started the journey in the year 1986 as a small scale industry in the southern Indian city of Coimbatore, has grown to become a leader in precision manufacturing in diverse fields. The co. manufactures several components and sub-assemblies on a supply and job-work basis according to client specifications in the automotive, industrial, and engineering segments. Headquartered in Coimbatore with 12 plants including 10 satellite units across India. [1] [2]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.03,
+      "pricePercentageAboveDma100" : 4.97,
+      "pricePercentageAboveDma200" : 4.51,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 12.63,
+      "operatingProfitMarginPercentile" : 5.37,
+      "netProfitMarginPercentile" : 7.46,
+      "totalTechnicalScore" : 39.51,
+      "totalFundamentalScore" : 25.46,
+      "totalScore" : 64.97
+    }
   },
   "attributes" : {
-    "company_code" : "CRAFTSMAN",
-    "company_name" : "Craftsman Auto",
-    "market_cap" : 15730.00,
-    "pe_ratio" : 131.00,
+    "companyCode" : "CRAFTSMAN",
+    "companyName" : "Craftsman Auto",
+    "marketCap" : 15882.00,
+    "peRatio" : 133.00,
     "description" : "Craftsman Automation started the journey in the year 1986 as a small scale industry in the southern Indian city of Coimbatore, has grown to become a leader in precision manufacturing in diverse fields. The co. manufactures several components and sub-assemblies on a supply and job-work basis according to client specifications in the automotive, industrial, and engineering segments. Headquartered in Coimbatore with 12 plants including 10 satellite units across India. [1] [2]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 5215.75,
     "dma50" : 5427.12,
@@ -1752,10 +1777,278 @@
     "volume" : 26520.00
   }, {
     "date" : "2025-11-24",
-    "price" : 6596.00,
-    "dma50" : 6697.47,
-    "dma100" : 6619.96,
-    "dma200" : 6060.98,
-    "volume" : 20843.00
-  } ]
+    "price" : 6660.00,
+    "dma50" : 6699.98,
+    "dma100" : 6620.60,
+    "dma200" : 6061.62,
+    "volume" : 32404.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 6660.00,
+    "dma50" : 6699.98,
+    "dma100" : 6620.60,
+    "dma200" : 6061.62,
+    "volume" : 32404.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2020-03-31",
+    "sales" : 333.44,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 61.41,
+    "grossProfit" : 204.77,
+    "operatingProfitMargin" : 25.76,
+    "operatingProfit" : 85.89,
+    "netProfitMargin" : 0.76,
+    "netProfit" : 2.53
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 159.39,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 56.43,
+    "grossProfit" : 89.94,
+    "operatingProfitMargin" : 27.47,
+    "operatingProfit" : 43.78,
+    "netProfitMargin" : -10.68,
+    "netProfit" : -17.02
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 366.76,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 57.80,
+    "grossProfit" : 211.99,
+    "operatingProfitMargin" : 27.37,
+    "operatingProfit" : 100.38,
+    "netProfitMargin" : 6.81,
+    "netProfit" : 24.98
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 484.93,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 58.08,
+    "grossProfit" : 281.65,
+    "operatingProfitMargin" : 28.83,
+    "operatingProfit" : 139.81,
+    "netProfitMargin" : 8.66,
+    "netProfit" : 41.99
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 535.21,
+    "salesGrowthYoY" : 60.51,
+    "grossProfitMargin" : 56.65,
+    "grossProfit" : 303.20,
+    "operatingProfitMargin" : 28.03,
+    "operatingProfit" : 150.02,
+    "netProfitMargin" : 8.75,
+    "netProfit" : 46.83
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 431.65,
+    "salesGrowthYoY" : 170.81,
+    "grossProfitMargin" : 55.30,
+    "grossProfit" : 238.70,
+    "operatingProfitMargin" : 24.53,
+    "operatingProfit" : 105.88,
+    "netProfitMargin" : 5.29,
+    "netProfit" : 22.83
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 568.84,
+    "salesGrowthYoY" : 55.10,
+    "grossProfitMargin" : 53.84,
+    "grossProfit" : 306.26,
+    "operatingProfitMargin" : 25.10,
+    "operatingProfit" : 142.78,
+    "netProfitMargin" : 8.69,
+    "netProfit" : 49.43
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 551.57,
+    "salesGrowthYoY" : 13.74,
+    "grossProfitMargin" : 54.18,
+    "grossProfit" : 298.84,
+    "operatingProfitMargin" : 23.01,
+    "operatingProfit" : 126.92,
+    "netProfitMargin" : 6.68,
+    "netProfit" : 36.84
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 654.37,
+    "salesGrowthYoY" : 22.26,
+    "grossProfitMargin" : 50.72,
+    "grossProfit" : 331.90,
+    "operatingProfitMargin" : 23.50,
+    "operatingProfit" : 153.78,
+    "netProfitMargin" : 7.85,
+    "netProfit" : 51.37
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 675.83,
+    "salesGrowthYoY" : 56.57,
+    "grossProfitMargin" : 52.18,
+    "grossProfit" : 352.65,
+    "operatingProfitMargin" : 24.18,
+    "operatingProfit" : 163.42,
+    "netProfitMargin" : 8.22,
+    "netProfit" : 55.55
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 771.27,
+    "salesGrowthYoY" : 35.59,
+    "grossProfitMargin" : 48.79,
+    "grossProfit" : 376.30,
+    "operatingProfitMargin" : 22.06,
+    "operatingProfit" : 170.14,
+    "netProfitMargin" : 7.86,
+    "netProfit" : 60.62
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 747.62,
+    "salesGrowthYoY" : 35.54,
+    "grossProfitMargin" : 49.47,
+    "grossProfit" : 369.85,
+    "operatingProfitMargin" : 21.15,
+    "operatingProfit" : 158.12,
+    "netProfitMargin" : 6.85,
+    "netProfit" : 51.21
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 785.52,
+    "salesGrowthYoY" : 20.04,
+    "grossProfitMargin" : 50.21,
+    "grossProfit" : 394.41,
+    "operatingProfitMargin" : 21.33,
+    "operatingProfit" : 167.55,
+    "netProfitMargin" : 8.95,
+    "netProfit" : 70.30
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 755.71,
+    "salesGrowthYoY" : 11.82,
+    "grossProfitMargin" : 51.26,
+    "grossProfit" : 387.38,
+    "operatingProfitMargin" : 21.61,
+    "operatingProfit" : 163.31,
+    "netProfitMargin" : 7.16,
+    "netProfit" : 54.11
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 824.45,
+    "salesGrowthYoY" : 6.90,
+    "grossProfitMargin" : 51.71,
+    "grossProfit" : 426.32,
+    "operatingProfitMargin" : 20.95,
+    "operatingProfit" : 172.72,
+    "netProfitMargin" : 7.61,
+    "netProfit" : 62.74
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 805.17,
+    "salesGrowthYoY" : 7.70,
+    "grossProfitMargin" : 50.51,
+    "grossProfit" : 406.69,
+    "operatingProfitMargin" : 19.53,
+    "operatingProfit" : 157.25,
+    "netProfitMargin" : 5.63,
+    "netProfit" : 45.33
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 822.46,
+    "salesGrowthYoY" : 4.70,
+    "grossProfitMargin" : 47.71,
+    "grossProfit" : 392.40,
+    "operatingProfitMargin" : 18.03,
+    "operatingProfit" : 148.29,
+    "netProfitMargin" : 4.31,
+    "netProfit" : 35.45
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 861.56,
+    "salesGrowthYoY" : 14.01,
+    "grossProfitMargin" : 46.60,
+    "grossProfit" : 401.49,
+    "operatingProfitMargin" : 17.16,
+    "operatingProfit" : 147.84,
+    "netProfitMargin" : 3.75,
+    "netProfit" : 32.31
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 906.21,
+    "salesGrowthYoY" : 9.92,
+    "grossProfitMargin" : 46.57,
+    "grossProfit" : 422.02,
+    "operatingProfitMargin" : 14.58,
+    "operatingProfit" : 132.13,
+    "netProfitMargin" : 3.16,
+    "netProfit" : 28.64
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 928.92,
+    "salesGrowthYoY" : 15.37,
+    "grossProfitMargin" : 46.17,
+    "grossProfit" : 428.88,
+    "operatingProfitMargin" : 12.41,
+    "operatingProfit" : 115.28,
+    "netProfitMargin" : 0.57,
+    "netProfit" : 5.29
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 1151.26,
+    "salesGrowthYoY" : 39.98,
+    "grossProfitMargin" : 41.97,
+    "grossProfit" : 483.18,
+    "operatingProfitMargin" : 13.99,
+    "operatingProfit" : 161.06,
+    "netProfitMargin" : 2.39,
+    "netProfit" : 27.52
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 1043.65,
+    "salesGrowthYoY" : 21.13,
+    "grossProfitMargin" : 48.68,
+    "grossProfit" : 508.05,
+    "operatingProfitMargin" : 17.00,
+    "operatingProfit" : 177.42,
+    "netProfitMargin" : 3.81,
+    "netProfit" : 39.76
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 1192.34,
+    "salesGrowthYoY" : 31.57,
+    "grossProfitMargin" : 45.96,
+    "grossProfit" : 548.00,
+    "operatingProfitMargin" : 16.82,
+    "operatingProfit" : 200.55,
+    "netProfitMargin" : 3.96,
+    "netProfit" : 47.22
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 1192.34,
+    "salesGrowthYoY" : 31.57,
+    "grossProfitMargin" : 45.96,
+    "grossProfit" : 548.00,
+    "operatingProfitMargin" : 16.82,
+    "operatingProfit" : 200.55,
+    "netProfitMargin" : 3.96,
+    "netProfit" : 47.22
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.03,
+    "pricePercentageAboveDma100" : 4.97,
+    "pricePercentageAboveDma200" : 4.51,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 12.63,
+    "operatingProfitMarginPercentile" : 5.37,
+    "netProfitMarginPercentile" : 7.46,
+    "totalTechnicalScore" : 39.51,
+    "totalFundamentalScore" : 25.46,
+    "totalScore" : 64.97
+  }
 }

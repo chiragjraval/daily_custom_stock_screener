@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285511",
-    "company_code" : "SAMBHV",
-    "company_name" : "Sambhv Steel",
-    "screener_company_link" : "https://www.screener.in/company/SAMBHV",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285511/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285511/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285511",
+    "companyCode" : "SAMBHV",
+    "companyName" : "Sambhv Steel",
+    "screenerCompanyLink" : "https://www.screener.in/company/SAMBHV",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285511/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285511/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "SAMBHV",
+      "companyName" : "Sambhv Steel",
+      "marketCap" : 3044.00,
+      "peRatio" : 33.40,
+      "description" : "Incorporated in 2018, Sambhv Steel Tubes Ltd manufactures finished products, including ERW black pipes and tubes (hollow section) and Galvanized iron (GI) pipes, using intermediate products such as sponge iron, blooms/slabs, and hot rolled (HR) coil.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.45,
+      "pricePercentageAboveDma100" : 0.00,
+      "pricePercentageAboveDma200" : 5.31,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 14.29,
+      "netProfitMarginPercentile" : 7.14,
+      "totalTechnicalScore" : 15.76,
+      "totalFundamentalScore" : 41.43,
+      "totalScore" : 57.19
+    }
   },
   "attributes" : {
-    "company_code" : "SAMBHV",
-    "company_name" : "Sambhv Steel",
-    "market_cap" : 3023.00,
-    "pe_ratio" : 33.20,
+    "companyCode" : "SAMBHV",
+    "companyName" : "Sambhv Steel",
+    "marketCap" : 3044.00,
+    "peRatio" : 33.40,
     "description" : "Incorporated in 2018, Sambhv Steel Tubes Ltd manufactures finished products, including ERW black pipes and tubes (hollow section) and Galvanized iron (GI) pipes, using intermediate products such as sponge iron, blooms/slabs, and hot rolled (HR) coil.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-07-02",
     "price" : 97.59,
     "dma50" : 97.59,
@@ -702,10 +727,118 @@
     "volume" : 767049.00
   }, {
     "date" : "2025-11-24",
-    "price" : 102.89,
-    "dma50" : 113.14,
+    "price" : 102.99,
+    "dma50" : 113.15,
     "dma100" : null,
     "dma200" : 109.82,
-    "volume" : 392418.00
-  } ]
+    "volume" : 587748.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 102.99,
+    "dma50" : 113.15,
+    "dma100" : null,
+    "dma200" : 109.82,
+    "volume" : 587748.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-03-31",
+    "sales" : 357.97,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 28.04,
+    "grossProfit" : 100.37,
+    "operatingProfitMargin" : 10.33,
+    "operatingProfit" : 36.98,
+    "netProfitMargin" : 4.77,
+    "netProfit" : 17.08
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 330.78,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 31.61,
+    "grossProfit" : 104.56,
+    "operatingProfitMargin" : 13.89,
+    "operatingProfit" : 45.95,
+    "netProfitMargin" : 7.49,
+    "netProfit" : 24.78
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 316.28,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 28.64,
+    "grossProfit" : 90.58,
+    "operatingProfitMargin" : 7.10,
+    "operatingProfit" : 22.46,
+    "netProfitMargin" : 1.74,
+    "netProfit" : 5.50
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 369.04,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 30.98,
+    "grossProfit" : 114.33,
+    "operatingProfitMargin" : 10.30,
+    "operatingProfit" : 38.01,
+    "netProfitMargin" : 3.07,
+    "netProfit" : 11.33
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 495.26,
+    "salesGrowthYoY" : 38.35,
+    "grossProfitMargin" : 27.75,
+    "grossProfit" : 137.43,
+    "operatingProfitMargin" : 9.73,
+    "operatingProfit" : 48.19,
+    "netProfitMargin" : 3.32,
+    "netProfit" : 16.44
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 558.63,
+    "salesGrowthYoY" : 68.88,
+    "grossProfitMargin" : 29.92,
+    "grossProfit" : 167.14,
+    "operatingProfitMargin" : 13.02,
+    "operatingProfit" : 72.73,
+    "netProfitMargin" : 5.98,
+    "netProfit" : 33.41
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 580.17,
+    "salesGrowthYoY" : 83.44,
+    "grossProfitMargin" : 27.87,
+    "grossProfit" : 161.69,
+    "operatingProfitMargin" : 10.39,
+    "operatingProfit" : 60.28,
+    "netProfitMargin" : 5.17,
+    "netProfit" : 29.99
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 580.17,
+    "salesGrowthYoY" : 83.44,
+    "grossProfitMargin" : 27.87,
+    "grossProfit" : 161.69,
+    "operatingProfitMargin" : 10.39,
+    "operatingProfit" : 60.28,
+    "netProfitMargin" : 5.17,
+    "netProfit" : 29.99
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.45,
+    "pricePercentageAboveDma100" : 0.00,
+    "pricePercentageAboveDma200" : 5.31,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 14.29,
+    "netProfitMarginPercentile" : 7.14,
+    "totalTechnicalScore" : 15.76,
+    "totalFundamentalScore" : 41.43,
+    "totalScore" : 57.19
+  }
 }

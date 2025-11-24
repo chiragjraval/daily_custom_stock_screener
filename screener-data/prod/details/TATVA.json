@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274895",
-    "company_code" : "TATVA",
-    "company_name" : "Tatva Chintan",
-    "screener_company_link" : "https://www.screener.in/company/TATVA",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274895/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274895/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274895",
+    "companyCode" : "TATVA",
+    "companyName" : "Tatva Chintan",
+    "screenerCompanyLink" : "https://www.screener.in/company/TATVA",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274895/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274895/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "TATVA",
+      "companyName" : "Tatva Chintan",
+      "marketCap" : 3308.00,
+      "peRatio" : 236.00,
+      "description" : "Tatva Chintan Pharma Chem Limited was incorporated in 1996 and it is a manufacturer of a diverse portfolio of structure Directing Agents, Phase Transfer Catalysts, electrolyte salts for batteries, and Pharmaceutical and Agrochemical Intermediates and other Speciality chemicals[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.72,
+      "pricePercentageAboveDma100" : 3.97,
+      "pricePercentageAboveDma200" : 3.57,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 17.78,
+      "operatingProfitMarginPercentile" : 11.82,
+      "netProfitMarginPercentile" : 4.09,
+      "totalTechnicalScore" : 47.26,
+      "totalFundamentalScore" : 33.69,
+      "totalScore" : 80.94
+    }
   },
   "attributes" : {
-    "company_code" : "TATVA",
-    "company_name" : "Tatva Chintan",
-    "market_cap" : 3339.00,
-    "pe_ratio" : 238.00,
+    "companyCode" : "TATVA",
+    "companyName" : "Tatva Chintan",
+    "marketCap" : 3308.00,
+    "peRatio" : 236.00,
     "description" : "Tatva Chintan Pharma Chem Limited was incorporated in 1996 and it is a manufacturer of a diverse portfolio of structure Directing Agents, Phase Transfer Catalysts, electrolyte salts for batteries, and Pharmaceutical and Agrochemical Intermediates and other Speciality chemicals[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 823.80,
     "dma50" : 917.16,
@@ -1752,10 +1777,268 @@
     "volume" : 155336.00
   }, {
     "date" : "2025-11-24",
-    "price" : 1413.50,
-    "dma50" : 1313.95,
-    "dma100" : 1150.50,
-    "dma200" : 1078.63,
-    "volume" : 99806.00
-  } ]
+    "price" : 1387.10,
+    "dma50" : 1312.91,
+    "dma100" : 1150.24,
+    "dma200" : 1078.37,
+    "volume" : 200115.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 1387.10,
+    "dma50" : 1312.91,
+    "dma100" : 1150.24,
+    "dma200" : 1078.37,
+    "volume" : 200115.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2020-06-30",
+    "sales" : 52.07,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 48.51,
+    "grossProfit" : 25.26,
+    "operatingProfitMargin" : 22.85,
+    "operatingProfit" : 11.90,
+    "netProfitMargin" : 15.58,
+    "netProfit" : 8.11
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 58.45,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 43.32,
+    "grossProfit" : 25.32,
+    "operatingProfitMargin" : 10.16,
+    "operatingProfit" : 5.94,
+    "netProfitMargin" : 5.00,
+    "netProfit" : 2.92
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 76.17,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 60.33,
+    "grossProfit" : 45.95,
+    "operatingProfitMargin" : 30.62,
+    "operatingProfit" : 23.32,
+    "netProfitMargin" : 26.23,
+    "netProfit" : 19.98
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 104.50,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 46.84,
+    "grossProfit" : 48.95,
+    "operatingProfitMargin" : 23.00,
+    "operatingProfit" : 24.04,
+    "netProfitMargin" : 19.47,
+    "netProfit" : 20.35
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 107.65,
+    "salesGrowthYoY" : 106.74,
+    "grossProfitMargin" : 49.15,
+    "grossProfit" : 52.91,
+    "operatingProfitMargin" : 24.85,
+    "operatingProfit" : 26.75,
+    "netProfitMargin" : 22.26,
+    "netProfit" : 23.96
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 116.69,
+    "salesGrowthYoY" : 99.64,
+    "grossProfitMargin" : 56.23,
+    "grossProfit" : 65.61,
+    "operatingProfitMargin" : 29.33,
+    "operatingProfit" : 34.23,
+    "netProfitMargin" : 26.33,
+    "netProfit" : 30.72
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 101.59,
+    "salesGrowthYoY" : 33.37,
+    "grossProfitMargin" : 55.22,
+    "grossProfit" : 56.10,
+    "operatingProfitMargin" : 22.40,
+    "operatingProfit" : 22.76,
+    "netProfitMargin" : 22.08,
+    "netProfit" : 22.43
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 101.88,
+    "salesGrowthYoY" : -2.51,
+    "grossProfitMargin" : 56.49,
+    "grossProfit" : 57.55,
+    "operatingProfitMargin" : 21.69,
+    "operatingProfit" : 22.10,
+    "netProfitMargin" : 18.54,
+    "netProfit" : 18.89
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 86.07,
+    "salesGrowthYoY" : -20.05,
+    "grossProfitMargin" : 51.05,
+    "grossProfit" : 43.94,
+    "operatingProfitMargin" : 15.67,
+    "operatingProfit" : 13.49,
+    "netProfitMargin" : 9.88,
+    "netProfit" : 8.50
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 84.04,
+    "salesGrowthYoY" : -27.98,
+    "grossProfitMargin" : 49.43,
+    "grossProfit" : 41.54,
+    "operatingProfitMargin" : 10.63,
+    "operatingProfit" : 8.93,
+    "netProfitMargin" : 6.26,
+    "netProfit" : 5.26
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 113.54,
+    "salesGrowthYoY" : 11.76,
+    "grossProfitMargin" : 43.09,
+    "grossProfit" : 48.92,
+    "operatingProfitMargin" : 14.84,
+    "operatingProfit" : 16.85,
+    "netProfitMargin" : 9.30,
+    "netProfit" : 10.56
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 119.41,
+    "salesGrowthYoY" : 17.21,
+    "grossProfitMargin" : 38.80,
+    "grossProfit" : 46.33,
+    "operatingProfitMargin" : 12.91,
+    "operatingProfit" : 15.42,
+    "netProfitMargin" : 16.53,
+    "netProfit" : 19.74
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 106.11,
+    "salesGrowthYoY" : 23.28,
+    "grossProfitMargin" : 49.67,
+    "grossProfit" : 52.70,
+    "operatingProfitMargin" : 18.48,
+    "operatingProfit" : 19.61,
+    "netProfitMargin" : 7.77,
+    "netProfit" : 8.24
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 92.57,
+    "salesGrowthYoY" : 10.15,
+    "grossProfitMargin" : 62.57,
+    "grossProfit" : 57.92,
+    "operatingProfitMargin" : 22.39,
+    "operatingProfit" : 20.73,
+    "netProfitMargin" : 8.86,
+    "netProfit" : 8.20
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 86.07,
+    "salesGrowthYoY" : -24.19,
+    "grossProfitMargin" : 53.90,
+    "grossProfit" : 46.39,
+    "operatingProfitMargin" : 14.31,
+    "operatingProfit" : 12.32,
+    "netProfitMargin" : 5.40,
+    "netProfit" : 4.65
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 93.93,
+    "salesGrowthYoY" : -21.34,
+    "grossProfitMargin" : 57.09,
+    "grossProfit" : 53.62,
+    "operatingProfitMargin" : 15.12,
+    "operatingProfit" : 14.20,
+    "netProfitMargin" : 8.78,
+    "netProfit" : 8.25
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 93.81,
+    "salesGrowthYoY" : -11.59,
+    "grossProfitMargin" : 44.54,
+    "grossProfit" : 41.78,
+    "operatingProfitMargin" : 8.20,
+    "operatingProfit" : 7.69,
+    "netProfitMargin" : 1.61,
+    "netProfit" : 1.51
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 80.96,
+    "salesGrowthYoY" : -12.54,
+    "grossProfitMargin" : 47.17,
+    "grossProfit" : 38.19,
+    "operatingProfitMargin" : 5.67,
+    "operatingProfit" : 4.59,
+    "netProfitMargin" : -1.37,
+    "netProfit" : -1.11
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 84.00,
+    "salesGrowthYoY" : -2.41,
+    "grossProfitMargin" : 49.46,
+    "grossProfit" : 41.55,
+    "operatingProfitMargin" : 6.73,
+    "operatingProfit" : 5.65,
+    "netProfitMargin" : -1.39,
+    "netProfit" : -1.17
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 107.65,
+    "salesGrowthYoY" : 14.61,
+    "grossProfitMargin" : 43.87,
+    "grossProfit" : 47.23,
+    "operatingProfitMargin" : 7.34,
+    "operatingProfit" : 7.90,
+    "netProfitMargin" : 1.02,
+    "netProfit" : 1.10
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 109.18,
+    "salesGrowthYoY" : 16.38,
+    "grossProfitMargin" : 49.65,
+    "grossProfit" : 54.21,
+    "operatingProfitMargin" : 13.79,
+    "operatingProfit" : 15.06,
+    "netProfitMargin" : 4.70,
+    "netProfit" : 5.13
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 115.86,
+    "salesGrowthYoY" : 43.11,
+    "grossProfitMargin" : 55.40,
+    "grossProfit" : 64.19,
+    "operatingProfitMargin" : 18.23,
+    "operatingProfit" : 21.12,
+    "netProfitMargin" : 7.72,
+    "netProfit" : 8.94
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 115.86,
+    "salesGrowthYoY" : 43.11,
+    "grossProfitMargin" : 55.40,
+    "grossProfit" : 64.19,
+    "operatingProfitMargin" : 18.23,
+    "operatingProfit" : 21.12,
+    "netProfitMargin" : 7.72,
+    "netProfit" : 8.94
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.72,
+    "pricePercentageAboveDma100" : 3.97,
+    "pricePercentageAboveDma200" : 3.57,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 17.78,
+    "operatingProfitMarginPercentile" : 11.82,
+    "netProfitMarginPercentile" : 4.09,
+    "totalTechnicalScore" : 47.26,
+    "totalFundamentalScore" : 33.69,
+    "totalScore" : 80.94
+  }
 }

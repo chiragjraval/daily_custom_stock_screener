@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284950",
-    "company_code" : "STYLEBAAZA",
-    "company_name" : "Baazar Style",
-    "screener_company_link" : "https://www.screener.in/company/STYLEBAAZA",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284950/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284950/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284950",
+    "companyCode" : "STYLEBAAZA",
+    "companyName" : "Baazar Style",
+    "screenerCompanyLink" : "https://www.screener.in/company/STYLEBAAZA",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284950/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284950/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "STYLEBAAZA",
+      "companyName" : "Baazar Style",
+      "marketCap" : 2105.00,
+      "peRatio" : 58.10,
+      "description" : "Incorporated in June 2013, Bazaar Style Retail Limited is a fashion retailer operating in West Bengal and Odisha.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.57,
+      "pricePercentageAboveDma100" : 5.56,
+      "pricePercentageAboveDma200" : 5.48,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 10.00,
+      "netProfitMarginPercentile" : 6.00,
+      "totalTechnicalScore" : 31.61,
+      "totalFundamentalScore" : 36.00,
+      "totalScore" : 67.61
+    }
   },
   "attributes" : {
-    "company_code" : "STYLEBAAZA",
-    "company_name" : "Baazar Style",
-    "market_cap" : 2115.00,
-    "pe_ratio" : 58.40,
+    "companyCode" : "STYLEBAAZA",
+    "companyName" : "Baazar Style",
+    "marketCap" : 2105.00,
+    "peRatio" : 58.10,
     "description" : "Incorporated in June 2013, Bazaar Style Retail Limited is a fashion retailer operating in West Bengal and Odisha.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 317.75,
     "dma50" : 349.01,
@@ -1752,10 +1777,148 @@
     "volume" : 130246.00
   }, {
     "date" : "2025-11-24",
-    "price" : 283.50,
-    "dma50" : 321.12,
-    "dma100" : 320.19,
-    "dma200" : 314.64,
-    "volume" : 81028.00
-  } ]
+    "price" : 284.40,
+    "dma50" : 321.16,
+    "dma100" : 320.20,
+    "dma200" : 314.65,
+    "volume" : 104037.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 284.40,
+    "dma50" : 321.16,
+    "dma100" : 320.20,
+    "dma200" : 314.65,
+    "volume" : 104037.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2023-06-30",
+    "sales" : 227.69,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 32.68,
+    "grossProfit" : 74.41,
+    "operatingProfitMargin" : 14.99,
+    "operatingProfit" : 34.13,
+    "netProfitMargin" : 2.42,
+    "netProfit" : 5.51
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 188.45,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 29.17,
+    "grossProfit" : 54.97,
+    "operatingProfitMargin" : 4.56,
+    "operatingProfit" : 8.59,
+    "netProfitMargin" : -8.21,
+    "netProfit" : -15.47
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 333.10,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 37.18,
+    "grossProfit" : 123.85,
+    "operatingProfitMargin" : 22.78,
+    "operatingProfit" : 75.88,
+    "netProfitMargin" : 11.51,
+    "netProfit" : 38.34
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 223.42,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 32.46,
+    "grossProfit" : 72.52,
+    "operatingProfitMargin" : 10.56,
+    "operatingProfit" : 23.59,
+    "netProfitMargin" : -2.87,
+    "netProfit" : -6.41
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 275.71,
+    "salesGrowthYoY" : 21.09,
+    "grossProfitMargin" : 32.89,
+    "grossProfit" : 90.68,
+    "operatingProfitMargin" : 15.24,
+    "operatingProfit" : 42.02,
+    "netProfitMargin" : 3.76,
+    "netProfit" : 10.37
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 310.91,
+    "salesGrowthYoY" : 64.98,
+    "grossProfitMargin" : 29.62,
+    "grossProfit" : 92.09,
+    "operatingProfitMargin" : 7.85,
+    "operatingProfit" : 24.41,
+    "netProfitMargin" : -2.86,
+    "netProfit" : -8.89
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 411.60,
+    "salesGrowthYoY" : 23.57,
+    "grossProfitMargin" : 37.72,
+    "grossProfit" : 155.26,
+    "operatingProfitMargin" : 20.24,
+    "operatingProfit" : 83.31,
+    "netProfitMargin" : 7.39,
+    "netProfit" : 30.42
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 345.32,
+    "salesGrowthYoY" : 54.56,
+    "grossProfitMargin" : 33.10,
+    "grossProfit" : 114.30,
+    "operatingProfitMargin" : 11.56,
+    "operatingProfit" : 39.92,
+    "netProfitMargin" : -1.85,
+    "netProfit" : -6.39
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 377.83,
+    "salesGrowthYoY" : 37.04,
+    "grossProfitMargin" : 35.88,
+    "grossProfit" : 135.57,
+    "operatingProfitMargin" : 15.42,
+    "operatingProfit" : 58.26,
+    "netProfitMargin" : 0.52,
+    "netProfit" : 1.96
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 531.66,
+    "salesGrowthYoY" : 71.00,
+    "grossProfitMargin" : 30.48,
+    "grossProfit" : 162.05,
+    "operatingProfitMargin" : 13.00,
+    "operatingProfit" : 69.12,
+    "netProfitMargin" : 1.92,
+    "netProfit" : 10.21
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 531.66,
+    "salesGrowthYoY" : 71.00,
+    "grossProfitMargin" : 30.48,
+    "grossProfit" : 162.05,
+    "operatingProfitMargin" : 13.00,
+    "operatingProfit" : 69.12,
+    "netProfitMargin" : 1.92,
+    "netProfit" : 10.21
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.57,
+    "pricePercentageAboveDma100" : 5.56,
+    "pricePercentageAboveDma200" : 5.48,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 10.00,
+    "netProfitMarginPercentile" : 6.00,
+    "totalTechnicalScore" : 31.61,
+    "totalFundamentalScore" : 36.00,
+    "totalScore" : 67.61
+  }
 }

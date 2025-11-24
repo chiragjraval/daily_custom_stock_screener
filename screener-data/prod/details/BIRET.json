@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274830",
-    "company_code" : "BIRET",
-    "company_name" : "Brookfield India",
-    "screener_company_link" : "https://www.screener.in/company/BIRET",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274830/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274830/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274830",
+    "companyCode" : "BIRET",
+    "companyName" : "Brookfield India",
+    "screenerCompanyLink" : "https://www.screener.in/company/BIRET",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274830/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274830/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "BIRET",
+      "companyName" : "Brookfield India",
+      "marketCap" : 20574.00,
+      "peRatio" : 23.60,
+      "description" : "Brookfield India Real Estate Trust REIT is an India-based commercial real estate vehicle. The investment trust's portfolio consists of campus-format office parks. Its commercial assets are located in Mumbai, Gurgaon, Noida and Kolkata.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.09,
+      "pricePercentageAboveDma100" : 4.97,
+      "pricePercentageAboveDma200" : 4.79,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 16.47,
+      "operatingProfitMarginPercentile" : 19.82,
+      "netProfitMarginPercentile" : 8.57,
+      "totalTechnicalScore" : 39.85,
+      "totalFundamentalScore" : 44.86,
+      "totalScore" : 84.71
+    }
   },
   "attributes" : {
-    "company_code" : "BIRET",
-    "company_name" : "Brookfield India",
-    "market_cap" : 21117.00,
-    "pe_ratio" : 24.20,
+    "companyCode" : "BIRET",
+    "companyName" : "Brookfield India",
+    "marketCap" : 20574.00,
+    "peRatio" : 23.60,
     "description" : "Brookfield India Real Estate Trust REIT is an India-based commercial real estate vehicle. The investment trust's portfolio consists of campus-format office parks. Its commercial assets are located in Mumbai, Gurgaon, Noida and Kolkata.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 294.34,
     "dma50" : 285.70,
@@ -1752,10 +1777,258 @@
     "volume" : 346230.00
   }, {
     "date" : "2025-11-24",
-    "price" : 329.31,
-    "dma50" : 334.99,
-    "dma100" : 326.55,
-    "dma200" : 315.23,
-    "volume" : 45532.00
-  } ]
+    "price" : 328.72,
+    "dma50" : 334.97,
+    "dma100" : 326.54,
+    "dma200" : 315.22,
+    "volume" : 72254.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 328.72,
+    "dma50" : 334.97,
+    "dma100" : 326.54,
+    "dma200" : 315.22,
+    "volume" : 72254.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2020-09-30",
+    "sales" : 0.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 0.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 72.24,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 72.24,
+    "operatingProfitMargin" : 86.99,
+    "operatingProfit" : 62.84,
+    "netProfitMargin" : 86.99,
+    "netProfit" : 62.84
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 129.30,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 129.30,
+    "operatingProfitMargin" : 95.78,
+    "operatingProfit" : 123.84,
+    "netProfitMargin" : 95.73,
+    "netProfit" : 123.78
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 118.48,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 118.48,
+    "operatingProfitMargin" : 96.61,
+    "operatingProfit" : 114.46,
+    "netProfitMargin" : 96.26,
+    "netProfit" : 114.05
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 116.22,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 116.22,
+    "operatingProfitMargin" : 96.98,
+    "operatingProfit" : 112.71,
+    "netProfitMargin" : 96.64,
+    "netProfit" : 112.32
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 106.84,
+    "salesGrowthYoY" : 47.90,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 106.84,
+    "operatingProfitMargin" : 96.11,
+    "operatingProfit" : 102.68,
+    "netProfitMargin" : 95.79,
+    "netProfit" : 102.34
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 87.70,
+    "salesGrowthYoY" : -32.17,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 87.70,
+    "operatingProfitMargin" : 95.10,
+    "operatingProfit" : 83.40,
+    "netProfitMargin" : 94.61,
+    "netProfit" : 82.97
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 86.53,
+    "salesGrowthYoY" : -26.97,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 86.53,
+    "operatingProfitMargin" : 92.43,
+    "operatingProfit" : 79.98,
+    "netProfitMargin" : 92.05,
+    "netProfit" : 79.65
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 84.26,
+    "salesGrowthYoY" : -27.50,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 84.26,
+    "operatingProfitMargin" : 92.08,
+    "operatingProfit" : 77.59,
+    "netProfitMargin" : 91.66,
+    "netProfit" : 77.23
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 76.85,
+    "salesGrowthYoY" : -28.07,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 76.85,
+    "operatingProfitMargin" : 94.50,
+    "operatingProfit" : 72.62,
+    "netProfitMargin" : 128.77,
+    "netProfit" : 98.96
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 74.74,
+    "salesGrowthYoY" : -14.78,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 74.74,
+    "operatingProfitMargin" : 95.05,
+    "operatingProfit" : 71.04,
+    "netProfitMargin" : 94.03,
+    "netProfit" : 70.28
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 97.23,
+    "salesGrowthYoY" : 12.37,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 97.23,
+    "operatingProfitMargin" : 50.74,
+    "operatingProfit" : 49.33,
+    "netProfitMargin" : 49.74,
+    "netProfit" : 48.36
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 110.68,
+    "salesGrowthYoY" : 31.36,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 110.68,
+    "operatingProfitMargin" : 95.16,
+    "operatingProfit" : 105.32,
+    "netProfitMargin" : 81.60,
+    "netProfit" : 90.31
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 106.29,
+    "salesGrowthYoY" : 38.31,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 106.29,
+    "operatingProfitMargin" : 94.83,
+    "operatingProfit" : 100.79,
+    "netProfitMargin" : 84.16,
+    "netProfit" : 89.45
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 127.41,
+    "salesGrowthYoY" : 70.47,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 127.41,
+    "operatingProfitMargin" : 96.58,
+    "operatingProfit" : 123.05,
+    "netProfitMargin" : 82.03,
+    "netProfit" : 104.51
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 114.88,
+    "salesGrowthYoY" : 18.15,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 114.88,
+    "operatingProfitMargin" : 93.45,
+    "operatingProfit" : 107.36,
+    "netProfitMargin" : 144.76,
+    "netProfit" : 166.30
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 147.49,
+    "salesGrowthYoY" : 33.26,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 147.49,
+    "operatingProfitMargin" : 94.70,
+    "operatingProfit" : 139.67,
+    "netProfitMargin" : 91.47,
+    "netProfit" : 134.91
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 241.34,
+    "salesGrowthYoY" : 127.06,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 241.34,
+    "operatingProfitMargin" : 96.74,
+    "operatingProfit" : 233.47,
+    "netProfitMargin" : 127.92,
+    "netProfit" : 308.72
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 202.82,
+    "salesGrowthYoY" : 59.19,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 202.82,
+    "operatingProfitMargin" : 96.87,
+    "operatingProfit" : 196.47,
+    "netProfitMargin" : 90.76,
+    "netProfit" : 184.08
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 209.72,
+    "salesGrowthYoY" : 82.56,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 209.72,
+    "operatingProfitMargin" : 96.12,
+    "operatingProfit" : 201.58,
+    "netProfitMargin" : 117.36,
+    "netProfit" : 246.13
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 209.72,
+    "salesGrowthYoY" : 82.56,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 209.72,
+    "operatingProfitMargin" : 96.12,
+    "operatingProfit" : 201.58,
+    "netProfitMargin" : 117.36,
+    "netProfit" : 246.13
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.09,
+    "pricePercentageAboveDma100" : 4.97,
+    "pricePercentageAboveDma200" : 4.79,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 16.47,
+    "operatingProfitMarginPercentile" : 19.82,
+    "netProfitMarginPercentile" : 8.57,
+    "totalTechnicalScore" : 39.85,
+    "totalFundamentalScore" : 44.86,
+    "totalScore" : 84.71
+  }
 }

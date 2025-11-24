@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285200",
-    "company_code" : "DAMCAPITAL",
-    "company_name" : "Dam Capital Advi",
-    "screener_company_link" : "https://www.screener.in/company/DAMCAPITAL",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285200/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285200/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285200",
+    "companyCode" : "DAMCAPITAL",
+    "companyName" : "Dam Capital Advi",
+    "screenerCompanyLink" : "https://www.screener.in/company/DAMCAPITAL",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285200/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285200/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "DAMCAPITAL",
+      "companyName" : "Dam Capital Advi",
+      "marketCap" : 1601.00,
+      "peRatio" : 14.30,
+      "description" : "Incorporated in 1993, DAM Capital Advisors Ltd is an investment bank which provides financial advisory and solutions[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.35,
+      "pricePercentageAboveDma100" : 5.26,
+      "pricePercentageAboveDma200" : 5.69,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 15.00,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 9.80,
+      "totalTechnicalScore" : 21.30,
+      "totalFundamentalScore" : 44.80,
+      "totalScore" : 66.10
+    }
   },
   "attributes" : {
-    "company_code" : "DAMCAPITAL",
-    "company_name" : "Dam Capital Advi",
-    "market_cap" : 1613.00,
-    "pe_ratio" : 14.40,
+    "companyCode" : "DAMCAPITAL",
+    "companyName" : "Dam Capital Advi",
+    "marketCap" : 1601.00,
+    "peRatio" : 14.30,
     "description" : "Incorporated in 1993, DAM Capital Advisors Ltd is an investment bank which provides financial advisory and solutions[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-12-27",
     "price" : 415.10,
     "dma50" : 415.10,
@@ -1591,10 +1616,128 @@
     "volume" : 470168.00
   }, {
     "date" : "2025-11-24",
-    "price" : 229.75,
-    "dma50" : 243.13,
-    "dma100" : 238.24,
-    "dma200" : 261.78,
-    "volume" : 308547.00
-  } ]
+    "price" : 225.81,
+    "dma50" : 242.98,
+    "dma100" : 238.21,
+    "dma200" : 261.74,
+    "volume" : 732015.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 225.81,
+    "dma50" : 242.98,
+    "dma100" : 238.21,
+    "dma200" : 261.74,
+    "volume" : 732015.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2023-12-31",
+    "sales" : 44.88,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 44.88,
+    "operatingProfitMargin" : 66.91,
+    "operatingProfit" : 30.03,
+    "netProfitMargin" : 46.84,
+    "netProfit" : 21.02
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 84.17,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 84.17,
+    "operatingProfitMargin" : 58.44,
+    "operatingProfit" : 49.19,
+    "netProfitMargin" : 39.21,
+    "netProfit" : 33.00
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 44.37,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 44.37,
+    "operatingProfitMargin" : 59.93,
+    "operatingProfit" : 26.59,
+    "netProfitMargin" : 49.67,
+    "netProfit" : 22.04
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 63.26,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 63.26,
+    "operatingProfitMargin" : 53.57,
+    "operatingProfit" : 33.89,
+    "netProfitMargin" : 34.30,
+    "netProfit" : 21.70
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 103.93,
+    "salesGrowthYoY" : 131.57,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 103.93,
+    "operatingProfitMargin" : 68.16,
+    "operatingProfit" : 70.84,
+    "netProfitMargin" : 49.49,
+    "netProfit" : 51.43
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 36.56,
+    "salesGrowthYoY" : -56.56,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 36.56,
+    "operatingProfitMargin" : 35.86,
+    "operatingProfit" : 13.11,
+    "netProfitMargin" : 23.19,
+    "netProfit" : 8.48
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 30.80,
+    "salesGrowthYoY" : -30.58,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 30.80,
+    "operatingProfitMargin" : 19.29,
+    "operatingProfit" : 5.94,
+    "netProfitMargin" : 0.52,
+    "netProfit" : 0.16
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 106.99,
+    "salesGrowthYoY" : 69.13,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 106.99,
+    "operatingProfitMargin" : 70.90,
+    "operatingProfit" : 75.86,
+    "netProfitMargin" : 48.71,
+    "netProfit" : 52.11
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 106.99,
+    "salesGrowthYoY" : 69.13,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 106.99,
+    "operatingProfitMargin" : 70.90,
+    "operatingProfit" : 75.86,
+    "netProfitMargin" : 48.71,
+    "netProfit" : 52.11
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.35,
+    "pricePercentageAboveDma100" : 5.26,
+    "pricePercentageAboveDma200" : 5.69,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 15.00,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 9.80,
+    "totalTechnicalScore" : 21.30,
+    "totalFundamentalScore" : 44.80,
+    "totalScore" : 66.10
+  }
 }

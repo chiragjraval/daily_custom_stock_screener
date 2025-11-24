@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285561",
-    "company_code" : "SHANTIGOLD",
-    "company_name" : "Shanti Gold",
-    "screener_company_link" : "https://www.screener.in/company/SHANTIGOLD",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285561/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285561/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285561",
+    "companyCode" : "SHANTIGOLD",
+    "companyName" : "Shanti Gold",
+    "screenerCompanyLink" : "https://www.screener.in/company/SHANTIGOLD",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285561/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285561/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "SHANTIGOLD",
+      "companyName" : "Shanti Gold",
+      "marketCap" : 1510.00,
+      "peRatio" : 16.70,
+      "description" : "Incorporated in 2003, Shanti Gold International Ltd offers a wide range of designs and products of 22KT CZ gold jewellery.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.29,
+      "pricePercentageAboveDma100" : 0.00,
+      "pricePercentageAboveDma200" : 5.36,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 10.65,
+      "totalFundamentalScore" : 50.00,
+      "totalScore" : 60.65
+    }
   },
   "attributes" : {
-    "company_code" : "SHANTIGOLD",
-    "company_name" : "Shanti Gold",
-    "market_cap" : 1554.00,
-    "pe_ratio" : 17.20,
+    "companyCode" : "SHANTIGOLD",
+    "companyName" : "Shanti Gold",
+    "marketCap" : 1510.00,
+    "peRatio" : 16.70,
     "description" : "Incorporated in 2003, Shanti Gold International Ltd offers a wide range of designs and products of 22KT CZ gold jewellery.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-08-01",
     "price" : 229.38,
     "dma50" : 229.38,
@@ -548,10 +573,98 @@
     "volume" : 271877.00
   }, {
     "date" : "2025-11-24",
-    "price" : 216.00,
-    "dma50" : 223.00,
+    "price" : 209.98,
+    "dma50" : 222.77,
     "dma100" : null,
-    "dma200" : 226.38,
-    "volume" : 120013.00
-  } ]
+    "dma200" : 226.32,
+    "volume" : 377736.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 209.98,
+    "dma50" : 222.77,
+    "dma100" : null,
+    "dma200" : 226.32,
+    "volume" : 377736.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-06-30",
+    "sales" : 239.83,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 7.53,
+    "grossProfit" : 18.06,
+    "operatingProfitMargin" : 6.31,
+    "operatingProfit" : 15.13,
+    "netProfitMargin" : 3.75,
+    "netProfit" : 8.99
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 266.07,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 7.86,
+    "grossProfit" : 20.91,
+    "operatingProfitMargin" : 6.50,
+    "operatingProfit" : 17.29,
+    "netProfitMargin" : 3.48,
+    "netProfit" : 9.26
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 297.29,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 11.91,
+    "grossProfit" : 35.41,
+    "operatingProfitMargin" : 10.45,
+    "operatingProfit" : 31.07,
+    "netProfitMargin" : 6.44,
+    "netProfit" : 19.15
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 292.78,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 14.30,
+    "grossProfit" : 41.87,
+    "operatingProfitMargin" : 13.13,
+    "operatingProfit" : 38.44,
+    "netProfitMargin" : 8.42,
+    "netProfit" : 24.65
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 430.08,
+    "salesGrowthYoY" : 79.33,
+    "grossProfitMargin" : 15.15,
+    "grossProfit" : 65.16,
+    "operatingProfitMargin" : 14.09,
+    "operatingProfit" : 60.60,
+    "netProfitMargin" : 10.19,
+    "netProfit" : 43.83
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 430.08,
+    "salesGrowthYoY" : 79.33,
+    "grossProfitMargin" : 15.15,
+    "grossProfit" : 65.16,
+    "operatingProfitMargin" : 14.09,
+    "operatingProfit" : 60.60,
+    "netProfitMargin" : 10.19,
+    "netProfit" : 43.83
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.29,
+    "pricePercentageAboveDma100" : 0.00,
+    "pricePercentageAboveDma200" : 5.36,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 10.65,
+    "totalFundamentalScore" : 50.00,
+    "totalScore" : 60.65
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285560",
-    "company_code" : "BRIGHOTEL",
-    "company_name" : "Brigade Hotel",
-    "screener_company_link" : "https://www.screener.in/company/BRIGHOTEL",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285560/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285560/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285560",
+    "companyCode" : "BRIGHOTEL",
+    "companyName" : "Brigade Hotel",
+    "screenerCompanyLink" : "https://www.screener.in/company/BRIGHOTEL",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285560/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285560/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "BRIGHOTEL",
+      "companyName" : "Brigade Hotel",
+      "marketCap" : 2967.00,
+      "peRatio" : 146.00,
+      "description" : "Brigade Hotel Ventures Limited is the owner and developer of hotels in key cities in India, primarily across South India.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.21,
+      "pricePercentageAboveDma100" : 0.00,
+      "pricePercentageAboveDma200" : 5.34,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 4.00,
+      "netProfitMarginPercentile" : 9.01,
+      "totalTechnicalScore" : 10.55,
+      "totalFundamentalScore" : 33.01,
+      "totalScore" : 43.56
+    }
   },
   "attributes" : {
-    "company_code" : "BRIGHOTEL",
-    "company_name" : "Brigade Hotel",
-    "market_cap" : 2963.00,
-    "pe_ratio" : 146.00,
+    "companyCode" : "BRIGHOTEL",
+    "companyName" : "Brigade Hotel",
+    "marketCap" : 2967.00,
+    "peRatio" : 146.00,
     "description" : "Brigade Hotel Ventures Limited is the owner and developer of hotels in key cities in India, primarily across South India.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-07-31",
     "price" : 85.32,
     "dma50" : 85.32,
@@ -555,10 +580,98 @@
     "volume" : 99129.00
   }, {
     "date" : "2025-11-24",
-    "price" : 77.98,
+    "price" : 78.03,
     "dma50" : 81.49,
     "dma100" : null,
     "dma200" : 83.72,
-    "volume" : 52582.00
-  } ]
+    "volume" : 76286.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 78.03,
+    "dma50" : 81.49,
+    "dma100" : null,
+    "dma200" : 83.72,
+    "volume" : 76286.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-06-30",
+    "sales" : 87.86,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 89.90,
+    "grossProfit" : 78.99,
+    "operatingProfitMargin" : 32.21,
+    "operatingProfit" : 28.30,
+    "netProfitMargin" : -4.61,
+    "netProfit" : -4.05
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 91.20,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 89.98,
+    "grossProfit" : 82.06,
+    "operatingProfitMargin" : 33.22,
+    "operatingProfit" : 30.30,
+    "netProfitMargin" : 4.38,
+    "netProfit" : 3.99
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 116.14,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 90.40,
+    "grossProfit" : 104.99,
+    "operatingProfitMargin" : 36.46,
+    "operatingProfit" : 42.34,
+    "netProfitMargin" : 8.27,
+    "netProfit" : 9.60
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 108.66,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 90.18,
+    "grossProfit" : 97.99,
+    "operatingProfitMargin" : 32.56,
+    "operatingProfit" : 35.38,
+    "netProfitMargin" : 4.83,
+    "netProfit" : 5.25
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 108.08,
+    "salesGrowthYoY" : 23.01,
+    "grossProfitMargin" : 90.80,
+    "grossProfit" : 98.14,
+    "operatingProfitMargin" : 27.52,
+    "operatingProfit" : 29.74,
+    "netProfitMargin" : 6.99,
+    "netProfit" : 7.55
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 108.08,
+    "salesGrowthYoY" : 23.01,
+    "grossProfitMargin" : 90.80,
+    "grossProfit" : 98.14,
+    "operatingProfitMargin" : 27.52,
+    "operatingProfit" : 29.74,
+    "netProfitMargin" : 6.99,
+    "netProfit" : 7.55
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.21,
+    "pricePercentageAboveDma100" : 0.00,
+    "pricePercentageAboveDma200" : 5.34,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 4.00,
+    "netProfitMarginPercentile" : 9.01,
+    "totalTechnicalScore" : 10.55,
+    "totalFundamentalScore" : 33.01,
+    "totalScore" : 43.56
+  }
 }

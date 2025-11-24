@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274794",
-    "company_code" : "MAZDOCK",
-    "company_name" : "Mazagon Dock",
-    "screener_company_link" : "https://www.screener.in/company/MAZDOCK",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274794/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274794/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274794",
+    "companyCode" : "MAZDOCK",
+    "companyName" : "Mazagon Dock",
+    "screenerCompanyLink" : "https://www.screener.in/company/MAZDOCK",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274794/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274794/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "MAZDOCK",
+      "companyName" : "Mazagon Dock",
+      "marketCap" : 108453.00,
+      "peRatio" : 48.70,
+      "description" : "Mazagon Dock Shipbuilders Limited (MDL), Mumbai, established in 1774, is a prominent shipyard in India. Initially a small dry dock, MDL has evolved into a renowned shipbuilding company. It has constructed 801 vessels since 1960, including warships, submarines, cargo/passenger ships, and offshore platforms. [1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.18,
+      "pricePercentageAboveDma100" : 5.27,
+      "pricePercentageAboveDma200" : 5.08,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 4.76,
+      "operatingProfitMarginPercentile" : 18.40,
+      "netProfitMarginPercentile" : 8.40,
+      "totalTechnicalScore" : 25.53,
+      "totalFundamentalScore" : 31.56,
+      "totalScore" : 57.09
+    }
   },
   "attributes" : {
-    "company_code" : "MAZDOCK",
-    "company_name" : "Mazagon Dock",
-    "market_cap" : 109069.00,
-    "pe_ratio" : 49.00,
+    "companyCode" : "MAZDOCK",
+    "companyName" : "Mazagon Dock",
+    "marketCap" : 108453.00,
+    "peRatio" : 48.70,
     "description" : "Mazagon Dock Shipbuilders Limited (MDL), Mumbai, established in 1774, is a prominent shipyard in India. Initially a small dry dock, MDL has evolved into a renowned shipbuilding company. It has constructed 801 vessels since 1960, including warships, submarines, cargo/passenger ships, and offshore platforms. [1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 2087.80,
     "dma50" : 2091.96,
@@ -1752,10 +1777,298 @@
     "volume" : 1050074.00
   }, {
     "date" : "2025-11-24",
-    "price" : 2708.90,
-    "dma50" : 2795.34,
-    "dma100" : 2849.82,
-    "dma200" : 2735.35,
-    "volume" : 354244.00
-  } ]
+    "price" : 2693.90,
+    "dma50" : 2794.75,
+    "dma100" : 2849.67,
+    "dma200" : 2735.20,
+    "volume" : 500294.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 2693.90,
+    "dma50" : 2794.75,
+    "dma100" : 2849.67,
+    "dma200" : 2735.20,
+    "volume" : 500294.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2019-09-30",
+    "sales" : 951.12,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 86.27,
+    "grossProfit" : 820.53,
+    "operatingProfitMargin" : 2.45,
+    "operatingProfit" : 23.30,
+    "netProfitMargin" : 8.74,
+    "netProfit" : 83.13
+  }, {
+    "date" : "2019-12-31",
+    "sales" : 1810.93,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 31.00,
+    "grossProfit" : 561.39,
+    "operatingProfitMargin" : 8.08,
+    "operatingProfit" : 146.32,
+    "netProfitMargin" : 10.44,
+    "netProfit" : 189.06
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 1043.25,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 58.90,
+    "grossProfit" : 614.47,
+    "operatingProfitMargin" : -2.62,
+    "operatingProfit" : -27.33,
+    "netProfitMargin" : 7.17,
+    "netProfit" : 74.80
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 383.94,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 82.65,
+    "grossProfit" : 317.33,
+    "operatingProfitMargin" : 4.20,
+    "operatingProfit" : 16.13,
+    "netProfitMargin" : 27.36,
+    "netProfit" : 105.05
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 1099.55,
+    "salesGrowthYoY" : 15.61,
+    "grossProfitMargin" : 61.22,
+    "grossProfit" : 673.14,
+    "operatingProfitMargin" : 6.60,
+    "operatingProfit" : 72.57,
+    "netProfitMargin" : 9.36,
+    "netProfit" : 102.92
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 1461.09,
+    "salesGrowthYoY" : -19.32,
+    "grossProfitMargin" : 47.30,
+    "grossProfit" : 691.10,
+    "operatingProfitMargin" : 6.31,
+    "operatingProfit" : 92.19,
+    "netProfitMargin" : 10.60,
+    "netProfit" : 154.88
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 1103.24,
+    "salesGrowthYoY" : 5.75,
+    "grossProfitMargin" : 42.88,
+    "grossProfit" : 473.07,
+    "operatingProfitMargin" : 3.89,
+    "operatingProfit" : 42.92,
+    "netProfitMargin" : 20.92,
+    "netProfit" : 230.80
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 1214.24,
+    "salesGrowthYoY" : 216.26,
+    "grossProfitMargin" : 50.27,
+    "grossProfit" : 610.40,
+    "operatingProfitMargin" : 5.79,
+    "operatingProfit" : 70.30,
+    "netProfitMargin" : 8.47,
+    "netProfit" : 102.85
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 1570.11,
+    "salesGrowthYoY" : 42.80,
+    "grossProfitMargin" : 39.20,
+    "grossProfit" : 615.48,
+    "operatingProfitMargin" : 5.42,
+    "operatingProfit" : 85.10,
+    "netProfitMargin" : 8.34,
+    "netProfit" : 130.95
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 1552.50,
+    "salesGrowthYoY" : 6.26,
+    "grossProfitMargin" : 52.68,
+    "grossProfit" : 817.86,
+    "operatingProfitMargin" : 13.01,
+    "operatingProfit" : 201.98,
+    "netProfitMargin" : 14.03,
+    "netProfit" : 217.82
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 1396.43,
+    "salesGrowthYoY" : 26.58,
+    "grossProfitMargin" : 70.30,
+    "grossProfit" : 981.69,
+    "operatingProfitMargin" : 5.54,
+    "operatingProfit" : 77.36,
+    "netProfitMargin" : 10.38,
+    "netProfit" : 144.95
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 2230.32,
+    "salesGrowthYoY" : 83.68,
+    "grossProfitMargin" : 40.01,
+    "grossProfit" : 892.35,
+    "operatingProfitMargin" : 7.79,
+    "operatingProfit" : 173.74,
+    "netProfitMargin" : 9.73,
+    "netProfit" : 217.01
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 1702.36,
+    "salesGrowthYoY" : 8.42,
+    "grossProfitMargin" : 42.20,
+    "grossProfit" : 718.40,
+    "operatingProfitMargin" : 6.92,
+    "operatingProfit" : 117.80,
+    "netProfitMargin" : 11.77,
+    "netProfit" : 200.37
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 1815.91,
+    "salesGrowthYoY" : 16.97,
+    "grossProfitMargin" : 58.25,
+    "grossProfit" : 1057.77,
+    "operatingProfitMargin" : 16.29,
+    "operatingProfit" : 295.81,
+    "netProfitMargin" : 18.57,
+    "netProfit" : 337.21
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 2078.59,
+    "salesGrowthYoY" : 48.85,
+    "grossProfitMargin" : 33.51,
+    "grossProfit" : 696.54,
+    "operatingProfitMargin" : 10.13,
+    "operatingProfit" : 210.56,
+    "netProfitMargin" : 15.30,
+    "netProfit" : 318.02
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 2172.76,
+    "salesGrowthYoY" : -2.58,
+    "grossProfitMargin" : 33.81,
+    "grossProfit" : 734.61,
+    "operatingProfitMargin" : 7.90,
+    "operatingProfit" : 171.65,
+    "netProfitMargin" : 13.19,
+    "netProfit" : 286.59
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 1827.70,
+    "salesGrowthYoY" : 7.36,
+    "grossProfitMargin" : 48.69,
+    "grossProfit" : 889.91,
+    "operatingProfitMargin" : 9.66,
+    "operatingProfit" : 176.56,
+    "netProfitMargin" : 17.12,
+    "netProfit" : 312.90
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 2362.47,
+    "salesGrowthYoY" : 30.10,
+    "grossProfitMargin" : 58.02,
+    "grossProfit" : 1370.71,
+    "operatingProfitMargin" : 22.82,
+    "operatingProfit" : 539.12,
+    "netProfitMargin" : 25.04,
+    "netProfit" : 591.56
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 3103.65,
+    "salesGrowthYoY" : 49.32,
+    "grossProfitMargin" : 44.20,
+    "grossProfit" : 1371.81,
+    "operatingProfitMargin" : 16.89,
+    "operatingProfit" : 524.21,
+    "netProfitMargin" : 21.08,
+    "netProfit" : 654.25
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 2357.02,
+    "salesGrowthYoY" : 8.48,
+    "grossProfitMargin" : 52.87,
+    "grossProfit" : 1246.16,
+    "operatingProfitMargin" : 27.25,
+    "operatingProfit" : 642.29,
+    "netProfitMargin" : 28.25,
+    "netProfit" : 665.86
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 2756.83,
+    "salesGrowthYoY" : 50.84,
+    "grossProfitMargin" : 37.90,
+    "grossProfit" : 1044.84,
+    "operatingProfitMargin" : 18.52,
+    "operatingProfit" : 510.56,
+    "netProfitMargin" : 20.45,
+    "netProfit" : 563.77
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 3143.62,
+    "salesGrowthYoY" : 33.06,
+    "grossProfitMargin" : 68.88,
+    "grossProfit" : 2165.33,
+    "operatingProfitMargin" : 25.99,
+    "operatingProfit" : 817.03,
+    "netProfitMargin" : 24.44,
+    "netProfit" : 768.30
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 3174.41,
+    "salesGrowthYoY" : 2.28,
+    "grossProfitMargin" : 65.72,
+    "grossProfit" : 2086.22,
+    "operatingProfitMargin" : 2.84,
+    "operatingProfit" : 90.15,
+    "netProfitMargin" : 10.30,
+    "netProfit" : 326.96
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 2625.59,
+    "salesGrowthYoY" : 11.39,
+    "grossProfitMargin" : 58.03,
+    "grossProfit" : 1523.63,
+    "operatingProfitMargin" : 11.49,
+    "operatingProfit" : 301.68,
+    "netProfitMargin" : 15.97,
+    "netProfit" : 419.31
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 2929.24,
+    "salesGrowthYoY" : 6.25,
+    "grossProfitMargin" : 41.74,
+    "grossProfit" : 1222.66,
+    "operatingProfitMargin" : 23.71,
+    "operatingProfit" : 694.52,
+    "netProfitMargin" : 24.42,
+    "netProfit" : 715.32
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 2929.24,
+    "salesGrowthYoY" : 6.25,
+    "grossProfitMargin" : 41.74,
+    "grossProfit" : 1222.66,
+    "operatingProfitMargin" : 23.71,
+    "operatingProfit" : 694.52,
+    "netProfitMargin" : 24.42,
+    "netProfit" : 715.32
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.18,
+    "pricePercentageAboveDma100" : 5.27,
+    "pricePercentageAboveDma200" : 5.08,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 4.76,
+    "operatingProfitMarginPercentile" : 18.40,
+    "netProfitMarginPercentile" : 8.40,
+    "totalTechnicalScore" : 25.53,
+    "totalFundamentalScore" : 31.56,
+    "totalScore" : 57.09
+  }
 }

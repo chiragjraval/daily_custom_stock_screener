@@ -2,7 +2,7 @@ import React, { useEffect, useState, useMemo } from "react";
 
 function SummaryGrid() {
   const [data, setData] = useState([]);
-  const [sortConfig, setSortConfig] = useState({ key: null, direction: "asc" });
+  const [sortConfig, setSortConfig] = useState({ key: "totalScore", direction: "desc" });
 
   useEffect(() => {
     fetch(import.meta.env.BASE_URL + "/screener-data/prod/summary.json")

@@ -17,7 +17,7 @@ public class CompanyNumericAttributeExtractor implements BiFunction<Document, St
     public OptionalDouble apply(Document document, String attributeName) {
         String rawValue = extractFieldValue(document, attributeName);
         String cleanedValue = cleanValue(rawValue != null ? rawValue : "");
-        return !cleanedValue.isEmpty() ? OptionalDouble.of(Double.parseDouble(cleanedValue)) : OptionalDouble.empty();
+        return !cleanedValue.isEmpty() ? OptionalDouble.of(Double.parseDouble(cleanedValue)) : OptionalDouble.of(0.0);
     }
 
     /**

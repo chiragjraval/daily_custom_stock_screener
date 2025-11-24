@@ -20,7 +20,6 @@ function SummaryGrid() {
             <th>ID</th>
             <th>Code</th>
             <th>Name</th>
-            <th>Name</th>
             <th>Company Link</th>
             <th>Technical History Link</th>
             <th>Quarterly Results Link</th>

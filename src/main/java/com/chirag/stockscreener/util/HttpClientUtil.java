@@ -36,20 +36,11 @@ public class HttpClientUtil {
     }
 
     /**
-     * Fetch response content from a URL with retry logic
-     * @param url The URL to fetch
-     * @return content as string, or null if fetch fails after retries
-     */
-    public String fetch(String url) {
-        return fetchHtml(url);
-    }
-
-    /**
      * Fetch HTML content from a URL with retry logic
      * @param url The URL to fetch
      * @return HTML content as string, or null if fetch fails after retries
      */
-    public String fetchHtml(String url) {
+    public String fetch(String url) {
         int retries = 0;
         long backoff = this.initialBackoffMillis;
 

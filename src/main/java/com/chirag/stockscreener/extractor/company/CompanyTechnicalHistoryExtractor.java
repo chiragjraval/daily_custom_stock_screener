@@ -4,7 +4,6 @@ import com.chirag.stockscreener.model.CompanyMetadata;
 import com.chirag.stockscreener.model.CompanyTechnicalHistory;
 import com.chirag.stockscreener.util.HttpClientUtil;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.json.JsonMapper;
@@ -33,7 +32,7 @@ public class CompanyTechnicalHistoryExtractor implements Function<CompanyMetadat
         try {
             // Fetch technical history with link from metadata.screenerTechnicalHistoryLink attribute
             // it returns JSON for which sample is available in resources/sample-data/ScreenerTechnicalHistoryApi.json
-            String json = httpClientUtil.fetchHtml(companyMetadata.getScreenerTechnicalHistoryLink());
+            String json = httpClientUtil.fetch(companyMetadata.getScreenerTechnicalHistoryLink());
             if (json == null) {
                 logger.error("Failed to fetch technical history for company: {}", companyMetadata.getCompanyCode());
                 return results;
@@ -43,7 +42,7 @@ public class CompanyTechnicalHistoryExtractor implements Function<CompanyMetadat
             ObjectMapper mapper = new JsonMapper();
             JsonNode root = mapper.readTree(json);
 
-            // Transform JSON data into CompanyTechnicalHistory objects
+            // Transform JSON data into metric map
             Map<LocalDate, Map<String, Double>> datasets = new TreeMap<>();
             root.get("datasets").forEach(dataset -> {
                 String metric = dataset.get("metric").asText().toLowerCase();

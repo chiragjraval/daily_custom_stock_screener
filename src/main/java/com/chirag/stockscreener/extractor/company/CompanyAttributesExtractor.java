@@ -32,7 +32,7 @@ public class CompanyAttributesExtractor implements Function<CompanyMetadata, Com
 
         try {
             // Fetch company detail page HTML
-            String html = httpClientUtil.fetchHtml(metadata.getScreenerCompanyLink());
+            String html = httpClientUtil.fetch(metadata.getScreenerCompanyLink());
             if (html == null) {
                 logger.error("Failed to fetch company detail page: {}", metadata.getScreenerCompanyLink());
                 return attributes;

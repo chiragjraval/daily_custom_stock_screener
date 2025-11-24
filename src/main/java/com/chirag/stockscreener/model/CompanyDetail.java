@@ -17,14 +17,18 @@ public class CompanyDetail {
     @JsonProperty("technical_history")
     private List<CompanyTechnicalHistory> technicalHistory;
 
+    @JsonProperty("quarterly_results")
+    private List<CompanyQuarterlyResult> quarterlyResults;
+
     // Constructors
     public CompanyDetail() {
     }
 
-    public CompanyDetail(CompanyMetadata metadata, CompanyAttributes attributes, List<CompanyTechnicalHistory> technicalHistory) {
+    public CompanyDetail(CompanyMetadata metadata, CompanyAttributes attributes, List<CompanyTechnicalHistory> technicalHistory, List<CompanyQuarterlyResult> quarterlyResults) {
         this.metadata = metadata;
         this.attributes = attributes;
         this.technicalHistory = technicalHistory;
+        this.quarterlyResults = quarterlyResults;
     }
 
     // Getters and Setters
@@ -48,9 +52,11 @@ public class CompanyDetail {
         return technicalHistory;
     }
 
-    public void setTechnicalHistory(List<CompanyTechnicalHistory> technicalHistory) {
-        this.technicalHistory = technicalHistory;
-    }
+    public void setTechnicalHistory(List<CompanyTechnicalHistory> technicalHistory) { this.technicalHistory = technicalHistory; }
+
+    public List<CompanyQuarterlyResult> getQuarterlyResults() { return quarterlyResults; }
+
+    public void setQuarterlyResults(List<CompanyQuarterlyResult> quarterlyResults) { this.quarterlyResults = quarterlyResults; }
 
     @Override
     public String toString() {

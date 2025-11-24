@@ -105,13 +105,16 @@ public class CompanyScoreExtractor implements Function<CompanyDetail, CompanySco
         }
 
         // Percentile against all quarterly results
-        long countLowerValueQuarters = allValues.stream().filter(value -> value != null && value < latestValue).count();
+        long countLowerValueQuarters = allValues.stream().filter(value -> value != null && value <= latestValue).count();
         double percentileByCount = ((double) countLowerValueQuarters / allValues.size()) * 100;
 
         // Percentage against min & max of all quarterly results
         double min = allValues.stream().mapToDouble(Double::doubleValue).min().orElse(0.0);
         double max = allValues.stream().mapToDouble(Double::doubleValue).max().orElse(0.0);
-        double percentageByRange =  ((latestValue - min) / (max - min)) * 100;
+        double percentageByRange = 0;
+        if (min != max) {
+            percentageByRange = ((latestValue - min) / (max - min)) * 100;
+        }
 
         // Take the higher of both percentiles
         double percentile = Math.max(percentileByCount, percentageByRange);

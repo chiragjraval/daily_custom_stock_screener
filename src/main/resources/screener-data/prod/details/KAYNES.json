@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1275358",
-    "company_code" : "KAYNES",
-    "company_name" : "Kaynes Tech",
-    "screener_company_link" : "https://www.screener.in/company/KAYNES",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1275358/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1275358/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1275358",
+    "companyCode" : "KAYNES",
+    "companyName" : "Kaynes Tech",
+    "screenerCompanyLink" : "https://www.screener.in/company/KAYNES",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1275358/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1275358/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "KAYNES",
+      "companyName" : "Kaynes Tech",
+      "marketCap" : 39143.00,
+      "peRatio" : 182.00,
+      "description" : "Incorporated in 2008, Kaynes Technology is a leading end-to-end and IoT solutions-enabled integrated electronics manufacturing company. The company provides conceptual design, process engineering, integrated manufacturing, and life-cycle support for major players in the automotive, industrial, aerospace and defense, outer-space, nuclear, medical, railways, Internet of Things (\"IoT\"), Information Technology (\"IT\") and other segments.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.55,
+      "pricePercentageAboveDma100" : 5.52,
+      "pricePercentageAboveDma200" : 5.21,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 3.33,
+      "operatingProfitMarginPercentile" : 7.91,
+      "netProfitMarginPercentile" : 8.99,
+      "totalTechnicalScore" : 36.27,
+      "totalFundamentalScore" : 20.23,
+      "totalScore" : 56.49
+    }
   },
   "attributes" : {
-    "company_code" : "KAYNES",
-    "company_name" : "Kaynes Tech",
-    "market_cap" : 39328.00,
-    "pe_ratio" : 182.00,
+    "companyCode" : "KAYNES",
+    "companyName" : "Kaynes Tech",
+    "marketCap" : 39143.00,
+    "peRatio" : 182.00,
     "description" : "Incorporated in 2008, Kaynes Technology is a leading end-to-end and IoT solutions-enabled integrated electronics manufacturing company. The company provides conceptual design, process engineering, integrated manufacturing, and life-cycle support for major players in the automotive, industrial, aerospace and defense, outer-space, nuclear, medical, railways, Internet of Things (\"IoT\"), Information Technology (\"IT\") and other segments.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 5895.85,
     "dma50" : 5409.38,
@@ -1752,10 +1777,208 @@
     "volume" : 528569.00
   }, {
     "date" : "2025-11-24",
-    "price" : 5870.50,
-    "dma50" : 6543.66,
-    "dma100" : 6495.33,
-    "dma200" : 6074.70,
-    "volume" : 239976.00
-  } ]
+    "price" : 5825.00,
+    "dma50" : 6541.88,
+    "dma100" : 6494.88,
+    "dma200" : 6074.25,
+    "volume" : 379493.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 5825.00,
+    "dma50" : 6541.88,
+    "dma100" : 6494.88,
+    "dma200" : 6074.25,
+    "volume" : 379493.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2021-12-31",
+    "sales" : 166.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 28.63,
+    "grossProfit" : 47.53,
+    "operatingProfitMargin" : 11.60,
+    "operatingProfit" : 19.26,
+    "netProfitMargin" : 4.69,
+    "netProfit" : 7.79
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 228.18,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 30.86,
+    "grossProfit" : 70.42,
+    "operatingProfitMargin" : 16.29,
+    "operatingProfit" : 37.17,
+    "netProfitMargin" : 8.01,
+    "netProfit" : 18.28
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 191.67,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 29.51,
+    "grossProfit" : 56.56,
+    "operatingProfitMargin" : 13.87,
+    "operatingProfit" : 26.58,
+    "netProfitMargin" : 6.28,
+    "netProfit" : 12.04
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 262.63,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 29.00,
+    "grossProfit" : 76.16,
+    "operatingProfitMargin" : 15.49,
+    "operatingProfit" : 40.68,
+    "netProfitMargin" : 7.23,
+    "netProfit" : 18.99
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 276.00,
+    "salesGrowthYoY" : 66.27,
+    "grossProfitMargin" : 28.59,
+    "grossProfit" : 78.91,
+    "operatingProfitMargin" : 13.67,
+    "operatingProfit" : 37.73,
+    "netProfitMargin" : 7.50,
+    "netProfit" : 20.70
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 356.26,
+    "salesGrowthYoY" : 56.13,
+    "grossProfitMargin" : 32.25,
+    "grossProfit" : 114.89,
+    "operatingProfitMargin" : 15.49,
+    "operatingProfit" : 55.18,
+    "netProfitMargin" : 10.84,
+    "netProfit" : 38.62
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 290.59,
+    "salesGrowthYoY" : 51.61,
+    "grossProfitMargin" : 29.72,
+    "grossProfit" : 86.36,
+    "operatingProfitMargin" : 13.56,
+    "operatingProfit" : 39.40,
+    "netProfitMargin" : 8.67,
+    "netProfit" : 25.19
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 291.55,
+    "salesGrowthYoY" : 11.01,
+    "grossProfitMargin" : 29.83,
+    "grossProfit" : 86.97,
+    "operatingProfitMargin" : 13.21,
+    "operatingProfit" : 38.51,
+    "netProfitMargin" : 8.72,
+    "netProfit" : 25.42
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 317.17,
+    "salesGrowthYoY" : 14.92,
+    "grossProfitMargin" : 27.99,
+    "grossProfit" : 88.78,
+    "operatingProfitMargin" : 13.14,
+    "operatingProfit" : 41.68,
+    "netProfitMargin" : 8.13,
+    "netProfit" : 25.79
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 374.63,
+    "salesGrowthYoY" : 5.16,
+    "grossProfitMargin" : 26.76,
+    "grossProfit" : 100.25,
+    "operatingProfitMargin" : 13.82,
+    "operatingProfit" : 51.77,
+    "netProfitMargin" : 13.27,
+    "netProfit" : 49.71
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 350.16,
+    "salesGrowthYoY" : 20.50,
+    "grossProfitMargin" : 29.01,
+    "grossProfit" : 101.58,
+    "operatingProfitMargin" : 13.80,
+    "operatingProfit" : 48.32,
+    "netProfitMargin" : 13.85,
+    "netProfit" : 48.50
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 432.84,
+    "salesGrowthYoY" : 48.46,
+    "grossProfitMargin" : 30.63,
+    "grossProfit" : 132.58,
+    "operatingProfitMargin" : 16.86,
+    "operatingProfit" : 72.98,
+    "netProfitMargin" : 14.46,
+    "netProfit" : 62.59
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 395.90,
+    "salesGrowthYoY" : 24.82,
+    "grossProfitMargin" : 28.61,
+    "grossProfit" : 113.27,
+    "operatingProfitMargin" : 12.27,
+    "operatingProfit" : 48.58,
+    "netProfitMargin" : 9.61,
+    "netProfit" : 38.05
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 736.55,
+    "salesGrowthYoY" : 96.61,
+    "grossProfitMargin" : 23.18,
+    "grossProfit" : 170.73,
+    "operatingProfitMargin" : 11.37,
+    "operatingProfit" : 83.75,
+    "netProfitMargin" : 8.20,
+    "netProfit" : 60.40
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 450.82,
+    "salesGrowthYoY" : 28.75,
+    "grossProfitMargin" : 28.18,
+    "grossProfit" : 127.04,
+    "operatingProfitMargin" : 14.52,
+    "operatingProfit" : 65.46,
+    "netProfitMargin" : 12.04,
+    "netProfit" : 54.28
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 467.13,
+    "salesGrowthYoY" : 7.92,
+    "grossProfitMargin" : 25.25,
+    "grossProfit" : 117.95,
+    "operatingProfitMargin" : 13.54,
+    "operatingProfit" : 63.25,
+    "netProfitMargin" : 13.47,
+    "netProfit" : 62.92
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 467.13,
+    "salesGrowthYoY" : 7.92,
+    "grossProfitMargin" : 25.25,
+    "grossProfit" : 117.95,
+    "operatingProfitMargin" : 13.54,
+    "operatingProfit" : 63.25,
+    "netProfitMargin" : 13.47,
+    "netProfit" : 62.92
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.55,
+    "pricePercentageAboveDma100" : 5.52,
+    "pricePercentageAboveDma200" : 5.21,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 3.33,
+    "operatingProfitMarginPercentile" : 7.91,
+    "netProfitMarginPercentile" : 8.99,
+    "totalTechnicalScore" : 36.27,
+    "totalFundamentalScore" : 20.23,
+    "totalScore" : 56.49
+  }
 }

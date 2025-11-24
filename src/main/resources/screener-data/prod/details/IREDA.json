@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284567",
-    "company_code" : "IREDA",
-    "company_name" : "Indian Renewable",
-    "screener_company_link" : "https://www.screener.in/company/IREDA",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284567/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284567/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284567",
+    "companyCode" : "IREDA",
+    "companyName" : "Indian Renewable",
+    "screenerCompanyLink" : "https://www.screener.in/company/IREDA",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284567/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284567/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "IREDA",
+      "companyName" : "Indian Renewable",
+      "marketCap" : 40001.00,
+      "peRatio" : 23.20,
+      "description" : "Indian Renewable Energy Development Agency Ltd was incorporated as a fully owned Govt. of India enterprise under the administrative control of the MNRE. Furthermore, the company was notified as a public financial institution and is also registered as a non-deposit taking NBFC with the RBI. The company was established for the promotion, development and commercialisation of new and renewable sources of energy and provides financial assistance to energy efficiency and conservation projects. The Ministry of New and Renewable Energy, Government of India has given IREDA the 'Navaratna Status. RBI classified company as “Infrastructure Finance Company”.[1][2]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.25,
+      "pricePercentageAboveDma100" : 5.29,
+      "pricePercentageAboveDma200" : 5.57,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 2.50,
+      "operatingProfitMarginPercentile" : 13.33,
+      "netProfitMarginPercentile" : 9.94,
+      "totalTechnicalScore" : 16.11,
+      "totalFundamentalScore" : 25.77,
+      "totalScore" : 41.88
+    }
   },
   "attributes" : {
-    "company_code" : "IREDA",
-    "company_name" : "Indian Renewable",
-    "market_cap" : 40352.00,
-    "pe_ratio" : 23.40,
+    "companyCode" : "IREDA",
+    "companyName" : "Indian Renewable",
+    "marketCap" : 40001.00,
+    "peRatio" : 23.20,
     "description" : "Indian Renewable Energy Development Agency Ltd was incorporated as a fully owned Govt. of India enterprise under the administrative control of the MNRE. Furthermore, the company was notified as a public financial institution and is also registered as a non-deposit taking NBFC with the RBI. The company was established for the promotion, development and commercialisation of new and renewable sources of energy and provides financial assistance to energy efficiency and conservation projects. The Ministry of New and Renewable Energy, Government of India has given IREDA the 'Navaratna Status. RBI classified company as “Infrastructure Finance Company”.[1][2]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 189.97,
     "dma50" : 209.42,
@@ -1752,10 +1777,168 @@
     "volume" : 4730570.00
   }, {
     "date" : "2025-11-24",
-    "price" : 144.01,
-    "dma50" : 150.47,
-    "dma100" : 151.61,
-    "dma200" : 161.27,
-    "volume" : 1877255.00
-  } ]
+    "price" : 142.88,
+    "dma50" : 150.42,
+    "dma100" : 151.60,
+    "dma200" : 161.25,
+    "volume" : 3180611.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 142.88,
+    "dma50" : 150.42,
+    "dma100" : 151.60,
+    "dma200" : 161.25,
+    "volume" : 3180611.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2022-12-31",
+    "sales" : 868.67,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 868.67,
+    "operatingProfitMargin" : 87.95,
+    "operatingProfit" : 764.00,
+    "netProfitMargin" : 23.11,
+    "netProfit" : 200.75
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 1036.04,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1036.04,
+    "operatingProfitMargin" : 89.93,
+    "operatingProfit" : 931.71,
+    "netProfitMargin" : 24.48,
+    "netProfit" : 253.62
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 1143.21,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1143.21,
+    "operatingProfitMargin" : 105.74,
+    "operatingProfit" : 1208.83,
+    "netProfitMargin" : 25.77,
+    "netProfit" : 294.61
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 1176.62,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1176.62,
+    "operatingProfitMargin" : 100.27,
+    "operatingProfit" : 1179.80,
+    "netProfitMargin" : 24.20,
+    "netProfit" : 284.74
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 1252.85,
+    "salesGrowthYoY" : 44.23,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1252.85,
+    "operatingProfitMargin" : 92.11,
+    "operatingProfit" : 1154.00,
+    "netProfitMargin" : 26.78,
+    "netProfit" : 335.51
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 1391.25,
+    "salesGrowthYoY" : 34.29,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1391.25,
+    "operatingProfitMargin" : 96.00,
+    "operatingProfit" : 1335.60,
+    "netProfitMargin" : 24.25,
+    "netProfit" : 337.38
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 1510.27,
+    "salesGrowthYoY" : 32.11,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1510.27,
+    "operatingProfitMargin" : 96.60,
+    "operatingProfit" : 1458.92,
+    "netProfitMargin" : 25.41,
+    "netProfit" : 383.76
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 1629.55,
+    "salesGrowthYoY" : 38.49,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1629.55,
+    "operatingProfitMargin" : 91.97,
+    "operatingProfit" : 1498.70,
+    "netProfitMargin" : 23.79,
+    "netProfit" : 387.67
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 1698.45,
+    "salesGrowthYoY" : 35.57,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1698.45,
+    "operatingProfitMargin" : 93.02,
+    "operatingProfit" : 1579.90,
+    "netProfitMargin" : 25.05,
+    "netProfit" : 425.46
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 1904.15,
+    "salesGrowthYoY" : 36.87,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1904.15,
+    "operatingProfitMargin" : 91.06,
+    "operatingProfit" : 1733.92,
+    "netProfitMargin" : 26.35,
+    "netProfit" : 501.74
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 1947.29,
+    "salesGrowthYoY" : 28.94,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1947.29,
+    "operatingProfitMargin" : 78.09,
+    "operatingProfit" : 1520.64,
+    "netProfitMargin" : 12.67,
+    "netProfit" : 246.72
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 2056.88,
+    "salesGrowthYoY" : 26.22,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2056.88,
+    "operatingProfitMargin" : 93.29,
+    "operatingProfit" : 1918.86,
+    "netProfitMargin" : 26.69,
+    "netProfit" : 548.98
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 2056.88,
+    "salesGrowthYoY" : 26.22,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2056.88,
+    "operatingProfitMargin" : 93.29,
+    "operatingProfit" : 1918.86,
+    "netProfitMargin" : 26.69,
+    "netProfit" : 548.98
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.25,
+    "pricePercentageAboveDma100" : 5.29,
+    "pricePercentageAboveDma200" : 5.57,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 2.50,
+    "operatingProfitMarginPercentile" : 13.33,
+    "netProfitMarginPercentile" : 9.94,
+    "totalTechnicalScore" : 16.11,
+    "totalFundamentalScore" : 25.77,
+    "totalScore" : 41.88
+  }
 }

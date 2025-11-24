@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1275120",
-    "company_code" : "SHRIRAMPPS",
-    "company_name" : "Shriram Properti",
-    "screener_company_link" : "https://www.screener.in/company/SHRIRAMPPS",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1275120/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1275120/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1275120",
+    "companyCode" : "SHRIRAMPPS",
+    "companyName" : "Shriram Properti",
+    "screenerCompanyLink" : "https://www.screener.in/company/SHRIRAMPPS",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1275120/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1275120/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "SHRIRAMPPS",
+      "companyName" : "Shriram Properti",
+      "marketCap" : 1499.00,
+      "peRatio" : null,
+      "description" : "Shriram Properties is a part of Shriram Group. They are one of the leading residential real estate development companies in South India primarily focused on the mid-market and affordable housing categories. They are also present in plotted development, mid-market premium, luxury housing as well as commercial & office space categories in our core markets. They commenced operations in Bengaluru in the year 2000 and have since expanded their presence to other cities in South India, i.e., Chennai, Coimbatore and Visakhapatnam. In addition, they also have presence in Kolkata in East India, where they are developing a large mixed-use project. [1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.22,
+      "pricePercentageAboveDma100" : 5.27,
+      "pricePercentageAboveDma200" : 5.28,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 17.84,
+      "netProfitMarginPercentile" : 6.46,
+      "totalTechnicalScore" : 15.76,
+      "totalFundamentalScore" : 44.31,
+      "totalScore" : 60.07
+    }
   },
   "attributes" : {
-    "company_code" : "SHRIRAMPPS",
-    "company_name" : "Shriram Properti",
-    "market_cap" : 1501.00,
-    "pe_ratio" : null,
+    "companyCode" : "SHRIRAMPPS",
+    "companyName" : "Shriram Properti",
+    "marketCap" : 1499.00,
+    "peRatio" : null,
     "description" : "Shriram Properties is a part of Shriram Group. They are one of the leading residential real estate development companies in South India primarily focused on the mid-market and affordable housing categories. They are also present in plotted development, mid-market premium, luxury housing as well as commercial & office space categories in our core markets. They commenced operations in Bengaluru in the year 2000 and have since expanded their presence to other cities in South India, i.e., Chennai, Coimbatore and Visakhapatnam. In addition, they also have presence in Kolkata in East India, where they are developing a large mixed-use project. [1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 99.84,
     "dma50" : 111.57,
@@ -1752,10 +1777,248 @@
     "volume" : 422709.00
   }, {
     "date" : "2025-11-24",
-    "price" : 87.98,
-    "dma50" : 91.17,
-    "dma100" : 92.15,
+    "price" : 87.20,
+    "dma50" : 91.14,
+    "dma100" : 92.14,
     "dma200" : 92.31,
-    "volume" : 117061.00
-  } ]
+    "volume" : 320636.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 87.20,
+    "dma50" : 91.14,
+    "dma100" : 92.14,
+    "dma200" : 92.31,
+    "volume" : 320636.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2020-12-31",
+    "sales" : 43.06,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 66.05,
+    "grossProfit" : 28.44,
+    "operatingProfitMargin" : -22.85,
+    "operatingProfit" : -9.84,
+    "netProfitMargin" : 28.87,
+    "netProfit" : 12.43
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 58.03,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 77.08,
+    "grossProfit" : 44.73,
+    "operatingProfitMargin" : -55.37,
+    "operatingProfit" : -32.13,
+    "netProfitMargin" : 2.41,
+    "netProfit" : 1.40
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 17.14,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 60.21,
+    "grossProfit" : 10.32,
+    "operatingProfitMargin" : -90.78,
+    "operatingProfit" : -15.56,
+    "netProfitMargin" : -9.22,
+    "netProfit" : -1.58
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 35.53,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 80.61,
+    "grossProfit" : 28.64,
+    "operatingProfitMargin" : -14.92,
+    "operatingProfit" : -5.30,
+    "netProfitMargin" : 48.35,
+    "netProfit" : 17.18
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 52.28,
+    "salesGrowthYoY" : 21.41,
+    "grossProfitMargin" : 87.30,
+    "grossProfit" : 45.64,
+    "operatingProfitMargin" : -32.12,
+    "operatingProfit" : -16.79,
+    "netProfitMargin" : -6.12,
+    "netProfit" : -3.20
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 101.91,
+    "salesGrowthYoY" : 75.62,
+    "grossProfitMargin" : 93.61,
+    "grossProfit" : 95.40,
+    "operatingProfitMargin" : -95.52,
+    "operatingProfit" : -97.34,
+    "netProfitMargin" : -51.48,
+    "netProfit" : -52.46
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 28.35,
+    "salesGrowthYoY" : 65.40,
+    "grossProfitMargin" : 176.93,
+    "grossProfit" : 50.16,
+    "operatingProfitMargin" : -39.15,
+    "operatingProfit" : -11.10,
+    "netProfitMargin" : 25.96,
+    "netProfit" : 7.36
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 34.66,
+    "salesGrowthYoY" : -2.45,
+    "grossProfitMargin" : 107.99,
+    "grossProfit" : 37.43,
+    "operatingProfitMargin" : -43.51,
+    "operatingProfit" : -15.08,
+    "netProfitMargin" : 2.25,
+    "netProfit" : 0.78
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 30.22,
+    "salesGrowthYoY" : -42.20,
+    "grossProfitMargin" : 121.61,
+    "grossProfit" : 36.75,
+    "operatingProfitMargin" : -23.59,
+    "operatingProfit" : -7.13,
+    "netProfitMargin" : 114.23,
+    "netProfit" : 34.52
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 41.65,
+    "salesGrowthYoY" : -59.13,
+    "grossProfitMargin" : 71.21,
+    "grossProfit" : 29.66,
+    "operatingProfitMargin" : -64.42,
+    "operatingProfit" : -26.83,
+    "netProfitMargin" : 18.42,
+    "netProfit" : 7.67
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 30.59,
+    "salesGrowthYoY" : 7.90,
+    "grossProfitMargin" : 82.97,
+    "grossProfit" : 25.38,
+    "operatingProfitMargin" : -15.00,
+    "operatingProfit" : -4.59,
+    "netProfitMargin" : 11.25,
+    "netProfit" : 3.44
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 46.69,
+    "salesGrowthYoY" : 34.71,
+    "grossProfitMargin" : 97.15,
+    "grossProfit" : 45.36,
+    "operatingProfitMargin" : 16.21,
+    "operatingProfit" : 7.57,
+    "netProfitMargin" : 28.16,
+    "netProfit" : 13.15
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 23.97,
+    "salesGrowthYoY" : -20.68,
+    "grossProfitMargin" : 101.17,
+    "grossProfit" : 24.25,
+    "operatingProfitMargin" : -46.35,
+    "operatingProfit" : -11.11,
+    "netProfitMargin" : 95.79,
+    "netProfit" : 22.96
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 31.09,
+    "salesGrowthYoY" : -25.35,
+    "grossProfitMargin" : 78.32,
+    "grossProfit" : 24.35,
+    "operatingProfitMargin" : -21.00,
+    "operatingProfit" : -6.53,
+    "netProfitMargin" : 182.63,
+    "netProfit" : 56.78
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 7.23,
+    "salesGrowthYoY" : -76.36,
+    "grossProfitMargin" : 448.96,
+    "grossProfit" : 32.46,
+    "operatingProfitMargin" : -497.23,
+    "operatingProfit" : -35.95,
+    "netProfitMargin" : -334.85,
+    "netProfit" : -24.21
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 16.74,
+    "salesGrowthYoY" : -64.15,
+    "grossProfitMargin" : 87.10,
+    "grossProfit" : 14.58,
+    "operatingProfitMargin" : -85.78,
+    "operatingProfit" : -14.36,
+    "netProfitMargin" : 11.05,
+    "netProfit" : 1.85
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 12.11,
+    "salesGrowthYoY" : -49.48,
+    "grossProfitMargin" : 62.01,
+    "grossProfit" : 7.51,
+    "operatingProfitMargin" : -469.03,
+    "operatingProfit" : -56.80,
+    "netProfitMargin" : -373.99,
+    "netProfit" : -45.29
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 27.63,
+    "salesGrowthYoY" : -11.13,
+    "grossProfitMargin" : 228.41,
+    "grossProfit" : 63.11,
+    "operatingProfitMargin" : -38.94,
+    "operatingProfit" : -10.76,
+    "netProfitMargin" : 35.87,
+    "netProfit" : 9.91
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 26.45,
+    "salesGrowthYoY" : 265.84,
+    "grossProfitMargin" : 547.37,
+    "grossProfit" : 144.78,
+    "operatingProfitMargin" : -84.80,
+    "operatingProfit" : -22.43,
+    "netProfitMargin" : -33.84,
+    "netProfit" : -8.95
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 65.35,
+    "salesGrowthYoY" : 290.38,
+    "grossProfitMargin" : 40.86,
+    "grossProfit" : 26.70,
+    "operatingProfitMargin" : -39.20,
+    "operatingProfit" : -25.62,
+    "netProfitMargin" : -14.17,
+    "netProfit" : -9.26
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 65.35,
+    "salesGrowthYoY" : 290.38,
+    "grossProfitMargin" : 40.86,
+    "grossProfit" : 26.70,
+    "operatingProfitMargin" : -39.20,
+    "operatingProfit" : -25.62,
+    "netProfitMargin" : -14.17,
+    "netProfit" : -9.26
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.22,
+    "pricePercentageAboveDma100" : 5.27,
+    "pricePercentageAboveDma200" : 5.28,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 17.84,
+    "netProfitMarginPercentile" : 6.46,
+    "totalTechnicalScore" : 15.76,
+    "totalFundamentalScore" : 44.31,
+    "totalScore" : 60.07
+  }
 }

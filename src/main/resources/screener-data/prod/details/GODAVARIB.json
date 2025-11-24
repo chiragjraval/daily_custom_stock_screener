@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285137",
-    "company_code" : "GODAVARIB",
-    "company_name" : "Godavari Bioref.",
-    "screener_company_link" : "https://www.screener.in/company/GODAVARIB",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285137/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285137/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285137",
+    "companyCode" : "GODAVARIB",
+    "companyName" : "Godavari Bioref.",
+    "screenerCompanyLink" : "https://www.screener.in/company/GODAVARIB",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285137/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285137/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "GODAVARIB",
+      "companyName" : "Godavari Bioref.",
+      "marketCap" : 1238.00,
+      "peRatio" : 28.40,
+      "description" : "Incorporated in 1939, Godavari Biorefineries Ltd is a manufacturer of Bio-based Chemicals and Ethanol[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.33,
+      "pricePercentageAboveDma100" : 5.53,
+      "pricePercentageAboveDma200" : 5.36,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 19.48,
+      "operatingProfitMarginPercentile" : 8.89,
+      "netProfitMarginPercentile" : 6.05,
+      "totalTechnicalScore" : 21.22,
+      "totalFundamentalScore" : 34.42,
+      "totalScore" : 55.64
+    }
   },
   "attributes" : {
-    "company_code" : "GODAVARIB",
-    "company_name" : "Godavari Bioref.",
-    "market_cap" : 1261.00,
-    "pe_ratio" : 29.00,
+    "companyCode" : "GODAVARIB",
+    "companyName" : "Godavari Bioref.",
+    "marketCap" : 1238.00,
+    "peRatio" : 28.40,
     "description" : "Incorporated in 1939, Godavari Biorefineries Ltd is a manufacturer of Bio-based Chemicals and Ethanol[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 280.90,
     "dma50" : 331.96,
@@ -1752,10 +1777,138 @@
     "volume" : 45866.00
   }, {
     "date" : "2025-11-24",
-    "price" : 247.70,
-    "dma50" : 262.81,
-    "dma100" : 274.37,
-    "dma200" : 264.28,
-    "volume" : 12700.00
-  } ]
+    "price" : 245.30,
+    "dma50" : 262.72,
+    "dma100" : 274.34,
+    "dma200" : 264.25,
+    "volume" : 28284.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 245.30,
+    "dma50" : 262.72,
+    "dma100" : 274.34,
+    "dma200" : 264.25,
+    "volume" : 28284.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2023-09-30",
+    "sales" : 234.23,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 22.28,
+    "grossProfit" : 52.19,
+    "operatingProfitMargin" : -13.71,
+    "operatingProfit" : -32.11,
+    "netProfitMargin" : -28.19,
+    "netProfit" : -66.03
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 396.58,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 35.58,
+    "grossProfit" : 141.10,
+    "operatingProfitMargin" : 11.01,
+    "operatingProfit" : 43.66,
+    "netProfitMargin" : 9.40,
+    "netProfit" : 37.28
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 612.53,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 35.14,
+    "grossProfit" : 215.24,
+    "operatingProfitMargin" : 18.50,
+    "operatingProfit" : 113.32,
+    "netProfitMargin" : 10.61,
+    "netProfit" : 64.99
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 516.16,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 13.46,
+    "grossProfit" : 69.48,
+    "operatingProfitMargin" : -2.52,
+    "operatingProfit" : -13.01,
+    "netProfitMargin" : -5.21,
+    "netProfit" : -26.89
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 315.94,
+    "salesGrowthYoY" : 34.88,
+    "grossProfitMargin" : 15.77,
+    "grossProfit" : 49.82,
+    "operatingProfitMargin" : -10.79,
+    "operatingProfit" : -34.09,
+    "netProfitMargin" : -24.20,
+    "netProfit" : -76.46
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 445.37,
+    "salesGrowthYoY" : 12.30,
+    "grossProfitMargin" : 31.30,
+    "grossProfit" : 139.40,
+    "operatingProfitMargin" : 8.28,
+    "operatingProfit" : 36.88,
+    "netProfitMargin" : 1.37,
+    "netProfit" : 6.10
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 575.70,
+    "salesGrowthYoY" : -6.01,
+    "grossProfitMargin" : 38.02,
+    "grossProfit" : 218.88,
+    "operatingProfitMargin" : 19.15,
+    "operatingProfit" : 110.25,
+    "netProfitMargin" : 12.17,
+    "netProfit" : 70.06
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 523.12,
+    "salesGrowthYoY" : 1.35,
+    "grossProfitMargin" : 18.99,
+    "grossProfit" : 99.34,
+    "operatingProfitMargin" : 0.90,
+    "operatingProfit" : 4.71,
+    "netProfitMargin" : -3.18,
+    "netProfit" : -16.64
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 422.81,
+    "salesGrowthYoY" : 33.83,
+    "grossProfitMargin" : 20.22,
+    "grossProfit" : 85.49,
+    "operatingProfitMargin" : -2.16,
+    "operatingProfit" : -9.13,
+    "netProfitMargin" : -3.78,
+    "netProfit" : -15.98
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 422.81,
+    "salesGrowthYoY" : 33.83,
+    "grossProfitMargin" : 20.22,
+    "grossProfit" : 85.49,
+    "operatingProfitMargin" : -2.16,
+    "operatingProfit" : -9.13,
+    "netProfitMargin" : -3.78,
+    "netProfit" : -15.98
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.33,
+    "pricePercentageAboveDma100" : 5.53,
+    "pricePercentageAboveDma200" : 5.36,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 19.48,
+    "operatingProfitMarginPercentile" : 8.89,
+    "netProfitMarginPercentile" : 6.05,
+    "totalTechnicalScore" : 21.22,
+    "totalFundamentalScore" : 34.42,
+    "totalScore" : 55.64
+  }
 }

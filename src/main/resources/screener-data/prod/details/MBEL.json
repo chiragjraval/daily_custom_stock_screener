@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285577",
-    "company_code" : "MBEL",
-    "company_name" : "M & B Engineer.",
-    "screener_company_link" : "https://www.screener.in/company/MBEL",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285577/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285577/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285577",
+    "companyCode" : "MBEL",
+    "companyName" : "M & B Engineer.",
+    "screenerCompanyLink" : "https://www.screener.in/company/MBEL",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285577/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285577/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "MBEL",
+      "companyName" : "M & B Engineer.",
+      "marketCap" : 2205.00,
+      "peRatio" : 31.60,
+      "description" : "Incorporated in 1981, M&B Engineering Ltd is a design-led engineering solutions provider.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.49,
+      "pricePercentageAboveDma100" : 0.00,
+      "pricePercentageAboveDma200" : 5.39,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 12.00,
+      "netProfitMarginPercentile" : 6.00,
+      "totalTechnicalScore" : 15.89,
+      "totalFundamentalScore" : 38.00,
+      "totalScore" : 53.89
+    }
   },
   "attributes" : {
-    "company_code" : "MBEL",
-    "company_name" : "M & B Engineer.",
-    "market_cap" : 2199.00,
-    "pe_ratio" : 31.50,
+    "companyCode" : "MBEL",
+    "companyName" : "M & B Engineer.",
+    "marketCap" : 2205.00,
+    "peRatio" : 31.60,
     "description" : "Incorporated in 1981, M&B Engineering Ltd is a design-led engineering solutions provider.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-08-06",
     "price" : 408.65,
     "dma50" : 408.65,
@@ -527,10 +552,98 @@
     "volume" : 273709.00
   }, {
     "date" : "2025-11-24",
-    "price" : 385.35,
-    "dma50" : 427.78,
+    "price" : 385.55,
+    "dma50" : 427.79,
     "dma100" : null,
     "dma200" : 418.55,
-    "volume" : 83380.00
-  } ]
+    "volume" : 140325.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 385.55,
+    "dma50" : 427.79,
+    "dma100" : null,
+    "dma200" : 418.55,
+    "volume" : 140325.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-06-30",
+    "sales" : 142.37,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 33.31,
+    "grossProfit" : 47.42,
+    "operatingProfitMargin" : 9.52,
+    "operatingProfit" : 13.55,
+    "netProfitMargin" : 5.18,
+    "netProfit" : 7.37
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 181.74,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 44.45,
+    "grossProfit" : 80.78,
+    "operatingProfitMargin" : 20.27,
+    "operatingProfit" : 36.84,
+    "netProfitMargin" : 12.34,
+    "netProfit" : 22.43
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 290.37,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 31.67,
+    "grossProfit" : 91.96,
+    "operatingProfitMargin" : 13.97,
+    "operatingProfit" : 40.56,
+    "netProfitMargin" : 9.66,
+    "netProfit" : 28.05
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 228.33,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 30.60,
+    "grossProfit" : 69.87,
+    "operatingProfitMargin" : 11.03,
+    "operatingProfit" : 25.18,
+    "netProfitMargin" : 6.68,
+    "netProfit" : 15.25
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 260.20,
+    "salesGrowthYoY" : 82.76,
+    "grossProfitMargin" : 30.10,
+    "grossProfit" : 78.32,
+    "operatingProfitMargin" : 11.19,
+    "operatingProfit" : 29.12,
+    "netProfitMargin" : 7.08,
+    "netProfit" : 18.42
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 260.20,
+    "salesGrowthYoY" : 82.76,
+    "grossProfitMargin" : 30.10,
+    "grossProfit" : 78.32,
+    "operatingProfitMargin" : 11.19,
+    "operatingProfit" : 29.12,
+    "netProfitMargin" : 7.08,
+    "netProfit" : 18.42
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.49,
+    "pricePercentageAboveDma100" : 0.00,
+    "pricePercentageAboveDma200" : 5.39,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 12.00,
+    "netProfitMarginPercentile" : 6.00,
+    "totalTechnicalScore" : 15.89,
+    "totalFundamentalScore" : 38.00,
+    "totalScore" : 53.89
+  }
 }

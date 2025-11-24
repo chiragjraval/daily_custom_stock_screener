@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285526",
-    "company_code" : "CRIZAC",
-    "company_name" : "Crizac",
-    "screener_company_link" : "https://www.screener.in/company/CRIZAC",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285526/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285526/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285526",
+    "companyCode" : "CRIZAC",
+    "companyName" : "Crizac",
+    "screenerCompanyLink" : "https://www.screener.in/company/CRIZAC",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285526/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285526/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "CRIZAC",
+      "companyName" : "Crizac",
+      "marketCap" : 4565.00,
+      "peRatio" : 31.40,
+      "description" : "Incorporated in 2011, Crizac Ltd is an education platform that offers international student recruitment solutions to higher education institutions in various countries[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.69,
+      "pricePercentageAboveDma100" : 0.00,
+      "pricePercentageAboveDma200" : 5.82,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 11.52,
+      "totalFundamentalScore" : 50.00,
+      "totalScore" : 61.52
+    }
   },
   "attributes" : {
-    "company_code" : "CRIZAC",
-    "company_name" : "Crizac",
-    "market_cap" : 4616.00,
-    "pe_ratio" : 31.80,
+    "companyCode" : "CRIZAC",
+    "companyName" : "Crizac",
+    "marketCap" : 4565.00,
+    "peRatio" : 31.40,
     "description" : "Incorporated in 2011, Crizac Ltd is an education platform that offers international student recruitment solutions to higher education institutions in various countries[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-07-09",
     "price" : 307.63,
     "dma50" : 307.63,
@@ -667,10 +692,98 @@
     "volume" : 337006.00
   }, {
     "date" : "2025-11-24",
-    "price" : 264.20,
-    "dma50" : 302.45,
+    "price" : 260.50,
+    "dma50" : 302.30,
     "dma100" : null,
-    "dma200" : 311.95,
-    "volume" : 140637.00
-  } ]
+    "dma200" : 311.91,
+    "volume" : 228252.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 260.50,
+    "dma50" : 302.30,
+    "dma100" : null,
+    "dma200" : 311.91,
+    "volume" : 228252.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-06-30",
+    "sales" : 45.21,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 45.21,
+    "operatingProfitMargin" : 75.01,
+    "operatingProfit" : 33.91,
+    "netProfitMargin" : 62.88,
+    "netProfit" : 28.43
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 38.63,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 38.63,
+    "operatingProfitMargin" : 46.62,
+    "operatingProfit" : 18.01,
+    "netProfitMargin" : 24.54,
+    "netProfit" : 9.48
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 56.01,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 56.01,
+    "operatingProfitMargin" : 82.29,
+    "operatingProfit" : 46.09,
+    "netProfitMargin" : 61.58,
+    "netProfit" : 34.49
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 66.67,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 66.67,
+    "operatingProfitMargin" : 81.49,
+    "operatingProfit" : 54.33,
+    "netProfitMargin" : 61.56,
+    "netProfit" : 41.04
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 69.48,
+    "salesGrowthYoY" : 53.68,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 69.48,
+    "operatingProfitMargin" : 86.08,
+    "operatingProfit" : 59.81,
+    "netProfitMargin" : 66.11,
+    "netProfit" : 45.93
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 69.48,
+    "salesGrowthYoY" : 53.68,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 69.48,
+    "operatingProfitMargin" : 86.08,
+    "operatingProfit" : 59.81,
+    "netProfitMargin" : 66.11,
+    "netProfit" : 45.93
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.69,
+    "pricePercentageAboveDma100" : 0.00,
+    "pricePercentageAboveDma200" : 5.82,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 11.52,
+    "totalFundamentalScore" : 50.00,
+    "totalScore" : 61.52
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284994",
-    "company_code" : "SANOFICONR",
-    "company_name" : "Sanofi Consumer",
-    "screener_company_link" : "https://www.screener.in/company/SANOFICONR",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284994/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284994/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284994",
+    "companyCode" : "SANOFICONR",
+    "companyName" : "Sanofi Consumer",
+    "screenerCompanyLink" : "https://www.screener.in/company/SANOFICONR",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284994/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284994/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "SANOFICONR",
+      "companyName" : "Sanofi Consumer",
+      "marketCap" : 11114.00,
+      "peRatio" : 51.70,
+      "description" : "Incorporated in 2023, Sanofi Consumer Healthcare India Ltd manufactures and trading of drugs & pharmaceutical products.[1]It is a division of Sanofi, a global pharmaceutical company, focusing on over-the-counter (OTC) and consumer healthcare products. [2]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.97,
+      "pricePercentageAboveDma100" : 5.14,
+      "pricePercentageAboveDma200" : 5.09,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 6.91,
+      "netProfitMarginPercentile" : 3.33,
+      "totalTechnicalScore" : 25.21,
+      "totalFundamentalScore" : 30.24,
+      "totalScore" : 55.45
+    }
   },
   "attributes" : {
-    "company_code" : "SANOFICONR",
-    "company_name" : "Sanofi Consumer",
-    "market_cap" : 10951.00,
-    "pe_ratio" : 51.00,
+    "companyCode" : "SANOFICONR",
+    "companyName" : "Sanofi Consumer",
+    "marketCap" : 11114.00,
+    "peRatio" : 51.70,
     "description" : "Incorporated in 2023, Sanofi Consumer Healthcare India Ltd manufactures and trading of drugs & pharmaceutical products.[1]It is a division of Sanofi, a global pharmaceutical company, focusing on over-the-counter (OTC) and consumer healthcare products. [2]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 4789.30,
     "dma50" : 4885.93,
@@ -1752,10 +1777,138 @@
     "volume" : 7072.00
   }, {
     "date" : "2025-11-24",
-    "price" : 4756.20,
-    "dma50" : 4813.80,
-    "dma100" : 4984.83,
-    "dma200" : 4929.89,
-    "volume" : 1070.00
-  } ]
+    "price" : 4841.80,
+    "dma50" : 4817.16,
+    "dma100" : 4985.68,
+    "dma200" : 4930.74,
+    "volume" : 5142.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 4841.80,
+    "dma50" : 4817.16,
+    "dma100" : 4985.68,
+    "dma200" : 4930.74,
+    "volume" : 5142.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2023-09-30",
+    "sales" : 210.30,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 71.14,
+    "grossProfit" : 149.61,
+    "operatingProfitMargin" : 44.98,
+    "operatingProfit" : 94.59,
+    "netProfitMargin" : 33.86,
+    "netProfit" : 71.21
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 159.90,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 75.80,
+    "grossProfit" : 121.20,
+    "operatingProfitMargin" : 39.46,
+    "operatingProfit" : 63.10,
+    "netProfitMargin" : 28.69,
+    "netProfit" : 45.88
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 221.60,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 72.92,
+    "grossProfit" : 161.59,
+    "operatingProfitMargin" : 36.91,
+    "operatingProfit" : 81.79,
+    "netProfitMargin" : 28.29,
+    "netProfit" : 62.69
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 172.30,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 73.59,
+    "grossProfit" : 126.80,
+    "operatingProfitMargin" : 36.91,
+    "operatingProfit" : 63.60,
+    "netProfitMargin" : 26.26,
+    "netProfit" : 45.25
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 159.90,
+    "salesGrowthYoY" : -23.97,
+    "grossProfitMargin" : 75.80,
+    "grossProfit" : 121.20,
+    "operatingProfitMargin" : 39.46,
+    "operatingProfit" : 63.10,
+    "netProfitMargin" : 28.69,
+    "netProfit" : 45.88
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 170.70,
+    "salesGrowthYoY" : 6.75,
+    "grossProfitMargin" : 75.45,
+    "grossProfit" : 128.79,
+    "operatingProfitMargin" : 36.38,
+    "operatingProfit" : 62.10,
+    "netProfitMargin" : 27.15,
+    "netProfit" : 46.35
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 172.60,
+    "salesGrowthYoY" : -22.11,
+    "grossProfitMargin" : 77.52,
+    "grossProfit" : 133.80,
+    "operatingProfitMargin" : 37.08,
+    "operatingProfit" : 64.00,
+    "netProfitMargin" : 28.97,
+    "netProfit" : 50.00
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 220.90,
+    "salesGrowthYoY" : 28.21,
+    "grossProfitMargin" : 72.30,
+    "grossProfit" : 159.71,
+    "operatingProfitMargin" : 31.78,
+    "operatingProfit" : 70.20,
+    "netProfitMargin" : 25.19,
+    "netProfit" : 55.64
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 233.90,
+    "salesGrowthYoY" : 46.28,
+    "grossProfitMargin" : 73.58,
+    "grossProfit" : 172.10,
+    "operatingProfitMargin" : 36.34,
+    "operatingProfit" : 85.00,
+    "netProfitMargin" : 26.89,
+    "netProfit" : 62.90
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 233.90,
+    "salesGrowthYoY" : 46.28,
+    "grossProfitMargin" : 73.58,
+    "grossProfit" : 172.10,
+    "operatingProfitMargin" : 36.34,
+    "operatingProfit" : 85.00,
+    "netProfitMargin" : 26.89,
+    "netProfit" : 62.90
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.97,
+    "pricePercentageAboveDma100" : 5.14,
+    "pricePercentageAboveDma200" : 5.09,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 6.91,
+    "netProfitMarginPercentile" : 3.33,
+    "totalTechnicalScore" : 25.21,
+    "totalFundamentalScore" : 30.24,
+    "totalScore" : 55.45
+  }
 }

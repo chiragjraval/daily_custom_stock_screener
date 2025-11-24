@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1275375",
-    "company_code" : "AFSL",
-    "company_name" : "Abans Financial",
-    "screener_company_link" : "https://www.screener.in/company/AFSL",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1275375/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1275375/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1275375",
+    "companyCode" : "AFSL",
+    "companyName" : "Abans Financial",
+    "screenerCompanyLink" : "https://www.screener.in/company/AFSL",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1275375/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1275375/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "AFSL",
+      "companyName" : "Abans Financial",
+      "marketCap" : 1036.00,
+      "peRatio" : 67.50,
+      "description" : "Incorporated in 2009, Abans Financial Services Ltd provides services such as Institutional Broking, Asset Management, Financial Lending, Treasury operations, and Remittance Services[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.15,
+      "pricePercentageAboveDma100" : 5.34,
+      "pricePercentageAboveDma200" : 5.63,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 8.89,
+      "operatingProfitMarginPercentile" : 16.37,
+      "netProfitMarginPercentile" : 7.50,
+      "totalTechnicalScore" : 16.11,
+      "totalFundamentalScore" : 32.76,
+      "totalScore" : 48.87
+    }
   },
   "attributes" : {
-    "company_code" : "AFSL",
-    "company_name" : "Abans Financial",
-    "market_cap" : 1034.00,
-    "pe_ratio" : 67.40,
+    "companyCode" : "AFSL",
+    "companyName" : "Abans Financial",
+    "marketCap" : 1036.00,
+    "peRatio" : 67.50,
     "description" : "Incorporated in 2009, Abans Financial Services Ltd provides services such as Institutional Broking, Asset Management, Financial Lending, Treasury operations, and Remittance Services[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 379.05,
     "dma50" : 401.94,
@@ -1752,10 +1777,178 @@
     "volume" : 12327.00
   }, {
     "date" : "2025-11-24",
-    "price" : 201.29,
-    "dma50" : 208.06,
-    "dma100" : 216.55,
-    "dma200" : 230.99,
-    "volume" : 4764.00
-  } ]
+    "price" : 202.01,
+    "dma50" : 208.08,
+    "dma100" : 216.56,
+    "dma200" : 231.00,
+    "volume" : 5780.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 202.01,
+    "dma50" : 208.08,
+    "dma100" : 216.56,
+    "dma200" : 231.00,
+    "volume" : 5780.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2022-09-30",
+    "sales" : 0.15,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 0.15,
+    "operatingProfitMargin" : 86.67,
+    "operatingProfit" : 0.13,
+    "netProfitMargin" : 60.00,
+    "netProfit" : 0.09
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 0.50,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 0.50,
+    "operatingProfitMargin" : 84.00,
+    "operatingProfit" : 0.42,
+    "netProfitMargin" : 24.00,
+    "netProfit" : 0.12
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 1.07,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1.07,
+    "operatingProfitMargin" : 88.79,
+    "operatingProfit" : 0.95,
+    "netProfitMargin" : 80.37,
+    "netProfit" : 0.86
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 0.48,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 0.48,
+    "operatingProfitMargin" : 43.75,
+    "operatingProfit" : 0.21,
+    "netProfitMargin" : 135.42,
+    "netProfit" : 0.65
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 12.21,
+    "salesGrowthYoY" : 8040.00,
+    "grossProfitMargin" : 3.52,
+    "grossProfit" : 0.43,
+    "operatingProfitMargin" : -28.01,
+    "operatingProfit" : -3.42,
+    "netProfitMargin" : -20.97,
+    "netProfit" : -2.56
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 0.64,
+    "salesGrowthYoY" : 28.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 0.64,
+    "operatingProfitMargin" : -968.75,
+    "operatingProfit" : -6.20,
+    "netProfitMargin" : -725.00,
+    "netProfit" : -4.64
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 1.23,
+    "salesGrowthYoY" : 14.95,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1.23,
+    "operatingProfitMargin" : -18.70,
+    "operatingProfit" : -0.23,
+    "netProfitMargin" : -13.82,
+    "netProfit" : -0.17
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 1.04,
+    "salesGrowthYoY" : 116.67,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1.04,
+    "operatingProfitMargin" : -249.04,
+    "operatingProfit" : -2.59,
+    "netProfitMargin" : -194.23,
+    "netProfit" : -2.02
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 1.13,
+    "salesGrowthYoY" : -90.75,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1.13,
+    "operatingProfitMargin" : -100.88,
+    "operatingProfit" : -1.14,
+    "netProfitMargin" : -73.45,
+    "netProfit" : -0.83
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 20.95,
+    "salesGrowthYoY" : 3173.44,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 20.95,
+    "operatingProfitMargin" : 89.88,
+    "operatingProfit" : 18.83,
+    "netProfitMargin" : 67.16,
+    "netProfit" : 14.07
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 7.63,
+    "salesGrowthYoY" : 520.33,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 7.63,
+    "operatingProfitMargin" : 65.14,
+    "operatingProfit" : 4.97,
+    "netProfitMargin" : 49.15,
+    "netProfit" : 3.75
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 0.76,
+    "salesGrowthYoY" : -26.92,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 0.76,
+    "operatingProfitMargin" : -247.37,
+    "operatingProfit" : -1.88,
+    "netProfitMargin" : -188.16,
+    "netProfit" : -1.43
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 1.32,
+    "salesGrowthYoY" : 16.81,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1.32,
+    "operatingProfitMargin" : -102.27,
+    "operatingProfit" : -1.35,
+    "netProfitMargin" : -79.55,
+    "netProfit" : -1.05
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 1.32,
+    "salesGrowthYoY" : 16.81,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1.32,
+    "operatingProfitMargin" : -102.27,
+    "operatingProfit" : -1.35,
+    "netProfitMargin" : -79.55,
+    "netProfit" : -1.05
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.15,
+    "pricePercentageAboveDma100" : 5.34,
+    "pricePercentageAboveDma200" : 5.63,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 8.89,
+    "operatingProfitMarginPercentile" : 16.37,
+    "netProfitMarginPercentile" : 7.50,
+    "totalTechnicalScore" : 16.11,
+    "totalFundamentalScore" : 32.76,
+    "totalScore" : 48.87
+  }
 }

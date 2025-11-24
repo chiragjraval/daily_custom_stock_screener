@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274894",
-    "company_code" : "ETERNAL",
-    "company_name" : "Eternal Ltd",
-    "screener_company_link" : "https://www.screener.in/company/ETERNAL",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274894/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274894/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274894",
+    "companyCode" : "ETERNAL",
+    "companyName" : "Eternal Ltd",
+    "screenerCompanyLink" : "https://www.screener.in/company/ETERNAL",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274894/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274894/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "ETERNAL",
+      "companyName" : "Eternal Ltd",
+      "marketCap" : 291491.00,
+      "peRatio" : 123.00,
+      "description" : "Incorporated in 2010, Zomato Limited is one of the leading online Food Service platforms in terms of the value of food sold. Its offerings include food delivery, dining-out services, Loyalty programs, and others. As of December 31, 2020, Zomato has established a strong footprint across 23 countries with 131,233 active food delivery restaurants, 161,637 active delivery partners, and an average monthly food order of 10.7 million customers.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.24,
+      "pricePercentageAboveDma100" : 5.16,
+      "pricePercentageAboveDma200" : 4.71,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 4.44,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 9.93,
+      "totalTechnicalScore" : 35.11,
+      "totalFundamentalScore" : 34.37,
+      "totalScore" : 69.49
+    }
   },
   "attributes" : {
-    "company_code" : "ETERNAL",
-    "company_name" : "Eternal Ltd",
-    "market_cap" : 292118.00,
-    "pe_ratio" : 123.00,
+    "companyCode" : "ETERNAL",
+    "companyName" : "Eternal Ltd",
+    "marketCap" : 291491.00,
+    "peRatio" : 123.00,
     "description" : "Incorporated in 2010, Zomato Limited is one of the leading online Food Service platforms in terms of the value of food sold. Its offerings include food delivery, dining-out services, Loyalty programs, and others. As of December 31, 2020, Zomato has established a strong footprint across 23 countries with 131,233 active food delivery restaurants, 161,637 active delivery partners, and an average monthly food order of 10.7 million customers.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 273.31,
     "dma50" : 260.89,
@@ -1752,10 +1777,268 @@
     "volume" : 14318998.00
   }, {
     "date" : "2025-11-24",
-    "price" : 302.05,
-    "dma50" : 317.30,
+    "price" : 302.25,
+    "dma50" : 317.31,
     "dma100" : 312.34,
-    "dma200" : 285.92,
-    "volume" : 12581088.00
-  } ]
+    "dma200" : 285.93,
+    "volume" : 20081142.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 302.25,
+    "dma50" : 317.31,
+    "dma100" : 312.34,
+    "dma200" : 285.93,
+    "volume" : 20081142.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2020-06-30",
+    "sales" : 219.10,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 219.10,
+    "operatingProfitMargin" : -25.33,
+    "operatingProfit" : -55.50,
+    "netProfitMargin" : -31.86,
+    "netProfit" : -69.81
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 376.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 376.00,
+    "operatingProfitMargin" : -28.70,
+    "operatingProfit" : -107.91,
+    "netProfitMargin" : -32.39,
+    "netProfit" : -121.79
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 527.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 527.00,
+    "operatingProfitMargin" : -18.92,
+    "operatingProfit" : -99.71,
+    "netProfitMargin" : -19.66,
+    "netProfit" : -103.61
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 591.90,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 591.90,
+    "operatingProfitMargin" : -20.70,
+    "operatingProfit" : -122.52,
+    "netProfitMargin" : -16.10,
+    "netProfit" : -95.30
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 757.90,
+    "salesGrowthYoY" : 245.92,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 757.90,
+    "operatingProfitMargin" : -43.16,
+    "operatingProfit" : -327.11,
+    "netProfitMargin" : -38.32,
+    "netProfit" : -290.43
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 897.10,
+    "salesGrowthYoY" : 138.59,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 897.10,
+    "operatingProfitMargin" : -51.41,
+    "operatingProfit" : -461.20,
+    "netProfitMargin" : -40.22,
+    "netProfit" : -360.81
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 941.20,
+    "salesGrowthYoY" : 78.60,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 941.20,
+    "operatingProfitMargin" : -46.19,
+    "operatingProfit" : -434.74,
+    "netProfitMargin" : -34.50,
+    "netProfit" : -324.71
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 1014.80,
+    "salesGrowthYoY" : 71.45,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1014.80,
+    "operatingProfitMargin" : -39.85,
+    "operatingProfit" : -404.40,
+    "netProfitMargin" : -28.88,
+    "netProfit" : -293.07
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 1132.00,
+    "salesGrowthYoY" : 49.36,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1132.00,
+    "operatingProfitMargin" : -23.76,
+    "operatingProfit" : -268.96,
+    "netProfitMargin" : -12.19,
+    "netProfit" : -137.99
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 1178.00,
+    "salesGrowthYoY" : 31.31,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1178.00,
+    "operatingProfitMargin" : -11.97,
+    "operatingProfit" : -141.01,
+    "netProfitMargin" : 1.02,
+    "netProfit" : 12.02
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 1191.20,
+    "salesGrowthYoY" : 26.56,
+    "grossProfitMargin" : 99.98,
+    "grossProfit" : 1190.96,
+    "operatingProfitMargin" : -9.97,
+    "operatingProfit" : -118.76,
+    "netProfitMargin" : 5.17,
+    "netProfit" : 61.59
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 1207.00,
+    "salesGrowthYoY" : 18.94,
+    "grossProfitMargin" : 99.92,
+    "grossProfit" : 1206.03,
+    "operatingProfitMargin" : 0.33,
+    "operatingProfit" : 3.98,
+    "netProfitMargin" : 15.08,
+    "netProfit" : 182.02
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 1420.00,
+    "salesGrowthYoY" : 25.44,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1420.00,
+    "operatingProfitMargin" : 7.96,
+    "operatingProfit" : 113.03,
+    "netProfitMargin" : 19.44,
+    "netProfit" : 276.05
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 1596.00,
+    "salesGrowthYoY" : 35.48,
+    "grossProfitMargin" : 99.94,
+    "grossProfit" : 1595.04,
+    "operatingProfitMargin" : 6.70,
+    "operatingProfit" : 106.93,
+    "netProfitMargin" : 19.74,
+    "netProfit" : 315.05
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 1782.00,
+    "salesGrowthYoY" : 49.60,
+    "grossProfitMargin" : 99.83,
+    "grossProfit" : 1778.97,
+    "operatingProfitMargin" : 9.71,
+    "operatingProfit" : 173.03,
+    "netProfitMargin" : 21.55,
+    "netProfit" : 384.02
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 1824.00,
+    "salesGrowthYoY" : 51.12,
+    "grossProfitMargin" : 99.95,
+    "grossProfit" : 1823.09,
+    "operatingProfitMargin" : 10.36,
+    "operatingProfit" : 188.97,
+    "netProfitMargin" : 23.85,
+    "netProfit" : 435.02
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 2048.00,
+    "salesGrowthYoY" : 44.23,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2048.00,
+    "operatingProfitMargin" : 10.60,
+    "operatingProfit" : 217.09,
+    "netProfitMargin" : 23.10,
+    "netProfit" : 473.09
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 2151.00,
+    "salesGrowthYoY" : 34.77,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2151.00,
+    "operatingProfitMargin" : 11.81,
+    "operatingProfit" : 254.03,
+    "netProfitMargin" : 19.57,
+    "netProfit" : 420.95
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 2226.00,
+    "salesGrowthYoY" : 24.92,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2226.00,
+    "operatingProfitMargin" : 13.21,
+    "operatingProfit" : 294.05,
+    "netProfitMargin" : 22.19,
+    "netProfit" : 493.95
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 2192.00,
+    "salesGrowthYoY" : 20.18,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2192.00,
+    "operatingProfitMargin" : 13.18,
+    "operatingProfit" : 288.91,
+    "netProfitMargin" : 26.56,
+    "netProfit" : 582.20
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 2413.00,
+    "salesGrowthYoY" : 17.82,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2413.00,
+    "operatingProfitMargin" : 13.43,
+    "operatingProfit" : 324.07,
+    "netProfitMargin" : 24.95,
+    "netProfit" : 602.04
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 2650.00,
+    "salesGrowthYoY" : 23.20,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2650.00,
+    "operatingProfitMargin" : 14.72,
+    "operatingProfit" : 390.08,
+    "netProfitMargin" : 26.08,
+    "netProfit" : 691.12
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 2650.00,
+    "salesGrowthYoY" : 23.20,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2650.00,
+    "operatingProfitMargin" : 14.72,
+    "operatingProfit" : 390.08,
+    "netProfitMargin" : 26.08,
+    "netProfit" : 691.12
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.24,
+    "pricePercentageAboveDma100" : 5.16,
+    "pricePercentageAboveDma200" : 4.71,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 4.44,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 9.93,
+    "totalTechnicalScore" : 35.11,
+    "totalFundamentalScore" : 34.37,
+    "totalScore" : 69.49
+  }
 }

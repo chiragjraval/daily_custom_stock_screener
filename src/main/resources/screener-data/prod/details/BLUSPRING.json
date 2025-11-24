@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285489",
-    "company_code" : "BLUSPRING",
-    "company_name" : "Bluspring Enter.",
-    "screener_company_link" : "https://www.screener.in/company/BLUSPRING",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285489/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285489/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285489",
+    "companyCode" : "BLUSPRING",
+    "companyName" : "Bluspring Enter.",
+    "screenerCompanyLink" : "https://www.screener.in/company/BLUSPRING",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285489/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285489/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "BLUSPRING",
+      "companyName" : "Bluspring Enter.",
+      "marketCap" : 1086.00,
+      "peRatio" : 110.00,
+      "description" : "Incorporated in 2025, Bluspring Enterprises Ltd is in the business as an infrastructure services company[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.36,
+      "pricePercentageAboveDma100" : 5.54,
+      "pricePercentageAboveDma200" : 5.54,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 10.00,
+      "operatingProfitMarginPercentile" : 13.33,
+      "netProfitMarginPercentile" : 8.33,
+      "totalTechnicalScore" : 16.44,
+      "totalFundamentalScore" : 31.67,
+      "totalScore" : 48.10
+    }
   },
   "attributes" : {
-    "company_code" : "BLUSPRING",
-    "company_name" : "Bluspring Enter.",
-    "market_cap" : 1094.00,
-    "pe_ratio" : 111.00,
+    "companyCode" : "BLUSPRING",
+    "companyName" : "Bluspring Enter.",
+    "marketCap" : 1086.00,
+    "peRatio" : 110.00,
     "description" : "Incorporated in 2025, Bluspring Enterprises Ltd is in the business as an infrastructure services company[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-06-11",
     "price" : 84.55,
     "dma50" : 84.55,
@@ -807,10 +832,108 @@
     "volume" : 120248.00
   }, {
     "date" : "2025-11-24",
-    "price" : 73.05,
-    "dma50" : 78.50,
+    "price" : 72.80,
+    "dma50" : 78.49,
     "dma100" : 81.54,
     "dma200" : 81.61,
-    "volume" : 57864.00
-  } ]
+    "volume" : 83619.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 72.80,
+    "dma50" : 78.49,
+    "dma100" : 81.54,
+    "dma200" : 81.61,
+    "volume" : 83619.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-03-31",
+    "sales" : 0.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 508.27,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 90.11,
+    "grossProfit" : 458.00,
+    "operatingProfitMargin" : 1.87,
+    "operatingProfit" : 9.50,
+    "netProfitMargin" : -1.18,
+    "netProfit" : -6.00
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 531.42,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 90.55,
+    "grossProfit" : 481.20,
+    "operatingProfitMargin" : 3.06,
+    "operatingProfit" : 16.26,
+    "netProfitMargin" : 2.38,
+    "netProfit" : 12.65
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 541.20,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 88.98,
+    "grossProfit" : 481.56,
+    "operatingProfitMargin" : 0.03,
+    "operatingProfit" : 0.16,
+    "netProfitMargin" : -1.67,
+    "netProfit" : -9.04
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 540.37,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : 89.29,
+    "grossProfit" : 482.50,
+    "operatingProfitMargin" : 1.64,
+    "operatingProfit" : 8.86,
+    "netProfitMargin" : 0.01,
+    "netProfit" : 0.05
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 584.61,
+    "salesGrowthYoY" : 15.02,
+    "grossProfitMargin" : 88.67,
+    "grossProfit" : 518.37,
+    "operatingProfitMargin" : 1.71,
+    "operatingProfit" : 10.00,
+    "netProfitMargin" : 1.05,
+    "netProfit" : 6.14
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 584.61,
+    "salesGrowthYoY" : 15.02,
+    "grossProfitMargin" : 88.67,
+    "grossProfit" : 518.37,
+    "operatingProfitMargin" : 1.71,
+    "operatingProfit" : 10.00,
+    "netProfitMargin" : 1.05,
+    "netProfit" : 6.14
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.36,
+    "pricePercentageAboveDma100" : 5.54,
+    "pricePercentageAboveDma200" : 5.54,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 10.00,
+    "operatingProfitMarginPercentile" : 13.33,
+    "netProfitMarginPercentile" : 8.33,
+    "totalTechnicalScore" : 16.44,
+    "totalFundamentalScore" : 31.67,
+    "totalScore" : 48.10
+  }
 }

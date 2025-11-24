@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274865",
-    "company_code" : "LODHA",
-    "company_name" : "Lodha Developers",
-    "screener_company_link" : "https://www.screener.in/company/LODHA",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274865/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274865/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274865",
+    "companyCode" : "LODHA",
+    "companyName" : "Lodha Developers",
+    "screenerCompanyLink" : "https://www.screener.in/company/LODHA",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274865/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274865/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "LODHA",
+      "companyName" : "Lodha Developers",
+      "marketCap" : 115735.00,
+      "peRatio" : 50.60,
+      "description" : "Lodha Developers Ltd is primarily engaged in the business of real estate development. It is among the largest real estate developers in terms of presales and development pipeline in India with a presence in MMR, Pune and entered in Bengaluru market in Nov'23.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.16,
+      "pricePercentageAboveDma100" : 5.30,
+      "pricePercentageAboveDma200" : 5.34,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 10.48,
+      "operatingProfitMarginPercentile" : 17.46,
+      "netProfitMarginPercentile" : 8.77,
+      "totalTechnicalScore" : 15.80,
+      "totalFundamentalScore" : 36.70,
+      "totalScore" : 52.51
+    }
   },
   "attributes" : {
-    "company_code" : "LODHA",
-    "company_name" : "Lodha Developers",
-    "market_cap" : 116593.00,
-    "pe_ratio" : 51.00,
+    "companyCode" : "LODHA",
+    "companyName" : "Lodha Developers",
+    "marketCap" : 115735.00,
+    "peRatio" : 50.60,
     "description" : "Lodha Developers Ltd is primarily engaged in the business of real estate development. It is among the largest real estate developers in terms of presales and development pipeline in India with a presence in MMR, Pune and entered in Bengaluru market in Nov'23.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 1227.25,
     "dma50" : 1217.35,
@@ -1752,10 +1777,298 @@
     "volume" : 1969939.00
   }, {
     "date" : "2025-11-24",
-    "price" : 1170.40,
-    "dma50" : 1199.78,
-    "dma100" : 1234.93,
-    "dma200" : 1243.49,
-    "volume" : 210091.00
-  } ]
+    "price" : 1159.80,
+    "dma50" : 1199.37,
+    "dma100" : 1234.82,
+    "dma200" : 1243.38,
+    "volume" : 601730.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 1159.80,
+    "dma50" : 1199.37,
+    "dma100" : 1234.82,
+    "dma200" : 1243.38,
+    "volume" : 601730.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2016-12-31",
+    "sales" : 3719.01,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 29.85,
+    "grossProfit" : 1110.12,
+    "operatingProfitMargin" : 17.76,
+    "operatingProfit" : 660.50,
+    "netProfitMargin" : 3.67,
+    "netProfit" : 136.49
+  }, {
+    "date" : "2017-12-31",
+    "sales" : 3930.33,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 32.22,
+    "grossProfit" : 1266.35,
+    "operatingProfitMargin" : 22.73,
+    "operatingProfit" : 893.36,
+    "netProfitMargin" : 9.55,
+    "netProfit" : 375.35
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 1735.08,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 24.92,
+    "grossProfit" : 432.38,
+    "operatingProfitMargin" : 13.15,
+    "operatingProfit" : 228.16,
+    "netProfitMargin" : 7.17,
+    "netProfit" : 124.41
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 238.62,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : -5.92,
+    "grossProfit" : -14.13,
+    "operatingProfitMargin" : -51.09,
+    "operatingProfit" : -121.91,
+    "netProfitMargin" : -74.95,
+    "netProfit" : -178.85
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 575.31,
+    "salesGrowthYoY" : -84.53,
+    "grossProfitMargin" : 22.86,
+    "grossProfit" : 131.52,
+    "operatingProfitMargin" : 10.36,
+    "operatingProfit" : 59.60,
+    "netProfitMargin" : 12.65,
+    "netProfit" : 72.78
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 1485.88,
+    "salesGrowthYoY" : -62.19,
+    "grossProfitMargin" : 32.97,
+    "grossProfit" : 489.89,
+    "operatingProfitMargin" : 27.67,
+    "operatingProfit" : 411.14,
+    "netProfitMargin" : 12.79,
+    "netProfit" : 190.04
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 3060.76,
+    "salesGrowthYoY" : 76.40,
+    "grossProfitMargin" : 36.90,
+    "grossProfit" : 1129.42,
+    "operatingProfitMargin" : 31.15,
+    "operatingProfit" : 953.43,
+    "netProfitMargin" : 13.45,
+    "netProfit" : 411.67
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 1575.03,
+    "salesGrowthYoY" : 560.06,
+    "grossProfitMargin" : 33.65,
+    "grossProfit" : 530.00,
+    "operatingProfitMargin" : 21.07,
+    "operatingProfit" : 331.86,
+    "netProfitMargin" : 11.58,
+    "netProfit" : 182.39
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 2060.36,
+    "salesGrowthYoY" : 258.13,
+    "grossProfitMargin" : 32.36,
+    "grossProfit" : 666.73,
+    "operatingProfitMargin" : 21.22,
+    "operatingProfit" : 437.21,
+    "netProfitMargin" : 11.57,
+    "netProfit" : 238.38
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 1397.81,
+    "salesGrowthYoY" : -5.93,
+    "grossProfitMargin" : 41.42,
+    "grossProfit" : 578.97,
+    "operatingProfitMargin" : 23.64,
+    "operatingProfit" : 330.44,
+    "netProfitMargin" : 14.93,
+    "netProfit" : 208.69
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 3320.09,
+    "salesGrowthYoY" : 8.47,
+    "grossProfitMargin" : 34.35,
+    "grossProfit" : 1140.45,
+    "operatingProfitMargin" : 25.85,
+    "operatingProfit" : 858.24,
+    "netProfitMargin" : 15.19,
+    "netProfit" : 504.32
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 2709.20,
+    "salesGrowthYoY" : 72.01,
+    "grossProfitMargin" : 30.29,
+    "grossProfit" : 820.62,
+    "operatingProfitMargin" : 19.08,
+    "operatingProfit" : 516.92,
+    "netProfitMargin" : 10.56,
+    "netProfit" : 286.09
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 1734.10,
+    "salesGrowthYoY" : -15.84,
+    "grossProfitMargin" : 40.65,
+    "grossProfit" : 704.91,
+    "operatingProfitMargin" : 24.32,
+    "operatingProfit" : 421.73,
+    "netProfitMargin" : 10.81,
+    "netProfit" : 187.46
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 1677.40,
+    "salesGrowthYoY" : 20.00,
+    "grossProfitMargin" : 40.35,
+    "grossProfit" : 676.83,
+    "operatingProfitMargin" : 21.27,
+    "operatingProfit" : 356.78,
+    "netProfitMargin" : 22.83,
+    "netProfit" : 382.95
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 3104.60,
+    "salesGrowthYoY" : -6.49,
+    "grossProfitMargin" : 35.37,
+    "grossProfit" : 1098.10,
+    "operatingProfitMargin" : 22.22,
+    "operatingProfit" : 689.84,
+    "netProfitMargin" : 23.37,
+    "netProfit" : 725.55
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 1408.40,
+    "salesGrowthYoY" : -48.01,
+    "grossProfitMargin" : 39.58,
+    "grossProfit" : 557.44,
+    "operatingProfitMargin" : 19.72,
+    "operatingProfit" : 277.74,
+    "netProfitMargin" : 9.61,
+    "netProfit" : 135.35
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 1731.20,
+    "salesGrowthYoY" : -0.17,
+    "grossProfitMargin" : 42.31,
+    "grossProfit" : 732.47,
+    "operatingProfitMargin" : 22.94,
+    "operatingProfit" : 397.14,
+    "netProfitMargin" : 10.17,
+    "netProfit" : 176.06
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 2793.90,
+    "salesGrowthYoY" : 66.56,
+    "grossProfitMargin" : 41.91,
+    "grossProfit" : 1170.92,
+    "operatingProfitMargin" : 28.97,
+    "operatingProfit" : 809.39,
+    "netProfitMargin" : 17.85,
+    "netProfit" : 498.71
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 3526.00,
+    "salesGrowthYoY" : 13.57,
+    "grossProfitMargin" : 36.11,
+    "grossProfit" : 1273.24,
+    "operatingProfitMargin" : 23.80,
+    "operatingProfit" : 839.19,
+    "netProfitMargin" : 15.29,
+    "netProfit" : 539.13
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 2811.00,
+    "salesGrowthYoY" : 99.59,
+    "grossProfitMargin" : 39.79,
+    "grossProfit" : 1118.50,
+    "operatingProfitMargin" : 26.18,
+    "operatingProfit" : 735.92,
+    "netProfitMargin" : 16.07,
+    "netProfit" : 451.73
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 2589.80,
+    "salesGrowthYoY" : 49.60,
+    "grossProfitMargin" : 39.74,
+    "grossProfit" : 1029.19,
+    "operatingProfitMargin" : 26.32,
+    "operatingProfit" : 681.64,
+    "netProfitMargin" : 15.19,
+    "netProfit" : 393.39
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 3485.30,
+    "salesGrowthYoY" : 24.75,
+    "grossProfitMargin" : 36.35,
+    "grossProfit" : 1266.91,
+    "operatingProfitMargin" : 26.36,
+    "operatingProfit" : 918.73,
+    "netProfitMargin" : 16.20,
+    "netProfit" : 564.62
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 3890.00,
+    "salesGrowthYoY" : 10.32,
+    "grossProfitMargin" : 38.20,
+    "grossProfit" : 1485.98,
+    "operatingProfitMargin" : 26.93,
+    "operatingProfit" : 1047.58,
+    "netProfitMargin" : 19.06,
+    "netProfit" : 741.43
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 3349.30,
+    "salesGrowthYoY" : 19.15,
+    "grossProfitMargin" : 38.94,
+    "grossProfit" : 1304.22,
+    "operatingProfitMargin" : 28.60,
+    "operatingProfit" : 957.90,
+    "netProfitMargin" : 19.24,
+    "netProfit" : 644.41
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 2983.40,
+    "salesGrowthYoY" : 15.20,
+    "grossProfitMargin" : 34.99,
+    "grossProfit" : 1043.89,
+    "operatingProfitMargin" : 20.71,
+    "operatingProfit" : 617.86,
+    "netProfitMargin" : 11.25,
+    "netProfit" : 335.63
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 2983.40,
+    "salesGrowthYoY" : 15.20,
+    "grossProfitMargin" : 34.99,
+    "grossProfit" : 1043.89,
+    "operatingProfitMargin" : 20.71,
+    "operatingProfit" : 617.86,
+    "netProfitMargin" : 11.25,
+    "netProfit" : 335.63
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.16,
+    "pricePercentageAboveDma100" : 5.30,
+    "pricePercentageAboveDma200" : 5.34,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 10.48,
+    "operatingProfitMarginPercentile" : 17.46,
+    "netProfitMarginPercentile" : 8.77,
+    "totalTechnicalScore" : 15.80,
+    "totalFundamentalScore" : 36.70,
+    "totalScore" : 52.51
+  }
 }

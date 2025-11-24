@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285189",
-    "company_code" : "ROSSTECH",
-    "company_name" : "Rossell Techsys",
-    "screener_company_link" : "https://www.screener.in/company/ROSSTECH",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285189/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285189/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285189",
+    "companyCode" : "ROSSTECH",
+    "companyName" : "Rossell Techsys",
+    "screenerCompanyLink" : "https://www.screener.in/company/ROSSTECH",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285189/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285189/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "ROSSTECH",
+      "companyName" : "Rossell Techsys",
+      "marketCap" : 2578.00,
+      "peRatio" : 130.00,
+      "description" : "Incorporated in 2020, Rossell Techsys Inc Ltd is in the business of aerospace and defence[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.94,
+      "pricePercentageAboveDma100" : 4.68,
+      "pricePercentageAboveDma200" : 3.95,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 13.31,
+      "netProfitMarginPercentile" : 7.85,
+      "totalTechnicalScore" : 48.57,
+      "totalFundamentalScore" : 41.17,
+      "totalScore" : 89.74
+    }
   },
   "attributes" : {
-    "company_code" : "ROSSTECH",
-    "company_name" : "Rossell Techsys",
-    "market_cap" : 2609.00,
-    "pe_ratio" : 132.00,
+    "companyCode" : "ROSSTECH",
+    "companyName" : "Rossell Techsys",
+    "marketCap" : 2578.00,
+    "peRatio" : 130.00,
     "description" : "Incorporated in 2020, Rossell Techsys Inc Ltd is in the business of aerospace and defence[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-12-09",
     "price" : 531.75,
     "dma50" : 531.75,
@@ -1682,10 +1707,128 @@
     "volume" : 70528.00
   }, {
     "date" : "2025-11-24",
-    "price" : 690.50,
-    "dma50" : 671.96,
-    "dma100" : 639.53,
-    "dma200" : 562.29,
-    "volume" : 23500.00
-  } ]
+    "price" : 679.90,
+    "dma50" : 671.54,
+    "dma100" : 639.43,
+    "dma200" : 562.18,
+    "volume" : 40382.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 679.90,
+    "dma50" : 671.54,
+    "dma100" : 639.43,
+    "dma200" : 562.18,
+    "volume" : 40382.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2023-12-31",
+    "sales" : 57.86,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 43.47,
+    "grossProfit" : 25.15,
+    "operatingProfitMargin" : 12.03,
+    "operatingProfit" : 6.96,
+    "netProfitMargin" : 3.15,
+    "netProfit" : 1.82
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 56.58,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 47.17,
+    "grossProfit" : 26.69,
+    "operatingProfitMargin" : 11.88,
+    "operatingProfit" : 6.72,
+    "netProfitMargin" : 2.69,
+    "netProfit" : 1.52
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 44.79,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 40.99,
+    "grossProfit" : 18.36,
+    "operatingProfitMargin" : -3.04,
+    "operatingProfit" : -1.36,
+    "netProfitMargin" : -9.98,
+    "netProfit" : -4.47
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 51.09,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 50.62,
+    "grossProfit" : 25.86,
+    "operatingProfitMargin" : 11.78,
+    "operatingProfit" : 6.02,
+    "netProfitMargin" : 0.08,
+    "netProfit" : 0.04
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 75.66,
+    "salesGrowthYoY" : 30.76,
+    "grossProfitMargin" : 47.69,
+    "grossProfit" : 36.08,
+    "operatingProfitMargin" : 18.77,
+    "operatingProfit" : 14.20,
+    "netProfitMargin" : 6.57,
+    "netProfit" : 4.97
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 87.84,
+    "salesGrowthYoY" : 55.25,
+    "grossProfitMargin" : 44.64,
+    "grossProfit" : 39.21,
+    "operatingProfitMargin" : 17.40,
+    "operatingProfit" : 15.28,
+    "netProfitMargin" : 7.81,
+    "netProfit" : 6.86
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 86.99,
+    "salesGrowthYoY" : 94.22,
+    "grossProfitMargin" : 41.15,
+    "grossProfit" : 35.80,
+    "operatingProfitMargin" : 12.22,
+    "operatingProfit" : 10.63,
+    "netProfitMargin" : 3.43,
+    "netProfit" : 2.98
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 125.25,
+    "salesGrowthYoY" : 145.16,
+    "grossProfitMargin" : 36.11,
+    "grossProfit" : 45.23,
+    "operatingProfitMargin" : 11.48,
+    "operatingProfit" : 14.38,
+    "netProfitMargin" : 3.99,
+    "netProfit" : 5.00
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 125.25,
+    "salesGrowthYoY" : 145.16,
+    "grossProfitMargin" : 36.11,
+    "grossProfit" : 45.23,
+    "operatingProfitMargin" : 11.48,
+    "operatingProfit" : 14.38,
+    "netProfitMargin" : 3.99,
+    "netProfit" : 5.00
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.94,
+    "pricePercentageAboveDma100" : 4.68,
+    "pricePercentageAboveDma200" : 3.95,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 13.31,
+    "netProfitMarginPercentile" : 7.85,
+    "totalTechnicalScore" : 48.57,
+    "totalFundamentalScore" : 41.17,
+    "totalScore" : 89.74
+  }
 }

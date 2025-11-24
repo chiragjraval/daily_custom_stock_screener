@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285612",
-    "company_code" : "VIKRAN",
-    "company_name" : "Vikran Engg.",
-    "screener_company_link" : "https://www.screener.in/company/VIKRAN",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285612/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285612/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285612",
+    "companyCode" : "VIKRAN",
+    "companyName" : "Vikran Engg.",
+    "screenerCompanyLink" : "https://www.screener.in/company/VIKRAN",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285612/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285612/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "VIKRAN",
+      "companyName" : "Vikran Engg.",
+      "marketCap" : 2698.00,
+      "peRatio" : 31.80,
+      "description" : "Incorporated in 2008, Vikran Engineering Limited is an Engineering, Procurement, and Construction (EPC) company.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 4.88,
+      "pricePercentageAboveDma100" : 0.00,
+      "pricePercentageAboveDma200" : 4.69,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 16.00,
+      "netProfitMarginPercentile" : 8.00,
+      "totalTechnicalScore" : 29.57,
+      "totalFundamentalScore" : 44.00,
+      "totalScore" : 73.57
+    }
   },
   "attributes" : {
-    "company_code" : "VIKRAN",
-    "company_name" : "Vikran Engg.",
-    "market_cap" : 2756.00,
-    "pe_ratio" : 32.50,
+    "companyCode" : "VIKRAN",
+    "companyName" : "Vikran Engg.",
+    "marketCap" : 2698.00,
+    "peRatio" : 31.80,
     "description" : "Incorporated in 2008, Vikran Engineering Limited is an Engineering, Procurement, and Construction (EPC) company.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-09-03",
     "price" : 95.71,
     "dma50" : 95.71,
@@ -401,10 +426,98 @@
     "volume" : 8666500.00
   }, {
     "date" : "2025-11-24",
-    "price" : 107.02,
-    "dma50" : 102.49,
+    "price" : 104.80,
+    "dma50" : 102.40,
     "dma100" : null,
-    "dma200" : 98.65,
-    "volume" : 3122159.00
-  } ]
+    "dma200" : 98.63,
+    "volume" : 4853415.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 104.80,
+    "dma50" : 102.40,
+    "dma100" : null,
+    "dma200" : 98.63,
+    "volume" : 4853415.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-06-30",
+    "sales" : 136.06,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 44.77,
+    "grossProfit" : 60.91,
+    "operatingProfitMargin" : 10.34,
+    "operatingProfit" : 14.07,
+    "netProfitMargin" : 3.15,
+    "netProfit" : 4.29
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 159.24,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 36.37,
+    "grossProfit" : 57.92,
+    "operatingProfitMargin" : 8.03,
+    "operatingProfit" : 12.79,
+    "netProfitMargin" : 1.31,
+    "netProfit" : 2.09
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 355.35,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 53.56,
+    "grossProfit" : 190.33,
+    "operatingProfitMargin" : 19.09,
+    "operatingProfit" : 67.84,
+    "netProfitMargin" : 10.63,
+    "netProfit" : 37.77
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 159.16,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 66.40,
+    "grossProfit" : 105.68,
+    "operatingProfitMargin" : 14.23,
+    "operatingProfit" : 22.65,
+    "netProfitMargin" : 3.55,
+    "netProfit" : 5.65
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 176.29,
+    "salesGrowthYoY" : 29.57,
+    "grossProfitMargin" : 42.65,
+    "grossProfit" : 75.19,
+    "operatingProfitMargin" : 14.43,
+    "operatingProfit" : 25.44,
+    "netProfitMargin" : 5.18,
+    "netProfit" : 9.13
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 176.29,
+    "salesGrowthYoY" : 29.57,
+    "grossProfitMargin" : 42.65,
+    "grossProfit" : 75.19,
+    "operatingProfitMargin" : 14.43,
+    "operatingProfit" : 25.44,
+    "netProfitMargin" : 5.18,
+    "netProfit" : 9.13
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 4.88,
+    "pricePercentageAboveDma100" : 0.00,
+    "pricePercentageAboveDma200" : 4.69,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 16.00,
+    "netProfitMarginPercentile" : 8.00,
+    "totalTechnicalScore" : 29.57,
+    "totalFundamentalScore" : 44.00,
+    "totalScore" : 73.57
+  }
 }

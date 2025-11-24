@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1424",
-    "company_code" : "IIFL",
-    "company_name" : "IIFL Finance",
-    "screener_company_link" : "https://www.screener.in/company/IIFL",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1424/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1424/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1424",
+    "companyCode" : "IIFL",
+    "companyName" : "IIFL Finance",
+    "screenerCompanyLink" : "https://www.screener.in/company/IIFL",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1424/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1424/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "IIFL",
+      "companyName" : "IIFL Finance",
+      "marketCap" : 22845.00,
+      "peRatio" : 57.40,
+      "description" : "IIFL Finance Ltd is a diversified NBFC in India engaged in the business of loans and mortgages along with its subsidiaries. It offers a wide spectrum of products such as Home loan, Gold loan, business loan, microfinance, capital market finance and developer & construction finance, etc.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.72,
+      "pricePercentageAboveDma100" : 4.47,
+      "pricePercentageAboveDma200" : 4.17,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 15.44,
+      "operatingProfitMarginPercentile" : 14.35,
+      "netProfitMarginPercentile" : 2.89,
+      "totalTechnicalScore" : 43.36,
+      "totalFundamentalScore" : 32.68,
+      "totalScore" : 76.04
+    }
   },
   "attributes" : {
-    "company_code" : "IIFL",
-    "company_name" : "IIFL Finance",
-    "market_cap" : 23342.00,
-    "pe_ratio" : 58.60,
+    "companyCode" : "IIFL",
+    "companyName" : "IIFL Finance",
+    "marketCap" : 22845.00,
+    "peRatio" : 57.40,
     "description" : "IIFL Finance Ltd is a diversified NBFC in India engaged in the business of loans and mortgages along with its subsidiaries. It offers a wide spectrum of products such as Home loan, Gold loan, business loan, microfinance, capital market finance and developer & construction finance, etc.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 413.45,
     "dma50" : 442.79,
@@ -1752,10 +1777,878 @@
     "volume" : 934477.00
   }, {
     "date" : "2025-11-24",
-    "price" : 549.75,
-    "dma50" : 508.52,
-    "dma100" : 484.89,
-    "dma200" : 460.20,
-    "volume" : 378061.00
-  } ]
+    "price" : 536.50,
+    "dma50" : 508.01,
+    "dma100" : 484.76,
+    "dma200" : 460.07,
+    "volume" : 819793.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 536.50,
+    "dma50" : 508.01,
+    "dma100" : 484.76,
+    "dma200" : 460.07,
+    "volume" : 819793.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2005-03-31",
+    "sales" : 8.53,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 8.53,
+    "operatingProfitMargin" : 93.90,
+    "operatingProfit" : 8.01,
+    "netProfitMargin" : 86.75,
+    "netProfit" : 7.40
+  }, {
+    "date" : "2005-06-30",
+    "sales" : 4.35,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 4.35,
+    "operatingProfitMargin" : 85.75,
+    "operatingProfit" : 3.73,
+    "netProfitMargin" : 60.23,
+    "netProfit" : 2.62
+  }, {
+    "date" : "2005-09-30",
+    "sales" : 10.56,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 10.56,
+    "operatingProfitMargin" : 88.45,
+    "operatingProfit" : 9.34,
+    "netProfitMargin" : 62.22,
+    "netProfit" : 6.57
+  }, {
+    "date" : "2005-12-31",
+    "sales" : 12.75,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 12.75,
+    "operatingProfitMargin" : 90.43,
+    "operatingProfit" : 11.53,
+    "netProfitMargin" : 55.06,
+    "netProfit" : 7.02
+  }, {
+    "date" : "2006-03-31",
+    "sales" : 9.33,
+    "salesGrowthYoY" : 9.38,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 9.33,
+    "operatingProfitMargin" : 78.56,
+    "operatingProfit" : 7.33,
+    "netProfitMargin" : 109.86,
+    "netProfit" : 10.25
+  }, {
+    "date" : "2006-06-30",
+    "sales" : 9.11,
+    "salesGrowthYoY" : 109.43,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 9.11,
+    "operatingProfitMargin" : 84.30,
+    "operatingProfit" : 7.68,
+    "netProfitMargin" : 128.54,
+    "netProfit" : 11.71
+  }, {
+    "date" : "2006-09-30",
+    "sales" : 16.50,
+    "salesGrowthYoY" : 56.25,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 16.50,
+    "operatingProfitMargin" : 86.36,
+    "operatingProfit" : 14.25,
+    "netProfitMargin" : 59.94,
+    "netProfit" : 9.89
+  }, {
+    "date" : "2006-12-31",
+    "sales" : 24.71,
+    "salesGrowthYoY" : 93.80,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 24.71,
+    "operatingProfitMargin" : 85.75,
+    "operatingProfit" : 21.19,
+    "netProfitMargin" : 58.52,
+    "netProfit" : 14.46
+  }, {
+    "date" : "2007-03-31",
+    "sales" : 210.47,
+    "salesGrowthYoY" : 2155.84,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 210.47,
+    "operatingProfitMargin" : 13.91,
+    "operatingProfit" : 29.28,
+    "netProfitMargin" : 7.63,
+    "netProfit" : 16.06
+  }, {
+    "date" : "2007-06-30",
+    "sales" : 73.66,
+    "salesGrowthYoY" : 708.56,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 73.66,
+    "operatingProfitMargin" : 31.82,
+    "operatingProfit" : 23.44,
+    "netProfitMargin" : 20.49,
+    "netProfit" : 15.09
+  }, {
+    "date" : "2007-09-30",
+    "sales" : 119.11,
+    "salesGrowthYoY" : 621.88,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 119.11,
+    "operatingProfitMargin" : 54.38,
+    "operatingProfit" : 64.77,
+    "netProfitMargin" : 38.23,
+    "netProfit" : 45.54
+  }, {
+    "date" : "2007-12-31",
+    "sales" : 231.75,
+    "salesGrowthYoY" : 837.88,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 231.75,
+    "operatingProfitMargin" : 43.69,
+    "operatingProfit" : 101.25,
+    "netProfitMargin" : 27.93,
+    "netProfit" : 64.73
+  }, {
+    "date" : "2008-03-31",
+    "sales" : 222.38,
+    "salesGrowthYoY" : 5.66,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 222.38,
+    "operatingProfitMargin" : 27.99,
+    "operatingProfit" : 62.24,
+    "netProfitMargin" : 14.56,
+    "netProfit" : 32.38
+  }, {
+    "date" : "2008-06-30",
+    "sales" : 168.95,
+    "salesGrowthYoY" : 129.36,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 168.95,
+    "operatingProfitMargin" : 41.22,
+    "operatingProfit" : 69.64,
+    "netProfitMargin" : 24.37,
+    "netProfit" : 41.17
+  }, {
+    "date" : "2008-09-30",
+    "sales" : 163.91,
+    "salesGrowthYoY" : 37.61,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 163.91,
+    "operatingProfitMargin" : 35.48,
+    "operatingProfit" : 58.16,
+    "netProfitMargin" : 19.66,
+    "netProfit" : 32.22
+  }, {
+    "date" : "2008-12-31",
+    "sales" : 131.76,
+    "salesGrowthYoY" : -43.15,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 131.76,
+    "operatingProfitMargin" : 26.51,
+    "operatingProfit" : 34.93,
+    "netProfitMargin" : 15.81,
+    "netProfit" : 20.83
+  }, {
+    "date" : "2009-03-31",
+    "sales" : 106.88,
+    "salesGrowthYoY" : -51.94,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 106.88,
+    "operatingProfitMargin" : 20.63,
+    "operatingProfit" : 22.05,
+    "netProfitMargin" : 10.83,
+    "netProfit" : 11.58
+  }, {
+    "date" : "2009-06-30",
+    "sales" : 187.33,
+    "salesGrowthYoY" : 10.88,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 187.33,
+    "operatingProfitMargin" : 41.53,
+    "operatingProfit" : 77.80,
+    "netProfitMargin" : 23.75,
+    "netProfit" : 44.49
+  }, {
+    "date" : "2009-09-30",
+    "sales" : 179.86,
+    "salesGrowthYoY" : 9.73,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 179.86,
+    "operatingProfitMargin" : 36.31,
+    "operatingProfit" : 65.31,
+    "netProfitMargin" : 19.70,
+    "netProfit" : 35.43
+  }, {
+    "date" : "2009-12-31",
+    "sales" : 188.92,
+    "salesGrowthYoY" : 43.38,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 188.92,
+    "operatingProfitMargin" : 46.71,
+    "operatingProfit" : 88.24,
+    "netProfitMargin" : 27.59,
+    "netProfit" : 52.12
+  }, {
+    "date" : "2010-03-31",
+    "sales" : 164.14,
+    "salesGrowthYoY" : 53.57,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 164.14,
+    "operatingProfitMargin" : 24.53,
+    "operatingProfit" : 40.26,
+    "netProfitMargin" : 12.16,
+    "netProfit" : 19.96
+  }, {
+    "date" : "2010-06-30",
+    "sales" : 166.63,
+    "salesGrowthYoY" : -11.05,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 166.63,
+    "operatingProfitMargin" : 29.61,
+    "operatingProfit" : 49.34,
+    "netProfitMargin" : 15.75,
+    "netProfit" : 26.24
+  }, {
+    "date" : "2010-09-30",
+    "sales" : 186.18,
+    "salesGrowthYoY" : 3.51,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 186.18,
+    "operatingProfitMargin" : 34.46,
+    "operatingProfit" : 64.16,
+    "netProfitMargin" : 21.62,
+    "netProfit" : 40.25
+  }, {
+    "date" : "2010-12-31",
+    "sales" : 207.36,
+    "salesGrowthYoY" : 9.76,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 207.36,
+    "operatingProfitMargin" : 30.05,
+    "operatingProfit" : 62.31,
+    "netProfitMargin" : 18.19,
+    "netProfit" : 37.72
+  }, {
+    "date" : "2011-03-31",
+    "sales" : 169.35,
+    "salesGrowthYoY" : 3.17,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 169.35,
+    "operatingProfitMargin" : 22.08,
+    "operatingProfit" : 37.39,
+    "netProfitMargin" : 10.72,
+    "netProfit" : 18.15
+  }, {
+    "date" : "2011-06-30",
+    "sales" : 152.63,
+    "salesGrowthYoY" : -8.40,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 152.63,
+    "operatingProfitMargin" : 14.96,
+    "operatingProfit" : 22.83,
+    "netProfitMargin" : 3.57,
+    "netProfit" : 5.45
+  }, {
+    "date" : "2011-09-30",
+    "sales" : 142.33,
+    "salesGrowthYoY" : -23.55,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 142.33,
+    "operatingProfitMargin" : 11.51,
+    "operatingProfit" : 16.38,
+    "netProfitMargin" : 3.47,
+    "netProfit" : 4.94
+  }, {
+    "date" : "2011-12-31",
+    "sales" : 149.01,
+    "salesGrowthYoY" : -28.14,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 149.01,
+    "operatingProfitMargin" : 14.35,
+    "operatingProfit" : 21.38,
+    "netProfitMargin" : 6.23,
+    "netProfit" : 9.28
+  }, {
+    "date" : "2012-03-31",
+    "sales" : 159.26,
+    "salesGrowthYoY" : -5.96,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 159.26,
+    "operatingProfitMargin" : 29.32,
+    "operatingProfit" : 46.70,
+    "netProfitMargin" : 19.52,
+    "netProfit" : 31.09
+  }, {
+    "date" : "2012-06-30",
+    "sales" : 120.71,
+    "salesGrowthYoY" : -20.91,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 120.71,
+    "operatingProfitMargin" : 20.26,
+    "operatingProfit" : 24.46,
+    "netProfitMargin" : 11.23,
+    "netProfit" : 13.56
+  }, {
+    "date" : "2012-09-30",
+    "sales" : 123.37,
+    "salesGrowthYoY" : -13.32,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 123.37,
+    "operatingProfitMargin" : 16.89,
+    "operatingProfit" : 20.84,
+    "netProfitMargin" : 10.70,
+    "netProfit" : 13.20
+  }, {
+    "date" : "2012-12-31",
+    "sales" : 123.22,
+    "salesGrowthYoY" : -17.31,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 123.22,
+    "operatingProfitMargin" : 12.64,
+    "operatingProfit" : 15.58,
+    "netProfitMargin" : 6.69,
+    "netProfit" : 8.24
+  }, {
+    "date" : "2013-03-31",
+    "sales" : 180.35,
+    "salesGrowthYoY" : 13.24,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 180.35,
+    "operatingProfitMargin" : 36.33,
+    "operatingProfit" : 65.52,
+    "netProfitMargin" : 33.72,
+    "netProfit" : 60.81
+  }, {
+    "date" : "2013-06-30",
+    "sales" : 0.86,
+    "salesGrowthYoY" : -99.29,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 0.86,
+    "operatingProfitMargin" : -37.21,
+    "operatingProfit" : -0.32,
+    "netProfitMargin" : 1723.26,
+    "netProfit" : 14.82
+  }, {
+    "date" : "2013-09-30",
+    "sales" : 9.04,
+    "salesGrowthYoY" : -92.67,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 9.04,
+    "operatingProfitMargin" : 86.39,
+    "operatingProfit" : 7.81,
+    "netProfitMargin" : 86.17,
+    "netProfit" : 7.79
+  }, {
+    "date" : "2013-12-31",
+    "sales" : 8.82,
+    "salesGrowthYoY" : -92.84,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 8.82,
+    "operatingProfitMargin" : 86.51,
+    "operatingProfit" : 7.63,
+    "netProfitMargin" : 86.28,
+    "netProfit" : 7.61
+  }, {
+    "date" : "2014-03-31",
+    "sales" : 69.45,
+    "salesGrowthYoY" : -61.49,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 69.45,
+    "operatingProfitMargin" : 97.29,
+    "operatingProfit" : 67.57,
+    "netProfitMargin" : 97.26,
+    "netProfit" : 67.55
+  }, {
+    "date" : "2014-06-30",
+    "sales" : 5.02,
+    "salesGrowthYoY" : 483.72,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 5.02,
+    "operatingProfitMargin" : 84.06,
+    "operatingProfit" : 4.22,
+    "netProfitMargin" : 50.20,
+    "netProfit" : 2.52
+  }, {
+    "date" : "2014-09-30",
+    "sales" : 92.69,
+    "salesGrowthYoY" : 925.33,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 92.69,
+    "operatingProfitMargin" : 99.56,
+    "operatingProfit" : 92.28,
+    "netProfitMargin" : 98.67,
+    "netProfit" : 91.46
+  }, {
+    "date" : "2014-12-31",
+    "sales" : 2.69,
+    "salesGrowthYoY" : -69.50,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2.69,
+    "operatingProfitMargin" : 67.29,
+    "operatingProfit" : 1.81,
+    "netProfitMargin" : 44.98,
+    "netProfit" : 1.21
+  }, {
+    "date" : "2015-03-31",
+    "sales" : 8.64,
+    "salesGrowthYoY" : -87.56,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 8.64,
+    "operatingProfitMargin" : 73.26,
+    "operatingProfit" : 6.33,
+    "netProfitMargin" : 35.07,
+    "netProfit" : 3.03
+  }, {
+    "date" : "2015-06-30",
+    "sales" : 49.62,
+    "salesGrowthYoY" : 888.45,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 49.62,
+    "operatingProfitMargin" : 89.30,
+    "operatingProfit" : 44.31,
+    "netProfitMargin" : 78.30,
+    "netProfit" : 38.85
+  }, {
+    "date" : "2015-09-30",
+    "sales" : 28.37,
+    "salesGrowthYoY" : -69.39,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 28.37,
+    "operatingProfitMargin" : 92.88,
+    "operatingProfit" : 26.35,
+    "netProfitMargin" : 82.45,
+    "netProfit" : 23.39
+  }, {
+    "date" : "2015-12-31",
+    "sales" : 83.54,
+    "salesGrowthYoY" : 3005.58,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 83.54,
+    "operatingProfitMargin" : 96.98,
+    "operatingProfit" : 81.02,
+    "netProfitMargin" : 96.30,
+    "netProfit" : 80.45
+  }, {
+    "date" : "2016-03-31",
+    "sales" : 49.89,
+    "salesGrowthYoY" : 477.43,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 49.89,
+    "operatingProfitMargin" : 90.56,
+    "operatingProfit" : 45.18,
+    "netProfitMargin" : 58.73,
+    "netProfit" : 29.30
+  }, {
+    "date" : "2016-06-30",
+    "sales" : 4.60,
+    "salesGrowthYoY" : -90.73,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 4.60,
+    "operatingProfitMargin" : 62.17,
+    "operatingProfit" : 2.86,
+    "netProfitMargin" : 17.17,
+    "netProfit" : 0.79
+  }, {
+    "date" : "2016-09-30",
+    "sales" : 25.04,
+    "salesGrowthYoY" : -11.74,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 25.04,
+    "operatingProfitMargin" : 87.06,
+    "operatingProfit" : 21.80,
+    "netProfitMargin" : 68.81,
+    "netProfit" : 17.23
+  }, {
+    "date" : "2016-12-31",
+    "sales" : 37.05,
+    "salesGrowthYoY" : -55.65,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 37.05,
+    "operatingProfitMargin" : 92.90,
+    "operatingProfit" : 34.42,
+    "netProfitMargin" : 69.91,
+    "netProfit" : 25.90
+  }, {
+    "date" : "2017-03-31",
+    "sales" : 117.11,
+    "salesGrowthYoY" : 134.74,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 117.11,
+    "operatingProfitMargin" : 96.70,
+    "operatingProfit" : 113.25,
+    "netProfitMargin" : 96.87,
+    "netProfit" : 113.44
+  }, {
+    "date" : "2017-06-30",
+    "sales" : 35.85,
+    "salesGrowthYoY" : 679.35,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 35.85,
+    "operatingProfitMargin" : 93.61,
+    "operatingProfit" : 33.56,
+    "netProfitMargin" : 57.68,
+    "netProfit" : 20.68
+  }, {
+    "date" : "2017-09-30",
+    "sales" : 33.75,
+    "salesGrowthYoY" : 34.78,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 33.75,
+    "operatingProfitMargin" : 79.59,
+    "operatingProfit" : 26.86,
+    "netProfitMargin" : 54.22,
+    "netProfit" : 18.30
+  }, {
+    "date" : "2017-12-31",
+    "sales" : 40.12,
+    "salesGrowthYoY" : 8.29,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 40.12,
+    "operatingProfitMargin" : 96.68,
+    "operatingProfit" : 38.79,
+    "netProfitMargin" : 81.75,
+    "netProfit" : 32.80
+  }, {
+    "date" : "2018-03-31",
+    "sales" : 139.09,
+    "salesGrowthYoY" : 18.77,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 139.09,
+    "operatingProfitMargin" : 96.05,
+    "operatingProfit" : 133.60,
+    "netProfitMargin" : 94.79,
+    "netProfit" : 131.84
+  }, {
+    "date" : "2018-06-30",
+    "sales" : 0.00,
+    "salesGrowthYoY" : -100.00,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2018-09-30",
+    "sales" : 0.00,
+    "salesGrowthYoY" : -100.00,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2018-12-31",
+    "sales" : 22.50,
+    "salesGrowthYoY" : -43.92,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 22.50,
+    "operatingProfitMargin" : 98.76,
+    "operatingProfit" : 22.22,
+    "netProfitMargin" : 97.87,
+    "netProfit" : 22.02
+  }, {
+    "date" : "2019-03-31",
+    "sales" : 845.12,
+    "salesGrowthYoY" : 507.61,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 845.12,
+    "operatingProfitMargin" : 53.86,
+    "operatingProfit" : 455.18,
+    "netProfitMargin" : 13.22,
+    "netProfit" : 111.72
+  }, {
+    "date" : "2019-06-30",
+    "sales" : 641.17,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 641.17,
+    "operatingProfitMargin" : 69.63,
+    "operatingProfit" : 446.45,
+    "netProfitMargin" : 12.83,
+    "netProfit" : 82.26
+  }, {
+    "date" : "2019-09-30",
+    "sales" : 580.52,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 580.52,
+    "operatingProfitMargin" : 64.28,
+    "operatingProfit" : 373.16,
+    "netProfitMargin" : -2.79,
+    "netProfit" : -16.20
+  }, {
+    "date" : "2019-12-31",
+    "sales" : 624.80,
+    "salesGrowthYoY" : 2676.89,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 624.80,
+    "operatingProfitMargin" : 67.02,
+    "operatingProfit" : 418.74,
+    "netProfitMargin" : 10.05,
+    "netProfit" : 62.79
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 775.44,
+    "salesGrowthYoY" : -8.24,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 775.44,
+    "operatingProfitMargin" : 39.60,
+    "operatingProfit" : 307.07,
+    "netProfitMargin" : 2.15,
+    "netProfit" : 16.67
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 731.66,
+    "salesGrowthYoY" : 14.11,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 731.66,
+    "operatingProfitMargin" : 58.48,
+    "operatingProfit" : 427.87,
+    "netProfitMargin" : -4.85,
+    "netProfit" : -35.49
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 830.71,
+    "salesGrowthYoY" : 43.10,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 830.71,
+    "operatingProfitMargin" : 51.13,
+    "operatingProfit" : 424.74,
+    "netProfitMargin" : 4.97,
+    "netProfit" : 41.29
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 859.09,
+    "salesGrowthYoY" : 37.50,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 859.09,
+    "operatingProfitMargin" : 61.06,
+    "operatingProfit" : 524.56,
+    "netProfitMargin" : 14.66,
+    "netProfit" : 125.94
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 975.80,
+    "salesGrowthYoY" : 25.84,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 975.80,
+    "operatingProfitMargin" : 61.91,
+    "operatingProfit" : 604.12,
+    "netProfitMargin" : 16.30,
+    "netProfit" : 159.06
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 815.93,
+    "salesGrowthYoY" : 11.52,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 815.93,
+    "operatingProfitMargin" : 68.96,
+    "operatingProfit" : 562.67,
+    "netProfitMargin" : 12.70,
+    "netProfit" : 103.62
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 1022.94,
+    "salesGrowthYoY" : 23.14,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1022.94,
+    "operatingProfitMargin" : 65.83,
+    "operatingProfit" : 673.40,
+    "netProfitMargin" : 18.08,
+    "netProfit" : 184.95
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 1168.61,
+    "salesGrowthYoY" : 36.03,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1168.61,
+    "operatingProfitMargin" : 63.24,
+    "operatingProfit" : 739.03,
+    "netProfitMargin" : 19.37,
+    "netProfit" : 226.36
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 1070.23,
+    "salesGrowthYoY" : 9.68,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1070.23,
+    "operatingProfitMargin" : 64.23,
+    "operatingProfit" : 687.41,
+    "netProfitMargin" : 21.55,
+    "netProfit" : 230.63
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 963.46,
+    "salesGrowthYoY" : 18.08,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 963.46,
+    "operatingProfitMargin" : 62.39,
+    "operatingProfit" : 601.10,
+    "netProfitMargin" : 16.28,
+    "netProfit" : 156.85
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 1039.68,
+    "salesGrowthYoY" : 1.64,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1039.68,
+    "operatingProfitMargin" : 64.94,
+    "operatingProfit" : 675.17,
+    "netProfitMargin" : 21.21,
+    "netProfit" : 220.52
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 984.85,
+    "salesGrowthYoY" : -15.72,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 984.85,
+    "operatingProfitMargin" : 61.70,
+    "operatingProfit" : 607.65,
+    "netProfitMargin" : 16.15,
+    "netProfit" : 159.05
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 1070.19,
+    "salesGrowthYoY" : -0.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1070.19,
+    "operatingProfitMargin" : 66.24,
+    "operatingProfit" : 708.89,
+    "netProfitMargin" : 25.15,
+    "netProfit" : 269.15
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 1012.25,
+    "salesGrowthYoY" : 5.06,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1012.25,
+    "operatingProfitMargin" : 60.36,
+    "operatingProfit" : 610.99,
+    "netProfitMargin" : 14.96,
+    "netProfit" : 151.43
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 1057.04,
+    "salesGrowthYoY" : 1.67,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1057.04,
+    "operatingProfitMargin" : 56.95,
+    "operatingProfit" : 601.98,
+    "netProfitMargin" : 12.93,
+    "netProfit" : 136.68
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 1158.78,
+    "salesGrowthYoY" : 17.66,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1158.78,
+    "operatingProfitMargin" : 55.18,
+    "operatingProfit" : 639.41,
+    "netProfitMargin" : 11.36,
+    "netProfit" : 131.64
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 1385.75,
+    "salesGrowthYoY" : 29.49,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1385.75,
+    "operatingProfitMargin" : 48.34,
+    "operatingProfit" : 669.87,
+    "netProfitMargin" : 11.91,
+    "netProfit" : 165.04
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 1019.43,
+    "salesGrowthYoY" : 0.71,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1019.43,
+    "operatingProfitMargin" : 42.82,
+    "operatingProfit" : 436.52,
+    "netProfitMargin" : -2.22,
+    "netProfit" : -22.63
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 983.52,
+    "salesGrowthYoY" : -6.96,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 983.52,
+    "operatingProfitMargin" : 41.83,
+    "operatingProfit" : 411.41,
+    "netProfitMargin" : 11.50,
+    "netProfit" : 113.10
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 939.92,
+    "salesGrowthYoY" : -18.89,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 939.92,
+    "operatingProfitMargin" : 51.34,
+    "operatingProfit" : 482.55,
+    "netProfitMargin" : 1.70,
+    "netProfit" : 15.98
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 1138.33,
+    "salesGrowthYoY" : -17.85,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1138.33,
+    "operatingProfitMargin" : 59.47,
+    "operatingProfit" : 676.96,
+    "netProfitMargin" : 3.38,
+    "netProfit" : 38.48
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 1479.17,
+    "salesGrowthYoY" : 45.10,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1479.17,
+    "operatingProfitMargin" : 61.37,
+    "operatingProfit" : 907.77,
+    "netProfitMargin" : 8.98,
+    "netProfit" : 132.83
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 1763.22,
+    "salesGrowthYoY" : 79.28,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1763.22,
+    "operatingProfitMargin" : 60.90,
+    "operatingProfit" : 1073.80,
+    "netProfitMargin" : 11.95,
+    "netProfit" : 210.70
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 1763.22,
+    "salesGrowthYoY" : 79.28,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1763.22,
+    "operatingProfitMargin" : 60.90,
+    "operatingProfit" : 1073.80,
+    "netProfitMargin" : 11.95,
+    "netProfit" : 210.70
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.72,
+    "pricePercentageAboveDma100" : 4.47,
+    "pricePercentageAboveDma200" : 4.17,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 15.44,
+    "operatingProfitMarginPercentile" : 14.35,
+    "netProfitMarginPercentile" : 2.89,
+    "totalTechnicalScore" : 43.36,
+    "totalFundamentalScore" : 32.68,
+    "totalScore" : 76.04
+  }
 }

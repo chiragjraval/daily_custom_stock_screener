@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284569",
-    "company_code" : "GANDHAR",
-    "company_name" : "Gandhar Oil Ref.",
-    "screener_company_link" : "https://www.screener.in/company/GANDHAR",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284569/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284569/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284569",
+    "companyCode" : "GANDHAR",
+    "companyName" : "Gandhar Oil Ref.",
+    "screenerCompanyLink" : "https://www.screener.in/company/GANDHAR",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284569/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284569/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "GANDHAR",
+      "companyName" : "Gandhar Oil Ref.",
+      "marketCap" : 1297.00,
+      "peRatio" : 15.00,
+      "description" : "Incorporated in 1992, Gandhar Oil Limited is a prominent manufacturer of white oils that caters to the consumer and healthcare end industries.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.29,
+      "pricePercentageAboveDma100" : 5.58,
+      "pricePercentageAboveDma200" : 5.84,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 11.25,
+      "operatingProfitMarginPercentile" : 13.33,
+      "netProfitMarginPercentile" : 6.67,
+      "totalTechnicalScore" : 16.71,
+      "totalFundamentalScore" : 31.25,
+      "totalScore" : 47.96
+    }
   },
   "attributes" : {
-    "company_code" : "GANDHAR",
-    "company_name" : "Gandhar Oil Ref.",
-    "market_cap" : 1308.00,
-    "pe_ratio" : 15.10,
+    "companyCode" : "GANDHAR",
+    "companyName" : "Gandhar Oil Ref.",
+    "marketCap" : 1297.00,
+    "peRatio" : 15.00,
     "description" : "Incorporated in 1992, Gandhar Oil Limited is a prominent manufacturer of white oils that caters to the consumer and healthcare end industries.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 206.83,
     "dma50" : 216.66,
@@ -1752,10 +1777,168 @@
     "volume" : 140494.00
   }, {
     "date" : "2025-11-24",
-    "price" : 133.79,
-    "dma50" : 140.83,
-    "dma100" : 149.78,
-    "dma200" : 159.22,
-    "volume" : 68309.00
-  } ]
+    "price" : 132.50,
+    "dma50" : 140.78,
+    "dma100" : 149.77,
+    "dma200" : 159.21,
+    "volume" : 113739.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 132.50,
+    "dma50" : 140.78,
+    "dma100" : 149.77,
+    "dma200" : 159.21,
+    "volume" : 113739.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2022-12-31",
+    "sales" : 793.74,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 11.54,
+    "grossProfit" : 91.60,
+    "operatingProfitMargin" : 6.68,
+    "operatingProfit" : 53.02,
+    "netProfitMargin" : 4.86,
+    "netProfit" : 38.58
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 647.32,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 12.39,
+    "grossProfit" : 80.20,
+    "operatingProfitMargin" : 4.35,
+    "operatingProfit" : 28.16,
+    "netProfitMargin" : 2.53,
+    "netProfit" : 16.38
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 697.82,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 13.02,
+    "grossProfit" : 90.86,
+    "operatingProfitMargin" : 8.55,
+    "operatingProfit" : 59.66,
+    "netProfitMargin" : 5.52,
+    "netProfit" : 38.52
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 690.06,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 12.79,
+    "grossProfit" : 88.26,
+    "operatingProfitMargin" : 7.65,
+    "operatingProfit" : 52.79,
+    "netProfitMargin" : 4.41,
+    "netProfit" : 30.43
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 736.58,
+    "salesGrowthYoY" : -7.20,
+    "grossProfitMargin" : 14.73,
+    "grossProfit" : 108.50,
+    "operatingProfitMargin" : 9.63,
+    "operatingProfit" : 70.93,
+    "netProfitMargin" : 5.92,
+    "netProfit" : 43.61
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 717.28,
+    "salesGrowthYoY" : 10.81,
+    "grossProfitMargin" : 11.14,
+    "grossProfit" : 79.90,
+    "operatingProfitMargin" : 2.31,
+    "operatingProfit" : 16.57,
+    "netProfitMargin" : 0.85,
+    "netProfit" : 6.10
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 790.29,
+    "salesGrowthYoY" : 13.25,
+    "grossProfitMargin" : 11.17,
+    "grossProfit" : 88.28,
+    "operatingProfitMargin" : 6.45,
+    "operatingProfit" : 50.97,
+    "netProfitMargin" : 3.67,
+    "netProfit" : 29.00
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 761.25,
+    "salesGrowthYoY" : 10.32,
+    "grossProfitMargin" : 10.48,
+    "grossProfit" : 79.78,
+    "operatingProfitMargin" : 4.55,
+    "operatingProfit" : 34.64,
+    "netProfitMargin" : 2.40,
+    "netProfit" : 18.27
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 856.97,
+    "salesGrowthYoY" : 16.34,
+    "grossProfitMargin" : 9.78,
+    "grossProfit" : 83.81,
+    "operatingProfitMargin" : 3.91,
+    "operatingProfit" : 33.51,
+    "netProfitMargin" : 2.04,
+    "netProfit" : 17.48
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 751.75,
+    "salesGrowthYoY" : 4.81,
+    "grossProfitMargin" : 12.52,
+    "grossProfit" : 94.12,
+    "operatingProfitMargin" : 3.52,
+    "operatingProfit" : 26.46,
+    "netProfitMargin" : 1.40,
+    "netProfit" : 10.52
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 745.44,
+    "salesGrowthYoY" : -5.68,
+    "grossProfitMargin" : 11.19,
+    "grossProfit" : 83.41,
+    "operatingProfitMargin" : 5.46,
+    "operatingProfit" : 40.70,
+    "netProfitMargin" : 3.52,
+    "netProfit" : 26.24
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 807.27,
+    "salesGrowthYoY" : 6.05,
+    "grossProfitMargin" : 11.47,
+    "grossProfit" : 92.59,
+    "operatingProfitMargin" : 6.46,
+    "operatingProfit" : 52.15,
+    "netProfitMargin" : 3.99,
+    "netProfit" : 32.21
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 807.27,
+    "salesGrowthYoY" : 6.05,
+    "grossProfitMargin" : 11.47,
+    "grossProfit" : 92.59,
+    "operatingProfitMargin" : 6.46,
+    "operatingProfit" : 52.15,
+    "netProfitMargin" : 3.99,
+    "netProfit" : 32.21
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.29,
+    "pricePercentageAboveDma100" : 5.58,
+    "pricePercentageAboveDma200" : 5.84,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 11.25,
+    "operatingProfitMarginPercentile" : 13.33,
+    "netProfitMarginPercentile" : 6.67,
+    "totalTechnicalScore" : 16.71,
+    "totalFundamentalScore" : 31.25,
+    "totalScore" : 47.96
+  }
 }

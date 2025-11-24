@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274774",
-    "company_code" : "MAXHEALTH",
-    "company_name" : "Max Healthcare",
-    "screener_company_link" : "https://www.screener.in/company/MAXHEALTH",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274774/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274774/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274774",
+    "companyCode" : "MAXHEALTH",
+    "companyName" : "Max Healthcare",
+    "screenerCompanyLink" : "https://www.screener.in/company/MAXHEALTH",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274774/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274774/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "MAXHEALTH",
+      "companyName" : "Max Healthcare",
+      "marketCap" : 112522.00,
+      "peRatio" : 162.00,
+      "description" : "Max Healthcare Institute Limited is primarily engaged in the providing healthcare services through primary care clinics, multi-speciality hospitals / medical centres and super-speciality hospitals providing operation and management, medical services, clinical, radiology, pathology services and related healthcare services. [1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.01,
+      "pricePercentageAboveDma100" : 5.16,
+      "pricePercentageAboveDma200" : 4.93,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 2.86,
+      "operatingProfitMarginPercentile" : 18.82,
+      "netProfitMarginPercentile" : 7.22,
+      "totalTechnicalScore" : 35.10,
+      "totalFundamentalScore" : 28.90,
+      "totalScore" : 64.00
+    }
   },
   "attributes" : {
-    "company_code" : "MAXHEALTH",
-    "company_name" : "Max Healthcare",
-    "market_cap" : 113621.00,
-    "pe_ratio" : 164.00,
+    "companyCode" : "MAXHEALTH",
+    "companyName" : "Max Healthcare",
+    "marketCap" : 112522.00,
+    "peRatio" : 162.00,
     "description" : "Max Healthcare Institute Limited is primarily engaged in the providing healthcare services through primary care clinics, multi-speciality hospitals / medical centres and super-speciality hospitals providing operation and management, medical services, clinical, radiology, pathology services and related healthcare services. [1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 971.75,
     "dma50" : 976.49,
@@ -1752,10 +1777,298 @@
     "volume" : 2295612.00
   }, {
     "date" : "2025-11-24",
-    "price" : 1164.70,
-    "dma50" : 1156.18,
-    "dma100" : 1192.83,
-    "dma200" : 1138.92,
-    "volume" : 765343.00
-  } ]
+    "price" : 1154.40,
+    "dma50" : 1155.78,
+    "dma100" : 1192.73,
+    "dma200" : 1138.81,
+    "volume" : 1675022.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 1154.40,
+    "dma50" : 1155.78,
+    "dma100" : 1192.73,
+    "dma200" : 1138.81,
+    "volume" : 1675022.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2019-09-30",
+    "sales" : 18.27,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 18.27,
+    "operatingProfitMargin" : 40.56,
+    "operatingProfit" : 7.41,
+    "netProfitMargin" : 26.60,
+    "netProfit" : 4.86
+  }, {
+    "date" : "2019-12-31",
+    "sales" : 17.20,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 17.20,
+    "operatingProfitMargin" : 20.12,
+    "operatingProfit" : 3.46,
+    "netProfitMargin" : -7.56,
+    "netProfit" : -1.30
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 9.64,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 9.64,
+    "operatingProfitMargin" : -155.91,
+    "operatingProfit" : -15.03,
+    "netProfitMargin" : -118.26,
+    "netProfit" : -11.40
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 71.92,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 74.65,
+    "grossProfit" : 53.69,
+    "operatingProfitMargin" : -9.18,
+    "operatingProfit" : -6.60,
+    "netProfitMargin" : -9.09,
+    "netProfit" : -6.54
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 281.93,
+    "salesGrowthYoY" : 1443.13,
+    "grossProfitMargin" : 74.31,
+    "grossProfit" : 209.50,
+    "operatingProfitMargin" : 18.42,
+    "operatingProfit" : 51.93,
+    "netProfitMargin" : 4.96,
+    "netProfit" : 13.98
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 346.13,
+    "salesGrowthYoY" : 1912.38,
+    "grossProfitMargin" : 76.31,
+    "grossProfit" : 264.13,
+    "operatingProfitMargin" : 18.13,
+    "operatingProfit" : 62.75,
+    "netProfitMargin" : 9.12,
+    "netProfit" : 31.57
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 330.80,
+    "salesGrowthYoY" : 3331.54,
+    "grossProfitMargin" : 78.12,
+    "grossProfit" : 258.42,
+    "operatingProfitMargin" : 15.97,
+    "operatingProfit" : 52.83,
+    "netProfitMargin" : 2.19,
+    "netProfit" : 7.24
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 500.21,
+    "salesGrowthYoY" : 595.51,
+    "grossProfitMargin" : 68.51,
+    "grossProfit" : 342.69,
+    "operatingProfitMargin" : 24.74,
+    "operatingProfit" : 123.75,
+    "netProfitMargin" : 17.58,
+    "netProfit" : 87.94
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 462.30,
+    "salesGrowthYoY" : 63.98,
+    "grossProfitMargin" : 74.13,
+    "grossProfit" : 342.70,
+    "operatingProfitMargin" : 23.67,
+    "operatingProfit" : 109.43,
+    "netProfitMargin" : 16.12,
+    "netProfit" : 74.52
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 397.72,
+    "salesGrowthYoY" : 14.90,
+    "grossProfitMargin" : 79.04,
+    "grossProfit" : 314.36,
+    "operatingProfitMargin" : 26.05,
+    "operatingProfit" : 103.61,
+    "netProfitMargin" : 26.10,
+    "netProfit" : 103.80
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 393.40,
+    "salesGrowthYoY" : 18.92,
+    "grossProfitMargin" : 79.04,
+    "grossProfit" : 310.94,
+    "operatingProfitMargin" : 24.34,
+    "operatingProfit" : 95.75,
+    "netProfitMargin" : 16.93,
+    "netProfit" : 66.60
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 439.79,
+    "salesGrowthYoY" : -12.08,
+    "grossProfitMargin" : 81.55,
+    "grossProfit" : 358.65,
+    "operatingProfitMargin" : 27.96,
+    "operatingProfit" : 122.97,
+    "netProfitMargin" : 19.82,
+    "netProfit" : 87.17
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 474.14,
+    "salesGrowthYoY" : 2.56,
+    "grossProfitMargin" : 81.82,
+    "grossProfit" : 387.94,
+    "operatingProfitMargin" : 32.13,
+    "operatingProfit" : 152.34,
+    "netProfitMargin" : 75.64,
+    "netProfit" : 358.64
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 482.16,
+    "salesGrowthYoY" : 21.23,
+    "grossProfitMargin" : 81.64,
+    "grossProfit" : 393.64,
+    "operatingProfitMargin" : 31.88,
+    "operatingProfit" : 153.71,
+    "netProfitMargin" : 25.33,
+    "netProfit" : 122.13
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 507.32,
+    "salesGrowthYoY" : 28.96,
+    "grossProfitMargin" : 81.62,
+    "grossProfit" : 414.07,
+    "operatingProfitMargin" : 30.32,
+    "operatingProfit" : 153.82,
+    "netProfitMargin" : 24.91,
+    "netProfit" : 126.37
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 543.63,
+    "salesGrowthYoY" : 23.61,
+    "grossProfitMargin" : 80.43,
+    "grossProfit" : 437.24,
+    "operatingProfitMargin" : 29.36,
+    "operatingProfit" : 159.61,
+    "netProfitMargin" : 23.19,
+    "netProfit" : 126.07
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 596.87,
+    "salesGrowthYoY" : 25.88,
+    "grossProfitMargin" : 81.81,
+    "grossProfit" : 488.30,
+    "operatingProfitMargin" : 33.98,
+    "operatingProfit" : 202.82,
+    "netProfitMargin" : 27.03,
+    "netProfit" : 161.33
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 590.75,
+    "salesGrowthYoY" : 22.52,
+    "grossProfitMargin" : 82.77,
+    "grossProfit" : 488.96,
+    "operatingProfitMargin" : 33.88,
+    "operatingProfit" : 200.15,
+    "netProfitMargin" : 26.77,
+    "netProfit" : 158.14
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 610.11,
+    "salesGrowthYoY" : 20.26,
+    "grossProfitMargin" : 81.25,
+    "grossProfit" : 495.71,
+    "operatingProfitMargin" : 33.35,
+    "operatingProfit" : 203.47,
+    "netProfitMargin" : 39.63,
+    "netProfit" : 241.79
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 621.39,
+    "salesGrowthYoY" : 14.30,
+    "grossProfitMargin" : 81.13,
+    "grossProfit" : 504.13,
+    "operatingProfitMargin" : 31.88,
+    "operatingProfit" : 198.10,
+    "netProfitMargin" : 24.81,
+    "netProfit" : 154.17
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 686.11,
+    "salesGrowthYoY" : 14.95,
+    "grossProfitMargin" : 80.11,
+    "grossProfit" : 549.64,
+    "operatingProfitMargin" : 32.75,
+    "operatingProfit" : 224.70,
+    "netProfitMargin" : 33.71,
+    "netProfit" : 231.29
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 697.40,
+    "salesGrowthYoY" : 18.05,
+    "grossProfitMargin" : 80.07,
+    "grossProfit" : 558.41,
+    "operatingProfitMargin" : 33.85,
+    "operatingProfit" : 236.07,
+    "netProfitMargin" : 27.19,
+    "netProfit" : 189.62
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 658.70,
+    "salesGrowthYoY" : 7.96,
+    "grossProfitMargin" : 77.67,
+    "grossProfit" : 511.61,
+    "operatingProfitMargin" : 26.51,
+    "operatingProfit" : 174.62,
+    "netProfitMargin" : 26.93,
+    "netProfit" : 177.39
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 694.02,
+    "salesGrowthYoY" : 11.69,
+    "grossProfitMargin" : 77.26,
+    "grossProfit" : 536.20,
+    "operatingProfitMargin" : 27.05,
+    "operatingProfit" : 187.73,
+    "netProfitMargin" : 23.92,
+    "netProfit" : 166.01
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 736.62,
+    "salesGrowthYoY" : 7.36,
+    "grossProfitMargin" : 77.45,
+    "grossProfit" : 570.51,
+    "operatingProfitMargin" : 29.01,
+    "operatingProfit" : 213.69,
+    "netProfitMargin" : 21.78,
+    "netProfit" : 160.44
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 736.62,
+    "salesGrowthYoY" : 7.36,
+    "grossProfitMargin" : 77.45,
+    "grossProfit" : 570.51,
+    "operatingProfitMargin" : 29.01,
+    "operatingProfit" : 213.69,
+    "netProfitMargin" : 21.78,
+    "netProfit" : 160.44
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.01,
+    "pricePercentageAboveDma100" : 5.16,
+    "pricePercentageAboveDma200" : 4.93,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 2.86,
+    "operatingProfitMarginPercentile" : 18.82,
+    "netProfitMarginPercentile" : 7.22,
+    "totalTechnicalScore" : 35.10,
+    "totalFundamentalScore" : 28.90,
+    "totalScore" : 64.00
+  }
 }

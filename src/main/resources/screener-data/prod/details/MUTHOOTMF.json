@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284605",
-    "company_code" : "MUTHOOTMF",
-    "company_name" : "Muthoot Microfin",
-    "screener_company_link" : "https://www.screener.in/company/MUTHOOTMF",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284605/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284605/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284605",
+    "companyCode" : "MUTHOOTMF",
+    "companyName" : "Muthoot Microfin",
+    "screenerCompanyLink" : "https://www.screener.in/company/MUTHOOTMF",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284605/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284605/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "MUTHOOTMF",
+      "companyName" : "Muthoot Microfin",
+      "marketCap" : 3076.00,
+      "peRatio" : null,
+      "description" : "Founded in April 1992, Muthoot Microfin Limited, a subsidiary of Muthoot Pappachan Group, provides micro-loans to female customers with a focus on rural regions in India[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 4.59,
+      "pricePercentageAboveDma100" : 4.49,
+      "pricePercentageAboveDma200" : 4.50,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 6.67,
+      "operatingProfitMarginPercentile" : 16.05,
+      "netProfitMarginPercentile" : 8.26,
+      "totalTechnicalScore" : 43.58,
+      "totalFundamentalScore" : 30.98,
+      "totalScore" : 74.57
+    }
   },
   "attributes" : {
-    "company_code" : "MUTHOOTMF",
-    "company_name" : "Muthoot Microfin",
-    "market_cap" : 2941.00,
-    "pe_ratio" : null,
+    "companyCode" : "MUTHOOTMF",
+    "companyName" : "Muthoot Microfin",
+    "marketCap" : 3076.00,
+    "peRatio" : null,
     "description" : "Founded in April 1992, Muthoot Microfin Limited, a subsidiary of Muthoot Pappachan Group, provides micro-loans to female customers with a focus on rural regions in India[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 187.12,
     "dma50" : 208.61,
@@ -1752,10 +1777,178 @@
     "volume" : 147963.00
   }, {
     "date" : "2025-11-24",
-    "price" : 171.48,
-    "dma50" : 166.52,
-    "dma100" : 163.59,
-    "dma200" : 163.87,
-    "volume" : 81556.00
-  } ]
+    "price" : 180.40,
+    "dma50" : 166.87,
+    "dma100" : 163.68,
+    "dma200" : 163.96,
+    "volume" : 4402775.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 180.40,
+    "dma50" : 166.87,
+    "dma100" : 163.68,
+    "dma200" : 163.96,
+    "volume" : 4402775.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2022-09-30",
+    "sales" : 333.68,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 333.68,
+    "operatingProfitMargin" : 38.06,
+    "operatingProfit" : 127.00,
+    "netProfitMargin" : 1.36,
+    "netProfit" : 4.54
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 380.18,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 380.18,
+    "operatingProfitMargin" : 60.07,
+    "operatingProfit" : 228.37,
+    "netProfitMargin" : 14.96,
+    "netProfit" : 56.87
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 443.84,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 443.84,
+    "operatingProfitMargin" : 67.08,
+    "operatingProfit" : 297.73,
+    "netProfitMargin" : 21.30,
+    "netProfit" : 94.54
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 478.70,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 478.70,
+    "operatingProfitMargin" : 68.69,
+    "operatingProfit" : 328.82,
+    "netProfitMargin" : 19.99,
+    "netProfit" : 95.69
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 563.63,
+    "salesGrowthYoY" : 68.91,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 563.63,
+    "operatingProfitMargin" : 66.41,
+    "operatingProfit" : 374.31,
+    "netProfitMargin" : 19.44,
+    "netProfit" : 109.57
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 576.76,
+    "salesGrowthYoY" : 51.71,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 576.76,
+    "operatingProfitMargin" : 63.86,
+    "operatingProfit" : 368.32,
+    "netProfitMargin" : 21.60,
+    "netProfit" : 124.58
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 643.22,
+    "salesGrowthYoY" : 44.92,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 643.22,
+    "operatingProfitMargin" : 64.67,
+    "operatingProfit" : 415.97,
+    "netProfitMargin" : 18.62,
+    "netProfit" : 119.77
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 663.47,
+    "salesGrowthYoY" : 38.60,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 663.47,
+    "operatingProfitMargin" : 58.81,
+    "operatingProfit" : 390.19,
+    "netProfitMargin" : 17.06,
+    "netProfit" : 113.19
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 662.41,
+    "salesGrowthYoY" : 17.53,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 662.41,
+    "operatingProfitMargin" : 49.59,
+    "operatingProfit" : 328.49,
+    "netProfitMargin" : 9.30,
+    "netProfit" : 61.60
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 680.78,
+    "salesGrowthYoY" : 18.04,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 680.78,
+    "operatingProfitMargin" : 37.11,
+    "operatingProfit" : 252.64,
+    "netProfitMargin" : 0.56,
+    "netProfit" : 3.81
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 555.03,
+    "salesGrowthYoY" : -13.71,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 555.03,
+    "operatingProfitMargin" : -52.25,
+    "operatingProfit" : -290.00,
+    "netProfitMargin" : -72.28,
+    "netProfit" : -401.18
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 558.62,
+    "salesGrowthYoY" : -15.80,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 558.62,
+    "operatingProfitMargin" : 40.47,
+    "operatingProfit" : 226.07,
+    "netProfitMargin" : 1.11,
+    "netProfit" : 6.20
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 576.33,
+    "salesGrowthYoY" : -12.99,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 576.33,
+    "operatingProfitMargin" : 44.83,
+    "operatingProfit" : 258.37,
+    "netProfitMargin" : 5.30,
+    "netProfit" : 30.55
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 576.33,
+    "salesGrowthYoY" : -12.99,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 576.33,
+    "operatingProfitMargin" : 44.83,
+    "operatingProfit" : 258.37,
+    "netProfitMargin" : 5.30,
+    "netProfit" : 30.55
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 4.59,
+    "pricePercentageAboveDma100" : 4.49,
+    "pricePercentageAboveDma200" : 4.50,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 6.67,
+    "operatingProfitMarginPercentile" : 16.05,
+    "netProfitMarginPercentile" : 8.26,
+    "totalTechnicalScore" : 43.58,
+    "totalFundamentalScore" : 30.98,
+    "totalScore" : 74.57
+  }
 }

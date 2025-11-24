@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285236",
-    "company_code" : "STALLION",
-    "company_name" : "Stallion India",
-    "screener_company_link" : "https://www.screener.in/company/STALLION",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285236/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285236/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285236",
+    "companyCode" : "STALLION",
+    "companyName" : "Stallion India",
+    "screenerCompanyLink" : "https://www.screener.in/company/STALLION",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285236/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285236/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "STALLION",
+      "companyName" : "Stallion India",
+      "marketCap" : 1490.00,
+      "peRatio" : 33.20,
+      "description" : "Incorporated in 2002, Stallion India Fluorochemicals Limited is engaged in selling Refrigerant and Industrial Gases and related products.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 6.09,
+      "pricePercentageAboveDma100" : 5.22,
+      "pricePercentageAboveDma200" : 4.47,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 16.96,
+      "netProfitMarginPercentile" : 9.33,
+      "totalTechnicalScore" : 35.78,
+      "totalFundamentalScore" : 46.29,
+      "totalScore" : 82.07
+    }
   },
   "attributes" : {
-    "company_code" : "STALLION",
-    "company_name" : "Stallion India",
-    "market_cap" : 1490.00,
-    "pe_ratio" : 33.20,
+    "companyCode" : "STALLION",
+    "companyName" : "Stallion India",
+    "marketCap" : 1490.00,
+    "peRatio" : 33.20,
     "description" : "Incorporated in 2002, Stallion India Fluorochemicals Limited is engaged in selling Refrigerant and Industrial Gases and related products.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-01-23",
     "price" : 126.00,
     "dma50" : 126.00,
@@ -1462,6 +1487,104 @@
     "dma50" : 239.50,
     "dma100" : 195.75,
     "dma200" : 169.26,
-    "volume" : 267855.00
-  } ]
+    "volume" : 288256.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 187.25,
+    "dma50" : 239.50,
+    "dma100" : 195.75,
+    "dma200" : 169.26,
+    "volume" : 288256.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-06-30",
+    "sales" : 73.17,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 22.52,
+    "grossProfit" : 16.48,
+    "operatingProfitMargin" : 16.89,
+    "operatingProfit" : 12.36,
+    "netProfitMargin" : 11.51,
+    "netProfit" : 8.42
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 67.56,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 27.25,
+    "grossProfit" : 18.41,
+    "operatingProfitMargin" : 2.86,
+    "operatingProfit" : 1.93,
+    "netProfitMargin" : 1.26,
+    "netProfit" : 0.85
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 85.15,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 26.72,
+    "grossProfit" : 22.75,
+    "operatingProfitMargin" : 16.83,
+    "operatingProfit" : 14.33,
+    "netProfitMargin" : 11.50,
+    "netProfit" : 9.79
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 151.57,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 21.46,
+    "grossProfit" : 32.53,
+    "operatingProfitMargin" : 12.35,
+    "operatingProfit" : 18.72,
+    "netProfitMargin" : 8.76,
+    "netProfit" : 13.28
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 110.47,
+    "salesGrowthYoY" : 50.98,
+    "grossProfitMargin" : 20.46,
+    "grossProfit" : 22.60,
+    "operatingProfitMargin" : 12.94,
+    "operatingProfit" : 14.29,
+    "netProfitMargin" : 9.38,
+    "netProfit" : 10.36
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 105.56,
+    "salesGrowthYoY" : 56.25,
+    "grossProfitMargin" : 20.37,
+    "grossProfit" : 21.50,
+    "operatingProfitMargin" : 14.76,
+    "operatingProfit" : 15.58,
+    "netProfitMargin" : 10.82,
+    "netProfit" : 11.42
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 105.56,
+    "salesGrowthYoY" : 56.25,
+    "grossProfitMargin" : 20.37,
+    "grossProfit" : 21.50,
+    "operatingProfitMargin" : 14.76,
+    "operatingProfit" : 15.58,
+    "netProfitMargin" : 10.82,
+    "netProfit" : 11.42
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 6.09,
+    "pricePercentageAboveDma100" : 5.22,
+    "pricePercentageAboveDma200" : 4.47,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 16.96,
+    "netProfitMarginPercentile" : 9.33,
+    "totalTechnicalScore" : 35.78,
+    "totalFundamentalScore" : 46.29,
+    "totalScore" : 82.07
+  }
 }

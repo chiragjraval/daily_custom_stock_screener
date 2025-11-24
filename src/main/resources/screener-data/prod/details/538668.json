@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1070548",
-    "company_code" : "538668",
-    "company_name" : "Meghna Infracon",
-    "screener_company_link" : "https://www.screener.in/company/538668",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1070548/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1070548/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1070548",
+    "companyCode" : "538668",
+    "companyName" : "Meghna Infracon",
+    "screenerCompanyLink" : "https://www.screener.in/company/538668",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1070548/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1070548/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "538668",
+      "companyName" : "Meghna Infracon",
+      "marketCap" : 1164.00,
+      "peRatio" : 119.00,
+      "description" : "Incorporated in 2007, Meghna Infracon Infrastructure Ltd is in the business of builders and running hotels[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.08,
+      "pricePercentageAboveDma100" : 5.16,
+      "pricePercentageAboveDma200" : 4.57,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 13.75,
+      "operatingProfitMarginPercentile" : 1.00,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 29.82,
+      "totalFundamentalScore" : 24.75,
+      "totalScore" : 54.57
+    }
   },
   "attributes" : {
-    "company_code" : "538668",
-    "company_name" : "Meghna Infracon",
-    "market_cap" : 1165.00,
-    "pe_ratio" : 119.00,
+    "companyCode" : "538668",
+    "companyName" : "Meghna Infracon",
+    "marketCap" : 1164.00,
+    "peRatio" : 119.00,
     "description" : "Incorporated in 2007, Meghna Infracon Infrastructure Ltd is in the business of builders and running hotels[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 309.83,
     "dma50" : 294.36,
@@ -1752,10 +1777,248 @@
     "volume" : 25965.00
   }, {
     "date" : "2025-11-24",
-    "price" : 536.45,
-    "dma50" : 544.69,
-    "dma100" : 553.98,
-    "dma200" : 493.61,
-    "volume" : 11033.00
-  } ]
+    "price" : 535.85,
+    "dma50" : 544.66,
+    "dma100" : 553.97,
+    "dma200" : 493.60,
+    "volume" : 24469.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 535.85,
+    "dma50" : 544.66,
+    "dma100" : 553.97,
+    "dma200" : 493.60,
+    "volume" : 24469.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2019-09-30",
+    "sales" : 7.26,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : -1.52,
+    "grossProfit" : -0.11,
+    "operatingProfitMargin" : -5.65,
+    "operatingProfit" : -0.41,
+    "netProfitMargin" : -8.26,
+    "netProfit" : -0.60
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 15.16,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : -1.52,
+    "grossProfit" : -0.23,
+    "operatingProfitMargin" : -4.62,
+    "operatingProfit" : -0.70,
+    "netProfitMargin" : 5.80,
+    "netProfit" : 0.88
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 0.39,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 20.51,
+    "grossProfit" : 0.08,
+    "operatingProfitMargin" : -71.79,
+    "operatingProfit" : -0.28,
+    "netProfitMargin" : 46.15,
+    "netProfit" : 0.18
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 0.82,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 135.37,
+    "grossProfit" : 1.11,
+    "operatingProfitMargin" : 87.80,
+    "operatingProfit" : 0.72,
+    "netProfitMargin" : 28.05,
+    "netProfit" : 0.23
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 3.24,
+    "salesGrowthYoY" : -55.37,
+    "grossProfitMargin" : 0.62,
+    "grossProfit" : 0.02,
+    "operatingProfitMargin" : -8.33,
+    "operatingProfit" : -0.27,
+    "netProfitMargin" : 20.06,
+    "netProfit" : 0.65
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 6.68,
+    "salesGrowthYoY" : -55.94,
+    "grossProfitMargin" : 1.95,
+    "grossProfit" : 0.13,
+    "operatingProfitMargin" : -2.54,
+    "operatingProfit" : -0.17,
+    "netProfitMargin" : -3.59,
+    "netProfit" : -0.24
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 1.08,
+    "salesGrowthYoY" : 176.92,
+    "grossProfitMargin" : 3.70,
+    "grossProfit" : 0.04,
+    "operatingProfitMargin" : -7.41,
+    "operatingProfit" : -0.08,
+    "netProfitMargin" : 12.96,
+    "netProfit" : 0.14
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 3.87,
+    "salesGrowthYoY" : 371.95,
+    "grossProfitMargin" : 9.04,
+    "grossProfit" : 0.35,
+    "operatingProfitMargin" : 2.07,
+    "operatingProfit" : 0.08,
+    "netProfitMargin" : 0.26,
+    "netProfit" : 0.01
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 6.47,
+    "salesGrowthYoY" : 99.69,
+    "grossProfitMargin" : 12.52,
+    "grossProfit" : 0.81,
+    "operatingProfitMargin" : 10.20,
+    "operatingProfit" : 0.66,
+    "netProfitMargin" : 6.18,
+    "netProfit" : 0.40
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 2.58,
+    "salesGrowthYoY" : -61.38,
+    "grossProfitMargin" : -79.46,
+    "grossProfit" : -2.05,
+    "operatingProfitMargin" : -93.80,
+    "operatingProfit" : -2.42,
+    "netProfitMargin" : -91.09,
+    "netProfit" : -2.35
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 14.45,
+    "salesGrowthYoY" : 1237.96,
+    "grossProfitMargin" : 3.74,
+    "grossProfit" : 0.54,
+    "operatingProfitMargin" : 1.94,
+    "operatingProfit" : 0.28,
+    "netProfitMargin" : 1.87,
+    "netProfit" : 0.27
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 21.43,
+    "salesGrowthYoY" : 453.75,
+    "grossProfitMargin" : 8.59,
+    "grossProfit" : 1.84,
+    "operatingProfitMargin" : 7.51,
+    "operatingProfit" : 1.61,
+    "netProfitMargin" : 9.10,
+    "netProfit" : 1.95
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 7.41,
+    "salesGrowthYoY" : 14.53,
+    "grossProfitMargin" : -2.97,
+    "grossProfit" : -0.22,
+    "operatingProfitMargin" : -7.56,
+    "operatingProfit" : -0.56,
+    "netProfitMargin" : 5.40,
+    "netProfit" : 0.40
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 9.49,
+    "salesGrowthYoY" : 267.83,
+    "grossProfitMargin" : 3.16,
+    "grossProfit" : 0.30,
+    "operatingProfitMargin" : -0.63,
+    "operatingProfit" : -0.06,
+    "netProfitMargin" : 5.80,
+    "netProfit" : 0.55
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 5.45,
+    "salesGrowthYoY" : -62.28,
+    "grossProfitMargin" : 5.14,
+    "grossProfit" : 0.28,
+    "operatingProfitMargin" : 0.37,
+    "operatingProfit" : 0.02,
+    "netProfitMargin" : 29.54,
+    "netProfit" : 1.61
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 0.00,
+    "salesGrowthYoY" : -100.00,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 5.21,
+    "salesGrowthYoY" : -29.69,
+    "grossProfitMargin" : 87.91,
+    "grossProfit" : 4.58,
+    "operatingProfitMargin" : 48.75,
+    "operatingProfit" : 2.54,
+    "netProfitMargin" : 65.26,
+    "netProfit" : 3.40
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 3.36,
+    "salesGrowthYoY" : -64.59,
+    "grossProfitMargin" : 10.12,
+    "grossProfit" : 0.34,
+    "operatingProfitMargin" : 8.04,
+    "operatingProfit" : 0.27,
+    "netProfitMargin" : 116.67,
+    "netProfit" : 3.92
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 1.11,
+    "salesGrowthYoY" : -79.63,
+    "grossProfitMargin" : 41.44,
+    "grossProfit" : 0.46,
+    "operatingProfitMargin" : 14.41,
+    "operatingProfit" : 0.16,
+    "netProfitMargin" : 125.23,
+    "netProfit" : 1.39
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 0.14,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : -57.14,
+    "grossProfit" : -0.08,
+    "operatingProfitMargin" : -507.14,
+    "operatingProfit" : -0.71,
+    "netProfitMargin" : 750.00,
+    "netProfit" : 1.05
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 0.14,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : -57.14,
+    "grossProfit" : -0.08,
+    "operatingProfitMargin" : -507.14,
+    "operatingProfit" : -0.71,
+    "netProfitMargin" : 750.00,
+    "netProfit" : 1.05
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.08,
+    "pricePercentageAboveDma100" : 5.16,
+    "pricePercentageAboveDma200" : 4.57,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 13.75,
+    "operatingProfitMarginPercentile" : 1.00,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 29.82,
+    "totalFundamentalScore" : 24.75,
+    "totalScore" : 54.57
+  }
 }

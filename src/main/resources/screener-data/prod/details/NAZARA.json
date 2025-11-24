@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274852",
-    "company_code" : "NAZARA",
-    "company_name" : "Nazara Technolo.",
-    "screener_company_link" : "https://www.screener.in/company/NAZARA",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274852/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274852/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274852",
+    "companyCode" : "NAZARA",
+    "companyName" : "Nazara Technolo.",
+    "screenerCompanyLink" : "https://www.screener.in/company/NAZARA",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274852/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274852/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "NAZARA",
+      "companyName" : "Nazara Technolo.",
+      "marketCap" : 9515.00,
+      "peRatio" : 359.00,
+      "description" : "Nazara Technologies is the leading India based diversified gaming and sports media platform with presence in India and across emerging and developed global markets such as Africa and North America, and offerings across the interactive gaming, eSports and gamified early learning ecosystems."
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.33,
+      "pricePercentageAboveDma100" : 5.71,
+      "pricePercentageAboveDma200" : 5.42,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 18.47,
+      "netProfitMarginPercentile" : 8.75,
+      "totalTechnicalScore" : 21.45,
+      "totalFundamentalScore" : 47.22,
+      "totalScore" : 68.67
+    }
   },
   "attributes" : {
-    "company_code" : "NAZARA",
-    "company_name" : "Nazara Technolo.",
-    "market_cap" : 9541.00,
-    "pe_ratio" : 360.00,
+    "companyCode" : "NAZARA",
+    "companyName" : "Nazara Technolo.",
+    "marketCap" : 9515.00,
+    "peRatio" : 359.00,
     "description" : "Nazara Technologies is the leading India based diversified gaming and sports media platform with presence in India and across emerging and developed global markets such as Africa and North America, and offerings across the interactive gaming, eSports and gamified early learning ecosystems."
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 237.00,
     "dma50" : 231.89,
@@ -1752,10 +1777,278 @@
     "volume" : 1454980.00
   }, {
     "date" : "2025-11-24",
-    "price" : 257.75,
-    "dma50" : 273.49,
-    "dma100" : 297.84,
-    "dma200" : 278.82,
-    "volume" : 114330.00
-  } ]
+    "price" : 255.55,
+    "dma50" : 273.40,
+    "dma100" : 297.82,
+    "dma200" : 278.79,
+    "volume" : 454888.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 255.55,
+    "dma50" : 273.40,
+    "dma100" : 297.82,
+    "dma200" : 278.79,
+    "volume" : 454888.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2020-03-31",
+    "sales" : 13.47,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 13.47,
+    "operatingProfitMargin" : 12.55,
+    "operatingProfit" : 1.69,
+    "netProfitMargin" : 4.45,
+    "netProfit" : 0.60
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 10.40,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 10.40,
+    "operatingProfitMargin" : 34.62,
+    "operatingProfit" : 3.60,
+    "netProfitMargin" : 69.23,
+    "netProfit" : 7.20
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 8.90,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 8.90,
+    "operatingProfitMargin" : 25.84,
+    "operatingProfit" : 2.30,
+    "netProfitMargin" : 10.11,
+    "netProfit" : 0.90
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 7.20,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 7.20,
+    "operatingProfitMargin" : -31.94,
+    "operatingProfit" : -2.30,
+    "netProfitMargin" : -31.94,
+    "netProfit" : -2.30
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 6.40,
+    "salesGrowthYoY" : -52.49,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 6.40,
+    "operatingProfitMargin" : -125.00,
+    "operatingProfit" : -8.00,
+    "netProfitMargin" : -87.50,
+    "netProfit" : -5.60
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 6.40,
+    "salesGrowthYoY" : -38.46,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 6.40,
+    "operatingProfitMargin" : -109.38,
+    "operatingProfit" : -7.00,
+    "netProfitMargin" : -75.00,
+    "netProfit" : -4.80
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 4.20,
+    "salesGrowthYoY" : -52.81,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 4.20,
+    "operatingProfitMargin" : -295.24,
+    "operatingProfit" : -12.40,
+    "netProfitMargin" : -188.10,
+    "netProfit" : -7.90
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 6.30,
+    "salesGrowthYoY" : -12.50,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 6.30,
+    "operatingProfitMargin" : -55.56,
+    "operatingProfit" : -3.50,
+    "netProfitMargin" : -38.10,
+    "netProfit" : -2.40
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 3.50,
+    "salesGrowthYoY" : -45.31,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 3.50,
+    "operatingProfitMargin" : -577.14,
+    "operatingProfit" : -20.20,
+    "netProfitMargin" : -534.29,
+    "netProfit" : -18.70
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 4.68,
+    "salesGrowthYoY" : -26.88,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 4.68,
+    "operatingProfitMargin" : -67.74,
+    "operatingProfit" : -3.17,
+    "netProfitMargin" : 11.75,
+    "netProfit" : 0.55
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 6.30,
+    "salesGrowthYoY" : 50.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 6.30,
+    "operatingProfitMargin" : -350.79,
+    "operatingProfit" : -22.10,
+    "netProfitMargin" : -231.75,
+    "netProfit" : -14.60
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 5.78,
+    "salesGrowthYoY" : -8.25,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 5.78,
+    "operatingProfitMargin" : -64.71,
+    "operatingProfit" : -3.74,
+    "netProfitMargin" : 38.41,
+    "netProfit" : 2.22
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 6.19,
+    "salesGrowthYoY" : 76.86,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 6.19,
+    "operatingProfitMargin" : -256.70,
+    "operatingProfit" : -15.89,
+    "netProfitMargin" : -193.38,
+    "netProfit" : -11.97
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 4.75,
+    "salesGrowthYoY" : 1.50,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 4.75,
+    "operatingProfitMargin" : -78.95,
+    "operatingProfit" : -3.75,
+    "netProfitMargin" : 32.21,
+    "netProfit" : 1.53
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 6.88,
+    "salesGrowthYoY" : 9.21,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 6.88,
+    "operatingProfitMargin" : -69.33,
+    "operatingProfit" : -4.77,
+    "netProfitMargin" : 7.99,
+    "netProfit" : 0.55
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 5.20,
+    "salesGrowthYoY" : -10.03,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 5.20,
+    "operatingProfitMargin" : -101.73,
+    "operatingProfit" : -5.29,
+    "netProfitMargin" : 111.15,
+    "netProfit" : 5.78
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 6.48,
+    "salesGrowthYoY" : 4.68,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 6.48,
+    "operatingProfitMargin" : -1833.33,
+    "operatingProfit" : -118.80,
+    "netProfitMargin" : -1625.77,
+    "netProfit" : -105.35
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 7.99,
+    "salesGrowthYoY" : 68.21,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 7.99,
+    "operatingProfitMargin" : -75.22,
+    "operatingProfit" : -6.01,
+    "netProfitMargin" : 120.53,
+    "netProfit" : 9.63
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 6.72,
+    "salesGrowthYoY" : -2.33,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 6.72,
+    "operatingProfitMargin" : -80.36,
+    "operatingProfit" : -5.40,
+    "netProfitMargin" : 189.43,
+    "netProfit" : 12.73
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 7.03,
+    "salesGrowthYoY" : 35.19,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 7.03,
+    "operatingProfitMargin" : -187.62,
+    "operatingProfit" : -13.19,
+    "netProfitMargin" : 23.33,
+    "netProfit" : 1.64
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 12.68,
+    "salesGrowthYoY" : 95.68,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 12.68,
+    "operatingProfitMargin" : -32.97,
+    "operatingProfit" : -4.18,
+    "netProfitMargin" : 31.86,
+    "netProfit" : 4.04
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 20.32,
+    "salesGrowthYoY" : 154.32,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 20.32,
+    "operatingProfitMargin" : -4.43,
+    "operatingProfit" : -0.90,
+    "netProfitMargin" : 135.88,
+    "netProfit" : 27.61
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 18.02,
+    "salesGrowthYoY" : 168.15,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 18.02,
+    "operatingProfitMargin" : -108.21,
+    "operatingProfit" : -19.50,
+    "netProfitMargin" : -37.74,
+    "netProfit" : -6.80
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 18.02,
+    "salesGrowthYoY" : 168.15,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 18.02,
+    "operatingProfitMargin" : -108.21,
+    "operatingProfit" : -19.50,
+    "netProfitMargin" : -37.74,
+    "netProfit" : -6.80
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.33,
+    "pricePercentageAboveDma100" : 5.71,
+    "pricePercentageAboveDma200" : 5.42,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 18.47,
+    "netProfitMarginPercentile" : 8.75,
+    "totalTechnicalScore" : 21.45,
+    "totalFundamentalScore" : 47.22,
+    "totalScore" : 68.67
+  }
 }

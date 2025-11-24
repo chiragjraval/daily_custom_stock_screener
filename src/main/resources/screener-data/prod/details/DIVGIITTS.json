@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284316",
-    "company_code" : "DIVGIITTS",
-    "company_name" : "Divgi Torq",
-    "screener_company_link" : "https://www.screener.in/company/DIVGIITTS",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284316/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284316/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284316",
+    "companyCode" : "DIVGIITTS",
+    "companyName" : "Divgi Torq",
+    "screenerCompanyLink" : "https://www.screener.in/company/DIVGIITTS",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284316/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284316/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "DIVGIITTS",
+      "companyName" : "Divgi Torq",
+      "marketCap" : 1828.00,
+      "peRatio" : 60.40,
+      "description" : "Incorporated in 1964, Divgi Torqtransfer System Ltd manufactures Auto Components and Parts[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.30,
+      "pricePercentageAboveDma100" : 5.35,
+      "pricePercentageAboveDma200" : 5.17,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 7.26,
+      "netProfitMarginPercentile" : 3.52,
+      "totalTechnicalScore" : 25.82,
+      "totalFundamentalScore" : 30.77,
+      "totalScore" : 56.59
+    }
   },
   "attributes" : {
-    "company_code" : "DIVGIITTS",
-    "company_name" : "Divgi Torq",
-    "market_cap" : 1840.00,
-    "pe_ratio" : 60.80,
+    "companyCode" : "DIVGIITTS",
+    "companyName" : "Divgi Torq",
+    "marketCap" : 1828.00,
+    "peRatio" : 60.40,
     "description" : "Incorporated in 1964, Divgi Torqtransfer System Ltd manufactures Auto Components and Parts[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 634.45,
     "dma50" : 630.74,
@@ -1752,10 +1777,198 @@
     "volume" : 8175.00
   }, {
     "date" : "2025-11-24",
-    "price" : 604.30,
-    "dma50" : 635.23,
-    "dma100" : 643.02,
-    "dma200" : 618.25,
-    "volume" : 3712.00
-  } ]
+    "price" : 597.35,
+    "dma50" : 634.95,
+    "dma100" : 642.95,
+    "dma200" : 618.18,
+    "volume" : 5681.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 597.35,
+    "dma50" : 634.95,
+    "dma100" : 642.95,
+    "dma200" : 618.18,
+    "volume" : 5681.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2022-03-31",
+    "sales" : 58.31,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 56.25,
+    "grossProfit" : 32.80,
+    "operatingProfitMargin" : 22.29,
+    "operatingProfit" : 13.00,
+    "netProfitMargin" : 19.91,
+    "netProfit" : 11.61
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 63.57,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 60.34,
+    "grossProfit" : 38.36,
+    "operatingProfitMargin" : 29.12,
+    "operatingProfit" : 18.51,
+    "netProfitMargin" : 19.22,
+    "netProfit" : 12.22
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 70.14,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 57.57,
+    "grossProfit" : 40.38,
+    "operatingProfitMargin" : 26.48,
+    "operatingProfit" : 18.57,
+    "netProfitMargin" : 19.16,
+    "netProfit" : 13.44
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 63.99,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 60.40,
+    "grossProfit" : 38.65,
+    "operatingProfitMargin" : 28.30,
+    "operatingProfit" : 18.11,
+    "netProfitMargin" : 18.83,
+    "netProfit" : 12.05
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 73.34,
+    "salesGrowthYoY" : 25.78,
+    "grossProfitMargin" : 57.59,
+    "grossProfit" : 42.24,
+    "operatingProfitMargin" : 26.29,
+    "operatingProfit" : 19.28,
+    "netProfitMargin" : 18.34,
+    "netProfit" : 13.45
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 56.57,
+    "salesGrowthYoY" : -11.01,
+    "grossProfitMargin" : 61.00,
+    "grossProfit" : 34.51,
+    "operatingProfitMargin" : 22.52,
+    "operatingProfit" : 12.74,
+    "netProfitMargin" : 18.44,
+    "netProfit" : 10.43
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 68.75,
+    "salesGrowthYoY" : -1.98,
+    "grossProfitMargin" : 58.56,
+    "grossProfit" : 40.26,
+    "operatingProfitMargin" : 20.77,
+    "operatingProfit" : 14.28,
+    "netProfitMargin" : 15.59,
+    "netProfit" : 10.72
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 63.05,
+    "salesGrowthYoY" : -1.47,
+    "grossProfitMargin" : 54.94,
+    "grossProfit" : 34.64,
+    "operatingProfitMargin" : 20.46,
+    "operatingProfit" : 12.90,
+    "netProfitMargin" : 14.86,
+    "netProfit" : 9.37
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 65.06,
+    "salesGrowthYoY" : -11.29,
+    "grossProfitMargin" : 58.10,
+    "grossProfit" : 37.80,
+    "operatingProfitMargin" : 20.20,
+    "operatingProfit" : 13.14,
+    "netProfitMargin" : 14.16,
+    "netProfit" : 9.21
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 54.23,
+    "salesGrowthYoY" : -4.14,
+    "grossProfitMargin" : 56.72,
+    "grossProfit" : 30.76,
+    "operatingProfitMargin" : 16.12,
+    "operatingProfit" : 8.74,
+    "netProfitMargin" : 10.99,
+    "netProfit" : 5.96
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 53.96,
+    "salesGrowthYoY" : -21.51,
+    "grossProfitMargin" : 59.88,
+    "grossProfit" : 32.31,
+    "operatingProfitMargin" : 21.03,
+    "operatingProfit" : 11.35,
+    "netProfitMargin" : 14.53,
+    "netProfit" : 7.84
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 52.51,
+    "salesGrowthYoY" : -16.72,
+    "grossProfitMargin" : 62.71,
+    "grossProfit" : 32.93,
+    "operatingProfitMargin" : 16.40,
+    "operatingProfit" : 8.61,
+    "netProfitMargin" : 9.98,
+    "netProfit" : 5.24
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 58.22,
+    "salesGrowthYoY" : -10.51,
+    "grossProfitMargin" : 59.82,
+    "grossProfit" : 34.83,
+    "operatingProfitMargin" : 14.87,
+    "operatingProfit" : 8.66,
+    "netProfitMargin" : 9.19,
+    "netProfit" : 5.35
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 71.68,
+    "salesGrowthYoY" : 32.18,
+    "grossProfitMargin" : 60.30,
+    "grossProfit" : 43.22,
+    "operatingProfitMargin" : 19.53,
+    "operatingProfit" : 14.00,
+    "netProfitMargin" : 12.46,
+    "netProfit" : 8.93
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 82.97,
+    "salesGrowthYoY" : 53.76,
+    "grossProfitMargin" : 60.96,
+    "grossProfit" : 50.58,
+    "operatingProfitMargin" : 20.04,
+    "operatingProfit" : 16.63,
+    "netProfitMargin" : 12.96,
+    "netProfit" : 10.75
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 82.97,
+    "salesGrowthYoY" : 53.76,
+    "grossProfitMargin" : 60.96,
+    "grossProfit" : 50.58,
+    "operatingProfitMargin" : 20.04,
+    "operatingProfit" : 16.63,
+    "netProfitMargin" : 12.96,
+    "netProfit" : 10.75
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.30,
+    "pricePercentageAboveDma100" : 5.35,
+    "pricePercentageAboveDma200" : 5.17,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 7.26,
+    "netProfitMarginPercentile" : 3.52,
+    "totalTechnicalScore" : 25.82,
+    "totalFundamentalScore" : 30.77,
+    "totalScore" : 56.59
+  }
 }

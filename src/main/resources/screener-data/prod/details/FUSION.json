@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1275354",
-    "company_code" : "FUSION",
-    "company_name" : "Fusion Finance",
-    "screener_company_link" : "https://www.screener.in/company/FUSION",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1275354/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1275354/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1275354",
+    "companyCode" : "FUSION",
+    "companyName" : "Fusion Finance",
+    "screenerCompanyLink" : "https://www.screener.in/company/FUSION",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1275354/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1275354/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "FUSION",
+      "companyName" : "Fusion Finance",
+      "marketCap" : 1676.00,
+      "peRatio" : null,
+      "description" : "Incorporated in 1994, Fusion Finance Ltd is primarily engaged in microfinance lending activities[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.32,
+      "pricePercentageAboveDma100" : 5.33,
+      "pricePercentageAboveDma200" : 5.63,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 1.67,
+      "operatingProfitMarginPercentile" : 12.95,
+      "netProfitMarginPercentile" : 8.37,
+      "totalTechnicalScore" : 16.27,
+      "totalFundamentalScore" : 22.99,
+      "totalScore" : 39.26
+    }
   },
   "attributes" : {
-    "company_code" : "FUSION",
-    "company_name" : "Fusion Finance",
-    "market_cap" : 1671.00,
-    "pe_ratio" : null,
+    "companyCode" : "FUSION",
+    "companyName" : "Fusion Finance",
+    "marketCap" : 1676.00,
+    "peRatio" : null,
     "description" : "Incorporated in 1994, Fusion Finance Ltd is primarily engaged in microfinance lending activities[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 174.74,
     "dma50" : 222.40,
@@ -1752,10 +1777,208 @@
     "volume" : 187098.00
   }, {
     "date" : "2025-11-24",
-    "price" : 166.82,
-    "dma50" : 177.28,
-    "dma100" : 177.63,
-    "dma200" : 189.84,
-    "volume" : 62306.00
-  } ]
+    "price" : 166.00,
+    "dma50" : 177.24,
+    "dma100" : 177.62,
+    "dma200" : 189.83,
+    "volume" : 467654.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 166.00,
+    "dma50" : 177.24,
+    "dma100" : 177.62,
+    "dma200" : 189.83,
+    "volume" : 467654.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2021-12-31",
+    "sales" : 281.86,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 281.86,
+    "operatingProfitMargin" : 37.23,
+    "operatingProfit" : 104.94,
+    "netProfitMargin" : 0.33,
+    "netProfit" : 0.93
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 350.47,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 350.47,
+    "operatingProfitMargin" : 37.61,
+    "operatingProfit" : 131.81,
+    "netProfitMargin" : 3.77,
+    "netProfit" : 13.21
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 342.72,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 342.72,
+    "operatingProfitMargin" : 66.26,
+    "operatingProfit" : 227.09,
+    "netProfitMargin" : 21.91,
+    "netProfit" : 75.09
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 439.69,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 439.69,
+    "operatingProfitMargin" : 61.96,
+    "operatingProfit" : 272.43,
+    "netProfitMargin" : 21.62,
+    "netProfit" : 95.06
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 458.63,
+    "salesGrowthYoY" : 62.72,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 458.63,
+    "operatingProfitMargin" : 64.53,
+    "operatingProfit" : 295.95,
+    "netProfitMargin" : 22.34,
+    "netProfit" : 102.46
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 500.89,
+    "salesGrowthYoY" : 42.92,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 500.89,
+    "operatingProfitMargin" : 61.62,
+    "operatingProfit" : 308.65,
+    "netProfitMargin" : 22.86,
+    "netProfit" : 114.50
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 531.07,
+    "salesGrowthYoY" : 54.96,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 531.07,
+    "operatingProfitMargin" : 60.82,
+    "operatingProfit" : 323.00,
+    "netProfitMargin" : 22.68,
+    "netProfit" : 120.45
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 546.64,
+    "salesGrowthYoY" : 24.32,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 546.64,
+    "operatingProfitMargin" : 61.11,
+    "operatingProfit" : 334.05,
+    "netProfitMargin" : 22.99,
+    "netProfit" : 125.67
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 593.03,
+    "salesGrowthYoY" : 29.30,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 593.03,
+    "operatingProfitMargin" : 59.04,
+    "operatingProfit" : 350.12,
+    "netProfitMargin" : 21.32,
+    "netProfit" : 126.43
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 645.99,
+    "salesGrowthYoY" : 28.97,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 645.99,
+    "operatingProfitMargin" : 55.76,
+    "operatingProfit" : 360.20,
+    "netProfitMargin" : 20.54,
+    "netProfit" : 132.69
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 688.32,
+    "salesGrowthYoY" : 29.61,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 688.32,
+    "operatingProfitMargin" : 22.76,
+    "operatingProfit" : 156.66,
+    "netProfitMargin" : -5.17,
+    "netProfit" : -35.59
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 691.55,
+    "salesGrowthYoY" : 26.51,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 691.55,
+    "operatingProfitMargin" : -27.79,
+    "operatingProfit" : -192.18,
+    "netProfitMargin" : -44.11,
+    "netProfit" : -305.04
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 473.81,
+    "salesGrowthYoY" : -20.10,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 473.81,
+    "operatingProfitMargin" : -63.18,
+    "operatingProfit" : -299.35,
+    "netProfitMargin" : -151.82,
+    "netProfit" : -719.34
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 466.08,
+    "salesGrowthYoY" : -27.85,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 466.08,
+    "operatingProfitMargin" : 1.76,
+    "operatingProfit" : 8.20,
+    "netProfitMargin" : -35.31,
+    "netProfit" : -164.57
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 434.43,
+    "salesGrowthYoY" : -36.89,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 434.43,
+    "operatingProfitMargin" : 11.03,
+    "operatingProfit" : 47.92,
+    "netProfitMargin" : -21.23,
+    "netProfit" : -92.23
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 400.82,
+    "salesGrowthYoY" : -42.04,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 400.82,
+    "operatingProfitMargin" : 20.65,
+    "operatingProfit" : 82.77,
+    "netProfitMargin" : -5.52,
+    "netProfit" : -22.13
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 400.82,
+    "salesGrowthYoY" : -42.04,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 400.82,
+    "operatingProfitMargin" : 20.65,
+    "operatingProfit" : 82.77,
+    "netProfitMargin" : -5.52,
+    "netProfit" : -22.13
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.32,
+    "pricePercentageAboveDma100" : 5.33,
+    "pricePercentageAboveDma200" : 5.63,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 1.67,
+    "operatingProfitMarginPercentile" : 12.95,
+    "netProfitMarginPercentile" : 8.37,
+    "totalTechnicalScore" : 16.27,
+    "totalFundamentalScore" : 22.99,
+    "totalScore" : 39.26
+  }
 }

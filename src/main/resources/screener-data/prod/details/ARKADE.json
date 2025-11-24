@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284982",
-    "company_code" : "ARKADE",
-    "company_name" : "Arkade",
-    "screener_company_link" : "https://www.screener.in/company/ARKADE",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284982/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284982/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284982",
+    "companyCode" : "ARKADE",
+    "companyName" : "Arkade",
+    "screenerCompanyLink" : "https://www.screener.in/company/ARKADE",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284982/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284982/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "ARKADE",
+      "companyName" : "Arkade",
+      "marketCap" : 3029.00,
+      "peRatio" : 19.30,
+      "description" : "Arkade Developers Limited is a real estate development company focused on developing high-end, sophisticated lifestyle residential developments in Mumbai, Maharashtra.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.23,
+      "pricePercentageAboveDma100" : 5.49,
+      "pricePercentageAboveDma200" : 5.29,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 16.67,
+      "operatingProfitMarginPercentile" : 8.72,
+      "netProfitMarginPercentile" : 4.39,
+      "totalTechnicalScore" : 21.01,
+      "totalFundamentalScore" : 29.78,
+      "totalScore" : 50.79
+    }
   },
   "attributes" : {
-    "company_code" : "ARKADE",
-    "company_name" : "Arkade",
-    "market_cap" : 3049.00,
-    "pe_ratio" : 19.50,
+    "companyCode" : "ARKADE",
+    "companyName" : "Arkade",
+    "marketCap" : 3029.00,
+    "peRatio" : 19.30,
     "description" : "Arkade Developers Limited is a real estate development company focused on developing high-end, sophisticated lifestyle residential developments in Mumbai, Maharashtra.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 140.47,
     "dma50" : 146.56,
@@ -1752,10 +1777,148 @@
     "volume" : 400511.00
   }, {
     "date" : "2025-11-24",
-    "price" : 164.32,
-    "dma50" : 171.16,
-    "dma100" : 180.79,
-    "dma200" : 173.40,
-    "volume" : 135235.00
-  } ]
+    "price" : 163.19,
+    "dma50" : 171.12,
+    "dma100" : 180.78,
+    "dma200" : 173.39,
+    "volume" : 204605.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 163.19,
+    "dma50" : 171.12,
+    "dma100" : 180.78,
+    "dma200" : 173.39,
+    "volume" : 204605.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2023-06-30",
+    "sales" : 61.77,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 26.10,
+    "grossProfit" : 16.12,
+    "operatingProfitMargin" : 15.43,
+    "operatingProfit" : 9.53,
+    "netProfitMargin" : 10.65,
+    "netProfit" : 6.58
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 210.96,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 34.90,
+    "grossProfit" : 73.63,
+    "operatingProfitMargin" : 30.84,
+    "operatingProfit" : 65.06,
+    "netProfitMargin" : 22.69,
+    "netProfit" : 47.87
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 239.12,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 31.49,
+    "grossProfit" : 75.30,
+    "operatingProfitMargin" : 27.58,
+    "operatingProfit" : 65.95,
+    "netProfitMargin" : 20.44,
+    "netProfit" : 48.88
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 122.89,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 33.11,
+    "grossProfit" : 40.69,
+    "operatingProfitMargin" : 22.00,
+    "operatingProfit" : 27.04,
+    "netProfitMargin" : 15.97,
+    "netProfit" : 19.63
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 125.38,
+    "salesGrowthYoY" : 102.98,
+    "grossProfitMargin" : 44.68,
+    "grossProfit" : 56.02,
+    "operatingProfitMargin" : 33.48,
+    "operatingProfit" : 41.98,
+    "netProfitMargin" : 24.10,
+    "netProfit" : 30.22
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 201.65,
+    "salesGrowthYoY" : -4.41,
+    "grossProfitMargin" : 36.27,
+    "grossProfit" : 73.14,
+    "operatingProfitMargin" : 29.11,
+    "operatingProfit" : 58.70,
+    "netProfitMargin" : 21.50,
+    "netProfit" : 43.35
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 224.62,
+    "salesGrowthYoY" : -6.06,
+    "grossProfitMargin" : 33.27,
+    "grossProfit" : 74.73,
+    "operatingProfitMargin" : 27.16,
+    "operatingProfit" : 61.01,
+    "netProfitMargin" : 22.30,
+    "netProfit" : 50.09
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 131.45,
+    "salesGrowthYoY" : 6.97,
+    "grossProfitMargin" : 45.68,
+    "grossProfit" : 60.05,
+    "operatingProfitMargin" : 33.82,
+    "operatingProfit" : 44.46,
+    "netProfitMargin" : 25.30,
+    "netProfit" : 33.26
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 159.45,
+    "salesGrowthYoY" : 27.17,
+    "grossProfitMargin" : 28.92,
+    "grossProfit" : 46.11,
+    "operatingProfitMargin" : 21.48,
+    "operatingProfit" : 34.25,
+    "netProfitMargin" : 18.04,
+    "netProfit" : 28.76
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 261.54,
+    "salesGrowthYoY" : 29.70,
+    "grossProfitMargin" : 28.73,
+    "grossProfit" : 75.14,
+    "operatingProfitMargin" : 23.45,
+    "operatingProfit" : 61.33,
+    "netProfitMargin" : 17.08,
+    "netProfit" : 44.67
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 261.54,
+    "salesGrowthYoY" : 29.70,
+    "grossProfitMargin" : 28.73,
+    "grossProfit" : 75.14,
+    "operatingProfitMargin" : 23.45,
+    "operatingProfit" : 61.33,
+    "netProfitMargin" : 17.08,
+    "netProfit" : 44.67
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.23,
+    "pricePercentageAboveDma100" : 5.49,
+    "pricePercentageAboveDma200" : 5.29,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 16.67,
+    "operatingProfitMarginPercentile" : 8.72,
+    "netProfitMarginPercentile" : 4.39,
+    "totalTechnicalScore" : 21.01,
+    "totalFundamentalScore" : 29.78,
+    "totalScore" : 50.79
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1275127",
-    "company_code" : "DATAPATTNS",
-    "company_name" : "Data Pattern",
-    "screener_company_link" : "https://www.screener.in/company/DATAPATTNS",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1275127/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1275127/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1275127",
+    "companyCode" : "DATAPATTNS",
+    "companyName" : "Data Pattern",
+    "screenerCompanyLink" : "https://www.screener.in/company/DATAPATTNS",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1275127/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1275127/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "DATAPATTNS",
+      "companyName" : "Data Pattern",
+      "marketCap" : 16514.00,
+      "peRatio" : 70.70,
+      "description" : "Data Patterns (India) Limited is one of the fastest-growing companies in the Defence and Aerospace Electronics sector in India. It is among the few vertically integrated defence and aerospace electronics solutions providers catering to the indigenously developed defence products industry. It is focused on in-house development and manufacturing facilities led by innovation and design and development efforts. It is in the business for over 35 years. It has supplied products catering to all the platforms, viz., space, air, land and sea, including products for LCA-Tejas, LightUtility Helicopter, BrahMos missile."
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.76,
+      "pricePercentageAboveDma100" : 4.61,
+      "pricePercentageAboveDma200" : 4.37,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 7.42,
+      "netProfitMarginPercentile" : 5.78,
+      "totalTechnicalScore" : 43.74,
+      "totalFundamentalScore" : 33.20,
+      "totalScore" : 76.94
+    }
   },
   "attributes" : {
-    "company_code" : "DATAPATTNS",
-    "company_name" : "Data Pattern",
-    "market_cap" : 16760.00,
-    "pe_ratio" : 71.80,
+    "companyCode" : "DATAPATTNS",
+    "companyName" : "Data Pattern",
+    "marketCap" : 16514.00,
+    "peRatio" : 70.70,
     "description" : "Data Patterns (India) Limited is one of the fastest-growing companies in the Defence and Aerospace Electronics sector in India. It is among the few vertically integrated defence and aerospace electronics solutions providers catering to the indigenously developed defence products industry. It is focused on in-house development and manufacturing facilities led by innovation and design and development efforts. It is in the business for over 35 years. It has supplied products catering to all the platforms, viz., space, air, land and sea, including products for LCA-Tejas, LightUtility Helicopter, BrahMos missile."
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 2312.15,
     "dma50" : 2416.10,
@@ -1752,10 +1777,248 @@
     "volume" : 637102.00
   }, {
     "date" : "2025-11-24",
-    "price" : 2978.20,
-    "dma50" : 2809.44,
-    "dma100" : 2733.54,
-    "dma200" : 2613.84,
-    "volume" : 291405.00
-  } ]
+    "price" : 2944.70,
+    "dma50" : 2808.13,
+    "dma100" : 2733.21,
+    "dma200" : 2613.50,
+    "volume" : 466000.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 2944.70,
+    "dma50" : 2808.13,
+    "dma100" : 2733.21,
+    "dma200" : 2613.50,
+    "volume" : 466000.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2020-12-31",
+    "sales" : 22.41,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 78.00,
+    "grossProfit" : 17.48,
+    "operatingProfitMargin" : 2.10,
+    "operatingProfit" : 0.47,
+    "netProfitMargin" : -19.63,
+    "netProfit" : -4.40
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 157.06,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 68.76,
+    "grossProfit" : 107.99,
+    "operatingProfitMargin" : 56.48,
+    "operatingProfit" : 88.71,
+    "netProfitMargin" : 42.00,
+    "netProfit" : 65.97
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 37.23,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 90.44,
+    "grossProfit" : 33.67,
+    "operatingProfitMargin" : 46.33,
+    "operatingProfit" : 17.25,
+    "netProfitMargin" : 27.67,
+    "netProfit" : 10.30
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 59.22,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 70.52,
+    "grossProfit" : 41.76,
+    "operatingProfitMargin" : 34.72,
+    "operatingProfit" : 20.56,
+    "netProfitMargin" : 21.77,
+    "netProfit" : 12.89
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 43.84,
+    "salesGrowthYoY" : 95.63,
+    "grossProfitMargin" : 87.84,
+    "grossProfit" : 38.51,
+    "operatingProfitMargin" : 35.56,
+    "operatingProfit" : 15.59,
+    "netProfitMargin" : 20.44,
+    "netProfit" : 8.96
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 170.54,
+    "salesGrowthYoY" : 8.58,
+    "grossProfitMargin" : 64.99,
+    "grossProfit" : 110.83,
+    "operatingProfitMargin" : 51.28,
+    "operatingProfit" : 87.45,
+    "netProfitMargin" : 36.13,
+    "netProfit" : 61.62
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 68.38,
+    "salesGrowthYoY" : 83.67,
+    "grossProfitMargin" : 64.67,
+    "grossProfit" : 44.22,
+    "operatingProfitMargin" : 31.08,
+    "operatingProfit" : 21.25,
+    "netProfitMargin" : 20.82,
+    "netProfit" : 14.24
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 88.16,
+    "salesGrowthYoY" : 48.87,
+    "grossProfitMargin" : 64.87,
+    "grossProfit" : 57.19,
+    "operatingProfitMargin" : 34.21,
+    "operatingProfit" : 30.16,
+    "netProfitMargin" : 23.88,
+    "netProfit" : 21.05
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 111.81,
+    "salesGrowthYoY" : 155.04,
+    "grossProfitMargin" : 66.34,
+    "grossProfit" : 74.17,
+    "operatingProfitMargin" : 42.07,
+    "operatingProfit" : 47.04,
+    "netProfitMargin" : 29.80,
+    "netProfit" : 33.32
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 185.10,
+    "salesGrowthYoY" : 8.54,
+    "grossProfitMargin" : 57.78,
+    "grossProfit" : 106.95,
+    "operatingProfitMargin" : 39.63,
+    "operatingProfit" : 73.36,
+    "netProfitMargin" : 29.91,
+    "netProfit" : 55.36
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 89.69,
+    "salesGrowthYoY" : 31.16,
+    "grossProfitMargin" : 64.07,
+    "grossProfit" : 57.46,
+    "operatingProfitMargin" : 31.07,
+    "operatingProfit" : 27.87,
+    "netProfitMargin" : 28.80,
+    "netProfit" : 25.83
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 108.31,
+    "salesGrowthYoY" : 22.86,
+    "grossProfitMargin" : 67.68,
+    "grossProfit" : 73.30,
+    "operatingProfitMargin" : 37.61,
+    "operatingProfit" : 40.74,
+    "netProfitMargin" : 31.20,
+    "netProfit" : 33.79
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 139.51,
+    "salesGrowthYoY" : 24.77,
+    "grossProfitMargin" : 67.69,
+    "grossProfit" : 94.43,
+    "operatingProfitMargin" : 43.04,
+    "operatingProfit" : 60.05,
+    "netProfitMargin" : 36.54,
+    "netProfit" : 50.98
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 182.29,
+    "salesGrowthYoY" : -1.52,
+    "grossProfitMargin" : 71.93,
+    "grossProfit" : 131.12,
+    "operatingProfitMargin" : 51.03,
+    "operatingProfit" : 93.02,
+    "netProfitMargin" : 39.00,
+    "netProfit" : 71.09
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 104.08,
+    "salesGrowthYoY" : 16.04,
+    "grossProfitMargin" : 72.29,
+    "grossProfit" : 75.24,
+    "operatingProfitMargin" : 35.72,
+    "operatingProfit" : 37.18,
+    "netProfitMargin" : 31.50,
+    "netProfit" : 32.79
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 91.02,
+    "salesGrowthYoY" : -15.96,
+    "grossProfitMargin" : 75.96,
+    "grossProfit" : 69.14,
+    "operatingProfitMargin" : 37.68,
+    "operatingProfit" : 34.30,
+    "netProfitMargin" : 33.27,
+    "netProfit" : 30.28
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 117.04,
+    "salesGrowthYoY" : -16.11,
+    "grossProfitMargin" : 80.30,
+    "grossProfit" : 93.98,
+    "operatingProfitMargin" : 46.16,
+    "operatingProfit" : 54.03,
+    "netProfitMargin" : 38.16,
+    "netProfit" : 44.66
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 396.21,
+    "salesGrowthYoY" : 117.35,
+    "grossProfitMargin" : 48.94,
+    "grossProfit" : 193.91,
+    "operatingProfitMargin" : 37.73,
+    "operatingProfit" : 149.49,
+    "netProfitMargin" : 28.79,
+    "netProfit" : 114.07
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 99.33,
+    "salesGrowthYoY" : -4.56,
+    "grossProfitMargin" : 79.76,
+    "grossProfit" : 79.23,
+    "operatingProfitMargin" : 32.30,
+    "operatingProfit" : 32.08,
+    "netProfitMargin" : 25.67,
+    "netProfit" : 25.50
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 307.46,
+    "salesGrowthYoY" : 237.79,
+    "grossProfitMargin" : 38.52,
+    "grossProfit" : 118.43,
+    "operatingProfitMargin" : 22.27,
+    "operatingProfit" : 68.47,
+    "netProfitMargin" : 16.00,
+    "netProfit" : 49.19
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 307.46,
+    "salesGrowthYoY" : 237.79,
+    "grossProfitMargin" : 38.52,
+    "grossProfit" : 118.43,
+    "operatingProfitMargin" : 22.27,
+    "operatingProfit" : 68.47,
+    "netProfitMargin" : 16.00,
+    "netProfit" : 49.19
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.76,
+    "pricePercentageAboveDma100" : 4.61,
+    "pricePercentageAboveDma200" : 4.37,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 7.42,
+    "netProfitMarginPercentile" : 5.78,
+    "totalTechnicalScore" : 43.74,
+    "totalFundamentalScore" : 33.20,
+    "totalScore" : 76.94
+  }
 }

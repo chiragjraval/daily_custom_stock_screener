@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285685",
-    "company_code" : "EPACKPEB",
-    "company_name" : "EPack PrefabTech",
-    "screener_company_link" : "https://www.screener.in/company/EPACKPEB",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285685/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285685/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285685",
+    "companyCode" : "EPACKPEB",
+    "companyName" : "EPack PrefabTech",
+    "screenerCompanyLink" : "https://www.screener.in/company/EPACKPEB",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285685/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285685/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "EPACKPEB",
+      "companyName" : "EPack PrefabTech",
+      "marketCap" : 3055.00,
+      "peRatio" : 40.70,
+      "description" : "Incorporated in February 1999, Epack Prefab Technologies Limited is one of India’s leading players in the pre-engineered building (PEB) and prefabricated construction industry.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 4.09,
+      "pricePercentageAboveDma100" : 0.00,
+      "pricePercentageAboveDma200" : 2.84,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 21.93,
+      "totalFundamentalScore" : 50.00,
+      "totalScore" : 71.93
+    }
   },
   "attributes" : {
-    "company_code" : "EPACKPEB",
-    "company_name" : "EPack PrefabTech",
-    "market_cap" : 3138.00,
-    "pe_ratio" : 41.80,
+    "companyCode" : "EPACKPEB",
+    "companyName" : "EPack PrefabTech",
+    "marketCap" : 3055.00,
+    "peRatio" : 40.70,
     "description" : "Incorporated in February 1999, Epack Prefab Technologies Limited is one of India’s leading players in the pre-engineered building (PEB) and prefabricated construction industry.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-10-01",
     "price" : 190.66,
     "dma50" : 190.66,
@@ -261,10 +286,98 @@
     "volume" : 2624471.00
   }, {
     "date" : "2025-11-24",
-    "price" : 310.85,
-    "dma50" : 258.23,
+    "price" : 304.80,
+    "dma50" : 257.99,
     "dma100" : null,
-    "dma200" : 212.84,
-    "volume" : 1296758.00
-  } ]
+    "dma200" : 212.78,
+    "volume" : 2665265.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 304.80,
+    "dma50" : 257.99,
+    "dma100" : null,
+    "dma200" : 212.78,
+    "volume" : 2665265.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-06-30",
+    "sales" : 268.93,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 32.29,
+    "grossProfit" : 86.84,
+    "operatingProfitMargin" : 10.02,
+    "operatingProfit" : 26.95,
+    "netProfitMargin" : 5.16,
+    "netProfit" : 13.88
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 268.05,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 34.77,
+    "grossProfit" : 93.20,
+    "operatingProfitMargin" : 10.64,
+    "operatingProfit" : 28.52,
+    "netProfitMargin" : 5.10,
+    "netProfit" : 13.67
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 330.60,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 35.54,
+    "grossProfit" : 117.50,
+    "operatingProfitMargin" : 10.65,
+    "operatingProfit" : 35.21,
+    "netProfitMargin" : 6.05,
+    "netProfit" : 20.00
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 295.34,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 34.52,
+    "grossProfit" : 101.95,
+    "operatingProfitMargin" : 10.46,
+    "operatingProfit" : 30.89,
+    "netProfitMargin" : 5.42,
+    "netProfit" : 16.01
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 433.94,
+    "salesGrowthYoY" : 61.36,
+    "grossProfitMargin" : 34.22,
+    "grossProfit" : 148.49,
+    "operatingProfitMargin" : 11.51,
+    "operatingProfit" : 49.95,
+    "netProfitMargin" : 6.78,
+    "netProfit" : 29.42
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 433.94,
+    "salesGrowthYoY" : 61.36,
+    "grossProfitMargin" : 34.22,
+    "grossProfit" : 148.49,
+    "operatingProfitMargin" : 11.51,
+    "operatingProfit" : 49.95,
+    "netProfitMargin" : 6.78,
+    "netProfit" : 29.42
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 4.09,
+    "pricePercentageAboveDma100" : 0.00,
+    "pricePercentageAboveDma200" : 2.84,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 21.93,
+    "totalFundamentalScore" : 50.00,
+    "totalScore" : 71.93
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285605",
-    "company_code" : "VIKRAMSOLR",
-    "company_name" : "Vikram Solar",
-    "screener_company_link" : "https://www.screener.in/company/VIKRAMSOLR",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285605/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285605/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285605",
+    "companyCode" : "VIKRAMSOLR",
+    "companyName" : "Vikram Solar",
+    "screenerCompanyLink" : "https://www.screener.in/company/VIKRAMSOLR",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285605/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285605/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "VIKRAMSOLR",
+      "companyName" : "Vikram Solar",
+      "marketCap" : 9939.00,
+      "peRatio" : 38.70,
+      "description" : "Incorporated in 2005, Vikram Solar Ltd manufactures solar PV modules and also provides EPC and O&M services.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.75,
+      "pricePercentageAboveDma100" : 0.00,
+      "pricePercentageAboveDma200" : 5.98,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 19.09,
+      "netProfitMarginPercentile" : 9.71,
+      "totalTechnicalScore" : 11.73,
+      "totalFundamentalScore" : 48.80,
+      "totalScore" : 60.53
+    }
   },
   "attributes" : {
-    "company_code" : "VIKRAMSOLR",
-    "company_name" : "Vikram Solar",
-    "market_cap" : 10071.00,
-    "pe_ratio" : 39.30,
+    "companyCode" : "VIKRAMSOLR",
+    "companyName" : "Vikram Solar",
+    "marketCap" : 9939.00,
+    "peRatio" : 38.70,
     "description" : "Incorporated in 2005, Vikram Solar Ltd manufactures solar PV modules and also provides EPC and O&M services.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-08-26",
     "price" : 356.40,
     "dma50" : 356.40,
@@ -436,10 +461,98 @@
     "volume" : 2444139.00
   }, {
     "date" : "2025-11-24",
-    "price" : 278.60,
-    "dma50" : 324.68,
+    "price" : 276.15,
+    "dma50" : 324.58,
     "dma100" : null,
-    "dma200" : 343.48,
-    "volume" : 1163066.00
-  } ]
+    "dma200" : 343.45,
+    "volume" : 2301779.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 276.15,
+    "dma50" : 324.58,
+    "dma100" : null,
+    "dma200" : 343.45,
+    "volume" : 2301779.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-06-30",
+    "sales" : 631.78,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 28.69,
+    "grossProfit" : 181.26,
+    "operatingProfitMargin" : 18.06,
+    "operatingProfit" : 114.10,
+    "netProfitMargin" : 3.88,
+    "netProfit" : 24.51
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 573.69,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 26.03,
+    "grossProfit" : 149.33,
+    "operatingProfitMargin" : 13.54,
+    "operatingProfit" : 77.68,
+    "netProfitMargin" : 1.89,
+    "netProfit" : 10.84
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 1183.22,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 29.99,
+    "grossProfit" : 354.85,
+    "operatingProfitMargin" : 17.87,
+    "operatingProfit" : 211.44,
+    "netProfitMargin" : 7.00,
+    "netProfit" : 82.83
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 1135.16,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 31.34,
+    "grossProfit" : 355.76,
+    "operatingProfitMargin" : 21.48,
+    "operatingProfit" : 243.83,
+    "netProfitMargin" : 11.84,
+    "netProfit" : 134.40
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 1109.91,
+    "salesGrowthYoY" : 75.68,
+    "grossProfitMargin" : 32.90,
+    "grossProfit" : 365.16,
+    "operatingProfitMargin" : 21.12,
+    "operatingProfit" : 234.41,
+    "netProfitMargin" : 11.55,
+    "netProfit" : 128.19
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 1109.91,
+    "salesGrowthYoY" : 75.68,
+    "grossProfitMargin" : 32.90,
+    "grossProfit" : 365.16,
+    "operatingProfitMargin" : 21.12,
+    "operatingProfit" : 234.41,
+    "netProfitMargin" : 11.55,
+    "netProfit" : 128.19
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.75,
+    "pricePercentageAboveDma100" : 0.00,
+    "pricePercentageAboveDma200" : 5.98,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 19.09,
+    "netProfitMarginPercentile" : 9.71,
+    "totalTechnicalScore" : 11.73,
+    "totalFundamentalScore" : 48.80,
+    "totalScore" : 60.53
+  }
 }

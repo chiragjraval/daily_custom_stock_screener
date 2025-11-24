@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1275377",
-    "company_code" : "LANDMARK",
-    "company_name" : "Landmark Cars",
-    "screener_company_link" : "https://www.screener.in/company/LANDMARK",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1275377/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1275377/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1275377",
+    "companyCode" : "LANDMARK",
+    "companyName" : "Landmark Cars",
+    "screenerCompanyLink" : "https://www.screener.in/company/LANDMARK",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1275377/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1275377/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "LANDMARK",
+      "companyName" : "Landmark Cars",
+      "marketCap" : 2243.00,
+      "peRatio" : 62.30,
+      "description" : "Incorporated in 1998, Landmark Cars Limited is the leading premium automotive retail business in India with dealerships for Mercedes-Benz, Honda, Jeep, Volkswagen, and Renault. The company also caters to the commercial vehicle retail business of Ashok Leyland in India.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.43,
+      "pricePercentageAboveDma100" : 5.30,
+      "pricePercentageAboveDma200" : 5.19,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 18.73,
+      "operatingProfitMarginPercentile" : 1.25,
+      "netProfitMarginPercentile" : 0.62,
+      "totalTechnicalScore" : 35.93,
+      "totalFundamentalScore" : 20.60,
+      "totalScore" : 56.53
+    }
   },
   "attributes" : {
-    "company_code" : "LANDMARK",
-    "company_name" : "Landmark Cars",
-    "market_cap" : 2247.00,
-    "pe_ratio" : 62.40,
+    "companyCode" : "LANDMARK",
+    "companyName" : "Landmark Cars",
+    "marketCap" : 2243.00,
+    "peRatio" : 62.30,
     "description" : "Incorporated in 1998, Landmark Cars Limited is the leading premium automotive retail business in India with dealerships for Mercedes-Benz, Honda, Jeep, Volkswagen, and Renault. The company also caters to the commercial vehicle retail business of Ashok Leyland in India.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 630.30,
     "dma50" : 624.86,
@@ -1752,10 +1777,208 @@
     "volume" : 63389.00
   }, {
     "date" : "2025-11-24",
-    "price" : 540.10,
-    "dma50" : 590.25,
-    "dma100" : 573.89,
-    "dma200" : 560.70,
-    "volume" : 4868.00
-  } ]
+    "price" : 539.05,
+    "dma50" : 590.20,
+    "dma100" : 573.88,
+    "dma200" : 560.69,
+    "volume" : 13092.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 539.05,
+    "dma50" : 590.20,
+    "dma100" : 573.88,
+    "dma200" : 560.69,
+    "volume" : 13092.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2021-12-31",
+    "sales" : 139.78,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 82.59,
+    "grossProfit" : 115.44,
+    "operatingProfitMargin" : 12.49,
+    "operatingProfit" : 17.46,
+    "netProfitMargin" : 6.99,
+    "netProfit" : 9.77
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 106.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 107.45,
+    "grossProfit" : 113.90,
+    "operatingProfitMargin" : 23.59,
+    "operatingProfit" : 25.01,
+    "netProfitMargin" : 11.73,
+    "netProfit" : 12.43
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 95.32,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 132.04,
+    "grossProfit" : 125.86,
+    "operatingProfitMargin" : 19.20,
+    "operatingProfit" : 18.30,
+    "netProfitMargin" : 8.81,
+    "netProfit" : 8.40
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 118.02,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 102.03,
+    "grossProfit" : 120.42,
+    "operatingProfitMargin" : 21.99,
+    "operatingProfit" : 25.95,
+    "netProfitMargin" : 11.05,
+    "netProfit" : 13.04
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 124.22,
+    "salesGrowthYoY" : -11.13,
+    "grossProfitMargin" : 109.29,
+    "grossProfit" : 135.76,
+    "operatingProfitMargin" : 20.21,
+    "operatingProfit" : 25.10,
+    "netProfitMargin" : 10.91,
+    "netProfit" : 13.55
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 148.82,
+    "salesGrowthYoY" : 40.40,
+    "grossProfitMargin" : 99.99,
+    "grossProfit" : 148.81,
+    "operatingProfitMargin" : 17.95,
+    "operatingProfit" : 26.71,
+    "netProfitMargin" : 10.89,
+    "netProfit" : 16.21
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 111.20,
+    "salesGrowthYoY" : 16.66,
+    "grossProfitMargin" : 144.43,
+    "grossProfit" : 160.61,
+    "operatingProfitMargin" : 14.74,
+    "operatingProfit" : 16.39,
+    "netProfitMargin" : 7.25,
+    "netProfit" : 8.06
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 147.64,
+    "salesGrowthYoY" : 25.10,
+    "grossProfitMargin" : 117.88,
+    "grossProfit" : 174.04,
+    "operatingProfitMargin" : 18.03,
+    "operatingProfit" : 26.62,
+    "netProfitMargin" : 21.40,
+    "netProfit" : 31.59
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 161.12,
+    "salesGrowthYoY" : 29.71,
+    "grossProfitMargin" : 92.62,
+    "grossProfit" : 149.23,
+    "operatingProfitMargin" : 16.97,
+    "operatingProfit" : 27.34,
+    "netProfitMargin" : 8.98,
+    "netProfit" : 14.47
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 179.03,
+    "salesGrowthYoY" : 20.30,
+    "grossProfitMargin" : 121.00,
+    "grossProfit" : 216.63,
+    "operatingProfitMargin" : 15.38,
+    "operatingProfit" : 27.53,
+    "netProfitMargin" : 8.29,
+    "netProfit" : 14.84
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 126.92,
+    "salesGrowthYoY" : 14.14,
+    "grossProfitMargin" : 58.29,
+    "grossProfit" : 73.98,
+    "operatingProfitMargin" : 14.60,
+    "operatingProfit" : 18.53,
+    "netProfitMargin" : 5.49,
+    "netProfit" : 6.97
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 155.34,
+    "salesGrowthYoY" : 5.22,
+    "grossProfitMargin" : 134.01,
+    "grossProfit" : 208.17,
+    "operatingProfitMargin" : 15.88,
+    "operatingProfit" : 24.67,
+    "netProfitMargin" : 10.44,
+    "netProfit" : 16.22
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 203.37,
+    "salesGrowthYoY" : 26.22,
+    "grossProfitMargin" : 90.94,
+    "grossProfit" : 184.94,
+    "operatingProfitMargin" : 13.18,
+    "operatingProfit" : 26.80,
+    "netProfitMargin" : 6.13,
+    "netProfit" : 12.47
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 180.01,
+    "salesGrowthYoY" : 0.55,
+    "grossProfitMargin" : 97.63,
+    "grossProfit" : 175.74,
+    "operatingProfitMargin" : 11.63,
+    "operatingProfit" : 20.94,
+    "netProfitMargin" : 4.28,
+    "netProfit" : 7.70
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 141.17,
+    "salesGrowthYoY" : 11.23,
+    "grossProfitMargin" : 118.02,
+    "grossProfit" : 166.61,
+    "operatingProfitMargin" : 14.96,
+    "operatingProfit" : 21.12,
+    "netProfitMargin" : 6.11,
+    "netProfit" : 8.63
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 212.99,
+    "salesGrowthYoY" : 37.11,
+    "grossProfitMargin" : 107.24,
+    "grossProfit" : 228.41,
+    "operatingProfitMargin" : 7.51,
+    "operatingProfit" : 16.00,
+    "netProfitMargin" : 3.39,
+    "netProfit" : 7.22
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 212.99,
+    "salesGrowthYoY" : 37.11,
+    "grossProfitMargin" : 107.24,
+    "grossProfit" : 228.41,
+    "operatingProfitMargin" : 7.51,
+    "operatingProfit" : 16.00,
+    "netProfitMargin" : 3.39,
+    "netProfit" : 7.22
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.43,
+    "pricePercentageAboveDma100" : 5.30,
+    "pricePercentageAboveDma200" : 5.19,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 18.73,
+    "operatingProfitMarginPercentile" : 1.25,
+    "netProfitMarginPercentile" : 0.62,
+    "totalTechnicalScore" : 35.93,
+    "totalFundamentalScore" : 20.60,
+    "totalScore" : 56.53
+  }
 }

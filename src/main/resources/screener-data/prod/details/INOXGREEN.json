@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1275359",
-    "company_code" : "INOXGREEN",
-    "company_name" : "Inox Green",
-    "screener_company_link" : "https://www.screener.in/company/INOXGREEN",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1275359/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1275359/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1275359",
+    "companyCode" : "INOXGREEN",
+    "companyName" : "Inox Green",
+    "screenerCompanyLink" : "https://www.screener.in/company/INOXGREEN",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1275359/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1275359/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "INOXGREEN",
+      "companyName" : "Inox Green",
+      "marketCap" : 8295.00,
+      "peRatio" : 180.00,
+      "description" : "Incorporated in 2012, Inox Green Energy Services Limited is one of the major wind power operation and maintenance (\"O&M\") service providers within India. The company is a subsidiary of Inox Wind Limited (\"IWL\"), and part of the Inox GFL group of companies.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.24,
+      "pricePercentageAboveDma100" : 4.37,
+      "pricePercentageAboveDma200" : 4.10,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 18.75,
+      "operatingProfitMarginPercentile" : 5.92,
+      "netProfitMarginPercentile" : 7.50,
+      "totalTechnicalScore" : 38.71,
+      "totalFundamentalScore" : 32.17,
+      "totalScore" : 70.88
+    }
   },
   "attributes" : {
-    "company_code" : "INOXGREEN",
-    "company_name" : "Inox Green",
-    "market_cap" : 8190.00,
-    "pe_ratio" : 178.00,
+    "companyCode" : "INOXGREEN",
+    "companyName" : "Inox Green",
+    "marketCap" : 8295.00,
+    "peRatio" : 180.00,
     "description" : "Incorporated in 2012, Inox Green Energy Services Limited is one of the major wind power operation and maintenance (\"O&M\") service providers within India. The company is a subsidiary of Inox Wind Limited (\"IWL\"), and part of the Inox GFL group of companies.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 144.28,
     "dma50" : 171.86,
@@ -1752,10 +1777,248 @@
     "volume" : 1573325.00
   }, {
     "date" : "2025-11-24",
-    "price" : 221.05,
-    "dma50" : 230.14,
-    "dma100" : 194.44,
-    "dma200" : 185.72,
-    "volume" : 474149.00
-  } ]
+    "price" : 218.95,
+    "dma50" : 230.05,
+    "dma100" : 194.41,
+    "dma200" : 185.70,
+    "volume" : 714255.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 218.95,
+    "dma50" : 230.05,
+    "dma100" : 194.41,
+    "dma200" : 185.70,
+    "volume" : 714255.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2020-09-30",
+    "sales" : 43.95,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 150.69,
+    "grossProfit" : 66.23,
+    "operatingProfitMargin" : 13.52,
+    "operatingProfit" : 5.94,
+    "netProfitMargin" : -50.22,
+    "netProfit" : -22.07
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 155.12,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 85.37,
+    "grossProfit" : 132.43,
+    "operatingProfitMargin" : 22.31,
+    "operatingProfit" : 34.61,
+    "netProfitMargin" : -18.51,
+    "netProfit" : -28.71
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 79.13,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 59.07,
+    "grossProfit" : 46.74,
+    "operatingProfitMargin" : 28.11,
+    "operatingProfit" : 22.24,
+    "netProfitMargin" : -18.58,
+    "netProfit" : -14.70
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 149.61,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 69.65,
+    "grossProfit" : 104.20,
+    "operatingProfitMargin" : 33.27,
+    "operatingProfit" : 49.78,
+    "netProfitMargin" : -13.11,
+    "netProfit" : -19.61
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 45.90,
+    "salesGrowthYoY" : 4.44,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 45.90,
+    "operatingProfitMargin" : 47.43,
+    "operatingProfit" : 21.77,
+    "netProfitMargin" : -6.80,
+    "netProfit" : -3.12
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 44.44,
+    "salesGrowthYoY" : -71.35,
+    "grossProfitMargin" : 67.53,
+    "grossProfit" : 30.01,
+    "operatingProfitMargin" : 20.43,
+    "operatingProfit" : 9.08,
+    "netProfitMargin" : -11.90,
+    "netProfit" : -5.29
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 61.31,
+    "salesGrowthYoY" : -22.52,
+    "grossProfitMargin" : 74.02,
+    "grossProfit" : 45.38,
+    "operatingProfitMargin" : 28.05,
+    "operatingProfit" : 17.20,
+    "netProfitMargin" : -12.09,
+    "netProfit" : -7.41
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 60.59,
+    "salesGrowthYoY" : -59.50,
+    "grossProfitMargin" : 81.48,
+    "grossProfit" : 49.37,
+    "operatingProfitMargin" : 23.27,
+    "operatingProfit" : 14.10,
+    "netProfitMargin" : -11.42,
+    "netProfit" : -6.92
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 71.62,
+    "salesGrowthYoY" : 56.03,
+    "grossProfitMargin" : 75.06,
+    "grossProfit" : 53.76,
+    "operatingProfitMargin" : -3.45,
+    "operatingProfit" : -2.47,
+    "netProfitMargin" : -11.62,
+    "netProfit" : -8.32
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 54.36,
+    "salesGrowthYoY" : 22.32,
+    "grossProfitMargin" : 86.11,
+    "grossProfit" : 46.81,
+    "operatingProfitMargin" : 4.73,
+    "operatingProfit" : 2.57,
+    "netProfitMargin" : -4.95,
+    "netProfit" : -2.69
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 49.71,
+    "salesGrowthYoY" : -18.92,
+    "grossProfitMargin" : 97.59,
+    "grossProfit" : 48.51,
+    "operatingProfitMargin" : 43.51,
+    "operatingProfit" : 21.63,
+    "netProfitMargin" : 7.40,
+    "netProfit" : 3.68
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 43.73,
+    "salesGrowthYoY" : -27.83,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 43.73,
+    "operatingProfitMargin" : 35.58,
+    "operatingProfit" : 15.56,
+    "netProfitMargin" : 12.99,
+    "netProfit" : 5.68
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 54.55,
+    "salesGrowthYoY" : -23.83,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 54.55,
+    "operatingProfitMargin" : 37.12,
+    "operatingProfit" : 20.25,
+    "netProfitMargin" : 5.35,
+    "netProfit" : 2.92
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 46.10,
+    "salesGrowthYoY" : -15.19,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 46.10,
+    "operatingProfitMargin" : 31.61,
+    "operatingProfit" : 14.57,
+    "netProfitMargin" : 54.14,
+    "netProfit" : 24.96
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 44.72,
+    "salesGrowthYoY" : -10.04,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 44.72,
+    "operatingProfitMargin" : 38.01,
+    "operatingProfit" : 17.00,
+    "netProfitMargin" : 4.38,
+    "netProfit" : 1.96
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 52.08,
+    "salesGrowthYoY" : 19.09,
+    "grossProfitMargin" : 96.66,
+    "grossProfit" : 50.34,
+    "operatingProfitMargin" : 39.04,
+    "operatingProfit" : 20.33,
+    "netProfitMargin" : 21.43,
+    "netProfit" : 11.16
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 51.34,
+    "salesGrowthYoY" : -5.88,
+    "grossProfitMargin" : 95.21,
+    "grossProfit" : 48.88,
+    "operatingProfitMargin" : 25.73,
+    "operatingProfit" : 13.21,
+    "netProfitMargin" : 23.69,
+    "netProfit" : 12.16
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 56.60,
+    "salesGrowthYoY" : 22.78,
+    "grossProfitMargin" : 96.02,
+    "grossProfit" : 54.35,
+    "operatingProfitMargin" : -2.92,
+    "operatingProfit" : -1.65,
+    "netProfitMargin" : 23.37,
+    "netProfit" : 13.23
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 47.85,
+    "salesGrowthYoY" : 7.00,
+    "grossProfitMargin" : 95.40,
+    "grossProfit" : 45.65,
+    "operatingProfitMargin" : 9.68,
+    "operatingProfit" : 4.63,
+    "netProfitMargin" : 18.56,
+    "netProfit" : 8.88
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 72.89,
+    "salesGrowthYoY" : 39.96,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 72.89,
+    "operatingProfitMargin" : 11.61,
+    "operatingProfit" : 8.46,
+    "netProfitMargin" : 16.04,
+    "netProfit" : 11.69
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 72.89,
+    "salesGrowthYoY" : 39.96,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 72.89,
+    "operatingProfitMargin" : 11.61,
+    "operatingProfit" : 8.46,
+    "netProfitMargin" : 16.04,
+    "netProfit" : 11.69
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.24,
+    "pricePercentageAboveDma100" : 4.37,
+    "pricePercentageAboveDma200" : 4.10,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 18.75,
+    "operatingProfitMarginPercentile" : 5.92,
+    "netProfitMarginPercentile" : 7.50,
+    "totalTechnicalScore" : 38.71,
+    "totalFundamentalScore" : 32.17,
+    "totalScore" : 70.88
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284425",
-    "company_code" : "543953",
-    "company_name" : "Khazanchi Jewell",
-    "screener_company_link" : "https://www.screener.in/company/543953",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284425/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284425/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284425",
+    "companyCode" : "543953",
+    "companyName" : "Khazanchi Jewell",
+    "screenerCompanyLink" : "https://www.screener.in/company/543953",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284425/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284425/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "543953",
+      "companyName" : "Khazanchi Jewell",
+      "marketCap" : 1816.00,
+      "peRatio" : 28.50,
+      "description" : "Incorporated in 1996, Khazanchi Jewellers Ltd is in the business of buying and selling of Gold ornaments, Gold bullion and Silver bullion[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.42,
+      "pricePercentageAboveDma100" : 4.05,
+      "pricePercentageAboveDma200" : 3.86,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 2.50,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 47.34,
+      "totalFundamentalScore" : 32.50,
+      "totalScore" : 79.84
+    }
   },
   "attributes" : {
-    "company_code" : "543953",
-    "company_name" : "Khazanchi Jewell",
-    "market_cap" : 1816.00,
-    "pe_ratio" : 28.50,
+    "companyCode" : "543953",
+    "companyName" : "Khazanchi Jewell",
+    "marketCap" : 1816.00,
+    "peRatio" : 28.50,
     "description" : "Incorporated in 1996, Khazanchi Jewellers Ltd is in the business of buying and selling of Gold ornaments, Gold bullion and Silver bullion[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 621.10,
     "dma50" : 545.22,
@@ -1752,10 +1777,168 @@
     "volume" : 44250.00
   }, {
     "date" : "2025-11-24",
-    "price" : 736.75,
-    "dma50" : 658.08,
-    "dma100" : 617.03,
-    "dma200" : 598.13,
-    "volume" : 14750.00
-  } ]
+    "price" : 734.00,
+    "dma50" : 657.97,
+    "dma100" : 617.00,
+    "dma200" : 598.11,
+    "volume" : 23000.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 734.00,
+    "dma50" : 657.97,
+    "dma100" : 617.00,
+    "dma200" : 598.11,
+    "volume" : 23000.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2022-09-30",
+    "sales" : 233.22,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 2.51,
+    "grossProfit" : 5.85,
+    "operatingProfitMargin" : 2.13,
+    "operatingProfit" : 4.97,
+    "netProfitMargin" : 0.79,
+    "netProfit" : 1.84
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 247.44,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 4.92,
+    "grossProfit" : 12.17,
+    "operatingProfitMargin" : 4.31,
+    "operatingProfit" : 10.66,
+    "netProfitMargin" : 2.32,
+    "netProfit" : 5.74
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 186.77,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 3.80,
+    "grossProfit" : 7.10,
+    "operatingProfitMargin" : 3.35,
+    "operatingProfit" : 6.26,
+    "netProfitMargin" : 1.48,
+    "netProfit" : 2.76
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 405.77,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 5.52,
+    "grossProfit" : 22.40,
+    "operatingProfitMargin" : 5.02,
+    "operatingProfit" : 20.37,
+    "netProfitMargin" : 3.87,
+    "netProfit" : 15.70
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 207.51,
+    "salesGrowthYoY" : -11.02,
+    "grossProfitMargin" : 5.37,
+    "grossProfit" : 11.14,
+    "operatingProfitMargin" : 4.98,
+    "operatingProfit" : 10.33,
+    "netProfitMargin" : 2.80,
+    "netProfit" : 5.81
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 415.01,
+    "salesGrowthYoY" : 67.72,
+    "grossProfitMargin" : 5.37,
+    "grossProfit" : 22.29,
+    "operatingProfitMargin" : 4.98,
+    "operatingProfit" : 20.67,
+    "netProfitMargin" : 2.80,
+    "netProfit" : 11.62
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 381.07,
+    "salesGrowthYoY" : 104.03,
+    "grossProfitMargin" : 3.80,
+    "grossProfit" : 14.48,
+    "operatingProfitMargin" : 3.50,
+    "operatingProfit" : 13.34,
+    "netProfitMargin" : 2.41,
+    "netProfit" : 9.18
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 756.23,
+    "salesGrowthYoY" : 86.37,
+    "grossProfitMargin" : 4.07,
+    "grossProfit" : 30.78,
+    "operatingProfitMargin" : 3.77,
+    "operatingProfit" : 28.51,
+    "netProfitMargin" : 2.65,
+    "netProfit" : 20.04
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 393.72,
+    "salesGrowthYoY" : 89.74,
+    "grossProfitMargin" : 4.39,
+    "grossProfit" : 17.28,
+    "operatingProfitMargin" : 4.14,
+    "operatingProfit" : 16.30,
+    "netProfitMargin" : 3.14,
+    "netProfit" : 12.36
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 621.97,
+    "salesGrowthYoY" : 49.87,
+    "grossProfitMargin" : 3.55,
+    "grossProfit" : 22.08,
+    "operatingProfitMargin" : 3.13,
+    "operatingProfit" : 19.47,
+    "netProfitMargin" : 2.02,
+    "netProfit" : 12.56
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 403.75,
+    "salesGrowthYoY" : 5.95,
+    "grossProfitMargin" : 5.65,
+    "grossProfit" : 22.81,
+    "operatingProfitMargin" : 5.22,
+    "operatingProfit" : 21.08,
+    "netProfitMargin" : 3.75,
+    "netProfit" : 15.14
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 548.60,
+    "salesGrowthYoY" : -27.46,
+    "grossProfitMargin" : 6.15,
+    "grossProfit" : 33.74,
+    "operatingProfitMargin" : 5.89,
+    "operatingProfit" : 32.31,
+    "netProfitMargin" : 4.29,
+    "netProfit" : 23.53
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 548.60,
+    "salesGrowthYoY" : -27.46,
+    "grossProfitMargin" : 6.15,
+    "grossProfit" : 33.74,
+    "operatingProfitMargin" : 5.89,
+    "operatingProfit" : 32.31,
+    "netProfitMargin" : 4.29,
+    "netProfit" : 23.53
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.42,
+    "pricePercentageAboveDma100" : 4.05,
+    "pricePercentageAboveDma200" : 3.86,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 2.50,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 47.34,
+    "totalFundamentalScore" : 32.50,
+    "totalScore" : 79.84
+  }
 }

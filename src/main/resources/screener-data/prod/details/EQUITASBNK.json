@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274807",
-    "company_code" : "EQUITASBNK",
-    "company_name" : "Equitas Sma. Fin",
-    "screener_company_link" : "https://www.screener.in/company/EQUITASBNK",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274807/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274807/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274807",
+    "companyCode" : "EQUITASBNK",
+    "companyName" : "Equitas Sma. Fin",
+    "screenerCompanyLink" : "https://www.screener.in/company/EQUITASBNK",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274807/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274807/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "EQUITASBNK",
+      "companyName" : "Equitas Sma. Fin",
+      "marketCap" : 7411.00,
+      "peRatio" : null,
+      "description" : "Equitas Small Finance Bank Ltd before acquiring small bank license, operated as a wholly-owned subsidiary of Equitas Holding Ltd. The holding entity started its operations in 2007 in the microfinance segment & diversified into vehicle & housing finance in 2011. Also entered into SME & LAP in 2013. It merged with the other two subsidiaries named Equitas Microfinance Ltd & Equitas Housing Finance Ltd & formed a bank. After receiving a license in Sept 2016 the company commenced operations under Equitas small finance Bank. [1] [2]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 4.57,
+      "pricePercentageAboveDma100" : 4.48,
+      "pricePercentageAboveDma200" : 4.80,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 11.16,
+      "operatingProfitMarginPercentile" : 13.13,
+      "netProfitMarginPercentile" : 5.02,
+      "totalTechnicalScore" : 38.85,
+      "totalFundamentalScore" : 29.31,
+      "totalScore" : 68.16
+    }
   },
   "attributes" : {
-    "company_code" : "EQUITASBNK",
-    "company_name" : "Equitas Sma. Fin",
-    "market_cap" : 7477.00,
-    "pe_ratio" : null,
+    "companyCode" : "EQUITASBNK",
+    "companyName" : "Equitas Sma. Fin",
+    "marketCap" : 7411.00,
+    "peRatio" : null,
     "description" : "Equitas Small Finance Bank Ltd before acquiring small bank license, operated as a wholly-owned subsidiary of Equitas Holding Ltd. The holding entity started its operations in 2007 in the microfinance segment & diversified into vehicle & housing finance in 2011. Also entered into SME & LAP in 2013. It merged with the other two subsidiaries named Equitas Microfinance Ltd & Equitas Housing Finance Ltd & formed a bank. After receiving a license in Sept 2016 the company commenced operations under Equitas small finance Bank. [1] [2]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 62.56,
     "dma50" : 71.76,
@@ -1752,10 +1777,318 @@
     "volume" : 2909062.00
   }, {
     "date" : "2025-11-24",
-    "price" : 65.55,
-    "dma50" : 59.41,
-    "dma100" : 58.38,
-    "dma200" : 62.07,
-    "volume" : 4956974.00
-  } ]
+    "price" : 64.50,
+    "dma50" : 59.37,
+    "dma100" : 58.37,
+    "dma200" : 62.06,
+    "volume" : 6638575.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 64.50,
+    "dma50" : 59.37,
+    "dma100" : 58.37,
+    "dma200" : 62.06,
+    "volume" : 6638575.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2019-03-31",
+    "sales" : 1118.56,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1118.56,
+    "operatingProfitMargin" : 52.04,
+    "operatingProfit" : 582.10,
+    "netProfitMargin" : 11.41,
+    "netProfit" : 127.63
+  }, {
+    "date" : "2019-06-30",
+    "sales" : 603.39,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 603.39,
+    "operatingProfitMargin" : 43.77,
+    "operatingProfit" : 264.10,
+    "netProfitMargin" : 9.46,
+    "netProfit" : 57.08
+  }, {
+    "date" : "2019-09-30",
+    "sales" : 1242.86,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1242.86,
+    "operatingProfitMargin" : 48.81,
+    "operatingProfit" : 606.64,
+    "netProfitMargin" : 8.57,
+    "netProfit" : 106.51
+  }, {
+    "date" : "2019-12-31",
+    "sales" : 676.71,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 676.71,
+    "operatingProfitMargin" : 48.08,
+    "operatingProfit" : 325.36,
+    "netProfitMargin" : 13.90,
+    "netProfit" : 94.06
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 725.88,
+    "salesGrowthYoY" : -35.11,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 725.88,
+    "operatingProfitMargin" : 39.50,
+    "operatingProfit" : 286.72,
+    "netProfitMargin" : 5.93,
+    "netProfit" : 43.04
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 721.31,
+    "salesGrowthYoY" : 19.54,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 721.31,
+    "operatingProfitMargin" : 50.05,
+    "operatingProfit" : 361.02,
+    "netProfitMargin" : 8.00,
+    "netProfit" : 57.70
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 797.54,
+    "salesGrowthYoY" : -35.83,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 797.54,
+    "operatingProfitMargin" : 52.35,
+    "operatingProfit" : 417.51,
+    "netProfitMargin" : 12.91,
+    "netProfit" : 102.96
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 857.23,
+    "salesGrowthYoY" : 26.68,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 857.23,
+    "operatingProfitMargin" : 42.90,
+    "operatingProfit" : 367.75,
+    "netProfitMargin" : 12.91,
+    "netProfit" : 110.67
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 818.33,
+    "salesGrowthYoY" : 12.74,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 818.33,
+    "operatingProfitMargin" : 42.06,
+    "operatingProfit" : 344.19,
+    "netProfitMargin" : 13.79,
+    "netProfit" : 112.85
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 818.97,
+    "salesGrowthYoY" : 13.54,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 818.97,
+    "operatingProfitMargin" : 32.80,
+    "operatingProfit" : 268.62,
+    "netProfitMargin" : 1.46,
+    "netProfit" : 11.96
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 843.58,
+    "salesGrowthYoY" : 5.77,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 843.58,
+    "operatingProfitMargin" : 31.35,
+    "operatingProfit" : 264.46,
+    "netProfitMargin" : 4.88,
+    "netProfit" : 41.17
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 901.16,
+    "salesGrowthYoY" : 5.12,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 901.16,
+    "operatingProfitMargin" : 41.34,
+    "operatingProfit" : 372.54,
+    "netProfitMargin" : 12.00,
+    "netProfit" : 108.14
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 895.83,
+    "salesGrowthYoY" : 9.47,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 895.83,
+    "operatingProfitMargin" : 39.73,
+    "operatingProfit" : 355.91,
+    "netProfitMargin" : 13.34,
+    "netProfit" : 119.50
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 940.40,
+    "salesGrowthYoY" : 14.83,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 940.40,
+    "operatingProfitMargin" : 37.56,
+    "operatingProfit" : 353.21,
+    "netProfitMargin" : 10.32,
+    "netProfit" : 97.05
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 1002.37,
+    "salesGrowthYoY" : 18.82,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1002.37,
+    "operatingProfitMargin" : 39.89,
+    "operatingProfit" : 399.85,
+    "netProfitMargin" : 11.61,
+    "netProfit" : 116.38
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 1063.39,
+    "salesGrowthYoY" : 18.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1063.39,
+    "operatingProfitMargin" : 46.31,
+    "operatingProfit" : 492.46,
+    "netProfitMargin" : 16.00,
+    "netProfit" : 170.14
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 1155.73,
+    "salesGrowthYoY" : 29.01,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1155.73,
+    "operatingProfitMargin" : 40.74,
+    "operatingProfit" : 470.84,
+    "netProfitMargin" : 16.44,
+    "netProfit" : 190.00
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 1253.96,
+    "salesGrowthYoY" : 33.34,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1253.96,
+    "operatingProfitMargin" : 47.17,
+    "operatingProfit" : 591.49,
+    "netProfitMargin" : 15.25,
+    "netProfit" : 191.23
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 1358.99,
+    "salesGrowthYoY" : 35.58,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1358.99,
+    "operatingProfitMargin" : 49.97,
+    "operatingProfit" : 679.09,
+    "netProfitMargin" : 14.58,
+    "netProfit" : 198.14
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 1428.80,
+    "salesGrowthYoY" : 34.36,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1428.80,
+    "operatingProfitMargin" : 49.98,
+    "operatingProfit" : 714.11,
+    "netProfitMargin" : 14.14,
+    "netProfit" : 202.03
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 1444.65,
+    "salesGrowthYoY" : 25.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1444.65,
+    "operatingProfitMargin" : 47.52,
+    "operatingProfit" : 686.50,
+    "netProfitMargin" : 14.37,
+    "netProfit" : 207.60
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 1500.95,
+    "salesGrowthYoY" : 19.70,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1500.95,
+    "operatingProfitMargin" : 35.08,
+    "operatingProfit" : 526.53,
+    "netProfitMargin" : 1.72,
+    "netProfit" : 25.82
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 1554.87,
+    "salesGrowthYoY" : 14.41,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1554.87,
+    "operatingProfitMargin" : 34.32,
+    "operatingProfit" : 533.63,
+    "netProfitMargin" : 0.83,
+    "netProfit" : 12.91
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 1611.93,
+    "salesGrowthYoY" : 12.82,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1611.93,
+    "operatingProfitMargin" : 40.01,
+    "operatingProfit" : 644.93,
+    "netProfitMargin" : 4.11,
+    "netProfit" : 66.25
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 1643.97,
+    "salesGrowthYoY" : 13.80,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1643.97,
+    "operatingProfitMargin" : 39.08,
+    "operatingProfit" : 642.46,
+    "netProfitMargin" : 2.56,
+    "netProfit" : 42.09
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 1648.86,
+    "salesGrowthYoY" : 9.85,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1648.86,
+    "operatingProfitMargin" : 16.61,
+    "operatingProfit" : 273.88,
+    "netProfitMargin" : -13.57,
+    "netProfit" : -223.75
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 1617.35,
+    "salesGrowthYoY" : 4.02,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1617.35,
+    "operatingProfitMargin" : 40.08,
+    "operatingProfit" : 648.23,
+    "netProfitMargin" : 1.49,
+    "netProfit" : 24.10
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 1617.35,
+    "salesGrowthYoY" : 4.02,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1617.35,
+    "operatingProfitMargin" : 40.08,
+    "operatingProfit" : 648.23,
+    "netProfitMargin" : 1.49,
+    "netProfit" : 24.10
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 4.57,
+    "pricePercentageAboveDma100" : 4.48,
+    "pricePercentageAboveDma200" : 4.80,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 11.16,
+    "operatingProfitMarginPercentile" : 13.13,
+    "netProfitMarginPercentile" : 5.02,
+    "totalTechnicalScore" : 38.85,
+    "totalFundamentalScore" : 29.31,
+    "totalScore" : 68.16
+  }
 }

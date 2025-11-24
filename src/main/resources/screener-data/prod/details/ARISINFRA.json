@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285242",
-    "company_code" : "ARISINFRA",
-    "company_name" : "Arisinfra Solu.",
-    "screener_company_link" : "https://www.screener.in/company/ARISINFRA",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285242/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285242/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285242",
+    "companyCode" : "ARISINFRA",
+    "companyName" : "Arisinfra Solu.",
+    "screenerCompanyLink" : "https://www.screener.in/company/ARISINFRA",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285242/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285242/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "ARISINFRA",
+      "companyName" : "Arisinfra Solu.",
+      "marketCap" : 1187.00,
+      "peRatio" : null,
+      "description" : "Incorporated in 2021, Arisinfra Solutions Ltd provides construction materials to real estate and infrastructure developers and contractors[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.35,
+      "pricePercentageAboveDma100" : 5.27,
+      "pricePercentageAboveDma200" : 5.48,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 21.10,
+      "totalFundamentalScore" : 50.00,
+      "totalScore" : 71.10
+    }
   },
   "attributes" : {
-    "company_code" : "ARISINFRA",
-    "company_name" : "Arisinfra Solu.",
-    "market_cap" : 1208.00,
-    "pe_ratio" : null,
+    "companyCode" : "ARISINFRA",
+    "companyName" : "Arisinfra Solu.",
+    "marketCap" : 1187.00,
+    "peRatio" : null,
     "description" : "Incorporated in 2021, Arisinfra Solutions Ltd provides construction materials to real estate and infrastructure developers and contractors[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-06-25",
     "price" : 174.38,
     "dma50" : 174.38,
@@ -737,10 +762,118 @@
     "volume" : 706340.00
   }, {
     "date" : "2025-11-24",
-    "price" : 149.15,
-    "dma50" : 159.03,
-    "dma100" : 156.19,
-    "dma200" : 163.43,
-    "volume" : 151929.00
-  } ]
+    "price" : 147.82,
+    "dma50" : 158.98,
+    "dma100" : 156.18,
+    "dma200" : 163.42,
+    "volume" : 230638.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 147.82,
+    "dma50" : 158.98,
+    "dma100" : 156.18,
+    "dma200" : 163.42,
+    "volume" : 230638.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-03-31",
+    "sales" : 158.81,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 13.08,
+    "grossProfit" : 20.77,
+    "operatingProfitMargin" : -1.20,
+    "operatingProfit" : -1.91,
+    "netProfitMargin" : -1.84,
+    "netProfit" : -2.92
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 141.02,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 8.13,
+    "grossProfit" : 11.46,
+    "operatingProfitMargin" : 3.13,
+    "operatingProfit" : 4.41,
+    "netProfitMargin" : -0.10,
+    "netProfit" : -0.14
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 122.82,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 9.50,
+    "grossProfit" : 11.67,
+    "operatingProfitMargin" : 2.67,
+    "operatingProfit" : 3.28,
+    "netProfitMargin" : -0.55,
+    "netProfit" : -0.68
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 116.95,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 8.97,
+    "grossProfit" : 10.49,
+    "operatingProfitMargin" : -1.50,
+    "operatingProfit" : -1.75,
+    "netProfitMargin" : -3.57,
+    "netProfit" : -4.18
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 154.43,
+    "salesGrowthYoY" : -2.76,
+    "grossProfitMargin" : 10.16,
+    "grossProfit" : 15.69,
+    "operatingProfitMargin" : -0.28,
+    "operatingProfit" : -0.43,
+    "netProfitMargin" : -3.44,
+    "netProfit" : -5.31
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 126.09,
+    "salesGrowthYoY" : -10.59,
+    "grossProfitMargin" : 8.31,
+    "grossProfit" : 10.48,
+    "operatingProfitMargin" : -0.29,
+    "operatingProfit" : -0.37,
+    "netProfitMargin" : -1.51,
+    "netProfit" : -1.90
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 160.96,
+    "salesGrowthYoY" : 31.05,
+    "grossProfitMargin" : 12.18,
+    "grossProfit" : 19.60,
+    "operatingProfitMargin" : 6.81,
+    "operatingProfit" : 10.96,
+    "netProfitMargin" : 7.01,
+    "netProfit" : 11.28
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 160.96,
+    "salesGrowthYoY" : 31.05,
+    "grossProfitMargin" : 12.18,
+    "grossProfit" : 19.60,
+    "operatingProfitMargin" : 6.81,
+    "operatingProfit" : 10.96,
+    "netProfitMargin" : 7.01,
+    "netProfit" : 11.28
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.35,
+    "pricePercentageAboveDma100" : 5.27,
+    "pricePercentageAboveDma200" : 5.48,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 21.10,
+    "totalFundamentalScore" : 50.00,
+    "totalScore" : 71.10
+  }
 }

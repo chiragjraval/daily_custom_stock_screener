@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1275116",
-    "company_code" : "TEGA",
-    "company_name" : "Tega Inds.",
-    "screener_company_link" : "https://www.screener.in/company/TEGA",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1275116/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1275116/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1275116",
+    "companyCode" : "TEGA",
+    "companyName" : "Tega Inds.",
+    "screenerCompanyLink" : "https://www.screener.in/company/TEGA",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1275116/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1275116/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "TEGA",
+      "companyName" : "Tega Inds.",
+      "marketCap" : 12357.00,
+      "peRatio" : 68.40,
+      "description" : "Established in 1976, Tega Industries is a leading manufacturer and distributor of specialized, critical, and recurring consumable products for the global mineral beneficiation, mining, and bulk solids handling industry. Globally, Tega industries are the second largest producers of polymer-based mill liners, based on revenues for the year 2020.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.18,
+      "pricePercentageAboveDma100" : 5.14,
+      "pricePercentageAboveDma200" : 4.77,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 13.75,
+      "operatingProfitMarginPercentile" : 19.00,
+      "netProfitMarginPercentile" : 7.50,
+      "totalTechnicalScore" : 35.10,
+      "totalFundamentalScore" : 40.25,
+      "totalScore" : 75.35
+    }
   },
   "attributes" : {
-    "company_code" : "TEGA",
-    "company_name" : "Tega Inds.",
-    "market_cap" : 12474.00,
-    "pe_ratio" : 69.10,
+    "companyCode" : "TEGA",
+    "companyName" : "Tega Inds.",
+    "marketCap" : 12357.00,
+    "peRatio" : 68.40,
     "description" : "Established in 1976, Tega Industries is a leading manufacturer and distributor of specialized, critical, and recurring consumable products for the global mineral beneficiation, mining, and bulk solids handling industry. Globally, Tega industries are the second largest producers of polymer-based mill liners, based on revenues for the year 2020.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 1716.20,
     "dma50" : 1880.05,
@@ -1752,10 +1777,248 @@
     "volume" : 171589.00
   }, {
     "date" : "2025-11-24",
-    "price" : 1867.50,
-    "dma50" : 1918.36,
-    "dma100" : 1901.21,
-    "dma200" : 1766.11,
-    "volume" : 59621.00
-  } ]
+    "price" : 1847.00,
+    "dma50" : 1917.56,
+    "dma100" : 1901.01,
+    "dma200" : 1765.91,
+    "volume" : 235115.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 1847.00,
+    "dma50" : 1917.56,
+    "dma100" : 1901.01,
+    "dma200" : 1765.91,
+    "volume" : 235115.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2020-12-31",
+    "sales" : 140.20,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 58.15,
+    "grossProfit" : 81.53,
+    "operatingProfitMargin" : 24.34,
+    "operatingProfit" : 34.12,
+    "netProfitMargin" : 51.28,
+    "netProfit" : 71.89
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 144.68,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 62.32,
+    "grossProfit" : 90.16,
+    "operatingProfitMargin" : 25.44,
+    "operatingProfit" : 36.81,
+    "netProfitMargin" : 63.86,
+    "netProfit" : 92.39
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 116.89,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 56.31,
+    "grossProfit" : 65.82,
+    "operatingProfitMargin" : 15.56,
+    "operatingProfit" : 18.19,
+    "netProfitMargin" : 15.96,
+    "netProfit" : 18.66
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 149.46,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 53.57,
+    "grossProfit" : 80.07,
+    "operatingProfitMargin" : 16.27,
+    "operatingProfit" : 24.32,
+    "netProfitMargin" : 13.61,
+    "netProfit" : 20.34
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 171.12,
+    "salesGrowthYoY" : 22.05,
+    "grossProfitMargin" : 53.96,
+    "grossProfit" : 92.34,
+    "operatingProfitMargin" : 19.47,
+    "operatingProfit" : 33.32,
+    "netProfitMargin" : 14.86,
+    "netProfit" : 25.43
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 154.52,
+    "salesGrowthYoY" : 6.80,
+    "grossProfitMargin" : 57.19,
+    "grossProfit" : 88.37,
+    "operatingProfitMargin" : 20.46,
+    "operatingProfit" : 31.61,
+    "netProfitMargin" : 20.40,
+    "netProfit" : 31.52
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 159.40,
+    "salesGrowthYoY" : 36.37,
+    "grossProfitMargin" : 56.86,
+    "grossProfit" : 90.63,
+    "operatingProfitMargin" : 19.92,
+    "operatingProfit" : 31.75,
+    "netProfitMargin" : 13.68,
+    "netProfit" : 21.81
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 174.15,
+    "salesGrowthYoY" : 16.52,
+    "grossProfitMargin" : 54.37,
+    "grossProfit" : 94.69,
+    "operatingProfitMargin" : 18.73,
+    "operatingProfit" : 32.62,
+    "netProfitMargin" : 14.10,
+    "netProfit" : 24.56
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 185.94,
+    "salesGrowthYoY" : 8.66,
+    "grossProfitMargin" : 54.28,
+    "grossProfit" : 100.93,
+    "operatingProfitMargin" : 23.44,
+    "operatingProfit" : 43.58,
+    "netProfitMargin" : 18.77,
+    "netProfit" : 34.90
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 195.65,
+    "salesGrowthYoY" : 26.62,
+    "grossProfitMargin" : 54.73,
+    "grossProfit" : 107.08,
+    "operatingProfitMargin" : 22.94,
+    "operatingProfit" : 44.88,
+    "netProfitMargin" : 16.64,
+    "netProfit" : 32.56
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 146.21,
+    "salesGrowthYoY" : -8.27,
+    "grossProfitMargin" : 60.48,
+    "grossProfit" : 88.43,
+    "operatingProfitMargin" : 22.75,
+    "operatingProfit" : 33.26,
+    "netProfitMargin" : 16.71,
+    "netProfit" : 24.43
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 198.66,
+    "salesGrowthYoY" : 14.07,
+    "grossProfitMargin" : 54.96,
+    "grossProfit" : 109.18,
+    "operatingProfitMargin" : 21.54,
+    "operatingProfit" : 42.79,
+    "netProfitMargin" : 16.67,
+    "netProfit" : 33.12
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 163.63,
+    "salesGrowthYoY" : -12.00,
+    "grossProfitMargin" : 60.04,
+    "grossProfit" : 98.24,
+    "operatingProfitMargin" : 20.12,
+    "operatingProfit" : 32.92,
+    "netProfitMargin" : 14.27,
+    "netProfit" : 23.35
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 228.34,
+    "salesGrowthYoY" : 16.71,
+    "grossProfitMargin" : 57.44,
+    "grossProfit" : 131.16,
+    "operatingProfitMargin" : 24.75,
+    "operatingProfit" : 56.51,
+    "netProfitMargin" : 19.97,
+    "netProfit" : 45.60
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 236.65,
+    "salesGrowthYoY" : 61.86,
+    "grossProfitMargin" : 56.74,
+    "grossProfit" : 134.28,
+    "operatingProfitMargin" : 28.27,
+    "operatingProfit" : 66.90,
+    "netProfitMargin" : 21.47,
+    "netProfit" : 50.81
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 197.61,
+    "salesGrowthYoY" : -0.53,
+    "grossProfitMargin" : 55.07,
+    "grossProfit" : 108.82,
+    "operatingProfitMargin" : 17.70,
+    "operatingProfit" : 34.98,
+    "netProfitMargin" : 15.66,
+    "netProfit" : 30.95
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 247.46,
+    "salesGrowthYoY" : 51.23,
+    "grossProfitMargin" : 52.42,
+    "grossProfit" : 129.72,
+    "operatingProfitMargin" : 23.61,
+    "operatingProfit" : 58.43,
+    "netProfitMargin" : 22.66,
+    "netProfit" : 56.07
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 213.38,
+    "salesGrowthYoY" : -6.55,
+    "grossProfitMargin" : 54.17,
+    "grossProfit" : 115.59,
+    "operatingProfitMargin" : 21.91,
+    "operatingProfit" : 46.75,
+    "netProfitMargin" : 17.84,
+    "netProfit" : 38.07
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 167.60,
+    "salesGrowthYoY" : -29.18,
+    "grossProfitMargin" : 55.93,
+    "grossProfit" : 93.74,
+    "operatingProfitMargin" : 21.04,
+    "operatingProfit" : 35.26,
+    "netProfitMargin" : 22.91,
+    "netProfit" : 38.40
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 232.98,
+    "salesGrowthYoY" : 17.90,
+    "grossProfitMargin" : 55.44,
+    "grossProfit" : 129.16,
+    "operatingProfitMargin" : 26.63,
+    "operatingProfit" : 62.04,
+    "netProfitMargin" : 20.61,
+    "netProfit" : 48.02
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 232.98,
+    "salesGrowthYoY" : 17.90,
+    "grossProfitMargin" : 55.44,
+    "grossProfit" : 129.16,
+    "operatingProfitMargin" : 26.63,
+    "operatingProfit" : 62.04,
+    "netProfitMargin" : 20.61,
+    "netProfit" : 48.02
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.18,
+    "pricePercentageAboveDma100" : 5.14,
+    "pricePercentageAboveDma200" : 4.77,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 13.75,
+    "operatingProfitMarginPercentile" : 19.00,
+    "netProfitMarginPercentile" : 7.50,
+    "totalTechnicalScore" : 35.10,
+    "totalFundamentalScore" : 40.25,
+    "totalScore" : 75.35
+  }
 }

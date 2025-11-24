@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285688",
-    "company_code" : "JAINREC",
-    "company_name" : "Jain Resource",
-    "screener_company_link" : "https://www.screener.in/company/JAINREC",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285688/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285688/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285688",
+    "companyCode" : "JAINREC",
+    "companyName" : "Jain Resource",
+    "screenerCompanyLink" : "https://www.screener.in/company/JAINREC",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285688/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285688/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "JAINREC",
+      "companyName" : "Jain Resource",
+      "marketCap" : 14302.00,
+      "peRatio" : 56.40,
+      "description" : "Incorporated in 2022, Jain Resource Recycling and its subsidiaries specialize in recycling non-ferrous metal scrap and producing lead, copper, and aluminium alloys. Its lead ingots are London Metal Exchange-registered, ensuring international quality standards. The company also trades non-ferrous metals and commodities.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 4.53,
+      "pricePercentageAboveDma100" : 0.00,
+      "pricePercentageAboveDma200" : 3.90,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 23.43,
+      "totalFundamentalScore" : 50.00,
+      "totalScore" : 73.43
+    }
   },
   "attributes" : {
-    "company_code" : "JAINREC",
-    "company_name" : "Jain Resource",
-    "market_cap" : 14421.00,
-    "pe_ratio" : 56.90,
+    "companyCode" : "JAINREC",
+    "companyName" : "Jain Resource",
+    "marketCap" : 14302.00,
+    "peRatio" : 56.40,
     "description" : "Incorporated in 2022, Jain Resource Recycling and its subsidiaries specialize in recycling non-ferrous metal scrap and producing lead, copper, and aluminium alloys. Its lead ingots are London Metal Exchange-registered, ensuring international quality standards. The company also trades non-ferrous metals and commodities.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-10-01",
     "price" : 318.06,
     "dma50" : 318.06,
@@ -261,10 +286,98 @@
     "volume" : 1709527.00
   }, {
     "date" : "2025-11-24",
-    "price" : 417.55,
-    "dma50" : 377.45,
+    "price" : 412.45,
+    "dma50" : 377.25,
     "dma100" : null,
-    "dma200" : 337.88,
-    "volume" : 457019.00
-  } ]
+    "dma200" : 337.83,
+    "volume" : 909577.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 412.45,
+    "dma50" : 377.25,
+    "dma100" : null,
+    "dma200" : 337.83,
+    "volume" : 909577.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-06-30",
+    "sales" : 1436.46,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 8.30,
+    "grossProfit" : 119.23,
+    "operatingProfitMargin" : 4.93,
+    "operatingProfit" : 70.82,
+    "netProfitMargin" : 4.07,
+    "netProfit" : 58.46
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 1343.40,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 8.30,
+    "grossProfit" : 111.50,
+    "operatingProfitMargin" : 4.93,
+    "operatingProfit" : 66.23,
+    "netProfitMargin" : 4.07,
+    "netProfit" : 54.68
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 1639.21,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 8.89,
+    "grossProfit" : 145.73,
+    "operatingProfitMargin" : 5.52,
+    "operatingProfit" : 90.48,
+    "netProfitMargin" : 3.44,
+    "netProfit" : 56.39
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 1469.69,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 10.13,
+    "grossProfit" : 148.88,
+    "operatingProfitMargin" : 5.99,
+    "operatingProfit" : 88.03,
+    "netProfitMargin" : 4.02,
+    "netProfit" : 59.08
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 2054.91,
+    "salesGrowthYoY" : 43.05,
+    "grossProfitMargin" : 10.96,
+    "grossProfit" : 225.22,
+    "operatingProfitMargin" : 7.60,
+    "operatingProfit" : 156.17,
+    "netProfitMargin" : 4.80,
+    "netProfit" : 98.64
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 2054.91,
+    "salesGrowthYoY" : 43.05,
+    "grossProfitMargin" : 10.96,
+    "grossProfit" : 225.22,
+    "operatingProfitMargin" : 7.60,
+    "operatingProfit" : 156.17,
+    "netProfitMargin" : 4.80,
+    "netProfit" : 98.64
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 4.53,
+    "pricePercentageAboveDma100" : 0.00,
+    "pricePercentageAboveDma200" : 3.90,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 23.43,
+    "totalFundamentalScore" : 50.00,
+    "totalScore" : 73.43
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1275092",
-    "company_code" : "SJS",
-    "company_name" : "SJS Enterprises",
-    "screener_company_link" : "https://www.screener.in/company/SJS",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1275092/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1275092/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1275092",
+    "companyCode" : "SJS",
+    "companyName" : "SJS Enterprises",
+    "screenerCompanyLink" : "https://www.screener.in/company/SJS",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1275092/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1275092/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "SJS",
+      "companyName" : "SJS Enterprises",
+      "marketCap" : 5410.00,
+      "peRatio" : 51.40,
+      "description" : "SJS Enterprises Ltd. (SJS) is one of the leading players in the Indian decorative aesthetics industry in terms of revenue. It offers a \"design-to-delivery\" aesthetics solutions provider with the ability to design, develop and manufacture a diverse product portfolio for a wide range of customers primarily in the automotive and consumer appliance industries.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.65,
+      "pricePercentageAboveDma100" : 4.05,
+      "pricePercentageAboveDma200" : 3.50,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 18.75,
+      "operatingProfitMarginPercentile" : 18.00,
+      "netProfitMarginPercentile" : 8.00,
+      "totalTechnicalScore" : 47.20,
+      "totalFundamentalScore" : 44.75,
+      "totalScore" : 91.95
+    }
   },
   "attributes" : {
-    "company_code" : "SJS",
-    "company_name" : "SJS Enterprises",
-    "market_cap" : 5398.00,
-    "pe_ratio" : 51.30,
+    "companyCode" : "SJS",
+    "companyName" : "SJS Enterprises",
+    "marketCap" : 5410.00,
+    "peRatio" : 51.40,
     "description" : "SJS Enterprises Ltd. (SJS) is one of the leading players in the Indian decorative aesthetics industry in terms of revenue. It offers a \"design-to-delivery\" aesthetics solutions provider with the ability to design, develop and manufacture a diverse product portfolio for a wide range of customers primarily in the automotive and consumer appliance industries.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 1151.20,
     "dma50" : 1079.83,
@@ -1752,10 +1777,248 @@
     "volume" : 131559.00
   }, {
     "date" : "2025-11-24",
-    "price" : 1692.30,
-    "dma50" : 1578.93,
-    "dma100" : 1419.36,
-    "dma200" : 1298.94,
-    "volume" : 39980.00
-  } ]
+    "price" : 1688.70,
+    "dma50" : 1578.78,
+    "dma100" : 1419.33,
+    "dma200" : 1298.90,
+    "volume" : 69212.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 1688.70,
+    "dma50" : 1578.78,
+    "dma100" : 1419.33,
+    "dma200" : 1298.90,
+    "volume" : 69212.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2020-12-31",
+    "sales" : 83.04,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 60.60,
+    "grossProfit" : 50.32,
+    "operatingProfitMargin" : 35.28,
+    "operatingProfit" : 29.30,
+    "netProfitMargin" : 23.37,
+    "netProfit" : 19.41
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 73.66,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 61.77,
+    "grossProfit" : 45.50,
+    "operatingProfitMargin" : 24.64,
+    "operatingProfit" : 18.15,
+    "netProfitMargin" : 15.14,
+    "netProfit" : 11.15
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 56.81,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 63.12,
+    "grossProfit" : 35.86,
+    "operatingProfitMargin" : 28.67,
+    "operatingProfit" : 16.29,
+    "netProfitMargin" : 17.71,
+    "netProfit" : 10.06
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 71.34,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 61.98,
+    "grossProfit" : 44.22,
+    "operatingProfitMargin" : 30.52,
+    "operatingProfit" : 21.77,
+    "netProfitMargin" : 19.12,
+    "netProfit" : 13.64
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 66.25,
+    "salesGrowthYoY" : -20.22,
+    "grossProfitMargin" : 64.80,
+    "grossProfit" : 42.93,
+    "operatingProfitMargin" : 33.18,
+    "operatingProfit" : 21.98,
+    "netProfitMargin" : 20.89,
+    "netProfit" : 13.84
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 73.49,
+    "salesGrowthYoY" : -0.23,
+    "grossProfitMargin" : 59.34,
+    "grossProfit" : 43.61,
+    "operatingProfitMargin" : 29.77,
+    "operatingProfit" : 21.88,
+    "netProfitMargin" : 19.49,
+    "netProfit" : 14.32
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 73.53,
+    "salesGrowthYoY" : 29.43,
+    "grossProfitMargin" : 62.71,
+    "grossProfit" : 46.11,
+    "operatingProfitMargin" : 30.91,
+    "operatingProfit" : 22.73,
+    "netProfitMargin" : 20.66,
+    "netProfit" : 15.19
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 81.83,
+    "salesGrowthYoY" : 14.70,
+    "grossProfitMargin" : 63.51,
+    "grossProfit" : 51.97,
+    "operatingProfitMargin" : 30.54,
+    "operatingProfit" : 24.99,
+    "netProfitMargin" : 20.96,
+    "netProfit" : 17.15
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 71.48,
+    "salesGrowthYoY" : 7.89,
+    "grossProfitMargin" : 64.54,
+    "grossProfit" : 46.13,
+    "operatingProfitMargin" : 30.50,
+    "operatingProfit" : 21.80,
+    "netProfitMargin" : 20.03,
+    "netProfit" : 14.32
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 69.36,
+    "salesGrowthYoY" : -5.62,
+    "grossProfitMargin" : 60.83,
+    "grossProfit" : 42.19,
+    "operatingProfitMargin" : 25.55,
+    "operatingProfit" : 17.72,
+    "netProfitMargin" : 17.49,
+    "netProfit" : 12.13
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 82.93,
+    "salesGrowthYoY" : 12.78,
+    "grossProfitMargin" : 62.25,
+    "grossProfit" : 51.62,
+    "operatingProfitMargin" : 28.41,
+    "operatingProfit" : 23.56,
+    "netProfitMargin" : 19.63,
+    "netProfit" : 16.28
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 87.12,
+    "salesGrowthYoY" : 6.46,
+    "grossProfitMargin" : 62.11,
+    "grossProfit" : 54.11,
+    "operatingProfitMargin" : 28.98,
+    "operatingProfit" : 25.25,
+    "netProfitMargin" : 18.78,
+    "netProfit" : 16.36
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 91.05,
+    "salesGrowthYoY" : 27.38,
+    "grossProfitMargin" : 61.15,
+    "grossProfit" : 55.68,
+    "operatingProfitMargin" : 29.57,
+    "operatingProfit" : 26.92,
+    "netProfitMargin" : 18.17,
+    "netProfit" : 16.54
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 102.26,
+    "salesGrowthYoY" : 47.43,
+    "grossProfitMargin" : 58.13,
+    "grossProfit" : 59.44,
+    "operatingProfitMargin" : 27.66,
+    "operatingProfit" : 28.29,
+    "netProfitMargin" : 17.97,
+    "netProfit" : 18.38
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 96.76,
+    "salesGrowthYoY" : 16.68,
+    "grossProfitMargin" : 62.17,
+    "grossProfit" : 60.16,
+    "operatingProfitMargin" : 30.30,
+    "operatingProfit" : 29.32,
+    "netProfitMargin" : 19.37,
+    "netProfit" : 18.74
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 105.55,
+    "salesGrowthYoY" : 21.15,
+    "grossProfitMargin" : 63.84,
+    "grossProfit" : 67.38,
+    "operatingProfitMargin" : 31.63,
+    "operatingProfit" : 33.39,
+    "netProfitMargin" : 26.25,
+    "netProfit" : 27.71
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 92.86,
+    "salesGrowthYoY" : 1.99,
+    "grossProfitMargin" : 62.52,
+    "grossProfit" : 58.06,
+    "operatingProfitMargin" : 31.82,
+    "operatingProfit" : 29.55,
+    "netProfitMargin" : 22.60,
+    "netProfit" : 20.99
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 102.83,
+    "salesGrowthYoY" : 0.56,
+    "grossProfitMargin" : 61.07,
+    "grossProfit" : 62.80,
+    "operatingProfitMargin" : 28.46,
+    "operatingProfit" : 29.27,
+    "netProfitMargin" : 23.88,
+    "netProfit" : 24.56
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 123.72,
+    "salesGrowthYoY" : 27.86,
+    "grossProfitMargin" : 62.04,
+    "grossProfit" : 76.76,
+    "operatingProfitMargin" : 31.80,
+    "operatingProfit" : 39.34,
+    "netProfitMargin" : 22.07,
+    "netProfit" : 27.31
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 145.31,
+    "salesGrowthYoY" : 37.67,
+    "grossProfitMargin" : 61.79,
+    "grossProfit" : 89.79,
+    "operatingProfitMargin" : 32.48,
+    "operatingProfit" : 47.20,
+    "netProfitMargin" : 22.24,
+    "netProfit" : 32.32
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 145.31,
+    "salesGrowthYoY" : 37.67,
+    "grossProfitMargin" : 61.79,
+    "grossProfit" : 89.79,
+    "operatingProfitMargin" : 32.48,
+    "operatingProfit" : 47.20,
+    "netProfitMargin" : 22.24,
+    "netProfit" : 32.32
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.65,
+    "pricePercentageAboveDma100" : 4.05,
+    "pricePercentageAboveDma200" : 3.50,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 18.75,
+    "operatingProfitMarginPercentile" : 18.00,
+    "netProfitMarginPercentile" : 8.00,
+    "totalTechnicalScore" : 47.20,
+    "totalFundamentalScore" : 44.75,
+    "totalScore" : 91.95
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285329",
-    "company_code" : "QPOWER",
-    "company_name" : "Quality Power El",
-    "screener_company_link" : "https://www.screener.in/company/QPOWER",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285329/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285329/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285329",
+    "companyCode" : "QPOWER",
+    "companyName" : "Quality Power El",
+    "screenerCompanyLink" : "https://www.screener.in/company/QPOWER",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285329/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285329/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "QPOWER",
+      "companyName" : "Quality Power El",
+      "marketCap" : 5624.00,
+      "peRatio" : 141.00,
+      "description" : "Incorporated in 2001, Quality Power Electrical Equipments Limited is engaged in the business of energy transition equipment and power technologies.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.95,
+      "pricePercentageAboveDma100" : 5.85,
+      "pricePercentageAboveDma200" : 4.91,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 15.22,
+      "operatingProfitMarginPercentile" : 18.37,
+      "netProfitMarginPercentile" : 8.77,
+      "totalTechnicalScore" : 36.72,
+      "totalFundamentalScore" : 42.37,
+      "totalScore" : 79.08
+    }
   },
   "attributes" : {
-    "company_code" : "QPOWER",
-    "company_name" : "Quality Power El",
-    "market_cap" : 5767.00,
-    "pe_ratio" : 145.00,
+    "companyCode" : "QPOWER",
+    "companyName" : "Quality Power El",
+    "marketCap" : 5624.00,
+    "peRatio" : 141.00,
     "description" : "Incorporated in 2001, Quality Power Electrical Equipments Limited is engaged in the business of energy transition equipment and power technologies.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-02-24",
     "price" : 387.90,
     "dma50" : 387.90,
@@ -1297,10 +1322,128 @@
     "volume" : 260769.00
   }, {
     "date" : "2025-11-24",
-    "price" : 745.50,
-    "dma50" : 899.44,
-    "dma100" : 876.15,
-    "dma200" : 714.51,
-    "volume" : 361473.00
-  } ]
+    "price" : 727.10,
+    "dma50" : 898.72,
+    "dma100" : 875.97,
+    "dma200" : 714.33,
+    "volume" : 700184.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 727.10,
+    "dma50" : 898.72,
+    "dma100" : 875.97,
+    "dma200" : 714.33,
+    "volume" : 700184.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2023-12-31",
+    "sales" : 52.54,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 41.28,
+    "grossProfit" : 21.69,
+    "operatingProfitMargin" : 26.74,
+    "operatingProfit" : 14.05,
+    "netProfitMargin" : 19.89,
+    "netProfit" : 10.45
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 30.80,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 36.59,
+    "grossProfit" : 11.27,
+    "operatingProfitMargin" : 10.06,
+    "operatingProfit" : 3.10,
+    "netProfitMargin" : 7.76,
+    "netProfit" : 2.39
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 30.30,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 42.87,
+    "grossProfit" : 12.99,
+    "operatingProfitMargin" : 22.81,
+    "operatingProfit" : 6.91,
+    "netProfitMargin" : 16.34,
+    "netProfit" : 4.95
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 42.03,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 49.27,
+    "grossProfit" : 20.71,
+    "operatingProfitMargin" : 29.93,
+    "operatingProfit" : 12.58,
+    "netProfitMargin" : 22.29,
+    "netProfit" : 9.37
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 35.87,
+    "salesGrowthYoY" : -31.73,
+    "grossProfitMargin" : 51.60,
+    "grossProfit" : 18.51,
+    "operatingProfitMargin" : 27.88,
+    "operatingProfit" : 10.00,
+    "netProfitMargin" : 20.63,
+    "netProfit" : 7.40
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 44.23,
+    "salesGrowthYoY" : 43.60,
+    "grossProfitMargin" : 49.36,
+    "grossProfit" : 21.83,
+    "operatingProfitMargin" : 22.84,
+    "operatingProfit" : 10.10,
+    "netProfitMargin" : 19.47,
+    "netProfit" : 8.61
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 40.52,
+    "salesGrowthYoY" : 33.73,
+    "grossProfitMargin" : 55.21,
+    "grossProfit" : 22.37,
+    "operatingProfitMargin" : 33.17,
+    "operatingProfit" : 13.44,
+    "netProfitMargin" : 26.83,
+    "netProfit" : 10.87
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 52.79,
+    "salesGrowthYoY" : 25.60,
+    "grossProfitMargin" : 49.90,
+    "grossProfit" : 26.34,
+    "operatingProfitMargin" : 31.29,
+    "operatingProfit" : 16.52,
+    "netProfitMargin" : 24.49,
+    "netProfit" : 12.93
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 52.79,
+    "salesGrowthYoY" : 25.60,
+    "grossProfitMargin" : 49.90,
+    "grossProfit" : 26.34,
+    "operatingProfitMargin" : 31.29,
+    "operatingProfit" : 16.52,
+    "netProfitMargin" : 24.49,
+    "netProfit" : 12.93
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.95,
+    "pricePercentageAboveDma100" : 5.85,
+    "pricePercentageAboveDma200" : 4.91,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 15.22,
+    "operatingProfitMarginPercentile" : 18.37,
+    "netProfitMarginPercentile" : 8.77,
+    "totalTechnicalScore" : 36.72,
+    "totalFundamentalScore" : 42.37,
+    "totalScore" : 79.08
+  }
 }

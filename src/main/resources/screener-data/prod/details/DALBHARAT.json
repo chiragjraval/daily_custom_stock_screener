@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274605",
-    "company_code" : "DALBHARAT",
-    "company_name" : "Dalmia BharatLtd",
-    "screener_company_link" : "https://www.screener.in/company/DALBHARAT",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274605/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274605/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274605",
+    "companyCode" : "DALBHARAT",
+    "companyName" : "Dalmia BharatLtd",
+    "screenerCompanyLink" : "https://www.screener.in/company/DALBHARAT",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274605/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274605/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "DALBHARAT",
+      "companyName" : "Dalmia BharatLtd",
+      "marketCap" : 37887.00,
+      "peRatio" : 289.00,
+      "description" : "Dalmia Bharat is engaged in the business of Manufacturing and Selling of Cement. The company was started in 1939 and is the 4th largest cement manufacturer by installed capacity in India.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.28,
+      "pricePercentageAboveDma100" : 5.47,
+      "pricePercentageAboveDma200" : 5.20,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 15.00,
+      "netProfitMarginPercentile" : 1.56,
+      "totalTechnicalScore" : 25.96,
+      "totalFundamentalScore" : 36.56,
+      "totalScore" : 62.52
+    }
   },
   "attributes" : {
-    "company_code" : "DALBHARAT",
-    "company_name" : "Dalmia BharatLtd",
-    "market_cap" : 37883.00,
-    "pe_ratio" : 289.00,
+    "companyCode" : "DALBHARAT",
+    "companyName" : "Dalmia BharatLtd",
+    "marketCap" : 37887.00,
+    "peRatio" : 289.00,
     "description" : "Dalmia Bharat is engaged in the business of Manufacturing and Selling of Cement. The company was started in 1939 and is the 4th largest cement manufacturer by installed capacity in India.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 1826.80,
     "dma50" : 1814.20,
@@ -1752,10 +1777,368 @@
     "volume" : 196079.00
   }, {
     "date" : "2025-11-24",
-    "price" : 2022.30,
-    "dma50" : 2141.43,
-    "dma100" : 2231.22,
-    "dma200" : 2103.75,
-    "volume" : 141155.00
-  } ]
+    "price" : 2020.00,
+    "dma50" : 2141.34,
+    "dma100" : 2231.20,
+    "dma200" : 2103.72,
+    "volume" : 252790.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 2020.00,
+    "dma50" : 2141.34,
+    "dma100" : 2231.20,
+    "dma200" : 2103.72,
+    "volume" : 252790.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2017-12-31",
+    "sales" : 45.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 45.00,
+    "operatingProfitMargin" : 31.11,
+    "operatingProfit" : 14.00,
+    "netProfitMargin" : 44.44,
+    "netProfit" : 20.00
+  }, {
+    "date" : "2018-03-31",
+    "sales" : 27.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 27.00,
+    "operatingProfitMargin" : -11.11,
+    "operatingProfit" : -3.00,
+    "netProfitMargin" : 59.26,
+    "netProfit" : 16.00
+  }, {
+    "date" : "2018-06-30",
+    "sales" : 35.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 35.00,
+    "operatingProfitMargin" : 14.29,
+    "operatingProfit" : 5.00,
+    "netProfitMargin" : 40.00,
+    "netProfit" : 14.00
+  }, {
+    "date" : "2018-09-30",
+    "sales" : 37.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 37.00,
+    "operatingProfitMargin" : 10.81,
+    "operatingProfit" : 4.00,
+    "netProfitMargin" : 21.62,
+    "netProfit" : 8.00
+  }, {
+    "date" : "2018-12-31",
+    "sales" : 34.00,
+    "salesGrowthYoY" : -24.44,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 34.00,
+    "operatingProfitMargin" : 11.76,
+    "operatingProfit" : 4.00,
+    "netProfitMargin" : 111.76,
+    "netProfit" : 38.00
+  }, {
+    "date" : "2019-03-31",
+    "sales" : 58.00,
+    "salesGrowthYoY" : 114.81,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 58.00,
+    "operatingProfitMargin" : 43.10,
+    "operatingProfit" : 25.00,
+    "netProfitMargin" : 68.97,
+    "netProfit" : 40.00
+  }, {
+    "date" : "2019-06-30",
+    "sales" : 39.00,
+    "salesGrowthYoY" : 11.43,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 39.00,
+    "operatingProfitMargin" : -5.13,
+    "operatingProfit" : -2.00,
+    "netProfitMargin" : 17.95,
+    "netProfit" : 7.00
+  }, {
+    "date" : "2019-09-30",
+    "sales" : 39.00,
+    "salesGrowthYoY" : 5.41,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 39.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 123.08,
+    "netProfit" : 48.00
+  }, {
+    "date" : "2019-12-31",
+    "sales" : 38.00,
+    "salesGrowthYoY" : 11.76,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 38.00,
+    "operatingProfitMargin" : -2.63,
+    "operatingProfit" : -1.00,
+    "netProfitMargin" : 21.05,
+    "netProfit" : 8.00
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 35.00,
+    "salesGrowthYoY" : -39.66,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 35.00,
+    "operatingProfitMargin" : 8.57,
+    "operatingProfit" : 3.00,
+    "netProfitMargin" : 205.71,
+    "netProfit" : 72.00
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 36.00,
+    "salesGrowthYoY" : -7.69,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 36.00,
+    "operatingProfitMargin" : 11.11,
+    "operatingProfit" : 4.00,
+    "netProfitMargin" : 16.67,
+    "netProfit" : 6.00
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 35.00,
+    "salesGrowthYoY" : -10.26,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 35.00,
+    "operatingProfitMargin" : 14.29,
+    "operatingProfit" : 5.00,
+    "netProfitMargin" : 14.29,
+    "netProfit" : 5.00
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 38.00,
+    "salesGrowthYoY" : 0.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 38.00,
+    "operatingProfitMargin" : 26.32,
+    "operatingProfit" : 10.00,
+    "netProfitMargin" : 23.68,
+    "netProfit" : 9.00
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 39.00,
+    "salesGrowthYoY" : 11.43,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 39.00,
+    "operatingProfitMargin" : -10.26,
+    "operatingProfit" : -4.00,
+    "netProfitMargin" : 12.82,
+    "netProfit" : 5.00
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 34.00,
+    "salesGrowthYoY" : -5.56,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 34.00,
+    "operatingProfitMargin" : 14.71,
+    "operatingProfit" : 5.00,
+    "netProfitMargin" : 29.41,
+    "netProfit" : 10.00
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 34.00,
+    "salesGrowthYoY" : -2.86,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 34.00,
+    "operatingProfitMargin" : 14.71,
+    "operatingProfit" : 5.00,
+    "netProfitMargin" : 269.15,
+    "netProfit" : 91.51
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 33.00,
+    "salesGrowthYoY" : -13.16,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 33.00,
+    "operatingProfitMargin" : 15.15,
+    "operatingProfit" : 5.00,
+    "netProfitMargin" : 30.30,
+    "netProfit" : 10.00
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 34.00,
+    "salesGrowthYoY" : -12.82,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 34.00,
+    "operatingProfitMargin" : 17.65,
+    "operatingProfit" : 6.00,
+    "netProfitMargin" : 282.35,
+    "netProfit" : 96.00
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 33.00,
+    "salesGrowthYoY" : -2.94,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 33.00,
+    "operatingProfitMargin" : 12.12,
+    "operatingProfit" : 4.00,
+    "netProfitMargin" : 27.27,
+    "netProfit" : 9.00
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 33.00,
+    "salesGrowthYoY" : -2.94,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 33.00,
+    "operatingProfitMargin" : 9.09,
+    "operatingProfit" : 3.00,
+    "netProfitMargin" : 257.58,
+    "netProfit" : 85.00
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 32.00,
+    "salesGrowthYoY" : -3.03,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 32.00,
+    "operatingProfitMargin" : 9.38,
+    "operatingProfit" : 3.00,
+    "netProfitMargin" : 34.38,
+    "netProfit" : 11.00
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 34.00,
+    "salesGrowthYoY" : 0.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 34.00,
+    "operatingProfitMargin" : 11.76,
+    "operatingProfit" : 4.00,
+    "netProfitMargin" : 261.76,
+    "netProfit" : 89.00
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 35.00,
+    "salesGrowthYoY" : 6.06,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 35.00,
+    "operatingProfitMargin" : 8.57,
+    "operatingProfit" : 3.00,
+    "netProfitMargin" : 25.71,
+    "netProfit" : 9.00
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 33.00,
+    "salesGrowthYoY" : 0.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 33.00,
+    "operatingProfitMargin" : 15.15,
+    "operatingProfit" : 5.00,
+    "netProfitMargin" : 251.52,
+    "netProfit" : 83.00
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 30.00,
+    "salesGrowthYoY" : -6.25,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 30.00,
+    "operatingProfitMargin" : 6.67,
+    "operatingProfit" : 2.00,
+    "netProfitMargin" : 30.00,
+    "netProfit" : 9.00
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 32.00,
+    "salesGrowthYoY" : -5.88,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 32.00,
+    "operatingProfitMargin" : 21.88,
+    "operatingProfit" : 7.00,
+    "netProfitMargin" : 34.38,
+    "netProfit" : 11.00
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 34.00,
+    "salesGrowthYoY" : -2.86,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 34.00,
+    "operatingProfitMargin" : 11.76,
+    "operatingProfit" : 4.00,
+    "netProfitMargin" : 282.35,
+    "netProfit" : 96.00
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 29.00,
+    "salesGrowthYoY" : -12.12,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 29.00,
+    "operatingProfitMargin" : 17.24,
+    "operatingProfit" : 5.00,
+    "netProfitMargin" : 34.48,
+    "netProfit" : 10.00
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 61.00,
+    "salesGrowthYoY" : 103.33,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 61.00,
+    "operatingProfitMargin" : 14.75,
+    "operatingProfit" : 9.00,
+    "netProfitMargin" : 11.48,
+    "netProfit" : 7.00
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 78.00,
+    "salesGrowthYoY" : 143.75,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 78.00,
+    "operatingProfitMargin" : 6.41,
+    "operatingProfit" : 5.00,
+    "netProfitMargin" : 98.72,
+    "netProfit" : 77.00
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 75.00,
+    "salesGrowthYoY" : 120.59,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 75.00,
+    "operatingProfitMargin" : 13.33,
+    "operatingProfit" : 10.00,
+    "netProfitMargin" : 44.00,
+    "netProfit" : 33.00
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 80.00,
+    "salesGrowthYoY" : 175.86,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 80.00,
+    "operatingProfitMargin" : 15.00,
+    "operatingProfit" : 12.00,
+    "netProfitMargin" : 17.50,
+    "netProfit" : 14.00
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 80.00,
+    "salesGrowthYoY" : 175.86,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 80.00,
+    "operatingProfitMargin" : 15.00,
+    "operatingProfit" : 12.00,
+    "netProfitMargin" : 17.50,
+    "netProfit" : 14.00
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.28,
+    "pricePercentageAboveDma100" : 5.47,
+    "pricePercentageAboveDma200" : 5.20,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 15.00,
+    "netProfitMarginPercentile" : 1.56,
+    "totalTechnicalScore" : 25.96,
+    "totalFundamentalScore" : 36.56,
+    "totalScore" : 62.52
+  }
 }

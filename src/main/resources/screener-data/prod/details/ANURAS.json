@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274847",
-    "company_code" : "ANURAS",
-    "company_name" : "Anupam Rasayan",
-    "screener_company_link" : "https://www.screener.in/company/ANURAS",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274847/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274847/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274847",
+    "companyCode" : "ANURAS",
+    "companyName" : "Anupam Rasayan",
+    "screenerCompanyLink" : "https://www.screener.in/company/ANURAS",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274847/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274847/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "ANURAS",
+      "companyName" : "Anupam Rasayan",
+      "marketCap" : 13918.00,
+      "peRatio" : 108.00,
+      "description" : "Anupam Rasayan India Ltd is engaged in manufacturing of specialty chemicals, which are sold in local as well as exported to other countries.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.47,
+      "pricePercentageAboveDma100" : 4.52,
+      "pricePercentageAboveDma200" : 3.97,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 0.87,
+      "netProfitMarginPercentile" : 4.82,
+      "totalTechnicalScore" : 42.96,
+      "totalFundamentalScore" : 25.69,
+      "totalScore" : 68.65
+    }
   },
   "attributes" : {
-    "company_code" : "ANURAS",
-    "company_name" : "Anupam Rasayan",
-    "market_cap" : 14095.00,
-    "pe_ratio" : 110.00,
+    "companyCode" : "ANURAS",
+    "companyName" : "Anupam Rasayan",
+    "marketCap" : 13918.00,
+    "peRatio" : 108.00,
     "description" : "Anupam Rasayan India Ltd is engaged in manufacturing of specialty chemicals, which are sold in local as well as exported to other countries.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 728.65,
     "dma50" : 737.15,
@@ -1752,10 +1777,278 @@
     "volume" : 1820678.00
   }, {
     "date" : "2025-11-24",
-    "price" : 1235.30,
-    "dma50" : 1106.86,
-    "dma100" : 1116.12,
-    "dma200" : 1015.80,
-    "volume" : 303180.00
-  } ]
+    "price" : 1224.10,
+    "dma50" : 1106.42,
+    "dma100" : 1116.00,
+    "dma200" : 1015.68,
+    "volume" : 415222.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 1224.10,
+    "dma50" : 1106.42,
+    "dma100" : 1116.00,
+    "dma200" : 1015.68,
+    "volume" : 415222.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2020-03-31",
+    "sales" : 157.07,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 56.96,
+    "grossProfit" : 89.47,
+    "operatingProfitMargin" : 20.83,
+    "operatingProfit" : 32.72,
+    "netProfitMargin" : 6.64,
+    "netProfit" : 10.43
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 135.38,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 61.90,
+    "grossProfit" : 83.80,
+    "operatingProfitMargin" : 24.42,
+    "operatingProfit" : 33.06,
+    "netProfitMargin" : 0.19,
+    "netProfit" : 0.26
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 219.71,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 49.71,
+    "grossProfit" : 109.22,
+    "operatingProfitMargin" : 20.04,
+    "operatingProfit" : 44.03,
+    "netProfitMargin" : 11.85,
+    "netProfit" : 26.04
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 184.12,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 69.50,
+    "grossProfit" : 127.96,
+    "operatingProfitMargin" : 28.86,
+    "operatingProfit" : 53.14,
+    "netProfitMargin" : 11.64,
+    "netProfit" : 21.43
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 271.67,
+    "salesGrowthYoY" : 72.96,
+    "grossProfitMargin" : 55.28,
+    "grossProfit" : 150.18,
+    "operatingProfitMargin" : 23.12,
+    "operatingProfit" : 62.81,
+    "netProfitMargin" : 8.17,
+    "netProfit" : 22.20
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 233.68,
+    "salesGrowthYoY" : 72.61,
+    "grossProfitMargin" : 62.48,
+    "grossProfit" : 146.00,
+    "operatingProfitMargin" : 25.85,
+    "operatingProfit" : 60.41,
+    "netProfitMargin" : 13.69,
+    "netProfit" : 31.99
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 248.92,
+    "salesGrowthYoY" : 13.29,
+    "grossProfitMargin" : 63.71,
+    "grossProfit" : 158.59,
+    "operatingProfitMargin" : 25.48,
+    "operatingProfit" : 63.42,
+    "netProfitMargin" : 14.39,
+    "netProfit" : 35.82
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 266.16,
+    "salesGrowthYoY" : 44.56,
+    "grossProfitMargin" : 66.20,
+    "grossProfit" : 176.20,
+    "operatingProfitMargin" : 28.29,
+    "operatingProfit" : 75.30,
+    "netProfitMargin" : 14.23,
+    "netProfit" : 37.87
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 324.93,
+    "salesGrowthYoY" : 19.60,
+    "grossProfitMargin" : 68.24,
+    "grossProfit" : 221.73,
+    "operatingProfitMargin" : 32.19,
+    "operatingProfit" : 104.59,
+    "netProfitMargin" : 13.88,
+    "netProfit" : 45.10
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 309.83,
+    "salesGrowthYoY" : 32.59,
+    "grossProfitMargin" : 63.58,
+    "grossProfit" : 196.99,
+    "operatingProfitMargin" : 31.34,
+    "operatingProfit" : 97.10,
+    "netProfitMargin" : 12.07,
+    "netProfit" : 37.40
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 313.96,
+    "salesGrowthYoY" : 26.13,
+    "grossProfitMargin" : 63.20,
+    "grossProfit" : 198.42,
+    "operatingProfitMargin" : 30.27,
+    "operatingProfit" : 95.04,
+    "netProfitMargin" : 13.12,
+    "netProfit" : 41.19
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 295.54,
+    "salesGrowthYoY" : 11.04,
+    "grossProfitMargin" : 62.27,
+    "grossProfit" : 184.03,
+    "operatingProfitMargin" : 30.26,
+    "operatingProfit" : 89.43,
+    "netProfitMargin" : 13.08,
+    "netProfit" : 38.66
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 371.34,
+    "salesGrowthYoY" : 14.28,
+    "grossProfitMargin" : 53.28,
+    "grossProfit" : 197.85,
+    "operatingProfitMargin" : 24.90,
+    "operatingProfit" : 92.46,
+    "netProfitMargin" : 13.81,
+    "netProfit" : 51.28
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 288.46,
+    "salesGrowthYoY" : -6.90,
+    "grossProfitMargin" : 61.88,
+    "grossProfit" : 178.50,
+    "operatingProfitMargin" : 27.13,
+    "operatingProfit" : 78.26,
+    "netProfitMargin" : 12.10,
+    "netProfit" : 34.90
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 317.07,
+    "salesGrowthYoY" : 0.99,
+    "grossProfitMargin" : 60.98,
+    "grossProfit" : 193.35,
+    "operatingProfitMargin" : 28.76,
+    "operatingProfit" : 91.19,
+    "netProfitMargin" : 12.22,
+    "netProfit" : 38.75
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 214.71,
+    "salesGrowthYoY" : -27.35,
+    "grossProfitMargin" : 73.26,
+    "grossProfit" : 157.30,
+    "operatingProfitMargin" : 29.68,
+    "operatingProfit" : 63.73,
+    "netProfitMargin" : 7.14,
+    "netProfit" : 15.33
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 308.46,
+    "salesGrowthYoY" : -16.93,
+    "grossProfitMargin" : 56.12,
+    "grossProfit" : 173.11,
+    "operatingProfitMargin" : 23.94,
+    "operatingProfit" : 73.85,
+    "netProfitMargin" : 9.18,
+    "netProfit" : 28.32
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 163.95,
+    "salesGrowthYoY" : -43.16,
+    "grossProfitMargin" : 68.36,
+    "grossProfit" : 112.08,
+    "operatingProfitMargin" : 22.49,
+    "operatingProfit" : 36.87,
+    "netProfitMargin" : 0.87,
+    "netProfit" : 1.43
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 190.67,
+    "salesGrowthYoY" : -39.87,
+    "grossProfitMargin" : 68.66,
+    "grossProfit" : 130.91,
+    "operatingProfitMargin" : 27.34,
+    "operatingProfit" : 52.13,
+    "netProfitMargin" : 7.36,
+    "netProfit" : 14.03
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 212.09,
+    "salesGrowthYoY" : -1.22,
+    "grossProfitMargin" : 69.81,
+    "grossProfit" : 148.06,
+    "operatingProfitMargin" : 34.02,
+    "operatingProfit" : 72.15,
+    "netProfitMargin" : 9.02,
+    "netProfit" : 19.13
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 330.67,
+    "salesGrowthYoY" : 7.20,
+    "grossProfitMargin" : 56.86,
+    "grossProfit" : 188.02,
+    "operatingProfitMargin" : 31.90,
+    "operatingProfit" : 105.48,
+    "netProfitMargin" : 11.52,
+    "netProfit" : 38.09
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 315.69,
+    "salesGrowthYoY" : 92.55,
+    "grossProfitMargin" : 55.29,
+    "grossProfit" : 174.55,
+    "operatingProfitMargin" : 29.86,
+    "operatingProfit" : 94.27,
+    "netProfitMargin" : 9.40,
+    "netProfit" : 29.67
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 587.93,
+    "salesGrowthYoY" : 208.35,
+    "grossProfitMargin" : 32.66,
+    "grossProfit" : 192.02,
+    "operatingProfitMargin" : 18.59,
+    "operatingProfit" : 109.30,
+    "netProfitMargin" : 7.04,
+    "netProfit" : 41.39
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 587.93,
+    "salesGrowthYoY" : 208.35,
+    "grossProfitMargin" : 32.66,
+    "grossProfit" : 192.02,
+    "operatingProfitMargin" : 18.59,
+    "operatingProfit" : 109.30,
+    "netProfitMargin" : 7.04,
+    "netProfit" : 41.39
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.47,
+    "pricePercentageAboveDma100" : 4.52,
+    "pricePercentageAboveDma200" : 3.97,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 0.87,
+    "netProfitMarginPercentile" : 4.82,
+    "totalTechnicalScore" : 42.96,
+    "totalFundamentalScore" : 25.69,
+    "totalScore" : 68.65
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285590",
-    "company_code" : "JSWCEMENT",
-    "company_name" : "JSW Cement",
-    "screener_company_link" : "https://www.screener.in/company/JSWCEMENT",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285590/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285590/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285590",
+    "companyCode" : "JSWCEMENT",
+    "companyName" : "JSW Cement",
+    "screenerCompanyLink" : "https://www.screener.in/company/JSWCEMENT",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285590/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285590/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "JSWCEMENT",
+      "companyName" : "JSW Cement",
+      "marketCap" : 16108.00,
+      "peRatio" : 80.10,
+      "description" : "JSW Cement is a leading Indian manufacturer of green cement, known for its sustainability and use in major infrastructure projects"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.61,
+      "pricePercentageAboveDma100" : 0.00,
+      "pricePercentageAboveDma200" : 5.85,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 16.00,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 11.47,
+      "totalFundamentalScore" : 46.00,
+      "totalScore" : 57.47
+    }
   },
   "attributes" : {
-    "company_code" : "JSWCEMENT",
-    "company_name" : "JSW Cement",
-    "market_cap" : 16360.00,
-    "pe_ratio" : 81.30,
+    "companyCode" : "JSWCEMENT",
+    "companyName" : "JSW Cement",
+    "marketCap" : 16108.00,
+    "peRatio" : 80.10,
     "description" : "JSW Cement is a leading Indian manufacturer of green cement, known for its sustainability and use in major infrastructure projects"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-08-14",
     "price" : 146.07,
     "dma50" : 146.07,
@@ -485,10 +510,98 @@
     "volume" : 1886433.00
   }, {
     "date" : "2025-11-24",
-    "price" : 120.35,
-    "dma50" : 134.85,
+    "price" : 118.22,
+    "dma50" : 134.76,
     "dma100" : null,
-    "dma200" : 142.54,
-    "volume" : 2063493.00
-  } ]
+    "dma200" : 142.52,
+    "volume" : 4824743.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 118.22,
+    "dma50" : 134.76,
+    "dma100" : null,
+    "dma200" : 142.52,
+    "volume" : 4824743.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-06-30",
+    "sales" : 1377.79,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 60.62,
+    "grossProfit" : 835.22,
+    "operatingProfitMargin" : 14.10,
+    "operatingProfit" : 194.27,
+    "netProfitMargin" : 2.79,
+    "netProfit" : 38.44
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 1169.28,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 58.90,
+    "grossProfit" : 688.71,
+    "operatingProfitMargin" : 10.89,
+    "operatingProfit" : 127.33,
+    "netProfitMargin" : -0.28,
+    "netProfit" : -3.27
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 1597.61,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 60.22,
+    "grossProfit" : 962.08,
+    "operatingProfitMargin" : 15.22,
+    "operatingProfit" : 243.16,
+    "netProfitMargin" : 4.35,
+    "netProfit" : 69.50
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 1445.22,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 62.10,
+    "grossProfit" : 897.48,
+    "operatingProfitMargin" : 22.16,
+    "operatingProfit" : 320.26,
+    "netProfitMargin" : 4.07,
+    "netProfit" : 58.82
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 1322.20,
+    "salesGrowthYoY" : -4.03,
+    "grossProfitMargin" : 62.45,
+    "grossProfit" : 825.71,
+    "operatingProfitMargin" : 19.48,
+    "operatingProfit" : 257.56,
+    "netProfitMargin" : 7.26,
+    "netProfit" : 95.99
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 1322.20,
+    "salesGrowthYoY" : -4.03,
+    "grossProfitMargin" : 62.45,
+    "grossProfit" : 825.71,
+    "operatingProfitMargin" : 19.48,
+    "operatingProfit" : 257.56,
+    "netProfitMargin" : 7.26,
+    "netProfit" : 95.99
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.61,
+    "pricePercentageAboveDma100" : 0.00,
+    "pricePercentageAboveDma200" : 5.85,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 16.00,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 11.47,
+    "totalFundamentalScore" : 46.00,
+    "totalScore" : 57.47
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284354",
-    "company_code" : "CUBEINVIT",
-    "company_name" : "Cube Highways",
-    "screener_company_link" : "https://www.screener.in/company/CUBEINVIT",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284354/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284354/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284354",
+    "companyCode" : "CUBEINVIT",
+    "companyName" : "Cube Highways",
+    "screenerCompanyLink" : "https://www.screener.in/company/CUBEINVIT",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284354/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284354/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "CUBEINVIT",
+      "companyName" : "Cube Highways",
+      "marketCap" : 18548.00,
+      "peRatio" : 17.80,
+      "description" : "Incorporated in 2022, Cube Highways Trust is registered with SEBI as an Infrastructure Investment Trust for roads assets[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 4.83,
+      "pricePercentageAboveDma100" : 3.29,
+      "pricePercentageAboveDma200" : 4.15,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 10.00,
+      "operatingProfitMarginPercentile" : 17.89,
+      "netProfitMarginPercentile" : 7.57,
+      "totalTechnicalScore" : 37.27,
+      "totalFundamentalScore" : 35.46,
+      "totalScore" : 72.74
+    }
   },
   "attributes" : {
-    "company_code" : "CUBEINVIT",
-    "company_name" : "Cube Highways",
-    "market_cap" : 18548.00,
-    "pe_ratio" : 17.80,
+    "companyCode" : "CUBEINVIT",
+    "companyName" : "Cube Highways",
+    "marketCap" : 18548.00,
+    "peRatio" : 17.80,
     "description" : "Incorporated in 2022, Cube Highways Trust is registered with SEBI as an Infrastructure Investment Trust for roads assets[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-12-26",
     "price" : 119.46,
     "dma50" : 100.76,
@@ -720,6 +745,164 @@
     "dma50" : 133.44,
     "dma100" : 102.90,
     "dma200" : 117.89,
-    "volume" : 25000.00
-  } ]
+    "volume" : 50000.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 138.00,
+    "dma50" : 133.44,
+    "dma100" : 102.90,
+    "dma200" : 117.89,
+    "volume" : 50000.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2022-09-30",
+    "sales" : 0.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 0.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 449.87,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 449.87,
+    "operatingProfitMargin" : 97.82,
+    "operatingProfit" : 440.06,
+    "netProfitMargin" : 61.60,
+    "netProfit" : 277.12
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 919.05,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 919.05,
+    "operatingProfitMargin" : 13.37,
+    "operatingProfit" : 122.88,
+    "netProfitMargin" : -28.68,
+    "netProfit" : -263.58
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 467.47,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 467.47,
+    "operatingProfitMargin" : 98.04,
+    "operatingProfit" : 458.31,
+    "netProfitMargin" : 50.22,
+    "netProfit" : 234.76
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 975.69,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 975.69,
+    "operatingProfitMargin" : 108.28,
+    "operatingProfit" : 1056.48,
+    "netProfitMargin" : 62.66,
+    "netProfit" : 611.37
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 561.82,
+    "salesGrowthYoY" : 24.88,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 561.82,
+    "operatingProfitMargin" : 97.11,
+    "operatingProfit" : 545.58,
+    "netProfitMargin" : 56.73,
+    "netProfit" : 318.72
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 521.10,
+    "salesGrowthYoY" : -43.30,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 521.10,
+    "operatingProfitMargin" : 97.96,
+    "operatingProfit" : 510.47,
+    "netProfitMargin" : 45.40,
+    "netProfit" : 236.58
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 509.81,
+    "salesGrowthYoY" : 9.06,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 509.81,
+    "operatingProfitMargin" : 97.71,
+    "operatingProfit" : 498.14,
+    "netProfitMargin" : 44.24,
+    "netProfit" : 225.54
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 504.53,
+    "salesGrowthYoY" : -48.29,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 504.53,
+    "operatingProfitMargin" : 99.36,
+    "operatingProfit" : 501.30,
+    "netProfitMargin" : 43.35,
+    "netProfit" : 218.71
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 679.91,
+    "salesGrowthYoY" : 21.02,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 679.91,
+    "operatingProfitMargin" : 97.78,
+    "operatingProfit" : 664.82,
+    "netProfitMargin" : 51.29,
+    "netProfit" : 348.73
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 622.48,
+    "salesGrowthYoY" : 19.45,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 622.48,
+    "operatingProfitMargin" : 96.86,
+    "operatingProfit" : 602.93,
+    "netProfitMargin" : 40.50,
+    "netProfit" : 252.10
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 622.48,
+    "salesGrowthYoY" : 19.45,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 622.48,
+    "operatingProfitMargin" : 96.86,
+    "operatingProfit" : 602.93,
+    "netProfitMargin" : 40.50,
+    "netProfit" : 252.10
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 4.83,
+    "pricePercentageAboveDma100" : 3.29,
+    "pricePercentageAboveDma200" : 4.15,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 10.00,
+    "operatingProfitMarginPercentile" : 17.89,
+    "netProfitMarginPercentile" : 7.57,
+    "totalTechnicalScore" : 37.27,
+    "totalFundamentalScore" : 35.46,
+    "totalScore" : 72.74
+  }
 }

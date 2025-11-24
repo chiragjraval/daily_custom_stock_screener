@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284760",
-    "company_code" : "JNKINDIA",
-    "company_name" : "JNK",
-    "screener_company_link" : "https://www.screener.in/company/JNKINDIA",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284760/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284760/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284760",
+    "companyCode" : "JNKINDIA",
+    "companyName" : "JNK",
+    "screenerCompanyLink" : "https://www.screener.in/company/JNKINDIA",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284760/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284760/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "JNKINDIA",
+      "companyName" : "JNK",
+      "marketCap" : 1410.00,
+      "peRatio" : 45.60,
+      "description" : "JIncorporated in 2010, JNK India Ltd is in the business of Technology based EPC Contracts and Solutions in Renewable Energy[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.67,
+      "pricePercentageAboveDma100" : 5.84,
+      "pricePercentageAboveDma200" : 6.52,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 14.29,
+      "operatingProfitMarginPercentile" : 5.45,
+      "netProfitMarginPercentile" : 6.36,
+      "totalTechnicalScore" : 23.03,
+      "totalFundamentalScore" : 26.10,
+      "totalScore" : 49.13
+    }
   },
   "attributes" : {
-    "company_code" : "JNKINDIA",
-    "company_name" : "JNK",
-    "market_cap" : 1447.00,
-    "pe_ratio" : 46.80,
+    "companyCode" : "JNKINDIA",
+    "companyName" : "JNK",
+    "marketCap" : 1410.00,
+    "peRatio" : 45.60,
     "description" : "JIncorporated in 2010, JNK India Ltd is in the business of Technology based EPC Contracts and Solutions in Renewable Energy[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 593.50,
     "dma50" : 653.90,
@@ -1752,10 +1777,158 @@
     "volume" : 78645.00
   }, {
     "date" : "2025-11-24",
-    "price" : 259.05,
-    "dma50" : 290.10,
-    "dma100" : 302.22,
-    "dma200" : 361.44,
-    "volume" : 52252.00
-  } ]
+    "price" : 251.25,
+    "dma50" : 289.80,
+    "dma100" : 302.14,
+    "dma200" : 361.36,
+    "volume" : 124942.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 251.25,
+    "dma50" : 289.80,
+    "dma100" : 302.14,
+    "dma200" : 361.36,
+    "volume" : 124942.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2023-03-31",
+    "sales" : 105.44,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 55.40,
+    "grossProfit" : 58.41,
+    "operatingProfitMargin" : 17.40,
+    "operatingProfit" : 18.35,
+    "netProfitMargin" : 10.73,
+    "netProfit" : 11.31
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 36.68,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 59.62,
+    "grossProfit" : 21.87,
+    "operatingProfitMargin" : 20.58,
+    "operatingProfit" : 7.55,
+    "netProfitMargin" : 8.02,
+    "netProfit" : 2.94
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 96.91,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 37.53,
+    "grossProfit" : 36.37,
+    "operatingProfitMargin" : 22.13,
+    "operatingProfit" : 21.45,
+    "netProfitMargin" : 12.89,
+    "netProfit" : 12.49
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 119.77,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 44.59,
+    "grossProfit" : 53.41,
+    "operatingProfitMargin" : 33.85,
+    "operatingProfit" : 40.54,
+    "netProfitMargin" : 25.14,
+    "netProfit" : 30.11
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 223.81,
+    "salesGrowthYoY" : 112.26,
+    "grossProfitMargin" : 30.41,
+    "grossProfit" : 68.06,
+    "operatingProfitMargin" : 13.96,
+    "operatingProfit" : 31.24,
+    "netProfitMargin" : 7.24,
+    "netProfit" : 16.20
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 87.91,
+    "salesGrowthYoY" : 139.67,
+    "grossProfitMargin" : 36.87,
+    "grossProfit" : 32.41,
+    "operatingProfitMargin" : 10.82,
+    "operatingProfit" : 9.51,
+    "netProfitMargin" : 7.42,
+    "netProfit" : 6.52
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 102.78,
+    "salesGrowthYoY" : 6.06,
+    "grossProfitMargin" : 29.10,
+    "grossProfit" : 29.91,
+    "operatingProfitMargin" : 11.39,
+    "operatingProfit" : 11.71,
+    "netProfitMargin" : 7.25,
+    "netProfit" : 7.45
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 93.58,
+    "salesGrowthYoY" : -21.87,
+    "grossProfitMargin" : 27.86,
+    "grossProfit" : 26.07,
+    "operatingProfitMargin" : 7.13,
+    "operatingProfit" : 6.67,
+    "netProfitMargin" : 3.11,
+    "netProfit" : 2.91
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 189.03,
+    "salesGrowthYoY" : -15.54,
+    "grossProfitMargin" : 18.29,
+    "grossProfit" : 34.57,
+    "operatingProfitMargin" : 9.74,
+    "operatingProfit" : 18.41,
+    "netProfitMargin" : 7.01,
+    "netProfit" : 13.25
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 98.83,
+    "salesGrowthYoY" : 12.42,
+    "grossProfitMargin" : 20.41,
+    "grossProfit" : 20.17,
+    "operatingProfitMargin" : 3.38,
+    "operatingProfit" : 3.34,
+    "netProfitMargin" : 1.18,
+    "netProfit" : 1.17
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 178.31,
+    "salesGrowthYoY" : 73.49,
+    "grossProfitMargin" : 22.22,
+    "grossProfit" : 39.62,
+    "operatingProfitMargin" : 9.58,
+    "operatingProfit" : 17.08,
+    "netProfitMargin" : 7.62,
+    "netProfit" : 13.59
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 178.31,
+    "salesGrowthYoY" : 73.49,
+    "grossProfitMargin" : 22.22,
+    "grossProfit" : 39.62,
+    "operatingProfitMargin" : 9.58,
+    "operatingProfit" : 17.08,
+    "netProfitMargin" : 7.62,
+    "netProfit" : 13.59
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.67,
+    "pricePercentageAboveDma100" : 5.84,
+    "pricePercentageAboveDma200" : 6.52,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 14.29,
+    "operatingProfitMarginPercentile" : 5.45,
+    "netProfitMarginPercentile" : 6.36,
+    "totalTechnicalScore" : 23.03,
+    "totalFundamentalScore" : 26.10,
+    "totalScore" : 49.13
+  }
 }

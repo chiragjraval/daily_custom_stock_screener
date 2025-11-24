@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274820",
-    "company_code" : "TARC",
-    "company_name" : "TARC Ltd",
-    "screener_company_link" : "https://www.screener.in/company/TARC",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274820/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274820/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274820",
+    "companyCode" : "TARC",
+    "companyName" : "TARC Ltd",
+    "screenerCompanyLink" : "https://www.screener.in/company/TARC",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274820/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274820/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "TARC",
+      "companyName" : "TARC Ltd",
+      "marketCap" : 3813.00,
+      "peRatio" : null,
+      "description" : "TARC Ltd. (The Anant Raj Corporation) started out as a construction and contracting company and evolved to become one of the largest real estate development companies and land bank holders in the New Delhi Metropolitan Area. The company‘s key developments are across verticals like Residential, Hospitality, Commercial and Retail projects. The name of the company has been changed from Anant Raj Global Ltd. to TARC Ltd. in April 2021. [1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.75,
+      "pricePercentageAboveDma100" : 6.11,
+      "pricePercentageAboveDma200" : 6.06,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 17.00,
+      "operatingProfitMarginPercentile" : 8.61,
+      "netProfitMarginPercentile" : 4.30,
+      "totalTechnicalScore" : 22.93,
+      "totalFundamentalScore" : 29.92,
+      "totalScore" : 52.85
+    }
   },
   "attributes" : {
-    "company_code" : "TARC",
-    "company_name" : "TARC Ltd",
-    "market_cap" : 3856.00,
-    "pe_ratio" : null,
+    "companyCode" : "TARC",
+    "companyName" : "TARC Ltd",
+    "marketCap" : 3813.00,
+    "peRatio" : null,
     "description" : "TARC Ltd. (The Anant Raj Corporation) started out as a construction and contracting company and evolved to become one of the largest real estate development companies and land bank holders in the New Delhi Metropolitan Area. The company‘s key developments are across verticals like Residential, Hospitality, Commercial and Retail projects. The name of the company has been changed from Anant Raj Global Ltd. to TARC Ltd. in April 2021. [1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 210.52,
     "dma50" : 226.33,
@@ -1752,10 +1777,288 @@
     "volume" : 253354.00
   }, {
     "date" : "2025-11-24",
-    "price" : 131.41,
-    "dma50" : 150.59,
-    "dma100" : 164.59,
-    "dma200" : 162.49,
-    "volume" : 345252.00
-  } ]
+    "price" : 127.86,
+    "dma50" : 150.46,
+    "dma100" : 164.55,
+    "dma200" : 162.45,
+    "volume" : 1789071.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 127.86,
+    "dma50" : 150.46,
+    "dma100" : 164.55,
+    "dma200" : 162.45,
+    "volume" : 1789071.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2019-12-31",
+    "sales" : 44.08,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 22.23,
+    "grossProfit" : 9.80,
+    "operatingProfitMargin" : 9.73,
+    "operatingProfit" : 4.29,
+    "netProfitMargin" : 2.63,
+    "netProfit" : 1.16
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 67.73,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 11.27,
+    "grossProfit" : 7.63,
+    "operatingProfitMargin" : 7.16,
+    "operatingProfit" : 4.85,
+    "netProfitMargin" : 3.74,
+    "netProfit" : 2.53
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 25.41,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 16.73,
+    "grossProfit" : 4.25,
+    "operatingProfitMargin" : 3.19,
+    "operatingProfit" : 0.81,
+    "netProfitMargin" : 2.20,
+    "netProfit" : 0.56
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 28.92,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 17.98,
+    "grossProfit" : 5.20,
+    "operatingProfitMargin" : 5.01,
+    "operatingProfit" : 1.45,
+    "netProfitMargin" : 2.21,
+    "netProfit" : 0.64
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 53.77,
+    "salesGrowthYoY" : 21.98,
+    "grossProfitMargin" : 13.37,
+    "grossProfit" : 7.19,
+    "operatingProfitMargin" : 5.17,
+    "operatingProfit" : 2.78,
+    "netProfitMargin" : 2.86,
+    "netProfit" : 1.54
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 70.88,
+    "salesGrowthYoY" : 4.65,
+    "grossProfitMargin" : 18.06,
+    "grossProfit" : 12.80,
+    "operatingProfitMargin" : 8.37,
+    "operatingProfit" : 5.93,
+    "netProfitMargin" : 3.08,
+    "netProfit" : 2.18
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 181.36,
+    "salesGrowthYoY" : 613.73,
+    "grossProfitMargin" : 2.67,
+    "grossProfit" : 4.84,
+    "operatingProfitMargin" : 1.28,
+    "operatingProfit" : 2.32,
+    "netProfitMargin" : 0.26,
+    "netProfit" : 0.47
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 203.10,
+    "salesGrowthYoY" : 602.28,
+    "grossProfitMargin" : 32.27,
+    "grossProfit" : 65.54,
+    "operatingProfitMargin" : 29.73,
+    "operatingProfit" : 60.38,
+    "netProfitMargin" : 8.08,
+    "netProfit" : 16.41
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 44.55,
+    "salesGrowthYoY" : -17.15,
+    "grossProfitMargin" : 52.19,
+    "grossProfit" : 23.25,
+    "operatingProfitMargin" : 44.96,
+    "operatingProfit" : 20.03,
+    "netProfitMargin" : 25.99,
+    "netProfit" : 11.58
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 7.49,
+    "salesGrowthYoY" : -89.43,
+    "grossProfitMargin" : -1770.36,
+    "grossProfit" : -132.60,
+    "operatingProfitMargin" : -2477.57,
+    "operatingProfit" : -185.57,
+    "netProfitMargin" : -2336.72,
+    "netProfit" : -175.02
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 13.43,
+    "salesGrowthYoY" : -92.59,
+    "grossProfitMargin" : 79.00,
+    "grossProfit" : 10.61,
+    "operatingProfitMargin" : 55.85,
+    "operatingProfit" : 7.50,
+    "netProfitMargin" : 4.32,
+    "netProfit" : 0.58
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 12.63,
+    "salesGrowthYoY" : -93.78,
+    "grossProfitMargin" : 32.30,
+    "grossProfit" : 4.08,
+    "operatingProfitMargin" : -10.13,
+    "operatingProfit" : -1.28,
+    "netProfitMargin" : 3.25,
+    "netProfit" : 0.41
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 87.07,
+    "salesGrowthYoY" : 95.44,
+    "grossProfitMargin" : 16.87,
+    "grossProfit" : 14.69,
+    "operatingProfitMargin" : 10.23,
+    "operatingProfit" : 8.91,
+    "netProfitMargin" : 6.63,
+    "netProfit" : 5.77
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 83.38,
+    "salesGrowthYoY" : 1013.22,
+    "grossProfitMargin" : 6.06,
+    "grossProfit" : 5.05,
+    "operatingProfitMargin" : -9.74,
+    "operatingProfit" : -8.12,
+    "netProfitMargin" : 9.13,
+    "netProfit" : 7.61
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 23.10,
+    "salesGrowthYoY" : 72.00,
+    "grossProfitMargin" : 0.74,
+    "grossProfit" : 0.17,
+    "operatingProfitMargin" : -37.40,
+    "operatingProfit" : -8.64,
+    "netProfitMargin" : 4.76,
+    "netProfit" : 1.10
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 21.52,
+    "salesGrowthYoY" : 70.39,
+    "grossProfitMargin" : 4.88,
+    "grossProfit" : 1.05,
+    "operatingProfitMargin" : -38.57,
+    "operatingProfit" : -8.30,
+    "netProfitMargin" : 50.42,
+    "netProfit" : 10.85
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 5.90,
+    "salesGrowthYoY" : -93.22,
+    "grossProfitMargin" : 2.71,
+    "grossProfit" : 0.16,
+    "operatingProfitMargin" : -148.81,
+    "operatingProfit" : -8.78,
+    "netProfitMargin" : 16.78,
+    "netProfit" : 0.99
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 9.87,
+    "salesGrowthYoY" : -88.16,
+    "grossProfitMargin" : 2.43,
+    "grossProfit" : 0.24,
+    "operatingProfitMargin" : -136.58,
+    "operatingProfit" : -13.48,
+    "netProfitMargin" : 7.29,
+    "netProfit" : 0.72
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 4.82,
+    "salesGrowthYoY" : -79.13,
+    "grossProfitMargin" : 20.54,
+    "grossProfit" : 0.99,
+    "operatingProfitMargin" : -108.71,
+    "operatingProfit" : -5.24,
+    "netProfitMargin" : 126.76,
+    "netProfit" : 6.11
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 0.85,
+    "salesGrowthYoY" : -96.05,
+    "grossProfitMargin" : 8.24,
+    "grossProfit" : 0.07,
+    "operatingProfitMargin" : -1069.41,
+    "operatingProfit" : -9.09,
+    "netProfitMargin" : -2712.94,
+    "netProfit" : -23.06
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 4.35,
+    "salesGrowthYoY" : -26.27,
+    "grossProfitMargin" : 20.00,
+    "grossProfit" : 0.87,
+    "operatingProfitMargin" : -197.70,
+    "operatingProfit" : -8.60,
+    "netProfitMargin" : -143.91,
+    "netProfit" : -6.26
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 3.66,
+    "salesGrowthYoY" : -62.92,
+    "grossProfitMargin" : -692.08,
+    "grossProfit" : -25.33,
+    "operatingProfitMargin" : -1842.62,
+    "operatingProfit" : -67.44,
+    "netProfitMargin" : -2245.08,
+    "netProfit" : -82.17
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 0.00,
+    "salesGrowthYoY" : -100.00,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 1.78,
+    "salesGrowthYoY" : 109.41,
+    "grossProfitMargin" : -67.42,
+    "grossProfit" : -1.20,
+    "operatingProfitMargin" : -1386.52,
+    "operatingProfit" : -24.68,
+    "netProfitMargin" : -1491.01,
+    "netProfit" : -26.54
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 1.78,
+    "salesGrowthYoY" : 109.41,
+    "grossProfitMargin" : -67.42,
+    "grossProfit" : -1.20,
+    "operatingProfitMargin" : -1386.52,
+    "operatingProfit" : -24.68,
+    "netProfitMargin" : -1491.01,
+    "netProfit" : -26.54
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.75,
+    "pricePercentageAboveDma100" : 6.11,
+    "pricePercentageAboveDma200" : 6.06,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 17.00,
+    "operatingProfitMarginPercentile" : 8.61,
+    "netProfitMarginPercentile" : 4.30,
+    "totalTechnicalScore" : 22.93,
+    "totalFundamentalScore" : 29.92,
+    "totalScore" : 52.85
+  }
 }

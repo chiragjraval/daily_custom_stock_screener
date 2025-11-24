@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274781",
-    "company_code" : "543225",
-    "company_name" : "Altius Telecom",
-    "screener_company_link" : "https://www.screener.in/company/543225",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274781/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274781/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274781",
+    "companyCode" : "543225",
+    "companyName" : "Altius Telecom",
+    "screenerCompanyLink" : "https://www.screener.in/company/543225",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274781/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274781/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "543225",
+      "companyName" : "Altius Telecom",
+      "marketCap" : 46930.00,
+      "peRatio" : 8.17,
+      "description" : "Data Infrastructure Trust is enaged in the business to carry on the activities of an infrastructure investment trust, as permissible under the SEBI InvIT Regulations and to raise funds and making investments in accordance with the SEBI InvIT Regulations and Indenture of Trust."
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.86,
+      "pricePercentageAboveDma100" : 4.81,
+      "pricePercentageAboveDma200" : 4.61,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 12.86,
+      "operatingProfitMarginPercentile" : 19.87,
+      "netProfitMarginPercentile" : 7.49,
+      "totalTechnicalScore" : 44.28,
+      "totalFundamentalScore" : 40.21,
+      "totalScore" : 84.49
+    }
   },
   "attributes" : {
-    "company_code" : "543225",
-    "company_name" : "Altius Telecom",
-    "market_cap" : 46930.00,
-    "pe_ratio" : 8.17,
+    "companyCode" : "543225",
+    "companyName" : "Altius Telecom",
+    "marketCap" : 46930.00,
+    "peRatio" : 8.17,
     "description" : "Data Infrastructure Trust is enaged in the business to carry on the activities of an infrastructure investment trust, as permissible under the SEBI InvIT Regulations and to raise funds and making investments in accordance with the SEBI InvIT Regulations and Indenture of Trust."
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-27",
     "price" : 153.00,
     "dma50" : 146.87,
@@ -791,5 +816,223 @@
     "dma100" : 148.47,
     "dma200" : 142.88,
     "volume" : 25000.00
-  } ]
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-21",
+    "price" : 154.00,
+    "dma50" : 149.67,
+    "dma100" : 148.47,
+    "dma200" : 142.88,
+    "volume" : 25000.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2020-03-31",
+    "sales" : 0.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 201.70,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 201.70,
+    "operatingProfitMargin" : 98.41,
+    "operatingProfit" : 198.49,
+    "netProfitMargin" : 96.38,
+    "netProfit" : 194.40
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 1184.30,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1184.30,
+    "operatingProfitMargin" : 98.01,
+    "operatingProfit" : 1160.73,
+    "netProfitMargin" : 98.01,
+    "netProfit" : 1160.73
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 1934.80,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1934.80,
+    "operatingProfitMargin" : 98.72,
+    "operatingProfit" : 1910.03,
+    "netProfitMargin" : 98.72,
+    "netProfit" : 1910.03
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 1969.40,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1969.40,
+    "operatingProfitMargin" : 98.91,
+    "operatingProfit" : 1947.93,
+    "netProfitMargin" : 98.91,
+    "netProfit" : 1947.93
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 2024.60,
+    "salesGrowthYoY" : 903.77,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2024.60,
+    "operatingProfitMargin" : 98.76,
+    "operatingProfit" : 1999.49,
+    "netProfitMargin" : 98.81,
+    "netProfit" : 2000.51
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 1025.50,
+    "salesGrowthYoY" : -13.41,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1025.50,
+    "operatingProfitMargin" : 98.82,
+    "operatingProfit" : 1013.40,
+    "netProfitMargin" : 98.82,
+    "netProfit" : 1013.40
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 2040.60,
+    "salesGrowthYoY" : 5.47,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 2040.60,
+    "operatingProfitMargin" : 98.14,
+    "operatingProfit" : 2002.64,
+    "netProfitMargin" : 98.14,
+    "netProfit" : 2002.64
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 1027.40,
+    "salesGrowthYoY" : -47.83,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1027.40,
+    "operatingProfitMargin" : 98.72,
+    "operatingProfit" : 1014.25,
+    "netProfitMargin" : 98.72,
+    "netProfit" : 1014.25
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 1050.90,
+    "salesGrowthYoY" : -48.09,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1050.90,
+    "operatingProfitMargin" : 98.49,
+    "operatingProfit" : 1035.03,
+    "netProfitMargin" : 98.03,
+    "netProfit" : 1030.20
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 0.00,
+    "salesGrowthYoY" : -100.00,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 1025.10,
+    "salesGrowthYoY" : -49.76,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1025.10,
+    "operatingProfitMargin" : 97.26,
+    "operatingProfit" : 997.01,
+    "netProfitMargin" : 95.02,
+    "netProfit" : 974.05
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 1025.40,
+    "salesGrowthYoY" : -0.19,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1025.40,
+    "operatingProfitMargin" : 97.53,
+    "operatingProfit" : 1000.07,
+    "netProfitMargin" : 95.14,
+    "netProfit" : 975.57
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 1084.90,
+    "salesGrowthYoY" : 3.24,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1084.90,
+    "operatingProfitMargin" : 97.04,
+    "operatingProfit" : 1052.79,
+    "netProfitMargin" : 87.51,
+    "netProfit" : 949.40
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 3038.00,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 3038.00,
+    "operatingProfitMargin" : 99.16,
+    "operatingProfit" : 3012.48,
+    "netProfitMargin" : 88.66,
+    "netProfit" : 2693.49
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 1405.30,
+    "salesGrowthYoY" : 37.09,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1405.30,
+    "operatingProfitMargin" : 98.03,
+    "operatingProfit" : 1377.62,
+    "netProfitMargin" : 75.50,
+    "netProfit" : 1061.00
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 1337.40,
+    "salesGrowthYoY" : 30.43,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1337.40,
+    "operatingProfitMargin" : 98.55,
+    "operatingProfit" : 1318.01,
+    "netProfitMargin" : 74.19,
+    "netProfit" : 992.22
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 1348.60,
+    "salesGrowthYoY" : 24.31,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1348.60,
+    "operatingProfitMargin" : 98.50,
+    "operatingProfit" : 1328.37,
+    "netProfitMargin" : 74.08,
+    "netProfit" : 999.04
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 1348.60,
+    "salesGrowthYoY" : 24.31,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1348.60,
+    "operatingProfitMargin" : 98.50,
+    "operatingProfit" : 1328.37,
+    "netProfitMargin" : 74.08,
+    "netProfit" : 999.04
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.86,
+    "pricePercentageAboveDma100" : 4.81,
+    "pricePercentageAboveDma200" : 4.61,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 12.86,
+    "operatingProfitMarginPercentile" : 19.87,
+    "netProfitMarginPercentile" : 7.49,
+    "totalTechnicalScore" : 44.28,
+    "totalFundamentalScore" : 40.21,
+    "totalScore" : 84.49
+  }
 }

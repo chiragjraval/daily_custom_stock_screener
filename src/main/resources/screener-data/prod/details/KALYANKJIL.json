@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274850",
-    "company_code" : "KALYANKJIL",
-    "company_name" : "Kalyan Jewellers",
-    "screener_company_link" : "https://www.screener.in/company/KALYANKJIL",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274850/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274850/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274850",
+    "companyCode" : "KALYANKJIL",
+    "companyName" : "Kalyan Jewellers",
+    "screenerCompanyLink" : "https://www.screener.in/company/KALYANKJIL",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274850/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274850/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "KALYANKJIL",
+      "companyName" : "Kalyan Jewellers",
+      "marketCap" : 50053.00,
+      "peRatio" : 54.30,
+      "description" : "Kalyan Jewellers India Ltd. designs manufacture and sells a range of gold, studded and other jewellery products across various price points. It is one of the largest jewellery retailers in India based on revenue as of FY20. The co. was founded by the current Chairman, MD and Promoter, Mr T.S. Kalyanaraman [1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.16,
+      "pricePercentageAboveDma100" : 5.37,
+      "pricePercentageAboveDma200" : 5.37,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 7.37,
+      "operatingProfitMarginPercentile" : 7.97,
+      "netProfitMarginPercentile" : 9.78,
+      "totalTechnicalScore" : 15.89,
+      "totalFundamentalScore" : 25.12,
+      "totalScore" : 41.01
+    }
   },
   "attributes" : {
-    "company_code" : "KALYANKJIL",
-    "company_name" : "Kalyan Jewellers",
-    "market_cap" : 50910.00,
-    "pe_ratio" : 55.20,
+    "companyCode" : "KALYANKJIL",
+    "companyName" : "Kalyan Jewellers",
+    "marketCap" : 50053.00,
+    "peRatio" : 54.30,
     "description" : "Kalyan Jewellers India Ltd. designs manufacture and sells a range of gold, studded and other jewellery products across various price points. It is one of the largest jewellery retailers in India based on revenue as of FY20. The co. was founded by the current Chairman, MD and Promoter, Mr T.S. Kalyanaraman [1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 699.40,
     "dma50" : 679.87,
@@ -1752,10 +1777,278 @@
     "volume" : 1442270.00
   }, {
     "date" : "2025-11-24",
-    "price" : 494.00,
-    "dma50" : 502.97,
-    "dma100" : 525.63,
-    "dma200" : 525.71,
-    "volume" : 669276.00
-  } ]
+    "price" : 486.95,
+    "dma50" : 502.69,
+    "dma100" : 525.56,
+    "dma200" : 525.64,
+    "volume" : 1088351.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 486.95,
+    "dma50" : 502.69,
+    "dma100" : 525.56,
+    "dma200" : 525.64,
+    "volume" : 1088351.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2020-03-31",
+    "sales" : 1627.79,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 21.40,
+    "grossProfit" : 348.35,
+    "operatingProfitMargin" : 9.88,
+    "operatingProfit" : 160.83,
+    "netProfitMargin" : 3.53,
+    "netProfit" : 57.46
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 657.75,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 22.62,
+    "grossProfit" : 148.78,
+    "operatingProfitMargin" : 5.50,
+    "operatingProfit" : 36.18,
+    "netProfitMargin" : -11.70,
+    "netProfit" : -76.96
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 1555.52,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 19.75,
+    "grossProfit" : 307.22,
+    "operatingProfitMargin" : 9.45,
+    "operatingProfit" : 147.00,
+    "netProfitMargin" : 1.83,
+    "netProfit" : 28.47
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 2497.30,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 16.13,
+    "grossProfit" : 402.81,
+    "operatingProfitMargin" : 9.90,
+    "operatingProfit" : 247.23,
+    "netProfitMargin" : 3.75,
+    "netProfit" : 93.65
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 2614.94,
+    "salesGrowthYoY" : 60.64,
+    "grossProfitMargin" : 14.63,
+    "grossProfit" : 382.57,
+    "operatingProfitMargin" : 7.43,
+    "operatingProfit" : 194.29,
+    "netProfitMargin" : 2.54,
+    "netProfit" : 66.42
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 1274.18,
+    "salesGrowthYoY" : 93.72,
+    "grossProfitMargin" : 14.36,
+    "grossProfit" : 182.97,
+    "operatingProfitMargin" : 3.93,
+    "operatingProfit" : 50.08,
+    "netProfitMargin" : -3.34,
+    "netProfit" : -42.56
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 2503.03,
+    "salesGrowthYoY" : 60.91,
+    "grossProfitMargin" : 15.03,
+    "grossProfit" : 376.21,
+    "operatingProfitMargin" : 8.02,
+    "operatingProfit" : 200.74,
+    "netProfitMargin" : 2.71,
+    "netProfit" : 67.83
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 2880.09,
+    "salesGrowthYoY" : 15.33,
+    "grossProfitMargin" : 16.08,
+    "grossProfit" : 463.12,
+    "operatingProfitMargin" : 8.77,
+    "operatingProfit" : 252.58,
+    "netProfitMargin" : 4.11,
+    "netProfit" : 118.37
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 2398.79,
+    "salesGrowthYoY" : -8.27,
+    "grossProfitMargin" : 15.20,
+    "grossProfit" : 364.62,
+    "operatingProfitMargin" : 7.85,
+    "operatingProfit" : 188.31,
+    "netProfitMargin" : 2.94,
+    "netProfit" : 70.52
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 2718.99,
+    "salesGrowthYoY" : 113.39,
+    "grossProfitMargin" : 15.46,
+    "grossProfit" : 420.36,
+    "operatingProfitMargin" : 8.01,
+    "operatingProfit" : 217.79,
+    "netProfitMargin" : 3.51,
+    "netProfit" : 95.44
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 2840.93,
+    "salesGrowthYoY" : 13.50,
+    "grossProfitMargin" : 15.20,
+    "grossProfit" : 431.82,
+    "operatingProfitMargin" : 7.83,
+    "operatingProfit" : 222.44,
+    "netProfitMargin" : 3.35,
+    "netProfit" : 95.17
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 3218.74,
+    "salesGrowthYoY" : 11.76,
+    "grossProfitMargin" : 16.07,
+    "grossProfit" : 517.25,
+    "operatingProfitMargin" : 8.56,
+    "operatingProfit" : 275.52,
+    "netProfitMargin" : 4.14,
+    "netProfit" : 133.26
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 2805.37,
+    "salesGrowthYoY" : 16.95,
+    "grossProfitMargin" : 15.69,
+    "grossProfit" : 440.16,
+    "operatingProfitMargin" : 7.75,
+    "operatingProfit" : 217.42,
+    "netProfitMargin" : 3.10,
+    "netProfit" : 86.97
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 3640.92,
+    "salesGrowthYoY" : 33.91,
+    "grossProfitMargin" : 15.07,
+    "grossProfit" : 548.69,
+    "operatingProfitMargin" : 7.39,
+    "operatingProfit" : 269.06,
+    "netProfitMargin" : 3.54,
+    "netProfit" : 128.89
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 3754.32,
+    "salesGrowthYoY" : 32.15,
+    "grossProfitMargin" : 14.18,
+    "grossProfit" : 532.36,
+    "operatingProfitMargin" : 7.12,
+    "operatingProfit" : 267.31,
+    "netProfitMargin" : 3.34,
+    "netProfit" : 125.39
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 4511.68,
+    "salesGrowthYoY" : 40.17,
+    "grossProfitMargin" : 14.46,
+    "grossProfit" : 652.39,
+    "operatingProfitMargin" : 7.01,
+    "operatingProfit" : 316.27,
+    "netProfitMargin" : 3.73,
+    "netProfit" : 168.29
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 3867.48,
+    "salesGrowthYoY" : 37.86,
+    "grossProfitMargin" : 14.21,
+    "grossProfit" : 549.57,
+    "operatingProfitMargin" : 6.59,
+    "operatingProfit" : 254.87,
+    "netProfitMargin" : 3.40,
+    "netProfit" : 131.49
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 4687.46,
+    "salesGrowthYoY" : 28.74,
+    "grossProfitMargin" : 14.18,
+    "grossProfit" : 664.68,
+    "operatingProfitMargin" : 6.72,
+    "operatingProfit" : 315.00,
+    "netProfitMargin" : 3.52,
+    "netProfit" : 165.00
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 5226.79,
+    "salesGrowthYoY" : 39.22,
+    "grossProfitMargin" : 12.19,
+    "grossProfit" : 637.15,
+    "operatingProfitMargin" : 5.04,
+    "operatingProfit" : 263.43,
+    "netProfitMargin" : 2.30,
+    "netProfit" : 120.22
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 6386.38,
+    "salesGrowthYoY" : 41.55,
+    "grossProfitMargin" : 11.82,
+    "grossProfit" : 754.87,
+    "operatingProfitMargin" : 5.80,
+    "operatingProfit" : 370.41,
+    "netProfitMargin" : 3.41,
+    "netProfit" : 217.78
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 5350.39,
+    "salesGrowthYoY" : 38.34,
+    "grossProfitMargin" : 13.32,
+    "grossProfit" : 712.67,
+    "operatingProfitMargin" : 6.42,
+    "operatingProfit" : 343.50,
+    "netProfitMargin" : 3.46,
+    "netProfit" : 185.12
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 6142.24,
+    "salesGrowthYoY" : 31.04,
+    "grossProfitMargin" : 13.62,
+    "grossProfit" : 836.57,
+    "operatingProfitMargin" : 7.07,
+    "operatingProfit" : 434.26,
+    "netProfitMargin" : 4.18,
+    "netProfit" : 256.75
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 6842.84,
+    "salesGrowthYoY" : 30.92,
+    "grossProfitMargin" : 12.49,
+    "grossProfit" : 854.67,
+    "operatingProfitMargin" : 6.31,
+    "operatingProfit" : 431.78,
+    "netProfitMargin" : 3.83,
+    "netProfit" : 262.08
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 6842.84,
+    "salesGrowthYoY" : 30.92,
+    "grossProfitMargin" : 12.49,
+    "grossProfit" : 854.67,
+    "operatingProfitMargin" : 6.31,
+    "operatingProfit" : 431.78,
+    "netProfitMargin" : 3.83,
+    "netProfit" : 262.08
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.16,
+    "pricePercentageAboveDma100" : 5.37,
+    "pricePercentageAboveDma200" : 5.37,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 7.37,
+    "operatingProfitMarginPercentile" : 7.97,
+    "netProfitMarginPercentile" : 9.78,
+    "totalTechnicalScore" : 15.89,
+    "totalFundamentalScore" : 25.12,
+    "totalScore" : 41.01
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285527",
-    "company_code" : "RAYMONDREL",
-    "company_name" : "Raymond Realty",
-    "screener_company_link" : "https://www.screener.in/company/RAYMONDREL",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285527/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285527/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285527",
+    "companyCode" : "RAYMONDREL",
+    "companyName" : "Raymond Realty",
+    "screenerCompanyLink" : "https://www.screener.in/company/RAYMONDREL",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285527/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285527/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "RAYMONDREL",
+      "companyName" : "Raymond Realty",
+      "marketCap" : 3096.00,
+      "peRatio" : null,
+      "description" : "Incorporated in 2017, Raymond Realty Ltd is in the business of real estate development.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.95,
+      "pricePercentageAboveDma100" : 0.00,
+      "pricePercentageAboveDma200" : 6.80,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 0.00,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 12.75,
+      "totalFundamentalScore" : 30.00,
+      "totalScore" : 42.75
+    }
   },
   "attributes" : {
-    "company_code" : "RAYMONDREL",
-    "company_name" : "Raymond Realty",
-    "market_cap" : 3295.00,
-    "pe_ratio" : null,
+    "companyCode" : "RAYMONDREL",
+    "companyName" : "Raymond Realty",
+    "marketCap" : 3096.00,
+    "peRatio" : null,
     "description" : "Incorporated in 2017, Raymond Realty Ltd is in the business of real estate development.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-07-01",
     "price" : 969.20,
     "dma50" : 969.20,
@@ -709,10 +734,88 @@
     "volume" : 203433.00
   }, {
     "date" : "2025-11-24",
-    "price" : 497.10,
-    "dma50" : 602.24,
+    "price" : 487.25,
+    "dma50" : 601.86,
     "dma100" : null,
-    "dma200" : 761.02,
-    "volume" : 166583.00
-  } ]
+    "dma200" : 760.92,
+    "volume" : 340520.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 487.25,
+    "dma50" : 601.86,
+    "dma100" : null,
+    "dma200" : 760.92,
+    "volume" : 340520.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-06-30",
+    "sales" : 0.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 0.00,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 306.91,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 101.54,
+    "grossProfit" : 311.64,
+    "operatingProfitMargin" : 6.25,
+    "operatingProfit" : 19.18,
+    "netProfitMargin" : 8.77,
+    "netProfit" : 26.92
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 391.11,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 111.99,
+    "grossProfit" : 438.00,
+    "operatingProfitMargin" : 16.42,
+    "operatingProfit" : 64.22,
+    "netProfitMargin" : 14.93,
+    "netProfit" : 58.39
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 391.11,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 111.99,
+    "grossProfit" : 438.00,
+    "operatingProfitMargin" : 16.42,
+    "operatingProfit" : 64.22,
+    "netProfitMargin" : 14.93,
+    "netProfit" : 58.39
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.95,
+    "pricePercentageAboveDma100" : 0.00,
+    "pricePercentageAboveDma200" : 6.80,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 0.00,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 12.75,
+    "totalFundamentalScore" : 30.00,
+    "totalScore" : 42.75
+  }
 }

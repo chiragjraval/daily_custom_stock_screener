@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274686",
-    "company_code" : "SWSOLAR",
-    "company_name" : "Sterling & Wils.",
-    "screener_company_link" : "https://www.screener.in/company/SWSOLAR",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274686/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274686/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274686",
+    "companyCode" : "SWSOLAR",
+    "companyName" : "Sterling & Wils.",
+    "screenerCompanyLink" : "https://www.screener.in/company/SWSOLAR",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274686/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274686/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "SWSOLAR",
+      "companyName" : "Sterling & Wils.",
+      "marketCap" : 5243.00,
+      "peRatio" : 17.30,
+      "description" : "Sterling and Wilson Solar Ltd is one of the leading end-to-end solar engineering, procurement and construction (EPC) solutions provider globally and is also engaged in the operation and maintenance (O&M) of solar power projects. The company is backed by strong parentage of the Reliance Industries"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.32,
+      "pricePercentageAboveDma100" : 5.74,
+      "pricePercentageAboveDma200" : 6.25,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 11.54,
+      "operatingProfitMarginPercentile" : 18.10,
+      "netProfitMarginPercentile" : 9.27,
+      "totalTechnicalScore" : 17.32,
+      "totalFundamentalScore" : 38.90,
+      "totalScore" : 56.22
+    }
   },
   "attributes" : {
-    "company_code" : "SWSOLAR",
-    "company_name" : "Sterling & Wils.",
-    "market_cap" : 5288.00,
-    "pe_ratio" : 17.40,
+    "companyCode" : "SWSOLAR",
+    "companyName" : "Sterling & Wils.",
+    "marketCap" : 5243.00,
+    "peRatio" : 17.30,
     "description" : "Sterling and Wilson Solar Ltd is one of the leading end-to-end solar engineering, procurement and construction (EPC) solutions provider globally and is also engaged in the operation and maintenance (O&M) of solar power projects. The company is backed by strong parentage of the Reliance Industries"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 488.15,
     "dma50" : 575.45,
@@ -1752,10 +1777,348 @@
     "volume" : 1123739.00
   }, {
     "date" : "2025-11-24",
-    "price" : 226.71,
-    "dma50" : 241.24,
-    "dma100" : 265.01,
-    "dma200" : 300.86,
-    "volume" : 600346.00
-  } ]
+    "price" : 225.59,
+    "dma50" : 241.19,
+    "dma100" : 265.00,
+    "dma200" : 300.85,
+    "volume" : 957179.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 225.59,
+    "dma50" : 241.19,
+    "dma100" : 265.00,
+    "dma200" : 300.85,
+    "volume" : 957179.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2018-06-30",
+    "sales" : 1749.71,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 18.42,
+    "grossProfit" : 322.30,
+    "operatingProfitMargin" : 0.92,
+    "operatingProfit" : 16.10,
+    "netProfitMargin" : 0.84,
+    "netProfit" : 14.70
+  }, {
+    "date" : "2018-09-30",
+    "sales" : 2136.82,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 5.22,
+    "grossProfit" : 111.54,
+    "operatingProfitMargin" : 1.55,
+    "operatingProfit" : 33.12,
+    "netProfitMargin" : 2.87,
+    "netProfit" : 61.33
+  }, {
+    "date" : "2018-12-31",
+    "sales" : 1986.16,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 19.65,
+    "grossProfit" : 390.28,
+    "operatingProfitMargin" : 2.53,
+    "operatingProfit" : 50.25,
+    "netProfitMargin" : 2.11,
+    "netProfit" : 41.91
+  }, {
+    "date" : "2019-03-31",
+    "sales" : 2337.69,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 50.89,
+    "grossProfit" : 1189.65,
+    "operatingProfitMargin" : 4.64,
+    "operatingProfit" : 108.47,
+    "netProfitMargin" : 3.35,
+    "netProfit" : 78.31
+  }, {
+    "date" : "2019-06-30",
+    "sales" : 1222.86,
+    "salesGrowthYoY" : -30.11,
+    "grossProfitMargin" : 10.40,
+    "grossProfit" : 127.18,
+    "operatingProfitMargin" : 3.30,
+    "operatingProfit" : 40.35,
+    "netProfitMargin" : 2.94,
+    "netProfit" : 35.95
+  }, {
+    "date" : "2019-09-30",
+    "sales" : 964.30,
+    "salesGrowthYoY" : -54.87,
+    "grossProfitMargin" : 37.10,
+    "grossProfit" : 357.76,
+    "operatingProfitMargin" : 8.20,
+    "operatingProfit" : 79.07,
+    "netProfitMargin" : 6.91,
+    "netProfit" : 66.63
+  }, {
+    "date" : "2019-12-31",
+    "sales" : 873.09,
+    "salesGrowthYoY" : -56.04,
+    "grossProfitMargin" : 18.37,
+    "grossProfit" : 160.39,
+    "operatingProfitMargin" : 0.31,
+    "operatingProfit" : 2.71,
+    "netProfitMargin" : 3.48,
+    "netProfit" : 30.38
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 1475.11,
+    "salesGrowthYoY" : -36.90,
+    "grossProfitMargin" : 26.05,
+    "grossProfit" : 384.27,
+    "operatingProfitMargin" : 6.07,
+    "operatingProfit" : 89.54,
+    "netProfitMargin" : 12.14,
+    "netProfit" : 179.08
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 623.16,
+    "salesGrowthYoY" : -49.04,
+    "grossProfitMargin" : 37.26,
+    "grossProfit" : 232.19,
+    "operatingProfitMargin" : -4.33,
+    "operatingProfit" : -26.98,
+    "netProfitMargin" : -2.14,
+    "netProfit" : -13.34
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 460.87,
+    "salesGrowthYoY" : -52.21,
+    "grossProfitMargin" : 59.69,
+    "grossProfit" : 275.09,
+    "operatingProfitMargin" : -9.41,
+    "operatingProfit" : -43.37,
+    "netProfitMargin" : -4.24,
+    "netProfit" : -19.54
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 791.04,
+    "salesGrowthYoY" : -9.40,
+    "grossProfitMargin" : 44.29,
+    "grossProfit" : 350.35,
+    "operatingProfitMargin" : 2.61,
+    "operatingProfit" : 20.65,
+    "netProfitMargin" : 3.21,
+    "netProfit" : 25.39
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 1300.81,
+    "salesGrowthYoY" : -11.82,
+    "grossProfitMargin" : 22.11,
+    "grossProfit" : 287.61,
+    "operatingProfitMargin" : -12.51,
+    "operatingProfit" : -162.73,
+    "netProfitMargin" : -7.58,
+    "netProfit" : -98.60
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 846.39,
+    "salesGrowthYoY" : 35.82,
+    "grossProfitMargin" : 56.59,
+    "grossProfit" : 478.97,
+    "operatingProfitMargin" : -7.65,
+    "operatingProfit" : -64.75,
+    "netProfitMargin" : -4.15,
+    "netProfit" : -35.13
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 958.98,
+    "salesGrowthYoY" : 108.08,
+    "grossProfitMargin" : 52.20,
+    "grossProfit" : 500.59,
+    "operatingProfitMargin" : -7.16,
+    "operatingProfit" : -68.66,
+    "netProfitMargin" : -4.38,
+    "netProfit" : -42.00
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 1035.49,
+    "salesGrowthYoY" : 30.90,
+    "grossProfitMargin" : 38.26,
+    "grossProfit" : 396.18,
+    "operatingProfitMargin" : -2.16,
+    "operatingProfit" : -22.37,
+    "netProfitMargin" : -3.12,
+    "netProfit" : -32.31
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 618.72,
+    "salesGrowthYoY" : -52.44,
+    "grossProfitMargin" : 64.99,
+    "grossProfit" : 402.11,
+    "operatingProfitMargin" : -11.10,
+    "operatingProfit" : -68.68,
+    "netProfitMargin" : -9.38,
+    "netProfit" : -58.04
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 793.32,
+    "salesGrowthYoY" : -6.27,
+    "grossProfitMargin" : 18.35,
+    "grossProfit" : 145.57,
+    "operatingProfitMargin" : -14.18,
+    "operatingProfit" : -112.49,
+    "netProfitMargin" : -13.11,
+    "netProfit" : -104.00
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 213.98,
+    "salesGrowthYoY" : -77.69,
+    "grossProfitMargin" : 39.59,
+    "grossProfit" : 84.71,
+    "operatingProfitMargin" : -65.71,
+    "operatingProfit" : -140.61,
+    "netProfitMargin" : -25.85,
+    "netProfit" : -55.31
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 292.56,
+    "salesGrowthYoY" : -71.75,
+    "grossProfitMargin" : 60.85,
+    "grossProfit" : 178.02,
+    "operatingProfitMargin" : -15.04,
+    "operatingProfit" : -44.00,
+    "netProfitMargin" : -15.38,
+    "netProfit" : -45.00
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 158.05,
+    "salesGrowthYoY" : -74.46,
+    "grossProfitMargin" : 94.29,
+    "grossProfit" : 149.03,
+    "operatingProfitMargin" : -73.60,
+    "operatingProfit" : -116.32,
+    "netProfitMargin" : -95.35,
+    "netProfit" : -150.70
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 383.87,
+    "salesGrowthYoY" : -51.61,
+    "grossProfitMargin" : 39.71,
+    "grossProfit" : 152.43,
+    "operatingProfitMargin" : -4.53,
+    "operatingProfit" : -17.39,
+    "netProfitMargin" : -5.94,
+    "netProfit" : -22.80
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 642.01,
+    "salesGrowthYoY" : 200.03,
+    "grossProfitMargin" : 28.57,
+    "grossProfit" : 183.42,
+    "operatingProfitMargin" : 1.23,
+    "operatingProfit" : 7.90,
+    "netProfitMargin" : 2.32,
+    "netProfit" : 14.89
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 540.65,
+    "salesGrowthYoY" : 84.80,
+    "grossProfitMargin" : 34.86,
+    "grossProfit" : 188.47,
+    "operatingProfitMargin" : 1.64,
+    "operatingProfit" : 8.87,
+    "netProfitMargin" : 1.16,
+    "netProfit" : 6.27
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 1139.63,
+    "salesGrowthYoY" : 621.06,
+    "grossProfitMargin" : 22.97,
+    "grossProfit" : 261.77,
+    "operatingProfitMargin" : 4.83,
+    "operatingProfit" : 55.04,
+    "netProfitMargin" : 7.80,
+    "netProfit" : 88.89
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 885.47,
+    "salesGrowthYoY" : 130.67,
+    "grossProfitMargin" : 27.84,
+    "grossProfit" : 246.51,
+    "operatingProfitMargin" : 5.92,
+    "operatingProfit" : 52.42,
+    "netProfitMargin" : 8.31,
+    "netProfit" : 73.58
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 995.97,
+    "salesGrowthYoY" : 55.13,
+    "grossProfitMargin" : 27.04,
+    "grossProfit" : 269.31,
+    "operatingProfitMargin" : 4.20,
+    "operatingProfit" : 41.83,
+    "netProfitMargin" : 7.53,
+    "netProfit" : 75.00
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 1487.29,
+    "salesGrowthYoY" : 175.09,
+    "grossProfitMargin" : 21.45,
+    "grossProfit" : 319.02,
+    "operatingProfitMargin" : 5.06,
+    "operatingProfit" : 75.26,
+    "netProfitMargin" : 5.21,
+    "netProfit" : 77.49
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 2018.31,
+    "salesGrowthYoY" : 77.10,
+    "grossProfitMargin" : 23.55,
+    "grossProfit" : 475.31,
+    "operatingProfitMargin" : 5.29,
+    "operatingProfit" : 106.77,
+    "netProfitMargin" : 4.57,
+    "netProfit" : 92.24
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 1363.11,
+    "salesGrowthYoY" : 53.94,
+    "grossProfitMargin" : 29.48,
+    "grossProfit" : 401.84,
+    "operatingProfitMargin" : 5.32,
+    "operatingProfit" : 72.52,
+    "netProfitMargin" : 5.75,
+    "netProfit" : 78.38
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 1276.07,
+    "salesGrowthYoY" : 28.12,
+    "grossProfitMargin" : 29.63,
+    "grossProfit" : 378.10,
+    "operatingProfitMargin" : 0.41,
+    "operatingProfit" : 5.23,
+    "netProfitMargin" : 4.30,
+    "netProfit" : 54.87
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 1276.07,
+    "salesGrowthYoY" : 28.12,
+    "grossProfitMargin" : 29.63,
+    "grossProfit" : 378.10,
+    "operatingProfitMargin" : 0.41,
+    "operatingProfit" : 5.23,
+    "netProfitMargin" : 4.30,
+    "netProfit" : 54.87
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.32,
+    "pricePercentageAboveDma100" : 5.74,
+    "pricePercentageAboveDma200" : 6.25,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 11.54,
+    "operatingProfitMarginPercentile" : 18.10,
+    "netProfitMarginPercentile" : 9.27,
+    "totalTechnicalScore" : 17.32,
+    "totalFundamentalScore" : 38.90,
+    "totalScore" : 56.22
+  }
 }

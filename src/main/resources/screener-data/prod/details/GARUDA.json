@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285112",
-    "company_code" : "GARUDA",
-    "company_name" : "Garuda Cons",
-    "screener_company_link" : "https://www.screener.in/company/GARUDA",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285112/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285112/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285112",
+    "companyCode" : "GARUDA",
+    "companyName" : "Garuda Cons",
+    "screenerCompanyLink" : "https://www.screener.in/company/GARUDA",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285112/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285112/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "GARUDA",
+      "companyName" : "Garuda Cons",
+      "marketCap" : 1933.00,
+      "peRatio" : 22.50,
+      "description" : "Incorporated in 2010, Garuda Construction provides end-to-end civil construction for residential, commercial, residential cum commercial, infrastructure, and industrial projects.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.05,
+      "pricePercentageAboveDma100" : 4.59,
+      "pricePercentageAboveDma200" : 3.75,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 16.00,
+      "operatingProfitMarginPercentile" : 8.89,
+      "netProfitMarginPercentile" : 6.67,
+      "totalTechnicalScore" : 38.39,
+      "totalFundamentalScore" : 31.56,
+      "totalScore" : 69.95
+    }
   },
   "attributes" : {
-    "company_code" : "GARUDA",
-    "company_name" : "Garuda Cons",
-    "market_cap" : 1931.00,
-    "pe_ratio" : 22.40,
+    "companyCode" : "GARUDA",
+    "companyName" : "Garuda Cons",
+    "marketCap" : 1933.00,
+    "peRatio" : 22.50,
     "description" : "Incorporated in 2010, Garuda Construction provides end-to-end civil construction for residential, commercial, residential cum commercial, infrastructure, and industrial projects.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 93.19,
     "dma50" : 94.49,
@@ -1752,10 +1777,138 @@
     "volume" : 1646613.00
   }, {
     "date" : "2025-11-24",
-    "price" : 207.49,
-    "dma50" : 208.22,
-    "dma100" : 190.62,
-    "dma200" : 165.02,
-    "volume" : 473969.00
-  } ]
+    "price" : 206.20,
+    "dma50" : 208.17,
+    "dma100" : 190.61,
+    "dma200" : 165.01,
+    "volume" : 706259.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 206.20,
+    "dma50" : 208.17,
+    "dma100" : 190.61,
+    "dma200" : 165.01,
+    "volume" : 706259.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2023-09-30",
+    "sales" : 21.06,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 89.03,
+    "grossProfit" : 18.75,
+    "operatingProfitMargin" : 33.10,
+    "operatingProfit" : 6.97,
+    "netProfitMargin" : 24.41,
+    "netProfit" : 5.14
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 57.50,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 93.22,
+    "grossProfit" : 53.60,
+    "operatingProfitMargin" : 32.30,
+    "operatingProfit" : 18.57,
+    "netProfitMargin" : 24.07,
+    "netProfit" : 13.84
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 60.25,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 98.01,
+    "grossProfit" : 59.05,
+    "operatingProfitMargin" : 31.87,
+    "operatingProfit" : 19.20,
+    "netProfitMargin" : 22.82,
+    "netProfit" : 13.75
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 35.13,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 95.02,
+    "grossProfit" : 33.38,
+    "operatingProfitMargin" : 33.16,
+    "operatingProfit" : 11.65,
+    "netProfitMargin" : 24.62,
+    "netProfit" : 8.65
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 46.75,
+    "salesGrowthYoY" : 121.98,
+    "grossProfitMargin" : 92.09,
+    "grossProfit" : 43.05,
+    "operatingProfitMargin" : 28.71,
+    "operatingProfit" : 13.42,
+    "netProfitMargin" : 21.93,
+    "netProfit" : 10.25
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 62.22,
+    "salesGrowthYoY" : 8.21,
+    "grossProfitMargin" : 74.24,
+    "grossProfit" : 46.19,
+    "operatingProfitMargin" : 27.69,
+    "operatingProfit" : 17.23,
+    "netProfitMargin" : 20.68,
+    "netProfit" : 12.87
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 80.94,
+    "salesGrowthYoY" : 34.34,
+    "grossProfitMargin" : 73.60,
+    "grossProfit" : 59.57,
+    "operatingProfitMargin" : 29.82,
+    "operatingProfit" : 24.14,
+    "netProfitMargin" : 22.29,
+    "netProfit" : 18.04
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 125.16,
+    "salesGrowthYoY" : 256.28,
+    "grossProfitMargin" : 81.66,
+    "grossProfit" : 102.21,
+    "operatingProfitMargin" : 29.10,
+    "operatingProfit" : 36.42,
+    "netProfitMargin" : 22.38,
+    "netProfit" : 28.01
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 116.46,
+    "salesGrowthYoY" : 149.11,
+    "grossProfitMargin" : 71.42,
+    "grossProfit" : 83.18,
+    "operatingProfitMargin" : 29.56,
+    "operatingProfit" : 34.43,
+    "netProfitMargin" : 23.30,
+    "netProfit" : 27.14
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 116.46,
+    "salesGrowthYoY" : 149.11,
+    "grossProfitMargin" : 71.42,
+    "grossProfit" : 83.18,
+    "operatingProfitMargin" : 29.56,
+    "operatingProfit" : 34.43,
+    "netProfitMargin" : 23.30,
+    "netProfit" : 27.14
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.05,
+    "pricePercentageAboveDma100" : 4.59,
+    "pricePercentageAboveDma200" : 3.75,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 16.00,
+    "operatingProfitMarginPercentile" : 8.89,
+    "netProfitMarginPercentile" : 6.67,
+    "totalTechnicalScore" : 38.39,
+    "totalFundamentalScore" : 31.56,
+    "totalScore" : 69.95
+  }
 }

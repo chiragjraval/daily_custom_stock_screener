@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1275199",
-    "company_code" : "JSLL",
-    "company_name" : "Jeena Sikho",
-    "screener_company_link" : "https://www.screener.in/company/JSLL",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1275199/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1275199/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1275199",
+    "companyCode" : "JSLL",
+    "companyName" : "Jeena Sikho",
+    "screenerCompanyLink" : "https://www.screener.in/company/JSLL",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1275199/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1275199/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "JSLL",
+      "companyName" : "Jeena Sikho",
+      "marketCap" : 8488.00,
+      "peRatio" : 55.10,
+      "description" : "Jeena Sikho Lifecare is one of the leading ayurvedic healthcare system providers in India. The company is providing healthcare services for the last ten years."
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.33,
+      "pricePercentageAboveDma100" : 5.03,
+      "pricePercentageAboveDma200" : 4.18,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 39.54,
+      "totalFundamentalScore" : 50.00,
+      "totalScore" : 89.54
+    }
   },
   "attributes" : {
-    "company_code" : "JSLL",
-    "company_name" : "Jeena Sikho",
-    "market_cap" : 8673.00,
-    "pe_ratio" : 56.40,
+    "companyCode" : "JSLL",
+    "companyName" : "Jeena Sikho",
+    "marketCap" : 8488.00,
+    "peRatio" : 55.10,
     "description" : "Jeena Sikho Lifecare is one of the leading ayurvedic healthcare system providers in India. The company is providing healthcare services for the last ten years."
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 393.85,
     "dma50" : 329.23,
@@ -1752,10 +1777,168 @@
     "volume" : 490738.00
   }, {
     "date" : "2025-11-24",
-    "price" : 699.40,
-    "dma50" : 730.86,
-    "dma100" : 685.47,
-    "dma200" : 585.76,
-    "volume" : 87138.00
-  } ]
+    "price" : 681.45,
+    "dma50" : 730.15,
+    "dma100" : 685.29,
+    "dma200" : 585.58,
+    "volume" : 179782.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 681.45,
+    "dma50" : 730.15,
+    "dma100" : 685.29,
+    "dma200" : 585.58,
+    "volume" : 179782.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2021-03-31",
+    "sales" : 79.21,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 89.66,
+    "grossProfit" : 71.02,
+    "operatingProfitMargin" : 11.88,
+    "operatingProfit" : 9.41,
+    "netProfitMargin" : 7.07,
+    "netProfit" : 5.60
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 71.31,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 88.75,
+    "grossProfit" : 63.29,
+    "operatingProfitMargin" : 12.69,
+    "operatingProfit" : 9.05,
+    "netProfitMargin" : 8.72,
+    "netProfit" : 6.22
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 75.14,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 90.55,
+    "grossProfit" : 68.04,
+    "operatingProfitMargin" : 12.07,
+    "operatingProfit" : 9.07,
+    "netProfitMargin" : 6.73,
+    "netProfit" : 5.06
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 86.50,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 89.18,
+    "grossProfit" : 77.14,
+    "operatingProfitMargin" : 18.79,
+    "operatingProfit" : 16.25,
+    "netProfitMargin" : 12.96,
+    "netProfit" : 11.21
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 117.39,
+    "salesGrowthYoY" : 48.20,
+    "grossProfitMargin" : 93.54,
+    "grossProfit" : 109.81,
+    "operatingProfitMargin" : 25.40,
+    "operatingProfit" : 29.82,
+    "netProfitMargin" : 19.19,
+    "netProfit" : 22.53
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 157.36,
+    "salesGrowthYoY" : 120.67,
+    "grossProfitMargin" : 92.93,
+    "grossProfit" : 146.23,
+    "operatingProfitMargin" : 28.55,
+    "operatingProfit" : 44.93,
+    "netProfitMargin" : 20.23,
+    "netProfit" : 31.83
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 167.05,
+    "salesGrowthYoY" : 122.32,
+    "grossProfitMargin" : 93.75,
+    "grossProfit" : 156.61,
+    "operatingProfitMargin" : 28.77,
+    "operatingProfit" : 48.06,
+    "netProfitMargin" : 22.38,
+    "netProfit" : 37.39
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 100.04,
+    "salesGrowthYoY" : 15.65,
+    "grossProfitMargin" : 93.23,
+    "grossProfit" : 93.27,
+    "operatingProfitMargin" : 24.64,
+    "operatingProfit" : 24.65,
+    "netProfitMargin" : 16.13,
+    "netProfit" : 16.14
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 214.13,
+    "salesGrowthYoY" : 82.41,
+    "grossProfitMargin" : 94.11,
+    "grossProfit" : 201.52,
+    "operatingProfitMargin" : 27.68,
+    "operatingProfit" : 59.27,
+    "netProfitMargin" : 21.89,
+    "netProfit" : 46.87
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 254.94,
+    "salesGrowthYoY" : 62.01,
+    "grossProfitMargin" : 92.69,
+    "grossProfit" : 236.30,
+    "operatingProfitMargin" : 25.73,
+    "operatingProfit" : 65.60,
+    "netProfitMargin" : 17.20,
+    "netProfit" : 43.85
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 174.29,
+    "salesGrowthYoY" : 4.33,
+    "grossProfitMargin" : 93.64,
+    "grossProfit" : 163.21,
+    "operatingProfitMargin" : 45.21,
+    "operatingProfit" : 78.80,
+    "netProfitMargin" : 29.44,
+    "netProfit" : 51.31
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 364.13,
+    "salesGrowthYoY" : 263.98,
+    "grossProfitMargin" : 90.34,
+    "grossProfit" : 328.96,
+    "operatingProfitMargin" : 46.92,
+    "operatingProfit" : 170.85,
+    "netProfitMargin" : 30.24,
+    "netProfit" : 110.11
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 364.13,
+    "salesGrowthYoY" : 263.98,
+    "grossProfitMargin" : 90.34,
+    "grossProfit" : 328.96,
+    "operatingProfitMargin" : 46.92,
+    "operatingProfit" : 170.85,
+    "netProfitMargin" : 30.24,
+    "netProfit" : 110.11
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.33,
+    "pricePercentageAboveDma100" : 5.03,
+    "pricePercentageAboveDma200" : 4.18,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 39.54,
+    "totalFundamentalScore" : 50.00,
+    "totalScore" : 89.54
+  }
 }

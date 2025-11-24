@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284547",
-    "company_code" : "HONASA",
-    "company_name" : "Honasa Consumer",
-    "screener_company_link" : "https://www.screener.in/company/HONASA",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284547/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284547/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284547",
+    "companyCode" : "HONASA",
+    "companyName" : "Honasa Consumer",
+    "screenerCompanyLink" : "https://www.screener.in/company/HONASA",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284547/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284547/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "HONASA",
+      "companyName" : "Honasa Consumer",
+      "marketCap" : 9449.00,
+      "peRatio" : 75.90,
+      "description" : "Incorporated in 2016, Honasa Consumer Limited (HCL) provides beauty and personal care products through its digital platform.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 4.96,
+      "pricePercentageAboveDma100" : 4.98,
+      "pricePercentageAboveDma200" : 5.05,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 19.24,
+      "operatingProfitMarginPercentile" : 18.46,
+      "netProfitMarginPercentile" : 9.23,
+      "totalTechnicalScore" : 24.99,
+      "totalFundamentalScore" : 46.93,
+      "totalScore" : 71.92
+    }
   },
   "attributes" : {
-    "company_code" : "HONASA",
-    "company_name" : "Honasa Consumer",
-    "market_cap" : 9284.00,
-    "pe_ratio" : 74.60,
+    "companyCode" : "HONASA",
+    "companyName" : "Honasa Consumer",
+    "marketCap" : 9449.00,
+    "peRatio" : 75.90,
     "description" : "Incorporated in 2016, Honasa Consumer Limited (HCL) provides beauty and personal care products through its digital platform.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 226.85,
     "dma50" : 390.65,
@@ -1752,10 +1777,178 @@
     "volume" : 278208.00
   }, {
     "date" : "2025-11-24",
-    "price" : 285.80,
-    "dma50" : 285.72,
-    "dma100" : 287.01,
-    "dma200" : 290.75,
-    "volume" : 63834.00
-  } ]
+    "price" : 288.10,
+    "dma50" : 285.81,
+    "dma100" : 287.04,
+    "dma200" : 290.77,
+    "volume" : 145855.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 288.10,
+    "dma50" : 285.81,
+    "dma100" : 287.04,
+    "dma200" : 290.77,
+    "volume" : 145855.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2022-09-30",
+    "sales" : 386.67,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 67.68,
+    "grossProfit" : 261.70,
+    "operatingProfitMargin" : 7.85,
+    "operatingProfit" : 30.35,
+    "netProfitMargin" : 5.70,
+    "netProfit" : 22.04
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 354.86,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 69.55,
+    "grossProfit" : 246.81,
+    "operatingProfitMargin" : 5.38,
+    "operatingProfit" : 19.09,
+    "netProfitMargin" : 4.27,
+    "netProfit" : 15.15
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 360.33,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 67.75,
+    "grossProfit" : 244.12,
+    "operatingProfitMargin" : 1.06,
+    "operatingProfit" : 3.82,
+    "netProfitMargin" : -0.73,
+    "netProfit" : -2.63
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 426.14,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 70.36,
+    "grossProfit" : 299.83,
+    "operatingProfitMargin" : 7.38,
+    "operatingProfit" : 31.45,
+    "netProfitMargin" : 6.48,
+    "netProfit" : 27.61
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 460.19,
+    "salesGrowthYoY" : 19.01,
+    "grossProfitMargin" : 69.09,
+    "grossProfit" : 317.95,
+    "operatingProfitMargin" : 9.92,
+    "operatingProfit" : 45.65,
+    "netProfitMargin" : 8.20,
+    "netProfit" : 37.74
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 450.89,
+    "salesGrowthYoY" : 27.06,
+    "grossProfitMargin" : 68.55,
+    "grossProfit" : 309.09,
+    "operatingProfitMargin" : 7.57,
+    "operatingProfit" : 34.13,
+    "netProfitMargin" : 6.41,
+    "netProfit" : 28.90
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 427.17,
+    "salesGrowthYoY" : 18.55,
+    "grossProfitMargin" : 69.60,
+    "grossProfit" : 297.31,
+    "operatingProfitMargin" : 6.78,
+    "operatingProfit" : 28.96,
+    "netProfitMargin" : 6.25,
+    "netProfit" : 26.70
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 543.56,
+    "salesGrowthYoY" : 27.55,
+    "grossProfitMargin" : 71.42,
+    "grossProfit" : 388.21,
+    "operatingProfitMargin" : 7.81,
+    "operatingProfit" : 42.45,
+    "netProfitMargin" : 7.22,
+    "netProfit" : 39.25
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 417.48,
+    "salesGrowthYoY" : -9.28,
+    "grossProfitMargin" : 68.24,
+    "grossProfit" : 284.89,
+    "operatingProfitMargin" : -7.08,
+    "operatingProfit" : -29.56,
+    "netProfitMargin" : -3.57,
+    "netProfit" : -14.90
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 470.55,
+    "salesGrowthYoY" : 4.36,
+    "grossProfitMargin" : 69.49,
+    "grossProfit" : 326.99,
+    "operatingProfitMargin" : 5.11,
+    "operatingProfit" : 24.05,
+    "netProfitMargin" : 4.59,
+    "netProfit" : 21.60
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 522.57,
+    "salesGrowthYoY" : 22.33,
+    "grossProfitMargin" : 70.46,
+    "grossProfit" : 368.20,
+    "operatingProfitMargin" : 4.58,
+    "operatingProfit" : 23.93,
+    "netProfitMargin" : 4.71,
+    "netProfit" : 24.61
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 583.63,
+    "salesGrowthYoY" : 7.37,
+    "grossProfitMargin" : 70.94,
+    "grossProfit" : 414.03,
+    "operatingProfitMargin" : 7.11,
+    "operatingProfit" : 41.50,
+    "netProfitMargin" : 6.84,
+    "netProfit" : 39.92
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 526.69,
+    "salesGrowthYoY" : 26.16,
+    "grossProfitMargin" : 70.22,
+    "grossProfit" : 369.84,
+    "operatingProfitMargin" : 8.26,
+    "operatingProfit" : 43.50,
+    "netProfitMargin" : 7.28,
+    "netProfit" : 38.34
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 526.69,
+    "salesGrowthYoY" : 26.16,
+    "grossProfitMargin" : 70.22,
+    "grossProfit" : 369.84,
+    "operatingProfitMargin" : 8.26,
+    "operatingProfit" : 43.50,
+    "netProfitMargin" : 7.28,
+    "netProfit" : 38.34
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 4.96,
+    "pricePercentageAboveDma100" : 4.98,
+    "pricePercentageAboveDma200" : 5.05,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 19.24,
+    "operatingProfitMarginPercentile" : 18.46,
+    "netProfitMarginPercentile" : 9.23,
+    "totalTechnicalScore" : 24.99,
+    "totalFundamentalScore" : 46.93,
+    "totalScore" : 71.92
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274863",
-    "company_code" : "VMARCIND",
-    "company_name" : "V-Marc India",
-    "screener_company_link" : "https://www.screener.in/company/VMARCIND",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274863/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274863/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274863",
+    "companyCode" : "VMARCIND",
+    "companyName" : "V-Marc India",
+    "screenerCompanyLink" : "https://www.screener.in/company/VMARCIND",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274863/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274863/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "VMARCIND",
+      "companyName" : "V-Marc India",
+      "marketCap" : 1783.00,
+      "peRatio" : 29.10,
+      "description" : "Incorporated in 2014, V -Marc India Ltd manufactures PVC Insulated Wires & Cables[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 3.92,
+      "pricePercentageAboveDma100" : 2.79,
+      "pricePercentageAboveDma200" : 1.85,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 18.20,
+      "operatingProfitMarginPercentile" : 16.67,
+      "netProfitMarginPercentile" : 8.43,
+      "totalTechnicalScore" : 43.56,
+      "totalFundamentalScore" : 43.29,
+      "totalScore" : 86.85
+    }
   },
   "attributes" : {
-    "company_code" : "VMARCIND",
-    "company_name" : "V-Marc India",
-    "market_cap" : 1802.00,
-    "pe_ratio" : 29.50,
+    "companyCode" : "VMARCIND",
+    "companyName" : "V-Marc India",
+    "marketCap" : 1783.00,
+    "peRatio" : 29.10,
     "description" : "Incorporated in 2014, V -Marc India Ltd manufactures PVC Insulated Wires & Cables[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 416.10,
     "dma50" : 414.06,
@@ -1738,10 +1763,168 @@
     "volume" : 20250.00
   }, {
     "date" : "2025-11-24",
-    "price" : 738.30,
-    "dma50" : 600.49,
-    "dma100" : 506.25,
-    "dma200" : 448.15,
-    "volume" : 13000.00
-  } ]
+    "price" : 730.00,
+    "dma50" : 600.16,
+    "dma100" : 506.16,
+    "dma200" : 448.07,
+    "volume" : 28500.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 730.00,
+    "dma50" : 600.16,
+    "dma100" : 506.16,
+    "dma200" : 448.07,
+    "volume" : 28500.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2020-03-31",
+    "sales" : 84.21,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 22.98,
+    "grossProfit" : 19.35,
+    "operatingProfitMargin" : 8.55,
+    "operatingProfit" : 7.20,
+    "netProfitMargin" : 2.73,
+    "netProfit" : 2.30
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 65.12,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 21.13,
+    "grossProfit" : 13.76,
+    "operatingProfitMargin" : 7.65,
+    "operatingProfit" : 4.98,
+    "netProfitMargin" : 2.61,
+    "netProfit" : 1.70
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 110.01,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 22.19,
+    "grossProfit" : 24.41,
+    "operatingProfitMargin" : 8.82,
+    "operatingProfit" : 9.70,
+    "netProfitMargin" : 3.72,
+    "netProfit" : 4.09
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 55.68,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 29.40,
+    "grossProfit" : 16.37,
+    "operatingProfitMargin" : 8.89,
+    "operatingProfit" : 4.95,
+    "netProfitMargin" : 0.99,
+    "netProfit" : 0.55
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 125.34,
+    "salesGrowthYoY" : 48.84,
+    "grossProfitMargin" : 19.04,
+    "grossProfit" : 23.86,
+    "operatingProfitMargin" : 7.72,
+    "operatingProfit" : 9.68,
+    "netProfitMargin" : 3.54,
+    "netProfit" : 4.44
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 114.75,
+    "salesGrowthYoY" : 76.21,
+    "grossProfitMargin" : 19.15,
+    "grossProfit" : 21.97,
+    "operatingProfitMargin" : 7.81,
+    "operatingProfit" : 8.96,
+    "netProfitMargin" : 2.09,
+    "netProfit" : 2.40
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 132.53,
+    "salesGrowthYoY" : 20.47,
+    "grossProfitMargin" : 26.48,
+    "grossProfit" : 35.09,
+    "operatingProfitMargin" : 11.94,
+    "operatingProfit" : 15.82,
+    "netProfitMargin" : 6.07,
+    "netProfit" : 8.04
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 175.03,
+    "salesGrowthYoY" : 214.35,
+    "grossProfitMargin" : 21.59,
+    "grossProfit" : 37.79,
+    "operatingProfitMargin" : 9.89,
+    "operatingProfit" : 17.31,
+    "netProfitMargin" : 3.14,
+    "netProfit" : 5.50
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 389.70,
+    "salesGrowthYoY" : 210.91,
+    "grossProfitMargin" : 23.43,
+    "grossProfit" : 91.31,
+    "operatingProfitMargin" : 12.44,
+    "operatingProfit" : 48.48,
+    "netProfitMargin" : 5.48,
+    "netProfit" : 21.36
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 345.21,
+    "salesGrowthYoY" : 200.84,
+    "grossProfitMargin" : 21.85,
+    "grossProfit" : 75.43,
+    "operatingProfitMargin" : 9.95,
+    "operatingProfit" : 34.35,
+    "netProfitMargin" : 3.29,
+    "netProfit" : 11.36
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 559.66,
+    "salesGrowthYoY" : 322.29,
+    "grossProfitMargin" : 23.81,
+    "grossProfit" : 133.26,
+    "operatingProfitMargin" : 11.22,
+    "operatingProfit" : 62.79,
+    "netProfitMargin" : 4.42,
+    "netProfit" : 24.74
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 691.54,
+    "salesGrowthYoY" : 295.10,
+    "grossProfitMargin" : 22.56,
+    "grossProfit" : 156.01,
+    "operatingProfitMargin" : 11.32,
+    "operatingProfit" : 78.28,
+    "netProfitMargin" : 5.27,
+    "netProfit" : 36.44
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 691.54,
+    "salesGrowthYoY" : 295.10,
+    "grossProfitMargin" : 22.56,
+    "grossProfit" : 156.01,
+    "operatingProfitMargin" : 11.32,
+    "operatingProfit" : 78.28,
+    "netProfitMargin" : 5.27,
+    "netProfit" : 36.44
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 3.92,
+    "pricePercentageAboveDma100" : 2.79,
+    "pricePercentageAboveDma200" : 1.85,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 18.20,
+    "operatingProfitMarginPercentile" : 16.67,
+    "netProfitMarginPercentile" : 8.43,
+    "totalTechnicalScore" : 43.56,
+    "totalFundamentalScore" : 43.29,
+    "totalScore" : 86.85
+  }
 }

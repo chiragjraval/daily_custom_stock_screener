@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274653",
-    "company_code" : "POLYCAB",
-    "company_name" : "Polycab India",
-    "screener_company_link" : "https://www.screener.in/company/POLYCAB",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274653/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274653/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274653",
+    "companyCode" : "POLYCAB",
+    "companyName" : "Polycab India",
+    "screenerCompanyLink" : "https://www.screener.in/company/POLYCAB",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274653/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274653/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "POLYCAB",
+      "companyName" : "Polycab India",
+      "marketCap" : 111790.00,
+      "peRatio" : 46.10,
+      "description" : "Polycab is India’s leading manufacturers of cables and wires and allied products such as uPVC conduits and lugs and glands. We have a range of cables and wires for practically every application. More recently Polycab has also launched a wide range of consumer electrical products like Fans, Switches, Switchgear, LED lights and Luminaries, Solar Inverters, and Pumps."
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.05,
+      "pricePercentageAboveDma100" : 4.88,
+      "pricePercentageAboveDma200" : 4.58,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 9.98,
+      "operatingProfitMarginPercentile" : 18.71,
+      "netProfitMarginPercentile" : 9.35,
+      "totalTechnicalScore" : 39.50,
+      "totalFundamentalScore" : 38.05,
+      "totalScore" : 77.55
+    }
   },
   "attributes" : {
-    "company_code" : "POLYCAB",
-    "company_name" : "Polycab India",
-    "market_cap" : 112157.00,
-    "pe_ratio" : 46.20,
+    "companyCode" : "POLYCAB",
+    "companyName" : "Polycab India",
+    "marketCap" : 111790.00,
+    "peRatio" : 46.10,
     "description" : "Polycab is India’s leading manufacturers of cables and wires and allied products such as uPVC conduits and lugs and glands. We have a range of cables and wires for practically every application. More recently Polycab has also launched a wide range of consumer electrical products like Fans, Switches, Switchgear, LED lights and Luminaries, Solar Inverters, and Pumps."
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 6766.15,
     "dma50" : 6699.54,
@@ -1752,10 +1777,358 @@
     "volume" : 173565.00
   }, {
     "date" : "2025-11-24",
-    "price" : 7466.50,
-    "dma50" : 7496.20,
-    "dma100" : 7247.79,
-    "dma200" : 6843.48,
-    "volume" : 87810.00
-  } ]
+    "price" : 7424.50,
+    "dma50" : 7494.55,
+    "dma100" : 7247.37,
+    "dma200" : 6843.06,
+    "volume" : 202948.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 7424.50,
+    "dma50" : 7494.55,
+    "dma100" : 7247.37,
+    "dma200" : 6843.06,
+    "volume" : 202948.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2018-03-31",
+    "sales" : 2100.24,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 29.07,
+    "grossProfit" : 610.54,
+    "operatingProfitMargin" : 16.30,
+    "operatingProfit" : 342.34,
+    "netProfitMargin" : 8.88,
+    "netProfit" : 186.50
+  }, {
+    "date" : "2018-06-30",
+    "sales" : 1677.91,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 26.76,
+    "grossProfit" : 449.01,
+    "operatingProfitMargin" : 10.24,
+    "operatingProfit" : 171.82,
+    "netProfitMargin" : 4.76,
+    "netProfit" : 79.87
+  }, {
+    "date" : "2018-09-30",
+    "sales" : 1818.64,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 27.95,
+    "grossProfit" : 508.31,
+    "operatingProfitMargin" : 11.84,
+    "operatingProfit" : 215.33,
+    "netProfitMargin" : 5.08,
+    "netProfit" : 92.39
+  }, {
+    "date" : "2018-12-31",
+    "sales" : 1990.98,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 30.74,
+    "grossProfit" : 612.03,
+    "operatingProfitMargin" : 15.84,
+    "operatingProfit" : 315.37,
+    "netProfitMargin" : 9.58,
+    "netProfit" : 190.74
+  }, {
+    "date" : "2019-03-31",
+    "sales" : 2450.03,
+    "salesGrowthYoY" : 16.65,
+    "grossProfitMargin" : 28.02,
+    "grossProfit" : 686.50,
+    "operatingProfitMargin" : 9.94,
+    "operatingProfit" : 243.53,
+    "netProfitMargin" : 5.65,
+    "netProfit" : 138.43
+  }, {
+    "date" : "2019-06-30",
+    "sales" : 1939.81,
+    "salesGrowthYoY" : 15.61,
+    "grossProfitMargin" : 30.66,
+    "grossProfit" : 594.75,
+    "operatingProfitMargin" : 11.38,
+    "operatingProfit" : 220.75,
+    "netProfitMargin" : 6.88,
+    "netProfit" : 133.46
+  }, {
+    "date" : "2019-09-30",
+    "sales" : 2239.85,
+    "salesGrowthYoY" : 23.16,
+    "grossProfitMargin" : 30.19,
+    "grossProfit" : 676.21,
+    "operatingProfitMargin" : 11.89,
+    "operatingProfit" : 266.32,
+    "netProfitMargin" : 8.58,
+    "netProfit" : 192.18
+  }, {
+    "date" : "2019-12-31",
+    "sales" : 2503.47,
+    "salesGrowthYoY" : 25.74,
+    "grossProfitMargin" : 30.06,
+    "grossProfit" : 752.54,
+    "operatingProfitMargin" : 13.27,
+    "operatingProfit" : 332.21,
+    "netProfitMargin" : 8.63,
+    "netProfit" : 216.05
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 2123.78,
+    "salesGrowthYoY" : -13.32,
+    "grossProfitMargin" : 33.84,
+    "grossProfit" : 718.69,
+    "operatingProfitMargin" : 14.01,
+    "operatingProfit" : 297.54,
+    "netProfitMargin" : 10.32,
+    "netProfit" : 219.17
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 992.22,
+    "salesGrowthYoY" : -48.85,
+    "grossProfitMargin" : 29.36,
+    "grossProfit" : 291.32,
+    "operatingProfitMargin" : 5.63,
+    "operatingProfit" : 55.86,
+    "netProfitMargin" : 11.32,
+    "netProfit" : 112.32
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 2094.96,
+    "salesGrowthYoY" : -6.47,
+    "grossProfitMargin" : 29.03,
+    "grossProfit" : 608.17,
+    "operatingProfitMargin" : 14.17,
+    "operatingProfit" : 296.86,
+    "netProfitMargin" : 10.12,
+    "netProfit" : 212.01
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 2747.24,
+    "salesGrowthYoY" : 9.74,
+    "grossProfitMargin" : 24.43,
+    "grossProfit" : 671.15,
+    "operatingProfitMargin" : 12.66,
+    "operatingProfit" : 347.80,
+    "netProfitMargin" : 8.89,
+    "netProfit" : 244.23
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 2901.94,
+    "salesGrowthYoY" : 36.64,
+    "grossProfitMargin" : 26.64,
+    "grossProfit" : 773.08,
+    "operatingProfitMargin" : 13.45,
+    "operatingProfit" : 390.31,
+    "netProfitMargin" : 9.06,
+    "netProfit" : 262.92
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 1839.65,
+    "salesGrowthYoY" : 85.41,
+    "grossProfitMargin" : 24.51,
+    "grossProfit" : 450.90,
+    "operatingProfitMargin" : 7.00,
+    "operatingProfit" : 128.78,
+    "netProfitMargin" : 4.08,
+    "netProfit" : 75.06
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 2990.22,
+    "salesGrowthYoY" : 42.73,
+    "grossProfitMargin" : 22.63,
+    "grossProfit" : 676.69,
+    "operatingProfitMargin" : 9.67,
+    "operatingProfit" : 289.15,
+    "netProfitMargin" : 6.62,
+    "netProfit" : 197.95
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 3341.45,
+    "salesGrowthYoY" : 21.63,
+    "grossProfitMargin" : 23.05,
+    "grossProfit" : 770.20,
+    "operatingProfitMargin" : 10.64,
+    "operatingProfit" : 355.53,
+    "netProfitMargin" : 7.28,
+    "netProfit" : 243.26
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 3926.59,
+    "salesGrowthYoY" : 35.31,
+    "grossProfitMargin" : 22.72,
+    "grossProfit" : 892.12,
+    "operatingProfitMargin" : 11.88,
+    "operatingProfit" : 466.48,
+    "netProfitMargin" : 8.15,
+    "netProfit" : 320.02
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 2698.79,
+    "salesGrowthYoY" : 46.70,
+    "grossProfitMargin" : 25.67,
+    "grossProfit" : 692.78,
+    "operatingProfitMargin" : 11.18,
+    "operatingProfit" : 301.72,
+    "netProfitMargin" : 8.09,
+    "netProfit" : 218.33
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 3261.24,
+    "salesGrowthYoY" : 9.06,
+    "grossProfitMargin" : 26.75,
+    "grossProfit" : 872.38,
+    "operatingProfitMargin" : 12.69,
+    "operatingProfit" : 413.85,
+    "netProfitMargin" : 7.99,
+    "netProfit" : 260.57
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 3664.90,
+    "salesGrowthYoY" : 9.68,
+    "grossProfitMargin" : 26.68,
+    "grossProfit" : 977.80,
+    "operatingProfitMargin" : 13.50,
+    "operatingProfit" : 494.76,
+    "netProfitMargin" : 9.76,
+    "netProfit" : 357.69
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 4287.61,
+    "salesGrowthYoY" : 9.19,
+    "grossProfitMargin" : 25.88,
+    "grossProfit" : 1109.63,
+    "operatingProfitMargin" : 14.01,
+    "operatingProfit" : 600.69,
+    "netProfitMargin" : 10.08,
+    "netProfit" : 432.19
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 3849.10,
+    "salesGrowthYoY" : 42.62,
+    "grossProfitMargin" : 27.14,
+    "grossProfit" : 1044.65,
+    "operatingProfitMargin" : 14.15,
+    "operatingProfit" : 544.65,
+    "netProfitMargin" : 10.46,
+    "netProfit" : 402.62
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 4256.13,
+    "salesGrowthYoY" : 30.51,
+    "grossProfitMargin" : 27.95,
+    "grossProfit" : 1189.59,
+    "operatingProfitMargin" : 14.82,
+    "operatingProfit" : 630.76,
+    "netProfitMargin" : 10.57,
+    "netProfit" : 449.87
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 4512.92,
+    "salesGrowthYoY" : 23.14,
+    "grossProfitMargin" : 29.22,
+    "grossProfit" : 1318.68,
+    "operatingProfitMargin" : 13.77,
+    "operatingProfit" : 621.43,
+    "netProfitMargin" : 10.18,
+    "netProfit" : 459.42
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 5432.70,
+    "salesGrowthYoY" : 26.71,
+    "grossProfitMargin" : 28.96,
+    "grossProfit" : 1573.31,
+    "operatingProfitMargin" : 11.72,
+    "operatingProfit" : 636.71,
+    "netProfitMargin" : 8.43,
+    "netProfit" : 457.98
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 4601.48,
+    "salesGrowthYoY" : 19.55,
+    "grossProfitMargin" : 30.40,
+    "grossProfit" : 1398.85,
+    "operatingProfitMargin" : 12.15,
+    "operatingProfit" : 559.08,
+    "netProfitMargin" : 8.42,
+    "netProfit" : 387.44
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 5365.99,
+    "salesGrowthYoY" : 26.08,
+    "grossProfitMargin" : 28.92,
+    "grossProfit" : 1551.84,
+    "operatingProfitMargin" : 11.28,
+    "operatingProfit" : 605.28,
+    "netProfitMargin" : 8.03,
+    "netProfit" : 430.89
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 5105.25,
+    "salesGrowthYoY" : 13.13,
+    "grossProfitMargin" : 30.93,
+    "grossProfit" : 1579.05,
+    "operatingProfitMargin" : 13.70,
+    "operatingProfit" : 699.42,
+    "netProfitMargin" : 8.87,
+    "netProfit" : 452.84
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 6841.22,
+    "salesGrowthYoY" : 25.93,
+    "grossProfitMargin" : 31.07,
+    "grossProfit" : 2125.57,
+    "operatingProfitMargin" : 14.64,
+    "operatingProfit" : 1001.55,
+    "netProfitMargin" : 10.68,
+    "netProfit" : 730.64
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 5704.38,
+    "salesGrowthYoY" : 23.97,
+    "grossProfitMargin" : 29.59,
+    "grossProfit" : 1687.93,
+    "operatingProfitMargin" : 14.11,
+    "operatingProfit" : 804.89,
+    "netProfitMargin" : 9.95,
+    "netProfit" : 567.59
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 6339.96,
+    "salesGrowthYoY" : 18.15,
+    "grossProfitMargin" : 30.78,
+    "grossProfit" : 1951.44,
+    "operatingProfitMargin" : 15.53,
+    "operatingProfit" : 984.60,
+    "netProfitMargin" : 10.64,
+    "netProfit" : 674.57
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 6339.96,
+    "salesGrowthYoY" : 18.15,
+    "grossProfitMargin" : 30.78,
+    "grossProfit" : 1951.44,
+    "operatingProfitMargin" : 15.53,
+    "operatingProfit" : 984.60,
+    "netProfitMargin" : 10.64,
+    "netProfit" : 674.57
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.05,
+    "pricePercentageAboveDma100" : 4.88,
+    "pricePercentageAboveDma200" : 4.58,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 9.98,
+    "operatingProfitMarginPercentile" : 18.71,
+    "netProfitMarginPercentile" : 9.35,
+    "totalTechnicalScore" : 39.50,
+    "totalFundamentalScore" : 38.05,
+    "totalScore" : 77.55
+  }
 }

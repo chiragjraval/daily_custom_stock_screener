@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284601",
-    "company_code" : "MOTISONS",
-    "company_name" : "Motisons Jewel",
-    "screener_company_link" : "https://www.screener.in/company/MOTISONS",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284601/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284601/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284601",
+    "companyCode" : "MOTISONS",
+    "companyName" : "Motisons Jewel",
+    "screenerCompanyLink" : "https://www.screener.in/company/MOTISONS",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284601/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284601/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "MOTISONS",
+      "companyName" : "Motisons Jewel",
+      "marketCap" : 1711.00,
+      "peRatio" : 30.60,
+      "description" : "Established in October 1997, Motisons Jewellers Ltd sells gold, diamond and kundan jewellery as well as other jewellery products. The company sells pearls, silver, platinum and other metals.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.02,
+      "pricePercentageAboveDma100" : 5.44,
+      "pricePercentageAboveDma200" : 5.48,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 2.50,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 20.94,
+      "totalFundamentalScore" : 32.50,
+      "totalScore" : 53.44
+    }
   },
   "attributes" : {
-    "company_code" : "MOTISONS",
-    "company_name" : "Motisons Jewel",
-    "market_cap" : 1710.00,
-    "pe_ratio" : 30.60,
+    "companyCode" : "MOTISONS",
+    "companyName" : "Motisons Jewel",
+    "marketCap" : 1711.00,
+    "peRatio" : 30.60,
     "description" : "Established in October 1997, Motisons Jewellers Ltd sells gold, diamond and kundan jewellery as well as other jewellery products. The company sells pearls, silver, platinum and other metals.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 28.55,
     "dma50" : 27.62,
@@ -1752,10 +1777,168 @@
     "volume" : 27241076.00
   }, {
     "date" : "2025-11-24",
-    "price" : 17.48,
-    "dma50" : 17.44,
-    "dma100" : 19.03,
+    "price" : 17.35,
+    "dma50" : 17.43,
+    "dma100" : 19.02,
     "dma200" : 19.18,
-    "volume" : 5262164.00
-  } ]
+    "volume" : 7128470.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 17.35,
+    "dma50" : 17.43,
+    "dma100" : 19.02,
+    "dma200" : 19.18,
+    "volume" : 7128470.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2022-12-31",
+    "sales" : 113.51,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 18.53,
+    "grossProfit" : 21.03,
+    "operatingProfitMargin" : 15.13,
+    "operatingProfit" : 17.17,
+    "netProfitMargin" : 8.08,
+    "netProfit" : 9.17
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 90.67,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 15.21,
+    "grossProfit" : 13.79,
+    "operatingProfitMargin" : 10.25,
+    "operatingProfit" : 9.29,
+    "netProfitMargin" : 3.32,
+    "netProfit" : 3.01
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 86.73,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 18.41,
+    "grossProfit" : 15.97,
+    "operatingProfitMargin" : 14.50,
+    "operatingProfit" : 12.58,
+    "netProfitMargin" : 6.32,
+    "netProfit" : 5.48
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 90.14,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 18.73,
+    "grossProfit" : 16.88,
+    "operatingProfitMargin" : 14.57,
+    "operatingProfit" : 13.13,
+    "netProfitMargin" : 6.47,
+    "netProfit" : 5.83
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 123.21,
+    "salesGrowthYoY" : 8.55,
+    "grossProfitMargin" : 20.60,
+    "grossProfit" : 25.38,
+    "operatingProfitMargin" : 16.22,
+    "operatingProfit" : 19.98,
+    "netProfitMargin" : 8.75,
+    "netProfit" : 10.78
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 116.68,
+    "salesGrowthYoY" : 28.69,
+    "grossProfitMargin" : 19.04,
+    "grossProfit" : 22.22,
+    "operatingProfitMargin" : 15.13,
+    "operatingProfit" : 17.65,
+    "netProfitMargin" : 8.90,
+    "netProfit" : 10.38
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 88.71,
+    "salesGrowthYoY" : 2.28,
+    "grossProfitMargin" : 16.67,
+    "grossProfit" : 14.79,
+    "operatingProfitMargin" : 12.07,
+    "operatingProfit" : 10.71,
+    "netProfitMargin" : 7.14,
+    "netProfit" : 6.33
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 109.34,
+    "salesGrowthYoY" : 21.30,
+    "grossProfitMargin" : 21.15,
+    "grossProfit" : 23.13,
+    "operatingProfitMargin" : 15.94,
+    "operatingProfit" : 17.43,
+    "netProfitMargin" : 9.51,
+    "netProfit" : 10.40
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 145.30,
+    "salesGrowthYoY" : 17.93,
+    "grossProfitMargin" : 19.69,
+    "grossProfit" : 28.61,
+    "operatingProfitMargin" : 15.75,
+    "operatingProfit" : 22.88,
+    "netProfitMargin" : 10.53,
+    "netProfit" : 15.30
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 118.75,
+    "salesGrowthYoY" : 1.77,
+    "grossProfitMargin" : 19.60,
+    "grossProfit" : 23.27,
+    "operatingProfitMargin" : 14.64,
+    "operatingProfit" : 17.39,
+    "netProfitMargin" : 9.38,
+    "netProfit" : 11.14
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 87.05,
+    "salesGrowthYoY" : -1.87,
+    "grossProfitMargin" : 19.35,
+    "grossProfit" : 16.84,
+    "operatingProfitMargin" : 14.66,
+    "operatingProfit" : 12.76,
+    "netProfitMargin" : 9.22,
+    "netProfit" : 8.03
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 90.47,
+    "salesGrowthYoY" : -17.26,
+    "grossProfitMargin" : 39.37,
+    "grossProfit" : 35.62,
+    "operatingProfitMargin" : 33.75,
+    "operatingProfit" : 30.53,
+    "netProfitMargin" : 23.69,
+    "netProfit" : 21.43
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 90.47,
+    "salesGrowthYoY" : -17.26,
+    "grossProfitMargin" : 39.37,
+    "grossProfit" : 35.62,
+    "operatingProfitMargin" : 33.75,
+    "operatingProfit" : 30.53,
+    "netProfitMargin" : 23.69,
+    "netProfit" : 21.43
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.02,
+    "pricePercentageAboveDma100" : 5.44,
+    "pricePercentageAboveDma200" : 5.48,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 2.50,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 20.94,
+    "totalFundamentalScore" : 32.50,
+    "totalScore" : 53.44
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285570",
-    "company_code" : "CPPLUS",
-    "company_name" : "Aditya Infotech",
-    "screener_company_link" : "https://www.screener.in/company/CPPLUS",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285570/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285570/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285570",
+    "companyCode" : "CPPLUS",
+    "companyName" : "Aditya Infotech",
+    "screenerCompanyLink" : "https://www.screener.in/company/CPPLUS",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285570/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285570/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "CPPLUS",
+      "companyName" : "Aditya Infotech",
+      "marketCap" : 19070.00,
+      "peRatio" : 108.00,
+      "description" : "Aditya Infotech Limited (AIL) manufactures and provides video security and surveillance products, solutions, and services under the brand name 'CP Plus'.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 4.41,
+      "pricePercentageAboveDma100" : 0.00,
+      "pricePercentageAboveDma200" : 3.53,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 22.94,
+      "totalFundamentalScore" : 50.00,
+      "totalScore" : 72.94
+    }
   },
   "attributes" : {
-    "company_code" : "CPPLUS",
-    "company_name" : "Aditya Infotech",
-    "market_cap" : 19576.00,
-    "pe_ratio" : 111.00,
+    "companyCode" : "CPPLUS",
+    "companyName" : "Aditya Infotech",
+    "marketCap" : 19070.00,
+    "peRatio" : 108.00,
     "description" : "Aditya Infotech Limited (AIL) manufactures and provides video security and surveillance products, solutions, and services under the brand name 'CP Plus'.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-08-05",
     "price" : 1082.65,
     "dma50" : 1082.65,
@@ -534,10 +559,98 @@
     "volume" : 105404.00
   }, {
     "date" : "2025-11-24",
-    "price" : 1672.90,
-    "dma50" : 1445.77,
+    "price" : 1612.40,
+    "dma50" : 1443.40,
     "dma100" : null,
-    "dma200" : 1246.06,
-    "volume" : 40178.00
-  } ]
+    "dma200" : 1245.46,
+    "volume" : 97223.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 1612.40,
+    "dma50" : 1443.40,
+    "dma100" : null,
+    "dma200" : 1245.46,
+    "volume" : 97223.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-06-30",
+    "sales" : 636.02,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 17.23,
+    "grossProfit" : 109.59,
+    "operatingProfitMargin" : 6.73,
+    "operatingProfit" : 42.80,
+    "netProfitMargin" : 3.78,
+    "netProfit" : 24.04
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 662.46,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 21.03,
+    "grossProfit" : 139.32,
+    "operatingProfitMargin" : 6.85,
+    "operatingProfit" : 45.38,
+    "netProfitMargin" : 3.78,
+    "netProfit" : 25.04
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 966.80,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 18.83,
+    "grossProfit" : 182.05,
+    "operatingProfitMargin" : 8.64,
+    "operatingProfit" : 83.53,
+    "netProfitMargin" : 4.92,
+    "netProfit" : 47.57
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 730.86,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 19.75,
+    "grossProfit" : 144.34,
+    "operatingProfitMargin" : 7.84,
+    "operatingProfit" : 57.30,
+    "netProfitMargin" : 4.26,
+    "netProfit" : 31.13
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 904.65,
+    "salesGrowthYoY" : 42.24,
+    "grossProfitMargin" : 25.67,
+    "grossProfit" : 232.22,
+    "operatingProfitMargin" : 10.80,
+    "operatingProfit" : 97.70,
+    "netProfitMargin" : 7.27,
+    "netProfit" : 65.77
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 904.65,
+    "salesGrowthYoY" : 42.24,
+    "grossProfitMargin" : 25.67,
+    "grossProfit" : 232.22,
+    "operatingProfitMargin" : 10.80,
+    "operatingProfit" : 97.70,
+    "netProfitMargin" : 7.27,
+    "netProfit" : 65.77
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 4.41,
+    "pricePercentageAboveDma100" : 0.00,
+    "pricePercentageAboveDma200" : 3.53,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 22.94,
+    "totalFundamentalScore" : 50.00,
+    "totalScore" : 72.94
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285204",
-    "company_code" : "SENORES",
-    "company_name" : "Senores Pharma.",
-    "screener_company_link" : "https://www.screener.in/company/SENORES",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285204/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285204/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285204",
+    "companyCode" : "SENORES",
+    "companyName" : "Senores Pharma.",
+    "screenerCompanyLink" : "https://www.screener.in/company/SENORES",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285204/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285204/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "SENORES",
+      "companyName" : "Senores Pharma.",
+      "marketCap" : 3661.00,
+      "peRatio" : 300.00,
+      "description" : "Incorporated in 2015, Senores Pharmaceuticals Ltd manufactures and develops affordable and high-quality complex generics certified by global food and drugs authorities[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.71,
+      "pricePercentageAboveDma100" : 4.35,
+      "pricePercentageAboveDma200" : 3.93,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 17.50,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 42.99,
+      "totalFundamentalScore" : 47.50,
+      "totalScore" : 90.49
+    }
   },
   "attributes" : {
-    "company_code" : "SENORES",
-    "company_name" : "Senores Pharma.",
-    "market_cap" : 3745.00,
-    "pe_ratio" : 307.00,
+    "companyCode" : "SENORES",
+    "companyName" : "Senores Pharma.",
+    "marketCap" : 3661.00,
+    "peRatio" : 300.00,
     "description" : "Incorporated in 2015, Senores Pharmaceuticals Ltd manufactures and develops affordable and high-quality complex generics certified by global food and drugs authorities[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-12-30",
     "price" : 557.05,
     "dma50" : 557.05,
@@ -1584,10 +1609,128 @@
     "volume" : 162316.00
   }, {
     "date" : "2025-11-24",
-    "price" : 813.75,
-    "dma50" : 751.80,
-    "dma100" : 702.38,
-    "dma200" : 654.09,
-    "volume" : 95710.00
-  } ]
+    "price" : 794.05,
+    "dma50" : 751.03,
+    "dma100" : 702.18,
+    "dma200" : 653.89,
+    "volume" : 208053.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 794.05,
+    "dma50" : 751.03,
+    "dma100" : 702.18,
+    "dma200" : 653.89,
+    "volume" : 208053.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2023-12-31",
+    "sales" : 8.91,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 35.47,
+    "grossProfit" : 3.16,
+    "operatingProfitMargin" : -5.95,
+    "operatingProfit" : -0.53,
+    "netProfitMargin" : 2.24,
+    "netProfit" : 0.20
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 10.61,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 57.21,
+    "grossProfit" : 6.07,
+    "operatingProfitMargin" : 17.62,
+    "operatingProfit" : 1.87,
+    "netProfitMargin" : -31.39,
+    "netProfit" : -3.33
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 7.48,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 62.30,
+    "grossProfit" : 4.66,
+    "operatingProfitMargin" : -10.43,
+    "operatingProfit" : -0.78,
+    "netProfitMargin" : 4.14,
+    "netProfit" : 0.31
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 9.63,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 69.06,
+    "grossProfit" : 6.65,
+    "operatingProfitMargin" : -13.91,
+    "operatingProfit" : -1.34,
+    "netProfitMargin" : 3.12,
+    "netProfit" : 0.30
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 9.59,
+    "salesGrowthYoY" : 7.63,
+    "grossProfitMargin" : 44.73,
+    "grossProfit" : 4.29,
+    "operatingProfitMargin" : -25.23,
+    "operatingProfit" : -2.42,
+    "netProfitMargin" : 11.16,
+    "netProfit" : 1.07
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 11.86,
+    "salesGrowthYoY" : 11.78,
+    "grossProfitMargin" : 43.25,
+    "grossProfit" : 5.13,
+    "operatingProfitMargin" : -23.10,
+    "operatingProfit" : -2.74,
+    "netProfitMargin" : 16.95,
+    "netProfit" : 2.01
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 19.82,
+    "salesGrowthYoY" : 164.97,
+    "grossProfitMargin" : 63.93,
+    "grossProfit" : 12.67,
+    "operatingProfitMargin" : -5.85,
+    "operatingProfit" : -1.16,
+    "netProfitMargin" : 13.62,
+    "netProfit" : 2.70
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 35.33,
+    "salesGrowthYoY" : 266.87,
+    "grossProfitMargin" : 67.08,
+    "grossProfit" : 23.70,
+    "operatingProfitMargin" : 4.30,
+    "operatingProfit" : 1.52,
+    "netProfitMargin" : 18.20,
+    "netProfit" : 6.43
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 35.33,
+    "salesGrowthYoY" : 266.87,
+    "grossProfitMargin" : 67.08,
+    "grossProfit" : 23.70,
+    "operatingProfitMargin" : 4.30,
+    "operatingProfit" : 1.52,
+    "netProfitMargin" : 18.20,
+    "netProfit" : 6.43
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.71,
+    "pricePercentageAboveDma100" : 4.35,
+    "pricePercentageAboveDma200" : 3.93,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 17.50,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 42.99,
+    "totalFundamentalScore" : 47.50,
+    "totalScore" : 90.49
+  }
 }

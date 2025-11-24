@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284374",
-    "company_code" : "IKIO",
-    "company_name" : "IKIO Tech",
-    "screener_company_link" : "https://www.screener.in/company/IKIO",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284374/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284374/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284374",
+    "companyCode" : "IKIO",
+    "companyName" : "IKIO Tech",
+    "screenerCompanyLink" : "https://www.screener.in/company/IKIO",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284374/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284374/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "IKIO",
+      "companyName" : "IKIO Tech",
+      "marketCap" : 1436.00,
+      "peRatio" : 87.30,
+      "description" : "Incorporated in 2016, IKIO Lighting Ltd manufactures and sells LED Lighting[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.46,
+      "pricePercentageAboveDma100" : 5.52,
+      "pricePercentageAboveDma200" : 5.76,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 8.03,
+      "operatingProfitMarginPercentile" : 7.14,
+      "netProfitMarginPercentile" : 3.57,
+      "totalTechnicalScore" : 16.73,
+      "totalFundamentalScore" : 18.75,
+      "totalScore" : 35.48
+    }
   },
   "attributes" : {
-    "company_code" : "IKIO",
-    "company_name" : "IKIO Tech",
-    "market_cap" : 1463.00,
-    "pe_ratio" : 88.90,
+    "companyCode" : "IKIO",
+    "companyName" : "IKIO Tech",
+    "marketCap" : 1436.00,
+    "peRatio" : 87.30,
     "description" : "Incorporated in 2016, IKIO Lighting Ltd manufactures and sells LED Lighting[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 258.45,
     "dma50" : 273.91,
@@ -1752,10 +1777,188 @@
     "volume" : 53044.00
   }, {
     "date" : "2025-11-24",
-    "price" : 190.65,
-    "dma50" : 205.86,
-    "dma100" : 208.65,
-    "dma200" : 220.48,
-    "volume" : 31815.00
-  } ]
+    "price" : 186.99,
+    "dma50" : 205.72,
+    "dma100" : 208.61,
+    "dma200" : 220.44,
+    "volume" : 66582.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 186.99,
+    "dma50" : 205.72,
+    "dma100" : 208.61,
+    "dma200" : 220.44,
+    "volume" : 66582.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2022-06-30",
+    "sales" : 49.26,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 31.79,
+    "grossProfit" : 15.66,
+    "operatingProfitMargin" : 18.15,
+    "operatingProfit" : 8.94,
+    "netProfitMargin" : 11.31,
+    "netProfit" : 5.57
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 64.90,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 25.96,
+    "grossProfit" : 16.85,
+    "operatingProfitMargin" : 15.89,
+    "operatingProfit" : 10.31,
+    "netProfitMargin" : 10.57,
+    "netProfit" : 6.86
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 69.27,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 28.55,
+    "grossProfit" : 19.78,
+    "operatingProfitMargin" : 18.52,
+    "operatingProfit" : 12.83,
+    "netProfitMargin" : 10.76,
+    "netProfit" : 7.45
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 57.94,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 23.28,
+    "grossProfit" : 13.49,
+    "operatingProfitMargin" : 11.84,
+    "operatingProfit" : 6.86,
+    "netProfitMargin" : 8.22,
+    "netProfit" : 4.76
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 61.52,
+    "salesGrowthYoY" : 24.89,
+    "grossProfitMargin" : 28.77,
+    "grossProfit" : 17.70,
+    "operatingProfitMargin" : 16.17,
+    "operatingProfit" : 9.95,
+    "netProfitMargin" : 11.02,
+    "netProfit" : 6.78
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 67.52,
+    "salesGrowthYoY" : 4.04,
+    "grossProfitMargin" : 27.71,
+    "grossProfit" : 18.71,
+    "operatingProfitMargin" : 15.11,
+    "operatingProfit" : 10.20,
+    "netProfitMargin" : 15.70,
+    "netProfit" : 10.60
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 59.42,
+    "salesGrowthYoY" : -14.22,
+    "grossProfitMargin" : 24.49,
+    "grossProfit" : 14.55,
+    "operatingProfitMargin" : 9.17,
+    "operatingProfit" : 5.45,
+    "netProfitMargin" : 11.43,
+    "netProfit" : 6.79
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 52.51,
+    "salesGrowthYoY" : -9.37,
+    "grossProfitMargin" : 23.84,
+    "grossProfit" : 12.52,
+    "operatingProfitMargin" : 5.87,
+    "operatingProfit" : 3.08,
+    "netProfitMargin" : 8.59,
+    "netProfit" : 4.51
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 66.57,
+    "salesGrowthYoY" : 8.21,
+    "grossProfitMargin" : 27.29,
+    "grossProfit" : 18.17,
+    "operatingProfitMargin" : 10.88,
+    "operatingProfit" : 7.24,
+    "netProfitMargin" : 13.02,
+    "netProfit" : 8.67
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 57.70,
+    "salesGrowthYoY" : -14.54,
+    "grossProfitMargin" : 26.67,
+    "grossProfit" : 15.39,
+    "operatingProfitMargin" : 8.89,
+    "operatingProfit" : 5.13,
+    "netProfitMargin" : 11.53,
+    "netProfit" : 6.65
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 45.13,
+    "salesGrowthYoY" : -24.05,
+    "grossProfitMargin" : 23.66,
+    "grossProfit" : 10.68,
+    "operatingProfitMargin" : 8.53,
+    "operatingProfit" : 3.85,
+    "netProfitMargin" : 11.30,
+    "netProfit" : 5.10
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 38.33,
+    "salesGrowthYoY" : -27.00,
+    "grossProfitMargin" : 20.95,
+    "grossProfit" : 8.03,
+    "operatingProfitMargin" : 3.63,
+    "operatingProfit" : 1.39,
+    "netProfitMargin" : 8.30,
+    "netProfit" : 3.18
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 38.69,
+    "salesGrowthYoY" : -41.88,
+    "grossProfitMargin" : 27.73,
+    "grossProfit" : 10.73,
+    "operatingProfitMargin" : 4.14,
+    "operatingProfit" : 1.60,
+    "netProfitMargin" : 8.50,
+    "netProfit" : 3.29
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 49.01,
+    "salesGrowthYoY" : -15.06,
+    "grossProfitMargin" : 26.99,
+    "grossProfit" : 13.23,
+    "operatingProfitMargin" : 8.57,
+    "operatingProfit" : 4.20,
+    "netProfitMargin" : 9.98,
+    "netProfit" : 4.89
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 49.01,
+    "salesGrowthYoY" : -15.06,
+    "grossProfitMargin" : 26.99,
+    "grossProfit" : 13.23,
+    "operatingProfitMargin" : 8.57,
+    "operatingProfit" : 4.20,
+    "netProfitMargin" : 9.98,
+    "netProfit" : 4.89
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.46,
+    "pricePercentageAboveDma100" : 5.52,
+    "pricePercentageAboveDma200" : 5.76,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 8.03,
+    "operatingProfitMarginPercentile" : 7.14,
+    "netProfitMarginPercentile" : 3.57,
+    "totalTechnicalScore" : 16.73,
+    "totalFundamentalScore" : 18.75,
+    "totalScore" : 35.48
+  }
 }

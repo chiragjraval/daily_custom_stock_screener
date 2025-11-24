@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274785",
-    "company_code" : "543230",
-    "company_name" : "Advait Energy",
-    "screener_company_link" : "https://www.screener.in/company/543230",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274785/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274785/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274785",
+    "companyCode" : "543230",
+    "companyName" : "Advait Energy",
+    "screenerCompanyLink" : "https://www.screener.in/company/543230",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274785/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274785/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "543230",
+      "companyName" : "Advait Energy",
+      "marketCap" : 1751.00,
+      "peRatio" : 45.50,
+      "description" : "Advait Energy Transitions Limited (formerly known as, Advait Infratech Limited) established in 2009 and headquartered in Gujarat, is a global leader in end-to-end solutions for power trantmission, substations, and telecommunication infrastructure. Advait's core capabilities include the manufacturing and supply of Stringing Tools, ACS Wires, OPGW Cables, ERS, Optical Fibre Cables, and a comprehensive range of insulators. The company has delivered complex EPC projects, including live-line OPGW installations, underground cabling, and integration of MVCC and HT AB cables, demonstrating its end-to-end project execution capabilities. In 2023, Advait expanded into the renewable energy domain, undertaking projects in Green Hydrogen and Solar Power integration."
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.49,
+      "pricePercentageAboveDma100" : 5.73,
+      "pricePercentageAboveDma200" : 5.32,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 14.67,
+      "operatingProfitMarginPercentile" : 14.80,
+      "netProfitMarginPercentile" : 7.62,
+      "totalTechnicalScore" : 26.54,
+      "totalFundamentalScore" : 37.09,
+      "totalScore" : 63.63
+    }
   },
   "attributes" : {
-    "company_code" : "543230",
-    "company_name" : "Advait Energy",
-    "market_cap" : 1785.00,
-    "pe_ratio" : 46.50,
+    "companyCode" : "543230",
+    "companyName" : "Advait Energy",
+    "marketCap" : 1751.00,
+    "peRatio" : 45.50,
     "description" : "Advait Energy Transitions Limited (formerly known as, Advait Infratech Limited) established in 2009 and headquartered in Gujarat, is a global leader in end-to-end solutions for power trantmission, substations, and telecommunication infrastructure. Advait's core capabilities include the manufacturing and supply of Stringing Tools, ACS Wires, OPGW Cables, ERS, Optical Fibre Cables, and a comprehensive range of insulators. The company has delivered complex EPC projects, including live-line OPGW installations, underground cabling, and integration of MVCC and HT AB cables, demonstrating its end-to-end project execution capabilities. In 2023, Advait expanded into the renewable energy domain, undertaking projects in Green Hydrogen and Solar Power integration."
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 1488.10,
     "dma50" : 1725.65,
@@ -1752,10 +1777,238 @@
     "volume" : 21321.00
   }, {
     "date" : "2025-11-24",
-    "price" : 1632.25,
-    "dma50" : 1774.46,
-    "dma100" : 1872.93,
-    "dma200" : 1712.36,
-    "volume" : 6391.00
-  } ]
+    "price" : 1600.90,
+    "dma50" : 1773.23,
+    "dma100" : 1872.62,
+    "dma200" : 1712.05,
+    "volume" : 19288.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 1600.90,
+    "dma50" : 1773.23,
+    "dma100" : 1872.62,
+    "dma200" : 1712.05,
+    "volume" : 19288.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2019-09-30",
+    "sales" : 11.09,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 29.67,
+    "grossProfit" : 3.29,
+    "operatingProfitMargin" : 0.72,
+    "operatingProfit" : 0.08,
+    "netProfitMargin" : -0.72,
+    "netProfit" : -0.08
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 29.21,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 42.93,
+    "grossProfit" : 12.54,
+    "operatingProfitMargin" : 17.73,
+    "operatingProfit" : 5.18,
+    "netProfitMargin" : 14.38,
+    "netProfit" : 4.20
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 20.47,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 25.35,
+    "grossProfit" : 5.19,
+    "operatingProfitMargin" : 12.02,
+    "operatingProfit" : 2.46,
+    "netProfitMargin" : 10.45,
+    "netProfit" : 2.14
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 37.61,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 31.27,
+    "grossProfit" : 11.76,
+    "operatingProfitMargin" : 10.56,
+    "operatingProfit" : 3.97,
+    "netProfitMargin" : 7.13,
+    "netProfit" : 2.68
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 29.24,
+    "salesGrowthYoY" : 163.66,
+    "grossProfitMargin" : 27.46,
+    "grossProfit" : 8.03,
+    "operatingProfitMargin" : 13.68,
+    "operatingProfit" : 4.00,
+    "netProfitMargin" : 10.23,
+    "netProfit" : 2.99
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 42.77,
+    "salesGrowthYoY" : 46.42,
+    "grossProfitMargin" : 32.92,
+    "grossProfit" : 14.08,
+    "operatingProfitMargin" : 13.21,
+    "operatingProfit" : 5.65,
+    "netProfitMargin" : 9.68,
+    "netProfit" : 4.14
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 37.07,
+    "salesGrowthYoY" : 81.09,
+    "grossProfitMargin" : 55.17,
+    "grossProfit" : 20.45,
+    "operatingProfitMargin" : 17.37,
+    "operatingProfit" : 6.44,
+    "netProfitMargin" : 10.12,
+    "netProfit" : 3.75
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 25.35,
+    "salesGrowthYoY" : -32.60,
+    "grossProfitMargin" : 47.73,
+    "grossProfit" : 12.10,
+    "operatingProfitMargin" : 21.30,
+    "operatingProfit" : 5.40,
+    "netProfitMargin" : 13.02,
+    "netProfit" : 3.30
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 64.45,
+    "salesGrowthYoY" : 120.42,
+    "grossProfitMargin" : 30.64,
+    "grossProfit" : 19.75,
+    "operatingProfitMargin" : 17.91,
+    "operatingProfit" : 11.54,
+    "netProfitMargin" : 10.21,
+    "netProfit" : 6.58
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 27.24,
+    "salesGrowthYoY" : -36.31,
+    "grossProfitMargin" : 45.15,
+    "grossProfit" : 12.30,
+    "operatingProfitMargin" : 12.52,
+    "operatingProfit" : 3.41,
+    "netProfitMargin" : 5.36,
+    "netProfit" : 1.46
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 47.98,
+    "salesGrowthYoY" : 29.43,
+    "grossProfitMargin" : 40.54,
+    "grossProfit" : 19.45,
+    "operatingProfitMargin" : 16.86,
+    "operatingProfit" : 8.09,
+    "netProfitMargin" : 10.38,
+    "netProfit" : 4.98
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 72.51,
+    "salesGrowthYoY" : 186.04,
+    "grossProfitMargin" : 48.39,
+    "grossProfit" : 35.09,
+    "operatingProfitMargin" : 16.74,
+    "operatingProfit" : 12.14,
+    "netProfitMargin" : 10.66,
+    "netProfit" : 7.73
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 59.71,
+    "salesGrowthYoY" : -7.35,
+    "grossProfitMargin" : 56.10,
+    "grossProfit" : 33.50,
+    "operatingProfitMargin" : 18.36,
+    "operatingProfit" : 10.96,
+    "netProfitMargin" : 11.99,
+    "netProfit" : 7.16
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 58.15,
+    "salesGrowthYoY" : 113.47,
+    "grossProfitMargin" : 50.52,
+    "grossProfit" : 29.38,
+    "operatingProfitMargin" : 14.38,
+    "operatingProfit" : 8.36,
+    "netProfitMargin" : 10.03,
+    "netProfit" : 5.83
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 47.59,
+    "salesGrowthYoY" : -0.81,
+    "grossProfitMargin" : 61.88,
+    "grossProfit" : 29.45,
+    "operatingProfitMargin" : 19.75,
+    "operatingProfit" : 9.40,
+    "netProfitMargin" : 11.73,
+    "netProfit" : 5.58
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 94.36,
+    "salesGrowthYoY" : 30.13,
+    "grossProfitMargin" : 57.32,
+    "grossProfit" : 54.09,
+    "operatingProfitMargin" : 15.96,
+    "operatingProfit" : 15.06,
+    "netProfitMargin" : 11.01,
+    "netProfit" : 10.39
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 95.38,
+    "salesGrowthYoY" : 59.74,
+    "grossProfitMargin" : 56.22,
+    "grossProfit" : 53.62,
+    "operatingProfitMargin" : 14.69,
+    "operatingProfit" : 14.01,
+    "netProfitMargin" : 10.17,
+    "netProfit" : 9.70
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 73.46,
+    "salesGrowthYoY" : 26.33,
+    "grossProfitMargin" : 52.46,
+    "grossProfit" : 38.54,
+    "operatingProfitMargin" : 15.68,
+    "operatingProfit" : 11.52,
+    "netProfitMargin" : 10.90,
+    "netProfit" : 8.01
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 95.46,
+    "salesGrowthYoY" : 100.59,
+    "grossProfitMargin" : 46.90,
+    "grossProfit" : 44.77,
+    "operatingProfitMargin" : 15.95,
+    "operatingProfit" : 15.23,
+    "netProfitMargin" : 10.79,
+    "netProfit" : 10.30
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 95.46,
+    "salesGrowthYoY" : 100.59,
+    "grossProfitMargin" : 46.90,
+    "grossProfit" : 44.77,
+    "operatingProfitMargin" : 15.95,
+    "operatingProfit" : 15.23,
+    "netProfitMargin" : 10.79,
+    "netProfit" : 10.30
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.49,
+    "pricePercentageAboveDma100" : 5.73,
+    "pricePercentageAboveDma200" : 5.32,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 14.67,
+    "operatingProfitMarginPercentile" : 14.80,
+    "netProfitMarginPercentile" : 7.62,
+    "totalTechnicalScore" : 26.54,
+    "totalFundamentalScore" : 37.09,
+    "totalScore" : 63.63
+  }
 }

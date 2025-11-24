@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285540",
-    "company_code" : "SMARTWORKS",
-    "company_name" : "Smartworks Cowor",
-    "screener_company_link" : "https://www.screener.in/company/SMARTWORKS",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285540/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285540/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285540",
+    "companyCode" : "SMARTWORKS",
+    "companyName" : "Smartworks Cowor",
+    "screenerCompanyLink" : "https://www.screener.in/company/SMARTWORKS",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285540/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285540/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "SMARTWORKS",
+      "companyName" : "Smartworks Cowor",
+      "marketCap" : 6055.00,
+      "peRatio" : null,
+      "description" : "Incorporated in 2015, Smartworks Coworking Spaces Limited is engaged in the business of customized managed workspace solutions, offering fully serviced, tech-enabled office environments.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.22,
+      "pricePercentageAboveDma100" : 0.00,
+      "pricePercentageAboveDma200" : 4.66,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 20.00,
+      "operatingProfitMarginPercentile" : 12.00,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 19.88,
+      "totalFundamentalScore" : 42.00,
+      "totalScore" : 61.88
+    }
   },
   "attributes" : {
-    "company_code" : "SMARTWORKS",
-    "company_name" : "Smartworks Cowor",
-    "market_cap" : 6147.00,
-    "pe_ratio" : null,
+    "companyCode" : "SMARTWORKS",
+    "companyName" : "Smartworks Cowor",
+    "marketCap" : 6055.00,
+    "peRatio" : null,
     "description" : "Incorporated in 2015, Smartworks Coworking Spaces Limited is engaged in the business of customized managed workspace solutions, offering fully serviced, tech-enabled office environments.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-07-17",
     "price" : 445.05,
     "dma50" : 445.05,
@@ -625,10 +650,98 @@
     "volume" : 78295.00
   }, {
     "date" : "2025-11-24",
-    "price" : 536.50,
-    "dma50" : 554.75,
+    "price" : 530.05,
+    "dma50" : 554.49,
     "dma100" : null,
-    "dma200" : 496.23,
-    "volume" : 24975.00
-  } ]
+    "dma200" : 496.17,
+    "volume" : 56648.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 530.05,
+    "dma50" : 554.49,
+    "dma100" : null,
+    "dma200" : 496.17,
+    "volume" : 56648.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-06-30",
+    "sales" : 309.30,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 309.30,
+    "operatingProfitMargin" : 61.39,
+    "operatingProfit" : 189.88,
+    "netProfitMargin" : -7.27,
+    "netProfit" : -22.49
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 341.41,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 341.41,
+    "operatingProfitMargin" : 61.04,
+    "operatingProfit" : 208.40,
+    "netProfitMargin" : -4.32,
+    "netProfit" : -14.75
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 348.87,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 348.87,
+    "operatingProfitMargin" : 64.85,
+    "operatingProfit" : 226.24,
+    "netProfitMargin" : -2.03,
+    "netProfit" : -7.08
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 364.79,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 364.79,
+    "operatingProfitMargin" : 63.86,
+    "operatingProfit" : 232.95,
+    "netProfitMargin" : -1.23,
+    "netProfit" : -4.49
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 413.61,
+    "salesGrowthYoY" : 33.72,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 413.61,
+    "operatingProfitMargin" : 63.23,
+    "operatingProfit" : 261.53,
+    "netProfitMargin" : -0.92,
+    "netProfit" : -3.81
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 413.61,
+    "salesGrowthYoY" : 33.72,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 413.61,
+    "operatingProfitMargin" : 63.23,
+    "operatingProfit" : 261.53,
+    "netProfitMargin" : -0.92,
+    "netProfit" : -3.81
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.22,
+    "pricePercentageAboveDma100" : 0.00,
+    "pricePercentageAboveDma200" : 4.66,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 20.00,
+    "operatingProfitMarginPercentile" : 12.00,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 19.88,
+    "totalFundamentalScore" : 42.00,
+    "totalScore" : 61.88
+  }
 }

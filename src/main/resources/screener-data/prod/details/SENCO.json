@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1284410",
-    "company_code" : "SENCO",
-    "company_name" : "Senco Gold",
-    "screener_company_link" : "https://www.screener.in/company/SENCO",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1284410/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1284410/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1284410",
+    "companyCode" : "SENCO",
+    "companyName" : "Senco Gold",
+    "screenerCompanyLink" : "https://www.screener.in/company/SENCO",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1284410/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1284410/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "SENCO",
+      "companyName" : "Senco Gold",
+      "marketCap" : 5172.00,
+      "peRatio" : 20.50,
+      "description" : "Incorporated in 1994, Senco Gold Limited is a Pan-India jewelry retailer and is the largest organized jewelry retail player in the Eastern region of India based on the number of stores[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 5.28,
+      "pricePercentageAboveDma100" : 5.44,
+      "pricePercentageAboveDma200" : 5.72,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 2.00,
+      "operatingProfitMarginPercentile" : 10.00,
+      "netProfitMarginPercentile" : 6.43,
+      "totalTechnicalScore" : 16.44,
+      "totalFundamentalScore" : 18.43,
+      "totalScore" : 34.87
+    }
   },
   "attributes" : {
-    "company_code" : "SENCO",
-    "company_name" : "Senco Gold",
-    "market_cap" : 5193.00,
-    "pe_ratio" : 20.60,
+    "companyCode" : "SENCO",
+    "companyName" : "Senco Gold",
+    "marketCap" : 5172.00,
+    "peRatio" : 20.50,
     "description" : "Incorporated in 1994, Senco Gold Limited is a Pan-India jewelry retailer and is the largest organized jewelry retail player in the Eastern region of India based on the number of stores[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 580.95,
     "dma50" : 600.79,
@@ -1752,10 +1777,188 @@
     "volume" : 287811.00
   }, {
     "date" : "2025-11-24",
-    "price" : 317.40,
-    "dma50" : 334.90,
-    "dma100" : 346.38,
-    "dma200" : 368.85,
-    "volume" : 101959.00
-  } ]
+    "price" : 315.80,
+    "dma50" : 334.84,
+    "dma100" : 346.36,
+    "dma200" : 368.83,
+    "volume" : 232313.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 315.80,
+    "dma50" : 334.84,
+    "dma100" : 346.36,
+    "dma200" : 368.83,
+    "volume" : 232313.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2022-06-30",
+    "sales" : 1007.24,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 13.48,
+    "grossProfit" : 135.78,
+    "operatingProfitMargin" : 5.46,
+    "operatingProfit" : 55.00,
+    "netProfitMargin" : 2.24,
+    "netProfit" : 22.56
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 911.05,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 11.84,
+    "grossProfit" : 107.87,
+    "operatingProfitMargin" : 3.59,
+    "operatingProfit" : 32.71,
+    "netProfitMargin" : 1.00,
+    "netProfit" : 9.11
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 1344.47,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 19.16,
+    "grossProfit" : 257.60,
+    "operatingProfitMargin" : 12.11,
+    "operatingProfit" : 162.82,
+    "netProfitMargin" : 7.73,
+    "netProfit" : 103.93
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 812.79,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 18.82,
+    "grossProfit" : 152.97,
+    "operatingProfitMargin" : 8.25,
+    "operatingProfit" : 67.06,
+    "netProfitMargin" : 3.28,
+    "netProfit" : 26.66
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 1304.08,
+    "salesGrowthYoY" : 29.47,
+    "grossProfitMargin" : 12.46,
+    "grossProfit" : 162.49,
+    "operatingProfitMargin" : 5.19,
+    "operatingProfit" : 67.68,
+    "netProfitMargin" : 2.18,
+    "netProfit" : 28.43
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 1144.40,
+    "salesGrowthYoY" : 25.61,
+    "grossProfitMargin" : 11.79,
+    "grossProfit" : 134.92,
+    "operatingProfitMargin" : 3.42,
+    "operatingProfit" : 39.14,
+    "netProfitMargin" : 1.05,
+    "netProfit" : 12.02
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 1651.24,
+    "salesGrowthYoY" : 22.82,
+    "grossProfitMargin" : 18.78,
+    "grossProfit" : 310.10,
+    "operatingProfitMargin" : 11.07,
+    "operatingProfit" : 182.79,
+    "netProfitMargin" : 6.75,
+    "netProfit" : 111.46
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 1129.93,
+    "salesGrowthYoY" : 39.02,
+    "grossProfitMargin" : 17.36,
+    "grossProfit" : 196.16,
+    "operatingProfitMargin" : 8.11,
+    "operatingProfit" : 91.64,
+    "netProfitMargin" : 3.26,
+    "netProfit" : 36.84
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 1414.96,
+    "salesGrowthYoY" : 8.50,
+    "grossProfitMargin" : 17.14,
+    "grossProfit" : 242.52,
+    "operatingProfitMargin" : 7.77,
+    "operatingProfit" : 109.94,
+    "netProfitMargin" : 3.77,
+    "netProfit" : 53.34
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 1458.68,
+    "salesGrowthYoY" : 27.46,
+    "grossProfitMargin" : 12.79,
+    "grossProfit" : 186.57,
+    "operatingProfitMargin" : 3.81,
+    "operatingProfit" : 55.58,
+    "netProfitMargin" : 1.15,
+    "netProfit" : 16.77
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 2023.09,
+    "salesGrowthYoY" : 22.52,
+    "grossProfitMargin" : 10.31,
+    "grossProfit" : 208.58,
+    "operatingProfitMargin" : 3.92,
+    "operatingProfit" : 79.31,
+    "netProfitMargin" : 1.64,
+    "netProfit" : 33.18
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 1361.95,
+    "salesGrowthYoY" : 20.53,
+    "grossProfitMargin" : 17.13,
+    "grossProfit" : 233.30,
+    "operatingProfitMargin" : 9.21,
+    "operatingProfit" : 125.44,
+    "netProfitMargin" : 4.55,
+    "netProfit" : 61.97
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 1824.57,
+    "salesGrowthYoY" : 28.95,
+    "grossProfitMargin" : 19.03,
+    "grossProfit" : 347.22,
+    "operatingProfitMargin" : 9.99,
+    "operatingProfit" : 182.27,
+    "netProfitMargin" : 5.67,
+    "netProfit" : 103.45
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 1554.32,
+    "salesGrowthYoY" : 6.56,
+    "grossProfitMargin" : 16.90,
+    "grossProfit" : 262.68,
+    "operatingProfitMargin" : 6.97,
+    "operatingProfit" : 108.34,
+    "netProfitMargin" : 3.41,
+    "netProfit" : 53.00
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 1554.32,
+    "salesGrowthYoY" : 6.56,
+    "grossProfitMargin" : 16.90,
+    "grossProfit" : 262.68,
+    "operatingProfitMargin" : 6.97,
+    "operatingProfit" : 108.34,
+    "netProfitMargin" : 3.41,
+    "netProfit" : 53.00
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 5.28,
+    "pricePercentageAboveDma100" : 5.44,
+    "pricePercentageAboveDma200" : 5.72,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 2.00,
+    "operatingProfitMarginPercentile" : 10.00,
+    "netProfitMarginPercentile" : 6.43,
+    "totalTechnicalScore" : 16.44,
+    "totalFundamentalScore" : 18.43,
+    "totalScore" : 34.87
+  }
 }

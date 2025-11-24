@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1274744",
-    "company_code" : "POWERINDIA",
-    "company_name" : "Hitachi Energy",
-    "screener_company_link" : "https://www.screener.in/company/POWERINDIA",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1274744/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1274744/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1274744",
+    "companyCode" : "POWERINDIA",
+    "companyName" : "Hitachi Energy",
+    "screenerCompanyLink" : "https://www.screener.in/company/POWERINDIA",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274744/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274744/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "POWERINDIA",
+      "companyName" : "Hitachi Energy",
+      "marketCap" : 96118.00,
+      "peRatio" : 134.00,
+      "description" : "Hitachi Energy India Ltd (formerly known as ABB Power Products and Systems India Ltd.) was created in 2019 as a Joint Venture between Hitachi and ABB's Power Grids. The company serves utility and industry customers, with a complete range of engineering, products, solutions, and services in areas of Power technology. [1][2]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 4.59,
+      "pricePercentageAboveDma100" : 4.53,
+      "pricePercentageAboveDma200" : 3.90,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 14.10,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 43.02,
+      "totalFundamentalScore" : 44.10,
+      "totalScore" : 87.12
+    }
   },
   "attributes" : {
-    "company_code" : "POWERINDIA",
-    "company_name" : "Hitachi Energy",
-    "market_cap" : 95439.00,
-    "pe_ratio" : 133.00,
+    "companyCode" : "POWERINDIA",
+    "companyName" : "Hitachi Energy",
+    "marketCap" : 96118.00,
+    "peRatio" : 134.00,
     "description" : "Hitachi Energy India Ltd (formerly known as ABB Power Products and Systems India Ltd.) was created in 2019 as a Joint Venture between Hitachi and ABB's Power Grids. The company serves utility and industry customers, with a complete range of engineering, products, solutions, and services in areas of Power technology. [1][2]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 11660.20,
     "dma50" : 13181.32,
@@ -1752,10 +1777,298 @@
     "volume" : 107362.00
   }, {
     "date" : "2025-11-24",
-    "price" : 21573.00,
-    "dma50" : 19630.68,
-    "dma100" : 19415.26,
-    "dma200" : 17405.62,
-    "volume" : 40441.00
-  } ]
+    "price" : 21235.00,
+    "dma50" : 19617.43,
+    "dma100" : 19411.88,
+    "dma200" : 17402.26,
+    "volume" : 61367.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 21235.00,
+    "dma50" : 19617.43,
+    "dma100" : 19411.88,
+    "dma200" : 17402.26,
+    "volume" : 61367.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2019-06-30",
+    "sales" : 1086.32,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 43.83,
+    "grossProfit" : 476.13,
+    "operatingProfitMargin" : 10.81,
+    "operatingProfit" : 117.43,
+    "netProfitMargin" : 5.58,
+    "netProfit" : 60.62
+  }, {
+    "date" : "2019-12-31",
+    "sales" : 1120.90,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 42.30,
+    "grossProfit" : 474.14,
+    "operatingProfitMargin" : 9.47,
+    "operatingProfit" : 106.15,
+    "netProfitMargin" : 6.03,
+    "netProfit" : 67.59
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 810.62,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 56.26,
+    "grossProfit" : 456.05,
+    "operatingProfitMargin" : 8.06,
+    "operatingProfit" : 65.34,
+    "netProfitMargin" : 3.76,
+    "netProfit" : 30.48
+  }, {
+    "date" : "2020-06-30",
+    "sales" : 632.97,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 51.45,
+    "grossProfit" : 325.66,
+    "operatingProfitMargin" : 4.69,
+    "operatingProfit" : 29.69,
+    "netProfitMargin" : 1.76,
+    "netProfit" : 11.14
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 933.24,
+    "salesGrowthYoY" : -14.09,
+    "grossProfitMargin" : 43.19,
+    "grossProfit" : 403.07,
+    "operatingProfitMargin" : 8.97,
+    "operatingProfit" : 83.71,
+    "netProfitMargin" : -9.48,
+    "netProfit" : -88.47
+  }, {
+    "date" : "2020-12-31",
+    "sales" : 1043.61,
+    "salesGrowthYoY" : -6.90,
+    "grossProfitMargin" : 45.52,
+    "grossProfit" : 475.05,
+    "operatingProfitMargin" : 6.86,
+    "operatingProfit" : 71.59,
+    "netProfitMargin" : 3.40,
+    "netProfit" : 35.48
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 1015.53,
+    "salesGrowthYoY" : 25.28,
+    "grossProfitMargin" : 50.20,
+    "grossProfit" : 509.80,
+    "operatingProfitMargin" : 7.26,
+    "operatingProfit" : 73.73,
+    "netProfitMargin" : 3.88,
+    "netProfit" : 39.40
+  }, {
+    "date" : "2021-06-30",
+    "sales" : 783.76,
+    "salesGrowthYoY" : 23.82,
+    "grossProfitMargin" : 44.53,
+    "grossProfit" : 349.01,
+    "operatingProfitMargin" : 4.55,
+    "operatingProfit" : 35.66,
+    "netProfitMargin" : 2.08,
+    "netProfit" : 16.30
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 848.65,
+    "salesGrowthYoY" : -9.06,
+    "grossProfitMargin" : 46.55,
+    "grossProfit" : 395.05,
+    "operatingProfitMargin" : 8.62,
+    "operatingProfit" : 73.15,
+    "netProfitMargin" : 4.04,
+    "netProfit" : 34.29
+  }, {
+    "date" : "2021-12-31",
+    "sales" : 1122.57,
+    "salesGrowthYoY" : 7.57,
+    "grossProfitMargin" : 36.16,
+    "grossProfit" : 405.92,
+    "operatingProfitMargin" : 5.50,
+    "operatingProfit" : 61.74,
+    "netProfitMargin" : 3.13,
+    "netProfit" : 35.14
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 1113.45,
+    "salesGrowthYoY" : 9.64,
+    "grossProfitMargin" : 40.68,
+    "grossProfit" : 452.95,
+    "operatingProfitMargin" : 5.95,
+    "operatingProfit" : 66.25,
+    "netProfitMargin" : 4.64,
+    "netProfit" : 51.66
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 985.99,
+    "salesGrowthYoY" : 25.80,
+    "grossProfitMargin" : 41.65,
+    "grossProfit" : 410.66,
+    "operatingProfitMargin" : 2.60,
+    "operatingProfit" : 25.64,
+    "netProfitMargin" : 0.14,
+    "netProfit" : 1.38
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 1114.61,
+    "salesGrowthYoY" : 31.34,
+    "grossProfitMargin" : 40.57,
+    "grossProfit" : 452.20,
+    "operatingProfitMargin" : 6.80,
+    "operatingProfit" : 75.79,
+    "netProfitMargin" : 3.33,
+    "netProfit" : 37.12
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 1033.90,
+    "salesGrowthYoY" : -7.90,
+    "grossProfitMargin" : 39.15,
+    "grossProfit" : 404.77,
+    "operatingProfitMargin" : 3.82,
+    "operatingProfit" : 39.49,
+    "netProfitMargin" : 0.44,
+    "netProfit" : 4.55
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 1334.01,
+    "salesGrowthYoY" : 19.81,
+    "grossProfitMargin" : 36.72,
+    "grossProfit" : 489.85,
+    "operatingProfitMargin" : 7.13,
+    "operatingProfit" : 95.11,
+    "netProfitMargin" : 3.81,
+    "netProfit" : 50.83
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 1040.06,
+    "salesGrowthYoY" : 5.48,
+    "grossProfitMargin" : 42.04,
+    "grossProfit" : 437.24,
+    "operatingProfitMargin" : 3.24,
+    "operatingProfit" : 33.70,
+    "netProfitMargin" : 0.23,
+    "netProfit" : 2.39
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 1227.95,
+    "salesGrowthYoY" : 10.17,
+    "grossProfitMargin" : 39.20,
+    "grossProfit" : 481.36,
+    "operatingProfitMargin" : 5.32,
+    "operatingProfit" : 65.33,
+    "netProfitMargin" : 2.01,
+    "netProfit" : 24.68
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 1274.20,
+    "salesGrowthYoY" : 23.24,
+    "grossProfitMargin" : 38.71,
+    "grossProfit" : 493.24,
+    "operatingProfitMargin" : 5.34,
+    "operatingProfit" : 68.04,
+    "netProfitMargin" : 1.80,
+    "netProfit" : 22.94
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 1695.28,
+    "salesGrowthYoY" : 27.08,
+    "grossProfitMargin" : 35.78,
+    "grossProfit" : 606.57,
+    "operatingProfitMargin" : 10.73,
+    "operatingProfit" : 181.90,
+    "netProfitMargin" : 6.70,
+    "netProfit" : 113.58
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 1327.24,
+    "salesGrowthYoY" : 27.61,
+    "grossProfitMargin" : 40.52,
+    "grossProfit" : 537.80,
+    "operatingProfitMargin" : 3.61,
+    "operatingProfit" : 47.91,
+    "netProfitMargin" : 0.79,
+    "netProfit" : 10.49
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 1553.74,
+    "salesGrowthYoY" : 26.53,
+    "grossProfitMargin" : 42.26,
+    "grossProfit" : 656.61,
+    "operatingProfitMargin" : 7.06,
+    "operatingProfit" : 109.69,
+    "netProfitMargin" : 3.37,
+    "netProfit" : 52.36
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 1620.27,
+    "salesGrowthYoY" : 27.16,
+    "grossProfitMargin" : 44.36,
+    "grossProfit" : 718.75,
+    "operatingProfitMargin" : 10.30,
+    "operatingProfit" : 166.89,
+    "netProfitMargin" : 8.48,
+    "netProfit" : 137.40
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 1883.68,
+    "salesGrowthYoY" : 11.11,
+    "grossProfitMargin" : 41.22,
+    "grossProfit" : 776.45,
+    "operatingProfitMargin" : 12.63,
+    "operatingProfit" : 237.91,
+    "netProfitMargin" : 9.76,
+    "netProfit" : 183.85
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 1478.90,
+    "salesGrowthYoY" : 11.43,
+    "grossProfitMargin" : 48.78,
+    "grossProfit" : 721.41,
+    "operatingProfitMargin" : 10.47,
+    "operatingProfit" : 154.84,
+    "netProfitMargin" : 8.90,
+    "netProfit" : 131.62
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 1832.55,
+    "salesGrowthYoY" : 17.94,
+    "grossProfitMargin" : 46.54,
+    "grossProfit" : 852.87,
+    "operatingProfitMargin" : 16.32,
+    "operatingProfit" : 299.07,
+    "netProfitMargin" : 14.43,
+    "netProfit" : 264.44
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 1832.55,
+    "salesGrowthYoY" : 17.94,
+    "grossProfitMargin" : 46.54,
+    "grossProfit" : 852.87,
+    "operatingProfitMargin" : 16.32,
+    "operatingProfit" : 299.07,
+    "netProfitMargin" : 14.43,
+    "netProfit" : 264.44
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 4.59,
+    "pricePercentageAboveDma100" : 4.53,
+    "pricePercentageAboveDma200" : 3.90,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 14.10,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 43.02,
+    "totalFundamentalScore" : 44.10,
+    "totalScore" : 87.12
+  }
 }

@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1272810",
-    "company_code" : "THEJO",
-    "company_name" : "Thejo Engg.",
-    "screener_company_link" : "https://www.screener.in/company/THEJO",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1272810/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1272810/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1272810",
+    "companyCode" : "THEJO",
+    "companyName" : "Thejo Engg.",
+    "screenerCompanyLink" : "https://www.screener.in/company/THEJO",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1272810/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1272810/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "THEJO",
+      "companyName" : "Thejo Engg.",
+      "marketCap" : 1822.00,
+      "peRatio" : 34.00,
+      "description" : "Thejo Engineering Ltd., incorporated in 1986, is an Engineering Solutions provider for Bulk Material Handling, Mineral Processing and Corrosion Protection to the Core Sector Industries like mining, power, steel, cement, ports and fertilisers. [1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 0.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 0.00,
+      "dma100HigherThanDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.32,
+      "pricePercentageAboveDma100" : 5.68,
+      "pricePercentageAboveDma200" : 5.66,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 16.10,
+      "operatingProfitMarginPercentile" : 16.68,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 26.67,
+      "totalFundamentalScore" : 42.79,
+      "totalScore" : 69.45
+    }
   },
   "attributes" : {
-    "company_code" : "THEJO",
-    "company_name" : "Thejo Engg.",
-    "market_cap" : 1839.00,
-    "pe_ratio" : 34.30,
+    "companyCode" : "THEJO",
+    "companyName" : "Thejo Engg.",
+    "marketCap" : 1822.00,
+    "peRatio" : 34.00,
     "description" : "Thejo Engineering Ltd., incorporated in 1986, is an Engineering Solutions provider for Bulk Material Handling, Mineral Processing and Corrosion Protection to the Core Sector Industries like mining, power, steel, cement, ports and fertilisers. [1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2024-11-25",
     "price" : 2068.35,
     "dma50" : 2358.79,
@@ -1752,10 +1777,248 @@
     "volume" : 4256.00
   }, {
     "date" : "2025-11-24",
-    "price" : 1695.50,
-    "dma50" : 1797.27,
-    "dma100" : 1946.25,
-    "dma200" : 1934.94,
-    "volume" : 843.00
-  } ]
+    "price" : 1680.00,
+    "dma50" : 1796.66,
+    "dma100" : 1946.10,
+    "dma200" : 1934.78,
+    "volume" : 1856.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-24",
+    "price" : 1680.00,
+    "dma50" : 1796.66,
+    "dma100" : 1946.10,
+    "dma200" : 1934.78,
+    "volume" : 1856.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2019-09-30",
+    "sales" : 94.59,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 79.05,
+    "grossProfit" : 74.77,
+    "operatingProfitMargin" : 12.88,
+    "operatingProfit" : 12.18,
+    "netProfitMargin" : 6.43,
+    "netProfit" : 6.08
+  }, {
+    "date" : "2020-03-31",
+    "sales" : 107.10,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 80.23,
+    "grossProfit" : 85.93,
+    "operatingProfitMargin" : 12.69,
+    "operatingProfit" : 13.59,
+    "netProfitMargin" : 7.15,
+    "netProfit" : 7.66
+  }, {
+    "date" : "2020-09-30",
+    "sales" : 89.98,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 81.54,
+    "grossProfit" : 73.37,
+    "operatingProfitMargin" : 12.30,
+    "operatingProfit" : 11.07,
+    "netProfitMargin" : 8.11,
+    "netProfit" : 7.30
+  }, {
+    "date" : "2021-03-31",
+    "sales" : 123.74,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 78.58,
+    "grossProfit" : 97.23,
+    "operatingProfitMargin" : 18.56,
+    "operatingProfit" : 22.97,
+    "netProfitMargin" : 11.73,
+    "netProfit" : 14.51
+  }, {
+    "date" : "2021-09-30",
+    "sales" : 127.90,
+    "salesGrowthYoY" : 35.22,
+    "grossProfitMargin" : 79.78,
+    "grossProfit" : 102.04,
+    "operatingProfitMargin" : 17.94,
+    "operatingProfit" : 22.95,
+    "netProfitMargin" : 11.12,
+    "netProfit" : 14.22
+  }, {
+    "date" : "2022-03-31",
+    "sales" : 149.64,
+    "salesGrowthYoY" : 39.72,
+    "grossProfitMargin" : 75.55,
+    "grossProfit" : 113.05,
+    "operatingProfitMargin" : 15.94,
+    "operatingProfit" : 23.85,
+    "netProfitMargin" : 10.04,
+    "netProfit" : 15.02
+  }, {
+    "date" : "2022-06-30",
+    "sales" : 74.97,
+    "salesGrowthYoY" : -16.68,
+    "grossProfitMargin" : 78.19,
+    "grossProfit" : 58.62,
+    "operatingProfitMargin" : 17.23,
+    "operatingProfit" : 12.92,
+    "netProfitMargin" : 11.40,
+    "netProfit" : 8.55
+  }, {
+    "date" : "2022-09-30",
+    "sales" : 159.47,
+    "salesGrowthYoY" : 28.88,
+    "grossProfitMargin" : 75.19,
+    "grossProfit" : 119.91,
+    "operatingProfitMargin" : 14.97,
+    "operatingProfit" : 23.87,
+    "netProfitMargin" : 9.36,
+    "netProfit" : 14.93
+  }, {
+    "date" : "2022-12-31",
+    "sales" : 82.87,
+    "salesGrowthYoY" : -35.21,
+    "grossProfitMargin" : 75.73,
+    "grossProfit" : 62.76,
+    "operatingProfitMargin" : 15.28,
+    "operatingProfit" : 12.66,
+    "netProfitMargin" : 9.22,
+    "netProfit" : 7.64
+  }, {
+    "date" : "2023-03-31",
+    "sales" : 90.36,
+    "salesGrowthYoY" : -39.62,
+    "grossProfitMargin" : 74.51,
+    "grossProfit" : 67.33,
+    "operatingProfitMargin" : 11.32,
+    "operatingProfit" : 10.23,
+    "netProfitMargin" : 5.54,
+    "netProfit" : 5.01
+  }, {
+    "date" : "2023-06-30",
+    "sales" : 94.98,
+    "salesGrowthYoY" : 26.69,
+    "grossProfitMargin" : 79.14,
+    "grossProfit" : 75.17,
+    "operatingProfitMargin" : 16.61,
+    "operatingProfit" : 15.78,
+    "netProfitMargin" : 8.94,
+    "netProfit" : 8.49
+  }, {
+    "date" : "2023-09-30",
+    "sales" : 99.38,
+    "salesGrowthYoY" : -37.68,
+    "grossProfitMargin" : 78.02,
+    "grossProfit" : 77.54,
+    "operatingProfitMargin" : 18.97,
+    "operatingProfit" : 18.85,
+    "netProfitMargin" : 10.92,
+    "netProfit" : 10.85
+  }, {
+    "date" : "2023-12-31",
+    "sales" : 96.98,
+    "salesGrowthYoY" : 17.03,
+    "grossProfitMargin" : 79.84,
+    "grossProfit" : 77.43,
+    "operatingProfitMargin" : 19.54,
+    "operatingProfit" : 18.95,
+    "netProfitMargin" : 11.91,
+    "netProfit" : 11.55
+  }, {
+    "date" : "2024-03-31",
+    "sales" : 100.23,
+    "salesGrowthYoY" : 10.92,
+    "grossProfitMargin" : 74.03,
+    "grossProfit" : 74.20,
+    "operatingProfitMargin" : 15.54,
+    "operatingProfit" : 15.58,
+    "netProfitMargin" : 7.14,
+    "netProfit" : 7.16
+  }, {
+    "date" : "2024-06-30",
+    "sales" : 99.86,
+    "salesGrowthYoY" : 5.14,
+    "grossProfitMargin" : 79.36,
+    "grossProfit" : 79.25,
+    "operatingProfitMargin" : 19.22,
+    "operatingProfit" : 19.19,
+    "netProfitMargin" : 11.31,
+    "netProfit" : 11.29
+  }, {
+    "date" : "2024-09-30",
+    "sales" : 101.62,
+    "salesGrowthYoY" : 2.25,
+    "grossProfitMargin" : 81.25,
+    "grossProfit" : 82.57,
+    "operatingProfitMargin" : 19.62,
+    "operatingProfit" : 19.94,
+    "netProfitMargin" : 11.64,
+    "netProfit" : 11.83
+  }, {
+    "date" : "2024-12-31",
+    "sales" : 111.69,
+    "salesGrowthYoY" : 15.17,
+    "grossProfitMargin" : 78.83,
+    "grossProfit" : 88.05,
+    "operatingProfitMargin" : 19.64,
+    "operatingProfit" : 21.94,
+    "netProfitMargin" : 11.63,
+    "netProfit" : 12.99
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 123.29,
+    "salesGrowthYoY" : 23.01,
+    "grossProfitMargin" : 73.74,
+    "grossProfit" : 90.91,
+    "operatingProfitMargin" : 18.96,
+    "operatingProfit" : 23.38,
+    "netProfitMargin" : 11.27,
+    "netProfit" : 13.89
+  }, {
+    "date" : "2025-06-30",
+    "sales" : 110.68,
+    "salesGrowthYoY" : 10.84,
+    "grossProfitMargin" : 77.77,
+    "grossProfit" : 86.08,
+    "operatingProfitMargin" : 13.98,
+    "operatingProfit" : 15.47,
+    "netProfitMargin" : 8.52,
+    "netProfit" : 9.43
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 126.28,
+    "salesGrowthYoY" : 24.27,
+    "grossProfitMargin" : 80.32,
+    "grossProfit" : 101.43,
+    "operatingProfitMargin" : 18.26,
+    "operatingProfit" : 23.06,
+    "netProfitMargin" : 13.64,
+    "netProfit" : 17.22
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 126.28,
+    "salesGrowthYoY" : 24.27,
+    "grossProfitMargin" : 80.32,
+    "grossProfit" : 101.43,
+    "operatingProfitMargin" : 18.26,
+    "operatingProfit" : 23.06,
+    "netProfitMargin" : 13.64,
+    "netProfit" : 17.22
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 0.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 0.00,
+    "dma100HigherThanDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.32,
+    "pricePercentageAboveDma100" : 5.68,
+    "pricePercentageAboveDma200" : 5.66,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 16.10,
+    "operatingProfitMarginPercentile" : 16.68,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 26.67,
+    "totalFundamentalScore" : 42.79,
+    "totalScore" : 69.45
+  }
 }

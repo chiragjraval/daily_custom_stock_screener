@@ -61,7 +61,10 @@ public class ScreenerScraperApplication {
             logger.info("Step 2: Fetching detailed information for each company...");
             List<CompanyDetail> details = queryResults.companyMetadataMap().keySet().stream().sorted().map(companyCode -> {
                 CompanyMetadata metadata = queryResults.companyMetadataMap().get(companyCode);
-                return companyDetailExtractor.apply(metadata);
+                CompanyDetail detail = companyDetailExtractor.apply(metadata);
+                metadata.setAttributes(detail.getAttributes());
+                metadata.setCompanyScore(detail.getCompanyScore());
+                return detail;
             }).toList();
             logger.info("Successfully processed {} companies", details.size());
 

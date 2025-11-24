@@ -21,19 +21,25 @@ function SummaryGrid() {
             <th>Code</th>
             <th>Name</th>
             <th>Company Link</th>
-            <th>Technical History Link</th>
-            <th>Quarterly Results Link</th>
+            <th>Market Cap</th>
+            <th>PE Ratio</th>
+            <th>Technical Score</th>
+            <th>Fundamental Score</th>
+            <th>Total Score</th>
           </tr>
         </thead>
         <tbody>
           {data.map((item) => (
-            <tr key={item.screener_company_id}>
-              <td>{item.screener_company_id}</td>
-              <td>{item.company_code}</td>
-              <td>{item.company_name}</td>
-              <td>{item.screener_company_link}</td>
-              <td>{item.screener_price_history_link}</td>
-              <td>{item.screener_quarterly_results_link}</td>
+            <tr key={item.screenerCompanyId}>
+              <td>{item.screenerCompanyId}</td>
+              <td>{item.companyCode}</td>
+              <td>{item.companyName}</td>
+              <td>{item.screenerCompanyLink}</td>
+              <td>{item.attributes.marketCap}</td>
+              <td>{item.attributes.peRatio}</td>
+              <td>{item.companyScore.totalTechnicalScore}</td>
+              <td>{item.companyScore.totalFundamentalScore}</td>
+              <td>{item.companyScore.totalScore}</td>
             </tr>
           ))}
         </tbody>

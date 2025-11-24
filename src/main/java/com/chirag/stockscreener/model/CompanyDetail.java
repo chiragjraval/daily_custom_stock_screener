@@ -14,22 +14,20 @@ public class CompanyDetail {
     @JsonProperty("attributes")
     private CompanyAttributes attributes;
 
-    @JsonProperty("technical_history")
+    @JsonProperty("technicalHistory")
     private List<CompanyTechnicalHistory> technicalHistory;
 
-    @JsonProperty("quarterly_results")
+    @JsonProperty("latestTechnicalAttributes")
+    private CompanyTechnicalHistory latestTechnicalAttributes;
+
+    @JsonProperty("quarterlyResults")
     private List<CompanyQuarterlyResult> quarterlyResults;
 
-    // Constructors
-    public CompanyDetail() {
-    }
+    @JsonProperty("latestQuarterlyResult")
+    private CompanyQuarterlyResult latestQuarterlyResult;
 
-    public CompanyDetail(CompanyMetadata metadata, CompanyAttributes attributes, List<CompanyTechnicalHistory> technicalHistory, List<CompanyQuarterlyResult> quarterlyResults) {
-        this.metadata = metadata;
-        this.attributes = attributes;
-        this.technicalHistory = technicalHistory;
-        this.quarterlyResults = quarterlyResults;
-    }
+    @JsonProperty("companyScore")
+    private CompanyScore companyScore;
 
     // Getters and Setters
     public CompanyMetadata getMetadata() {
@@ -54,9 +52,21 @@ public class CompanyDetail {
 
     public void setTechnicalHistory(List<CompanyTechnicalHistory> technicalHistory) { this.technicalHistory = technicalHistory; }
 
+    public CompanyTechnicalHistory getLatestTechnicalAttributes() { return latestTechnicalAttributes; }
+
+    public void setLatestTechnicalAttributes(CompanyTechnicalHistory latestTechnicalAttributes) { this.latestTechnicalAttributes = latestTechnicalAttributes; }
+
     public List<CompanyQuarterlyResult> getQuarterlyResults() { return quarterlyResults; }
 
     public void setQuarterlyResults(List<CompanyQuarterlyResult> quarterlyResults) { this.quarterlyResults = quarterlyResults; }
+
+    public CompanyQuarterlyResult getLatestQuarterlyResult() { return latestQuarterlyResult; }
+
+    public void setLatestQuarterlyResult(CompanyQuarterlyResult latestQuarterlyResult) { this.latestQuarterlyResult = latestQuarterlyResult; }
+
+    public CompanyScore getCompanyScore() { return companyScore; }
+
+    public void setCompanyScore(CompanyScore companyScore) { this.companyScore = companyScore; }
 
     @Override
     public String toString() {
@@ -64,6 +74,10 @@ public class CompanyDetail {
                 "metadata=" + metadata +
                 ", attributes=" + attributes +
                 ", technicalHistory=" + technicalHistory +
+                ", latestTechnicalAttributes=" + latestTechnicalAttributes +
+                ", quarterlyResults=" + quarterlyResults +
+                ", latestQuarterlyResult=" + latestQuarterlyResult +
+                ", companyScore=" + companyScore +
                 '}';
     }
 }

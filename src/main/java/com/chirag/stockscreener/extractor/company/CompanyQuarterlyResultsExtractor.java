@@ -91,7 +91,7 @@ public class CompanyQuarterlyResultsExtractor implements Function<CompanyMetadat
         Double opm = metrics.get("opm") != null ? metrics.get("opm") : 0.0;
         Double npm = metrics.get("npm") != null ? metrics.get("npm") : 0.0;
 
-        CompanyQuarterlyResult quarterlyResult = new CompanyQuarterlyResult(
+        return new CompanyQuarterlyResult(
                 date,
                 sales,
                 gpm,
@@ -101,6 +101,5 @@ public class CompanyQuarterlyResultsExtractor implements Function<CompanyMetadat
                 npm,
                 sales * npm / 100
         );
-        return quarterlyResult;
     }
 }

@@ -12,28 +12,28 @@ public class CompanyQuarterlyResult {
     @JsonProperty("date")
     private LocalDate date;
 
-    @JsonProperty("price")
+    @JsonProperty("sales")
     private Double sales;
 
-    @JsonProperty("price")
+    @JsonProperty("salesGrowthYoY")
     private Double salesGrowthYoY;
 
-    @JsonProperty("dma50")
+    @JsonProperty("grossProfitMargin")
     private Double grossProfitMargin;
 
-    @JsonProperty("dma50")
+    @JsonProperty("grossProfit")
     private Double grossProfit;
 
-    @JsonProperty("dma100")
+    @JsonProperty("operatingProfitMargin")
     private Double operatingProfitMargin;
 
-    @JsonProperty("dma50")
+    @JsonProperty("operatingProfit")
     private Double operatingProfit;
 
-    @JsonProperty("dma200")
+    @JsonProperty("netProfitMargin")
     private Double netProfitMargin;
 
-    @JsonProperty("dma200")
+    @JsonProperty("netProfit")
     private Double netProfit;
 
     public CompanyQuarterlyResult(LocalDate date, Double sales, Double grossProfitMargin,

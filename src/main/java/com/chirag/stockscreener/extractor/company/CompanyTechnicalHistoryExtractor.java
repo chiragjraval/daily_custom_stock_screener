@@ -85,13 +85,12 @@ public class CompanyTechnicalHistoryExtractor implements Function<CompanyMetadat
     private static CompanyTechnicalHistory getCompanyTechnicalHistory(Map.Entry<LocalDate, Map<String, Double>> entry) {
         LocalDate date = entry.getKey();
         Map<String, Double> metrics = entry.getValue();
-        CompanyTechnicalHistory history = new CompanyTechnicalHistory(
+        return new CompanyTechnicalHistory(
                 date,
                 metrics.get("price") != null ? metrics.get("price") : 0.0,
                 metrics.get("dma50") != null ? metrics.get("dma50") : 0.0,
                 metrics.get("dma200") != null ? metrics.get("dma200") : 0.0,
                 metrics.get("volume") != null ? metrics.get("volume") : 0.0
         );
-        return history;
     }
 }

@@ -7,16 +7,16 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  */
 public class CompanyAttributes {
 
-    @JsonProperty("company_code")
+    @JsonProperty("companyCode")
     private String companyCode;
 
-    @JsonProperty("company_name")
+    @JsonProperty("companyName")
     private String companyName;
 
-    @JsonProperty("market_cap")
+    @JsonProperty("marketCap")
     private Double marketCap;
 
-    @JsonProperty("pe_ratio")
+    @JsonProperty("peRatio")
     private Double peRatio;
 
     @JsonProperty("description")

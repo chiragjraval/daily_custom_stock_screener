@@ -7,23 +7,29 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  */
 public class CompanyMetadata {
 
-    @JsonProperty("screener_company_id")
+    @JsonProperty("screenerCompanyId")
     private String screenerCompanyId;
 
-    @JsonProperty("company_code")
+    @JsonProperty("companyCode")
     private String companyCode;
 
-    @JsonProperty("company_name")
+    @JsonProperty("companyName")
     private String companyName;
 
-    @JsonProperty("screener_company_link")
+    @JsonProperty("screenerCompanyLink")
     private String screenerCompanyLink;
 
-    @JsonProperty("screener_technical_history_link")
+    @JsonProperty("screenerTechnicalHistoryLink")
     private String screenerTechnicalHistoryLink;
 
-    @JsonProperty("screener_quarterly_results_link")
+    @JsonProperty("screenerQuarterlyResultsLink")
     private String screenerQuarterlyResultsLink;
+
+    @JsonProperty("attributes")
+    private CompanyAttributes attributes;
+
+    @JsonProperty("companyScore")
+    private CompanyScore companyScore;
 
     public CompanyMetadata(String screenerCompanyId, String companyCode, String companyName) {
         this.screenerCompanyId = screenerCompanyId;
@@ -73,17 +79,21 @@ public class CompanyMetadata {
         return screenerTechnicalHistoryLink;
     }
 
-    public void setScreenerTechnicalHistoryLink(String screenerTechnicalHistoryLink) {
-        this.screenerTechnicalHistoryLink = screenerTechnicalHistoryLink;
-    }
+    public void setScreenerTechnicalHistoryLink(String screenerTechnicalHistoryLink) { this.screenerTechnicalHistoryLink = screenerTechnicalHistoryLink; }
 
     public String getScreenerQuarterlyResultsLink() {
         return screenerQuarterlyResultsLink;
     }
 
-    public void setScreenerQuarterlyResultsLink(String screenerQuarterlyResultsLink) {
-        this.screenerQuarterlyResultsLink = screenerQuarterlyResultsLink;
-    }
+    public void setScreenerQuarterlyResultsLink(String screenerQuarterlyResultsLink) { this.screenerQuarterlyResultsLink = screenerQuarterlyResultsLink; }
+
+    public CompanyAttributes getAttributes() { return attributes; }
+
+    public void setAttributes(CompanyAttributes attributes) { this.attributes = attributes; }
+
+    public CompanyScore getCompanyScore() { return companyScore; }
+
+    public void setCompanyScore(CompanyScore companyScore) { this.companyScore = companyScore; }
 
     @Override
     public String toString() {
@@ -94,7 +104,8 @@ public class CompanyMetadata {
                 ", screenerCompanyLink='" + screenerCompanyLink + '\'' +
                 ", screenerTechnicalHistoryLink='" + screenerTechnicalHistoryLink + '\'' +
                 ", screenerQuarterlyResultsLink='" + screenerQuarterlyResultsLink + '\'' +
+                ", attributes=" + attributes +
+                ", companyScore=" + companyScore +
                 '}';
     }
 }
-

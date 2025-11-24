@@ -8,6 +8,7 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.json.JsonMapper;
+import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -56,15 +57,7 @@ public class CompanyTechnicalHistoryExtractor implements Function<CompanyMetadat
 
             // Create CompanyTechnicalHistory objects
             for (Map.Entry<LocalDate, Map<String, Double>> entry : datasets.entrySet()) {
-                LocalDate date = entry.getKey();
-                Map<String, Double> metrics = entry.getValue();
-                CompanyTechnicalHistory history = new CompanyTechnicalHistory(
-                        date,
-                        metrics.get("price"),
-                        metrics.get("dma50"),
-                        metrics.get("dma200"),
-                        metrics.get("volume")
-                );
+                CompanyTechnicalHistory history = getCompanyTechnicalHistory(entry);
                 results.add(history);
             }
 
@@ -87,5 +80,19 @@ public class CompanyTechnicalHistoryExtractor implements Function<CompanyMetadat
         }
 
         return results;
+    }
+
+    @NotNull
+    private static CompanyTechnicalHistory getCompanyTechnicalHistory(Map.Entry<LocalDate, Map<String, Double>> entry) {
+        LocalDate date = entry.getKey();
+        Map<String, Double> metrics = entry.getValue();
+        CompanyTechnicalHistory history = new CompanyTechnicalHistory(
+                date,
+                metrics.get("price") != null ? metrics.get("price") : 0.0,
+                metrics.get("dma50") != null ? metrics.get("dma50") : 0.0,
+                metrics.get("dma200") != null ? metrics.get("dma200") : 0.0,
+                metrics.get("volume") != null ? metrics.get("volume") : 0.0
+        );
+        return history;
     }
 }

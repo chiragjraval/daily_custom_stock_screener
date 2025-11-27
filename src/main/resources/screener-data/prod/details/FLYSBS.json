@@ -1,20 +1,45 @@
 {
   "metadata" : {
-    "screener_company_id" : "1285581",
-    "company_code" : "FLYSBS",
-    "company_name" : "FlySBS Aviation",
-    "screener_company_link" : "https://www.screener.in/company/FLYSBS",
-    "screener_technical_history_link" : "https://www.screener.in/api/company/1285581/chart/?q=Price-DMA50-DMA200-Volume&days=365",
-    "screener_quarterly_results_link" : "https://www.screener.in/api/company/1285581/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000"
+    "screenerCompanyId" : "1285581",
+    "companyCode" : "FLYSBS",
+    "companyName" : "FlySBS Aviation",
+    "screenerCompanyLink" : "https://www.screener.in/company/FLYSBS",
+    "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285581/chart/?q=Price-DMA50-DMA200-Volume&days=365",
+    "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285581/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
+    "attributes" : {
+      "companyCode" : "FLYSBS",
+      "companyName" : "FlySBS Aviation",
+      "marketCap" : 1008.00,
+      "peRatio" : 21.40,
+      "description" : "Incorporated in 2020, FlySBS Aviation Ltd is a Private Jet Chartering Company in India.[1]"
+    },
+    "companyScore" : {
+      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma200" : 5.00,
+      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 4.82,
+      "pricePercentageAboveDma100" : 0.00,
+      "pricePercentageAboveDma200" : 4.32,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "salesGrowthPercentile" : 0.00,
+      "operatingProfitMarginPercentile" : 13.48,
+      "netProfitMarginPercentile" : 7.48,
+      "totalTechnicalScore" : 24.15,
+      "totalFundamentalScore" : 20.96,
+      "totalScore" : 45.11
+    }
   },
   "attributes" : {
-    "company_code" : "FLYSBS",
-    "company_name" : "FlySBS Aviation",
-    "market_cap" : 1002.00,
-    "pe_ratio" : 21.30,
+    "companyCode" : "FLYSBS",
+    "companyName" : "FlySBS Aviation",
+    "marketCap" : 1008.00,
+    "peRatio" : 21.40,
     "description" : "Incorporated in 2020, FlySBS Aviation Ltd is a Private Jet Chartering Company in India.[1]"
   },
-  "technical_history" : [ {
+  "technicalHistory" : [ {
     "date" : "2025-08-08",
     "price" : 448.85,
     "dma50" : 448.85,
@@ -513,10 +538,99 @@
     "volume" : 23200.00
   }, {
     "date" : "2025-11-24",
-    "price" : 579.00,
-    "dma50" : 561.28,
+    "price" : 573.85,
+    "dma50" : 561.08,
     "dma100" : null,
-    "dma200" : 511.29,
-    "volume" : 7200.00
-  } ]
+    "dma200" : 511.24,
+    "volume" : 66600.00
+  }, {
+    "date" : "2025-11-25",
+    "price" : 573.90,
+    "dma50" : 561.58,
+    "dma100" : null,
+    "dma200" : 511.86,
+    "volume" : 11600.00
+  }, {
+    "date" : "2025-11-26",
+    "price" : 570.20,
+    "dma50" : 561.92,
+    "dma100" : null,
+    "dma200" : 512.44,
+    "volume" : 115800.00
+  }, {
+    "date" : "2025-11-27",
+    "price" : 582.55,
+    "dma50" : 562.73,
+    "dma100" : null,
+    "dma200" : 513.14,
+    "volume" : 34400.00
+  } ],
+  "latestTechnicalAttributes" : {
+    "date" : "2025-11-27",
+    "price" : 582.55,
+    "dma50" : 562.73,
+    "dma100" : null,
+    "dma200" : 513.14,
+    "volume" : 34400.00
+  },
+  "quarterlyResults" : [ {
+    "date" : "2024-09-30",
+    "sales" : 83.71,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 83.71,
+    "operatingProfitMargin" : 9.72,
+    "operatingProfit" : 8.14,
+    "netProfitMargin" : 6.21,
+    "netProfit" : 5.20
+  }, {
+    "date" : "2025-03-31",
+    "sales" : 110.18,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 110.18,
+    "operatingProfitMargin" : 28.85,
+    "operatingProfit" : 31.79,
+    "netProfitMargin" : 21.06,
+    "netProfit" : 23.20
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 137.61,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 137.61,
+    "operatingProfitMargin" : 22.61,
+    "operatingProfit" : 31.11,
+    "netProfitMargin" : 17.32,
+    "netProfit" : 23.83
+  } ],
+  "latestQuarterlyResult" : {
+    "date" : "2025-09-30",
+    "sales" : 137.61,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 137.61,
+    "operatingProfitMargin" : 22.61,
+    "operatingProfit" : 31.11,
+    "netProfitMargin" : 17.32,
+    "netProfit" : 23.83
+  },
+  "companyScore" : {
+    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma200" : 5.00,
+    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 4.82,
+    "pricePercentageAboveDma100" : 0.00,
+    "pricePercentageAboveDma200" : 4.32,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "salesGrowthPercentile" : 0.00,
+    "operatingProfitMarginPercentile" : 13.48,
+    "netProfitMarginPercentile" : 7.48,
+    "totalTechnicalScore" : 24.15,
+    "totalFundamentalScore" : 20.96,
+    "totalScore" : 45.11
+  }
 }

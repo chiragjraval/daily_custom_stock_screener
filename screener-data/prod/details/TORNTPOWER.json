@@ -9,15 +9,15 @@
     "attributes" : {
       "companyCode" : "TORNTPOWER",
       "companyName" : "Torrent Power",
-      "marketCap" : 65703.00,
+      "marketCap" : 65596.00,
       "peRatio" : 22.70,
       "description" : "Torrent Power Ltd is a leading integrated power utility company in India with presence across generation, transmission and distribution of power. Its operations are spread across the states of Gujarat, Maharashtra, Uttar Pradesh and Karnataka.[1] It is a part of Torrent Group which has presence across pharmaceutical, power and city gas distribution business.[2]"
     },
     "companyScore" : {
-      "priceHigherThanDma50" : 5.00,
-      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma100" : 0.00,
       "priceHigherThanDma200" : 0.00,
-      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 0.00,
       "pricePercentageAboveDma50" : 5.00,
@@ -27,26 +27,19 @@
       "salesGrowthPercentile" : 10.96,
       "operatingProfitMarginPercentile" : 7.99,
       "netProfitMarginPercentile" : 7.27,
-      "totalTechnicalScore" : 25.20,
+      "totalTechnicalScore" : 20.22,
       "totalFundamentalScore" : 26.23,
-      "totalScore" : 51.42
+      "totalScore" : 46.45
     }
   },
   "attributes" : {
     "companyCode" : "TORNTPOWER",
     "companyName" : "Torrent Power",
-    "marketCap" : 65703.00,
+    "marketCap" : 65596.00,
     "peRatio" : 22.70,
     "description" : "Torrent Power Ltd is a leading integrated power utility company in India with presence across generation, transmission and distribution of power. Its operations are spread across the states of Gujarat, Maharashtra, Uttar Pradesh and Karnataka.[1] It is a part of Torrent Group which has presence across pharmaceutical, power and city gas distribution business.[2]"
   },
   "technicalHistory" : [ {
-    "date" : "2024-12-04",
-    "price" : 1667.75,
-    "dma50" : 1709.10,
-    "dma100" : null,
-    "dma200" : 1538.45,
-    "volume" : 598920.00
-  }, {
     "date" : "2024-12-05",
     "price" : 1664.25,
     "dma50" : 1707.34,
@@ -743,7 +736,7 @@
     "date" : "2025-05-02",
     "price" : 1490.40,
     "dma50" : 1487.59,
-    "dma100" : 1453.30,
+    "dma100" : null,
     "dma200" : 1484.49,
     "volume" : 333784.00
   }, {
@@ -1782,14 +1775,21 @@
     "dma100" : 1301.47,
     "dma200" : 1358.40,
     "volume" : 243151.00
+  }, {
+    "date" : "2025-12-04",
+    "price" : 1299.70,
+    "dma50" : 1300.87,
+    "dma100" : 1300.20,
+    "dma200" : 1357.82,
+    "volume" : 348032.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-03",
-    "price" : 1302.20,
-    "dma50" : 1300.91,
-    "dma100" : 1301.47,
-    "dma200" : 1358.40,
-    "volume" : 243151.00
+    "date" : "2025-12-04",
+    "price" : 1299.70,
+    "dma50" : 1300.87,
+    "dma100" : 1300.20,
+    "dma200" : 1357.82,
+    "volume" : 348032.00
   },
   "quarterlyResults" : [ {
     "date" : "2006-09-30",
@@ -2574,10 +2574,10 @@
     "netProfit" : 746.18
   },
   "companyScore" : {
-    "priceHigherThanDma50" : 5.00,
-    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma100" : 0.00,
     "priceHigherThanDma200" : 0.00,
-    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 0.00,
     "pricePercentageAboveDma50" : 5.00,
@@ -2587,8 +2587,8 @@
     "salesGrowthPercentile" : 10.96,
     "operatingProfitMarginPercentile" : 7.99,
     "netProfitMarginPercentile" : 7.27,
-    "totalTechnicalScore" : 25.20,
+    "totalTechnicalScore" : 20.22,
     "totalFundamentalScore" : 26.23,
-    "totalScore" : 51.42
+    "totalScore" : 46.45
   }
 }

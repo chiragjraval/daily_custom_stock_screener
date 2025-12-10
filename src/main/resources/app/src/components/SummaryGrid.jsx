@@ -93,7 +93,7 @@ function SummaryGrid() {
               </td>
               <td>{item.companyName}</td>
               <td className="text-end">{item.attributes.marketCap.toLocaleString()}</td>
-              <td className="text-end">{item.attributes.peRatio.toFixed(2)}</td>
+              <td className="text-end">{item.attributes.peRatio}</td>
               <td className="text-end">{item.companyScore.totalTechnicalScore}</td>
               <td className="text-end">{item.companyScore.totalFundamentalScore}</td>
               <td className="text-end fw-bold">{item.companyScore.totalScore}</td>

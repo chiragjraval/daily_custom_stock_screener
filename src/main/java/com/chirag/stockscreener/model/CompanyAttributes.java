@@ -24,6 +24,11 @@ public class CompanyAttributes {
 
     // Constructors
     public CompanyAttributes() {
+        this.companyCode = "";
+        this.companyName = "";
+        this.marketCap = 0.0;
+        this.peRatio = 0.0;
+        this.description = "";
     }
 
     // Getters and Setters

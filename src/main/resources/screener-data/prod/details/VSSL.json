@@ -3,15 +3,15 @@
     "screenerCompanyId" : "5313",
     "companyCode" : "VSSL",
     "companyName" : "Vardhman Special",
-    "screenerCompanyLink" : "https://www.screener.in/company/VSSL",
+    "screenerCompanyLink" : "/company/VSSL/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/5313/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/5313/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "VSSL",
       "companyName" : "Vardhman Special",
-      "marketCap" : 2774.00,
-      "peRatio" : 29.00,
-      "description" : "Vardhman Special Steels is engaged in manufacturing of Billets, Steel bars & Rods and Bright Bars of various categories of special and alloy steels."
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 5.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.91,
-      "pricePercentageAboveDma100" : 4.78,
-      "pricePercentageAboveDma200" : 4.61,
+      "pricePercentageAboveDma50" : 4.89,
+      "pricePercentageAboveDma100" : 4.76,
+      "pricePercentageAboveDma200" : 4.59,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 3.27,
       "operatingProfitMarginPercentile" : 16.51,
       "netProfitMarginPercentile" : 9.82,
-      "totalTechnicalScore" : 44.30,
+      "totalTechnicalScore" : 44.25,
       "totalFundamentalScore" : 29.60,
-      "totalScore" : 73.90
+      "totalScore" : 73.84
     }
   },
   "attributes" : {
     "companyCode" : "VSSL",
     "companyName" : "Vardhman Special",
-    "marketCap" : 2774.00,
-    "peRatio" : 29.00,
-    "description" : "Vardhman Special Steels is engaged in manufacturing of Billets, Steel bars & Rods and Bright Bars of various categories of special and alloy steels."
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 274.77,
     "dma200" : 265.86,
     "volume" : 45093.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 288.00,
+    "dma50" : 282.00,
+    "dma100" : 275.06,
+    "dma200" : 266.08,
+    "volume" : 11543.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 286.80,
-    "dma50" : 281.76,
-    "dma100" : 274.77,
-    "dma200" : 265.86,
-    "volume" : 45093.00
+    "date" : "2025-12-11",
+    "price" : 288.00,
+    "dma50" : 282.00,
+    "dma100" : 275.06,
+    "dma200" : 266.08,
+    "volume" : 11543.00
   },
   "quarterlyResults" : [ {
     "date" : "2011-03-31",
@@ -2400,15 +2407,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.91,
-    "pricePercentageAboveDma100" : 4.78,
-    "pricePercentageAboveDma200" : 4.61,
+    "pricePercentageAboveDma50" : 4.89,
+    "pricePercentageAboveDma100" : 4.76,
+    "pricePercentageAboveDma200" : 4.59,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 3.27,
     "operatingProfitMarginPercentile" : 16.51,
     "netProfitMarginPercentile" : 9.82,
-    "totalTechnicalScore" : 44.30,
+    "totalTechnicalScore" : 44.25,
     "totalFundamentalScore" : 29.60,
-    "totalScore" : 73.90
+    "totalScore" : 73.84
   }
 }

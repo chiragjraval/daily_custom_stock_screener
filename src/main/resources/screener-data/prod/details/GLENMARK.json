@@ -3,15 +3,15 @@
     "screenerCompanyId" : "1144",
     "companyCode" : "GLENMARK",
     "companyName" : "Glenmark Pharma.",
-    "screenerCompanyLink" : "https://www.screener.in/company/GLENMARK",
+    "screenerCompanyLink" : "/company/GLENMARK/consolidated/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1144/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1144/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "GLENMARK",
       "companyName" : "Glenmark Pharma.",
-      "marketCap" : 55056.00,
-      "peRatio" : 37.40,
-      "description" : "Glenmark Pharmaceuticals Ltd is a global research-led pharmaceutical company with presence across generics, Specialty and OTC business with operations in over 80 countries.[1]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 5.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.90,
-      "pricePercentageAboveDma100" : 5.06,
-      "pricePercentageAboveDma200" : 4.56,
+      "pricePercentageAboveDma50" : 4.89,
+      "pricePercentageAboveDma100" : 5.03,
+      "pricePercentageAboveDma200" : 4.55,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 0.76,
       "operatingProfitMarginPercentile" : 0.66,
       "netProfitMarginPercentile" : 3.13,
-      "totalTechnicalScore" : 34.53,
+      "totalTechnicalScore" : 34.47,
       "totalFundamentalScore" : 4.55,
-      "totalScore" : 39.08
+      "totalScore" : 39.02
     }
   },
   "attributes" : {
     "companyCode" : "GLENMARK",
     "companyName" : "Glenmark Pharma.",
-    "marketCap" : 55056.00,
-    "peRatio" : 37.40,
-    "description" : "Glenmark Pharmaceuticals Ltd is a global research-led pharmaceutical company with presence across generics, Specialty and OTC business with operations in over 80 countries.[1]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 1974.28,
     "dma200" : 1793.84,
     "volume" : 495166.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 1958.40,
+    "dma50" : 1915.64,
+    "dma100" : 1971.59,
+    "dma200" : 1795.48,
+    "volume" : 225843.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 1950.80,
-    "dma50" : 1913.89,
-    "dma100" : 1974.28,
-    "dma200" : 1793.84,
-    "volume" : 495166.00
+    "date" : "2025-12-11",
+    "price" : 1958.40,
+    "dma50" : 1915.64,
+    "dma100" : 1971.59,
+    "dma200" : 1795.48,
+    "volume" : 225843.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2640,15 +2647,15 @@
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.90,
-    "pricePercentageAboveDma100" : 5.06,
-    "pricePercentageAboveDma200" : 4.56,
+    "pricePercentageAboveDma50" : 4.89,
+    "pricePercentageAboveDma100" : 5.03,
+    "pricePercentageAboveDma200" : 4.55,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 0.76,
     "operatingProfitMarginPercentile" : 0.66,
     "netProfitMarginPercentile" : 3.13,
-    "totalTechnicalScore" : 34.53,
+    "totalTechnicalScore" : 34.47,
     "totalFundamentalScore" : 4.55,
-    "totalScore" : 39.08
+    "totalScore" : 39.02
   }
 }

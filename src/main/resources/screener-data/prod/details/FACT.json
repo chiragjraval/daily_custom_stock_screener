@@ -3,15 +3,15 @@
     "screenerCompanyId" : "1006",
     "companyCode" : "FACT",
     "companyName" : "F A C T",
-    "screenerCompanyLink" : "https://www.screener.in/company/FACT",
+    "screenerCompanyLink" : "/company/FACT/consolidated/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1006/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1006/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "FACT",
       "companyName" : "F A C T",
-      "marketCap" : 52597.00,
-      "peRatio" : 580.00,
-      "description" : "Fertilizers & Chemicals Travancore Ltd (FACT), incorporated in the year 1943, is the first large-scale fertiliser plant in India at Udyogamandal, Kochi, Kerala. The company is engaged in the manufacturing and selling of fertilizers, its by-products and Caprolactam. It is under the administrative control of the Department of Fertilizers, Ministry of Chemicals & Fertilizers, Government of India.[1]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 0.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 5.41,
-      "pricePercentageAboveDma100" : 5.60,
-      "pricePercentageAboveDma200" : 5.46,
+      "pricePercentageAboveDma50" : 5.44,
+      "pricePercentageAboveDma100" : 5.64,
+      "pricePercentageAboveDma200" : 5.50,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 12.15,
       "operatingProfitMarginPercentile" : 13.75,
       "netProfitMarginPercentile" : 6.99,
-      "totalTechnicalScore" : 21.47,
+      "totalTechnicalScore" : 21.58,
       "totalFundamentalScore" : 32.89,
-      "totalScore" : 54.35
+      "totalScore" : 54.46
     }
   },
   "attributes" : {
     "companyCode" : "FACT",
     "companyName" : "F A C T",
-    "marketCap" : 52597.00,
-    "peRatio" : 580.00,
-    "description" : "Fertilizers & Chemicals Travancore Ltd (FACT), incorporated in the year 1943, is the first large-scale fertiliser plant in India at Udyogamandal, Kochi, Kerala. The company is engaged in the manufacturing and selling of fertilizers, its by-products and Caprolactam. It is under the administrative control of the Department of Fertilizers, Ministry of Chemicals & Fertilizers, Government of India.[1]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 925.63,
     "dma200" : 895.76,
     "volume" : 120139.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 805.40,
+    "dma50" : 882.43,
+    "dma100" : 924.01,
+    "dma200" : 894.86,
+    "volume" : 26502.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 813.75,
-    "dma50" : 885.57,
-    "dma100" : 925.63,
-    "dma200" : 895.76,
-    "volume" : 120139.00
+    "date" : "2025-12-11",
+    "price" : 805.40,
+    "dma50" : 882.43,
+    "dma100" : 924.01,
+    "dma200" : 894.86,
+    "volume" : 26502.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2640,15 +2647,15 @@
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 5.41,
-    "pricePercentageAboveDma100" : 5.60,
-    "pricePercentageAboveDma200" : 5.46,
+    "pricePercentageAboveDma50" : 5.44,
+    "pricePercentageAboveDma100" : 5.64,
+    "pricePercentageAboveDma200" : 5.50,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 12.15,
     "operatingProfitMarginPercentile" : 13.75,
     "netProfitMarginPercentile" : 6.99,
-    "totalTechnicalScore" : 21.47,
+    "totalTechnicalScore" : 21.58,
     "totalFundamentalScore" : 32.89,
-    "totalScore" : 54.35
+    "totalScore" : 54.46
   }
 }

@@ -3,15 +3,15 @@
     "screenerCompanyId" : "593",
     "companyCode" : "CCL",
     "companyName" : "CCL Products",
-    "screenerCompanyLink" : "https://www.screener.in/company/CCL",
+    "screenerCompanyLink" : "/company/CCL/consolidated/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/593/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/593/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "CCL",
       "companyName" : "CCL Products",
-      "marketCap" : 12957.00,
-      "peRatio" : 70.70,
-      "description" : "CCL Products (India) is engaged in the production, trading and distribution of Coffee. The Company has business operations mainly in India, Vietnam and Switzerland countries.(Source : 202003 Annual Report Page No:119)"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 5.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.89,
-      "pricePercentageAboveDma100" : 4.65,
-      "pricePercentageAboveDma200" : 4.25,
+      "pricePercentageAboveDma50" : 4.94,
+      "pricePercentageAboveDma100" : 4.71,
+      "pricePercentageAboveDma200" : 4.32,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 14.94,
       "operatingProfitMarginPercentile" : 5.06,
       "netProfitMarginPercentile" : 8.43,
-      "totalTechnicalScore" : 43.79,
+      "totalTechnicalScore" : 43.97,
       "totalFundamentalScore" : 28.43,
-      "totalScore" : 72.22
+      "totalScore" : 72.40
     }
   },
   "attributes" : {
     "companyCode" : "CCL",
     "companyName" : "CCL Products",
-    "marketCap" : 12957.00,
-    "peRatio" : 70.70,
-    "description" : "CCL Products (India) is engaged in the production, trading and distribution of Coffee. The Company has business operations mainly in India, Vietnam and Switzerland countries.(Source : 202003 Annual Report Page No:119)"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 906.56,
     "dma200" : 844.21,
     "volume" : 150547.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 960.60,
+    "dma50" : 949.39,
+    "dma100" : 907.28,
+    "dma200" : 845.37,
+    "volume" : 26340.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 970.20,
-    "dma50" : 948.93,
-    "dma100" : 906.56,
-    "dma200" : 844.21,
-    "volume" : 150547.00
+    "date" : "2025-12-11",
+    "price" : 960.60,
+    "dma50" : 949.39,
+    "dma100" : 907.28,
+    "dma200" : 845.37,
+    "volume" : 26340.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2640,15 +2647,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.89,
-    "pricePercentageAboveDma100" : 4.65,
-    "pricePercentageAboveDma200" : 4.25,
+    "pricePercentageAboveDma50" : 4.94,
+    "pricePercentageAboveDma100" : 4.71,
+    "pricePercentageAboveDma200" : 4.32,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 14.94,
     "operatingProfitMarginPercentile" : 5.06,
     "netProfitMarginPercentile" : 8.43,
-    "totalTechnicalScore" : 43.79,
+    "totalTechnicalScore" : 43.97,
     "totalFundamentalScore" : 28.43,
-    "totalScore" : 72.22
+    "totalScore" : 72.40
   }
 }

@@ -3,15 +3,15 @@
     "screenerCompanyId" : "3373",
     "companyCode" : "TATASTEEL",
     "companyName" : "Tata Steel",
-    "screenerCompanyLink" : "https://www.screener.in/company/TATASTEEL",
+    "screenerCompanyLink" : "/company/TATASTEEL/consolidated/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/3373/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/3373/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "TATASTEEL",
       "companyName" : "Tata Steel",
-      "marketCap" : 202609.00,
-      "peRatio" : 13.00,
-      "description" : "Tata Steel Ltd is Asia's first integrated private steel company setup in 1907.[1] The company has presence across the entire value chain of steel manufacturing from mining and processing iron ore and coal to producing and distributing finished products.[2] The company has a target to increase domestic steelmaking capacity to 30 MnTPA by 2025.[3]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 0.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 5.23,
-      "pricePercentageAboveDma100" : 5.17,
-      "pricePercentageAboveDma200" : 5.00,
+      "pricePercentageAboveDma50" : 5.18,
+      "pricePercentageAboveDma100" : 5.13,
+      "pricePercentageAboveDma200" : 4.95,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 7.59,
       "operatingProfitMarginPercentile" : 5.65,
       "netProfitMarginPercentile" : 4.88,
-      "totalTechnicalScore" : 35.40,
+      "totalTechnicalScore" : 35.25,
       "totalFundamentalScore" : 18.13,
-      "totalScore" : 53.53
+      "totalScore" : 53.38
     }
   },
   "attributes" : {
     "companyCode" : "TATASTEEL",
     "companyName" : "Tata Steel",
-    "marketCap" : 202609.00,
-    "peRatio" : 13.00,
-    "description" : "Tata Steel Ltd is Asia's first integrated private steel company setup in 1907.[1] The company has presence across the entire value chain of steel manufacturing from mining and processing iron ore and coal to producing and distributing finished products.[2] The company has a target to increase domestic steelmaking capacity to 30 MnTPA by 2025.[3]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 168.00,
     "dma200" : 162.08,
     "volume" : 23222220.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 163.81,
+    "dma50" : 169.97,
+    "dma100" : 168.04,
+    "dma200" : 162.10,
+    "volume" : 17149225.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 162.23,
-    "dma50" : 170.22,
-    "dma100" : 168.00,
-    "dma200" : 162.08,
-    "volume" : 23222220.00
+    "date" : "2025-12-11",
+    "price" : 163.81,
+    "dma50" : 169.97,
+    "dma100" : 168.04,
+    "dma200" : 162.10,
+    "volume" : 17149225.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2640,15 +2647,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 5.23,
-    "pricePercentageAboveDma100" : 5.17,
-    "pricePercentageAboveDma200" : 5.00,
+    "pricePercentageAboveDma50" : 5.18,
+    "pricePercentageAboveDma100" : 5.13,
+    "pricePercentageAboveDma200" : 4.95,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 7.59,
     "operatingProfitMarginPercentile" : 5.65,
     "netProfitMarginPercentile" : 4.88,
-    "totalTechnicalScore" : 35.40,
+    "totalTechnicalScore" : 35.25,
     "totalFundamentalScore" : 18.13,
-    "totalScore" : 53.53
+    "totalScore" : 53.38
   }
 }

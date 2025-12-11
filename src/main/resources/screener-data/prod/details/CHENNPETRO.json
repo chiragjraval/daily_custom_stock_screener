@@ -3,15 +3,15 @@
     "screenerCompanyId" : "636",
     "companyCode" : "CHENNPETRO",
     "companyName" : "C P C L",
-    "screenerCompanyLink" : "https://www.screener.in/company/CHENNPETRO",
+    "screenerCompanyLink" : "/company/CHENNPETRO/consolidated/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/636/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/636/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "CHENNPETRO",
       "companyName" : "C P C L",
-      "marketCap" : 14060.00,
-      "peRatio" : 12.40,
-      "description" : "Chennai Petroleum Corporation Limited is in the business of refining crude oil to produce & supply various petroleum products and manufacture and sale of lubricating oil additives.[1]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 5.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.75,
-      "pricePercentageAboveDma100" : 4.08,
-      "pricePercentageAboveDma200" : 3.86,
+      "pricePercentageAboveDma50" : 4.85,
+      "pricePercentageAboveDma100" : 4.19,
+      "pricePercentageAboveDma200" : 3.98,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 15.44,
       "operatingProfitMarginPercentile" : 14.70,
       "netProfitMarginPercentile" : 8.21,
-      "totalTechnicalScore" : 42.70,
+      "totalTechnicalScore" : 43.02,
       "totalFundamentalScore" : 38.36,
-      "totalScore" : 81.05
+      "totalScore" : 81.38
     }
   },
   "attributes" : {
     "companyCode" : "CHENNPETRO",
     "companyName" : "C P C L",
-    "marketCap" : 14060.00,
-    "peRatio" : 12.40,
-    "description" : "Chennai Petroleum Corporation Limited is in the business of refining crude oil to produce & supply various petroleum products and manufacture and sale of lubricating oil additives.[1]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 798.61,
     "dma200" : 770.58,
     "volume" : 1705019.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 929.80,
+    "dma50" : 902.59,
+    "dma100" : 800.43,
+    "dma200" : 772.17,
+    "volume" : 318165.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 945.80,
-    "dma50" : 901.48,
-    "dma100" : 798.61,
-    "dma200" : 770.58,
-    "volume" : 1705019.00
+    "date" : "2025-12-11",
+    "price" : 929.80,
+    "dma50" : 902.59,
+    "dma100" : 800.43,
+    "dma200" : 772.17,
+    "volume" : 318165.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2640,15 +2647,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.75,
-    "pricePercentageAboveDma100" : 4.08,
-    "pricePercentageAboveDma200" : 3.86,
+    "pricePercentageAboveDma50" : 4.85,
+    "pricePercentageAboveDma100" : 4.19,
+    "pricePercentageAboveDma200" : 3.98,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 15.44,
     "operatingProfitMarginPercentile" : 14.70,
     "netProfitMarginPercentile" : 8.21,
-    "totalTechnicalScore" : 42.70,
+    "totalTechnicalScore" : 43.02,
     "totalFundamentalScore" : 38.36,
-    "totalScore" : 81.05
+    "totalScore" : 81.38
   }
 }

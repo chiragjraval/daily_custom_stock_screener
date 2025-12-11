@@ -3,15 +3,15 @@
     "screenerCompanyId" : "1392",
     "companyCode" : "IFBAGRO",
     "companyName" : "IFB Agro Inds.",
-    "screenerCompanyLink" : "https://www.screener.in/company/IFBAGRO",
+    "screenerCompanyLink" : "/company/IFBAGRO/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1392/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1392/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "IFBAGRO",
       "companyName" : "IFB Agro Inds.",
-      "marketCap" : 1211.00,
-      "peRatio" : 21.80,
-      "description" : "Incorporated in 1982, IFB Agro Ltd manufactures Alcohol and Marine products[1]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 5.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.76,
-      "pricePercentageAboveDma100" : 3.64,
-      "pricePercentageAboveDma200" : 2.83,
+      "pricePercentageAboveDma50" : 4.86,
+      "pricePercentageAboveDma100" : 3.80,
+      "pricePercentageAboveDma200" : 2.99,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 18.23,
       "operatingProfitMarginPercentile" : 15.18,
       "netProfitMarginPercentile" : 7.95,
-      "totalTechnicalScore" : 41.23,
+      "totalTechnicalScore" : 41.65,
       "totalFundamentalScore" : 41.36,
-      "totalScore" : 82.59
+      "totalScore" : 83.01
     }
   },
   "attributes" : {
     "companyCode" : "IFBAGRO",
     "companyName" : "IFB Agro Inds.",
-    "marketCap" : 1211.00,
-    "peRatio" : 21.80,
-    "description" : "Incorporated in 1982, IFB Agro Ltd manufactures Alcohol and Marine products[1]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 1011.41,
     "dma200" : 896.48,
     "volume" : 27707.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 1261.80,
+    "dma50" : 1228.33,
+    "dma100" : 1016.77,
+    "dma200" : 900.11,
+    "volume" : 5958.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 1285.80,
-    "dma50" : 1226.96,
-    "dma100" : 1011.41,
-    "dma200" : 896.48,
-    "volume" : 27707.00
+    "date" : "2025-12-11",
+    "price" : 1261.80,
+    "dma50" : 1228.33,
+    "dma100" : 1016.77,
+    "dma200" : 900.11,
+    "volume" : 5958.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2640,15 +2647,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.76,
-    "pricePercentageAboveDma100" : 3.64,
-    "pricePercentageAboveDma200" : 2.83,
+    "pricePercentageAboveDma50" : 4.86,
+    "pricePercentageAboveDma100" : 3.80,
+    "pricePercentageAboveDma200" : 2.99,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 18.23,
     "operatingProfitMarginPercentile" : 15.18,
     "netProfitMarginPercentile" : 7.95,
-    "totalTechnicalScore" : 41.23,
+    "totalTechnicalScore" : 41.65,
     "totalFundamentalScore" : 41.36,
-    "totalScore" : 82.59
+    "totalScore" : 83.01
   }
 }

@@ -28,7 +28,7 @@ public class CompanyMetadataExtractor implements Function<Element, Optional<Comp
                 // Extract screener company ID from data attributes or URL patterns
                 String screenerCompanyId = extractScreenerCompanyId(row, companyCode);
 
-                CompanyMetadata metadata = new CompanyMetadata(screenerCompanyId, companyCode, companyName);
+                CompanyMetadata metadata = new CompanyMetadata(screenerCompanyId, companyCode, companyName, href);
                 logger.info("Parsed company: {}", metadata);
                 return Optional.of(metadata);
             }

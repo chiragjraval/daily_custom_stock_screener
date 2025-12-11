@@ -31,11 +31,11 @@ public class CompanyMetadata {
     @JsonProperty("companyScore")
     private CompanyScore companyScore;
 
-    public CompanyMetadata(String screenerCompanyId, String companyCode, String companyName) {
+    public CompanyMetadata(String screenerCompanyId, String companyCode, String companyName, String screenerCompanyLink) {
         this.screenerCompanyId = screenerCompanyId;
         this.companyCode = companyCode;
         this.companyName = companyName;
-        this.screenerCompanyLink = "https://www.screener.in/company/" + companyCode;
+        this.screenerCompanyLink = screenerCompanyLink;
         this.screenerTechnicalHistoryLink = "https://www.screener.in/api/company/" + screenerCompanyId +
                                         "/chart/?q=Price-DMA50-DMA200-Volume&days=365";
         this.screenerQuarterlyResultsLink = "https://www.screener.in/api/company/" + screenerCompanyId +

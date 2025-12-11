@@ -3,15 +3,15 @@
     "screenerCompanyId" : "1448",
     "companyCode" : "IOC",
     "companyName" : "I O C L",
-    "screenerCompanyLink" : "https://www.screener.in/company/IOC",
+    "screenerCompanyLink" : "/company/IOC/consolidated/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1448/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1448/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "IOC",
       "companyName" : "I O C L",
-      "marketCap" : 230077.00,
-      "peRatio" : 10.00,
-      "description" : "Indian Oil Corporation Ltd is a Maharatna Company controlled by GOI[1] that has business interests straddling the entire hydrocarbon value chain - from Refining, Pipeline transportation and marketing of Petroleum products to R&D, Exploration & production, marketing of natural gas and petrochemicals. It has the leadership position in the Oil refining & petroleum marketing sector of India.[2]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 5.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.93,
-      "pricePercentageAboveDma100" : 4.65,
-      "pricePercentageAboveDma200" : 4.56,
+      "pricePercentageAboveDma50" : 4.99,
+      "pricePercentageAboveDma100" : 4.72,
+      "pricePercentageAboveDma200" : 4.63,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 8.10,
       "operatingProfitMarginPercentile" : 15.76,
       "netProfitMarginPercentile" : 7.79,
-      "totalTechnicalScore" : 44.15,
+      "totalTechnicalScore" : 44.34,
       "totalFundamentalScore" : 31.65,
-      "totalScore" : 75.80
+      "totalScore" : 76.00
     }
   },
   "attributes" : {
     "companyCode" : "IOC",
     "companyName" : "I O C L",
-    "marketCap" : 230077.00,
-    "peRatio" : 10.00,
-    "description" : "Indian Oil Corporation Ltd is a Maharatna Company controlled by GOI[1] that has business interests straddling the entire hydrocarbon value chain - from Refining, Pipeline transportation and marketing of Petroleum products to R&D, Exploration & production, marketing of natural gas and petrochemicals. It has the leadership position in the Oil refining & petroleum marketing sector of India.[2]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 152.51,
     "dma200" : 149.97,
     "volume" : 13161049.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 161.10,
+    "dma50" : 160.79,
+    "dma100" : 152.61,
+    "dma200" : 150.08,
+    "volume" : 4781984.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 163.07,
-    "dma50" : 160.78,
-    "dma100" : 152.51,
-    "dma200" : 149.97,
-    "volume" : 13161049.00
+    "date" : "2025-12-11",
+    "price" : 161.10,
+    "dma50" : 160.79,
+    "dma100" : 152.61,
+    "dma200" : 150.08,
+    "volume" : 4781984.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2640,15 +2647,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.93,
-    "pricePercentageAboveDma100" : 4.65,
-    "pricePercentageAboveDma200" : 4.56,
+    "pricePercentageAboveDma50" : 4.99,
+    "pricePercentageAboveDma100" : 4.72,
+    "pricePercentageAboveDma200" : 4.63,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 8.10,
     "operatingProfitMarginPercentile" : 15.76,
     "netProfitMarginPercentile" : 7.79,
-    "totalTechnicalScore" : 44.15,
+    "totalTechnicalScore" : 44.34,
     "totalFundamentalScore" : 31.65,
-    "totalScore" : 75.80
+    "totalScore" : 76.00
   }
 }

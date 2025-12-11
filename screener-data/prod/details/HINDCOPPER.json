@@ -3,15 +3,15 @@
     "screenerCompanyId" : "1338",
     "companyCode" : "HINDCOPPER",
     "companyName" : "Hindustan Copper",
-    "screenerCompanyLink" : "https://www.screener.in/company/HINDCOPPER",
+    "screenerCompanyLink" : "/company/HINDCOPPER/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1338/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1338/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "HINDCOPPER",
       "companyName" : "Hindustan Copper",
-      "marketCap" : 34750.00,
-      "peRatio" : 60.60,
-      "description" : "Incorporated in the year 1967, Hindustan Copper Limited (HCL) was formed to take over from National Mineral Development Corporation Ltd. It is the first Indian PSU and only vertically integrated copper producing company. HCL is engaged in various processes right from copper mining to the final stage of converting copper into saleable products. [1]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 5.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.56,
-      "pricePercentageAboveDma100" : 3.98,
-      "pricePercentageAboveDma200" : 3.77,
+      "pricePercentageAboveDma50" : 4.64,
+      "pricePercentageAboveDma100" : 4.06,
+      "pricePercentageAboveDma200" : 3.85,
       "weeklyVolumeHigherThanYearlyVolume" : 5.00,
       "salesGrowthPercentile" : 16.20,
       "operatingProfitMarginPercentile" : 19.47,
       "netProfitMarginPercentile" : 9.52,
-      "totalTechnicalScore" : 47.32,
+      "totalTechnicalScore" : 47.56,
       "totalFundamentalScore" : 45.19,
-      "totalScore" : 92.50
+      "totalScore" : 92.75
     }
   },
   "attributes" : {
     "companyCode" : "HINDCOPPER",
     "companyName" : "Hindustan Copper",
-    "marketCap" : 34750.00,
-    "peRatio" : 60.60,
-    "description" : "Incorporated in the year 1967, Hindustan Copper Limited (HCL) was formed to take over from National Mineral Development Corporation Ltd. It is the first Indian PSU and only vertically integrated copper producing company. HCL is engaged in various processes right from copper mining to the final stage of converting copper into saleable products. [1]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 298.53,
     "dma200" : 288.47,
     "volume" : 13869531.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 355.40,
+    "dma50" : 331.56,
+    "dma100" : 299.41,
+    "dma200" : 289.13,
+    "volume" : 5058302.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 359.40,
-    "dma50" : 330.58,
-    "dma100" : 298.53,
-    "dma200" : 288.47,
-    "volume" : 13869531.00
+    "date" : "2025-12-11",
+    "price" : 355.40,
+    "dma50" : 331.56,
+    "dma100" : 299.41,
+    "dma200" : 289.13,
+    "volume" : 5058302.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2640,15 +2647,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.56,
-    "pricePercentageAboveDma100" : 3.98,
-    "pricePercentageAboveDma200" : 3.77,
+    "pricePercentageAboveDma50" : 4.64,
+    "pricePercentageAboveDma100" : 4.06,
+    "pricePercentageAboveDma200" : 3.85,
     "weeklyVolumeHigherThanYearlyVolume" : 5.00,
     "salesGrowthPercentile" : 16.20,
     "operatingProfitMarginPercentile" : 19.47,
     "netProfitMarginPercentile" : 9.52,
-    "totalTechnicalScore" : 47.32,
+    "totalTechnicalScore" : 47.56,
     "totalFundamentalScore" : 45.19,
-    "totalScore" : 92.50
+    "totalScore" : 92.75
   }
 }

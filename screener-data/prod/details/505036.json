@@ -3,15 +3,15 @@
     "screenerCompanyId" : "333",
     "companyCode" : "505036",
     "companyName" : "Auto.Corp.of Goa",
-    "screenerCompanyLink" : "https://www.screener.in/company/505036",
+    "screenerCompanyLink" : "/company/505036/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/333/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/333/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "505036",
       "companyName" : "Auto.Corp.of Goa",
-      "marketCap" : 1056.00,
-      "peRatio" : 17.90,
-      "description" : "Incorporated in 1980, Automobile Corporation of Goa Ltd is in the business of Bus body building, and Pressing[1]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 0.00,
@@ -21,23 +21,23 @@
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 5.00,
       "pricePercentageAboveDma50" : 5.39,
-      "pricePercentageAboveDma100" : 5.63,
-      "pricePercentageAboveDma200" : 5.44,
+      "pricePercentageAboveDma100" : 5.64,
+      "pricePercentageAboveDma200" : 5.45,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 16.20,
       "operatingProfitMarginPercentile" : 18.70,
       "netProfitMarginPercentile" : 9.71,
-      "totalTechnicalScore" : 21.46,
+      "totalTechnicalScore" : 21.48,
       "totalFundamentalScore" : 44.62,
-      "totalScore" : 66.08
+      "totalScore" : 66.10
     }
   },
   "attributes" : {
     "companyCode" : "505036",
     "companyName" : "Auto.Corp.of Goa",
-    "marketCap" : 1056.00,
-    "peRatio" : 17.90,
-    "description" : "Incorporated in 1980, Automobile Corporation of Goa Ltd is in the business of Bus body building, and Pressing[1]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 1985.20,
     "dma200" : 1903.13,
     "volume" : 2388.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 1730.00,
+    "dma50" : 1875.39,
+    "dma100" : 1984.85,
+    "dma200" : 1901.41,
+    "volume" : 148.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 1734.95,
-    "dma50" : 1881.33,
-    "dma100" : 1985.20,
-    "dma200" : 1903.13,
-    "volume" : 2388.00
+    "date" : "2025-12-11",
+    "price" : 1730.00,
+    "dma50" : 1875.39,
+    "dma100" : 1984.85,
+    "dma200" : 1901.41,
+    "volume" : 148.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2641,14 +2648,14 @@
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 5.00,
     "pricePercentageAboveDma50" : 5.39,
-    "pricePercentageAboveDma100" : 5.63,
-    "pricePercentageAboveDma200" : 5.44,
+    "pricePercentageAboveDma100" : 5.64,
+    "pricePercentageAboveDma200" : 5.45,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 16.20,
     "operatingProfitMarginPercentile" : 18.70,
     "netProfitMarginPercentile" : 9.71,
-    "totalTechnicalScore" : 21.46,
+    "totalTechnicalScore" : 21.48,
     "totalFundamentalScore" : 44.62,
-    "totalScore" : 66.08
+    "totalScore" : 66.10
   }
 }

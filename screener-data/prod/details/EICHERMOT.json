@@ -3,15 +3,15 @@
     "screenerCompanyId" : "888",
     "companyCode" : "EICHERMOT",
     "companyName" : "Eicher Motors",
-    "screenerCompanyLink" : "https://www.screener.in/company/EICHERMOT",
+    "screenerCompanyLink" : "/company/EICHERMOT/consolidated/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/888/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/888/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "EICHERMOT",
       "companyName" : "Eicher Motors",
-      "marketCap" : 198262.00,
-      "peRatio" : 42.20,
-      "description" : "Eicher Motors Limited, incorporated in 1982, is the listed company of the Eicher Group in India and a leading player in the Indian automobile industry and the global leader in middleweight motorcycles. Eicher has a joint venture with Sweden’s AB Volvo to create Volvo Eicher Commercial Vehicles Limited (VECV). VECV is engaged in truck and bus operations, auto components business, and technical consulting services business [1]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 5.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.78,
-      "pricePercentageAboveDma100" : 4.49,
-      "pricePercentageAboveDma200" : 4.12,
+      "pricePercentageAboveDma50" : 4.77,
+      "pricePercentageAboveDma100" : 4.48,
+      "pricePercentageAboveDma200" : 4.10,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 13.67,
       "operatingProfitMarginPercentile" : 16.45,
       "netProfitMarginPercentile" : 6.51,
-      "totalTechnicalScore" : 43.39,
+      "totalTechnicalScore" : 43.36,
       "totalFundamentalScore" : 36.63,
-      "totalScore" : 80.02
+      "totalScore" : 79.98
     }
   },
   "attributes" : {
     "companyCode" : "EICHERMOT",
     "companyName" : "Eicher Motors",
-    "marketCap" : 198262.00,
-    "peRatio" : 42.20,
-    "description" : "Eicher Motors Limited, incorporated in 1982, is the listed company of the Eicher Group in India and a leading player in the Indian automobile industry and the global leader in middleweight motorcycles. Eicher has a joint venture with Sweden’s AB Volvo to create Volvo Eicher Commercial Vehicles Limited (VECV). VECV is engaged in truck and bus operations, auto components business, and technical consulting services business [1]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 6560.28,
     "dma200" : 6141.67,
     "volume" : 639966.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 7258.00,
+    "dma50" : 6943.25,
+    "dma100" : 6576.36,
+    "dma200" : 6152.78,
+    "volume" : 266872.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 7228.50,
-    "dma50" : 6930.40,
-    "dma100" : 6560.28,
-    "dma200" : 6141.67,
-    "volume" : 639966.00
+    "date" : "2025-12-11",
+    "price" : 7258.00,
+    "dma50" : 6943.25,
+    "dma100" : 6576.36,
+    "dma200" : 6152.78,
+    "volume" : 266872.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2640,15 +2647,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.78,
-    "pricePercentageAboveDma100" : 4.49,
-    "pricePercentageAboveDma200" : 4.12,
+    "pricePercentageAboveDma50" : 4.77,
+    "pricePercentageAboveDma100" : 4.48,
+    "pricePercentageAboveDma200" : 4.10,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 13.67,
     "operatingProfitMarginPercentile" : 16.45,
     "netProfitMarginPercentile" : 6.51,
-    "totalTechnicalScore" : 43.39,
+    "totalTechnicalScore" : 43.36,
     "totalFundamentalScore" : 36.63,
-    "totalScore" : 80.02
+    "totalScore" : 79.98
   }
 }

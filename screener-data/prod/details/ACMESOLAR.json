@@ -3,15 +3,15 @@
     "screenerCompanyId" : "1285145",
     "companyCode" : "ACMESOLAR",
     "companyName" : "ACME Solar Hold.",
-    "screenerCompanyLink" : "https://www.screener.in/company/ACMESOLAR",
+    "screenerCompanyLink" : "/company/ACMESOLAR/consolidated/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1285145/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1285145/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "ACMESOLAR",
       "companyName" : "ACME Solar Hold.",
-      "marketCap" : 13074.00,
-      "peRatio" : 609.00,
-      "description" : "Incorporated in 2015, ACME Solar Holdings is a renewable energy company in India with a portfolio of solar, wind, hybrid, and firm and dispatchable renewable energy (“FDRE”) projects.[1]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 0.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 5.70,
-      "pricePercentageAboveDma100" : 6.05,
-      "pricePercentageAboveDma200" : 5.79,
+      "pricePercentageAboveDma50" : 5.49,
+      "pricePercentageAboveDma100" : 5.87,
+      "pricePercentageAboveDma200" : 5.60,
       "weeklyVolumeHigherThanYearlyVolume" : 5.00,
       "salesGrowthPercentile" : 4.00,
       "operatingProfitMarginPercentile" : 6.67,
       "netProfitMarginPercentile" : 7.78,
-      "totalTechnicalScore" : 27.53,
+      "totalTechnicalScore" : 26.96,
       "totalFundamentalScore" : 18.44,
-      "totalScore" : 45.98
+      "totalScore" : 45.40
     }
   },
   "attributes" : {
     "companyCode" : "ACMESOLAR",
     "companyName" : "ACME Solar Hold.",
-    "marketCap" : 13074.00,
-    "peRatio" : 609.00,
-    "description" : "Incorporated in 2015, ACME Solar Holdings is a renewable energy company in India with a portfolio of solar, wind, hybrid, and firm and dispatchable renewable energy (“FDRE”) projects.[1]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 273.89,
     "dma200" : 256.81,
     "volume" : 1984295.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 225.80,
+    "dma50" : 250.40,
+    "dma100" : 273.36,
+    "dma200" : 256.50,
+    "volume" : 2679443.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 216.41,
-    "dma50" : 251.40,
-    "dma100" : 273.89,
-    "dma200" : 256.81,
-    "volume" : 1984295.00
+    "date" : "2025-12-11",
+    "price" : 225.80,
+    "dma50" : 250.40,
+    "dma100" : 273.36,
+    "dma200" : 256.50,
+    "volume" : 2679443.00
   },
   "quarterlyResults" : [ {
     "date" : "2023-09-30",
@@ -1900,15 +1907,15 @@
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 5.70,
-    "pricePercentageAboveDma100" : 6.05,
-    "pricePercentageAboveDma200" : 5.79,
+    "pricePercentageAboveDma50" : 5.49,
+    "pricePercentageAboveDma100" : 5.87,
+    "pricePercentageAboveDma200" : 5.60,
     "weeklyVolumeHigherThanYearlyVolume" : 5.00,
     "salesGrowthPercentile" : 4.00,
     "operatingProfitMarginPercentile" : 6.67,
     "netProfitMarginPercentile" : 7.78,
-    "totalTechnicalScore" : 27.53,
+    "totalTechnicalScore" : 26.96,
     "totalFundamentalScore" : 18.44,
-    "totalScore" : 45.98
+    "totalScore" : 45.40
   }
 }

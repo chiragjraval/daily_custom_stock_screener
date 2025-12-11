@@ -3,15 +3,15 @@
     "screenerCompanyId" : "1393",
     "companyCode" : "IFBIND",
     "companyName" : "IFB Industries",
-    "screenerCompanyLink" : "https://www.screener.in/company/IFBIND",
+    "screenerCompanyLink" : "/company/IFBIND/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1393/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1393/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "IFBIND",
       "companyName" : "IFB Industries",
-      "marketCap" : 6552.00,
-      "peRatio" : 49.70,
-      "description" : "IFB Industries Limited originally known as Indian Fine Blanks Limited started its operations in India in 1974 in collaboration with Heinrich Schmid AG of Switzerland. [1] The company operates two businesses--manufacturing of consumer durables and producing fine blank components (part of engineering segment) and goods. It manufactures fine blanking components for two wheelers, four wheelers, heavy vehicles and electrical OEMs. The company has a diversified product portfolio, comprising front- and top-load washing machines, dryers, ACs, microwave ovens, dishwashers, modular kitchens and chimneys.[2]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 0.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 5.23,
-      "pricePercentageAboveDma100" : 4.98,
-      "pricePercentageAboveDma200" : 4.91,
-      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+      "pricePercentageAboveDma50" : 5.20,
+      "pricePercentageAboveDma100" : 4.97,
+      "pricePercentageAboveDma200" : 4.89,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
       "salesGrowthPercentile" : 9.06,
       "operatingProfitMarginPercentile" : 16.97,
       "netProfitMarginPercentile" : 8.25,
-      "totalTechnicalScore" : 40.12,
+      "totalTechnicalScore" : 45.06,
       "totalFundamentalScore" : 34.28,
-      "totalScore" : 74.40
+      "totalScore" : 79.34
     }
   },
   "attributes" : {
     "companyCode" : "IFBIND",
     "companyName" : "IFB Industries",
-    "marketCap" : 6552.00,
-    "peRatio" : 49.70,
-    "description" : "IFB Industries Limited originally known as Indian Fine Blanks Limited started its operations in India in 1974 in collaboration with Heinrich Schmid AG of Switzerland. [1] The company operates two businesses--manufacturing of consumer durables and producing fine blank components (part of engineering segment) and goods. It manufactures fine blanking components for two wheelers, four wheelers, heavy vehicles and electrical OEMs. The company has a diversified product portfolio, comprising front- and top-load washing machines, dryers, ACs, microwave ovens, dishwashers, modular kitchens and chimneys.[2]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 1609.95,
     "dma200" : 1586.75,
     "volume" : 105076.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 1621.90,
+    "dma50" : 1689.73,
+    "dma100" : 1611.19,
+    "dma200" : 1587.10,
+    "volume" : 18972.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 1615.70,
-    "dma50" : 1692.50,
-    "dma100" : 1609.95,
-    "dma200" : 1586.75,
-    "volume" : 105076.00
+    "date" : "2025-12-11",
+    "price" : 1621.90,
+    "dma50" : 1689.73,
+    "dma100" : 1611.19,
+    "dma200" : 1587.10,
+    "volume" : 18972.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2640,15 +2647,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 5.23,
-    "pricePercentageAboveDma100" : 4.98,
-    "pricePercentageAboveDma200" : 4.91,
-    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
+    "pricePercentageAboveDma50" : 5.20,
+    "pricePercentageAboveDma100" : 4.97,
+    "pricePercentageAboveDma200" : 4.89,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
     "salesGrowthPercentile" : 9.06,
     "operatingProfitMarginPercentile" : 16.97,
     "netProfitMarginPercentile" : 8.25,
-    "totalTechnicalScore" : 40.12,
+    "totalTechnicalScore" : 45.06,
     "totalFundamentalScore" : 34.28,
-    "totalScore" : 74.40
+    "totalScore" : 79.34
   }
 }

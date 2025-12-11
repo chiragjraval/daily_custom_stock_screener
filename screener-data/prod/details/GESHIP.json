@@ -3,15 +3,15 @@
     "screenerCompanyId" : "1204",
     "companyCode" : "GESHIP",
     "companyName" : "GE Shipping Co",
-    "screenerCompanyLink" : "https://www.screener.in/company/GESHIP",
+    "screenerCompanyLink" : "/company/GESHIP/consolidated/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1204/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1204/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "GESHIP",
       "companyName" : "GE Shipping Co",
-      "marketCap" : 15510.00,
-      "peRatio" : 10.40,
-      "description" : "Great Eastern Shipping Company Ltd, along with its subsidiaries is a major player in the Indian shipping and Oil drilling services industry.[1]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 5.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.94,
-      "pricePercentageAboveDma100" : 4.70,
-      "pricePercentageAboveDma200" : 4.68,
+      "pricePercentageAboveDma50" : 4.93,
+      "pricePercentageAboveDma100" : 4.69,
+      "pricePercentageAboveDma200" : 4.67,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 4.81,
       "operatingProfitMarginPercentile" : 19.52,
       "netProfitMarginPercentile" : 9.64,
-      "totalTechnicalScore" : 44.32,
+      "totalTechnicalScore" : 44.29,
       "totalFundamentalScore" : 33.97,
-      "totalScore" : 78.29
+      "totalScore" : 78.26
     }
   },
   "attributes" : {
     "companyCode" : "GESHIP",
     "companyName" : "GE Shipping Co",
-    "marketCap" : 15510.00,
-    "peRatio" : 10.40,
-    "description" : "Great Eastern Shipping Company Ltd, along with its subsidiaries is a major player in the Indian shipping and Oil drilling services industry.[1]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 1024.36,
     "dma200" : 1021.50,
     "volume" : 165276.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 1088.80,
+    "dma50" : 1073.13,
+    "dma100" : 1025.30,
+    "dma200" : 1022.17,
+    "volume" : 70578.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 1085.90,
-    "dma50" : 1072.49,
-    "dma100" : 1024.36,
-    "dma200" : 1021.50,
-    "volume" : 165276.00
+    "date" : "2025-12-11",
+    "price" : 1088.80,
+    "dma50" : 1073.13,
+    "dma100" : 1025.30,
+    "dma200" : 1022.17,
+    "volume" : 70578.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2640,15 +2647,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.94,
-    "pricePercentageAboveDma100" : 4.70,
-    "pricePercentageAboveDma200" : 4.68,
+    "pricePercentageAboveDma50" : 4.93,
+    "pricePercentageAboveDma100" : 4.69,
+    "pricePercentageAboveDma200" : 4.67,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 4.81,
     "operatingProfitMarginPercentile" : 19.52,
     "netProfitMarginPercentile" : 9.64,
-    "totalTechnicalScore" : 44.32,
+    "totalTechnicalScore" : 44.29,
     "totalFundamentalScore" : 33.97,
-    "totalScore" : 78.29
+    "totalScore" : 78.26
   }
 }

@@ -3,15 +3,15 @@
     "screenerCompanyId" : "98567",
     "companyCode" : "M&MFIN",
     "companyName" : "M & M Fin. Serv.",
-    "screenerCompanyLink" : "https://www.screener.in/company/M&MFIN",
+    "screenerCompanyLink" : "/company/M&MFIN/consolidated/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/98567/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/98567/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "M&MFIN",
       "companyName" : "M & M Fin. Serv.",
-      "marketCap" : 48185.00,
-      "peRatio" : 18.80,
-      "description" : "Mahindra & Mahindra Financial Services Limited (MMFSL), a part of the Mahindra Group,is a NBFC primarily engaged in the business of financing purchase of new and pre-owned auto and utility vehicles, tractors, cars, commercial vehicles, construction equipment and SME Financing. [1]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 5.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.64,
-      "pricePercentageAboveDma100" : 4.03,
-      "pricePercentageAboveDma200" : 3.99,
+      "pricePercentageAboveDma50" : 4.74,
+      "pricePercentageAboveDma100" : 4.15,
+      "pricePercentageAboveDma200" : 4.10,
       "weeklyVolumeHigherThanYearlyVolume" : 5.00,
       "salesGrowthPercentile" : 8.98,
       "operatingProfitMarginPercentile" : 15.58,
       "netProfitMarginPercentile" : 7.47,
-      "totalTechnicalScore" : 47.65,
+      "totalTechnicalScore" : 47.99,
       "totalFundamentalScore" : 32.04,
-      "totalScore" : 79.69
+      "totalScore" : 80.02
     }
   },
   "attributes" : {
     "companyCode" : "M&MFIN",
     "companyName" : "M & M Fin. Serv.",
-    "marketCap" : 48185.00,
-    "peRatio" : 18.80,
-    "description" : "Mahindra & Mahindra Financial Services Limited (MMFSL), a part of the Mahindra Group,is a NBFC primarily engaged in the business of financing purchase of new and pre-owned auto and utility vehicles, tractors, cars, commercial vehicles, construction equipment and SME Financing. [1]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 290.80,
     "dma200" : 288.63,
     "volume" : 4610834.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 341.20,
+    "dma50" : 324.32,
+    "dma100" : 291.59,
+    "dma200" : 289.16,
+    "volume" : 1512205.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 347.15,
-    "dma50" : 323.63,
-    "dma100" : 290.80,
-    "dma200" : 288.63,
-    "volume" : 4610834.00
+    "date" : "2025-12-11",
+    "price" : 341.20,
+    "dma50" : 324.32,
+    "dma100" : 291.59,
+    "dma200" : 289.16,
+    "volume" : 1512205.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2640,15 +2647,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.64,
-    "pricePercentageAboveDma100" : 4.03,
-    "pricePercentageAboveDma200" : 3.99,
+    "pricePercentageAboveDma50" : 4.74,
+    "pricePercentageAboveDma100" : 4.15,
+    "pricePercentageAboveDma200" : 4.10,
     "weeklyVolumeHigherThanYearlyVolume" : 5.00,
     "salesGrowthPercentile" : 8.98,
     "operatingProfitMarginPercentile" : 15.58,
     "netProfitMarginPercentile" : 7.47,
-    "totalTechnicalScore" : 47.65,
+    "totalTechnicalScore" : 47.99,
     "totalFundamentalScore" : 32.04,
-    "totalScore" : 79.69
+    "totalScore" : 80.02
   }
 }

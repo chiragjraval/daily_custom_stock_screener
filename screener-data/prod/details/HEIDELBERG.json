@@ -3,15 +3,15 @@
     "screenerCompanyId" : "1302",
     "companyCode" : "HEIDELBERG",
     "companyName" : "Heidelberg Cem.",
-    "screenerCompanyLink" : "https://www.screener.in/company/HEIDELBERG",
+    "screenerCompanyLink" : "/company/HEIDELBERG/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1302/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1302/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "HEIDELBERG",
       "companyName" : "Heidelberg Cem.",
-      "marketCap" : 3875.00,
-      "peRatio" : 30.10,
-      "description" : "Heidelberg Cement India is the Indian subsidiary of HeidelbergCement Group, Germany. The Company has its operations in Central India at Damoh (Madhya Pradesh), Jhansi (Uttar Pradesh), and in Southern India at Ammasandra (Karnataka). [1] The company sells under the MyCem and MyCem Power brand. [2]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 0.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 5.48,
-      "pricePercentageAboveDma100" : 5.77,
-      "pricePercentageAboveDma200" : 5.75,
+      "pricePercentageAboveDma50" : 5.46,
+      "pricePercentageAboveDma100" : 5.75,
+      "pricePercentageAboveDma200" : 5.74,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 11.39,
       "operatingProfitMarginPercentile" : 11.06,
       "netProfitMarginPercentile" : 7.41,
-      "totalTechnicalScore" : 22.00,
+      "totalTechnicalScore" : 21.96,
       "totalFundamentalScore" : 29.86,
-      "totalScore" : 51.86
+      "totalScore" : 51.82
     }
   },
   "attributes" : {
     "companyCode" : "HEIDELBERG",
     "companyName" : "Heidelberg Cem.",
-    "marketCap" : 3875.00,
-    "peRatio" : 30.10,
-    "description" : "Heidelberg Cement India is the Indian subsidiary of HeidelbergCement Group, Germany. The Company has its operations in Central India at Damoh (Madhya Pradesh), Jhansi (Uttar Pradesh), and in Southern India at Ammasandra (Karnataka). [1] The company sells under the MyCem and MyCem Power brand. [2]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 201.37,
     "dma200" : 200.71,
     "volume" : 70370.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 170.64,
+    "dma50" : 188.13,
+    "dma100" : 200.95,
+    "dma200" : 200.41,
+    "volume" : 21665.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 170.54,
-    "dma50" : 188.85,
-    "dma100" : 201.37,
-    "dma200" : 200.71,
-    "volume" : 70370.00
+    "date" : "2025-12-11",
+    "price" : 170.64,
+    "dma50" : 188.13,
+    "dma100" : 200.95,
+    "dma200" : 200.41,
+    "volume" : 21665.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2640,15 +2647,15 @@
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 5.48,
-    "pricePercentageAboveDma100" : 5.77,
-    "pricePercentageAboveDma200" : 5.75,
+    "pricePercentageAboveDma50" : 5.46,
+    "pricePercentageAboveDma100" : 5.75,
+    "pricePercentageAboveDma200" : 5.74,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 11.39,
     "operatingProfitMarginPercentile" : 11.06,
     "netProfitMarginPercentile" : 7.41,
-    "totalTechnicalScore" : 22.00,
+    "totalTechnicalScore" : 21.96,
     "totalFundamentalScore" : 29.86,
-    "totalScore" : 51.86
+    "totalScore" : 51.82
   }
 }

@@ -3,15 +3,15 @@
     "screenerCompanyId" : "1022",
     "companyCode" : "FINKURVE",
     "companyName" : "Finkurve Fin.",
-    "screenerCompanyLink" : "https://www.screener.in/company/FINKURVE",
+    "screenerCompanyLink" : "/company/FINKURVE/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1022/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1022/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "FINKURVE",
       "companyName" : "Finkurve Fin.",
-      "marketCap" : 1450.00,
-      "peRatio" : 70.50,
-      "description" : "Incorporated in 1984, Finkurve Financials Services Ltd operates in Financing and other activities[1]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 0.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 0.00,
-      "pricePercentageAboveDma50" : 5.28,
-      "pricePercentageAboveDma100" : 5.33,
-      "pricePercentageAboveDma200" : 5.36,
-      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "pricePercentageAboveDma50" : 5.34,
+      "pricePercentageAboveDma100" : 5.39,
+      "pricePercentageAboveDma200" : 5.42,
+      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 12.15,
       "operatingProfitMarginPercentile" : 18.72,
       "netProfitMarginPercentile" : 9.31,
-      "totalTechnicalScore" : 20.97,
+      "totalTechnicalScore" : 16.14,
       "totalFundamentalScore" : 40.18,
-      "totalScore" : 61.15
+      "totalScore" : 56.32
     }
   },
   "attributes" : {
     "companyCode" : "FINKURVE",
     "companyName" : "Finkurve Fin.",
-    "marketCap" : 1450.00,
-    "peRatio" : 70.50,
-    "description" : "Incorporated in 1984, Finkurve Financials Services Ltd operates in Financing and other activities[1]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 109.64,
     "dma200" : 110.31,
     "volume" : 23724.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 101.00,
+    "dma50" : 108.29,
+    "dma100" : 109.45,
+    "dma200" : 110.22,
+    "volume" : 4631.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 102.45,
-    "dma50" : 108.59,
-    "dma100" : 109.64,
-    "dma200" : 110.31,
-    "volume" : 23724.00
+    "date" : "2025-12-11",
+    "price" : 101.00,
+    "dma50" : 108.29,
+    "dma100" : 109.45,
+    "dma200" : 110.22,
+    "volume" : 4631.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2640,15 +2647,15 @@
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 0.00,
-    "pricePercentageAboveDma50" : 5.28,
-    "pricePercentageAboveDma100" : 5.33,
-    "pricePercentageAboveDma200" : 5.36,
-    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "pricePercentageAboveDma50" : 5.34,
+    "pricePercentageAboveDma100" : 5.39,
+    "pricePercentageAboveDma200" : 5.42,
+    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 12.15,
     "operatingProfitMarginPercentile" : 18.72,
     "netProfitMarginPercentile" : 9.31,
-    "totalTechnicalScore" : 20.97,
+    "totalTechnicalScore" : 16.14,
     "totalFundamentalScore" : 40.18,
-    "totalScore" : 61.15
+    "totalScore" : 56.32
   }
 }

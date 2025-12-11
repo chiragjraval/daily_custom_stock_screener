@@ -3,15 +3,15 @@
     "screenerCompanyId" : "3107",
     "companyCode" : "SMSPHARMA",
     "companyName" : "SMS Pharma.",
-    "screenerCompanyLink" : "https://www.screener.in/company/SMSPHARMA",
+    "screenerCompanyLink" : "/company/SMSPHARMA/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/3107/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/3107/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "SMSPHARMA",
       "companyName" : "SMS Pharma.",
-      "marketCap" : 2913.00,
-      "peRatio" : 35.90,
-      "description" : "SMS Pharmaceuticals Ltd is a diversified and integrated pharmaceutical company with interests in Active Pharmaceutical Ingredients (API) and Intermediates.[1]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 5.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.67,
-      "pricePercentageAboveDma100" : 4.21,
-      "pricePercentageAboveDma200" : 4.06,
+      "pricePercentageAboveDma50" : 4.69,
+      "pricePercentageAboveDma100" : 4.23,
+      "pricePercentageAboveDma200" : 4.08,
       "weeklyVolumeHigherThanYearlyVolume" : 5.00,
       "salesGrowthPercentile" : 14.93,
       "operatingProfitMarginPercentile" : 17.52,
       "netProfitMarginPercentile" : 9.19,
-      "totalTechnicalScore" : 47.95,
+      "totalTechnicalScore" : 48.01,
       "totalFundamentalScore" : 41.63,
-      "totalScore" : 89.58
+      "totalScore" : 89.64
     }
   },
   "attributes" : {
     "companyCode" : "SMSPHARMA",
     "companyName" : "SMS Pharma.",
-    "marketCap" : 2913.00,
-    "peRatio" : 35.90,
-    "description" : "SMS Pharmaceuticals Ltd is a diversified and integrated pharmaceutical company with interests in Active Pharmaceutical Ingredients (API) and Intermediates.[1]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 268.27,
     "dma200" : 261.82,
     "volume" : 1014330.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 310.40,
+    "dma50" : 292.53,
+    "dma100" : 268.89,
+    "dma200" : 262.31,
+    "volume" : 195732.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 310.80,
-    "dma50" : 291.80,
-    "dma100" : 268.27,
-    "dma200" : 261.82,
-    "volume" : 1014330.00
+    "date" : "2025-12-11",
+    "price" : 310.40,
+    "dma50" : 292.53,
+    "dma100" : 268.89,
+    "dma200" : 262.31,
+    "volume" : 195732.00
   },
   "quarterlyResults" : [ {
     "date" : "2007-03-31",
@@ -2560,15 +2567,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.67,
-    "pricePercentageAboveDma100" : 4.21,
-    "pricePercentageAboveDma200" : 4.06,
+    "pricePercentageAboveDma50" : 4.69,
+    "pricePercentageAboveDma100" : 4.23,
+    "pricePercentageAboveDma200" : 4.08,
     "weeklyVolumeHigherThanYearlyVolume" : 5.00,
     "salesGrowthPercentile" : 14.93,
     "operatingProfitMarginPercentile" : 17.52,
     "netProfitMarginPercentile" : 9.19,
-    "totalTechnicalScore" : 47.95,
+    "totalTechnicalScore" : 48.01,
     "totalFundamentalScore" : 41.63,
-    "totalScore" : 89.58
+    "totalScore" : 89.64
   }
 }

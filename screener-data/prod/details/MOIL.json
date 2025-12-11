@@ -3,15 +3,15 @@
     "screenerCompanyId" : "2112",
     "companyCode" : "MOIL",
     "companyName" : "MOIL",
-    "screenerCompanyLink" : "https://www.screener.in/company/MOIL",
+    "screenerCompanyLink" : "/company/MOIL/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/2112/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/2112/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "MOIL",
       "companyName" : "MOIL",
-      "marketCap" : 6495.00,
-      "peRatio" : 21.60,
-      "description" : "MOIL Ltd is primarily engaged in mining of manganese ore and is the largest manganese ore producer in the country.[1] It is a miniratna state-owned company owned by Govt. of India.[2]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 0.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 5.39,
-      "pricePercentageAboveDma100" : 5.48,
+      "pricePercentageAboveDma50" : 5.38,
+      "pricePercentageAboveDma100" : 5.47,
       "pricePercentageAboveDma200" : 5.47,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 14.33,
       "operatingProfitMarginPercentile" : 8.49,
       "netProfitMarginPercentile" : 2.92,
-      "totalTechnicalScore" : 21.34,
+      "totalTechnicalScore" : 21.31,
       "totalFundamentalScore" : 25.75,
-      "totalScore" : 47.09
+      "totalScore" : 47.05
     }
   },
   "attributes" : {
     "companyCode" : "MOIL",
     "companyName" : "MOIL",
-    "marketCap" : 6495.00,
-    "peRatio" : 21.60,
-    "description" : "MOIL Ltd is primarily engaged in mining of manganese ore and is the largest manganese ore producer in the country.[1] It is a miniratna state-owned company owned by Govt. of India.[2]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 353.00,
     "dma200" : 352.66,
     "volume" : 487079.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 319.50,
+    "dma50" : 345.42,
+    "dma100" : 352.48,
+    "dma200" : 352.33,
+    "volume" : 164341.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 319.30,
-    "dma50" : 346.48,
-    "dma100" : 353.00,
-    "dma200" : 352.66,
-    "volume" : 487079.00
+    "date" : "2025-12-11",
+    "price" : 319.50,
+    "dma50" : 345.42,
+    "dma100" : 352.48,
+    "dma200" : 352.33,
+    "volume" : 164341.00
   },
   "quarterlyResults" : [ {
     "date" : "2009-12-31",
@@ -2450,15 +2457,15 @@
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 5.39,
-    "pricePercentageAboveDma100" : 5.48,
+    "pricePercentageAboveDma50" : 5.38,
+    "pricePercentageAboveDma100" : 5.47,
     "pricePercentageAboveDma200" : 5.47,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 14.33,
     "operatingProfitMarginPercentile" : 8.49,
     "netProfitMarginPercentile" : 2.92,
-    "totalTechnicalScore" : 21.34,
+    "totalTechnicalScore" : 21.31,
     "totalFundamentalScore" : 25.75,
-    "totalScore" : 47.09
+    "totalScore" : 47.05
   }
 }

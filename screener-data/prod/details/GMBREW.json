@@ -3,15 +3,15 @@
     "screenerCompanyId" : "1065",
     "companyCode" : "GMBREW",
     "companyName" : "G M Breweries",
-    "screenerCompanyLink" : "https://www.screener.in/company/GMBREW",
+    "screenerCompanyLink" : "/company/GMBREW/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1065/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1065/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "GMBREW",
       "companyName" : "G M Breweries",
-      "marketCap" : 2228.00,
-      "peRatio" : 15.60,
-      "description" : "G M Breweries Ltd, set up in 1981 manufactures and markets Alcoholic Beverages such as Country Liquor (CL) and Indian-made Foreign Liquor (IMFL). [1]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 0.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 5.17,
-      "pricePercentageAboveDma100" : 4.41,
-      "pricePercentageAboveDma200" : 4.23,
+      "pricePercentageAboveDma50" : 5.19,
+      "pricePercentageAboveDma100" : 4.46,
+      "pricePercentageAboveDma200" : 4.26,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 18.23,
       "operatingProfitMarginPercentile" : 18.07,
       "netProfitMarginPercentile" : 8.92,
-      "totalTechnicalScore" : 38.81,
+      "totalTechnicalScore" : 38.91,
       "totalFundamentalScore" : 45.22,
-      "totalScore" : 84.02
+      "totalScore" : 84.12
     }
   },
   "attributes" : {
     "companyCode" : "GMBREW",
     "companyName" : "G M Breweries",
-    "marketCap" : 2228.00,
-    "peRatio" : 15.60,
-    "description" : "G M Breweries Ltd, set up in 1981 manufactures and markets Alcoholic Beverages such as Country Liquor (CL) and Indian-made Foreign Liquor (IMFL). [1]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 874.35,
     "dma200" : 846.01,
     "volume" : 186907.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 971.90,
+    "dma50" : 1009.48,
+    "dma100" : 876.74,
+    "dma200" : 847.26,
+    "volume" : 80975.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 977.00,
-    "dma50" : 1011.01,
-    "dma100" : 874.35,
-    "dma200" : 846.01,
-    "volume" : 186907.00
+    "date" : "2025-12-11",
+    "price" : 971.90,
+    "dma50" : 1009.48,
+    "dma100" : 876.74,
+    "dma200" : 847.26,
+    "volume" : 80975.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2640,15 +2647,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 5.17,
-    "pricePercentageAboveDma100" : 4.41,
-    "pricePercentageAboveDma200" : 4.23,
+    "pricePercentageAboveDma50" : 5.19,
+    "pricePercentageAboveDma100" : 4.46,
+    "pricePercentageAboveDma200" : 4.26,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 18.23,
     "operatingProfitMarginPercentile" : 18.07,
     "netProfitMarginPercentile" : 8.92,
-    "totalTechnicalScore" : 38.81,
+    "totalTechnicalScore" : 38.91,
     "totalFundamentalScore" : 45.22,
-    "totalScore" : 84.02
+    "totalScore" : 84.12
   }
 }

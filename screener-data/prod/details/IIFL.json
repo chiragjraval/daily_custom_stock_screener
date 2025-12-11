@@ -3,15 +3,15 @@
     "screenerCompanyId" : "1424",
     "companyCode" : "IIFL",
     "companyName" : "IIFL Finance",
-    "screenerCompanyLink" : "https://www.screener.in/company/IIFL",
+    "screenerCompanyLink" : "/company/IIFL/consolidated/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1424/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1424/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "IIFL",
       "companyName" : "IIFL Finance",
-      "marketCap" : 23938.00,
-      "peRatio" : 60.20,
-      "description" : "IIFL Finance Ltd is a diversified NBFC in India engaged in the business of loans and mortgages along with its subsidiaries. It offers a wide spectrum of products such as Home loan, Gold loan, business loan, microfinance, capital market finance and developer & construction finance, etc.[1]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 5.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.70,
-      "pricePercentageAboveDma100" : 4.29,
-      "pricePercentageAboveDma200" : 4.04,
+      "pricePercentageAboveDma50" : 4.62,
+      "pricePercentageAboveDma100" : 4.19,
+      "pricePercentageAboveDma200" : 3.94,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 15.44,
       "operatingProfitMarginPercentile" : 14.35,
       "netProfitMarginPercentile" : 2.89,
-      "totalTechnicalScore" : 43.03,
+      "totalTechnicalScore" : 42.75,
       "totalFundamentalScore" : 32.68,
-      "totalScore" : 75.72
+      "totalScore" : 75.43
     }
   },
   "attributes" : {
     "companyCode" : "IIFL",
     "companyName" : "IIFL Finance",
-    "marketCap" : 23938.00,
-    "peRatio" : 60.20,
-    "description" : "IIFL Finance Ltd is a diversified NBFC in India engaged in the business of loans and mortgages along with its subsidiaries. It offers a wide spectrum of products such as Home loan, Gold loan, business loan, microfinance, capital market finance and developer & construction finance, etc.[1]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 493.33,
     "dma200" : 472.48,
     "volume" : 1234705.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 573.90,
+    "dma50" : 533.15,
+    "dma100" : 493.79,
+    "dma200" : 473.49,
+    "volume" : 651328.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 563.15,
-    "dma50" : 531.48,
-    "dma100" : 493.33,
-    "dma200" : 472.48,
-    "volume" : 1234705.00
+    "date" : "2025-12-11",
+    "price" : 573.90,
+    "dma50" : 533.15,
+    "dma100" : 493.79,
+    "dma200" : 473.49,
+    "volume" : 651328.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2640,15 +2647,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.70,
-    "pricePercentageAboveDma100" : 4.29,
-    "pricePercentageAboveDma200" : 4.04,
+    "pricePercentageAboveDma50" : 4.62,
+    "pricePercentageAboveDma100" : 4.19,
+    "pricePercentageAboveDma200" : 3.94,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 15.44,
     "operatingProfitMarginPercentile" : 14.35,
     "netProfitMarginPercentile" : 2.89,
-    "totalTechnicalScore" : 43.03,
+    "totalTechnicalScore" : 42.75,
     "totalFundamentalScore" : 32.68,
-    "totalScore" : 75.72
+    "totalScore" : 75.43
   }
 }

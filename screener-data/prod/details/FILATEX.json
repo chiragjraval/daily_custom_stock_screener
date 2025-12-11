@@ -3,15 +3,15 @@
     "screenerCompanyId" : "1014",
     "companyCode" : "FILATEX",
     "companyName" : "Filatex India",
-    "screenerCompanyLink" : "https://www.screener.in/company/FILATEX",
+    "screenerCompanyLink" : "/company/FILATEX/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1014/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1014/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "FILATEX",
       "companyName" : "Filatex India",
-      "marketCap" : 2178.00,
-      "peRatio" : 12.30,
-      "description" : "Filatex India Ltd. is engaged in the manufacturing and trading of synthetic yarn and textiles such as Polyester Chips, Narrow Fabrics etc. [1]"
+      "marketCap" : 0.00,
+      "peRatio" : 0.00,
+      "description" : ""
     },
     "companyScore" : {
       "priceHigherThanDma50" : 0.00,
@@ -20,24 +20,24 @@
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 5.49,
-      "pricePercentageAboveDma100" : 5.55,
-      "pricePercentageAboveDma200" : 5.45,
+      "pricePercentageAboveDma50" : 5.40,
+      "pricePercentageAboveDma100" : 5.47,
+      "pricePercentageAboveDma200" : 5.37,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 7.59,
       "operatingProfitMarginPercentile" : 11.81,
       "netProfitMarginPercentile" : 8.67,
-      "totalTechnicalScore" : 26.49,
+      "totalTechnicalScore" : 26.24,
       "totalFundamentalScore" : 28.08,
-      "totalScore" : 54.57
+      "totalScore" : 54.32
     }
   },
   "attributes" : {
     "companyCode" : "FILATEX",
     "companyName" : "Filatex India",
-    "marketCap" : 2178.00,
-    "peRatio" : 12.30,
-    "description" : "Filatex India Ltd. is engaged in the manufacturing and trading of synthetic yarn and textiles such as Polyester Chips, Narrow Fabrics etc. [1]"
+    "marketCap" : 0.00,
+    "peRatio" : 0.00,
+    "description" : ""
   },
   "technicalHistory" : [ {
     "date" : "2024-12-11",
@@ -1782,14 +1782,21 @@
     "dma100" : 55.22,
     "dma200" : 54.08,
     "volume" : 2199511.00
+  }, {
+    "date" : "2025-12-11",
+    "price" : 50.00,
+    "dma50" : 54.35,
+    "dma100" : 55.13,
+    "dma200" : 54.04,
+    "volume" : 558490.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-10",
-    "price" : 49.16,
-    "dma50" : 54.52,
-    "dma100" : 55.22,
-    "dma200" : 54.08,
-    "volume" : 2199511.00
+    "date" : "2025-12-11",
+    "price" : 50.00,
+    "dma50" : 54.35,
+    "dma100" : 55.13,
+    "dma200" : 54.04,
+    "volume" : 558490.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2640,15 +2647,15 @@
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 5.49,
-    "pricePercentageAboveDma100" : 5.55,
-    "pricePercentageAboveDma200" : 5.45,
+    "pricePercentageAboveDma50" : 5.40,
+    "pricePercentageAboveDma100" : 5.47,
+    "pricePercentageAboveDma200" : 5.37,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 7.59,
     "operatingProfitMarginPercentile" : 11.81,
     "netProfitMarginPercentile" : 8.67,
-    "totalTechnicalScore" : 26.49,
+    "totalTechnicalScore" : 26.24,
     "totalFundamentalScore" : 28.08,
-    "totalScore" : 54.57
+    "totalScore" : 54.32
   }
 }

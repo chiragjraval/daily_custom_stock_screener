@@ -35,7 +35,7 @@ public class CompanyMetadata {
         this.screenerCompanyId = screenerCompanyId;
         this.companyCode = companyCode;
         this.companyName = companyName;
-        this.screenerCompanyLink = screenerCompanyLink;
+        this.screenerCompanyLink = "https://www.screener.in" + screenerCompanyLink;
         this.screenerTechnicalHistoryLink = "https://www.screener.in/api/company/" + screenerCompanyId +
                                         "/chart/?q=Price-DMA50-DMA200-Volume&days=365";
         this.screenerQuarterlyResultsLink = "https://www.screener.in/api/company/" + screenerCompanyId +

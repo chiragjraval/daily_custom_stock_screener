@@ -102,13 +102,13 @@ function SummaryGrid() {
   };
 
   return (
-    <div className="container mt-4">
+    <div className="container-fluid mt-4">
       <div className="row mb-3">
-        <div className="col-md-6 ">
+        <div className="col-md-7">
           <h2>{data.length} Total Stocks <small className="text-body-secondary">({sortedData.length} Filtered Stocks)</small></h2>
         </div>
-        <div className="col-md-4 offset-md-2 text-end">
-          <h6>Data Last Refreshed at {generatedAt.toLocaleString()}</h6>
+        <div className="col-md-5 text-end text-nowrap">
+          <span className="align-middle">Data Last Refreshed at {generatedAt.toLocaleString().split('.')[0].replace('T', ' ')}</span>
         </div>
       </div>
 

@@ -19,7 +19,10 @@ function SummaryGrid() {
   useEffect(() => {
     fetch(import.meta.env.BASE_URL + "/screener-data/prod/summary.json")
       .then((res) => res.json())
-      .then((json) => { setData(json.companies); setGeneratedAt(json.generatedAt); })
+      .then((json) => {
+          setData(json.companies);
+          setGeneratedAt(parseIsoTimestampWithNanos(json.generatedAt));
+        })
       .catch((err) => console.error("Error loading summary.json:", err));
   }, []);
 
@@ -33,6 +36,15 @@ function SummaryGrid() {
       default: return item[key];
     }
   };
+
+  const parseIsoTimestampWithNanos = (isoString) => {
+    const [datePart, timePart] = isoString.split('T');
+    const [time, nanoPart] = timePart.split('.');
+    const [year, month, day] = datePart.split('-').map(Number);
+    const [hours, minutes, seconds] = time.split(':').map(Number);
+    const milliseconds = nanoPart ? Math.floor(Number('0.' + nanoPart) * 1000) : 0;
+    return new Date(Date.UTC(year, month - 1, day, hours, minutes, seconds, milliseconds));
+  }
 
   const filteredData = useMemo(() => {
     return data.filter((item) => {
@@ -108,7 +120,7 @@ function SummaryGrid() {
           <h2>{data.length} Total Stocks <small className="text-body-secondary">({sortedData.length} Filtered Stocks)</small></h2>
         </div>
         <div className="col-md-5 text-end text-nowrap">
-          <span className="align-middle">Data Last Refreshed at {generatedAt.toLocaleString().split('.')[0].replace('T', ' ')}</span>
+          <span className="align-middle">Data Last Refreshed at {generatedAt.toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })} IST</span>
         </div>
       </div>
 

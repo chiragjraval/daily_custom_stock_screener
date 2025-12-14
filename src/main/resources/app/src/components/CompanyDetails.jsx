@@ -85,7 +85,7 @@ function CompanyDetails({ companyCode }) {
           <div className="row mb-3">
             <div className="col">
               <ScoreProgressBar label="NPM Score" labelLevel="h6"
-                score={details.companyScore.operatingProfitMarginPercentile} maxScore="10"
+                score={details.companyScore.netProfitMarginPercentile} maxScore="10"
                 displayWidth="20%" />
             </div>
             <div className="col">

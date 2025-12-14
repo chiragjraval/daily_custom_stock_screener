@@ -7,9 +7,10 @@ function PriceChart({ technicalHistory }) {
       <ResponsiveContainer>
         <ComposedChart data={technicalHistory}>
           <CartesianGrid stroke="#f5f5f5" />
-          <XAxis dataKey="date" scale="band" />
-          <YAxis yAxisId="left" label={{ value: "Price", angle: -90, position: "insideLeft" }} />
-          <YAxis yAxisId="right" orientation="right" label={{ value: "Volume", angle: -90, position: "insideRight" }} />
+          <XAxis dataKey="date" scale="band" tick={{fontSize:12}} />
+          <YAxis yAxisId="left" orientation="right" domain={[(dataMin) => Math.floor(dataMin*0.97), (dataMax) => Math.ceil(dataMax*1.03)]}
+              tick={{fontSize:12}} label={{ value: "Price", angle: -90, position: "insideRight" }} />
+          <YAxis yAxisId="right"  tick={{fontSize:12}} label={{ value: "Volume", angle: -90, position: "insideLeft" }} />
           <Tooltip />
           <Legend />
           <Line yAxisId="left" type="monotone" dataKey="price" stroke="blue" dot={false} />

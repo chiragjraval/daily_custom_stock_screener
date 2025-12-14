@@ -12,7 +12,7 @@ function ScoreProgressBar({ label, labelLevel, score, maxScore, displayWidth }) 
 
   return (
     <div>
-      <LabelTag>{label} ({maxScore})</LabelTag>
+      <LabelTag>{label} ({score} / {maxScore})</LabelTag>
       <div className="progress" role="progressbar" style={{width:displayWidth}}>
         <div className={`progress-bar ${colorClass}`} style={{width:normalizedScore+'%'}}>{score}</div>
       </div>

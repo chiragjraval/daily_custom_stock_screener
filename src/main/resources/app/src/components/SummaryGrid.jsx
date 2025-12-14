@@ -138,7 +138,7 @@ function SummaryGrid() {
         </div>
       </div>
 
-      <table className="table table-striped table-hover table-bordered">
+      <table className="table table-bordered">
         <thead className="table-dark">
           <tr>
             <th colSpan="3">

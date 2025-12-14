@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ScoreProgressBar from "./ScoreProgressBar.jsx";
+import SalesChart from "./SalesChart.jsx";
+import PriceChart from "./PriceChart.jsx";
 
 function CompanyDetails({ companyCode }) {
   const [details, setDetails] = useState(null);
@@ -29,14 +31,14 @@ function CompanyDetails({ companyCode }) {
     return companyScore.pricePercentageAboveDma50 + companyScore.pricePercentageAboveDma100 + companyScore.pricePercentageAboveDma200;
   }
 
-  if (loading) return <tr><td colSpan="8" className="text-center">Loading details...</td></tr>;
-  if (error) return <tr><td colSpan="8" className="text-center text-danger">Error: {error}</td></tr>;
-  if (!details) return <tr><td colSpan="8" className="text-center">No details available</td></tr>;
+  if (loading) return <tr><td colSpan="9" className="text-center">Loading details...</td></tr>;
+  if (error) return <tr><td colSpan="9" className="text-center text-danger">Error: {error}</td></tr>;
+  if (!details) return <tr><td colSpan="9" className="text-center">No details available</td></tr>;
 
   return (
-    <tr className="table-light">
+    <tr>
       <td colSpan="9">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row mb-3">
             <div className="col">
               <ScoreProgressBar label="Total Score" labelLevel="h4"
@@ -92,10 +94,14 @@ function CompanyDetails({ companyCode }) {
                 displayWidth="10%" />
             </div>
           </div>
-        </div>
-        <div className="p-3">
-          <h6>{companyCode} - Detailed Information</h6>
-          <pre>{JSON.stringify(details.companyScore, null, 2)}</pre>
+          <div className="row mb-3">
+            <div className="col">
+              <SalesChart quarterlyResults={details.quarterlyResults} />
+            </div>
+            <div className="col">
+              <PriceChart technicalHistory={details.technicalHistory} />
+            </div>
+          </div>
         </div>
       </td>
     </tr>

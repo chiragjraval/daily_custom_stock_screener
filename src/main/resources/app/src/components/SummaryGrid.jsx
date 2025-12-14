@@ -1,9 +1,11 @@
 import React, { useEffect, useState, useMemo } from "react";
+import CompanyDetails from "./CompanyDetails";
 
 function SummaryGrid() {
   const [generatedAt, setGeneratedAt] = useState(new Date());
   const [data, setData] = useState([]);
   const [sortConfig, setSortConfig] = useState({ key: "totalScore", direction: "desc" });
+  const [expandedRows, setExpandedRows] = useState(new Set());
   const [filters, setFilters] = useState({
     marketCapMin: "",
     marketCapMax: "",
@@ -113,6 +115,18 @@ function SummaryGrid() {
     });
   };
 
+  const toggleRowExpand = (screenerCompanyId) => {
+    setExpandedRows(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(screenerCompanyId)) {
+        newSet.delete(screenerCompanyId);
+      } else {
+        newSet.add(screenerCompanyId);
+      }
+      return newSet;
+    });
+  };
+
   return (
     <div className="container-fluid mt-4">
       <div className="row mb-3">
@@ -127,7 +141,7 @@ function SummaryGrid() {
       <table className="table table-striped table-hover table-bordered">
         <thead className="table-dark">
           <tr>
-            <th colSpan="2">
+            <th colSpan="3">
               <div className="d-grid gap-2">
                 <button className="btn btn-sm btn-secondary" onClick={resetFilters}>Reset Filters</button>
               </div>
@@ -154,16 +168,16 @@ function SummaryGrid() {
             <th className="text-center">
               <div className="container gx-0">
                 <div className="row gx-2">
-                  <div className="col"><input type="number" className="form-control form-control-sm" name="technicalScoreMin" value={filters.technicalScoreMin} onChange={handleFilterChange} placeholder="Min" /></div>
-                  <div className="col"><input type="number" className="form-control form-control-sm" name="technicalScoreMax" value={filters.technicalScoreMax} onChange={handleFilterChange} placeholder="Max" /></div>
+                  <div className="col"><input type="number" className="form-control form-control-sm" name="fundamentalScoreMin" value={filters.fundamentalScoreMin} onChange={handleFilterChange} placeholder="Min" /></div>
+                  <div className="col"><input type="number" className="form-control form-control-sm" name="fundamentalScoreMax" value={filters.fundamentalScoreMax} onChange={handleFilterChange} placeholder="Max" /></div>
                 </div>
               </div>
             </th>
             <th className="text-center">
               <div className="container gx-0">
                 <div className="row gx-2">
-                  <div className="col"><input type="number" className="form-control form-control-sm" name="fundamentalScoreMin" value={filters.fundamentalScoreMin} onChange={handleFilterChange} placeholder="Min" /></div>
-                  <div className="col"><input type="number" className="form-control form-control-sm" name="fundamentalScoreMax" value={filters.fundamentalScoreMax} onChange={handleFilterChange} placeholder="Max" /></div>
+                  <div className="col"><input type="number" className="form-control form-control-sm" name="technicalScoreMin" value={filters.technicalScoreMin} onChange={handleFilterChange} placeholder="Min" /></div>
+                  <div className="col"><input type="number" className="form-control form-control-sm" name="technicalScoreMax" value={filters.technicalScoreMax} onChange={handleFilterChange} placeholder="Max" /></div>
                 </div>
               </div>
             </th>
@@ -179,28 +193,42 @@ function SummaryGrid() {
         </thead>
         <thead className="table-dark">
           <tr>
+            <th className="text-center align-middle" style={{ width: "40px" }}></th>
             <th className="text-center align-middle" onClick={() => requestSort("screenerCompanyId")}>Screener ID {getSortIcon("screenerCompanyId")}</th>
             <th className="text-center align-middle" onClick={() => requestSort("companyCode")}>Screener Link {getSortIcon("companyCode")}</th>
             <th className="text-center align-middle" onClick={() => requestSort("companyName")}>Name {getSortIcon("companyName")}</th>
             <th className="text-center align-middle" onClick={() => requestSort("marketCap")}>Market Cap (Cr.) {getSortIcon("marketCap")}</th>
             <th className="text-center align-middle" onClick={() => requestSort("peRatio")}>PE Ratio {getSortIcon("peRatio")}</th>
-            <th className="text-center align-middle" onClick={() => requestSort("technicalScore")}>Technical Score {getSortIcon("technicalScore")}</th>
             <th className="text-center align-middle" onClick={() => requestSort("fundamentalScore")}>Fundamental Score {getSortIcon("fundamentalScore")}</th>
+            <th className="text-center align-middle" onClick={() => requestSort("technicalScore")}>Technical Score {getSortIcon("technicalScore")}</th>
             <th className="text-center align-middle" onClick={() => requestSort("totalScore")}>Total Score {getSortIcon("totalScore")}</th>
           </tr>
         </thead>
         <tbody>
           {sortedData.map((item) => (
-            <tr key={item.screenerCompanyId}>
-              <td className="text-end">{item.screenerCompanyId}</td>
-              <td><a href={item.screenerCompanyLink} target="_blank" rel="noreferrer">{item.companyCode}</a></td>
-              <td>{item.companyName}</td>
-              <td className="text-end">{item.attributes.marketCap.toLocaleString()}</td>
-              <td className="text-end">{item.attributes.peRatio}</td>
-              <td className="text-end">{item.companyScore.totalTechnicalScore}</td>
-              <td className="text-end">{item.companyScore.totalFundamentalScore}</td>
-              <td className="text-end fw-bold">{item.companyScore.totalScore}</td>
-            </tr>
+            <React.Fragment key={item.screenerCompanyId}>
+              <tr>
+                <td className="text-center align-middle" style={{ cursor: "pointer", width: "40px" }}>
+                  <button
+                    className="btn btn-sm btn-outline-primary"
+                    onClick={() => toggleRowExpand(item.screenerCompanyId)}
+                  >
+                    {expandedRows.has(item.screenerCompanyId) ? "−" : "+"}
+                  </button>
+                </td>
+                <td className="text-end">{item.screenerCompanyId}</td>
+                <td><a href={item.screenerCompanyLink} target="_blank" rel="noreferrer">{item.companyCode}</a></td>
+                <td>{item.companyName}</td>
+                <td className="text-end">{item.attributes.marketCap.toLocaleString()}</td>
+                <td className="text-end">{item.attributes.peRatio}</td>
+                <td className="text-end">{item.companyScore.totalFundamentalScore}</td>
+                <td className="text-end">{item.companyScore.totalTechnicalScore}</td>
+                <td className="text-end fw-bold">{item.companyScore.totalScore}</td>
+              </tr>
+              {expandedRows.has(item.screenerCompanyId) && (
+                <CompanyDetails companyCode={item.companyCode} />
+              )}
+            </React.Fragment>
           ))}
         </tbody>
       </table>

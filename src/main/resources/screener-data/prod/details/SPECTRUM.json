@@ -3,14 +3,14 @@
     "screenerCompanyId" : "1274564",
     "companyCode" : "SPECTRUM",
     "companyName" : "Spectrum Electr.",
-    "screenerCompanyLink" : "https://www.screener.in/company/SPECTRUM/",
+    "screenerCompanyLink" : "https://www.screener.in/company/SPECTRUM/consolidated/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274564/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274564/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "SPECTRUM",
       "companyName" : "Spectrum Electr.",
-      "marketCap" : 1718.00,
-      "peRatio" : 55.80,
+      "marketCap" : 1982.00,
+      "peRatio" : 53.40,
       "description" : "Spectrum Electrical Industries Limited, incorporated in 1995, is engaged in the business of Injection Moulding, manufacturing of Electrical Press Components and Surface treatment of Automobile, Electrical and Stamped parts. [1]"
     },
     "companyScore" : {
@@ -20,33 +20,26 @@
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 0.00,
-      "pricePercentageAboveDma50" : 5.47,
-      "pricePercentageAboveDma100" : 5.81,
-      "pricePercentageAboveDma200" : 6.16,
+      "pricePercentageAboveDma50" : 5.02,
+      "pricePercentageAboveDma100" : 5.39,
+      "pricePercentageAboveDma200" : 5.78,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-      "salesGrowthPercentile" : 5.00,
-      "operatingProfitMarginPercentile" : 14.75,
-      "netProfitMarginPercentile" : 8.75,
-      "totalTechnicalScore" : 17.44,
-      "totalFundamentalScore" : 28.50,
-      "totalScore" : 45.93
+      "salesGrowthPercentile" : 16.92,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 9.86,
+      "totalTechnicalScore" : 16.19,
+      "totalFundamentalScore" : 46.78,
+      "totalScore" : 62.97
     }
   },
   "attributes" : {
     "companyCode" : "SPECTRUM",
     "companyName" : "Spectrum Electr.",
-    "marketCap" : 1718.00,
-    "peRatio" : 55.80,
+    "marketCap" : 1982.00,
+    "peRatio" : 53.40,
     "description" : "Spectrum Electrical Industries Limited, incorporated in 1995, is engaged in the business of Injection Moulding, manufacturing of Electrical Press Components and Surface treatment of Automobile, Electrical and Stamped parts. [1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-01-22",
-    "price" : 2157.65,
-    "dma50" : 2098.14,
-    "dma100" : null,
-    "dma200" : 1806.34,
-    "volume" : 5375.00
-  }, {
     "date" : "2025-01-23",
     "price" : 2114.95,
     "dma50" : 2098.80,
@@ -743,7 +736,7 @@
     "date" : "2025-06-19",
     "price" : 1507.20,
     "dma50" : 1686.47,
-    "dma100" : 1777.96,
+    "dma100" : null,
     "dma200" : 1767.51,
     "volume" : 14043.00
   }, {
@@ -1289,7 +1282,7 @@
     "date" : "2025-10-10",
     "price" : 1339.00,
     "dma50" : 1432.19,
-    "dma100" : 1519.29,
+    "dma100" : 1519.28,
     "dma200" : 1604.36,
     "volume" : 10503.00
   }, {
@@ -1534,7 +1527,7 @@
     "date" : "2025-12-02",
     "price" : 1204.60,
     "dma50" : 1372.85,
-    "dma100" : 1434.80,
+    "dma100" : 1434.79,
     "dma200" : 1533.73,
     "volume" : 6065.00
   }, {
@@ -1562,7 +1555,7 @@
     "date" : "2025-12-08",
     "price" : 1092.40,
     "dma50" : 1337.12,
-    "dma100" : 1418.59,
+    "dma100" : 1418.58,
     "dma200" : 1517.98,
     "volume" : 4937.00
   }, {
@@ -1775,14 +1768,21 @@
     "dma100" : 1306.04,
     "dma200" : 1424.67,
     "volume" : 3315.00
+  }, {
+    "date" : "2026-01-22",
+    "price" : 1200.70,
+    "dma50" : 1205.75,
+    "dma100" : 1303.04,
+    "dma200" : 1422.44,
+    "volume" : 12200.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-01-21",
-    "price" : 1093.80,
-    "dma50" : 1205.96,
-    "dma100" : 1306.04,
-    "dma200" : 1424.67,
-    "volume" : 3315.00
+    "date" : "2026-01-22",
+    "price" : 1200.70,
+    "dma50" : 1205.75,
+    "dma100" : 1303.04,
+    "dma200" : 1422.44,
+    "volume" : 12200.00
   },
   "quarterlyResults" : [ {
     "date" : "2019-09-30",
@@ -1944,17 +1944,27 @@
     "operatingProfit" : 14.76,
     "netProfitMargin" : 6.83,
     "netProfit" : 7.93
+  }, {
+    "date" : "2025-12-31",
+    "sales" : 119.70,
+    "salesGrowthYoY" : 71.34,
+    "grossProfitMargin" : 33.48,
+    "grossProfit" : 40.08,
+    "operatingProfitMargin" : 15.25,
+    "operatingProfit" : 18.25,
+    "netProfitMargin" : 7.69,
+    "netProfit" : 9.20
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2025-09-30",
-    "sales" : 116.06,
-    "salesGrowthYoY" : -25.19,
-    "grossProfitMargin" : 32.34,
-    "grossProfit" : 37.53,
-    "operatingProfitMargin" : 12.72,
-    "operatingProfit" : 14.76,
-    "netProfitMargin" : 6.83,
-    "netProfit" : 7.93
+    "date" : "2025-12-31",
+    "sales" : 119.70,
+    "salesGrowthYoY" : 71.34,
+    "grossProfitMargin" : 33.48,
+    "grossProfit" : 40.08,
+    "operatingProfitMargin" : 15.25,
+    "operatingProfit" : 18.25,
+    "netProfitMargin" : 7.69,
+    "netProfit" : 9.20
   },
   "companyScore" : {
     "priceHigherThanDma50" : 0.00,
@@ -1963,15 +1973,15 @@
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 0.00,
-    "pricePercentageAboveDma50" : 5.47,
-    "pricePercentageAboveDma100" : 5.81,
-    "pricePercentageAboveDma200" : 6.16,
+    "pricePercentageAboveDma50" : 5.02,
+    "pricePercentageAboveDma100" : 5.39,
+    "pricePercentageAboveDma200" : 5.78,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-    "salesGrowthPercentile" : 5.00,
-    "operatingProfitMarginPercentile" : 14.75,
-    "netProfitMarginPercentile" : 8.75,
-    "totalTechnicalScore" : 17.44,
-    "totalFundamentalScore" : 28.50,
-    "totalScore" : 45.93
+    "salesGrowthPercentile" : 16.92,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 9.86,
+    "totalTechnicalScore" : 16.19,
+    "totalFundamentalScore" : 46.78,
+    "totalScore" : 62.97
   }
 }

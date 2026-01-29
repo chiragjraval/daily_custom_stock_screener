@@ -9,44 +9,37 @@
     "attributes" : {
       "companyCode" : "CUPID",
       "companyName" : "Cupid",
-      "marketCap" : 10634.00,
-      "peRatio" : 172.00,
+      "marketCap" : 10494.00,
+      "peRatio" : 126.00,
       "description" : "Established in 1993, CUPID Limited is India's premier manufacturer of male and female condoms, personal lubricant, and IVD kits.[1]"
     },
     "companyScore" : {
-      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma50" : 0.00,
       "priceHigherThanDma100" : 5.00,
       "priceHigherThanDma200" : 5.00,
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.94,
-      "pricePercentageAboveDma100" : 3.73,
-      "pricePercentageAboveDma200" : 2.24,
+      "pricePercentageAboveDma50" : 5.03,
+      "pricePercentageAboveDma100" : 3.88,
+      "pricePercentageAboveDma200" : 2.41,
       "weeklyVolumeHigherThanYearlyVolume" : 5.00,
-      "salesGrowthPercentile" : 16.20,
-      "operatingProfitMarginPercentile" : 17.59,
-      "netProfitMarginPercentile" : 9.64,
-      "totalTechnicalScore" : 45.90,
-      "totalFundamentalScore" : 43.43,
-      "totalScore" : 89.34
+      "salesGrowthPercentile" : 17.00,
+      "operatingProfitMarginPercentile" : 19.29,
+      "netProfitMarginPercentile" : 9.88,
+      "totalTechnicalScore" : 41.32,
+      "totalFundamentalScore" : 46.17,
+      "totalScore" : 87.49
     }
   },
   "attributes" : {
     "companyCode" : "CUPID",
     "companyName" : "Cupid",
-    "marketCap" : 10634.00,
-    "peRatio" : 172.00,
+    "marketCap" : 10494.00,
+    "peRatio" : 126.00,
     "description" : "Established in 1993, CUPID Limited is India's premier manufacturer of male and female condoms, personal lubricant, and IVD kits.[1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-01-29",
-    "price" : 70.77,
-    "dma50" : 76.18,
-    "dma100" : null,
-    "dma200" : 80.53,
-    "volume" : 317210.00
-  }, {
     "date" : "2025-01-30",
     "price" : 71.19,
     "dma50" : 75.98,
@@ -743,7 +736,7 @@
     "date" : "2025-06-26",
     "price" : 103.95,
     "dma50" : 92.19,
-    "dma100" : 79.56,
+    "dma100" : null,
     "dma200" : 82.23,
     "volume" : 3010636.00
   }, {
@@ -1768,14 +1761,21 @@
     "dma100" : 316.63,
     "dma200" : 255.78,
     "volume" : 6323584.00
+  }, {
+    "date" : "2026-01-29",
+    "price" : 390.20,
+    "dma50" : 392.44,
+    "dma100" : 318.72,
+    "dma200" : 257.11,
+    "volume" : 4824779.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-01-28",
-    "price" : 397.20,
-    "dma50" : 392.53,
-    "dma100" : 316.63,
-    "dma200" : 255.78,
-    "volume" : 6323584.00
+    "date" : "2026-01-29",
+    "price" : 390.20,
+    "dma50" : 392.44,
+    "dma100" : 318.72,
+    "dma200" : 257.11,
+    "volume" : 4824779.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2573,10 +2573,10 @@
     "salesGrowthYoY" : 26.74,
     "grossProfitMargin" : 66.84,
     "grossProfit" : 33.93,
-    "operatingProfitMargin" : 31.05,
-    "operatingProfit" : 15.76,
-    "netProfitMargin" : 21.75,
-    "netProfit" : 11.04
+    "operatingProfitMargin" : 31.13,
+    "operatingProfit" : 15.80,
+    "netProfitMargin" : 21.83,
+    "netProfit" : 11.08
   }, {
     "date" : "2025-03-31",
     "sales" : 61.11,
@@ -2607,34 +2607,44 @@
     "operatingProfit" : 34.18,
     "netProfitMargin" : 26.74,
     "netProfit" : 24.12
+  }, {
+    "date" : "2025-12-31",
+    "sales" : 104.40,
+    "salesGrowthYoY" : 105.67,
+    "grossProfitMargin" : 66.34,
+    "grossProfit" : 69.26,
+    "operatingProfitMargin" : 43.31,
+    "operatingProfit" : 45.22,
+    "netProfitMargin" : 31.48,
+    "netProfit" : 32.87
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2025-09-30",
-    "sales" : 90.21,
-    "salesGrowthYoY" : 90.80,
-    "grossProfitMargin" : 62.04,
-    "grossProfit" : 55.97,
-    "operatingProfitMargin" : 37.89,
-    "operatingProfit" : 34.18,
-    "netProfitMargin" : 26.74,
-    "netProfit" : 24.12
+    "date" : "2025-12-31",
+    "sales" : 104.40,
+    "salesGrowthYoY" : 105.67,
+    "grossProfitMargin" : 66.34,
+    "grossProfit" : 69.26,
+    "operatingProfitMargin" : 43.31,
+    "operatingProfit" : 45.22,
+    "netProfitMargin" : 31.48,
+    "netProfit" : 32.87
   },
   "companyScore" : {
-    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma50" : 0.00,
     "priceHigherThanDma100" : 5.00,
     "priceHigherThanDma200" : 5.00,
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.94,
-    "pricePercentageAboveDma100" : 3.73,
-    "pricePercentageAboveDma200" : 2.24,
+    "pricePercentageAboveDma50" : 5.03,
+    "pricePercentageAboveDma100" : 3.88,
+    "pricePercentageAboveDma200" : 2.41,
     "weeklyVolumeHigherThanYearlyVolume" : 5.00,
-    "salesGrowthPercentile" : 16.20,
-    "operatingProfitMarginPercentile" : 17.59,
-    "netProfitMarginPercentile" : 9.64,
-    "totalTechnicalScore" : 45.90,
-    "totalFundamentalScore" : 43.43,
-    "totalScore" : 89.34
+    "salesGrowthPercentile" : 17.00,
+    "operatingProfitMarginPercentile" : 19.29,
+    "netProfitMarginPercentile" : 9.88,
+    "totalTechnicalScore" : 41.32,
+    "totalFundamentalScore" : 46.17,
+    "totalScore" : 87.49
   }
 }

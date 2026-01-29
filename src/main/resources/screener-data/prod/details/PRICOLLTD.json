@@ -9,44 +9,37 @@
     "attributes" : {
       "companyCode" : "PRICOLLTD",
       "companyName" : "Pricol Ltd",
-      "marketCap" : 6802.00,
-      "peRatio" : 35.80,
+      "marketCap" : 6551.00,
+      "peRatio" : 30.80,
       "description" : "Pricol Limited is engaged in the business of manufacturing and selling of instrument clusters and other allied automobile components to OEMs and replacement markets.[1] The business was started in 1974 and is headquartered in Coimbatore, Tamil Nadu.[2]"
     },
     "companyScore" : {
       "priceHigherThanDma50" : 0.00,
       "priceHigherThanDma100" : 0.00,
-      "priceHigherThanDma200" : 5.00,
+      "priceHigherThanDma200" : 0.00,
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 5.40,
-      "pricePercentageAboveDma100" : 5.18,
-      "pricePercentageAboveDma200" : 4.83,
+      "pricePercentageAboveDma50" : 5.56,
+      "pricePercentageAboveDma100" : 5.37,
+      "pricePercentageAboveDma200" : 5.02,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-      "salesGrowthPercentile" : 10.56,
-      "operatingProfitMarginPercentile" : 15.41,
-      "netProfitMarginPercentile" : 9.27,
-      "totalTechnicalScore" : 35.41,
-      "totalFundamentalScore" : 35.24,
-      "totalScore" : 70.65
+      "salesGrowthPercentile" : 15.68,
+      "operatingProfitMarginPercentile" : 15.08,
+      "netProfitMarginPercentile" : 9.14,
+      "totalTechnicalScore" : 30.95,
+      "totalFundamentalScore" : 39.90,
+      "totalScore" : 70.84
     }
   },
   "attributes" : {
     "companyCode" : "PRICOLLTD",
     "companyName" : "Pricol Ltd",
-    "marketCap" : 6802.00,
-    "peRatio" : 35.80,
+    "marketCap" : 6551.00,
+    "peRatio" : 30.80,
     "description" : "Pricol Limited is engaged in the business of manufacturing and selling of instrument clusters and other allied automobile components to OEMs and replacement markets.[1] The business was started in 1974 and is headquartered in Coimbatore, Tamil Nadu.[2]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-01-29",
-    "price" : 498.40,
-    "dma50" : 519.18,
-    "dma100" : null,
-    "dma200" : 475.65,
-    "volume" : 362940.00
-  }, {
     "date" : "2025-01-30",
     "price" : 495.70,
     "dma50" : 518.25,
@@ -743,7 +736,7 @@
     "date" : "2025-06-26",
     "price" : 445.10,
     "dma50" : 441.99,
-    "dma100" : 444.42,
+    "dma100" : null,
     "dma200" : 454.73,
     "volume" : 134219.00
   }, {
@@ -1768,14 +1761,21 @@
     "dma100" : 580.35,
     "dma200" : 540.15,
     "volume" : 384643.00
+  }, {
+    "date" : "2026-01-29",
+    "price" : 537.85,
+    "dma50" : 605.24,
+    "dma100" : 580.83,
+    "dma200" : 540.12,
+    "volume" : 682854.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-01-28",
-    "price" : 558.95,
-    "dma50" : 607.99,
-    "dma100" : 580.35,
-    "dma200" : 540.15,
-    "volume" : 384643.00
+    "date" : "2026-01-29",
+    "price" : 537.85,
+    "dma50" : 605.24,
+    "dma100" : 580.83,
+    "dma200" : 540.12,
+    "volume" : 682854.00
   },
   "quarterlyResults" : [ {
     "date" : "2015-12-31",
@@ -2177,34 +2177,44 @@
     "operatingProfit" : 87.72,
     "netProfitMargin" : 6.01,
     "netProfit" : 45.53
+  }, {
+    "date" : "2025-12-31",
+    "sales" : 800.03,
+    "salesGrowthYoY" : 26.99,
+    "grossProfitMargin" : 29.48,
+    "grossProfit" : 235.85,
+    "operatingProfitMargin" : 11.22,
+    "operatingProfit" : 89.76,
+    "netProfitMargin" : 5.56,
+    "netProfit" : 44.48
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2025-09-30",
-    "sales" : 757.51,
-    "salesGrowthYoY" : 14.11,
-    "grossProfitMargin" : 29.12,
-    "grossProfit" : 220.59,
-    "operatingProfitMargin" : 11.58,
-    "operatingProfit" : 87.72,
-    "netProfitMargin" : 6.01,
-    "netProfit" : 45.53
+    "date" : "2025-12-31",
+    "sales" : 800.03,
+    "salesGrowthYoY" : 26.99,
+    "grossProfitMargin" : 29.48,
+    "grossProfit" : 235.85,
+    "operatingProfitMargin" : 11.22,
+    "operatingProfit" : 89.76,
+    "netProfitMargin" : 5.56,
+    "netProfit" : 44.48
   },
   "companyScore" : {
     "priceHigherThanDma50" : 0.00,
     "priceHigherThanDma100" : 0.00,
-    "priceHigherThanDma200" : 5.00,
+    "priceHigherThanDma200" : 0.00,
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 5.40,
-    "pricePercentageAboveDma100" : 5.18,
-    "pricePercentageAboveDma200" : 4.83,
+    "pricePercentageAboveDma50" : 5.56,
+    "pricePercentageAboveDma100" : 5.37,
+    "pricePercentageAboveDma200" : 5.02,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-    "salesGrowthPercentile" : 10.56,
-    "operatingProfitMarginPercentile" : 15.41,
-    "netProfitMarginPercentile" : 9.27,
-    "totalTechnicalScore" : 35.41,
-    "totalFundamentalScore" : 35.24,
-    "totalScore" : 70.65
+    "salesGrowthPercentile" : 15.68,
+    "operatingProfitMarginPercentile" : 15.08,
+    "netProfitMarginPercentile" : 9.14,
+    "totalTechnicalScore" : 30.95,
+    "totalFundamentalScore" : 39.90,
+    "totalScore" : 70.84
   }
 }

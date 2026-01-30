@@ -9,8 +9,8 @@
     "attributes" : {
       "companyCode" : "WELCORP",
       "companyName" : "Welspun Corp",
-      "marketCap" : 19629.00,
-      "peRatio" : 11.10,
+      "marketCap" : 19230.00,
+      "peRatio" : 12.40,
       "description" : "WCL is one of the largest manufacturers of large diameter pipes globally. The company also manufactures BIS-certified Steel Billets, TMT (Thermo-Mechanically Treated) Rebars, Ductile Iron (DI) Pipes, Stainless Steel Pipes, and Tubes & Bars. The company acquired Sintex-BAPL, a market leader in water tanks and other plastic products, to expand its building materials portfolio. It has also made strategic acquisition of specified assets of ABG Shipyard. [1]"
     },
     "companyScore" : {
@@ -20,33 +20,26 @@
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 5.33,
-      "pricePercentageAboveDma100" : 5.58,
-      "pricePercentageAboveDma200" : 5.49,
+      "pricePercentageAboveDma50" : 5.40,
+      "pricePercentageAboveDma100" : 5.66,
+      "pricePercentageAboveDma200" : 5.57,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-      "salesGrowthPercentile" : 6.58,
-      "operatingProfitMarginPercentile" : 15.92,
-      "netProfitMarginPercentile" : 9.40,
-      "totalTechnicalScore" : 21.40,
-      "totalFundamentalScore" : 31.90,
-      "totalScore" : 53.30
+      "salesGrowthPercentile" : 7.50,
+      "operatingProfitMarginPercentile" : 16.34,
+      "netProfitMarginPercentile" : 7.38,
+      "totalTechnicalScore" : 21.63,
+      "totalFundamentalScore" : 31.22,
+      "totalScore" : 52.85
     }
   },
   "attributes" : {
     "companyCode" : "WELCORP",
     "companyName" : "Welspun Corp",
-    "marketCap" : 19629.00,
-    "peRatio" : 11.10,
+    "marketCap" : 19230.00,
+    "peRatio" : 12.40,
     "description" : "WCL is one of the largest manufacturers of large diameter pipes globally. The company also manufactures BIS-certified Steel Billets, TMT (Thermo-Mechanically Treated) Rebars, Ductile Iron (DI) Pipes, Stainless Steel Pipes, and Tubes & Bars. The company acquired Sintex-BAPL, a market leader in water tanks and other plastic products, to expand its building materials portfolio. It has also made strategic acquisition of specified assets of ABG Shipyard. [1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-01-30",
-    "price" : 721.75,
-    "dma50" : 765.20,
-    "dma100" : null,
-    "dma200" : 684.56,
-    "volume" : 213853.00
-  }, {
     "date" : "2025-01-31",
     "price" : 742.00,
     "dma50" : 764.29,
@@ -743,7 +736,7 @@
     "date" : "2025-06-27",
     "price" : 940.40,
     "dma50" : 865.08,
-    "dma100" : 812.34,
+    "dma100" : null,
     "dma200" : 774.31,
     "volume" : 706213.00
   }, {
@@ -1768,14 +1761,21 @@
     "dma100" : 840.75,
     "dma200" : 824.72,
     "volume" : 521310.00
+  }, {
+    "date" : "2026-01-30",
+    "price" : 729.25,
+    "dma50" : 792.62,
+    "dma100" : 839.57,
+    "dma200" : 823.77,
+    "volume" : 1282232.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-01-29",
-    "price" : 743.15,
-    "dma50" : 795.21,
-    "dma100" : 840.75,
-    "dma200" : 824.72,
-    "volume" : 521310.00
+    "date" : "2026-01-30",
+    "price" : 729.25,
+    "dma50" : 792.62,
+    "dma100" : 839.57,
+    "dma200" : 823.77,
+    "volume" : 1282232.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2607,17 +2607,27 @@
     "operatingProfit" : 188.25,
     "netProfitMargin" : 12.70,
     "netProfit" : 231.45
+  }, {
+    "date" : "2025-12-31",
+    "sales" : 2378.16,
+    "salesGrowthYoY" : -2.88,
+    "grossProfitMargin" : 27.45,
+    "grossProfit" : 652.80,
+    "operatingProfitMargin" : 11.14,
+    "operatingProfit" : 264.93,
+    "netProfitMargin" : 6.77,
+    "netProfit" : 161.00
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2025-09-30",
-    "sales" : 1822.41,
-    "salesGrowthYoY" : -10.35,
-    "grossProfitMargin" : 29.92,
-    "grossProfit" : 545.27,
-    "operatingProfitMargin" : 10.33,
-    "operatingProfit" : 188.25,
-    "netProfitMargin" : 12.70,
-    "netProfit" : 231.45
+    "date" : "2025-12-31",
+    "sales" : 2378.16,
+    "salesGrowthYoY" : -2.88,
+    "grossProfitMargin" : 27.45,
+    "grossProfit" : 652.80,
+    "operatingProfitMargin" : 11.14,
+    "operatingProfit" : 264.93,
+    "netProfitMargin" : 6.77,
+    "netProfit" : 161.00
   },
   "companyScore" : {
     "priceHigherThanDma50" : 0.00,
@@ -2626,15 +2636,15 @@
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 5.33,
-    "pricePercentageAboveDma100" : 5.58,
-    "pricePercentageAboveDma200" : 5.49,
+    "pricePercentageAboveDma50" : 5.40,
+    "pricePercentageAboveDma100" : 5.66,
+    "pricePercentageAboveDma200" : 5.57,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-    "salesGrowthPercentile" : 6.58,
-    "operatingProfitMarginPercentile" : 15.92,
-    "netProfitMarginPercentile" : 9.40,
-    "totalTechnicalScore" : 21.40,
-    "totalFundamentalScore" : 31.90,
-    "totalScore" : 53.30
+    "salesGrowthPercentile" : 7.50,
+    "operatingProfitMarginPercentile" : 16.34,
+    "netProfitMarginPercentile" : 7.38,
+    "totalTechnicalScore" : 21.63,
+    "totalFundamentalScore" : 31.22,
+    "totalScore" : 52.85
   }
 }

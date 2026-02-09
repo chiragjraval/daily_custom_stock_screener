@@ -9,34 +9,34 @@
     "attributes" : {
       "companyCode" : "JAINREC",
       "companyName" : "Jain Resource",
-      "marketCap" : 13415.00,
-      "peRatio" : 53.00,
+      "marketCap" : 13867.00,
+      "peRatio" : 40.70,
       "description" : "Incorporated in 2022, Jain Resource Recycling and its subsidiaries specialize in recycling non-ferrous metal scrap and producing lead, copper, and aluminium alloys. Its lead ingots are London Metal Exchange-registered, ensuring international quality standards. The company also trades non-ferrous metals and commodities.[1]"
     },
     "companyScore" : {
-      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma50" : 5.00,
       "priceHigherThanDma100" : 0.00,
       "priceHigherThanDma200" : 5.00,
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 0.00,
-      "pricePercentageAboveDma50" : 5.09,
+      "pricePercentageAboveDma50" : 4.93,
       "pricePercentageAboveDma100" : 0.00,
-      "pricePercentageAboveDma200" : 4.64,
+      "pricePercentageAboveDma200" : 4.46,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 20.00,
-      "operatingProfitMarginPercentile" : 20.00,
-      "netProfitMarginPercentile" : 10.00,
-      "totalTechnicalScore" : 19.73,
-      "totalFundamentalScore" : 50.00,
-      "totalScore" : 69.73
+      "operatingProfitMarginPercentile" : 17.14,
+      "netProfitMarginPercentile" : 9.75,
+      "totalTechnicalScore" : 24.40,
+      "totalFundamentalScore" : 46.89,
+      "totalScore" : 71.29
     }
   },
   "attributes" : {
     "companyCode" : "JAINREC",
     "companyName" : "Jain Resource",
-    "marketCap" : 13415.00,
-    "peRatio" : 53.00,
+    "marketCap" : 13867.00,
+    "peRatio" : 40.70,
     "description" : "Incorporated in 2022, Jain Resource Recycling and its subsidiaries specialize in recycling non-ferrous metal scrap and producing lead, copper, and aluminium alloys. Its lead ingots are London Metal Exchange-registered, ensuring international quality standards. The company also trades non-ferrous metals and commodities.[1]"
   },
   "technicalHistory" : [ {
@@ -655,14 +655,21 @@
     "dma100" : null,
     "dma200" : 362.49,
     "volume" : 985577.00
+  }, {
+    "date" : "2026-02-09",
+    "price" : 401.80,
+    "dma50" : 396.41,
+    "dma100" : null,
+    "dma200" : 362.88,
+    "volume" : 5298811.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-02-06",
-    "price" : 388.75,
-    "dma50" : 396.19,
+    "date" : "2026-02-09",
+    "price" : 401.80,
+    "dma50" : 396.41,
     "dma100" : null,
-    "dma200" : 362.49,
-    "volume" : 985577.00
+    "dma200" : 362.88,
+    "volume" : 5298811.00
   },
   "quarterlyResults" : [ {
     "date" : "2024-06-30",
@@ -685,6 +692,16 @@
     "netProfitMargin" : 4.07,
     "netProfit" : 54.68
   }, {
+    "date" : "2024-12-31",
+    "sales" : 1724.18,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 7.77,
+    "grossProfit" : 133.97,
+    "operatingProfitMargin" : 4.41,
+    "operatingProfit" : 76.04,
+    "netProfitMargin" : 2.42,
+    "netProfit" : 41.73
+  }, {
     "date" : "2025-03-31",
     "sales" : 1639.21,
     "salesGrowthYoY" : null,
@@ -697,7 +714,7 @@
   }, {
     "date" : "2025-06-30",
     "sales" : 1469.69,
-    "salesGrowthYoY" : null,
+    "salesGrowthYoY" : 2.31,
     "grossProfitMargin" : 10.13,
     "grossProfit" : 148.88,
     "operatingProfitMargin" : 5.99,
@@ -707,41 +724,51 @@
   }, {
     "date" : "2025-09-30",
     "sales" : 2054.91,
-    "salesGrowthYoY" : 43.05,
+    "salesGrowthYoY" : 52.96,
     "grossProfitMargin" : 10.96,
     "grossProfit" : 225.22,
     "operatingProfitMargin" : 7.60,
     "operatingProfit" : 156.17,
     "netProfitMargin" : 4.80,
     "netProfit" : 98.64
+  }, {
+    "date" : "2025-12-31",
+    "sales" : 2676.21,
+    "salesGrowthYoY" : 55.22,
+    "grossProfitMargin" : 9.98,
+    "grossProfit" : 267.09,
+    "operatingProfitMargin" : 7.09,
+    "operatingProfit" : 189.74,
+    "netProfitMargin" : 4.74,
+    "netProfit" : 126.85
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2025-09-30",
-    "sales" : 2054.91,
-    "salesGrowthYoY" : 43.05,
-    "grossProfitMargin" : 10.96,
-    "grossProfit" : 225.22,
-    "operatingProfitMargin" : 7.60,
-    "operatingProfit" : 156.17,
-    "netProfitMargin" : 4.80,
-    "netProfit" : 98.64
+    "date" : "2025-12-31",
+    "sales" : 2676.21,
+    "salesGrowthYoY" : 55.22,
+    "grossProfitMargin" : 9.98,
+    "grossProfit" : 267.09,
+    "operatingProfitMargin" : 7.09,
+    "operatingProfit" : 189.74,
+    "netProfitMargin" : 4.74,
+    "netProfit" : 126.85
   },
   "companyScore" : {
-    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma50" : 5.00,
     "priceHigherThanDma100" : 0.00,
     "priceHigherThanDma200" : 5.00,
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 0.00,
-    "pricePercentageAboveDma50" : 5.09,
+    "pricePercentageAboveDma50" : 4.93,
     "pricePercentageAboveDma100" : 0.00,
-    "pricePercentageAboveDma200" : 4.64,
+    "pricePercentageAboveDma200" : 4.46,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 20.00,
-    "operatingProfitMarginPercentile" : 20.00,
-    "netProfitMarginPercentile" : 10.00,
-    "totalTechnicalScore" : 19.73,
-    "totalFundamentalScore" : 50.00,
-    "totalScore" : 69.73
+    "operatingProfitMarginPercentile" : 17.14,
+    "netProfitMarginPercentile" : 9.75,
+    "totalTechnicalScore" : 24.40,
+    "totalFundamentalScore" : 46.89,
+    "totalScore" : 71.29
   }
 }

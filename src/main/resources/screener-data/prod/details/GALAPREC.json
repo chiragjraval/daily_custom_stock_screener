@@ -9,58 +9,37 @@
     "attributes" : {
       "companyCode" : "GALAPREC",
       "companyName" : "Gala Precis. Eng",
-      "marketCap" : 1050.00,
-      "peRatio" : 34.50,
+      "marketCap" : 1031.00,
+      "peRatio" : 30.20,
       "description" : "Incorporated in 2009, Gala Precision Engineering Ltd manufactures high- quality Technical Springs and High Tensile Fasteners[1]"
     },
     "companyScore" : {
       "priceHigherThanDma50" : 5.00,
       "priceHigherThanDma100" : 5.00,
       "priceHigherThanDma200" : 5.00,
-      "dma50HigherThanDma100" : 0.00,
+      "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 0.00,
-      "pricePercentageAboveDma50" : 4.57,
-      "pricePercentageAboveDma100" : 4.59,
-      "pricePercentageAboveDma200" : 4.88,
+      "pricePercentageAboveDma50" : 4.70,
+      "pricePercentageAboveDma100" : 4.69,
+      "pricePercentageAboveDma200" : 4.98,
       "weeklyVolumeHigherThanYearlyVolume" : 5.00,
       "salesGrowthPercentile" : 20.00,
-      "operatingProfitMarginPercentile" : 8.00,
-      "netProfitMarginPercentile" : 5.50,
-      "totalTechnicalScore" : 34.04,
-      "totalFundamentalScore" : 33.50,
-      "totalScore" : 67.54
+      "operatingProfitMarginPercentile" : 10.91,
+      "netProfitMarginPercentile" : 4.55,
+      "totalTechnicalScore" : 39.37,
+      "totalFundamentalScore" : 35.45,
+      "totalScore" : 74.82
     }
   },
   "attributes" : {
     "companyCode" : "GALAPREC",
     "companyName" : "Gala Precis. Eng",
-    "marketCap" : 1050.00,
-    "peRatio" : 34.50,
+    "marketCap" : 1031.00,
+    "peRatio" : 30.20,
     "description" : "Incorporated in 2009, Gala Precision Engineering Ltd manufactures high- quality Technical Springs and High Tensile Fasteners[1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-02-05",
-    "price" : 1061.50,
-    "dma50" : 1092.00,
-    "dma100" : null,
-    "dma200" : 948.99,
-    "volume" : 64892.00
-  }, {
-    "date" : "2025-02-06",
-    "price" : 1037.85,
-    "dma50" : 1089.87,
-    "dma100" : null,
-    "dma200" : 949.88,
-    "volume" : 61341.00
-  }, {
-    "date" : "2025-02-07",
-    "price" : 1021.25,
-    "dma50" : 1087.18,
-    "dma100" : null,
-    "dma200" : 950.59,
-    "volume" : 34227.00
-  }, {
     "date" : "2025-02-10",
     "price" : 1009.35,
     "dma50" : 1084.13,
@@ -743,21 +722,21 @@
     "date" : "2025-07-04",
     "price" : 850.80,
     "dma50" : 881.52,
-    "dma100" : 880.11,
+    "dma100" : null,
     "dma200" : 903.55,
     "volume" : 25449.00
   }, {
     "date" : "2025-07-07",
     "price" : 854.35,
     "dma50" : 880.46,
-    "dma100" : 878.27,
+    "dma100" : null,
     "dma200" : 903.06,
     "volume" : 21753.00
   }, {
     "date" : "2025-07-08",
     "price" : 849.35,
     "dma50" : 879.24,
-    "dma100" : 876.55,
+    "dma100" : null,
     "dma200" : 902.52,
     "volume" : 10353.00
   }, {
@@ -1768,14 +1747,35 @@
     "dma100" : 759.95,
     "dma200" : 802.15,
     "volume" : 11469.00
+  }, {
+    "date" : "2026-02-05",
+    "price" : 764.90,
+    "dma50" : 756.43,
+    "dma100" : 759.25,
+    "dma200" : 801.78,
+    "volume" : 127288.00
+  }, {
+    "date" : "2026-02-06",
+    "price" : 779.95,
+    "dma50" : 757.35,
+    "dma100" : 758.80,
+    "dma200" : 801.56,
+    "volume" : 44017.00
+  }, {
+    "date" : "2026-02-09",
+    "price" : 805.30,
+    "dma50" : 759.23,
+    "dma100" : 758.57,
+    "dma200" : 801.60,
+    "volume" : 25712.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-02-04",
-    "price" : 821.85,
-    "dma50" : 756.09,
-    "dma100" : 759.95,
-    "dma200" : 802.15,
-    "volume" : 11469.00
+    "date" : "2026-02-09",
+    "price" : 805.30,
+    "dma50" : 759.23,
+    "dma100" : 758.57,
+    "dma200" : 801.60,
+    "volume" : 25712.00
   },
   "quarterlyResults" : [ {
     "date" : "2023-06-30",
@@ -1877,34 +1877,44 @@
     "operatingProfit" : 11.04,
     "netProfitMargin" : 11.75,
     "netProfit" : 8.39
+  }, {
+    "date" : "2025-12-31",
+    "sales" : 85.25,
+    "salesGrowthYoY" : 46.68,
+    "grossProfitMargin" : 59.17,
+    "grossProfit" : 50.44,
+    "operatingProfitMargin" : 17.00,
+    "operatingProfit" : 14.49,
+    "netProfitMargin" : 10.58,
+    "netProfit" : 9.02
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2025-09-30",
-    "sales" : 71.41,
-    "salesGrowthYoY" : 39.39,
-    "grossProfitMargin" : 61.08,
-    "grossProfit" : 43.62,
-    "operatingProfitMargin" : 15.46,
-    "operatingProfit" : 11.04,
-    "netProfitMargin" : 11.75,
-    "netProfit" : 8.39
+    "date" : "2025-12-31",
+    "sales" : 85.25,
+    "salesGrowthYoY" : 46.68,
+    "grossProfitMargin" : 59.17,
+    "grossProfit" : 50.44,
+    "operatingProfitMargin" : 17.00,
+    "operatingProfit" : 14.49,
+    "netProfitMargin" : 10.58,
+    "netProfit" : 9.02
   },
   "companyScore" : {
     "priceHigherThanDma50" : 5.00,
     "priceHigherThanDma100" : 5.00,
     "priceHigherThanDma200" : 5.00,
-    "dma50HigherThanDma100" : 0.00,
+    "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 0.00,
-    "pricePercentageAboveDma50" : 4.57,
-    "pricePercentageAboveDma100" : 4.59,
-    "pricePercentageAboveDma200" : 4.88,
+    "pricePercentageAboveDma50" : 4.70,
+    "pricePercentageAboveDma100" : 4.69,
+    "pricePercentageAboveDma200" : 4.98,
     "weeklyVolumeHigherThanYearlyVolume" : 5.00,
     "salesGrowthPercentile" : 20.00,
-    "operatingProfitMarginPercentile" : 8.00,
-    "netProfitMarginPercentile" : 5.50,
-    "totalTechnicalScore" : 34.04,
-    "totalFundamentalScore" : 33.50,
-    "totalScore" : 67.54
+    "operatingProfitMarginPercentile" : 10.91,
+    "netProfitMarginPercentile" : 4.55,
+    "totalTechnicalScore" : 39.37,
+    "totalFundamentalScore" : 35.45,
+    "totalScore" : 74.82
   }
 }

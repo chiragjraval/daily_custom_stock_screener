@@ -9,8 +9,8 @@
     "attributes" : {
       "companyCode" : "LOTUSDEV",
       "companyName" : "Sri Lotus",
-      "marketCap" : 7173.00,
-      "peRatio" : 32.10,
+      "marketCap" : 7329.00,
+      "peRatio" : 32.20,
       "description" : "Incorporated in February 2015, Sri Lotus Developers and Realty Limited is a developer of residential and commercial properties located in Mumbai, specializing in redevelopment projects within the ultra-luxury and luxury segments of the western suburbs.[1]"
     },
     "companyScore" : {
@@ -20,23 +20,23 @@
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 0.00,
-      "pricePercentageAboveDma50" : 5.32,
-      "pricePercentageAboveDma100" : 5.65,
-      "pricePercentageAboveDma200" : 5.82,
+      "pricePercentageAboveDma50" : 5.22,
+      "pricePercentageAboveDma100" : 5.55,
+      "pricePercentageAboveDma200" : 5.73,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-      "salesGrowthPercentile" : 20.00,
-      "operatingProfitMarginPercentile" : 4.00,
-      "netProfitMarginPercentile" : 8.31,
-      "totalTechnicalScore" : 16.78,
-      "totalFundamentalScore" : 32.31,
-      "totalScore" : 49.09
+      "salesGrowthPercentile" : 6.67,
+      "operatingProfitMarginPercentile" : 20.00,
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 16.49,
+      "totalFundamentalScore" : 36.67,
+      "totalScore" : 53.16
     }
   },
   "attributes" : {
     "companyCode" : "LOTUSDEV",
     "companyName" : "Sri Lotus",
-    "marketCap" : 7173.00,
-    "peRatio" : 32.10,
+    "marketCap" : 7329.00,
+    "peRatio" : 32.20,
     "description" : "Incorporated in February 2015, Sri Lotus Developers and Realty Limited is a developer of residential and commercial properties located in Mumbai, specializing in redevelopment projects within the ultra-luxury and luxury segments of the western suburbs.[1]"
   },
   "technicalHistory" : [ {
@@ -921,14 +921,21 @@
     "dma100" : 168.61,
     "dma200" : 175.38,
     "volume" : 889512.00
+  }, {
+    "date" : "2026-02-09",
+    "price" : 149.69,
+    "dma50" : 156.42,
+    "dma100" : 168.27,
+    "dma200" : 175.12,
+    "volume" : 3339293.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-02-06",
-    "price" : 146.76,
-    "dma50" : 156.70,
-    "dma100" : 168.61,
-    "dma200" : 175.38,
-    "volume" : 889512.00
+    "date" : "2026-02-09",
+    "price" : 149.69,
+    "dma50" : 156.42,
+    "dma100" : 168.27,
+    "dma200" : 175.12,
+    "volume" : 3339293.00
   },
   "quarterlyResults" : [ {
     "date" : "2024-06-30",
@@ -951,6 +958,16 @@
     "netProfitMargin" : 46.91,
     "netProfit" : 47.23
   }, {
+    "date" : "2024-12-31",
+    "sales" : 80.27,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 80.37,
+    "grossProfit" : 64.51,
+    "operatingProfitMargin" : 65.88,
+    "operatingProfit" : 52.88,
+    "netProfitMargin" : 54.74,
+    "netProfit" : 43.94
+  }, {
     "date" : "2025-03-31",
     "sales" : 142.43,
     "salesGrowthYoY" : null,
@@ -963,7 +980,7 @@
   }, {
     "date" : "2025-06-30",
     "sales" : 36.65,
-    "salesGrowthYoY" : null,
+    "salesGrowthYoY" : -42.60,
     "grossProfitMargin" : 88.68,
     "grossProfit" : 32.50,
     "operatingProfitMargin" : 70.80,
@@ -973,24 +990,34 @@
   }, {
     "date" : "2025-09-30",
     "sales" : 38.61,
-    "salesGrowthYoY" : -39.53,
+    "salesGrowthYoY" : -61.65,
     "grossProfitMargin" : 74.20,
     "grossProfit" : 28.65,
     "operatingProfitMargin" : 51.90,
     "operatingProfit" : 20.04,
     "netProfitMargin" : 59.44,
     "netProfit" : 22.95
+  }, {
+    "date" : "2025-12-31",
+    "sales" : 30.00,
+    "salesGrowthYoY" : -62.63,
+    "grossProfitMargin" : 99.20,
+    "grossProfit" : 29.76,
+    "operatingProfitMargin" : 77.13,
+    "operatingProfit" : 23.14,
+    "netProfitMargin" : 89.87,
+    "netProfit" : 26.96
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2025-09-30",
-    "sales" : 38.61,
-    "salesGrowthYoY" : -39.53,
-    "grossProfitMargin" : 74.20,
-    "grossProfit" : 28.65,
-    "operatingProfitMargin" : 51.90,
-    "operatingProfit" : 20.04,
-    "netProfitMargin" : 59.44,
-    "netProfit" : 22.95
+    "date" : "2025-12-31",
+    "sales" : 30.00,
+    "salesGrowthYoY" : -62.63,
+    "grossProfitMargin" : 99.20,
+    "grossProfit" : 29.76,
+    "operatingProfitMargin" : 77.13,
+    "operatingProfit" : 23.14,
+    "netProfitMargin" : 89.87,
+    "netProfit" : 26.96
   },
   "companyScore" : {
     "priceHigherThanDma50" : 0.00,
@@ -999,15 +1026,15 @@
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 0.00,
-    "pricePercentageAboveDma50" : 5.32,
-    "pricePercentageAboveDma100" : 5.65,
-    "pricePercentageAboveDma200" : 5.82,
+    "pricePercentageAboveDma50" : 5.22,
+    "pricePercentageAboveDma100" : 5.55,
+    "pricePercentageAboveDma200" : 5.73,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-    "salesGrowthPercentile" : 20.00,
-    "operatingProfitMarginPercentile" : 4.00,
-    "netProfitMarginPercentile" : 8.31,
-    "totalTechnicalScore" : 16.78,
-    "totalFundamentalScore" : 32.31,
-    "totalScore" : 49.09
+    "salesGrowthPercentile" : 6.67,
+    "operatingProfitMarginPercentile" : 20.00,
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 16.49,
+    "totalFundamentalScore" : 36.67,
+    "totalScore" : 53.16
   }
 }

@@ -9,8 +9,8 @@
     "attributes" : {
       "companyCode" : "ASHIANA",
       "companyName" : "Ashiana Housing",
-      "marketCap" : 3077.00,
-      "peRatio" : 41.00,
+      "marketCap" : 3035.00,
+      "peRatio" : 25.90,
       "description" : "Ashiana Housing is principal business activity of the company is Real Estate Development."
     },
     "companyScore" : {
@@ -20,33 +20,26 @@
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 0.00,
-      "pricePercentageAboveDma50" : 4.77,
-      "pricePercentageAboveDma100" : 4.78,
-      "pricePercentageAboveDma200" : 4.93,
-      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-      "salesGrowthPercentile" : 18.73,
-      "operatingProfitMarginPercentile" : 15.08,
-      "netProfitMarginPercentile" : 6.58,
-      "totalTechnicalScore" : 29.48,
-      "totalFundamentalScore" : 40.39,
-      "totalScore" : 69.86
+      "pricePercentageAboveDma50" : 4.84,
+      "pricePercentageAboveDma100" : 4.85,
+      "pricePercentageAboveDma200" : 4.99,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 17.50,
+      "operatingProfitMarginPercentile" : 15.04,
+      "netProfitMarginPercentile" : 6.18,
+      "totalTechnicalScore" : 34.68,
+      "totalFundamentalScore" : 38.72,
+      "totalScore" : 73.40
     }
   },
   "attributes" : {
     "companyCode" : "ASHIANA",
     "companyName" : "Ashiana Housing",
-    "marketCap" : 3077.00,
-    "peRatio" : 41.00,
+    "marketCap" : 3035.00,
+    "peRatio" : 25.90,
     "description" : "Ashiana Housing is principal business activity of the company is Real Estate Development."
   },
   "technicalHistory" : [ {
-    "date" : "2025-02-10",
-    "price" : 334.40,
-    "dma50" : 337.07,
-    "dma100" : null,
-    "dma200" : 331.14,
-    "volume" : 43475.00
-  }, {
     "date" : "2025-02-11",
     "price" : 318.45,
     "dma50" : 336.34,
@@ -240,7 +233,7 @@
     "price" : 301.85,
     "dma50" : 313.44,
     "dma100" : null,
-    "dma200" : 323.98,
+    "dma200" : 323.97,
     "volume" : 111292.00
   }, {
     "date" : "2025-03-25",
@@ -743,7 +736,7 @@
     "date" : "2025-07-09",
     "price" : 332.20,
     "dma50" : 325.44,
-    "dma100" : 303.75,
+    "dma100" : null,
     "dma200" : 316.98,
     "volume" : 35386.00
   }, {
@@ -1768,14 +1761,21 @@
     "dma100" : 292.98,
     "dma200" : 301.36,
     "volume" : 99763.00
+  }, {
+    "date" : "2026-02-10",
+    "price" : 301.85,
+    "dma50" : 292.73,
+    "dma100" : 292.88,
+    "dma200" : 301.37,
+    "volume" : 58359.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-02-09",
-    "price" : 305.85,
-    "dma50" : 292.36,
-    "dma100" : 292.98,
-    "dma200" : 301.36,
-    "volume" : 99763.00
+    "date" : "2026-02-10",
+    "price" : 301.85,
+    "dma50" : 292.73,
+    "dma100" : 292.88,
+    "dma200" : 301.37,
+    "volume" : 58359.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2601,23 +2601,33 @@
     "date" : "2025-09-30",
     "sales" : 146.23,
     "salesGrowthYoY" : 281.80,
-    "grossProfitMargin" : 44.48,
-    "grossProfit" : 65.04,
+    "grossProfitMargin" : 44.95,
+    "grossProfit" : 65.73,
     "operatingProfitMargin" : 20.43,
     "operatingProfit" : 29.87,
     "netProfitMargin" : 22.02,
     "netProfit" : 32.20
+  }, {
+    "date" : "2025-12-31",
+    "sales" : 342.12,
+    "salesGrowthYoY" : 200.21,
+    "grossProfitMargin" : 33.13,
+    "grossProfit" : 113.34,
+    "operatingProfitMargin" : 20.22,
+    "operatingProfit" : 69.18,
+    "netProfitMargin" : 16.63,
+    "netProfit" : 56.89
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2025-09-30",
-    "sales" : 146.23,
-    "salesGrowthYoY" : 281.80,
-    "grossProfitMargin" : 44.48,
-    "grossProfit" : 65.04,
-    "operatingProfitMargin" : 20.43,
-    "operatingProfit" : 29.87,
-    "netProfitMargin" : 22.02,
-    "netProfit" : 32.20
+    "date" : "2025-12-31",
+    "sales" : 342.12,
+    "salesGrowthYoY" : 200.21,
+    "grossProfitMargin" : 33.13,
+    "grossProfit" : 113.34,
+    "operatingProfitMargin" : 20.22,
+    "operatingProfit" : 69.18,
+    "netProfitMargin" : 16.63,
+    "netProfit" : 56.89
   },
   "companyScore" : {
     "priceHigherThanDma50" : 5.00,
@@ -2626,15 +2636,15 @@
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 0.00,
-    "pricePercentageAboveDma50" : 4.77,
-    "pricePercentageAboveDma100" : 4.78,
-    "pricePercentageAboveDma200" : 4.93,
-    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-    "salesGrowthPercentile" : 18.73,
-    "operatingProfitMarginPercentile" : 15.08,
-    "netProfitMarginPercentile" : 6.58,
-    "totalTechnicalScore" : 29.48,
-    "totalFundamentalScore" : 40.39,
-    "totalScore" : 69.86
+    "pricePercentageAboveDma50" : 4.84,
+    "pricePercentageAboveDma100" : 4.85,
+    "pricePercentageAboveDma200" : 4.99,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 17.50,
+    "operatingProfitMarginPercentile" : 15.04,
+    "netProfitMarginPercentile" : 6.18,
+    "totalTechnicalScore" : 34.68,
+    "totalFundamentalScore" : 38.72,
+    "totalScore" : 73.40
   }
 }

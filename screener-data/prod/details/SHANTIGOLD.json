@@ -9,34 +9,34 @@
     "attributes" : {
       "companyCode" : "SHANTIGOLD",
       "companyName" : "Shanti Gold",
-      "marketCap" : 1594.00,
-      "peRatio" : 17.60,
+      "marketCap" : 1556.00,
+      "peRatio" : 12.20,
       "description" : "Incorporated in 2003, Shanti Gold International Ltd offers a wide range of designs and products of 22KT CZ gold jewellery.[1]"
     },
     "companyScore" : {
       "priceHigherThanDma50" : 5.00,
       "priceHigherThanDma100" : 5.00,
-      "priceHigherThanDma200" : 5.00,
+      "priceHigherThanDma200" : 0.00,
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 0.00,
-      "pricePercentageAboveDma50" : 4.57,
-      "pricePercentageAboveDma100" : 4.71,
-      "pricePercentageAboveDma200" : 4.87,
+      "pricePercentageAboveDma50" : 4.73,
+      "pricePercentageAboveDma100" : 4.84,
+      "pricePercentageAboveDma200" : 5.00,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 20.00,
-      "operatingProfitMarginPercentile" : 20.00,
-      "netProfitMarginPercentile" : 10.00,
-      "totalTechnicalScore" : 29.15,
-      "totalFundamentalScore" : 50.00,
-      "totalScore" : 79.15
+      "operatingProfitMarginPercentile" : 11.43,
+      "netProfitMarginPercentile" : 5.71,
+      "totalTechnicalScore" : 24.58,
+      "totalFundamentalScore" : 37.14,
+      "totalScore" : 61.72
     }
   },
   "attributes" : {
     "companyCode" : "SHANTIGOLD",
     "companyName" : "Shanti Gold",
-    "marketCap" : 1594.00,
-    "peRatio" : 17.60,
+    "marketCap" : 1556.00,
+    "peRatio" : 12.20,
     "description" : "Incorporated in 2003, Shanti Gold International Ltd offers a wide range of designs and products of 22KT CZ gold jewellery.[1]"
   },
   "technicalHistory" : [ {
@@ -949,14 +949,21 @@
     "dma100" : 209.06,
     "dma200" : 215.67,
     "volume" : 1510794.00
+  }, {
+    "date" : "2026-02-10",
+    "price" : 215.48,
+    "dma50" : 204.37,
+    "dma100" : 209.00,
+    "dma200" : 215.67,
+    "volume" : 4609780.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-02-09",
-    "price" : 221.33,
-    "dma50" : 203.92,
-    "dma100" : 209.06,
+    "date" : "2026-02-10",
+    "price" : 215.48,
+    "dma50" : 204.37,
+    "dma100" : 209.00,
     "dma200" : 215.67,
-    "volume" : 1510794.00
+    "volume" : 4609780.00
   },
   "quarterlyResults" : [ {
     "date" : "2024-06-30",
@@ -979,6 +986,16 @@
     "netProfitMargin" : 3.48,
     "netProfit" : 9.26
   }, {
+    "date" : "2024-12-31",
+    "sales" : 303.22,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 10.83,
+    "grossProfit" : 32.84,
+    "operatingProfitMargin" : 9.28,
+    "operatingProfit" : 28.14,
+    "netProfitMargin" : 5.81,
+    "netProfit" : 17.62
+  }, {
     "date" : "2025-03-31",
     "sales" : 297.29,
     "salesGrowthYoY" : null,
@@ -991,7 +1008,7 @@
   }, {
     "date" : "2025-06-30",
     "sales" : 292.78,
-    "salesGrowthYoY" : null,
+    "salesGrowthYoY" : 22.08,
     "grossProfitMargin" : 14.30,
     "grossProfit" : 41.87,
     "operatingProfitMargin" : 13.13,
@@ -1001,41 +1018,51 @@
   }, {
     "date" : "2025-09-30",
     "sales" : 430.08,
-    "salesGrowthYoY" : 79.33,
+    "salesGrowthYoY" : 61.64,
     "grossProfitMargin" : 15.15,
     "grossProfit" : 65.16,
     "operatingProfitMargin" : 14.09,
     "operatingProfit" : 60.60,
     "netProfitMargin" : 10.19,
     "netProfit" : 43.83
+  }, {
+    "date" : "2025-12-31",
+    "sales" : 636.93,
+    "salesGrowthYoY" : 110.06,
+    "grossProfitMargin" : 10.23,
+    "grossProfit" : 65.16,
+    "operatingProfitMargin" : 9.45,
+    "operatingProfit" : 60.19,
+    "netProfitMargin" : 6.30,
+    "netProfit" : 40.13
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2025-09-30",
-    "sales" : 430.08,
-    "salesGrowthYoY" : 79.33,
-    "grossProfitMargin" : 15.15,
+    "date" : "2025-12-31",
+    "sales" : 636.93,
+    "salesGrowthYoY" : 110.06,
+    "grossProfitMargin" : 10.23,
     "grossProfit" : 65.16,
-    "operatingProfitMargin" : 14.09,
-    "operatingProfit" : 60.60,
-    "netProfitMargin" : 10.19,
-    "netProfit" : 43.83
+    "operatingProfitMargin" : 9.45,
+    "operatingProfit" : 60.19,
+    "netProfitMargin" : 6.30,
+    "netProfit" : 40.13
   },
   "companyScore" : {
     "priceHigherThanDma50" : 5.00,
     "priceHigherThanDma100" : 5.00,
-    "priceHigherThanDma200" : 5.00,
+    "priceHigherThanDma200" : 0.00,
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 0.00,
-    "pricePercentageAboveDma50" : 4.57,
-    "pricePercentageAboveDma100" : 4.71,
-    "pricePercentageAboveDma200" : 4.87,
+    "pricePercentageAboveDma50" : 4.73,
+    "pricePercentageAboveDma100" : 4.84,
+    "pricePercentageAboveDma200" : 5.00,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 20.00,
-    "operatingProfitMarginPercentile" : 20.00,
-    "netProfitMarginPercentile" : 10.00,
-    "totalTechnicalScore" : 29.15,
-    "totalFundamentalScore" : 50.00,
-    "totalScore" : 79.15
+    "operatingProfitMarginPercentile" : 11.43,
+    "netProfitMarginPercentile" : 5.71,
+    "totalTechnicalScore" : 24.58,
+    "totalFundamentalScore" : 37.14,
+    "totalScore" : 61.72
   }
 }

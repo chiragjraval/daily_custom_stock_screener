@@ -9,8 +9,8 @@
     "attributes" : {
       "companyCode" : "DBREALTY",
       "companyName" : "Valor Estate",
-      "marketCap" : 6940.00,
-      "peRatio" : 0.00,
+      "marketCap" : 7004.00,
+      "peRatio" : 128.00,
       "description" : "The Company was incorporated in 2007, the co. is engaged primarily in the business of real estate construction, development and other related activities. Most of the projects are based in and around Mumbai and are under various stages of planning and construction. [1] [2]"
     },
     "companyScore" : {
@@ -20,33 +20,26 @@
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 0.00,
-      "pricePercentageAboveDma50" : 4.60,
-      "pricePercentageAboveDma100" : 5.23,
-      "pricePercentageAboveDma200" : 5.53,
+      "pricePercentageAboveDma50" : 4.57,
+      "pricePercentageAboveDma100" : 5.16,
+      "pricePercentageAboveDma200" : 5.48,
       "weeklyVolumeHigherThanYearlyVolume" : 5.00,
       "salesGrowthPercentile" : 19.62,
-      "operatingProfitMarginPercentile" : 17.88,
-      "netProfitMarginPercentile" : 7.88,
-      "totalTechnicalScore" : 25.36,
-      "totalFundamentalScore" : 45.38,
-      "totalScore" : 70.74
+      "operatingProfitMarginPercentile" : 16.62,
+      "netProfitMarginPercentile" : 7.01,
+      "totalTechnicalScore" : 25.21,
+      "totalFundamentalScore" : 43.26,
+      "totalScore" : 68.46
     }
   },
   "attributes" : {
     "companyCode" : "DBREALTY",
     "companyName" : "Valor Estate",
-    "marketCap" : 6940.00,
-    "peRatio" : 0.00,
+    "marketCap" : 7004.00,
+    "peRatio" : 128.00,
     "description" : "The Company was incorporated in 2007, the co. is engaged primarily in the business of real estate construction, development and other related activities. Most of the projects are based in and around Mumbai and are under various stages of planning and construction. [1] [2]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-02-11",
-    "price" : 124.19,
-    "dma50" : 142.72,
-    "dma100" : null,
-    "dma200" : 155.84,
-    "volume" : 3444921.00
-  }, {
     "date" : "2025-02-12",
     "price" : 119.70,
     "dma50" : 141.81,
@@ -743,7 +736,7 @@
     "date" : "2025-07-10",
     "price" : 210.43,
     "dma50" : 182.97,
-    "dma100" : 154.48,
+    "dma100" : null,
     "dma200" : 160.59,
     "volume" : 4595945.00
   }, {
@@ -1768,14 +1761,21 @@
     "dma100" : 133.90,
     "dma200" : 142.94,
     "volume" : 4234086.00
+  }, {
+    "date" : "2026-02-11",
+    "price" : 129.12,
+    "dma50" : 118.79,
+    "dma100" : 133.50,
+    "dma200" : 142.81,
+    "volume" : 4059012.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-02-10",
-    "price" : 127.78,
-    "dma50" : 118.37,
-    "dma100" : 133.90,
-    "dma200" : 142.94,
-    "volume" : 4234086.00
+    "date" : "2026-02-11",
+    "price" : 129.12,
+    "dma50" : 118.79,
+    "dma100" : 133.50,
+    "dma200" : 142.81,
+    "volume" : 4059012.00
   },
   "quarterlyResults" : [ {
     "date" : "2009-06-30",
@@ -2399,14 +2399,14 @@
     "netProfit" : 0.00
   }, {
     "date" : "2024-12-31",
-    "sales" : 1.22,
-    "salesGrowthYoY" : 22.00,
-    "grossProfitMargin" : 100.00,
-    "grossProfit" : 1.22,
-    "operatingProfitMargin" : -810.66,
-    "operatingProfit" : -9.89,
-    "netProfitMargin" : -289.34,
-    "netProfit" : -3.53
+    "sales" : 0.00,
+    "salesGrowthYoY" : -100.00,
+    "grossProfitMargin" : 0.00,
+    "grossProfit" : 0.00,
+    "operatingProfitMargin" : 0.00,
+    "operatingProfit" : 0.00,
+    "netProfitMargin" : 0.00,
+    "netProfit" : 0.00
   }, {
     "date" : "2025-03-31",
     "sales" : 0.00,
@@ -2437,17 +2437,27 @@
     "operatingProfit" : 65.80,
     "netProfitMargin" : 73.09,
     "netProfit" : 55.22
+  }, {
+    "date" : "2025-12-31",
+    "sales" : 453.59,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : 60.22,
+    "grossProfit" : 273.15,
+    "operatingProfitMargin" : 28.31,
+    "operatingProfit" : 128.41,
+    "netProfitMargin" : 25.53,
+    "netProfit" : 115.80
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2025-09-30",
-    "sales" : 75.55,
+    "date" : "2025-12-31",
+    "sales" : 453.59,
     "salesGrowthYoY" : 100.00,
-    "grossProfitMargin" : 100.00,
-    "grossProfit" : 75.55,
-    "operatingProfitMargin" : 87.09,
-    "operatingProfit" : 65.80,
-    "netProfitMargin" : 73.09,
-    "netProfit" : 55.22
+    "grossProfitMargin" : 60.22,
+    "grossProfit" : 273.15,
+    "operatingProfitMargin" : 28.31,
+    "operatingProfit" : 128.41,
+    "netProfitMargin" : 25.53,
+    "netProfit" : 115.80
   },
   "companyScore" : {
     "priceHigherThanDma50" : 5.00,
@@ -2456,15 +2466,15 @@
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 0.00,
-    "pricePercentageAboveDma50" : 4.60,
-    "pricePercentageAboveDma100" : 5.23,
-    "pricePercentageAboveDma200" : 5.53,
+    "pricePercentageAboveDma50" : 4.57,
+    "pricePercentageAboveDma100" : 5.16,
+    "pricePercentageAboveDma200" : 5.48,
     "weeklyVolumeHigherThanYearlyVolume" : 5.00,
     "salesGrowthPercentile" : 19.62,
-    "operatingProfitMarginPercentile" : 17.88,
-    "netProfitMarginPercentile" : 7.88,
-    "totalTechnicalScore" : 25.36,
-    "totalFundamentalScore" : 45.38,
-    "totalScore" : 70.74
+    "operatingProfitMarginPercentile" : 16.62,
+    "netProfitMarginPercentile" : 7.01,
+    "totalTechnicalScore" : 25.21,
+    "totalFundamentalScore" : 43.26,
+    "totalScore" : 68.46
   }
 }

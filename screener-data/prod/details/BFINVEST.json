@@ -9,44 +9,37 @@
     "attributes" : {
       "companyCode" : "BFINVEST",
       "companyName" : "BF Investment",
-      "marketCap" : 1562.00,
-      "peRatio" : 19.00,
+      "marketCap" : 1522.00,
+      "peRatio" : 9.26,
       "description" : "BF Investment Ltd is a Non-Deposit taking Core Investment Company. It is primarily engaged in the business of making investments in Kalyani Group companies. [1][2]"
     },
     "companyScore" : {
-      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma50" : 0.00,
       "priceHigherThanDma100" : 0.00,
       "priceHigherThanDma200" : 0.00,
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 0.00,
-      "pricePercentageAboveDma50" : 4.92,
-      "pricePercentageAboveDma100" : 5.24,
-      "pricePercentageAboveDma200" : 5.48,
+      "pricePercentageAboveDma50" : 5.04,
+      "pricePercentageAboveDma100" : 5.35,
+      "pricePercentageAboveDma200" : 5.58,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-      "salesGrowthPercentile" : 5.71,
-      "operatingProfitMarginPercentile" : 19.83,
-      "netProfitMarginPercentile" : 5.17,
-      "totalTechnicalScore" : 20.63,
-      "totalFundamentalScore" : 30.71,
-      "totalScore" : 51.34
+      "salesGrowthPercentile" : 8.77,
+      "operatingProfitMarginPercentile" : 19.42,
+      "netProfitMarginPercentile" : 2.62,
+      "totalTechnicalScore" : 15.97,
+      "totalFundamentalScore" : 30.81,
+      "totalScore" : 46.78
     }
   },
   "attributes" : {
     "companyCode" : "BFINVEST",
     "companyName" : "BF Investment",
-    "marketCap" : 1562.00,
-    "peRatio" : 19.00,
+    "marketCap" : 1522.00,
+    "peRatio" : 9.26,
     "description" : "BF Investment Ltd is a Non-Deposit taking Core Investment Company. It is primarily engaged in the business of making investments in Kalyani Group companies. [1][2]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-02-13",
-    "price" : 494.90,
-    "dma50" : 598.54,
-    "dma100" : null,
-    "dma200" : 615.82,
-    "volume" : 30089.00
-  }, {
     "date" : "2025-02-14",
     "price" : 465.35,
     "dma50" : 593.32,
@@ -743,7 +736,7 @@
     "date" : "2025-07-14",
     "price" : 495.45,
     "dma50" : 498.34,
-    "dma100" : 488.88,
+    "dma100" : null,
     "dma200" : 537.94,
     "volume" : 24227.00
   }, {
@@ -1768,14 +1761,21 @@
     "dma100" : 434.84,
     "dma200" : 457.69,
     "volume" : 17938.00
+  }, {
+    "date" : "2026-02-13",
+    "price" : 404.10,
+    "dma50" : 407.49,
+    "dma100" : 434.21,
+    "dma200" : 457.15,
+    "volume" : 42643.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-02-12",
-    "price" : 414.15,
-    "dma50" : 407.63,
-    "dma100" : 434.84,
-    "dma200" : 457.69,
-    "volume" : 17938.00
+    "date" : "2026-02-13",
+    "price" : 404.10,
+    "dma50" : 407.49,
+    "dma100" : 434.21,
+    "dma200" : 457.15,
+    "volume" : 42643.00
   },
   "quarterlyResults" : [ {
     "date" : "2010-12-31",
@@ -2377,34 +2377,44 @@
     "operatingProfit" : 61.03,
     "netProfitMargin" : 71.63,
     "netProfit" : 45.66
+  }, {
+    "date" : "2025-12-31",
+    "sales" : 10.11,
+    "salesGrowthYoY" : 9.18,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 10.11,
+    "operatingProfitMargin" : 89.12,
+    "operatingProfit" : 9.01,
+    "netProfitMargin" : 62.22,
+    "netProfit" : 6.29
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2025-09-30",
-    "sales" : 63.74,
-    "salesGrowthYoY" : -13.64,
+    "date" : "2025-12-31",
+    "sales" : 10.11,
+    "salesGrowthYoY" : 9.18,
     "grossProfitMargin" : 100.00,
-    "grossProfit" : 63.74,
-    "operatingProfitMargin" : 95.75,
-    "operatingProfit" : 61.03,
-    "netProfitMargin" : 71.63,
-    "netProfit" : 45.66
+    "grossProfit" : 10.11,
+    "operatingProfitMargin" : 89.12,
+    "operatingProfit" : 9.01,
+    "netProfitMargin" : 62.22,
+    "netProfit" : 6.29
   },
   "companyScore" : {
-    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma50" : 0.00,
     "priceHigherThanDma100" : 0.00,
     "priceHigherThanDma200" : 0.00,
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 0.00,
-    "pricePercentageAboveDma50" : 4.92,
-    "pricePercentageAboveDma100" : 5.24,
-    "pricePercentageAboveDma200" : 5.48,
+    "pricePercentageAboveDma50" : 5.04,
+    "pricePercentageAboveDma100" : 5.35,
+    "pricePercentageAboveDma200" : 5.58,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-    "salesGrowthPercentile" : 5.71,
-    "operatingProfitMarginPercentile" : 19.83,
-    "netProfitMarginPercentile" : 5.17,
-    "totalTechnicalScore" : 20.63,
-    "totalFundamentalScore" : 30.71,
-    "totalScore" : 51.34
+    "salesGrowthPercentile" : 8.77,
+    "operatingProfitMarginPercentile" : 19.42,
+    "netProfitMarginPercentile" : 2.62,
+    "totalTechnicalScore" : 15.97,
+    "totalFundamentalScore" : 30.81,
+    "totalScore" : 46.78
   }
 }

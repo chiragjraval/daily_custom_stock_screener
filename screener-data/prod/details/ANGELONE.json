@@ -9,44 +9,37 @@
     "attributes" : {
       "companyCode" : "ANGELONE",
       "companyName" : "Angel One",
-      "marketCap" : 26662.00,
-      "peRatio" : 29.10,
+      "marketCap" : 29394.00,
+      "peRatio" : 32.10,
       "description" : "Angel One Ltd is a diversified financial services company and is primarily engaged in the business of stock, commodity and currency broking, institutional broking, providing margin trading facility, depository services and distribution of mutual funds, lending as a NBFC and corporate agents of insurance companies.[1]"
     },
     "companyScore" : {
       "priceHigherThanDma50" : 5.00,
       "priceHigherThanDma100" : 5.00,
       "priceHigherThanDma200" : 5.00,
-      "dma50HigherThanDma100" : 0.00,
-      "dma50HigherThanDma200" : 0.00,
-      "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.13,
-      "pricePercentageAboveDma100" : 4.19,
-      "pricePercentageAboveDma200" : 4.18,
+      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma200" : 5.00,
+      "dma100HigherThanDma200" : 0.00,
+      "pricePercentageAboveDma50" : 3.61,
+      "pricePercentageAboveDma100" : 3.60,
+      "pricePercentageAboveDma200" : 3.61,
       "weeklyVolumeHigherThanYearlyVolume" : 5.00,
-      "salesGrowthPercentile" : 4.21,
-      "operatingProfitMarginPercentile" : 16.57,
-      "netProfitMarginPercentile" : 5.48,
-      "totalTechnicalScore" : 37.50,
-      "totalFundamentalScore" : 26.26,
-      "totalScore" : 63.76
+      "salesGrowthPercentile" : 9.23,
+      "operatingProfitMarginPercentile" : 17.86,
+      "netProfitMarginPercentile" : 6.18,
+      "totalTechnicalScore" : 40.82,
+      "totalFundamentalScore" : 33.27,
+      "totalScore" : 74.08
     }
   },
   "attributes" : {
     "companyCode" : "ANGELONE",
     "companyName" : "Angel One",
-    "marketCap" : 26662.00,
-    "peRatio" : 29.10,
+    "marketCap" : 29394.00,
+    "peRatio" : 32.10,
     "description" : "Angel One Ltd is a diversified financial services company and is primarily engaged in the business of stock, commodity and currency broking, institutional broking, providing margin trading facility, depository services and distribution of mutual funds, lending as a NBFC and corporate agents of insurance companies.[1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-04-17",
-    "price" : 235.62,
-    "dma50" : 230.56,
-    "dma100" : null,
-    "dma200" : 250.31,
-    "volume" : 58404591.00
-  }, {
     "date" : "2025-04-21",
     "price" : 246.33,
     "dma50" : 231.18,
@@ -743,7 +736,7 @@
     "date" : "2025-09-10",
     "price" : 233.66,
     "dma50" : 254.09,
-    "dma100" : 268.57,
+    "dma100" : null,
     "dma200" : 260.22,
     "volume" : 8996792.00
   }, {
@@ -1768,14 +1761,21 @@
     "dma100" : 251.64,
     "dma200" : 251.50,
     "volume" : 14966857.00
+  }, {
+    "date" : "2026-04-17",
+    "price" : 322.47,
+    "dma50" : 252.25,
+    "dma100" : 252.05,
+    "dma200" : 252.21,
+    "volume" : 83526215.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-04-16",
-    "price" : 292.61,
-    "dma50" : 249.38,
-    "dma100" : 251.64,
-    "dma200" : 251.50,
-    "volume" : 14966857.00
+    "date" : "2026-04-17",
+    "price" : 322.47,
+    "dma50" : 252.25,
+    "dma100" : 252.05,
+    "dma200" : 252.21,
+    "volume" : 83526215.00
   },
   "quarterlyResults" : [ {
     "date" : "2018-06-30",
@@ -2047,34 +2047,44 @@
     "operatingProfit" : 557.28,
     "netProfitMargin" : 22.91,
     "netProfit" : 301.05
+  }, {
+    "date" : "2026-03-31",
+    "sales" : 1443.75,
+    "salesGrowthYoY" : 39.99,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 1443.75,
+    "operatingProfitMargin" : 43.28,
+    "operatingProfit" : 624.86,
+    "netProfitMargin" : 24.34,
+    "netProfit" : 351.41
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2025-12-31",
-    "sales" : 1314.04,
-    "salesGrowthYoY" : 5.46,
+    "date" : "2026-03-31",
+    "sales" : 1443.75,
+    "salesGrowthYoY" : 39.99,
     "grossProfitMargin" : 100.00,
-    "grossProfit" : 1314.04,
-    "operatingProfitMargin" : 42.41,
-    "operatingProfit" : 557.28,
-    "netProfitMargin" : 22.91,
-    "netProfit" : 301.05
+    "grossProfit" : 1443.75,
+    "operatingProfitMargin" : 43.28,
+    "operatingProfit" : 624.86,
+    "netProfitMargin" : 24.34,
+    "netProfit" : 351.41
   },
   "companyScore" : {
     "priceHigherThanDma50" : 5.00,
     "priceHigherThanDma100" : 5.00,
     "priceHigherThanDma200" : 5.00,
-    "dma50HigherThanDma100" : 0.00,
-    "dma50HigherThanDma200" : 0.00,
-    "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.13,
-    "pricePercentageAboveDma100" : 4.19,
-    "pricePercentageAboveDma200" : 4.18,
+    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma200" : 5.00,
+    "dma100HigherThanDma200" : 0.00,
+    "pricePercentageAboveDma50" : 3.61,
+    "pricePercentageAboveDma100" : 3.60,
+    "pricePercentageAboveDma200" : 3.61,
     "weeklyVolumeHigherThanYearlyVolume" : 5.00,
-    "salesGrowthPercentile" : 4.21,
-    "operatingProfitMarginPercentile" : 16.57,
-    "netProfitMarginPercentile" : 5.48,
-    "totalTechnicalScore" : 37.50,
-    "totalFundamentalScore" : 26.26,
-    "totalScore" : 63.76
+    "salesGrowthPercentile" : 9.23,
+    "operatingProfitMarginPercentile" : 17.86,
+    "netProfitMarginPercentile" : 6.18,
+    "totalTechnicalScore" : 40.82,
+    "totalFundamentalScore" : 33.27,
+    "totalScore" : 74.08
   }
 }

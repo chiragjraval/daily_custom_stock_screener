@@ -20,16 +20,16 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 0.00,
-      "pricePercentageAboveDma50" : 2.89,
-      "pricePercentageAboveDma100" : 1.32,
-      "pricePercentageAboveDma200" : 1.88,
+      "pricePercentageAboveDma50" : 3.00,
+      "pricePercentageAboveDma100" : 1.39,
+      "pricePercentageAboveDma200" : 1.93,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 20.00,
       "operatingProfitMarginPercentile" : 18.33,
       "netProfitMarginPercentile" : 9.17,
-      "totalTechnicalScore" : 31.08,
+      "totalTechnicalScore" : 31.32,
       "totalFundamentalScore" : 47.50,
-      "totalScore" : 78.58
+      "totalScore" : 78.82
     }
   },
   "attributes" : {
@@ -40,13 +40,6 @@
     "description" : "Incorporated in 1988, DEE Development Engineers Ltd specializes in the design, engineering, and fabrication of complex piping systems, pressure vessels, and heat exchangers[1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-04-24",
-    "price" : 236.49,
-    "dma50" : 243.74,
-    "dma100" : null,
-    "dma200" : 280.34,
-    "volume" : 57858.00
-  }, {
     "date" : "2025-04-25",
     "price" : 229.62,
     "dma50" : 243.18,
@@ -743,7 +736,7 @@
     "date" : "2025-09-16",
     "price" : 299.85,
     "dma50" : 282.74,
-    "dma100" : 278.18,
+    "dma100" : null,
     "dma200" : 280.92,
     "volume" : 229522.00
   }, {
@@ -1775,14 +1768,21 @@
     "dma100" : 248.97,
     "dma200" : 266.10,
     "volume" : 1259059.00
+  }, {
+    "date" : "2026-04-24",
+    "price" : 432.35,
+    "dma50" : 308.84,
+    "dma100" : 251.11,
+    "dma200" : 267.75,
+    "volume" : 1128998.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-04-23",
-    "price" : 432.25,
-    "dma50" : 303.79,
-    "dma100" : 248.97,
-    "dma200" : 266.10,
-    "volume" : 1259059.00
+    "date" : "2026-04-24",
+    "price" : 432.35,
+    "dma50" : 308.84,
+    "dma100" : 251.11,
+    "dma200" : 267.75,
+    "volume" : 1128998.00
   },
   "quarterlyResults" : [ {
     "date" : "2023-03-31",
@@ -1923,15 +1923,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 0.00,
-    "pricePercentageAboveDma50" : 2.89,
-    "pricePercentageAboveDma100" : 1.32,
-    "pricePercentageAboveDma200" : 1.88,
+    "pricePercentageAboveDma50" : 3.00,
+    "pricePercentageAboveDma100" : 1.39,
+    "pricePercentageAboveDma200" : 1.93,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 20.00,
     "operatingProfitMarginPercentile" : 18.33,
     "netProfitMarginPercentile" : 9.17,
-    "totalTechnicalScore" : 31.08,
+    "totalTechnicalScore" : 31.32,
     "totalFundamentalScore" : 47.50,
-    "totalScore" : 78.58
+    "totalScore" : 78.82
   }
 }

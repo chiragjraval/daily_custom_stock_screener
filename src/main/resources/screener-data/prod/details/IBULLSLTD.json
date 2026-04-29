@@ -9,8 +9,8 @@
     "attributes" : {
       "companyCode" : "IBULLSLTD",
       "companyName" : "Indiabulls",
-      "marketCap" : 3926.00,
-      "peRatio" : 137.00,
+      "marketCap" : 4136.00,
+      "peRatio" : 12.80,
       "description" : "Incorporated in 2007, Indiabulls Ltd is in the business of Real Estate and Financial Services[1]"
     },
     "companyScore" : {
@@ -20,33 +20,26 @@
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 0.00,
-      "pricePercentageAboveDma50" : 3.44,
-      "pricePercentageAboveDma100" : 3.55,
-      "pricePercentageAboveDma200" : 3.86,
+      "pricePercentageAboveDma50" : 3.15,
+      "pricePercentageAboveDma100" : 3.16,
+      "pricePercentageAboveDma200" : 3.52,
       "weeklyVolumeHigherThanYearlyVolume" : 5.00,
-      "salesGrowthPercentile" : 13.90,
-      "operatingProfitMarginPercentile" : 19.05,
-      "netProfitMarginPercentile" : 2.70,
-      "totalTechnicalScore" : 30.85,
-      "totalFundamentalScore" : 35.64,
-      "totalScore" : 66.49
+      "salesGrowthPercentile" : 18.33,
+      "operatingProfitMarginPercentile" : 19.69,
+      "netProfitMarginPercentile" : 8.44,
+      "totalTechnicalScore" : 29.83,
+      "totalFundamentalScore" : 46.46,
+      "totalScore" : 76.29
     }
   },
   "attributes" : {
     "companyCode" : "IBULLSLTD",
     "companyName" : "Indiabulls",
-    "marketCap" : 3926.00,
-    "peRatio" : 137.00,
+    "marketCap" : 4136.00,
+    "peRatio" : 12.80,
     "description" : "Incorporated in 2007, Indiabulls Ltd is in the business of Real Estate and Financial Services[1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-04-29",
-    "price" : 13.82,
-    "dma50" : 14.76,
-    "dma100" : null,
-    "dma200" : 13.66,
-    "volume" : 17414.00
-  }, {
     "date" : "2025-04-30",
     "price" : 13.89,
     "dma50" : 14.72,
@@ -743,7 +736,7 @@
     "date" : "2025-10-20",
     "price" : 18.55,
     "dma50" : 16.94,
-    "dma100" : 16.16,
+    "dma100" : null,
     "dma200" : 15.39,
     "volume" : 80932.00
   }, {
@@ -1495,14 +1488,21 @@
     "dma100" : 13.14,
     "dma200" : 13.81,
     "volume" : 4026243.00
+  }, {
+    "date" : "2026-04-29",
+    "price" : 17.94,
+    "dma50" : 13.10,
+    "dma100" : 13.11,
+    "dma200" : 13.85,
+    "volume" : 19928352.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-04-28",
-    "price" : 16.95,
-    "dma50" : 12.91,
-    "dma100" : 13.14,
-    "dma200" : 13.81,
-    "volume" : 4026243.00
+    "date" : "2026-04-29",
+    "price" : 17.94,
+    "dma50" : 13.10,
+    "dma100" : 13.11,
+    "dma200" : 13.85,
+    "volume" : 19928352.00
   },
   "quarterlyResults" : [ {
     "date" : "2010-06-30",
@@ -2096,14 +2096,14 @@
     "netProfit" : -19.26
   }, {
     "date" : "2025-03-31",
-    "sales" : 0.00,
-    "salesGrowthYoY" : 0.00,
-    "grossProfitMargin" : 0.00,
-    "grossProfit" : 0.00,
-    "operatingProfitMargin" : 0.00,
-    "operatingProfit" : 0.00,
-    "netProfitMargin" : 0.00,
-    "netProfit" : 0.00
+    "sales" : 14.44,
+    "salesGrowthYoY" : 100.00,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 14.44,
+    "operatingProfitMargin" : -432.48,
+    "operatingProfit" : -62.45,
+    "netProfitMargin" : -286.57,
+    "netProfit" : -41.38
   }, {
     "date" : "2025-06-30",
     "sales" : 14.76,
@@ -2134,17 +2134,27 @@
     "operatingProfit" : 4.17,
     "netProfitMargin" : -136.21,
     "netProfit" : -20.39
+  }, {
+    "date" : "2026-03-31",
+    "sales" : 72.56,
+    "salesGrowthYoY" : 402.49,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 72.56,
+    "operatingProfitMargin" : 45.70,
+    "operatingProfit" : 33.16,
+    "netProfitMargin" : 86.87,
+    "netProfit" : 63.03
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2025-12-31",
-    "sales" : 14.97,
-    "salesGrowthYoY" : 2.67,
+    "date" : "2026-03-31",
+    "sales" : 72.56,
+    "salesGrowthYoY" : 402.49,
     "grossProfitMargin" : 100.00,
-    "grossProfit" : 14.97,
-    "operatingProfitMargin" : 27.86,
-    "operatingProfit" : 4.17,
-    "netProfitMargin" : -136.21,
-    "netProfit" : -20.39
+    "grossProfit" : 72.56,
+    "operatingProfitMargin" : 45.70,
+    "operatingProfit" : 33.16,
+    "netProfitMargin" : 86.87,
+    "netProfit" : 63.03
   },
   "companyScore" : {
     "priceHigherThanDma50" : 5.00,
@@ -2153,15 +2163,15 @@
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 0.00,
-    "pricePercentageAboveDma50" : 3.44,
-    "pricePercentageAboveDma100" : 3.55,
-    "pricePercentageAboveDma200" : 3.86,
+    "pricePercentageAboveDma50" : 3.15,
+    "pricePercentageAboveDma100" : 3.16,
+    "pricePercentageAboveDma200" : 3.52,
     "weeklyVolumeHigherThanYearlyVolume" : 5.00,
-    "salesGrowthPercentile" : 13.90,
-    "operatingProfitMarginPercentile" : 19.05,
-    "netProfitMarginPercentile" : 2.70,
-    "totalTechnicalScore" : 30.85,
-    "totalFundamentalScore" : 35.64,
-    "totalScore" : 66.49
+    "salesGrowthPercentile" : 18.33,
+    "operatingProfitMarginPercentile" : 19.69,
+    "netProfitMarginPercentile" : 8.44,
+    "totalTechnicalScore" : 29.83,
+    "totalFundamentalScore" : 46.46,
+    "totalScore" : 76.29
   }
 }

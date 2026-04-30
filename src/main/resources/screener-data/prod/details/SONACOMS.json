@@ -3,14 +3,14 @@
     "screenerCompanyId" : "1274879",
     "companyCode" : "SONACOMS",
     "companyName" : "Sona BLW Precis.",
-    "screenerCompanyLink" : "https://www.screener.in/company/SONACOMS/consolidated/",
+    "screenerCompanyLink" : "https://www.screener.in/company/SONACOMS/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274879/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274879/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "SONACOMS",
       "companyName" : "Sona BLW Precis.",
-      "marketCap" : 37183.00,
-      "peRatio" : 57.00,
+      "marketCap" : 37787.00,
+      "peRatio" : 55.20,
       "description" : "Sona BLW Precision Forgings is an India-based automotive technology company. The company is engaged in designing, manufacturing and supplying engineered automotive systems and components such as differential assemblies, gears, conventional and micro-hybrid motors, BSG systems and EV Traction motors across all vehicle categories. The company develops mechanical and electrical hardware systems, components as well as base and application software solutions."
     },
     "companyScore" : {
@@ -20,33 +20,26 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.41,
-      "pricePercentageAboveDma100" : 4.11,
-      "pricePercentageAboveDma200" : 4.09,
-      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-      "salesGrowthPercentile" : 17.89,
-      "operatingProfitMarginPercentile" : 7.83,
-      "netProfitMarginPercentile" : 4.35,
-      "totalTechnicalScore" : 42.61,
-      "totalFundamentalScore" : 30.07,
-      "totalScore" : 72.68
+      "pricePercentageAboveDma50" : 4.37,
+      "pricePercentageAboveDma100" : 4.04,
+      "pricePercentageAboveDma200" : 4.03,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 18.00,
+      "operatingProfitMarginPercentile" : 3.55,
+      "netProfitMarginPercentile" : 7.08,
+      "totalTechnicalScore" : 47.44,
+      "totalFundamentalScore" : 28.63,
+      "totalScore" : 76.08
     }
   },
   "attributes" : {
     "companyCode" : "SONACOMS",
     "companyName" : "Sona BLW Precis.",
-    "marketCap" : 37183.00,
-    "peRatio" : 57.00,
+    "marketCap" : 37787.00,
+    "peRatio" : 55.20,
     "description" : "Sona BLW Precision Forgings is an India-based automotive technology company. The company is engaged in designing, manufacturing and supplying engineered automotive systems and components such as differential assemblies, gears, conventional and micro-hybrid motors, BSG systems and EV Traction motors across all vehicle categories. The company develops mechanical and electrical hardware systems, components as well as base and application software solutions."
   },
   "technicalHistory" : [ {
-    "date" : "2025-04-30",
-    "price" : 481.15,
-    "dma50" : 483.80,
-    "dma100" : null,
-    "dma200" : 567.85,
-    "volume" : 3139777.00
-  }, {
     "date" : "2025-05-02",
     "price" : 496.95,
     "dma50" : 484.32,
@@ -743,7 +736,7 @@
     "date" : "2025-09-22",
     "price" : 420.60,
     "dma50" : 451.97,
-    "dma100" : 478.72,
+    "dma100" : null,
     "dma200" : 505.99,
     "volume" : 2802644.00
   }, {
@@ -1775,14 +1768,21 @@
     "dma100" : 508.73,
     "dma200" : 507.56,
     "volume" : 3359081.00
+  }, {
+    "date" : "2026-04-30",
+    "price" : 607.25,
+    "dma50" : 539.43,
+    "dma100" : 509.74,
+    "dma200" : 508.55,
+    "volume" : 2958855.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-04-29",
-    "price" : 599.70,
-    "dma50" : 536.66,
-    "dma100" : 508.73,
-    "dma200" : 507.56,
-    "volume" : 3359081.00
+    "date" : "2026-04-30",
+    "price" : 607.25,
+    "dma50" : 539.43,
+    "dma100" : 509.74,
+    "dma200" : 508.55,
+    "volume" : 2958855.00
   },
   "quarterlyResults" : [ {
     "date" : "2020-06-30",
@@ -2014,17 +2014,27 @@
     "operatingProfit" : 292.10,
     "netProfitMargin" : 16.18,
     "netProfit" : 182.48
+  }, {
+    "date" : "2026-03-31",
+    "sales" : 1171.58,
+    "salesGrowthYoY" : 52.14,
+    "grossProfitMargin" : 52.39,
+    "grossProfit" : 613.79,
+    "operatingProfitMargin" : 24.33,
+    "operatingProfit" : 285.05,
+    "netProfitMargin" : 17.70,
+    "netProfit" : 207.37
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2025-12-31",
-    "sales" : 1127.80,
-    "salesGrowthYoY" : 43.42,
-    "grossProfitMargin" : 52.05,
-    "grossProfit" : 587.02,
-    "operatingProfitMargin" : 25.90,
-    "operatingProfit" : 292.10,
-    "netProfitMargin" : 16.18,
-    "netProfit" : 182.48
+    "date" : "2026-03-31",
+    "sales" : 1171.58,
+    "salesGrowthYoY" : 52.14,
+    "grossProfitMargin" : 52.39,
+    "grossProfit" : 613.79,
+    "operatingProfitMargin" : 24.33,
+    "operatingProfit" : 285.05,
+    "netProfitMargin" : 17.70,
+    "netProfit" : 207.37
   },
   "companyScore" : {
     "priceHigherThanDma50" : 5.00,
@@ -2033,15 +2043,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.41,
-    "pricePercentageAboveDma100" : 4.11,
-    "pricePercentageAboveDma200" : 4.09,
-    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-    "salesGrowthPercentile" : 17.89,
-    "operatingProfitMarginPercentile" : 7.83,
-    "netProfitMarginPercentile" : 4.35,
-    "totalTechnicalScore" : 42.61,
-    "totalFundamentalScore" : 30.07,
-    "totalScore" : 72.68
+    "pricePercentageAboveDma50" : 4.37,
+    "pricePercentageAboveDma100" : 4.04,
+    "pricePercentageAboveDma200" : 4.03,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 18.00,
+    "operatingProfitMarginPercentile" : 3.55,
+    "netProfitMarginPercentile" : 7.08,
+    "totalTechnicalScore" : 47.44,
+    "totalFundamentalScore" : 28.63,
+    "totalScore" : 76.08
   }
 }

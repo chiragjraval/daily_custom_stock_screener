@@ -3,14 +3,14 @@
     "screenerCompanyId" : "1902",
     "companyCode" : "LLOYDSME",
     "companyName" : "Lloyds Metals",
-    "screenerCompanyLink" : "https://www.screener.in/company/LLOYDSME/consolidated/",
+    "screenerCompanyLink" : "https://www.screener.in/company/LLOYDSME/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1902/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1902/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "LLOYDSME",
       "companyName" : "Lloyds Metals",
-      "marketCap" : 101152.00,
-      "peRatio" : 41.10,
+      "marketCap" : 100376.00,
+      "peRatio" : 31.40,
       "description" : "Lloyds Metals & Energy is into the business of manufacturing of Sponge Iron, Power generation and mining activities.[1]"
     },
     "companyScore" : {
@@ -20,33 +20,26 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 0.00,
-      "pricePercentageAboveDma50" : 3.80,
-      "pricePercentageAboveDma100" : 3.13,
-      "pricePercentageAboveDma200" : 3.18,
+      "pricePercentageAboveDma50" : 3.90,
+      "pricePercentageAboveDma100" : 3.21,
+      "pricePercentageAboveDma200" : 3.26,
       "weeklyVolumeHigherThanYearlyVolume" : 5.00,
-      "salesGrowthPercentile" : 17.75,
-      "operatingProfitMarginPercentile" : 19.62,
-      "netProfitMarginPercentile" : 9.29,
-      "totalTechnicalScore" : 40.11,
-      "totalFundamentalScore" : 46.66,
-      "totalScore" : 86.77
+      "salesGrowthPercentile" : 18.77,
+      "operatingProfitMarginPercentile" : 19.53,
+      "netProfitMarginPercentile" : 8.94,
+      "totalTechnicalScore" : 40.38,
+      "totalFundamentalScore" : 47.23,
+      "totalScore" : 87.61
     }
   },
   "attributes" : {
     "companyCode" : "LLOYDSME",
     "companyName" : "Lloyds Metals",
-    "marketCap" : 101152.00,
-    "peRatio" : 41.10,
+    "marketCap" : 100376.00,
+    "peRatio" : 31.40,
     "description" : "Lloyds Metals & Energy is into the business of manufacturing of Sponge Iron, Power generation and mining activities.[1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-05-05",
-    "price" : 1229.70,
-    "dma50" : 1224.53,
-    "dma100" : null,
-    "dma200" : 1070.30,
-    "volume" : 473480.00
-  }, {
     "date" : "2025-05-06",
     "price" : 1209.10,
     "dma50" : 1223.92,
@@ -743,7 +736,7 @@
     "date" : "2025-09-24",
     "price" : 1302.80,
     "dma50" : 1366.90,
-    "dma100" : 1410.91,
+    "dma100" : null,
     "dma200" : 1281.91,
     "volume" : 141790.00
   }, {
@@ -1775,14 +1768,21 @@
     "dma100" : 1308.63,
     "dma200" : 1317.96,
     "volume" : 921855.00
+  }, {
+    "date" : "2026-05-05",
+    "price" : 1783.80,
+    "dma50" : 1463.02,
+    "dma100" : 1314.51,
+    "dma200" : 1322.59,
+    "volume" : 1351842.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-05-04",
-    "price" : 1797.50,
-    "dma50" : 1449.93,
-    "dma100" : 1308.63,
-    "dma200" : 1317.96,
-    "volume" : 921855.00
+    "date" : "2026-05-05",
+    "price" : 1783.80,
+    "dma50" : 1463.02,
+    "dma100" : 1314.51,
+    "dma200" : 1322.59,
+    "volume" : 1351842.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2620,21 +2620,31 @@
     "salesGrowthYoY" : 129.22,
     "grossProfitMargin" : 81.25,
     "grossProfit" : 3119.84,
-    "operatingProfitMargin" : 33.37,
-    "operatingProfit" : 1281.34,
+    "operatingProfitMargin" : 33.34,
+    "operatingProfit" : 1280.19,
     "netProfitMargin" : 23.14,
     "netProfit" : 888.53
+  }, {
+    "date" : "2026-03-31",
+    "sales" : 4912.94,
+    "salesGrowthYoY" : 311.71,
+    "grossProfitMargin" : 88.77,
+    "grossProfit" : 4361.22,
+    "operatingProfitMargin" : 32.86,
+    "operatingProfit" : 1614.39,
+    "netProfitMargin" : 21.69,
+    "netProfit" : 1065.62
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2025-12-31",
-    "sales" : 3839.80,
-    "salesGrowthYoY" : 129.22,
-    "grossProfitMargin" : 81.25,
-    "grossProfit" : 3119.84,
-    "operatingProfitMargin" : 33.37,
-    "operatingProfit" : 1281.34,
-    "netProfitMargin" : 23.14,
-    "netProfit" : 888.53
+    "date" : "2026-03-31",
+    "sales" : 4912.94,
+    "salesGrowthYoY" : 311.71,
+    "grossProfitMargin" : 88.77,
+    "grossProfit" : 4361.22,
+    "operatingProfitMargin" : 32.86,
+    "operatingProfit" : 1614.39,
+    "netProfitMargin" : 21.69,
+    "netProfit" : 1065.62
   },
   "companyScore" : {
     "priceHigherThanDma50" : 5.00,
@@ -2643,15 +2653,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 0.00,
-    "pricePercentageAboveDma50" : 3.80,
-    "pricePercentageAboveDma100" : 3.13,
-    "pricePercentageAboveDma200" : 3.18,
+    "pricePercentageAboveDma50" : 3.90,
+    "pricePercentageAboveDma100" : 3.21,
+    "pricePercentageAboveDma200" : 3.26,
     "weeklyVolumeHigherThanYearlyVolume" : 5.00,
-    "salesGrowthPercentile" : 17.75,
-    "operatingProfitMarginPercentile" : 19.62,
-    "netProfitMarginPercentile" : 9.29,
-    "totalTechnicalScore" : 40.11,
-    "totalFundamentalScore" : 46.66,
-    "totalScore" : 86.77
+    "salesGrowthPercentile" : 18.77,
+    "operatingProfitMarginPercentile" : 19.53,
+    "netProfitMarginPercentile" : 8.94,
+    "totalTechnicalScore" : 40.38,
+    "totalFundamentalScore" : 47.23,
+    "totalScore" : 87.61
   }
 }

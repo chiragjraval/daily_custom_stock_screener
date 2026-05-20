@@ -3,14 +3,14 @@
     "screenerCompanyId" : "1274160",
     "companyCode" : "SHAREINDIA",
     "companyName" : "Share India Sec.",
-    "screenerCompanyLink" : "https://www.screener.in/company/SHAREINDIA/",
+    "screenerCompanyLink" : "https://www.screener.in/company/SHAREINDIA/consolidated/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1274160/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1274160/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "SHAREINDIA",
       "companyName" : "Share India Sec.",
-      "marketCap" : 3218.00,
-      "peRatio" : 13.50,
+      "marketCap" : 3209.00,
+      "peRatio" : 9.92,
       "description" : "Share India Securities Ltd is a financial service provider that uses technology to offer customized capital market tech-based solutions to clients. It offers financial products & personalized services, including equity broking, currency & commodity derivative, depository participant services, mutual fund advisory and distributorship, etc to retail and corporate clients [1]"
     },
     "companyScore" : {
@@ -20,33 +20,26 @@
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 0.00,
-      "pricePercentageAboveDma50" : 4.79,
+      "pricePercentageAboveDma50" : 4.80,
       "pricePercentageAboveDma100" : 4.88,
       "pricePercentageAboveDma200" : 5.32,
-      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-      "salesGrowthPercentile" : 7.60,
-      "operatingProfitMarginPercentile" : 17.56,
-      "netProfitMarginPercentile" : 8.00,
-      "totalTechnicalScore" : 24.98,
-      "totalFundamentalScore" : 33.16,
-      "totalScore" : 58.14
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 19.26,
+      "operatingProfitMarginPercentile" : 11.80,
+      "netProfitMarginPercentile" : 4.50,
+      "totalTechnicalScore" : 30.00,
+      "totalFundamentalScore" : 35.56,
+      "totalScore" : 65.56
     }
   },
   "attributes" : {
     "companyCode" : "SHAREINDIA",
     "companyName" : "Share India Sec.",
-    "marketCap" : 3218.00,
-    "peRatio" : 13.50,
+    "marketCap" : 3209.00,
+    "peRatio" : 9.92,
     "description" : "Share India Securities Ltd is a financial service provider that uses technology to offer customized capital market tech-based solutions to clients. It offers financial products & personalized services, including equity broking, currency & commodity derivative, depository participant services, mutual fund advisory and distributorship, etc to retail and corporate clients [1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-05-20",
-    "price" : 171.71,
-    "dma50" : 172.65,
-    "dma100" : null,
-    "dma200" : 235.66,
-    "volume" : 976922.00
-  }, {
     "date" : "2025-05-21",
     "price" : 169.75,
     "dma50" : 172.53,
@@ -520,7 +513,7 @@
     "price" : 151.69,
     "dma50" : 170.07,
     "dma100" : null,
-    "dma200" : 205.07,
+    "dma200" : 205.08,
     "volume" : 329351.00
   }, {
     "date" : "2025-08-26",
@@ -743,8 +736,8 @@
     "date" : "2025-10-10",
     "price" : 141.87,
     "dma50" : 149.08,
-    "dma100" : 164.53,
-    "dma200" : 187.86,
+    "dma100" : null,
+    "dma200" : 187.87,
     "volume" : 265694.00
   }, {
     "date" : "2025-10-13",
@@ -1775,14 +1768,21 @@
     "dma100" : 143.23,
     "dma200" : 156.67,
     "volume" : 637321.00
+  }, {
+    "date" : "2026-05-20",
+    "price" : 146.55,
+    "dma50" : 141.04,
+    "dma100" : 143.01,
+    "dma200" : 156.57,
+    "volume" : 3810845.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-05-19",
-    "price" : 146.79,
-    "dma50" : 140.81,
-    "dma100" : 143.23,
-    "dma200" : 156.67,
-    "volume" : 637321.00
+    "date" : "2026-05-20",
+    "price" : 146.55,
+    "dma50" : 141.04,
+    "dma100" : 143.01,
+    "dma200" : 156.57,
+    "volume" : 3810845.00
   },
   "quarterlyResults" : [ {
     "date" : "2017-12-31",
@@ -2084,17 +2084,27 @@
     "operatingProfit" : 132.50,
     "netProfitMargin" : 26.44,
     "netProfit" : 80.65
+  }, {
+    "date" : "2026-03-31",
+    "sales" : 383.91,
+    "salesGrowthYoY" : 104.64,
+    "grossProfitMargin" : 77.90,
+    "grossProfit" : 299.07,
+    "operatingProfitMargin" : 33.14,
+    "operatingProfit" : 127.23,
+    "netProfitMargin" : 19.52,
+    "netProfit" : 74.94
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2025-12-31",
-    "sales" : 305.02,
-    "salesGrowthYoY" : 17.60,
-    "grossProfitMargin" : 89.54,
-    "grossProfit" : 273.11,
-    "operatingProfitMargin" : 43.44,
-    "operatingProfit" : 132.50,
-    "netProfitMargin" : 26.44,
-    "netProfit" : 80.65
+    "date" : "2026-03-31",
+    "sales" : 383.91,
+    "salesGrowthYoY" : 104.64,
+    "grossProfitMargin" : 77.90,
+    "grossProfit" : 299.07,
+    "operatingProfitMargin" : 33.14,
+    "operatingProfit" : 127.23,
+    "netProfitMargin" : 19.52,
+    "netProfit" : 74.94
   },
   "companyScore" : {
     "priceHigherThanDma50" : 5.00,
@@ -2103,15 +2113,15 @@
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 0.00,
-    "pricePercentageAboveDma50" : 4.79,
+    "pricePercentageAboveDma50" : 4.80,
     "pricePercentageAboveDma100" : 4.88,
     "pricePercentageAboveDma200" : 5.32,
-    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-    "salesGrowthPercentile" : 7.60,
-    "operatingProfitMarginPercentile" : 17.56,
-    "netProfitMarginPercentile" : 8.00,
-    "totalTechnicalScore" : 24.98,
-    "totalFundamentalScore" : 33.16,
-    "totalScore" : 58.14
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 19.26,
+    "operatingProfitMarginPercentile" : 11.80,
+    "netProfitMarginPercentile" : 4.50,
+    "totalTechnicalScore" : 30.00,
+    "totalFundamentalScore" : 35.56,
+    "totalScore" : 65.56
   }
 }

@@ -9,44 +9,37 @@
     "attributes" : {
       "companyCode" : "MINDACORP",
       "companyName" : "Minda Corp",
-      "marketCap" : 12832.00,
-      "peRatio" : 44.20,
+      "marketCap" : 13752.00,
+      "peRatio" : 38.10,
       "description" : "Minda Corporation Ltd is one of the leading automotive component manufacturing companies in India with a pan-India presence and international footprint. It is the flagship company of Spark Minda, which was part of the erstwhile Minda Group.[1] The company was formed after a split between the businesses of the Minda brothers in 2012. Presently, NK Minda owns and operates Minda Industries Ltd and Ashok Minda is the owner of Minda Corporation Ltd. [2] Both the companies are listed on the exchanges."
     },
     "companyScore" : {
       "priceHigherThanDma50" : 5.00,
-      "priceHigherThanDma100" : 0.00,
-      "priceHigherThanDma200" : 0.00,
+      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma200" : 5.00,
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.91,
-      "pricePercentageAboveDma100" : 5.07,
-      "pricePercentageAboveDma200" : 5.03,
-      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-      "salesGrowthPercentile" : 13.75,
-      "operatingProfitMarginPercentile" : 16.47,
-      "netProfitMarginPercentile" : 7.74,
-      "totalTechnicalScore" : 25.01,
-      "totalFundamentalScore" : 37.96,
-      "totalScore" : 62.97
+      "pricePercentageAboveDma50" : 4.57,
+      "pricePercentageAboveDma100" : 4.72,
+      "pricePercentageAboveDma200" : 4.69,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 14.32,
+      "operatingProfitMarginPercentile" : 17.18,
+      "netProfitMarginPercentile" : 6.87,
+      "totalTechnicalScore" : 38.97,
+      "totalFundamentalScore" : 38.37,
+      "totalScore" : 77.34
     }
   },
   "attributes" : {
     "companyCode" : "MINDACORP",
     "companyName" : "Minda Corp",
-    "marketCap" : 12832.00,
-    "peRatio" : 44.20,
+    "marketCap" : 13752.00,
+    "peRatio" : 38.10,
     "description" : "Minda Corporation Ltd is one of the leading automotive component manufacturing companies in India with a pan-India presence and international footprint. It is the flagship company of Spark Minda, which was part of the erstwhile Minda Group.[1] The company was formed after a split between the businesses of the Minda brothers in 2012. Presently, NK Minda owns and operates Minda Industries Ltd and Ashok Minda is the owner of Minda Corporation Ltd. [2] Both the companies are listed on the exchanges."
   },
   "technicalHistory" : [ {
-    "date" : "2025-05-22",
-    "price" : 511.80,
-    "dma50" : 507.99,
-    "dma100" : null,
-    "dma200" : 506.79,
-    "volume" : 115429.00
-  }, {
     "date" : "2025-05-23",
     "price" : 514.10,
     "dma50" : 508.23,
@@ -743,7 +736,7 @@
     "date" : "2025-10-14",
     "price" : 564.20,
     "dma50" : 540.59,
-    "dma100" : 524.56,
+    "dma100" : null,
     "dma200" : 519.72,
     "volume" : 520956.00
   }, {
@@ -1775,14 +1768,21 @@
     "dma100" : 544.21,
     "dma200" : 540.46,
     "volume" : 694319.00
+  }, {
+    "date" : "2026-05-22",
+    "price" : 574.65,
+    "dma50" : 528.87,
+    "dma100" : 543.98,
+    "dma200" : 540.80,
+    "volume" : 3373173.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-05-21",
-    "price" : 536.85,
-    "dma50" : 527.00,
-    "dma100" : 544.21,
-    "dma200" : 540.46,
-    "volume" : 694319.00
+    "date" : "2026-05-22",
+    "price" : 574.65,
+    "dma50" : 528.87,
+    "dma100" : 543.98,
+    "dma200" : 540.80,
+    "volume" : 3373173.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2624,34 +2624,44 @@
     "operatingProfit" : 147.69,
     "netProfitMargin" : 6.46,
     "netProfit" : 81.61
+  }, {
+    "date" : "2026-03-31",
+    "sales" : 1370.40,
+    "salesGrowthYoY" : 26.52,
+    "grossProfitMargin" : 37.29,
+    "grossProfit" : 511.02,
+    "operatingProfitMargin" : 12.41,
+    "operatingProfit" : 170.07,
+    "netProfitMargin" : 5.23,
+    "netProfit" : 71.67
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2025-12-31",
-    "sales" : 1263.36,
-    "salesGrowthYoY" : 21.88,
-    "grossProfitMargin" : 38.61,
-    "grossProfit" : 487.78,
-    "operatingProfitMargin" : 11.69,
-    "operatingProfit" : 147.69,
-    "netProfitMargin" : 6.46,
-    "netProfit" : 81.61
+    "date" : "2026-03-31",
+    "sales" : 1370.40,
+    "salesGrowthYoY" : 26.52,
+    "grossProfitMargin" : 37.29,
+    "grossProfit" : 511.02,
+    "operatingProfitMargin" : 12.41,
+    "operatingProfit" : 170.07,
+    "netProfitMargin" : 5.23,
+    "netProfit" : 71.67
   },
   "companyScore" : {
     "priceHigherThanDma50" : 5.00,
-    "priceHigherThanDma100" : 0.00,
-    "priceHigherThanDma200" : 0.00,
+    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma200" : 5.00,
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.91,
-    "pricePercentageAboveDma100" : 5.07,
-    "pricePercentageAboveDma200" : 5.03,
-    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-    "salesGrowthPercentile" : 13.75,
-    "operatingProfitMarginPercentile" : 16.47,
-    "netProfitMarginPercentile" : 7.74,
-    "totalTechnicalScore" : 25.01,
-    "totalFundamentalScore" : 37.96,
-    "totalScore" : 62.97
+    "pricePercentageAboveDma50" : 4.57,
+    "pricePercentageAboveDma100" : 4.72,
+    "pricePercentageAboveDma200" : 4.69,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 14.32,
+    "operatingProfitMarginPercentile" : 17.18,
+    "netProfitMarginPercentile" : 6.87,
+    "totalTechnicalScore" : 38.97,
+    "totalFundamentalScore" : 38.37,
+    "totalScore" : 77.34
   }
 }

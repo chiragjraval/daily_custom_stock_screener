@@ -9,44 +9,37 @@
     "attributes" : {
       "companyCode" : "JAMNAAUTO",
       "companyName" : "Jamna Auto Inds.",
-      "marketCap" : 4954.00,
-      "peRatio" : 24.50,
+      "marketCap" : 5103.00,
+      "peRatio" : 21.30,
       "description" : "Incorporated in 1965, Jamna Auto Industries Limited manufactures conventional leaf springs, parabolic leaf springs, air suspensions and lift axles, predominantly for Commercial Vehicles.[1]"
     },
     "companyScore" : {
       "priceHigherThanDma50" : 5.00,
-      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma100" : 5.00,
       "priceHigherThanDma200" : 5.00,
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.92,
-      "pricePercentageAboveDma100" : 5.08,
-      "pricePercentageAboveDma200" : 4.70,
-      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-      "salesGrowthPercentile" : 11.25,
-      "operatingProfitMarginPercentile" : 20.00,
-      "netProfitMarginPercentile" : 9.76,
-      "totalTechnicalScore" : 34.70,
-      "totalFundamentalScore" : 41.01,
-      "totalScore" : 75.71
+      "pricePercentageAboveDma50" : 4.78,
+      "pricePercentageAboveDma100" : 4.94,
+      "pricePercentageAboveDma200" : 4.54,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 13.09,
+      "operatingProfitMarginPercentile" : 19.53,
+      "netProfitMarginPercentile" : 9.65,
+      "totalTechnicalScore" : 44.25,
+      "totalFundamentalScore" : 42.26,
+      "totalScore" : 86.52
     }
   },
   "attributes" : {
     "companyCode" : "JAMNAAUTO",
     "companyName" : "Jamna Auto Inds.",
-    "marketCap" : 4954.00,
-    "peRatio" : 24.50,
+    "marketCap" : 5103.00,
+    "peRatio" : 21.30,
     "description" : "Incorporated in 1965, Jamna Auto Industries Limited manufactures conventional leaf springs, parabolic leaf springs, air suspensions and lift axles, predominantly for Commercial Vehicles.[1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-05-29",
-    "price" : 92.45,
-    "dma50" : 84.34,
-    "dma100" : null,
-    "dma200" : 94.89,
-    "volume" : 667683.00
-  }, {
     "date" : "2025-05-30",
     "price" : 92.29,
     "dma50" : 84.65,
@@ -743,7 +736,7 @@
     "date" : "2025-10-21",
     "price" : 96.12,
     "dma50" : 99.25,
-    "dma100" : 96.85,
+    "dma100" : null,
     "dma200" : 96.81,
     "volume" : 212961.00
   }, {
@@ -1768,14 +1761,21 @@
     "dma100" : 126.02,
     "dma200" : 116.82,
     "volume" : 1614222.00
+  }, {
+    "date" : "2026-05-29",
+    "price" : 127.67,
+    "dma50" : 122.23,
+    "dma100" : 126.06,
+    "dma200" : 116.93,
+    "volume" : 15459307.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-05-27",
-    "price" : 123.92,
-    "dma50" : 122.01,
-    "dma100" : 126.02,
-    "dma200" : 116.82,
-    "volume" : 1614222.00
+    "date" : "2026-05-29",
+    "price" : 127.67,
+    "dma50" : 122.23,
+    "dma100" : 126.06,
+    "dma200" : 116.93,
+    "volume" : 15459307.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2617,34 +2617,44 @@
     "operatingProfit" : 108.02,
     "netProfitMargin" : 11.13,
     "netProfit" : 72.38
+  }, {
+    "date" : "2026-03-31",
+    "sales" : 816.56,
+    "salesGrowthYoY" : 31.66,
+    "grossProfitMargin" : 34.51,
+    "grossProfit" : 281.79,
+    "operatingProfitMargin" : 14.99,
+    "operatingProfit" : 122.40,
+    "netProfitMargin" : 10.38,
+    "netProfit" : 84.76
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2025-12-31",
-    "sales" : 650.34,
-    "salesGrowthYoY" : 18.86,
-    "grossProfitMargin" : 38.90,
-    "grossProfit" : 252.98,
-    "operatingProfitMargin" : 16.61,
-    "operatingProfit" : 108.02,
-    "netProfitMargin" : 11.13,
-    "netProfit" : 72.38
+    "date" : "2026-03-31",
+    "sales" : 816.56,
+    "salesGrowthYoY" : 31.66,
+    "grossProfitMargin" : 34.51,
+    "grossProfit" : 281.79,
+    "operatingProfitMargin" : 14.99,
+    "operatingProfit" : 122.40,
+    "netProfitMargin" : 10.38,
+    "netProfit" : 84.76
   },
   "companyScore" : {
     "priceHigherThanDma50" : 5.00,
-    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma100" : 5.00,
     "priceHigherThanDma200" : 5.00,
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.92,
-    "pricePercentageAboveDma100" : 5.08,
-    "pricePercentageAboveDma200" : 4.70,
-    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-    "salesGrowthPercentile" : 11.25,
-    "operatingProfitMarginPercentile" : 20.00,
-    "netProfitMarginPercentile" : 9.76,
-    "totalTechnicalScore" : 34.70,
-    "totalFundamentalScore" : 41.01,
-    "totalScore" : 75.71
+    "pricePercentageAboveDma50" : 4.78,
+    "pricePercentageAboveDma100" : 4.94,
+    "pricePercentageAboveDma200" : 4.54,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 13.09,
+    "operatingProfitMarginPercentile" : 19.53,
+    "netProfitMarginPercentile" : 9.65,
+    "totalTechnicalScore" : 44.25,
+    "totalFundamentalScore" : 42.26,
+    "totalScore" : 86.52
   }
 }

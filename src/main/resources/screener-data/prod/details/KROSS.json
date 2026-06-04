@@ -9,44 +9,37 @@
     "attributes" : {
       "companyCode" : "KROSS",
       "companyName" : "Kross Ltd",
-      "marketCap" : 1231.00,
+      "marketCap" : 1232.00,
       "peRatio" : 22.30,
       "description" : "Incorporated in 1991, Kross Ltd manufactures high performance and safety critical components for the commercial vehicle, tractor and trailer axle industry[1]"
     },
     "companyScore" : {
       "priceHigherThanDma50" : 0.00,
       "priceHigherThanDma100" : 0.00,
-      "priceHigherThanDma200" : 0.00,
+      "priceHigherThanDma200" : 5.00,
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 5.03,
-      "pricePercentageAboveDma100" : 5.08,
-      "pricePercentageAboveDma200" : 5.01,
+      "pricePercentageAboveDma50" : 5.00,
+      "pricePercentageAboveDma100" : 5.06,
+      "pricePercentageAboveDma200" : 4.99,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 20.00,
       "operatingProfitMarginPercentile" : 20.00,
       "netProfitMarginPercentile" : 10.00,
-      "totalTechnicalScore" : 25.12,
+      "totalTechnicalScore" : 30.05,
       "totalFundamentalScore" : 50.00,
-      "totalScore" : 75.12
+      "totalScore" : 80.05
     }
   },
   "attributes" : {
     "companyCode" : "KROSS",
     "companyName" : "Kross Ltd",
-    "marketCap" : 1231.00,
+    "marketCap" : 1232.00,
     "peRatio" : 22.30,
     "description" : "Incorporated in 1991, Kross Ltd manufactures high performance and safety critical components for the commercial vehicle, tractor and trailer axle industry[1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-06-04",
-    "price" : 191.22,
-    "dma50" : 173.82,
-    "dma100" : null,
-    "dma200" : 196.17,
-    "volume" : 544863.00
-  }, {
     "date" : "2025-06-05",
     "price" : 202.95,
     "dma50" : 174.97,
@@ -743,7 +736,7 @@
     "date" : "2025-10-28",
     "price" : 182.74,
     "dma50" : 192.93,
-    "dma100" : 191.88,
+    "dma100" : null,
     "dma200" : 193.92,
     "volume" : 153465.00
   }, {
@@ -1768,14 +1761,21 @@
     "dma100" : 193.90,
     "dma200" : 190.90,
     "volume" : 156270.00
+  }, {
+    "date" : "2026-06-04",
+    "price" : 191.43,
+    "dma50" : 191.61,
+    "dma100" : 193.80,
+    "dma200" : 190.90,
+    "volume" : 199827.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-06-03",
-    "price" : 190.63,
+    "date" : "2026-06-04",
+    "price" : 191.43,
     "dma50" : 191.61,
-    "dma100" : 193.90,
+    "dma100" : 193.80,
     "dma200" : 190.90,
-    "volume" : 156270.00
+    "volume" : 199827.00
   },
   "quarterlyResults" : [ {
     "date" : "2023-06-30",
@@ -1912,19 +1912,19 @@
   "companyScore" : {
     "priceHigherThanDma50" : 0.00,
     "priceHigherThanDma100" : 0.00,
-    "priceHigherThanDma200" : 0.00,
+    "priceHigherThanDma200" : 5.00,
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 5.03,
-    "pricePercentageAboveDma100" : 5.08,
-    "pricePercentageAboveDma200" : 5.01,
+    "pricePercentageAboveDma50" : 5.00,
+    "pricePercentageAboveDma100" : 5.06,
+    "pricePercentageAboveDma200" : 4.99,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 20.00,
     "operatingProfitMarginPercentile" : 20.00,
     "netProfitMarginPercentile" : 10.00,
-    "totalTechnicalScore" : 25.12,
+    "totalTechnicalScore" : 30.05,
     "totalFundamentalScore" : 50.00,
-    "totalScore" : 75.12
+    "totalScore" : 80.05
   }
 }

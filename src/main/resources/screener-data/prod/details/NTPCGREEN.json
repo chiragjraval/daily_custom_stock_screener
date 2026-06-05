@@ -20,8 +20,8 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 0.00,
-      "pricePercentageAboveDma50" : 5.13,
-      "pricePercentageAboveDma100" : 4.83,
+      "pricePercentageAboveDma50" : 5.12,
+      "pricePercentageAboveDma100" : 4.84,
       "pricePercentageAboveDma200" : 4.98,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 3.33,
@@ -29,7 +29,7 @@
       "netProfitMarginPercentile" : 5.00,
       "totalTechnicalScore" : 34.94,
       "totalFundamentalScore" : 14.33,
-      "totalScore" : 49.28
+      "totalScore" : 49.27
     }
   },
   "attributes" : {
@@ -40,13 +40,6 @@
     "description" : "Incorporated in April 2022, NTPC Green Energy is a renewable energy company that focuses on undertaking projects through organic and inorganic routes.[1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-06-05",
-    "price" : 109.07,
-    "dma50" : 105.69,
-    "dma100" : null,
-    "dma200" : 112.01,
-    "volume" : 18547841.00
-  }, {
     "date" : "2025-06-06",
     "price" : 108.74,
     "dma50" : 105.81,
@@ -743,7 +736,7 @@
     "date" : "2025-10-29",
     "price" : 105.04,
     "dma50" : 101.71,
-    "dma100" : 104.39,
+    "dma100" : null,
     "dma200" : 106.64,
     "volume" : 14121063.00
   }, {
@@ -1768,14 +1761,21 @@
     "dma100" : 97.57,
     "dma200" : 100.53,
     "volume" : 2630395.00
+  }, {
+    "date" : "2026-06-05",
+    "price" : 100.86,
+    "dma50" : 103.36,
+    "dma100" : 97.64,
+    "dma200" : 100.53,
+    "volume" : 2068340.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-06-04",
-    "price" : 100.84,
-    "dma50" : 103.47,
-    "dma100" : 97.57,
+    "date" : "2026-06-05",
+    "price" : 100.86,
+    "dma50" : 103.36,
+    "dma100" : 97.64,
     "dma200" : 100.53,
-    "volume" : 2630395.00
+    "volume" : 2068340.00
   },
   "quarterlyResults" : [ {
     "date" : "2023-12-31",
@@ -1896,8 +1896,8 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 0.00,
-    "pricePercentageAboveDma50" : 5.13,
-    "pricePercentageAboveDma100" : 4.83,
+    "pricePercentageAboveDma50" : 5.12,
+    "pricePercentageAboveDma100" : 4.84,
     "pricePercentageAboveDma200" : 4.98,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 3.33,
@@ -1905,6 +1905,6 @@
     "netProfitMarginPercentile" : 5.00,
     "totalTechnicalScore" : 34.94,
     "totalFundamentalScore" : 14.33,
-    "totalScore" : 49.28
+    "totalScore" : 49.27
   }
 }

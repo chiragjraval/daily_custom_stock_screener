@@ -16,20 +16,20 @@
     "companyScore" : {
       "priceHigherThanDma50" : 0.00,
       "priceHigherThanDma100" : 0.00,
-      "priceHigherThanDma200" : 5.00,
+      "priceHigherThanDma200" : 0.00,
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 5.28,
-      "pricePercentageAboveDma100" : 5.16,
+      "pricePercentageAboveDma50" : 5.27,
+      "pricePercentageAboveDma100" : 5.17,
       "pricePercentageAboveDma200" : 5.00,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 10.12,
       "operatingProfitMarginPercentile" : 6.67,
       "netProfitMarginPercentile" : 2.06,
-      "totalTechnicalScore" : 35.44,
+      "totalTechnicalScore" : 30.44,
       "totalFundamentalScore" : 18.85,
-      "totalScore" : 54.29
+      "totalScore" : 49.29
     }
   },
   "attributes" : {
@@ -1761,14 +1761,21 @@
     "dma100" : 273.63,
     "dma200" : 264.71,
     "volume" : 7789463.00
+  }, {
+    "date" : "2026-06-08",
+    "price" : 264.65,
+    "dma50" : 279.86,
+    "dma100" : 273.89,
+    "dma200" : 264.71,
+    "volume" : 7152525.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-06-05",
-    "price" : 264.75,
-    "dma50" : 280.48,
-    "dma100" : 273.63,
+    "date" : "2026-06-08",
+    "price" : 264.65,
+    "dma50" : 279.86,
+    "dma100" : 273.89,
     "dma200" : 264.71,
-    "volume" : 7789463.00
+    "volume" : 7152525.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2635,19 +2642,19 @@
   "companyScore" : {
     "priceHigherThanDma50" : 0.00,
     "priceHigherThanDma100" : 0.00,
-    "priceHigherThanDma200" : 5.00,
+    "priceHigherThanDma200" : 0.00,
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 5.28,
-    "pricePercentageAboveDma100" : 5.16,
+    "pricePercentageAboveDma50" : 5.27,
+    "pricePercentageAboveDma100" : 5.17,
     "pricePercentageAboveDma200" : 5.00,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 10.12,
     "operatingProfitMarginPercentile" : 6.67,
     "netProfitMarginPercentile" : 2.06,
-    "totalTechnicalScore" : 35.44,
+    "totalTechnicalScore" : 30.44,
     "totalFundamentalScore" : 18.85,
-    "totalScore" : 54.29
+    "totalScore" : 49.29
   }
 }

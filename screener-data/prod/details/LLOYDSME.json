@@ -3,14 +3,14 @@
     "screenerCompanyId" : "1902",
     "companyCode" : "LLOYDSME",
     "companyName" : "Lloyds Metals",
-    "screenerCompanyLink" : "https://www.screener.in/company/LLOYDSME/",
+    "screenerCompanyLink" : "https://www.screener.in/company/LLOYDSME/consolidated/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/1902/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/1902/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "LLOYDSME",
       "companyName" : "Lloyds Metals",
-      "marketCap" : 101682.00,
-      "peRatio" : 31.90,
+      "marketCap" : 101900.00,
+      "peRatio" : 27.40,
       "description" : "Lloyds Metals & Energy is into the business of manufacturing of Sponge Iron, Power generation and mining activities.[1]"
     },
     "companyScore" : {
@@ -21,32 +21,25 @@
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
       "pricePercentageAboveDma50" : 4.65,
-      "pricePercentageAboveDma100" : 3.96,
+      "pricePercentageAboveDma100" : 3.97,
       "pricePercentageAboveDma200" : 3.80,
       "weeklyVolumeHigherThanYearlyVolume" : 5.00,
       "salesGrowthPercentile" : 18.77,
       "operatingProfitMarginPercentile" : 19.53,
       "netProfitMarginPercentile" : 8.94,
-      "totalTechnicalScore" : 47.41,
+      "totalTechnicalScore" : 47.42,
       "totalFundamentalScore" : 47.23,
-      "totalScore" : 94.64
+      "totalScore" : 94.65
     }
   },
   "attributes" : {
     "companyCode" : "LLOYDSME",
     "companyName" : "Lloyds Metals",
-    "marketCap" : 101682.00,
-    "peRatio" : 31.90,
+    "marketCap" : 101900.00,
+    "peRatio" : 27.40,
     "description" : "Lloyds Metals & Energy is into the business of manufacturing of Sponge Iron, Power generation and mining activities.[1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-06-30",
-    "price" : 1588.90,
-    "dma50" : 1406.47,
-    "dma100" : null,
-    "dma200" : 1185.40,
-    "volume" : 1015998.00
-  }, {
     "date" : "2025-07-01",
     "price" : 1580.40,
     "dma50" : 1413.29,
@@ -743,7 +736,7 @@
     "date" : "2025-11-24",
     "price" : 1191.70,
     "dma50" : 1307.47,
-    "dma100" : 1367.42,
+    "dma100" : null,
     "dma200" : 1287.08,
     "volume" : 366407.00
   }, {
@@ -1761,14 +1754,21 @@
     "dma100" : 1494.07,
     "dma200" : 1455.82,
     "volume" : 1142698.00
+  }, {
+    "date" : "2026-06-30",
+    "price" : 1810.40,
+    "dma50" : 1693.23,
+    "dma100" : 1501.14,
+    "dma200" : 1459.35,
+    "volume" : 324537.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-06-29",
-    "price" : 1805.70,
-    "dma50" : 1688.45,
-    "dma100" : 1494.07,
-    "dma200" : 1455.82,
-    "volume" : 1142698.00
+    "date" : "2026-06-30",
+    "price" : 1810.40,
+    "dma50" : 1693.23,
+    "dma100" : 1501.14,
+    "dma200" : 1459.35,
+    "volume" : 324537.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2640,14 +2640,14 @@
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
     "pricePercentageAboveDma50" : 4.65,
-    "pricePercentageAboveDma100" : 3.96,
+    "pricePercentageAboveDma100" : 3.97,
     "pricePercentageAboveDma200" : 3.80,
     "weeklyVolumeHigherThanYearlyVolume" : 5.00,
     "salesGrowthPercentile" : 18.77,
     "operatingProfitMarginPercentile" : 19.53,
     "netProfitMarginPercentile" : 8.94,
-    "totalTechnicalScore" : 47.41,
+    "totalTechnicalScore" : 47.42,
     "totalFundamentalScore" : 47.23,
-    "totalScore" : 94.64
+    "totalScore" : 94.65
   }
 }

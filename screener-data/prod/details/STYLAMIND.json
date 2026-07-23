@@ -3,14 +3,14 @@
     "screenerCompanyId" : "3219",
     "companyCode" : "STYLAMIND",
     "companyName" : "Stylam Industrie",
-    "screenerCompanyLink" : "https://www.screener.in/company/STYLAMIND/consolidated/",
+    "screenerCompanyLink" : "https://www.screener.in/company/STYLAMIND/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/3219/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/3219/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "STYLAMIND",
       "companyName" : "Stylam Industrie",
-      "marketCap" : 6065.00,
-      "peRatio" : 35.70,
+      "marketCap" : 5748.00,
+      "peRatio" : 33.90,
       "description" : "Stylam Industries is engaged in the manufacturing of decorative laminates under the brand name “STYLAM” and exports its products primarily to European and South East Asian countries. It manufactures a wide range of high-quality decorative laminates, specialty surfaces, PU+ lacquer coating, solid surfaces and compact laminates. [1]"
     },
     "companyScore" : {
@@ -20,33 +20,26 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.16,
-      "pricePercentageAboveDma100" : 3.27,
-      "pricePercentageAboveDma200" : 2.82,
+      "pricePercentageAboveDma50" : 4.50,
+      "pricePercentageAboveDma100" : 3.66,
+      "pricePercentageAboveDma200" : 3.23,
       "weeklyVolumeHigherThanYearlyVolume" : 5.00,
-      "salesGrowthPercentile" : 7.16,
-      "operatingProfitMarginPercentile" : 17.75,
-      "netProfitMarginPercentile" : 9.41,
-      "totalTechnicalScore" : 45.24,
-      "totalFundamentalScore" : 34.32,
-      "totalScore" : 79.56
+      "salesGrowthPercentile" : 8.57,
+      "operatingProfitMarginPercentile" : 19.53,
+      "netProfitMarginPercentile" : 9.77,
+      "totalTechnicalScore" : 46.39,
+      "totalFundamentalScore" : 37.87,
+      "totalScore" : 84.26
     }
   },
   "attributes" : {
     "companyCode" : "STYLAMIND",
     "companyName" : "Stylam Industrie",
-    "marketCap" : 6065.00,
-    "peRatio" : 35.70,
+    "marketCap" : 5748.00,
+    "peRatio" : 33.90,
     "description" : "Stylam Industries is engaged in the manufacturing of decorative laminates under the brand name “STYLAM” and exports its products primarily to European and South East Asian countries. It manufactures a wide range of high-quality decorative laminates, specialty surfaces, PU+ lacquer coating, solid surfaces and compact laminates. [1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-07-23",
-    "price" : 1855.60,
-    "dma50" : 1690.43,
-    "dma100" : null,
-    "dma200" : 1802.26,
-    "volume" : 172791.00
-  }, {
     "date" : "2025-07-24",
     "price" : 1880.40,
     "dma50" : 1697.88,
@@ -743,7 +736,7 @@
     "date" : "2025-12-17",
     "price" : 2218.20,
     "dma50" : 2032.89,
-    "dma100" : 1879.76,
+    "dma100" : null,
     "dma200" : 1879.69,
     "volume" : 28344.00
   }, {
@@ -1761,14 +1754,21 @@
     "dma100" : 2663.37,
     "dma200" : 2497.69,
     "volume" : 2125017.00
+  }, {
+    "date" : "2026-07-23",
+    "price" : 3391.90,
+    "dma50" : 3082.52,
+    "dma100" : 2675.16,
+    "dma200" : 2506.59,
+    "volume" : 517409.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-07-22",
-    "price" : 3587.40,
-    "dma50" : 3069.89,
-    "dma100" : 2663.37,
-    "dma200" : 2497.69,
-    "volume" : 2125017.00
+    "date" : "2026-07-23",
+    "price" : 3391.90,
+    "dma50" : 3082.52,
+    "dma100" : 2675.16,
+    "dma200" : 2506.59,
+    "volume" : 517409.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2620,17 +2620,27 @@
     "operatingProfit" : 55.20,
     "netProfitMargin" : 13.39,
     "netProfit" : 37.89
+  }, {
+    "date" : "2026-06-30",
+    "sales" : 326.47,
+    "salesGrowthYoY" : 15.37,
+    "grossProfitMargin" : 47.21,
+    "grossProfit" : 154.13,
+    "operatingProfitMargin" : 21.09,
+    "operatingProfit" : 68.85,
+    "netProfitMargin" : 14.75,
+    "netProfit" : 48.15
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2026-03-31",
-    "sales" : 282.95,
-    "salesGrowthYoY" : 6.66,
-    "grossProfitMargin" : 48.76,
-    "grossProfit" : 137.97,
-    "operatingProfitMargin" : 19.51,
-    "operatingProfit" : 55.20,
-    "netProfitMargin" : 13.39,
-    "netProfit" : 37.89
+    "date" : "2026-06-30",
+    "sales" : 326.47,
+    "salesGrowthYoY" : 15.37,
+    "grossProfitMargin" : 47.21,
+    "grossProfit" : 154.13,
+    "operatingProfitMargin" : 21.09,
+    "operatingProfit" : 68.85,
+    "netProfitMargin" : 14.75,
+    "netProfit" : 48.15
   },
   "companyScore" : {
     "priceHigherThanDma50" : 5.00,
@@ -2639,15 +2649,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.16,
-    "pricePercentageAboveDma100" : 3.27,
-    "pricePercentageAboveDma200" : 2.82,
+    "pricePercentageAboveDma50" : 4.50,
+    "pricePercentageAboveDma100" : 3.66,
+    "pricePercentageAboveDma200" : 3.23,
     "weeklyVolumeHigherThanYearlyVolume" : 5.00,
-    "salesGrowthPercentile" : 7.16,
-    "operatingProfitMarginPercentile" : 17.75,
-    "netProfitMarginPercentile" : 9.41,
-    "totalTechnicalScore" : 45.24,
-    "totalFundamentalScore" : 34.32,
-    "totalScore" : 79.56
+    "salesGrowthPercentile" : 8.57,
+    "operatingProfitMarginPercentile" : 19.53,
+    "netProfitMarginPercentile" : 9.77,
+    "totalTechnicalScore" : 46.39,
+    "totalFundamentalScore" : 37.87,
+    "totalScore" : 84.26
   }
 }

@@ -9,44 +9,37 @@
     "attributes" : {
       "companyCode" : "DOLPHIN",
       "companyName" : "Dolphin Offshore",
-      "marketCap" : 1595.00,
-      "peRatio" : 23.30,
+      "marketCap" : 1513.00,
+      "peRatio" : 21.00,
       "description" : "Incorporated in 1979, Dolphin Offshore Enterprises Ltd providing services to the offshore oil and gas industry[1]"
     },
     "companyScore" : {
-      "priceHigherThanDma50" : 5.00,
+      "priceHigherThanDma50" : 0.00,
       "priceHigherThanDma100" : 0.00,
       "priceHigherThanDma200" : 0.00,
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 0.00,
-      "pricePercentageAboveDma50" : 4.90,
-      "pricePercentageAboveDma100" : 5.03,
-      "pricePercentageAboveDma200" : 5.07,
+      "pricePercentageAboveDma50" : 5.15,
+      "pricePercentageAboveDma100" : 5.28,
+      "pricePercentageAboveDma200" : 5.31,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-      "salesGrowthPercentile" : 13.24,
-      "operatingProfitMarginPercentile" : 18.57,
-      "netProfitMarginPercentile" : 9.86,
-      "totalTechnicalScore" : 20.00,
-      "totalFundamentalScore" : 41.67,
-      "totalScore" : 61.67
+      "salesGrowthPercentile" : 19.71,
+      "operatingProfitMarginPercentile" : 18.62,
+      "netProfitMarginPercentile" : 9.04,
+      "totalTechnicalScore" : 15.74,
+      "totalFundamentalScore" : 47.37,
+      "totalScore" : 63.11
     }
   },
   "attributes" : {
     "companyCode" : "DOLPHIN",
     "companyName" : "Dolphin Offshore",
-    "marketCap" : 1595.00,
-    "peRatio" : 23.30,
+    "marketCap" : 1513.00,
+    "peRatio" : 21.00,
     "description" : "Incorporated in 1979, Dolphin Offshore Enterprises Ltd providing services to the offshore oil and gas industry[1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-07-24",
-    "price" : 451.85,
-    "dma50" : 418.08,
-    "dma100" : null,
-    "dma200" : 416.82,
-    "volume" : 5952.00
-  }, {
     "date" : "2025-07-25",
     "price" : 441.85,
     "dma50" : 419.01,
@@ -743,7 +736,7 @@
     "date" : "2025-12-18",
     "price" : 418.75,
     "dma50" : 379.44,
-    "dma100" : 394.55,
+    "dma100" : null,
     "dma200" : 399.35,
     "volume" : 19487.00
   }, {
@@ -1761,14 +1754,21 @@
     "dma100" : 399.72,
     "dma200" : 402.29,
     "volume" : 25654.00
+  }, {
+    "date" : "2026-07-24",
+    "price" : 376.95,
+    "dma50" : 388.82,
+    "dma100" : 399.09,
+    "dma200" : 402.04,
+    "volume" : 47304.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-07-23",
-    "price" : 397.00,
-    "dma50" : 389.30,
-    "dma100" : 399.72,
-    "dma200" : 402.29,
-    "volume" : 25654.00
+    "date" : "2026-07-24",
+    "price" : 376.95,
+    "dma50" : 388.82,
+    "dma100" : 399.09,
+    "dma200" : 402.04,
+    "volume" : 47304.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2490,34 +2490,44 @@
     "operatingProfit" : 0.57,
     "netProfitMargin" : 513.71,
     "netProfit" : 26.97
+  }, {
+    "date" : "2026-06-30",
+    "sales" : 2.46,
+    "salesGrowthYoY" : 515.00,
+    "grossProfitMargin" : 78.86,
+    "grossProfit" : 1.94,
+    "operatingProfitMargin" : 13.82,
+    "operatingProfit" : 0.34,
+    "netProfitMargin" : 36.99,
+    "netProfit" : 0.91
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2026-03-31",
-    "sales" : 5.25,
-    "salesGrowthYoY" : 47.47,
-    "grossProfitMargin" : 96.57,
-    "grossProfit" : 5.07,
-    "operatingProfitMargin" : 10.86,
-    "operatingProfit" : 0.57,
-    "netProfitMargin" : 513.71,
-    "netProfit" : 26.97
+    "date" : "2026-06-30",
+    "sales" : 2.46,
+    "salesGrowthYoY" : 515.00,
+    "grossProfitMargin" : 78.86,
+    "grossProfit" : 1.94,
+    "operatingProfitMargin" : 13.82,
+    "operatingProfit" : 0.34,
+    "netProfitMargin" : 36.99,
+    "netProfit" : 0.91
   },
   "companyScore" : {
-    "priceHigherThanDma50" : 5.00,
+    "priceHigherThanDma50" : 0.00,
     "priceHigherThanDma100" : 0.00,
     "priceHigherThanDma200" : 0.00,
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 0.00,
-    "pricePercentageAboveDma50" : 4.90,
-    "pricePercentageAboveDma100" : 5.03,
-    "pricePercentageAboveDma200" : 5.07,
+    "pricePercentageAboveDma50" : 5.15,
+    "pricePercentageAboveDma100" : 5.28,
+    "pricePercentageAboveDma200" : 5.31,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-    "salesGrowthPercentile" : 13.24,
-    "operatingProfitMarginPercentile" : 18.57,
-    "netProfitMarginPercentile" : 9.86,
-    "totalTechnicalScore" : 20.00,
-    "totalFundamentalScore" : 41.67,
-    "totalScore" : 61.67
+    "salesGrowthPercentile" : 19.71,
+    "operatingProfitMarginPercentile" : 18.62,
+    "netProfitMarginPercentile" : 9.04,
+    "totalTechnicalScore" : 15.74,
+    "totalFundamentalScore" : 47.37,
+    "totalScore" : 63.11
   }
 }

@@ -16,7 +16,7 @@
     "companyScore" : {
       "priceHigherThanDma50" : 5.00,
       "priceHigherThanDma100" : 5.00,
-      "priceHigherThanDma200" : 0.00,
+      "priceHigherThanDma200" : 5.00,
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 0.00,
@@ -27,9 +27,9 @@
       "salesGrowthPercentile" : 7.16,
       "operatingProfitMarginPercentile" : 8.01,
       "netProfitMarginPercentile" : 4.59,
-      "totalTechnicalScore" : 34.41,
+      "totalTechnicalScore" : 39.42,
       "totalFundamentalScore" : 19.76,
-      "totalScore" : 54.17
+      "totalScore" : 59.17
     }
   },
   "attributes" : {
@@ -40,13 +40,6 @@
     "description" : "Goodyear India is engaged in the business of manufacturing and trading of tyres, tubes, and flaps It is a leading player in the India farm tyre market[1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-07-28",
-    "price" : 970.05,
-    "dma50" : 966.16,
-    "dma100" : null,
-    "dma200" : 977.94,
-    "volume" : 9212.00
-  }, {
     "date" : "2025-07-29",
     "price" : 983.85,
     "dma50" : 966.86,
@@ -135,7 +128,7 @@
     "price" : 980.05,
     "dma50" : 972.15,
     "dma100" : null,
-    "dma200" : 978.31,
+    "dma200" : 978.32,
     "volume" : 1893.00
   }, {
     "date" : "2025-08-18",
@@ -191,7 +184,7 @@
     "price" : 980.25,
     "dma50" : 974.33,
     "dma100" : null,
-    "dma200" : 978.45,
+    "dma200" : 978.46,
     "volume" : 4412.00
   }, {
     "date" : "2025-08-29",
@@ -709,7 +702,7 @@
     "price" : 844.60,
     "dma50" : 914.55,
     "dma100" : null,
-    "dma200" : 958.15,
+    "dma200" : 958.16,
     "volume" : 2944.00
   }, {
     "date" : "2025-12-16",
@@ -743,7 +736,7 @@
     "date" : "2025-12-22",
     "price" : 854.85,
     "dma50" : 901.36,
-    "dma100" : 950.14,
+    "dma100" : null,
     "dma200" : 952.47,
     "volume" : 3678.00
   }, {
@@ -1761,14 +1754,21 @@
     "dma100" : 763.43,
     "dma200" : 817.71,
     "volume" : 13218.00
+  }, {
+    "date" : "2026-07-28",
+    "price" : 817.95,
+    "dma50" : 782.47,
+    "dma100" : 763.54,
+    "dma200" : 817.71,
+    "volume" : 8839.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-07-27",
-    "price" : 817.70,
-    "dma50" : 781.02,
-    "dma100" : 763.43,
+    "date" : "2026-07-28",
+    "price" : 817.95,
+    "dma50" : 782.47,
+    "dma100" : 763.54,
     "dma200" : 817.71,
-    "volume" : 13218.00
+    "volume" : 8839.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2635,7 +2635,7 @@
   "companyScore" : {
     "priceHigherThanDma50" : 5.00,
     "priceHigherThanDma100" : 5.00,
-    "priceHigherThanDma200" : 0.00,
+    "priceHigherThanDma200" : 5.00,
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 0.00,
@@ -2646,8 +2646,8 @@
     "salesGrowthPercentile" : 7.16,
     "operatingProfitMarginPercentile" : 8.01,
     "netProfitMarginPercentile" : 4.59,
-    "totalTechnicalScore" : 34.41,
+    "totalTechnicalScore" : 39.42,
     "totalFundamentalScore" : 19.76,
-    "totalScore" : 54.17
+    "totalScore" : 59.17
   }
 }

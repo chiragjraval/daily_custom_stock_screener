@@ -9,8 +9,8 @@
     "attributes" : {
       "companyCode" : "VEDL",
       "companyName" : "Vedanta",
-      "marketCap" : 103469.00,
-      "peRatio" : 5.97,
+      "marketCap" : 104603.00,
+      "peRatio" : 9.51,
       "description" : "Vedanta Ltd is a diversified natural resource group engaged in exploring, extracting and processing minerals and oil & gas. The group engages in the exploration, production and sale of zinc, lead, silver, copper, aluminium, iron ore and oil & gas. It has presence across India, South Africa, Namibia, Ireland, Liberia & UAE. Its other businesses includes commercial power generation, steel manufacturing & port operations in India and manufacturing of glass substrate in South Korea and Taiwan.[1] Presently, India accounts for ~65% of total revenues, followed by Malaysia (9%), China (3%), UAE (1%) and others (22%).[2]"
     },
     "companyScore" : {
@@ -20,33 +20,26 @@
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 5.28,
-      "pricePercentageAboveDma100" : 5.32,
-      "pricePercentageAboveDma200" : 4.76,
+      "pricePercentageAboveDma50" : 5.22,
+      "pricePercentageAboveDma100" : 5.27,
+      "pricePercentageAboveDma200" : 4.70,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-      "salesGrowthPercentile" : 16.54,
-      "operatingProfitMarginPercentile" : 7.70,
-      "netProfitMarginPercentile" : 2.81,
-      "totalTechnicalScore" : 30.36,
-      "totalFundamentalScore" : 27.05,
-      "totalScore" : 57.41
+      "salesGrowthPercentile" : 16.10,
+      "operatingProfitMarginPercentile" : 7.72,
+      "netProfitMarginPercentile" : 6.86,
+      "totalTechnicalScore" : 30.19,
+      "totalFundamentalScore" : 30.68,
+      "totalScore" : 60.86
     }
   },
   "attributes" : {
     "companyCode" : "VEDL",
     "companyName" : "Vedanta",
-    "marketCap" : 103469.00,
-    "peRatio" : 5.97,
+    "marketCap" : 104603.00,
+    "peRatio" : 9.51,
     "description" : "Vedanta Ltd is a diversified natural resource group engaged in exploring, extracting and processing minerals and oil & gas. The group engages in the exploration, production and sale of zinc, lead, silver, copper, aluminium, iron ore and oil & gas. It has presence across India, South Africa, Namibia, Ireland, Liberia & UAE. Its other businesses includes commercial power generation, steel manufacturing & port operations in India and manufacturing of glass substrate in South Korea and Taiwan.[1] Presently, India accounts for ~65% of total revenues, followed by Malaysia (9%), China (3%), UAE (1%) and others (22%).[2]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-07-30",
-    "price" : 157.23,
-    "dma50" : 161.39,
-    "dma100" : null,
-    "dma200" : 158.22,
-    "volume" : 8559430.00
-  }, {
     "date" : "2025-07-31",
     "price" : 153.99,
     "dma50" : 161.10,
@@ -743,7 +736,7 @@
     "date" : "2025-12-24",
     "price" : 216.40,
     "dma50" : 189.90,
-    "dma100" : 175.09,
+    "dma100" : null,
     "dma200" : 171.66,
     "volume" : 45406741.00
   }, {
@@ -1761,14 +1754,21 @@
     "dma100" : 282.65,
     "dma200" : 252.35,
     "volume" : 5303497.00
+  }, {
+    "date" : "2026-07-30",
+    "price" : 267.50,
+    "dma50" : 279.57,
+    "dma100" : 282.71,
+    "dma200" : 252.50,
+    "volume" : 10159429.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-07-29",
-    "price" : 264.50,
-    "dma50" : 280.06,
-    "dma100" : 282.65,
-    "dma200" : 252.35,
-    "volume" : 5303497.00
+    "date" : "2026-07-30",
+    "price" : 267.50,
+    "dma50" : 279.57,
+    "dma100" : 282.71,
+    "dma200" : 252.50,
+    "volume" : 10159429.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2582,14 +2582,14 @@
     "netProfit" : -354.99
   }, {
     "date" : "2025-06-30",
-    "sales" : 18829.00,
-    "salesGrowthYoY" : 12.65,
-    "grossProfitMargin" : 39.74,
-    "grossProfit" : 7482.64,
-    "operatingProfitMargin" : 18.35,
-    "operatingProfit" : 3455.12,
-    "netProfitMargin" : 20.85,
-    "netProfit" : 3925.85
+    "sales" : 5051.00,
+    "salesGrowthYoY" : -69.78,
+    "grossProfitMargin" : 9.52,
+    "grossProfit" : 480.86,
+    "operatingProfitMargin" : -1.60,
+    "operatingProfit" : -80.82,
+    "netProfitMargin" : 50.23,
+    "netProfit" : 2537.12
   }, {
     "date" : "2025-09-30",
     "sales" : 5219.00,
@@ -2612,25 +2612,35 @@
     "netProfit" : -56.90
   }, {
     "date" : "2026-03-31",
-    "sales" : 7691.00,
-    "salesGrowthYoY" : 56.64,
-    "grossProfitMargin" : 9.13,
-    "grossProfit" : 702.19,
-    "operatingProfitMargin" : -0.49,
-    "operatingProfit" : -37.69,
-    "netProfitMargin" : -3.87,
-    "netProfit" : -297.64
+    "sales" : 7748.00,
+    "salesGrowthYoY" : 57.80,
+    "grossProfitMargin" : 9.01,
+    "grossProfit" : 698.09,
+    "operatingProfitMargin" : -0.83,
+    "operatingProfit" : -64.31,
+    "netProfitMargin" : -3.34,
+    "netProfit" : -258.78
+  }, {
+    "date" : "2026-06-30",
+    "sales" : 7716.00,
+    "salesGrowthYoY" : 52.76,
+    "grossProfitMargin" : 9.10,
+    "grossProfit" : 702.16,
+    "operatingProfitMargin" : -0.40,
+    "operatingProfit" : -30.86,
+    "netProfitMargin" : 32.89,
+    "netProfit" : 2537.79
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2026-03-31",
-    "sales" : 7691.00,
-    "salesGrowthYoY" : 56.64,
-    "grossProfitMargin" : 9.13,
-    "grossProfit" : 702.19,
-    "operatingProfitMargin" : -0.49,
-    "operatingProfit" : -37.69,
-    "netProfitMargin" : -3.87,
-    "netProfit" : -297.64
+    "date" : "2026-06-30",
+    "sales" : 7716.00,
+    "salesGrowthYoY" : 52.76,
+    "grossProfitMargin" : 9.10,
+    "grossProfit" : 702.16,
+    "operatingProfitMargin" : -0.40,
+    "operatingProfit" : -30.86,
+    "netProfitMargin" : 32.89,
+    "netProfit" : 2537.79
   },
   "companyScore" : {
     "priceHigherThanDma50" : 0.00,
@@ -2639,15 +2649,15 @@
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 5.28,
-    "pricePercentageAboveDma100" : 5.32,
-    "pricePercentageAboveDma200" : 4.76,
+    "pricePercentageAboveDma50" : 5.22,
+    "pricePercentageAboveDma100" : 5.27,
+    "pricePercentageAboveDma200" : 4.70,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-    "salesGrowthPercentile" : 16.54,
-    "operatingProfitMarginPercentile" : 7.70,
-    "netProfitMarginPercentile" : 2.81,
-    "totalTechnicalScore" : 30.36,
-    "totalFundamentalScore" : 27.05,
-    "totalScore" : 57.41
+    "salesGrowthPercentile" : 16.10,
+    "operatingProfitMarginPercentile" : 7.72,
+    "netProfitMarginPercentile" : 6.86,
+    "totalTechnicalScore" : 30.19,
+    "totalFundamentalScore" : 30.68,
+    "totalScore" : 60.86
   }
 }

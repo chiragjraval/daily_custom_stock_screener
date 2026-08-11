@@ -9,8 +9,8 @@
     "attributes" : {
       "companyCode" : "LLOYDSENT",
       "companyName" : "Lloyds Enterpris",
-      "marketCap" : 12594.00,
-      "peRatio" : 1143.00,
+      "marketCap" : 12251.00,
+      "peRatio" : 107.00,
       "description" : "Company core business is trading in Iron & Steel products [1]"
     },
     "companyScore" : {
@@ -20,33 +20,26 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.57,
-      "pricePercentageAboveDma100" : 3.96,
-      "pricePercentageAboveDma200" : 3.83,
+      "pricePercentageAboveDma50" : 4.72,
+      "pricePercentageAboveDma100" : 4.14,
+      "pricePercentageAboveDma200" : 3.99,
       "weeklyVolumeHigherThanYearlyVolume" : 5.00,
-      "salesGrowthPercentile" : 6.17,
-      "operatingProfitMarginPercentile" : 18.28,
-      "netProfitMarginPercentile" : 9.29,
-      "totalTechnicalScore" : 47.36,
-      "totalFundamentalScore" : 33.75,
-      "totalScore" : 81.10
+      "salesGrowthPercentile" : 3.66,
+      "operatingProfitMarginPercentile" : 18.36,
+      "netProfitMarginPercentile" : 8.72,
+      "totalTechnicalScore" : 47.85,
+      "totalFundamentalScore" : 30.74,
+      "totalScore" : 78.59
     }
   },
   "attributes" : {
     "companyCode" : "LLOYDSENT",
     "companyName" : "Lloyds Enterpris",
-    "marketCap" : 12594.00,
-    "peRatio" : 1143.00,
+    "marketCap" : 12251.00,
+    "peRatio" : 107.00,
     "description" : "Company core business is trading in Iron & Steel products [1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-08-11",
-    "price" : 71.75,
-    "dma50" : 71.47,
-    "dma100" : null,
-    "dma200" : 57.36,
-    "volume" : 7945025.00
-  }, {
     "date" : "2025-08-12",
     "price" : 69.43,
     "dma50" : 71.39,
@@ -743,7 +736,7 @@
     "date" : "2026-01-06",
     "price" : 66.07,
     "dma50" : 63.40,
-    "dma100" : 66.22,
+    "dma100" : null,
     "dma200" : 62.29,
     "volume" : 2013323.00
   }, {
@@ -1761,14 +1754,21 @@
     "dma100" : 68.29,
     "dma200" : 66.86,
     "volume" : 5345158.00
+  }, {
+    "date" : "2026-08-11",
+    "price" : 80.48,
+    "dma50" : 76.25,
+    "dma100" : 68.62,
+    "dma200" : 66.99,
+    "volume" : 11020060.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-08-10",
-    "price" : 82.55,
-    "dma50" : 76.08,
-    "dma100" : 68.29,
-    "dma200" : 66.86,
-    "volume" : 5345158.00
+    "date" : "2026-08-11",
+    "price" : 80.48,
+    "dma50" : 76.25,
+    "dma100" : 68.62,
+    "dma200" : 66.99,
+    "volume" : 11020060.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2620,17 +2620,27 @@
     "operatingProfit" : -5.97,
     "netProfitMargin" : 9.55,
     "netProfit" : 21.45
+  }, {
+    "date" : "2026-06-30",
+    "sales" : 43.11,
+    "salesGrowthYoY" : -56.19,
+    "grossProfitMargin" : 5.61,
+    "grossProfit" : 2.42,
+    "operatingProfitMargin" : -2.18,
+    "operatingProfit" : -0.94,
+    "netProfitMargin" : 5.66,
+    "netProfit" : 2.44
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2026-03-31",
-    "sales" : 224.61,
-    "salesGrowthYoY" : -0.70,
-    "grossProfitMargin" : 3.50,
-    "grossProfit" : 7.86,
-    "operatingProfitMargin" : -2.66,
-    "operatingProfit" : -5.97,
-    "netProfitMargin" : 9.55,
-    "netProfit" : 21.45
+    "date" : "2026-06-30",
+    "sales" : 43.11,
+    "salesGrowthYoY" : -56.19,
+    "grossProfitMargin" : 5.61,
+    "grossProfit" : 2.42,
+    "operatingProfitMargin" : -2.18,
+    "operatingProfit" : -0.94,
+    "netProfitMargin" : 5.66,
+    "netProfit" : 2.44
   },
   "companyScore" : {
     "priceHigherThanDma50" : 5.00,
@@ -2639,15 +2649,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.57,
-    "pricePercentageAboveDma100" : 3.96,
-    "pricePercentageAboveDma200" : 3.83,
+    "pricePercentageAboveDma50" : 4.72,
+    "pricePercentageAboveDma100" : 4.14,
+    "pricePercentageAboveDma200" : 3.99,
     "weeklyVolumeHigherThanYearlyVolume" : 5.00,
-    "salesGrowthPercentile" : 6.17,
-    "operatingProfitMarginPercentile" : 18.28,
-    "netProfitMarginPercentile" : 9.29,
-    "totalTechnicalScore" : 47.36,
-    "totalFundamentalScore" : 33.75,
-    "totalScore" : 81.10
+    "salesGrowthPercentile" : 3.66,
+    "operatingProfitMarginPercentile" : 18.36,
+    "netProfitMarginPercentile" : 8.72,
+    "totalTechnicalScore" : 47.85,
+    "totalFundamentalScore" : 30.74,
+    "totalScore" : 78.59
   }
 }

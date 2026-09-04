@@ -20,8 +20,8 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 4.76,
-      "pricePercentageAboveDma100" : 4.58,
+      "pricePercentageAboveDma50" : 4.77,
+      "pricePercentageAboveDma100" : 4.59,
       "pricePercentageAboveDma200" : 4.56,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 20.00,
@@ -29,7 +29,7 @@
       "netProfitMarginPercentile" : 4.62,
       "totalTechnicalScore" : 43.91,
       "totalFundamentalScore" : 32.33,
-      "totalScore" : 76.23
+      "totalScore" : 76.24
     }
   },
   "attributes" : {
@@ -40,13 +40,6 @@
     "description" : "Incorporated in 1991, Kross Ltd manufactures high performance and safety critical components for the commercial vehicle, tractor and trailer axle industry[1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-09-04",
-    "price" : 203.36,
-    "dma50" : 183.65,
-    "dma100" : null,
-    "dma200" : 191.12,
-    "volume" : 1548139.00
-  }, {
     "date" : "2025-09-05",
     "price" : 225.91,
     "dma50" : 185.30,
@@ -743,7 +736,7 @@
     "date" : "2026-01-30",
     "price" : 194.43,
     "dma50" : 190.15,
-    "dma100" : 189.65,
+    "dma100" : null,
     "dma200" : 189.50,
     "volume" : 923102.00
   }, {
@@ -1775,14 +1768,21 @@
     "dma100" : 195.13,
     "dma200" : 194.13,
     "volume" : 225482.00
+  }, {
+    "date" : "2026-09-04",
+    "price" : 211.57,
+    "dma50" : 202.18,
+    "dma100" : 195.38,
+    "dma200" : 194.30,
+    "volume" : 251599.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-09-03",
-    "price" : 211.34,
-    "dma50" : 201.80,
-    "dma100" : 195.13,
-    "dma200" : 194.13,
-    "volume" : 225482.00
+    "date" : "2026-09-04",
+    "price" : 211.57,
+    "dma50" : 202.18,
+    "dma100" : 195.38,
+    "dma200" : 194.30,
+    "volume" : 251599.00
   },
   "quarterlyResults" : [ {
     "date" : "2023-06-30",
@@ -1933,8 +1933,8 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 4.76,
-    "pricePercentageAboveDma100" : 4.58,
+    "pricePercentageAboveDma50" : 4.77,
+    "pricePercentageAboveDma100" : 4.59,
     "pricePercentageAboveDma200" : 4.56,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 20.00,
@@ -1942,6 +1942,6 @@
     "netProfitMarginPercentile" : 4.62,
     "totalTechnicalScore" : 43.91,
     "totalFundamentalScore" : 32.33,
-    "totalScore" : 76.23
+    "totalScore" : 76.24
   }
 }

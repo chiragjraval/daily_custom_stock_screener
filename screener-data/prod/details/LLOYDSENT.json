@@ -9,44 +9,37 @@
     "attributes" : {
       "companyCode" : "LLOYDSENT",
       "companyName" : "Lloyds Enterpris",
-      "marketCap" : 10971.00,
-      "peRatio" : 96.20,
+      "marketCap" : 11317.00,
+      "peRatio" : 99.20,
       "description" : "Company core business is trading in Iron & Steel products [1]"
     },
     "companyScore" : {
       "priceHigherThanDma50" : 0.00,
-      "priceHigherThanDma100" : 0.00,
+      "priceHigherThanDma100" : 5.00,
       "priceHigherThanDma200" : 5.00,
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 5.23,
-      "pricePercentageAboveDma100" : 5.09,
-      "pricePercentageAboveDma200" : 4.73,
+      "pricePercentageAboveDma50" : 5.08,
+      "pricePercentageAboveDma100" : 4.94,
+      "pricePercentageAboveDma200" : 4.57,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
       "salesGrowthPercentile" : 3.66,
       "operatingProfitMarginPercentile" : 18.36,
       "netProfitMarginPercentile" : 8.72,
-      "totalTechnicalScore" : 35.04,
+      "totalTechnicalScore" : 39.59,
       "totalFundamentalScore" : 30.74,
-      "totalScore" : 65.78
+      "totalScore" : 70.32
     }
   },
   "attributes" : {
     "companyCode" : "LLOYDSENT",
     "companyName" : "Lloyds Enterpris",
-    "marketCap" : 10971.00,
-    "peRatio" : 96.20,
+    "marketCap" : 11317.00,
+    "peRatio" : 99.20,
     "description" : "Company core business is trading in Iron & Steel products [1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-09-04",
-    "price" : 70.50,
-    "dma50" : 72.08,
-    "dma100" : null,
-    "dma200" : 59.66,
-    "volume" : 2617454.00
-  }, {
     "date" : "2025-09-05",
     "price" : 74.08,
     "dma50" : 72.16,
@@ -743,7 +736,7 @@
     "date" : "2026-01-30",
     "price" : 58.15,
     "dma50" : 60.79,
-    "dma100" : 63.89,
+    "dma100" : null,
     "dma200" : 61.69,
     "volume" : 2693675.00
   }, {
@@ -1775,14 +1768,21 @@
     "dma100" : 73.25,
     "dma200" : 68.23,
     "volume" : 2095317.00
+  }, {
+    "date" : "2026-09-04",
+    "price" : 74.23,
+    "dma50" : 75.38,
+    "dma100" : 73.41,
+    "dma200" : 68.29,
+    "volume" : 3980845.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-09-03",
-    "price" : 71.97,
-    "dma50" : 75.43,
-    "dma100" : 73.25,
-    "dma200" : 68.23,
-    "volume" : 2095317.00
+    "date" : "2026-09-04",
+    "price" : 74.23,
+    "dma50" : 75.38,
+    "dma100" : 73.41,
+    "dma200" : 68.29,
+    "volume" : 3980845.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2658,20 +2658,20 @@
   },
   "companyScore" : {
     "priceHigherThanDma50" : 0.00,
-    "priceHigherThanDma100" : 0.00,
+    "priceHigherThanDma100" : 5.00,
     "priceHigherThanDma200" : 5.00,
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 5.23,
-    "pricePercentageAboveDma100" : 5.09,
-    "pricePercentageAboveDma200" : 4.73,
+    "pricePercentageAboveDma50" : 5.08,
+    "pricePercentageAboveDma100" : 4.94,
+    "pricePercentageAboveDma200" : 4.57,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
     "salesGrowthPercentile" : 3.66,
     "operatingProfitMarginPercentile" : 18.36,
     "netProfitMarginPercentile" : 8.72,
-    "totalTechnicalScore" : 35.04,
+    "totalTechnicalScore" : 39.59,
     "totalFundamentalScore" : 30.74,
-    "totalScore" : 65.78
+    "totalScore" : 70.32
   }
 }

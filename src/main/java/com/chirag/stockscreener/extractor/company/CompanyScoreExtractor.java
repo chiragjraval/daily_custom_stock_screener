@@ -29,6 +29,12 @@ public class CompanyScoreExtractor implements Function<CompanyDetail, CompanySco
         // Calculate various scores and set in CompanyScore.Builder
         CompanyScore.Builder builder = new CompanyScore.Builder();
 
+        // If either technical attributes or quarterly results are missing, return a CompanyScore with default values
+        if (latestTechnicalAttributes == null || latestQuarterlyResult == null) {
+            return builder.build();
+        }
+
+        // Calculate scores based on technical attributes
         builder.setPriceHigherThanDma50(getHigherThanDmaScore(latestTechnicalAttributes.getPrice(), latestTechnicalAttributes.getDma50(), MAX_VALUE_HIGHER_THAN_DMA_SCORE));
         builder.setPriceHigherThanDma100(getHigherThanDmaScore(latestTechnicalAttributes.getPrice(), latestTechnicalAttributes.getDma100(), MAX_VALUE_HIGHER_THAN_DMA_SCORE));
         builder.setPriceHigherThanDma200(getHigherThanDmaScore(latestTechnicalAttributes.getPrice(), latestTechnicalAttributes.getDma200(), MAX_VALUE_HIGHER_THAN_DMA_SCORE));
@@ -40,6 +46,7 @@ public class CompanyScoreExtractor implements Function<CompanyDetail, CompanySco
         builder.setPricePercentageAboveDma200(getPercentageAboveDma(latestTechnicalAttributes.getPrice(), latestTechnicalAttributes.getDma200(), MAX_PRICE_ABOVE_DMA_PERCENTAGE_SCORE));
         builder.setWeeklyVolumeHigherThanYearlyVolume(getVolumeScore(technicalHistories, MAX_VOLUME_ABOVE_AVERAGE_SCORE));
 
+        // Calculate percentile scores based on quarterly results
         builder.setSalesGrowthPercentile(getPercentileScore(
                 latestQuarterlyResult.getSalesGrowthYoY(),
                 quarterlyResults,

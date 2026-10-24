@@ -9,34 +9,34 @@
     "attributes" : {
       "companyCode" : "SUMEETINDS",
       "companyName" : "Sumeet Industrie",
-      "marketCap" : 1671.00,
-      "peRatio" : 74.40,
+      "marketCap" : 1459.00,
+      "peRatio" : 48.80,
       "description" : "Incorporated in 1993, Sumeet Industries Ltd manufactures Polyester Chips and Polyester Yarns.[1]"
     },
     "companyScore" : {
       "priceHigherThanDma50" : 0.00,
-      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma100" : 0.00,
       "priceHigherThanDma200" : 5.00,
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 5.01,
-      "pricePercentageAboveDma100" : 4.68,
-      "pricePercentageAboveDma200" : 2.50,
-      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-      "salesGrowthPercentile" : 11.39,
-      "operatingProfitMarginPercentile" : 11.55,
-      "netProfitMarginPercentile" : 9.06,
-      "totalTechnicalScore" : 37.18,
-      "totalFundamentalScore" : 32.00,
-      "totalScore" : 69.19
+      "pricePercentageAboveDma50" : 5.26,
+      "pricePercentageAboveDma100" : 5.10,
+      "pricePercentageAboveDma200" : 4.70,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 9.50,
+      "operatingProfitMarginPercentile" : 11.93,
+      "netProfitMarginPercentile" : 8.97,
+      "totalTechnicalScore" : 40.06,
+      "totalFundamentalScore" : 30.40,
+      "totalScore" : 70.46
     }
   },
   "attributes" : {
     "companyCode" : "SUMEETINDS",
     "companyName" : "Sumeet Industrie",
-    "marketCap" : 1671.00,
-    "peRatio" : 74.40,
+    "marketCap" : 1459.00,
+    "peRatio" : 48.80,
     "description" : "Incorporated in 1993, Sumeet Industries Ltd manufactures Polyester Chips and Polyester Yarns.[1]"
   },
   "technicalHistory" : [ {
@@ -142,7 +142,7 @@
     "price" : 24.29,
     "dma50" : 8.29,
     "dma100" : null,
-    "dma200" : 2.98,
+    "dma200" : 2.99,
     "volume" : 46778.00
   }, {
     "date" : "2025-07-10",
@@ -247,7 +247,7 @@
     "price" : 25.16,
     "dma50" : 16.23,
     "dma100" : null,
-    "dma200" : 6.18,
+    "dma200" : 6.19,
     "volume" : 93150.00
   }, {
     "date" : "2025-07-31",
@@ -541,7 +541,7 @@
     "price" : 34.63,
     "dma50" : 25.20,
     "dma100" : null,
-    "dma200" : 13.02,
+    "dma200" : 13.03,
     "volume" : 647139.00
   }, {
     "date" : "2025-10-01",
@@ -893,14 +893,791 @@
     "dma100" : 29.83,
     "dma200" : 21.15,
     "volume" : 148794.00
+  }, {
+    "date" : "2025-12-15",
+    "price" : 30.33,
+    "dma50" : 31.73,
+    "dma100" : 29.88,
+    "dma200" : 21.24,
+    "volume" : 234266.00
+  }, {
+    "date" : "2025-12-16",
+    "price" : 29.54,
+    "dma50" : 31.64,
+    "dma100" : 29.93,
+    "dma200" : 21.32,
+    "volume" : 70788.00
+  }, {
+    "date" : "2025-12-17",
+    "price" : 28.45,
+    "dma50" : 31.52,
+    "dma100" : 29.96,
+    "dma200" : 21.39,
+    "volume" : 180142.00
+  }, {
+    "date" : "2025-12-18",
+    "price" : 29.86,
+    "dma50" : 31.45,
+    "dma100" : 30.00,
+    "dma200" : 21.48,
+    "volume" : 130169.00
+  }, {
+    "date" : "2025-12-19",
+    "price" : 30.79,
+    "dma50" : 31.43,
+    "dma100" : 30.05,
+    "dma200" : 21.57,
+    "volume" : 109163.00
+  }, {
+    "date" : "2025-12-22",
+    "price" : 31.38,
+    "dma50" : 31.43,
+    "dma100" : 30.11,
+    "dma200" : 21.67,
+    "volume" : 183417.00
+  }, {
+    "date" : "2025-12-23",
+    "price" : 31.50,
+    "dma50" : 31.43,
+    "dma100" : 30.18,
+    "dma200" : 21.76,
+    "volume" : 71571.00
+  }, {
+    "date" : "2025-12-24",
+    "price" : 30.87,
+    "dma50" : 31.41,
+    "dma100" : 30.23,
+    "dma200" : 21.86,
+    "volume" : 61162.00
+  }, {
+    "date" : "2025-12-26",
+    "price" : 30.18,
+    "dma50" : 31.36,
+    "dma100" : 30.29,
+    "dma200" : 21.94,
+    "volume" : 72437.00
+  }, {
+    "date" : "2025-12-29",
+    "price" : 29.80,
+    "dma50" : 31.30,
+    "dma100" : 30.34,
+    "dma200" : 22.02,
+    "volume" : 72909.00
+  }, {
+    "date" : "2025-12-30",
+    "price" : 29.54,
+    "dma50" : 31.23,
+    "dma100" : 30.39,
+    "dma200" : 22.09,
+    "volume" : 57928.00
+  }, {
+    "date" : "2025-12-31",
+    "price" : 30.66,
+    "dma50" : 31.21,
+    "dma100" : 30.45,
+    "dma200" : 22.18,
+    "volume" : 192092.00
+  }, {
+    "date" : "2026-01-01",
+    "price" : 29.77,
+    "dma50" : 31.15,
+    "dma100" : 30.50,
+    "dma200" : 22.25,
+    "volume" : 36128.00
+  }, {
+    "date" : "2026-01-02",
+    "price" : 29.40,
+    "dma50" : 31.08,
+    "dma100" : 30.54,
+    "dma200" : 22.32,
+    "volume" : 55413.00
+  }, {
+    "date" : "2026-01-05",
+    "price" : 29.29,
+    "dma50" : 31.01,
+    "dma100" : 30.60,
+    "dma200" : 22.39,
+    "volume" : 97131.00
+  }, {
+    "date" : "2026-01-06",
+    "price" : 28.71,
+    "dma50" : 30.92,
+    "dma100" : 30.65,
+    "dma200" : 22.46,
+    "volume" : 72234.00
+  }, {
+    "date" : "2026-01-07",
+    "price" : 28.32,
+    "dma50" : 30.82,
+    "dma100" : 30.70,
+    "dma200" : 22.51,
+    "volume" : 73001.00
+  }, {
+    "date" : "2026-01-08",
+    "price" : 26.97,
+    "dma50" : 30.67,
+    "dma100" : 30.74,
+    "dma200" : 22.56,
+    "volume" : 167759.00
+  }, {
+    "date" : "2026-01-09",
+    "price" : 26.01,
+    "dma50" : 30.49,
+    "dma100" : 30.78,
+    "dma200" : 22.59,
+    "volume" : 171306.00
+  }, {
+    "date" : "2026-01-12",
+    "price" : 27.10,
+    "dma50" : 30.35,
+    "dma100" : 30.83,
+    "dma200" : 22.64,
+    "volume" : 198920.00
+  }, {
+    "date" : "2026-01-13",
+    "price" : 28.45,
+    "dma50" : 30.28,
+    "dma100" : 30.90,
+    "dma200" : 22.70,
+    "volume" : 89395.00
+  }, {
+    "date" : "2026-01-14",
+    "price" : 28.20,
+    "dma50" : 30.20,
+    "dma100" : 30.95,
+    "dma200" : 22.75,
+    "volume" : 125517.00
+  }, {
+    "date" : "2026-01-16",
+    "price" : 29.05,
+    "dma50" : 30.15,
+    "dma100" : 31.01,
+    "dma200" : 22.81,
+    "volume" : 155948.00
+  }, {
+    "date" : "2026-01-19",
+    "price" : 28.86,
+    "dma50" : 30.10,
+    "dma100" : 31.07,
+    "dma200" : 22.87,
+    "volume" : 111603.00
+  }, {
+    "date" : "2026-01-20",
+    "price" : 27.42,
+    "dma50" : 30.00,
+    "dma100" : 31.12,
+    "dma200" : 22.92,
+    "volume" : 137327.00
+  }, {
+    "date" : "2026-01-21",
+    "price" : 26.97,
+    "dma50" : 29.88,
+    "dma100" : 31.17,
+    "dma200" : 22.96,
+    "volume" : 61365.00
+  }, {
+    "date" : "2026-01-22",
+    "price" : 27.70,
+    "dma50" : 29.79,
+    "dma100" : 31.24,
+    "dma200" : 23.01,
+    "volume" : 70403.00
+  }, {
+    "date" : "2026-01-23",
+    "price" : 27.03,
+    "dma50" : 29.68,
+    "dma100" : 31.29,
+    "dma200" : 23.05,
+    "volume" : 82731.00
+  }, {
+    "date" : "2026-01-27",
+    "price" : 26.30,
+    "dma50" : 29.55,
+    "dma100" : 31.33,
+    "dma200" : 23.08,
+    "volume" : 85761.00
+  }, {
+    "date" : "2026-01-28",
+    "price" : 27.50,
+    "dma50" : 29.47,
+    "dma100" : 31.37,
+    "dma200" : 23.12,
+    "volume" : 62782.00
+  }, {
+    "date" : "2026-01-29",
+    "price" : 26.53,
+    "dma50" : 29.35,
+    "dma100" : 31.39,
+    "dma200" : 23.16,
+    "volume" : 111094.00
+  }, {
+    "date" : "2026-01-30",
+    "price" : 26.30,
+    "dma50" : 29.24,
+    "dma100" : 31.40,
+    "dma200" : 23.19,
+    "volume" : 70857.00
+  }, {
+    "date" : "2026-02-01",
+    "price" : 27.08,
+    "dma50" : 29.15,
+    "dma100" : 31.41,
+    "dma200" : 23.23,
+    "volume" : 131293.00
+  }, {
+    "date" : "2026-02-02",
+    "price" : 26.02,
+    "dma50" : 29.03,
+    "dma100" : 31.39,
+    "dma200" : 23.25,
+    "volume" : 114552.00
+  }, {
+    "date" : "2026-02-03",
+    "price" : 26.29,
+    "dma50" : 28.92,
+    "dma100" : 31.37,
+    "dma200" : 23.28,
+    "volume" : 105227.00
+  }, {
+    "date" : "2026-02-04",
+    "price" : 25.51,
+    "dma50" : 28.79,
+    "dma100" : 31.36,
+    "dma200" : 23.31,
+    "volume" : 74914.00
+  }, {
+    "date" : "2026-02-05",
+    "price" : 26.33,
+    "dma50" : 28.69,
+    "dma100" : 31.36,
+    "dma200" : 23.34,
+    "volume" : 103683.00
+  }, {
+    "date" : "2026-02-06",
+    "price" : 25.56,
+    "dma50" : 28.57,
+    "dma100" : 31.36,
+    "dma200" : 23.36,
+    "volume" : 63720.00
+  }, {
+    "date" : "2026-02-09",
+    "price" : 26.22,
+    "dma50" : 28.48,
+    "dma100" : 31.36,
+    "dma200" : 23.39,
+    "volume" : 103311.00
+  }, {
+    "date" : "2026-02-10",
+    "price" : 27.23,
+    "dma50" : 28.43,
+    "dma100" : 31.35,
+    "dma200" : 23.42,
+    "volume" : 176606.00
+  }, {
+    "date" : "2026-02-11",
+    "price" : 26.78,
+    "dma50" : 28.36,
+    "dma100" : 31.35,
+    "dma200" : 23.46,
+    "volume" : 42928.00
+  }, {
+    "date" : "2026-02-12",
+    "price" : 26.09,
+    "dma50" : 28.27,
+    "dma100" : 31.34,
+    "dma200" : 23.48,
+    "volume" : 62693.00
+  }, {
+    "date" : "2026-02-13",
+    "price" : 26.15,
+    "dma50" : 28.19,
+    "dma100" : 31.32,
+    "dma200" : 23.51,
+    "volume" : 91881.00
+  }, {
+    "date" : "2026-02-16",
+    "price" : 24.58,
+    "dma50" : 28.05,
+    "dma100" : 31.28,
+    "dma200" : 23.52,
+    "volume" : 149648.00
+  }, {
+    "date" : "2026-02-17",
+    "price" : 24.09,
+    "dma50" : 27.89,
+    "dma100" : 31.22,
+    "dma200" : 23.53,
+    "volume" : 58324.00
+  }, {
+    "date" : "2026-02-18",
+    "price" : 23.93,
+    "dma50" : 27.74,
+    "dma100" : 31.14,
+    "dma200" : 23.53,
+    "volume" : 114697.00
+  }, {
+    "date" : "2026-02-19",
+    "price" : 23.57,
+    "dma50" : 27.57,
+    "dma100" : 31.04,
+    "dma200" : 23.53,
+    "volume" : 49633.00
+  }, {
+    "date" : "2026-02-20",
+    "price" : 23.42,
+    "dma50" : 27.41,
+    "dma100" : 30.93,
+    "dma200" : 23.53,
+    "volume" : 63894.00
+  }, {
+    "date" : "2026-02-23",
+    "price" : 23.12,
+    "dma50" : 27.24,
+    "dma100" : 30.83,
+    "dma200" : 23.53,
+    "volume" : 78626.00
+  }, {
+    "date" : "2026-02-24",
+    "price" : 22.20,
+    "dma50" : 27.05,
+    "dma100" : 30.71,
+    "dma200" : 23.51,
+    "volume" : 96112.00
+  }, {
+    "date" : "2026-02-25",
+    "price" : 24.42,
+    "dma50" : 26.94,
+    "dma100" : 30.59,
+    "dma200" : 23.52,
+    "volume" : 137643.00
+  }, {
+    "date" : "2026-02-26",
+    "price" : 26.24,
+    "dma50" : 26.91,
+    "dma100" : 30.47,
+    "dma200" : 23.55,
+    "volume" : 1260255.00
+  }, {
+    "date" : "2026-02-27",
+    "price" : 27.46,
+    "dma50" : 26.94,
+    "dma100" : 30.40,
+    "dma200" : 23.59,
+    "volume" : 266858.00
+  }, {
+    "date" : "2026-03-02",
+    "price" : 27.76,
+    "dma50" : 26.97,
+    "dma100" : 30.30,
+    "dma200" : 23.63,
+    "volume" : 225621.00
+  }, {
+    "date" : "2026-03-04",
+    "price" : 26.39,
+    "dma50" : 26.95,
+    "dma100" : 30.20,
+    "dma200" : 23.66,
+    "volume" : 113178.00
+  }, {
+    "date" : "2026-03-05",
+    "price" : 28.61,
+    "dma50" : 27.01,
+    "dma100" : 30.15,
+    "dma200" : 23.71,
+    "volume" : 143612.00
+  }, {
+    "date" : "2026-03-06",
+    "price" : 30.64,
+    "dma50" : 27.15,
+    "dma100" : 30.12,
+    "dma200" : 23.78,
+    "volume" : 400101.00
+  }, {
+    "date" : "2026-03-09",
+    "price" : 28.95,
+    "dma50" : 27.22,
+    "dma100" : 30.08,
+    "dma200" : 23.83,
+    "volume" : 154396.00
+  }, {
+    "date" : "2026-03-10",
+    "price" : 30.06,
+    "dma50" : 27.33,
+    "dma100" : 30.05,
+    "dma200" : 23.89,
+    "volume" : 128699.00
+  }, {
+    "date" : "2026-03-11",
+    "price" : 28.65,
+    "dma50" : 27.39,
+    "dma100" : 29.98,
+    "dma200" : 23.94,
+    "volume" : 108277.00
+  }, {
+    "date" : "2026-03-12",
+    "price" : 29.44,
+    "dma50" : 27.47,
+    "dma100" : 29.90,
+    "dma200" : 23.99,
+    "volume" : 219512.00
+  }, {
+    "date" : "2026-03-13",
+    "price" : 28.86,
+    "dma50" : 27.52,
+    "dma100" : 29.80,
+    "dma200" : 24.04,
+    "volume" : 382867.00
+  }, {
+    "date" : "2026-03-16",
+    "price" : 30.29,
+    "dma50" : 27.63,
+    "dma100" : 29.73,
+    "dma200" : 24.10,
+    "volume" : 241789.00
+  }, {
+    "date" : "2026-03-17",
+    "price" : 29.82,
+    "dma50" : 27.72,
+    "dma100" : 29.64,
+    "dma200" : 24.16,
+    "volume" : 78196.00
+  }, {
+    "date" : "2026-03-18",
+    "price" : 31.29,
+    "dma50" : 27.86,
+    "dma100" : 29.57,
+    "dma200" : 24.23,
+    "volume" : 401349.00
+  }, {
+    "date" : "2026-03-19",
+    "price" : 29.83,
+    "dma50" : 27.93,
+    "dma100" : 29.51,
+    "dma200" : 24.29,
+    "volume" : 154413.00
+  }, {
+    "date" : "2026-03-20",
+    "price" : 29.39,
+    "dma50" : 27.99,
+    "dma100" : 29.46,
+    "dma200" : 24.34,
+    "volume" : 111129.00
+  }, {
+    "date" : "2026-03-23",
+    "price" : 28.76,
+    "dma50" : 28.02,
+    "dma100" : 29.39,
+    "dma200" : 24.38,
+    "volume" : 354105.00
+  }, {
+    "date" : "2026-03-24",
+    "price" : 29.66,
+    "dma50" : 28.09,
+    "dma100" : 29.34,
+    "dma200" : 24.43,
+    "volume" : 162664.00
+  }, {
+    "date" : "2026-03-25",
+    "price" : 29.12,
+    "dma50" : 28.13,
+    "dma100" : 29.30,
+    "dma200" : 24.48,
+    "volume" : 211146.00
+  }, {
+    "date" : "2026-03-27",
+    "price" : 28.79,
+    "dma50" : 28.15,
+    "dma100" : 29.25,
+    "dma200" : 24.52,
+    "volume" : 250467.00
+  }, {
+    "date" : "2026-03-30",
+    "price" : 29.65,
+    "dma50" : 28.21,
+    "dma100" : 29.21,
+    "dma200" : 24.57,
+    "volume" : 189122.00
+  }, {
+    "date" : "2026-04-01",
+    "price" : 29.49,
+    "dma50" : 28.26,
+    "dma100" : 29.17,
+    "dma200" : 24.62,
+    "volume" : 84121.00
+  }, {
+    "date" : "2026-04-02",
+    "price" : 29.16,
+    "dma50" : 28.30,
+    "dma100" : 29.12,
+    "dma200" : 24.67,
+    "volume" : 61297.00
+  }, {
+    "date" : "2026-04-06",
+    "price" : 29.04,
+    "dma50" : 28.33,
+    "dma100" : 29.05,
+    "dma200" : 24.71,
+    "volume" : 44594.00
+  }, {
+    "date" : "2026-04-07",
+    "price" : 29.59,
+    "dma50" : 28.37,
+    "dma100" : 28.98,
+    "dma200" : 24.76,
+    "volume" : 129904.00
+  }, {
+    "date" : "2026-04-08",
+    "price" : 29.57,
+    "dma50" : 28.42,
+    "dma100" : 28.91,
+    "dma200" : 24.81,
+    "volume" : 127953.00
+  }, {
+    "date" : "2026-04-09",
+    "price" : 29.76,
+    "dma50" : 28.47,
+    "dma100" : 28.85,
+    "dma200" : 24.86,
+    "volume" : 88412.00
+  }, {
+    "date" : "2026-04-10",
+    "price" : 30.00,
+    "dma50" : 28.53,
+    "dma100" : 28.80,
+    "dma200" : 24.91,
+    "volume" : 70420.00
+  }, {
+    "date" : "2026-04-13",
+    "price" : 29.96,
+    "dma50" : 28.59,
+    "dma100" : 28.77,
+    "dma200" : 24.96,
+    "volume" : 135052.00
+  }, {
+    "date" : "2026-04-15",
+    "price" : 30.05,
+    "dma50" : 28.65,
+    "dma100" : 28.71,
+    "dma200" : 25.01,
+    "volume" : 136739.00
+  }, {
+    "date" : "2026-04-16",
+    "price" : 30.13,
+    "dma50" : 28.71,
+    "dma100" : 28.68,
+    "dma200" : 25.06,
+    "volume" : 119702.00
+  }, {
+    "date" : "2026-04-17",
+    "price" : 30.97,
+    "dma50" : 28.79,
+    "dma100" : 28.65,
+    "dma200" : 25.12,
+    "volume" : 250569.00
+  }, {
+    "date" : "2026-04-20",
+    "price" : 30.05,
+    "dma50" : 28.84,
+    "dma100" : 28.61,
+    "dma200" : 25.17,
+    "volume" : 181912.00
+  }, {
+    "date" : "2026-04-21",
+    "price" : 30.03,
+    "dma50" : 28.89,
+    "dma100" : 28.59,
+    "dma200" : 25.22,
+    "volume" : 95520.00
+  }, {
+    "date" : "2026-04-22",
+    "price" : 30.00,
+    "dma50" : 28.93,
+    "dma100" : 28.57,
+    "dma200" : 25.26,
+    "volume" : 120493.00
+  }, {
+    "date" : "2026-04-23",
+    "price" : 30.03,
+    "dma50" : 28.98,
+    "dma100" : 28.56,
+    "dma200" : 25.31,
+    "volume" : 62387.00
+  }, {
+    "date" : "2026-04-24",
+    "price" : 29.99,
+    "dma50" : 29.02,
+    "dma100" : 28.55,
+    "dma200" : 25.36,
+    "volume" : 303948.00
+  }, {
+    "date" : "2026-04-27",
+    "price" : 30.04,
+    "dma50" : 29.06,
+    "dma100" : 28.53,
+    "dma200" : 25.40,
+    "volume" : 89828.00
+  }, {
+    "date" : "2026-04-28",
+    "price" : 30.03,
+    "dma50" : 29.09,
+    "dma100" : 28.51,
+    "dma200" : 25.45,
+    "volume" : 119919.00
+  }, {
+    "date" : "2026-04-29",
+    "price" : 30.09,
+    "dma50" : 29.13,
+    "dma100" : 28.49,
+    "dma200" : 25.50,
+    "volume" : 59538.00
+  }, {
+    "date" : "2026-04-30",
+    "price" : 30.01,
+    "dma50" : 29.17,
+    "dma100" : 28.48,
+    "dma200" : 25.54,
+    "volume" : 102403.00
+  }, {
+    "date" : "2026-05-04",
+    "price" : 30.20,
+    "dma50" : 29.21,
+    "dma100" : 28.48,
+    "dma200" : 25.59,
+    "volume" : 149550.00
+  }, {
+    "date" : "2026-05-05",
+    "price" : 30.54,
+    "dma50" : 29.26,
+    "dma100" : 28.47,
+    "dma200" : 25.64,
+    "volume" : 57574.00
+  }, {
+    "date" : "2026-05-06",
+    "price" : 30.16,
+    "dma50" : 29.30,
+    "dma100" : 28.46,
+    "dma200" : 25.68,
+    "volume" : 71124.00
+  }, {
+    "date" : "2026-05-07",
+    "price" : 30.38,
+    "dma50" : 29.34,
+    "dma100" : 28.47,
+    "dma200" : 25.73,
+    "volume" : 123268.00
+  }, {
+    "date" : "2026-05-08",
+    "price" : 30.16,
+    "dma50" : 29.37,
+    "dma100" : 28.47,
+    "dma200" : 25.77,
+    "volume" : 79911.00
+  }, {
+    "date" : "2026-05-11",
+    "price" : 30.06,
+    "dma50" : 29.40,
+    "dma100" : 28.48,
+    "dma200" : 25.82,
+    "volume" : 64717.00
+  }, {
+    "date" : "2026-05-12",
+    "price" : 30.00,
+    "dma50" : 29.42,
+    "dma100" : 28.48,
+    "dma200" : 25.86,
+    "volume" : 135050.00
+  }, {
+    "date" : "2026-05-13",
+    "price" : 29.80,
+    "dma50" : 29.44,
+    "dma100" : 28.46,
+    "dma200" : 25.90,
+    "volume" : 207957.00
+  }, {
+    "date" : "2026-05-14",
+    "price" : 30.02,
+    "dma50" : 29.46,
+    "dma100" : 28.46,
+    "dma200" : 25.94,
+    "volume" : 281473.00
+  }, {
+    "date" : "2026-05-15",
+    "price" : 29.56,
+    "dma50" : 29.46,
+    "dma100" : 28.46,
+    "dma200" : 25.97,
+    "volume" : 73973.00
+  }, {
+    "date" : "2026-05-18",
+    "price" : 28.82,
+    "dma50" : 29.44,
+    "dma100" : 28.46,
+    "dma200" : 26.00,
+    "volume" : 282332.00
+  }, {
+    "date" : "2026-05-19",
+    "price" : 29.81,
+    "dma50" : 29.45,
+    "dma100" : 28.46,
+    "dma200" : 26.04,
+    "volume" : 162428.00
+  }, {
+    "date" : "2026-05-20",
+    "price" : 29.30,
+    "dma50" : 29.45,
+    "dma100" : 28.45,
+    "dma200" : 26.07,
+    "volume" : 65103.00
+  }, {
+    "date" : "2026-05-21",
+    "price" : 30.00,
+    "dma50" : 29.47,
+    "dma100" : 28.43,
+    "dma200" : 26.11,
+    "volume" : 188005.00
+  }, {
+    "date" : "2026-05-22",
+    "price" : 29.77,
+    "dma50" : 29.48,
+    "dma100" : 28.42,
+    "dma200" : 26.15,
+    "volume" : 152473.00
+  }, {
+    "date" : "2026-05-25",
+    "price" : 29.88,
+    "dma50" : 29.50,
+    "dma100" : 28.41,
+    "dma200" : 26.18,
+    "volume" : 467224.00
+  }, {
+    "date" : "2026-05-26",
+    "price" : 28.94,
+    "dma50" : 29.47,
+    "dma100" : 28.40,
+    "dma200" : 26.21,
+    "volume" : 199719.00
+  }, {
+    "date" : "2026-05-27",
+    "price" : 28.05,
+    "dma50" : 29.42,
+    "dma100" : 28.38,
+    "dma200" : 26.23,
+    "volume" : 278855.00
+  }, {
+    "date" : "2026-05-29",
+    "price" : 27.81,
+    "dma50" : 29.35,
+    "dma100" : 28.36,
+    "dma200" : 26.25,
+    "volume" : 286750.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2025-12-12",
-    "price" : 31.74,
-    "dma50" : 31.79,
-    "dma100" : 29.83,
-    "dma200" : 21.15,
-    "volume" : 148794.00
+    "date" : "2026-05-29",
+    "price" : 27.81,
+    "dma50" : 29.35,
+    "dma100" : 28.36,
+    "dma200" : 26.25,
+    "volume" : 286750.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -1730,36 +2507,46 @@
     "grossProfit" : 61.62,
     "operatingProfitMargin" : 5.39,
     "operatingProfit" : 14.52,
-    "netProfitMargin" : 3.66,
-    "netProfit" : 9.86
+    "netProfitMargin" : 3.23,
+    "netProfit" : 8.70
+  }, {
+    "date" : "2025-12-31",
+    "sales" : 266.92,
+    "salesGrowthYoY" : 6.02,
+    "grossProfitMargin" : 23.34,
+    "grossProfit" : 62.30,
+    "operatingProfitMargin" : 5.93,
+    "operatingProfit" : 15.83,
+    "netProfitMargin" : 3.43,
+    "netProfit" : 9.16
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2025-09-30",
-    "sales" : 269.30,
-    "salesGrowthYoY" : 11.33,
-    "grossProfitMargin" : 22.88,
-    "grossProfit" : 61.62,
-    "operatingProfitMargin" : 5.39,
-    "operatingProfit" : 14.52,
-    "netProfitMargin" : 3.66,
-    "netProfit" : 9.86
+    "date" : "2025-12-31",
+    "sales" : 266.92,
+    "salesGrowthYoY" : 6.02,
+    "grossProfitMargin" : 23.34,
+    "grossProfit" : 62.30,
+    "operatingProfitMargin" : 5.93,
+    "operatingProfit" : 15.83,
+    "netProfitMargin" : 3.43,
+    "netProfit" : 9.16
   },
   "companyScore" : {
     "priceHigherThanDma50" : 0.00,
-    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma100" : 0.00,
     "priceHigherThanDma200" : 5.00,
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 5.01,
-    "pricePercentageAboveDma100" : 4.68,
-    "pricePercentageAboveDma200" : 2.50,
-    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-    "salesGrowthPercentile" : 11.39,
-    "operatingProfitMarginPercentile" : 11.55,
-    "netProfitMarginPercentile" : 9.06,
-    "totalTechnicalScore" : 37.18,
-    "totalFundamentalScore" : 32.00,
-    "totalScore" : 69.19
+    "pricePercentageAboveDma50" : 5.26,
+    "pricePercentageAboveDma100" : 5.10,
+    "pricePercentageAboveDma200" : 4.70,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 9.50,
+    "operatingProfitMarginPercentile" : 11.93,
+    "netProfitMarginPercentile" : 8.97,
+    "totalTechnicalScore" : 40.06,
+    "totalFundamentalScore" : 30.40,
+    "totalScore" : 70.46
   }
 }

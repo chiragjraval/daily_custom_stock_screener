@@ -9,44 +9,37 @@
     "attributes" : {
       "companyCode" : "CENTENKA",
       "companyName" : "Century Enka",
-      "marketCap" : 1114.00,
-      "peRatio" : 7.47,
+      "marketCap" : 1016.00,
+      "peRatio" : 7.00,
       "description" : "Incorporated in 1965, CenturyEnka Ltd manufactures and sells Synthetic Yarn and related products[1]"
     },
     "companyScore" : {
       "priceHigherThanDma50" : 0.00,
       "priceHigherThanDma100" : 0.00,
       "priceHigherThanDma200" : 0.00,
-      "dma50HigherThanDma100" : 5.00,
+      "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 5.41,
-      "pricePercentageAboveDma100" : 5.40,
-      "pricePercentageAboveDma200" : 5.10,
+      "pricePercentageAboveDma50" : 5.78,
+      "pricePercentageAboveDma100" : 5.80,
+      "pricePercentageAboveDma200" : 5.52,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-      "salesGrowthPercentile" : 19.02,
-      "operatingProfitMarginPercentile" : 18.60,
-      "netProfitMarginPercentile" : 9.88,
-      "totalTechnicalScore" : 30.91,
-      "totalFundamentalScore" : 47.51,
-      "totalScore" : 78.42
+      "salesGrowthPercentile" : 18.80,
+      "operatingProfitMarginPercentile" : 13.89,
+      "netProfitMarginPercentile" : 7.26,
+      "totalTechnicalScore" : 27.10,
+      "totalFundamentalScore" : 39.95,
+      "totalScore" : 67.05
     }
   },
   "attributes" : {
     "companyCode" : "CENTENKA",
     "companyName" : "Century Enka",
-    "marketCap" : 1114.00,
-    "peRatio" : 7.47,
+    "marketCap" : 1016.00,
+    "peRatio" : 7.00,
     "description" : "Incorporated in 1965, CenturyEnka Ltd manufactures and sells Synthetic Yarn and related products[1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-10-27",
-    "price" : 459.20,
-    "dma50" : 486.02,
-    "dma100" : null,
-    "dma200" : 512.50,
-    "volume" : 15269.00
-  }, {
     "date" : "2025-10-28",
     "price" : 459.50,
     "dma50" : 484.98,
@@ -240,7 +233,7 @@
     "price" : 438.95,
     "dma50" : 465.98,
     "dma100" : null,
-    "dma200" : 498.93,
+    "dma200" : 498.92,
     "volume" : 8161.00
   }, {
     "date" : "2025-12-08",
@@ -576,7 +569,7 @@
     "price" : 447.25,
     "dma50" : 448.32,
     "dma100" : null,
-    "dma200" : 477.45,
+    "dma200" : 477.44,
     "volume" : 22161.00
   }, {
     "date" : "2026-02-16",
@@ -743,7 +736,7 @@
     "date" : "2026-03-20",
     "price" : 417.15,
     "dma50" : 431.35,
-    "dma100" : 441.87,
+    "dma100" : null,
     "dma200" : 465.91,
     "volume" : 9950.00
   }, {
@@ -1625,7 +1618,7 @@
     "date" : "2026-09-24",
     "price" : 567.55,
     "dma50" : 564.73,
-    "dma100" : 537.01,
+    "dma100" : 537.00,
     "dma200" : 513.74,
     "volume" : 20136.00
   }, {
@@ -1768,14 +1761,21 @@
     "dma100" : 553.71,
     "dma200" : 520.15,
     "volume" : 43537.00
+  }, {
+    "date" : "2026-10-27",
+    "price" : 465.20,
+    "dma50" : 551.45,
+    "dma100" : 553.34,
+    "dma200" : 519.60,
+    "volume" : 413387.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-10-26",
-    "price" : 509.70,
-    "dma50" : 554.97,
-    "dma100" : 553.71,
-    "dma200" : 520.15,
-    "volume" : 43537.00
+    "date" : "2026-10-27",
+    "price" : 465.20,
+    "dma50" : 551.45,
+    "dma100" : 553.34,
+    "dma200" : 519.60,
+    "volume" : 413387.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2637,34 +2637,44 @@
     "operatingProfit" : 85.75,
     "netProfitMargin" : 11.06,
     "netProfit" : 61.30
+  }, {
+    "date" : "2026-09-30",
+    "sales" : 558.23,
+    "salesGrowthYoY" : 36.59,
+    "grossProfitMargin" : 23.01,
+    "grossProfit" : 128.45,
+    "operatingProfitMargin" : 5.88,
+    "operatingProfit" : 32.82,
+    "netProfitMargin" : 3.34,
+    "netProfit" : 18.64
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2026-06-30",
-    "sales" : 554.29,
-    "salesGrowthYoY" : 38.04,
-    "grossProfitMargin" : 31.08,
-    "grossProfit" : 172.27,
-    "operatingProfitMargin" : 15.47,
-    "operatingProfit" : 85.75,
-    "netProfitMargin" : 11.06,
-    "netProfit" : 61.30
+    "date" : "2026-09-30",
+    "sales" : 558.23,
+    "salesGrowthYoY" : 36.59,
+    "grossProfitMargin" : 23.01,
+    "grossProfit" : 128.45,
+    "operatingProfitMargin" : 5.88,
+    "operatingProfit" : 32.82,
+    "netProfitMargin" : 3.34,
+    "netProfit" : 18.64
   },
   "companyScore" : {
     "priceHigherThanDma50" : 0.00,
     "priceHigherThanDma100" : 0.00,
     "priceHigherThanDma200" : 0.00,
-    "dma50HigherThanDma100" : 5.00,
+    "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 5.41,
-    "pricePercentageAboveDma100" : 5.40,
-    "pricePercentageAboveDma200" : 5.10,
+    "pricePercentageAboveDma50" : 5.78,
+    "pricePercentageAboveDma100" : 5.80,
+    "pricePercentageAboveDma200" : 5.52,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-    "salesGrowthPercentile" : 19.02,
-    "operatingProfitMarginPercentile" : 18.60,
-    "netProfitMarginPercentile" : 9.88,
-    "totalTechnicalScore" : 30.91,
-    "totalFundamentalScore" : 47.51,
-    "totalScore" : 78.42
+    "salesGrowthPercentile" : 18.80,
+    "operatingProfitMarginPercentile" : 13.89,
+    "netProfitMarginPercentile" : 7.26,
+    "totalTechnicalScore" : 27.10,
+    "totalFundamentalScore" : 39.95,
+    "totalScore" : 67.05
   }
 }

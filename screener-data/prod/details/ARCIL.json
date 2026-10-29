@@ -9,8 +9,8 @@
     "attributes" : {
       "companyCode" : "ARCIL",
       "companyName" : "A R C I",
-      "marketCap" : 4235.00,
-      "peRatio" : 11.10,
+      "marketCap" : 4026.00,
+      "peRatio" : 10.20,
       "description" : "ARCIL is India's first and one of the largest asset reconstruction companies, focused on acquiring and resolving non-performing assets (NPAs) and stressed loans from banks and financial institutions"
     },
     "companyScore" : {
@@ -18,25 +18,25 @@
       "priceHigherThanDma100" : 0.00,
       "priceHigherThanDma200" : 0.00,
       "dma50HigherThanDma100" : 0.00,
-      "dma50HigherThanDma200" : 5.00,
+      "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 0.00,
-      "pricePercentageAboveDma50" : 5.28,
+      "pricePercentageAboveDma50" : 5.49,
       "pricePercentageAboveDma100" : 0.00,
-      "pricePercentageAboveDma200" : 5.27,
+      "pricePercentageAboveDma200" : 5.50,
       "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-      "salesGrowthPercentile" : 0.00,
+      "salesGrowthPercentile" : 20.00,
       "operatingProfitMarginPercentile" : 20.00,
-      "netProfitMarginPercentile" : 3.33,
-      "totalTechnicalScore" : 15.54,
-      "totalFundamentalScore" : 23.33,
-      "totalScore" : 38.88
+      "netProfitMarginPercentile" : 10.00,
+      "totalTechnicalScore" : 10.99,
+      "totalFundamentalScore" : 50.00,
+      "totalScore" : 60.99
     }
   },
   "attributes" : {
     "companyCode" : "ARCIL",
     "companyName" : "A R C I",
-    "marketCap" : 4235.00,
-    "peRatio" : 11.10,
+    "marketCap" : 4026.00,
+    "peRatio" : 10.20,
     "description" : "ARCIL is India's first and one of the largest asset reconstruction companies, focused on acquiring and resolving non-performing assets (NPAs) and stressed loans from banks and financial institutions"
   },
   "technicalHistory" : [ {
@@ -235,14 +235,21 @@
     "dma100" : null,
     "dma200" : 137.70,
     "volume" : 1384014.00
+  }, {
+    "date" : "2026-10-29",
+    "price" : 123.93,
+    "dma50" : 137.43,
+    "dma100" : null,
+    "dma200" : 137.56,
+    "volume" : 1069881.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-10-28",
-    "price" : 130.36,
-    "dma50" : 137.98,
+    "date" : "2026-10-29",
+    "price" : 123.93,
+    "dma50" : 137.43,
     "dma100" : null,
-    "dma200" : 137.70,
-    "volume" : 1384014.00
+    "dma200" : 137.56,
+    "volume" : 1069881.00
   },
   "quarterlyResults" : [ {
     "date" : "2025-06-30",
@@ -254,6 +261,16 @@
     "operatingProfit" : 89.00,
     "netProfitMargin" : 58.61,
     "netProfit" : 69.08
+  }, {
+    "date" : "2025-09-30",
+    "sales" : 219.50,
+    "salesGrowthYoY" : null,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 219.50,
+    "operatingProfitMargin" : 74.49,
+    "operatingProfit" : 163.51,
+    "netProfitMargin" : 54.50,
+    "netProfit" : 119.63
   }, {
     "date" : "2026-03-31",
     "sales" : 220.21,
@@ -274,34 +291,44 @@
     "operatingProfit" : 216.21,
     "netProfitMargin" : 52.24,
     "netProfit" : 143.15
+  }, {
+    "date" : "2026-09-30",
+    "sales" : 237.46,
+    "salesGrowthYoY" : 101.46,
+    "grossProfitMargin" : 100.00,
+    "grossProfit" : 237.46,
+    "operatingProfitMargin" : 89.96,
+    "operatingProfit" : 213.62,
+    "netProfitMargin" : 61.83,
+    "netProfit" : 146.82
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2026-06-30",
-    "sales" : 274.03,
-    "salesGrowthYoY" : null,
+    "date" : "2026-09-30",
+    "sales" : 237.46,
+    "salesGrowthYoY" : 101.46,
     "grossProfitMargin" : 100.00,
-    "grossProfit" : 274.03,
-    "operatingProfitMargin" : 78.90,
-    "operatingProfit" : 216.21,
-    "netProfitMargin" : 52.24,
-    "netProfit" : 143.15
+    "grossProfit" : 237.46,
+    "operatingProfitMargin" : 89.96,
+    "operatingProfit" : 213.62,
+    "netProfitMargin" : 61.83,
+    "netProfit" : 146.82
   },
   "companyScore" : {
     "priceHigherThanDma50" : 0.00,
     "priceHigherThanDma100" : 0.00,
     "priceHigherThanDma200" : 0.00,
     "dma50HigherThanDma100" : 0.00,
-    "dma50HigherThanDma200" : 5.00,
+    "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 0.00,
-    "pricePercentageAboveDma50" : 5.28,
+    "pricePercentageAboveDma50" : 5.49,
     "pricePercentageAboveDma100" : 0.00,
-    "pricePercentageAboveDma200" : 5.27,
+    "pricePercentageAboveDma200" : 5.50,
     "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-    "salesGrowthPercentile" : 0.00,
+    "salesGrowthPercentile" : 20.00,
     "operatingProfitMarginPercentile" : 20.00,
-    "netProfitMarginPercentile" : 3.33,
-    "totalTechnicalScore" : 15.54,
-    "totalFundamentalScore" : 23.33,
-    "totalScore" : 38.88
+    "netProfitMarginPercentile" : 10.00,
+    "totalTechnicalScore" : 10.99,
+    "totalFundamentalScore" : 50.00,
+    "totalScore" : 60.99
   }
 }

@@ -9,44 +9,37 @@
     "attributes" : {
       "companyCode" : "ASIANENE",
       "companyName" : "Asian Energy",
-      "marketCap" : 2160.00,
-      "peRatio" : 33.40,
+      "marketCap" : 2014.00,
+      "peRatio" : 25.20,
       "description" : "Asian Energy Services Ltd is an oilfield service and reservoir imaging company, offering a suite of geophysical services specializing in land and well seismic services and operation and maintenance services for oilfields.[1] It is one of the few companies providing end-to-end services in the upstream oil segment.[2]"
     },
     "companyScore" : {
       "priceHigherThanDma50" : 0.00,
-      "priceHigherThanDma100" : 5.00,
+      "priceHigherThanDma100" : 0.00,
       "priceHigherThanDma200" : 5.00,
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 5.08,
-      "pricePercentageAboveDma100" : 4.78,
-      "pricePercentageAboveDma200" : 4.30,
+      "pricePercentageAboveDma50" : 5.41,
+      "pricePercentageAboveDma100" : 5.15,
+      "pricePercentageAboveDma200" : 4.70,
       "weeklyVolumeHigherThanYearlyVolume" : 5.00,
-      "salesGrowthPercentile" : 9.76,
-      "operatingProfitMarginPercentile" : 19.09,
-      "netProfitMarginPercentile" : 9.82,
-      "totalTechnicalScore" : 44.16,
-      "totalFundamentalScore" : 38.66,
-      "totalScore" : 82.82
+      "salesGrowthPercentile" : 15.42,
+      "operatingProfitMarginPercentile" : 19.15,
+      "netProfitMarginPercentile" : 9.83,
+      "totalTechnicalScore" : 40.27,
+      "totalFundamentalScore" : 44.40,
+      "totalScore" : 84.67
     }
   },
   "attributes" : {
     "companyCode" : "ASIANENE",
     "companyName" : "Asian Energy",
-    "marketCap" : 2160.00,
-    "peRatio" : 33.40,
+    "marketCap" : 2014.00,
+    "peRatio" : 25.20,
     "description" : "Asian Energy Services Ltd is an oilfield service and reservoir imaging company, offering a suite of geophysical services specializing in land and well seismic services and operation and maintenance services for oilfields.[1] It is one of the few companies providing end-to-end services in the upstream oil segment.[2]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-10-30",
-    "price" : 337.50,
-    "dma50" : 340.63,
-    "dma100" : null,
-    "dma200" : 324.09,
-    "volume" : 59030.00
-  }, {
     "date" : "2025-10-31",
     "price" : 333.95,
     "dma50" : 340.36,
@@ -743,7 +736,7 @@
     "date" : "2026-03-25",
     "price" : 264.75,
     "dma50" : 280.75,
-    "dma100" : 285.65,
+    "dma100" : null,
     "dma200" : 297.95,
     "volume" : 146929.00
   }, {
@@ -1768,14 +1761,21 @@
     "dma100" : 421.28,
     "dma200" : 385.76,
     "volume" : 512496.00
+  }, {
+    "date" : "2026-10-30",
+    "price" : 408.80,
+    "dma50" : 445.27,
+    "dma100" : 421.60,
+    "dma200" : 385.99,
+    "volume" : 272030.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-10-29",
-    "price" : 439.75,
-    "dma50" : 446.76,
-    "dma100" : 421.28,
-    "dma200" : 385.76,
-    "volume" : 512496.00
+    "date" : "2026-10-30",
+    "price" : 408.80,
+    "dma50" : 445.27,
+    "dma100" : 421.60,
+    "dma200" : 385.99,
+    "volume" : 272030.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2637,34 +2637,44 @@
     "operatingProfit" : 16.30,
     "netProfitMargin" : 6.40,
     "netProfit" : 9.55
+  }, {
+    "date" : "2026-09-30",
+    "sales" : 129.55,
+    "salesGrowthYoY" : 112.24,
+    "grossProfitMargin" : 99.98,
+    "grossProfit" : 129.52,
+    "operatingProfitMargin" : 19.13,
+    "operatingProfit" : 24.78,
+    "netProfitMargin" : 11.65,
+    "netProfit" : 15.09
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2026-06-30",
-    "sales" : 149.28,
-    "salesGrowthYoY" : 29.39,
-    "grossProfitMargin" : 99.89,
-    "grossProfit" : 149.12,
-    "operatingProfitMargin" : 10.92,
-    "operatingProfit" : 16.30,
-    "netProfitMargin" : 6.40,
-    "netProfit" : 9.55
+    "date" : "2026-09-30",
+    "sales" : 129.55,
+    "salesGrowthYoY" : 112.24,
+    "grossProfitMargin" : 99.98,
+    "grossProfit" : 129.52,
+    "operatingProfitMargin" : 19.13,
+    "operatingProfit" : 24.78,
+    "netProfitMargin" : 11.65,
+    "netProfit" : 15.09
   },
   "companyScore" : {
     "priceHigherThanDma50" : 0.00,
-    "priceHigherThanDma100" : 5.00,
+    "priceHigherThanDma100" : 0.00,
     "priceHigherThanDma200" : 5.00,
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 5.08,
-    "pricePercentageAboveDma100" : 4.78,
-    "pricePercentageAboveDma200" : 4.30,
+    "pricePercentageAboveDma50" : 5.41,
+    "pricePercentageAboveDma100" : 5.15,
+    "pricePercentageAboveDma200" : 4.70,
     "weeklyVolumeHigherThanYearlyVolume" : 5.00,
-    "salesGrowthPercentile" : 9.76,
-    "operatingProfitMarginPercentile" : 19.09,
-    "netProfitMarginPercentile" : 9.82,
-    "totalTechnicalScore" : 44.16,
-    "totalFundamentalScore" : 38.66,
-    "totalScore" : 82.82
+    "salesGrowthPercentile" : 15.42,
+    "operatingProfitMarginPercentile" : 19.15,
+    "netProfitMarginPercentile" : 9.83,
+    "totalTechnicalScore" : 40.27,
+    "totalFundamentalScore" : 44.40,
+    "totalScore" : 84.67
   }
 }

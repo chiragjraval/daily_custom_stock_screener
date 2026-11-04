@@ -3,14 +3,14 @@
     "screenerCompanyId" : "2733",
     "companyCode" : "SHUKRAPHAR",
     "companyName" : "Shukra Pharma.",
-    "screenerCompanyLink" : "https://www.screener.in/company/SHUKRAPHAR/",
+    "screenerCompanyLink" : "https://www.screener.in/company/SHUKRAPHAR/consolidated/",
     "screenerTechnicalHistoryLink" : "https://www.screener.in/api/company/2733/chart/?q=Price-DMA50-DMA200-Volume&days=365",
     "screenerQuarterlyResultsLink" : "https://www.screener.in/api/company/2733/chart/?q=GPM-OPM-NPM-Quarter+Sales&days=10000",
     "attributes" : {
       "companyCode" : "SHUKRAPHAR",
       "companyName" : "Shukra Pharma.",
       "marketCap" : 3534.00,
-      "peRatio" : 98.00,
+      "peRatio" : 79.80,
       "description" : "Incorporated in 1993, Shukra Pharmaceuticals Ltd manufactures and markets pharmaceutical products, and does laboratory testing[1]"
     },
     "companyScore" : {
@@ -20,33 +20,26 @@
       "dma50HigherThanDma100" : 5.00,
       "dma50HigherThanDma200" : 5.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 3.44,
-      "pricePercentageAboveDma100" : 1.42,
-      "pricePercentageAboveDma200" : 1.06,
+      "pricePercentageAboveDma50" : 3.52,
+      "pricePercentageAboveDma100" : 1.53,
+      "pricePercentageAboveDma200" : 1.14,
       "weeklyVolumeHigherThanYearlyVolume" : 5.00,
-      "salesGrowthPercentile" : 18.59,
-      "operatingProfitMarginPercentile" : 20.00,
-      "netProfitMarginPercentile" : 10.00,
-      "totalTechnicalScore" : 40.92,
-      "totalFundamentalScore" : 48.59,
-      "totalScore" : 89.51
+      "salesGrowthPercentile" : 19.44,
+      "operatingProfitMarginPercentile" : 19.53,
+      "netProfitMarginPercentile" : 9.84,
+      "totalTechnicalScore" : 41.19,
+      "totalFundamentalScore" : 48.82,
+      "totalScore" : 90.00
     }
   },
   "attributes" : {
     "companyCode" : "SHUKRAPHAR",
     "companyName" : "Shukra Pharma.",
     "marketCap" : 3534.00,
-    "peRatio" : 98.00,
+    "peRatio" : 79.80,
     "description" : "Incorporated in 1993, Shukra Pharmaceuticals Ltd manufactures and markets pharmaceutical products, and does laboratory testing[1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-11-04",
-    "price" : 39.39,
-    "dma50" : 33.38,
-    "dma100" : null,
-    "dma200" : 23.00,
-    "volume" : 68897.00
-  }, {
     "date" : "2025-11-06",
     "price" : 40.17,
     "dma50" : 33.65,
@@ -743,7 +736,7 @@
     "date" : "2026-04-01",
     "price" : 31.85,
     "dma50" : 40.05,
-    "dma100" : 44.06,
+    "dma100" : null,
     "dma200" : 35.77,
     "volume" : 212064.00
   }, {
@@ -1768,14 +1761,21 @@
     "dma100" : 46.61,
     "dma200" : 44.71,
     "volume" : 14781668.00
+  }, {
+    "date" : "2026-11-04",
+    "price" : 79.85,
+    "dma50" : 61.64,
+    "dma100" : 47.12,
+    "dma200" : 45.06,
+    "volume" : 5055704.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-11-03",
-    "price" : 79.96,
-    "dma50" : 60.90,
-    "dma100" : 46.61,
-    "dma200" : 44.71,
-    "volume" : 14781668.00
+    "date" : "2026-11-04",
+    "price" : 79.85,
+    "dma50" : 61.64,
+    "dma100" : 47.12,
+    "dma200" : 45.06,
+    "volume" : 5055704.00
   },
   "quarterlyResults" : [ {
     "date" : "2007-06-30",
@@ -2527,17 +2527,27 @@
     "operatingProfit" : 21.21,
     "netProfitMargin" : 63.90,
     "netProfit" : 15.03
+  }, {
+    "date" : "2026-09-30",
+    "sales" : 44.20,
+    "salesGrowthYoY" : 651.70,
+    "grossProfitMargin" : 63.82,
+    "grossProfit" : 28.21,
+    "operatingProfitMargin" : 49.80,
+    "operatingProfit" : 22.01,
+    "netProfitMargin" : 36.22,
+    "netProfit" : 16.01
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2026-06-30",
-    "sales" : 23.52,
-    "salesGrowthYoY" : 336.36,
-    "grossProfitMargin" : 106.55,
-    "grossProfit" : 25.06,
-    "operatingProfitMargin" : 90.18,
-    "operatingProfit" : 21.21,
-    "netProfitMargin" : 63.90,
-    "netProfit" : 15.03
+    "date" : "2026-09-30",
+    "sales" : 44.20,
+    "salesGrowthYoY" : 651.70,
+    "grossProfitMargin" : 63.82,
+    "grossProfit" : 28.21,
+    "operatingProfitMargin" : 49.80,
+    "operatingProfit" : 22.01,
+    "netProfitMargin" : 36.22,
+    "netProfit" : 16.01
   },
   "companyScore" : {
     "priceHigherThanDma50" : 5.00,
@@ -2546,15 +2556,15 @@
     "dma50HigherThanDma100" : 5.00,
     "dma50HigherThanDma200" : 5.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 3.44,
-    "pricePercentageAboveDma100" : 1.42,
-    "pricePercentageAboveDma200" : 1.06,
+    "pricePercentageAboveDma50" : 3.52,
+    "pricePercentageAboveDma100" : 1.53,
+    "pricePercentageAboveDma200" : 1.14,
     "weeklyVolumeHigherThanYearlyVolume" : 5.00,
-    "salesGrowthPercentile" : 18.59,
-    "operatingProfitMarginPercentile" : 20.00,
-    "netProfitMarginPercentile" : 10.00,
-    "totalTechnicalScore" : 40.92,
-    "totalFundamentalScore" : 48.59,
-    "totalScore" : 89.51
+    "salesGrowthPercentile" : 19.44,
+    "operatingProfitMarginPercentile" : 19.53,
+    "netProfitMarginPercentile" : 9.84,
+    "totalTechnicalScore" : 41.19,
+    "totalFundamentalScore" : 48.82,
+    "totalScore" : 90.00
   }
 }

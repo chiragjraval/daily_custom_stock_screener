@@ -9,44 +9,37 @@
     "attributes" : {
       "companyCode" : "HINDALCO",
       "companyName" : "Hindalco Inds.",
-      "marketCap" : 210756.00,
-      "peRatio" : 10.10,
+      "marketCap" : 215374.00,
+      "peRatio" : 9.25,
       "description" : "Incorporated in 1958, Hindalco Industries Ltd. is a flagship company of the Aditya Birla Group. The Co and its subsidiaries are primarily engaged in the production of Aluminium and Copper. It is also engaged in the manufacturing of aluminium sheet, extrusion and light gauge products for use in packaging markets like beverage and food, can and foil products, etc. [1]"
     },
     "companyScore" : {
-      "priceHigherThanDma50" : 0.00,
+      "priceHigherThanDma50" : 5.00,
       "priceHigherThanDma100" : 0.00,
-      "priceHigherThanDma200" : 0.00,
+      "priceHigherThanDma200" : 5.00,
       "dma50HigherThanDma100" : 0.00,
       "dma50HigherThanDma200" : 0.00,
       "dma100HigherThanDma200" : 5.00,
-      "pricePercentageAboveDma50" : 5.01,
-      "pricePercentageAboveDma100" : 5.17,
-      "pricePercentageAboveDma200" : 5.04,
-      "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-      "salesGrowthPercentile" : 15.12,
-      "operatingProfitMarginPercentile" : 19.30,
-      "netProfitMarginPercentile" : 9.53,
-      "totalTechnicalScore" : 20.22,
-      "totalFundamentalScore" : 43.96,
-      "totalScore" : 64.18
+      "pricePercentageAboveDma50" : 4.90,
+      "pricePercentageAboveDma100" : 5.07,
+      "pricePercentageAboveDma200" : 4.93,
+      "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+      "salesGrowthPercentile" : 17.59,
+      "operatingProfitMarginPercentile" : 18.39,
+      "netProfitMarginPercentile" : 9.20,
+      "totalTechnicalScore" : 34.90,
+      "totalFundamentalScore" : 45.18,
+      "totalScore" : 80.08
     }
   },
   "attributes" : {
     "companyCode" : "HINDALCO",
     "companyName" : "Hindalco Inds.",
-    "marketCap" : 210756.00,
-    "peRatio" : 10.10,
+    "marketCap" : 215374.00,
+    "peRatio" : 9.25,
     "description" : "Incorporated in 1958, Hindalco Industries Ltd. is a flagship company of the Aditya Birla Group. The Co and its subsidiaries are primarily engaged in the production of Aluminium and Copper. It is also engaged in the manufacturing of aluminium sheet, extrusion and light gauge products for use in packaging markets like beverage and food, can and foil products, etc. [1]"
   },
   "technicalHistory" : [ {
-    "date" : "2025-11-06",
-    "price" : 788.40,
-    "dma50" : 773.25,
-    "dma100" : null,
-    "dma200" : 701.88,
-    "volume" : 35469295.00
-  }, {
     "date" : "2025-11-07",
     "price" : 790.40,
     "dma50" : 773.93,
@@ -743,7 +736,7 @@
     "date" : "2026-04-02",
     "price" : 916.25,
     "dma50" : 910.86,
-    "dma100" : 889.13,
+    "dma100" : null,
     "dma200" : 827.18,
     "volume" : 8030769.00
   }, {
@@ -1408,7 +1401,7 @@
     "date" : "2026-08-20",
     "price" : 1029.85,
     "dma50" : 1008.53,
-    "dma100" : 1014.90,
+    "dma100" : 1014.89,
     "dma200" : 943.84,
     "volume" : 4423940.00
   }, {
@@ -1775,14 +1768,21 @@
     "dma100" : 971.71,
     "dma200" : 945.71,
     "volume" : 5650171.00
+  }, {
+    "date" : "2026-11-06",
+    "price" : 958.40,
+    "dma50" : 940.06,
+    "dma100" : 971.16,
+    "dma200" : 945.84,
+    "volume" : 13853308.00
   } ],
   "latestTechnicalAttributes" : {
-    "date" : "2026-11-05",
-    "price" : 937.85,
-    "dma50" : 939.31,
-    "dma100" : 971.71,
-    "dma200" : 945.71,
-    "volume" : 5650171.00
+    "date" : "2026-11-06",
+    "price" : 958.40,
+    "dma50" : 940.06,
+    "dma100" : 971.16,
+    "dma200" : 945.84,
+    "volume" : 13853308.00
   },
   "quarterlyResults" : [ {
     "date" : "2005-03-31",
@@ -2644,34 +2644,44 @@
     "operatingProfit" : 6984.88,
     "netProfitMargin" : 15.68,
     "netProfit" : 4784.75
+  }, {
+    "date" : "2026-09-30",
+    "sales" : 35369.00,
+    "salesGrowthYoY" : 42.73,
+    "grossProfitMargin" : 29.65,
+    "grossProfit" : 10486.91,
+    "operatingProfitMargin" : 21.46,
+    "operatingProfit" : 7590.19,
+    "netProfitMargin" : 14.51,
+    "netProfit" : 5132.04
   } ],
   "latestQuarterlyResult" : {
-    "date" : "2026-06-30",
-    "sales" : 30515.00,
-    "salesGrowthYoY" : 25.76,
-    "grossProfitMargin" : 33.49,
-    "grossProfit" : 10219.47,
-    "operatingProfitMargin" : 22.89,
-    "operatingProfit" : 6984.88,
-    "netProfitMargin" : 15.68,
-    "netProfit" : 4784.75
+    "date" : "2026-09-30",
+    "sales" : 35369.00,
+    "salesGrowthYoY" : 42.73,
+    "grossProfitMargin" : 29.65,
+    "grossProfit" : 10486.91,
+    "operatingProfitMargin" : 21.46,
+    "operatingProfit" : 7590.19,
+    "netProfitMargin" : 14.51,
+    "netProfit" : 5132.04
   },
   "companyScore" : {
-    "priceHigherThanDma50" : 0.00,
+    "priceHigherThanDma50" : 5.00,
     "priceHigherThanDma100" : 0.00,
-    "priceHigherThanDma200" : 0.00,
+    "priceHigherThanDma200" : 5.00,
     "dma50HigherThanDma100" : 0.00,
     "dma50HigherThanDma200" : 0.00,
     "dma100HigherThanDma200" : 5.00,
-    "pricePercentageAboveDma50" : 5.01,
-    "pricePercentageAboveDma100" : 5.17,
-    "pricePercentageAboveDma200" : 5.04,
-    "weeklyVolumeHigherThanYearlyVolume" : 0.00,
-    "salesGrowthPercentile" : 15.12,
-    "operatingProfitMarginPercentile" : 19.30,
-    "netProfitMarginPercentile" : 9.53,
-    "totalTechnicalScore" : 20.22,
-    "totalFundamentalScore" : 43.96,
-    "totalScore" : 64.18
+    "pricePercentageAboveDma50" : 4.90,
+    "pricePercentageAboveDma100" : 5.07,
+    "pricePercentageAboveDma200" : 4.93,
+    "weeklyVolumeHigherThanYearlyVolume" : 5.00,
+    "salesGrowthPercentile" : 17.59,
+    "operatingProfitMarginPercentile" : 18.39,
+    "netProfitMarginPercentile" : 9.20,
+    "totalTechnicalScore" : 34.90,
+    "totalFundamentalScore" : 45.18,
+    "totalScore" : 80.08
   }
 }
